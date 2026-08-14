@@ -352,7 +352,7 @@ public class AssignmentSelf_signalEveNotice_18347460915 {
         setField(term3348, term3348.getClass(), "keySet", null);
         setField(term3348, term3348.getClass(), "values", null);
         setField(term3337, term3337.getClass(), "moduleToReader", term3348);
-        setLongField(term3353, term3353.getClass(), "timestamp", 164120287L);
+        setLongField(term3353, term3353.getClass(), "timestamp", 52397775L);
         setField(term3353, term3353.getClass(), "referent", null);
         setField(term3353, term3353.getClass(), "queue", null);
         setField(term3353, term3353.getClass(), "next", null);

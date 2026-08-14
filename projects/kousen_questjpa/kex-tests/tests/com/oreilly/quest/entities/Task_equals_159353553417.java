@@ -62,12 +62,12 @@ public class Task_equals_159353553417 {
         setField(term6903, term6903.getClass(), "name", "sEnIVFtZuQ");
         setIntField(term6903, term6903.getClass(), "priority", 3);
         setIntField(term6919, term6919.getClass(), "year", 2026);
-        setShortField(term6919, term6919.getClass(), "month", (short) 6);
-        setShortField(term6919, term6919.getClass(), "day", (short) 29);
+        setShortField(term6919, term6919.getClass(), "month", (short) 8);
+        setShortField(term6919, term6919.getClass(), "day", (short) 12);
         setField(term6903, term6903.getClass(), "startDate", term6919);
         setIntField(term6923, term6923.getClass(), "year", 2026);
-        setShortField(term6923, term6923.getClass(), "month", (short) 6);
-        setShortField(term6923, term6923.getClass(), "day", (short) 29);
+        setShortField(term6923, term6923.getClass(), "month", (short) 8);
+        setShortField(term6923, term6923.getClass(), "day", (short) 12);
         setField(term6903, term6903.getClass(), "endDate", term6923);
         setBooleanField(term6903, term6903.getClass(), "completed", true);
         setField(term6928, term6928.getClass(), "id", term6929);

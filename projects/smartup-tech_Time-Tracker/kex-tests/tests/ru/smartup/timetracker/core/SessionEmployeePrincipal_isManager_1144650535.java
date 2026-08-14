@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_isManager_1144650535 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1858;
+     Object term2232;
 
     public SessionEmployeePrincipal_isManager_1144650535() {
     }
@@ -37,15 +37,15 @@ public class SessionEmployeePrincipal_isManager_1144650535 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term1873 = new HashMap();
-        Set<Object> term1896 =  ((Map) term1873).keySet();
-        HashSet term1872 = new HashSet((Collection<? extends Object>) term1896);
-        HashMap term1881 = new HashMap();
-        term1858 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term1858, term1858.getClass(), "id", 1585847225);
-        setField(term1858, term1858.getClass(), "email", "hRNSzYYIrc");
-        setField(term1858, term1858.getClass(), "employeeRoles", term1872);
-        setField(term1858, term1858.getClass(), "projectIdsByProjectRoles", term1881);
+        HashMap term2247 = new HashMap();
+        Set<Object> term2270 =  ((Map) term2247).keySet();
+        HashSet term2246 = new HashSet((Collection<? extends Object>) term2270);
+        HashMap term2255 = new HashMap();
+        term2232 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term2232, term2232.getClass(), "id", 1585847225);
+        setField(term2232, term2232.getClass(), "email", "hRNSzYYIrc");
+        setField(term2232, term2232.getClass(), "employeeRoles", term2246);
+        setField(term2232, term2232.getClass(), "projectIdsByProjectRoles", term2255);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class SessionEmployeePrincipal_isManager_1144650535 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "isManager", argTypes, term1858, args);
+        callMethod(klass, "isManager", argTypes, term2232, args);
     }
 
 };

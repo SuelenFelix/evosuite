@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class KTableModel_init_15221856431 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term67726;
+     Object term67775;
 
     public KTableModel_init_15221856431() {
     }
@@ -32,15 +32,15 @@ public class KTableModel_init_15221856431 {
 
     @Before
     public void setup() throws Throwable {
-        term67726 = (Object[]) newArray("java.lang.Object", 4);
-        Object term67727 = newInstance(Class.forName("java.lang.Object"));
-        Object term67728 = newInstance(Class.forName("java.lang.Object"));
-        Object term67729 = newInstance(Class.forName("java.lang.Object"));
-        Object term67730 = newInstance(Class.forName("java.lang.Object"));
-        setElement(term67726, 0, term67727);
-        setElement(term67726, 1, term67728);
-        setElement(term67726, 2, term67729);
-        setElement(term67726, 3, term67730);
+        term67775 = (Object[]) newArray("java.lang.Object", 4);
+        Object term67776 = newInstance(Class.forName("java.lang.Object"));
+        Object term67777 = newInstance(Class.forName("java.lang.Object"));
+        Object term67778 = newInstance(Class.forName("java.lang.Object"));
+        Object term67779 = newInstance(Class.forName("java.lang.Object"));
+        setElement(term67775, 0, term67776);
+        setElement(term67775, 1, term67777);
+        setElement(term67775, 2, term67778);
+        setElement(term67775, 3, term67779);
     }
 
     @Test
@@ -49,7 +49,7 @@ public class KTableModel_init_15221856431 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Array.newInstance(Class.forName("java.lang.Object"), 0).getClass();
         Object[] args = new Object[1];
-        args[0] = term67726;
+        args[0] = term67775;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

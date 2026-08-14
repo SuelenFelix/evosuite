@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeService_tryLockAndUpdateScheduleFreeze_3115826428 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term884;
+     Object term1065;
 
     public FreezeService_tryLockAndUpdateScheduleFreeze_3115826428() {
     }
@@ -31,12 +31,12 @@ public class FreezeService_tryLockAndUpdateScheduleFreeze_3115826428 {
 
     @Before
     public void setup() throws Throwable {
-        term884 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeService"));
-        setField(term884, term884.getClass(), "freezeSchedulePlanner", null);
-        setField(term884, term884.getClass(), "crudFreezeService", null);
-        setField(term884, term884.getClass(), "freezeValidator", null);
-        setField(term884, term884.getClass(), "freezeDateUtils", null);
-        setField(term884, term884.getClass(), "lockManager", null);
+        term1065 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeService"));
+        setField(term1065, term1065.getClass(), "freezeSchedulePlanner", null);
+        setField(term1065, term1065.getClass(), "crudFreezeService", null);
+        setField(term1065, term1065.getClass(), "freezeValidator", null);
+        setField(term1065, term1065.getClass(), "freezeDateUtils", null);
+        setField(term1065, term1065.getClass(), "lockManager", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class FreezeService_tryLockAndUpdateScheduleFreeze_3115826428 {
         argTypes[0] = Class.forName("java.util.Map");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "tryLockAndUpdateScheduleFreeze", argTypes, term884, args);
+        callMethod(klass, "tryLockAndUpdateScheduleFreeze", argTypes, term1065, args);
     }
 
 };

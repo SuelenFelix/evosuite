@@ -109,7 +109,7 @@ public class Species_getGenomes_13535873245 {
         setField(term4952, term4952.getClass(), "nodeInnovator", term4961);
         setIntField(term4963, term4963.getClass(), "counter", 100);
         setField(term4952, term4952.getClass(), "connectionInnovator", term4963);
-        setLongField(term4966, term4966.getClass(), "value", 264909700494007L);
+        setLongField(term4966, term4966.getClass(), "value", 110392425791592L);
         setField(term4965, term4965.getClass(), "seed", term4966);
         setDoubleField(term4965, term4965.getClass(), "nextNextGaussian", 0.17827385312846922);
         setBooleanField(term4965, term4965.getClass(), "haveNextNextGaussian", false);

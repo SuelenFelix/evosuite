@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 public class Node_getBias_181063647212 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term18495;
+     Object term18511;
 
     public Node_getBias_181063647212() {
     }
@@ -34,62 +34,62 @@ public class Node_getBias_181063647212 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term18540 = Class.forName((String) "nn.model.Type");
-        Field term18539 = ((Class) term18540).getDeclaredField((String) "OUTPUT");
-        ((Field) term18539).setAccessible(true);
-        Object enum116 = ((Field) term18539).get((Object) null);
-        Object term18509 = newInstance(Class.forName("nn.model.Connection"));
-        Object term18510 = newInstance(Class.forName("nn.model.Node"));
-        Object term18513 = newInstance(Class.forName("nn.model.Node"));
-        setField(term18510, term18510.getClass(), "type", null);
-        setIntField(term18510, term18510.getClass(), "innovation", 1113574554);
-        setField(term18510, term18510.getClass(), "connections", null);
-        setDoubleField(term18510, term18510.getClass(), "bias", 0.5086784040916195);
-        setField(term18509, term18509.getClass(), "in", term18510);
-        setField(term18513, term18513.getClass(), "type", null);
-        setIntField(term18513, term18513.getClass(), "innovation", 1685800093);
-        setField(term18513, term18513.getClass(), "connections", null);
-        setDoubleField(term18513, term18513.getClass(), "bias", 0.8058692746281759);
-        setField(term18509, term18509.getClass(), "out", term18513);
-        setFloatField(term18509, term18509.getClass(), "weight", 0.95319855F);
-        setBooleanField(term18509, term18509.getClass(), "expressed", true);
-        setIntField(term18509, term18509.getClass(), "innovation", -377697034);
-        Object term18519 = newInstance(Class.forName("nn.model.Connection"));
-        Object term18520 = newInstance(Class.forName("nn.model.Node"));
-        Object term18523 = newInstance(Class.forName("nn.model.Node"));
-        setField(term18520, term18520.getClass(), "type", null);
-        setIntField(term18520, term18520.getClass(), "innovation", 0);
-        setField(term18520, term18520.getClass(), "connections", null);
-        setDoubleField(term18520, term18520.getClass(), "bias", 0.0);
-        setField(term18519, term18519.getClass(), "in", term18520);
-        setField(term18523, term18523.getClass(), "type", null);
-        setIntField(term18523, term18523.getClass(), "innovation", 0);
-        setField(term18523, term18523.getClass(), "connections", null);
-        setDoubleField(term18523, term18523.getClass(), "bias", 0.0);
-        setField(term18519, term18519.getClass(), "out", term18523);
-        setFloatField(term18519, term18519.getClass(), "weight", 0.99221486F);
-        setBooleanField(term18519, term18519.getClass(), "expressed", true);
-        setIntField(term18519, term18519.getClass(), "innovation", -1099061955);
-        Object term18529 = newInstance(Class.forName("nn.model.Connection"));
-        Object term18530 = newInstance(Class.forName("nn.model.Node"));
-        setField(term18529, term18529.getClass(), "in", term18523);
-        setField(term18530, term18530.getClass(), "type", null);
-        setIntField(term18530, term18530.getClass(), "innovation", 0);
-        setField(term18530, term18530.getClass(), "connections", null);
-        setDoubleField(term18530, term18530.getClass(), "bias", 0.0);
-        setField(term18529, term18529.getClass(), "out", term18530);
-        setFloatField(term18529, term18529.getClass(), "weight", 0.61780673F);
-        setBooleanField(term18529, term18529.getClass(), "expressed", true);
-        setIntField(term18529, term18529.getClass(), "innovation", -1948910444);
-        ArrayList term18507 = new ArrayList();
-        ((ArrayList) term18507).add(term18509);
-        ((ArrayList) term18507).add(term18519);
-        ((ArrayList) term18507).add(term18529);
-        term18495 = newInstance(Class.forName("nn.model.Node"));
-        setField(term18495, term18495.getClass(), "type", enum116);
-        setIntField(term18495, term18495.getClass(), "innovation", -1302341502);
-        setField(term18495, term18495.getClass(), "connections", term18507);
-        setDoubleField(term18495, term18495.getClass(), "bias", 0.5349035289029883);
+        Class<? extends Object> term18556 = Class.forName((String) "nn.model.Type");
+        Field term18555 = ((Class) term18556).getDeclaredField((String) "OUTPUT");
+        ((Field) term18555).setAccessible(true);
+        Object enum116 = ((Field) term18555).get((Object) null);
+        Object term18525 = newInstance(Class.forName("nn.model.Connection"));
+        Object term18526 = newInstance(Class.forName("nn.model.Node"));
+        Object term18529 = newInstance(Class.forName("nn.model.Node"));
+        setField(term18526, term18526.getClass(), "type", null);
+        setIntField(term18526, term18526.getClass(), "innovation", 1113574554);
+        setField(term18526, term18526.getClass(), "connections", null);
+        setDoubleField(term18526, term18526.getClass(), "bias", 0.5086784040916195);
+        setField(term18525, term18525.getClass(), "in", term18526);
+        setField(term18529, term18529.getClass(), "type", null);
+        setIntField(term18529, term18529.getClass(), "innovation", 1685800093);
+        setField(term18529, term18529.getClass(), "connections", null);
+        setDoubleField(term18529, term18529.getClass(), "bias", 0.8058692746281759);
+        setField(term18525, term18525.getClass(), "out", term18529);
+        setFloatField(term18525, term18525.getClass(), "weight", 0.95319855F);
+        setBooleanField(term18525, term18525.getClass(), "expressed", true);
+        setIntField(term18525, term18525.getClass(), "innovation", -377697034);
+        Object term18535 = newInstance(Class.forName("nn.model.Connection"));
+        Object term18536 = newInstance(Class.forName("nn.model.Node"));
+        Object term18539 = newInstance(Class.forName("nn.model.Node"));
+        setField(term18536, term18536.getClass(), "type", null);
+        setIntField(term18536, term18536.getClass(), "innovation", 0);
+        setField(term18536, term18536.getClass(), "connections", null);
+        setDoubleField(term18536, term18536.getClass(), "bias", 0.0);
+        setField(term18535, term18535.getClass(), "in", term18536);
+        setField(term18539, term18539.getClass(), "type", null);
+        setIntField(term18539, term18539.getClass(), "innovation", 0);
+        setField(term18539, term18539.getClass(), "connections", null);
+        setDoubleField(term18539, term18539.getClass(), "bias", 0.0);
+        setField(term18535, term18535.getClass(), "out", term18539);
+        setFloatField(term18535, term18535.getClass(), "weight", 0.99221486F);
+        setBooleanField(term18535, term18535.getClass(), "expressed", true);
+        setIntField(term18535, term18535.getClass(), "innovation", -1099061955);
+        Object term18545 = newInstance(Class.forName("nn.model.Connection"));
+        Object term18546 = newInstance(Class.forName("nn.model.Node"));
+        setField(term18545, term18545.getClass(), "in", term18539);
+        setField(term18546, term18546.getClass(), "type", null);
+        setIntField(term18546, term18546.getClass(), "innovation", 0);
+        setField(term18546, term18546.getClass(), "connections", null);
+        setDoubleField(term18546, term18546.getClass(), "bias", 0.0);
+        setField(term18545, term18545.getClass(), "out", term18546);
+        setFloatField(term18545, term18545.getClass(), "weight", 0.61780673F);
+        setBooleanField(term18545, term18545.getClass(), "expressed", true);
+        setIntField(term18545, term18545.getClass(), "innovation", -1948910444);
+        ArrayList term18523 = new ArrayList();
+        ((ArrayList) term18523).add(term18525);
+        ((ArrayList) term18523).add(term18535);
+        ((ArrayList) term18523).add(term18545);
+        term18511 = newInstance(Class.forName("nn.model.Node"));
+        setField(term18511, term18511.getClass(), "type", enum116);
+        setIntField(term18511, term18511.getClass(), "innovation", -1302341502);
+        setField(term18511, term18511.getClass(), "connections", term18523);
+        setDoubleField(term18511, term18511.getClass(), "bias", 0.5349035289029883);
     }
 
     @Test
@@ -97,7 +97,7 @@ public class Node_getBias_181063647212 {
         Class<?> klass = Class.forName("nn.model.Node");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getBias", argTypes, term18495, args);
+        callMethod(klass, "getBias", argTypes, term18511, args);
     }
 
 };

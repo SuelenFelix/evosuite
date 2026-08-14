@@ -24,7 +24,7 @@ import java.lang.Integer;
 public class Node_init_2257284830 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
      Object enum72;
-     Object term11229;
+     Object term11226;
 
     public Node_init_2257284830() {
     }
@@ -35,11 +35,11 @@ public class Node_init_2257284830 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term11232 = Class.forName((String) "nn.model.Type");
-        Field term11231 = ((Class) term11232).getDeclaredField((String) "OUTPUT");
-        ((Field) term11231).setAccessible(true);
-        enum72 = ((Field) term11231).get((Object) null);
-        term11229 = new Integer(1309545946);
+        Class<? extends Object> term11229 = Class.forName((String) "nn.model.Type");
+        Field term11228 = ((Class) term11229).getDeclaredField((String) "OUTPUT");
+        ((Field) term11228).setAccessible(true);
+        enum72 = ((Field) term11228).get((Object) null);
+        term11226 = new Integer(1309545946);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class Node_init_2257284830 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = enum72;
-        args[1] = term11229;
+        args[1] = term11226;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

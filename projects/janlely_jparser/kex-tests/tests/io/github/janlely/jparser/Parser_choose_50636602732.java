@@ -32,7 +32,7 @@ public class Parser_choose_50636602732 {
 
     @Before
     public void setup() throws Throwable {
-        term761 = (Object[]) newArray("java.util.function.Supplier", 6);
+        term761 = (Object[]) newArray("java.util.function.Supplier", 10);
     }
 
     @Test

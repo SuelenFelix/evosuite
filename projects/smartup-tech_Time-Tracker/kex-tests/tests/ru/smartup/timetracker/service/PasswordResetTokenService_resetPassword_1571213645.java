@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class PasswordResetTokenService_resetPassword_1571213645 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term23350;
+     Object term23490;
 
     public PasswordResetTokenService_resetPassword_1571213645() {
     }
@@ -31,9 +31,9 @@ public class PasswordResetTokenService_resetPassword_1571213645 {
 
     @Before
     public void setup() throws Throwable {
-        term23350 = newInstance(Class.forName("ru.smartup.timetracker.dto.password.recovery.request.PasswordResetDto"));
-        setField(term23350, term23350.getClass(), "token", "ZwZIDwYcSW");
-        setField(term23350, term23350.getClass(), "newPassword", "sOdkipUKRu");
+        term23490 = newInstance(Class.forName("ru.smartup.timetracker.dto.password.recovery.request.PasswordResetDto"));
+        setField(term23490, term23490.getClass(), "token", "ZwZIDwYcSW");
+        setField(term23490, term23490.getClass(), "newPassword", "sOdkipUKRu");
     }
 
     @Test
@@ -42,7 +42,7 @@ public class PasswordResetTokenService_resetPassword_1571213645 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("ru.smartup.timetracker.dto.password.recovery.request.PasswordResetDto");
         Object[] args = new Object[1];
-        args[0] = term23350;
+        args[0] = term23490;
         callMethod(klass, "resetPassword", argTypes, null, args);
     }
 

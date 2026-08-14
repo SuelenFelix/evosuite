@@ -1,16 +1,16 @@
-2026-06-28 13:08:53.480 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/kiberohrannik_webflux-log/target/classes
-2026-06-28 13:08:53.627 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:08:53.707 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 13:08:54.947 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 13:08:55.734 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/kv/webflux/logging/server/message/logger/*
-2026-06-28 13:08:55.735 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 13:08:55.769 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/kiberohrannik_webflux-log/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:08:55.812 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/kiberohrannik_webflux-log/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 42781 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/kiberohrannik_webflux-log/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 13:08:55.836 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 13:10:35.871 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::<init>(org/springframework/http/server/reactive/ServerHttpRequest, com/kv/webflux/logging/client/LoggingProperties): void
-2026-06-28 13:10:35.872 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::<init>(org/springframework/http/server/reactive/ServerHttpRequest, com/kv/webflux/logging/client/LoggingProperties): void
+2026-08-10 21:54:42.813 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kiberohrannik_webflux-log/target/classes
+2026-08-10 21:54:42.923 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 21:54:43.000 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-10 21:54:44.264 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-10 21:54:45.185 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/kv/webflux/logging/server/message/logger/*
+2026-08-10 21:54:45.187 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-10 21:54:45.205 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kiberohrannik_webflux-log/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 21:54:45.252 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kiberohrannik_webflux-log/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 40853 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kiberohrannik_webflux-log/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-10 21:54:45.273 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-10 21:56:25.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::<init>(org/springframework/http/server/reactive/ServerHttpRequest, com/kv/webflux/logging/client/LoggingProperties): void
+2026-08-10 21:56:25.310 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::<init>(org/springframework/http/server/reactive/ServerHttpRequest, com/kv/webflux/logging/client/LoggingProperties): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -46,7 +46,7 @@
 
 %bb7: 	//predecessors %bb6
 	return
-2026-06-28 13:10:35.875 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.314 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpRequestDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -70,7 +70,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.876 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.314 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpRequestDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -94,9 +94,9 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.876 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::<init>(org/springframework/http/server/reactive/ServerHttpRequest, com/kv/webflux/logging/client/LoggingProperties): void: null
-2026-06-28 13:10:35.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::getBody(): reactor/core/publisher/Flux
-2026-06-28 13:10:35.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::getBody(): reactor/core/publisher/Flux
+2026-08-10 21:56:25.314 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::<init>(org/springframework/http/server/reactive/ServerHttpRequest, com/kv/webflux/logging/client/LoggingProperties): void: null
+2026-08-10 21:56:25.314 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::getBody(): reactor/core/publisher/Flux
+2026-08-10 21:56:25.314 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::getBody(): reactor/core/publisher/Flux
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -130,7 +130,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 
 %bb7: 	//predecessors %bb6
 	return %13
-2026-06-28 13:10:35.877 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.315 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpRequestDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -154,7 +154,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.877 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.315 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpRequestDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -178,9 +178,9 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.877 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::getBody(): reactor/core/publisher/Flux: null
-2026-06-28 13:10:35.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::copyBodyBuffer(org/springframework/core/io/buffer/DataBuffer): org/springframework/util/FastByteArrayOutputStream
-2026-06-28 13:10:35.878 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::copyBodyBuffer(org/springframework/core/io/buffer/DataBuffer): org/springframework/util/FastByteArrayOutputStream
+2026-08-10 21:56:25.315 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::getBody(): reactor/core/publisher/Flux: null
+2026-08-10 21:56:25.315 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::copyBodyBuffer(org/springframework/core/io/buffer/DataBuffer): org/springframework/util/FastByteArrayOutputStream
+2026-08-10 21:56:25.316 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::copyBodyBuffer(org/springframework/core/io/buffer/DataBuffer): org/springframework/util/FastByteArrayOutputStream
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -222,7 +222,7 @@ goto %label4
 
 %bb3: 	//predecessors %label4
 	throw %15
-2026-06-28 13:10:35.878 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.316 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpRequestDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -246,7 +246,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.878 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.316 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpRequestDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -270,12 +270,12 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.878 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::copyBodyBuffer(org/springframework/core/io/buffer/DataBuffer): org/springframework/util/FastByteArrayOutputStream: null
-2026-06-28 13:10:35.879 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::<init>(org/springframework/http/server/reactive/ServerHttpRequest, com/kv/webflux/logging/client/LoggingProperties): void processing is finished normally
-2026-06-28 13:10:35.879 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::getBody(): reactor/core/publisher/Flux processing is finished normally
-2026-06-28 13:10:35.879 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::copyBodyBuffer(org/springframework/core/io/buffer/DataBuffer): org/springframework/util/FastByteArrayOutputStream processing is finished normally
-2026-06-28 13:10:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
-2026-06-28 13:10:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
+2026-08-10 21:56:25.316 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::copyBodyBuffer(org/springframework/core/io/buffer/DataBuffer): org/springframework/util/FastByteArrayOutputStream: null
+2026-08-10 21:56:25.317 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::<init>(org/springframework/http/server/reactive/ServerHttpRequest, com/kv/webflux/logging/client/LoggingProperties): void processing is finished normally
+2026-08-10 21:56:25.317 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::getBody(): reactor/core/publisher/Flux processing is finished normally
+2026-08-10 21:56:25.317 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpRequestDecorator::copyBodyBuffer(org/springframework/core/io/buffer/DataBuffer): org/springframework/util/FastByteArrayOutputStream processing is finished normally
+2026-08-10 21:56:25.326 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
+2026-08-10 21:56:25.326 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -293,7 +293,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 13:10:35.890 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.328 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -329,7 +329,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.server.rea
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 13:10:35.891 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.328 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -365,9 +365,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.server.rea
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 13:10:35.891 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void: null
-2026-06-28 13:10:35.891 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::log(org/springframework/web/server/ServerWebExchange): org/springframework/http/server/reactive/ServerHttpRequest
-2026-06-28 13:10:35.891 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::log(org/springframework/web/server/ServerWebExchange): org/springframework/http/server/reactive/ServerHttpRequest
+2026-08-10 21:56:25.328 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void: null
+2026-08-10 21:56:25.328 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::log(org/springframework/web/server/ServerWebExchange): org/springframework/http/server/reactive/ServerHttpRequest
+2026-08-10 21:56:25.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::log(org/springframework/web/server/ServerWebExchange): org/springframework/http/server/reactive/ServerHttpRequest
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -490,7 +490,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.server.rea
 %goto0: 	//predecessors %bb17, %if.then1
 	%56 = phi {%bb17 -> %53; %if.then1 -> %54}
 	return %56
-2026-06-28 13:10:35.892 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchange
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -517,7 +517,7 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.892 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchange
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -544,11 +544,11 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.892 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::log(org/springframework/web/server/ServerWebExchange): org/springframework/http/server/reactive/ServerHttpRequest: null
-2026-06-28 13:10:35.892 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void processing is finished normally
-2026-06-28 13:10:35.892 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::log(org/springframework/web/server/ServerWebExchange): org/springframework/http/server/reactive/ServerHttpRequest processing is finished normally
-2026-06-28 13:10:35.900 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
-2026-06-28 13:10:35.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
+2026-08-10 21:56:25.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::log(org/springframework/web/server/ServerWebExchange): org/springframework/http/server/reactive/ServerHttpRequest: null
+2026-08-10 21:56:25.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void processing is finished normally
+2026-08-10 21:56:25.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerRequestLogger::log(org/springframework/web/server/ServerWebExchange): org/springframework/http/server/reactive/ServerHttpRequest processing is finished normally
+2026-08-10 21:56:25.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
+2026-08-10 21:56:25.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -584,7 +584,7 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 
 %bb7: 	//predecessors %bb6
 	return
-2026-06-28 13:10:35.901 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -620,7 +620,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.server.rea
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 13:10:35.902 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -656,9 +656,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.server.rea
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 13:10:35.902 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void: null
-2026-06-28 13:10:35.902 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::log(org/springframework/web/server/ServerWebExchange, long): org/springframework/http/server/reactive/ServerHttpResponse
-2026-06-28 13:10:35.902 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::log(org/springframework/web/server/ServerWebExchange, long): org/springframework/http/server/reactive/ServerHttpResponse
+2026-08-10 21:56:25.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void: null
+2026-08-10 21:56:25.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::log(org/springframework/web/server/ServerWebExchange, long): org/springframework/http/server/reactive/ServerHttpResponse
+2026-08-10 21:56:25.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::log(org/springframework/web/server/ServerWebExchange, long): org/springframework/http/server/reactive/ServerHttpResponse
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -712,7 +712,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.server.rea
 %bb.return0: 	//predecessors %bb4, %bb8
 	%retval1 = phi {%bb4 -> %18; %bb8 -> %19}
 	return %retval1
-2026-06-28 13:10:35.902 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchange
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -739,7 +739,7 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.902 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchange
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -766,9 +766,9 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.903 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::log(org/springframework/web/server/ServerWebExchange, long): org/springframework/http/server/reactive/ServerHttpResponse: null
-2026-06-28 13:10:35.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::createMetadataMessage(org/springframework/web/server/ServerWebExchange, long): java/util/function/Supplier
-2026-06-28 13:10:35.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::createMetadataMessage(org/springframework/web/server/ServerWebExchange, long): java/util/function/Supplier
+2026-08-10 21:56:25.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::log(org/springframework/web/server/ServerWebExchange, long): org/springframework/http/server/reactive/ServerHttpResponse: null
+2026-08-10 21:56:25.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::createMetadataMessage(org/springframework/web/server/ServerWebExchange, long): java/util/function/Supplier
+2026-08-10 21:56:25.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::createMetadataMessage(org/springframework/web/server/ServerWebExchange, long): java/util/function/Supplier
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -778,7 +778,7 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:10:35.903 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchange
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -805,7 +805,7 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.903 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchange
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -832,12 +832,12 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.903 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::createMetadataMessage(org/springframework/web/server/ServerWebExchange, long): java/util/function/Supplier: null
-2026-06-28 13:10:35.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void processing is finished normally
-2026-06-28 13:10:35.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::log(org/springframework/web/server/ServerWebExchange, long): org/springframework/http/server/reactive/ServerHttpResponse processing is finished normally
-2026-06-28 13:10:35.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::createMetadataMessage(org/springframework/web/server/ServerWebExchange, long): java/util/function/Supplier processing is finished normally
-2026-06-28 13:10:35.909 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::<init>(org/springframework/http/server/reactive/ServerHttpResponse, java/util/function/Supplier): void
-2026-06-28 13:10:35.910 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::<init>(org/springframework/http/server/reactive/ServerHttpResponse, java/util/function/Supplier): void
+2026-08-10 21:56:25.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::createMetadataMessage(org/springframework/web/server/ServerWebExchange, long): java/util/function/Supplier: null
+2026-08-10 21:56:25.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::<init>(com/kv/webflux/logging/client/LoggingProperties, java/util/List): void processing is finished normally
+2026-08-10 21:56:25.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::log(org/springframework/web/server/ServerWebExchange, long): org/springframework/http/server/reactive/ServerHttpResponse processing is finished normally
+2026-08-10 21:56:25.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/DefaultServerResponseLogger::createMetadataMessage(org/springframework/web/server/ServerWebExchange, long): java/util/function/Supplier processing is finished normally
+2026-08-10 21:56:25.347 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::<init>(org/springframework/http/server/reactive/ServerHttpResponse, java/util/function/Supplier): void
+2026-08-10 21:56:25.348 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::<init>(org/springframework/http/server/reactive/ServerHttpResponse, java/util/function/Supplier): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -873,7 +873,7 @@ java.lang.ClassNotFoundException: org.springframework.web.server.ServerWebExchan
 
 %bb7: 	//predecessors %bb6
 	return
-2026-06-28 13:10:35.910 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.348 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpResponseDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -897,7 +897,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.910 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.348 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpResponseDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -921,9 +921,9 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.910 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::<init>(org/springframework/http/server/reactive/ServerHttpResponse, java/util/function/Supplier): void: null
-2026-06-28 13:10:35.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono
-2026-06-28 13:10:35.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono
+2026-08-10 21:56:25.348 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::<init>(org/springframework/http/server/reactive/ServerHttpResponse, java/util/function/Supplier): void: null
+2026-08-10 21:56:25.349 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono
+2026-08-10 21:56:25.349 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -945,7 +945,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 
 %bb3: 	//predecessors %label0
 	return %7
-2026-06-28 13:10:35.911 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.349 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpResponseDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -969,7 +969,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.911 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.349 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpResponseDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -993,9 +993,9 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.911 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono: null
-2026-06-28 13:10:35.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeAndFlushWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono
-2026-06-28 13:10:35.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeAndFlushWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono
+2026-08-10 21:56:25.349 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono: null
+2026-08-10 21:56:25.349 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeAndFlushWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono
+2026-08-10 21:56:25.349 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeAndFlushWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1017,7 +1017,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 
 %bb3: 	//predecessors %label0
 	return %7
-2026-06-28 13:10:35.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.350 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpResponseDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1041,7 +1041,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.350 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpResponseDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1065,9 +1065,9 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeAndFlushWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono: null
-2026-06-28 13:10:35.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::copyBodyBuffer(org/springframework/util/FastByteArrayOutputStream, org/springframework/core/io/buffer/DataBuffer): org/springframework/core/io/buffer/DataBuffer
-2026-06-28 13:10:35.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::copyBodyBuffer(org/springframework/util/FastByteArrayOutputStream, org/springframework/core/io/buffer/DataBuffer): org/springframework/core/io/buffer/DataBuffer
+2026-08-10 21:56:25.350 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeAndFlushWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono: null
+2026-08-10 21:56:25.350 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::copyBodyBuffer(org/springframework/util/FastByteArrayOutputStream, org/springframework/core/io/buffer/DataBuffer): org/springframework/core/io/buffer/DataBuffer
+2026-08-10 21:56:25.350 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::copyBodyBuffer(org/springframework/util/FastByteArrayOutputStream, org/springframework/core/io/buffer/DataBuffer): org/springframework/core/io/buffer/DataBuffer
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1104,7 +1104,7 @@ goto %label3
 
 %bb3: 	//predecessors %label3
 	throw %11
-2026-06-28 13:10:35.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.350 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpResponseDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1128,7 +1128,7 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:56:25.351 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/server/reactive/ServerHttpResponseDecorator
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1152,10 +1152,10 @@ java.lang.ClassNotFoundException: org/springframework/http/server/reactive/Serve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:10:35.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::copyBodyBuffer(org/springframework/util/FastByteArrayOutputStream, org/springframework/core/io/buffer/DataBuffer): org/springframework/core/io/buffer/DataBuffer: null
-2026-06-28 13:10:35.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::<init>(org/springframework/http/server/reactive/ServerHttpResponse, java/util/function/Supplier): void processing is finished normally
-2026-06-28 13:10:35.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono processing is finished normally
-2026-06-28 13:10:35.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeAndFlushWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono processing is finished normally
-2026-06-28 13:10:35.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::copyBodyBuffer(org/springframework/util/FastByteArrayOutputStream, org/springframework/core/io/buffer/DataBuffer): org/springframework/core/io/buffer/DataBuffer processing is finished normally
-2026-06-28 13:10:35.914 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 13:10:35.914 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-10 21:56:25.351 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::copyBodyBuffer(org/springframework/util/FastByteArrayOutputStream, org/springframework/core/io/buffer/DataBuffer): org/springframework/core/io/buffer/DataBuffer: null
+2026-08-10 21:56:25.351 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::<init>(org/springframework/http/server/reactive/ServerHttpResponse, java/util/function/Supplier): void processing is finished normally
+2026-08-10 21:56:25.351 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono processing is finished normally
+2026-08-10 21:56:25.351 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::writeAndFlushWith(org/reactivestreams/Publisher): reactor/core/publisher/Mono processing is finished normally
+2026-08-10 21:56:25.351 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/kv/webflux/logging/server/message/logger/LoggingServerHttpResponseDecorator::copyBodyBuffer(org/springframework/util/FastByteArrayOutputStream, org/springframework/core/io/buffer/DataBuffer): org/springframework/core/io/buffer/DataBuffer processing is finished normally
+2026-08-10 21:56:25.352 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-10 21:56:25.352 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

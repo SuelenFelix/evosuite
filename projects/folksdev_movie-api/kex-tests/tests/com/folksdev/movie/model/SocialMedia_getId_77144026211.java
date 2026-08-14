@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SocialMedia_getId_77144026211 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34826;
+     Object term34825;
 
     public SocialMedia_getId_77144026211() {
     }
@@ -31,9 +31,9 @@ public class SocialMedia_getId_77144026211 {
 
     @Before
     public void setup() throws Throwable {
-        term34826 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
-        setField(term34826, term34826.getClass(), "id", null);
-        setField(term34826, term34826.getClass(), "url", null);
+        term34825 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
+        setField(term34825, term34825.getClass(), "id", null);
+        setField(term34825, term34825.getClass(), "url", null);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class SocialMedia_getId_77144026211 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.SocialMedia");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getId", argTypes, term34826, args);
+        callMethod(klass, "getId", argTypes, term34825, args);
     }
 
 };

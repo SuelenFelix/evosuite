@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TodoHandler_getComponent_184916749022 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term16988;
+     Object term16980;
 
     public TodoHandler_getComponent_184916749022() {
     }
@@ -31,7 +31,7 @@ public class TodoHandler_getComponent_184916749022 {
 
     @Before
     public void setup() throws Throwable {
-        term16988 = newInstance(Class.forName("core.task.handler.TodoHandler"));
+        term16980 = newInstance(Class.forName("core.task.handler.TodoHandler"));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class TodoHandler_getComponent_184916749022 {
         Class<?> klass = Class.forName("core.task.handler.TodoHandler");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getComponent", argTypes, term16988, args);
+        callMethod(klass, "getComponent", argTypes, term16980, args);
     }
 
 };

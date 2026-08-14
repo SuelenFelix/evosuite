@@ -266,7 +266,7 @@ public class Notification_getLayer_4291937084 {
         setIntField(term3824, term3824.getClass(), "depth", 24);
         setIntField(term3824, term3824.getClass(), "colormap", 32);
         setField(term3824, term3824.getClass(), "colorModel", null);
-        setLongField(term3824, term3824.getClass(), "aData", 128688100652368L);
+        setLongField(term3824, term3824.getClass(), "aData", 138849725255120L);
         setBooleanField(term3824, term3824.getClass(), "doubleBuffer", true);
         setField(term3824, term3824.getClass(), "disposerReferent", null);
         setField(term3824, term3824.getClass(), "bufferCaps", null);

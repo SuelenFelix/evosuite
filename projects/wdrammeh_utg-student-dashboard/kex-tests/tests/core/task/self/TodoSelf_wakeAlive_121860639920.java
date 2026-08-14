@@ -378,7 +378,7 @@ public class TodoSelf_wakeAlive_121860639920 {
         setField(term93135, term93135.getClass(), "keySet", null);
         setField(term93135, term93135.getClass(), "values", null);
         setField(term93124, term93124.getClass(), "moduleToReader", term93135);
-        setLongField(term93140, term93140.getClass(), "timestamp", 164139854L);
+        setLongField(term93140, term93140.getClass(), "timestamp", 52418865L);
         setField(term93140, term93140.getClass(), "referent", null);
         setField(term93140, term93140.getClass(), "queue", null);
         setField(term93140, term93140.getClass(), "next", null);

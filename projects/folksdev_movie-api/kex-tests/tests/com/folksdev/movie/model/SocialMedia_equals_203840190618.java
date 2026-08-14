@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SocialMedia_equals_203840190618 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34833;
+     Object term34832;
 
     public SocialMedia_equals_203840190618() {
     }
@@ -31,9 +31,9 @@ public class SocialMedia_equals_203840190618 {
 
     @Before
     public void setup() throws Throwable {
-        term34833 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
-        setField(term34833, term34833.getClass(), "id", null);
-        setField(term34833, term34833.getClass(), "url", null);
+        term34832 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
+        setField(term34832, term34832.getClass(), "id", null);
+        setField(term34832, term34832.getClass(), "url", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class SocialMedia_equals_203840190618 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "equals", argTypes, term34833, args);
+        callMethod(klass, "equals", argTypes, term34832, args);
     }
 
 };

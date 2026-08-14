@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Authority_AuthorityBuilder_toString_162933474611 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1475;
+     Object term1479;
 
     public Authority_AuthorityBuilder_toString_162933474611() {
     }
@@ -31,10 +31,10 @@ public class Authority_AuthorityBuilder_toString_162933474611 {
 
     @Before
     public void setup() throws Throwable {
-        term1475 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority$AuthorityBuilder"));
-        setField(term1475, term1475.getClass(), "id", null);
-        setField(term1475, term1475.getClass(), "role", null);
-        setField(term1475, term1475.getClass(), "users", null);
+        term1479 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority$AuthorityBuilder"));
+        setField(term1479, term1479.getClass(), "id", null);
+        setField(term1479, term1479.getClass(), "role", null);
+        setField(term1479, term1479.getClass(), "users", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class Authority_AuthorityBuilder_toString_162933474611 {
         Class<?> klass = Class.forName("codeit.gatcha.domain.user.entity.Authority$AuthorityBuilder");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term1475, args);
+        callMethod(klass, "toString", argTypes, term1479, args);
     }
 
 };

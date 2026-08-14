@@ -313,7 +313,7 @@ public class AssignmentSelf_MemberExhibitor_3_remove_18653371633 {
         setIntField(term30196, term30196.getClass(), "depth", 24);
         setIntField(term30196, term30196.getClass(), "colormap", 32);
         setField(term30196, term30196.getClass(), "colorModel", null);
-        setLongField(term30196, term30196.getClass(), "aData", 129248793455408L);
+        setLongField(term30196, term30196.getClass(), "aData", 139320425543328L);
         setBooleanField(term30196, term30196.getClass(), "doubleBuffer", true);
         setField(term30196, term30196.getClass(), "disposerReferent", term30206);
         setField(term30196, term30196.getClass(), "bufferCaps", null);

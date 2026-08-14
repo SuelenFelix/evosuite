@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Node_isConnectedTo_5293544320 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term13253;
+     Object term13250;
 
     public Node_isConnectedTo_5293544320() {
     }
@@ -31,11 +31,11 @@ public class Node_isConnectedTo_5293544320 {
 
     @Before
     public void setup() throws Throwable {
-        term13253 = newInstance(Class.forName("nn.model.Node"));
-        setField(term13253, term13253.getClass(), "type", null);
-        setIntField(term13253, term13253.getClass(), "innovation", 0);
-        setField(term13253, term13253.getClass(), "connections", null);
-        setDoubleField(term13253, term13253.getClass(), "bias", 0.0);
+        term13250 = newInstance(Class.forName("nn.model.Node"));
+        setField(term13250, term13250.getClass(), "type", null);
+        setIntField(term13250, term13250.getClass(), "innovation", 0);
+        setField(term13250, term13250.getClass(), "connections", null);
+        setDoubleField(term13250, term13250.getClass(), "bias", 0.0);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Node_isConnectedTo_5293544320 {
         argTypes[0] = Class.forName("nn.model.Node");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "isConnectedTo", argTypes, term13253, args);
+        callMethod(klass, "isConnectedTo", argTypes, term13250, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Board_3_mouseReleased_8891032745 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term348657;
+     Object term348663;
 
     public Board_3_mouseReleased_8891032745() {
     }
@@ -31,11 +31,11 @@ public class Board_3_mouseReleased_8891032745 {
 
     @Before
     public void setup() throws Throwable {
-        term348657 = newInstance(Class.forName("core.Board$3"));
-        setField(term348657, term348657.getClass(), "val$resetOption", null);
-        setField(term348657, term348657.getClass(), "val$imageOptionsPop", null);
-        setField(term348657, term348657.getClass(), "val$imagePart", null);
-        setField(term348657, term348657.getClass(), "this$0", null);
+        term348663 = newInstance(Class.forName("core.Board$3"));
+        setField(term348663, term348663.getClass(), "val$resetOption", null);
+        setField(term348663, term348663.getClass(), "val$imageOptionsPop", null);
+        setField(term348663, term348663.getClass(), "val$imagePart", null);
+        setField(term348663, term348663.getClass(), "this$0", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Board_3_mouseReleased_8891032745 {
         argTypes[0] = Class.forName("java.awt.event.MouseEvent");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "mouseReleased", argTypes, term348657, args);
+        callMethod(klass, "mouseReleased", argTypes, term348663, args);
     }
 
 };

@@ -1,16 +1,16 @@
-2026-07-04 12:08:50.859 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/saiGou-14H_FaceSystem/target/classes
-2026-07-04 12:08:51.030 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-07-04 12:08:51.082 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-07-04 12:08:52.053 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-07-04 12:08:52.622 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/org/startup/*
-2026-07-04 12:08:52.623 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-07-04 12:08:52.643 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/saiGou-14H_FaceSystem/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-07-04 12:08:52.706 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/saiGou-14H_FaceSystem/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 42909 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/saiGou-14H_FaceSystem/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-07-04 12:08:52.721 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-07-04 12:10:32.767 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/socketThread::<init>(java/lang/String): void
-2026-07-04 12:10:32.767 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/socketThread::<init>(java/lang/String): void
+2026-08-11 11:17:09.377 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/saiGou-14H_FaceSystem/target/classes
+2026-08-11 11:17:09.570 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 11:17:09.634 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 11:17:10.675 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 11:17:11.204 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/org/startup/*
+2026-08-11 11:17:11.205 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 11:17:11.217 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/saiGou-14H_FaceSystem/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 11:17:11.250 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/saiGou-14H_FaceSystem/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 43889 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/saiGou-14H_FaceSystem/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 11:17:11.265 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 11:18:51.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/socketThread::<init>(java/lang/String): void
+2026-08-11 11:18:51.305 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/socketThread::<init>(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -24,9 +24,9 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-07-04 12:10:33.283 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.socketThread_init_12847874820
-2026-07-04 12:10:33.288 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/socketThread::run(): void
-2026-07-04 12:10:33.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/socketThread::run(): void
+2026-08-11 11:18:51.835 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.socketThread_init_12847874820
+2026-08-11 11:18:51.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/socketThread::run(): void
+2026-08-11 11:18:51.843 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/socketThread::run(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -195,15 +195,15 @@ goto %label10
 
 %goto1: 	//predecessors %if.then2
 	return
-2026-07-04 12:10:33.423 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.socketThread_run_18917893861
-2026-07-04 12:10:33.515 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.socketThread_init_12847874822
-2026-07-04 12:10:33.599 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.socketThread_run_18917893863
-2026-07-04 12:10:33.600 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/socketThread::<init>(java/lang/String): void: null
-2026-07-04 12:10:33.600 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/socketThread::run(): void: null
-2026-07-04 12:10:33.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/socketThread::<init>(java/lang/String): void processing is finished normally
-2026-07-04 12:10:33.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/socketThread::run(): void processing is finished normally
-2026-07-04 12:10:33.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::<init>(): void
-2026-07-04 12:10:33.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::<init>(): void
+2026-08-11 11:18:51.987 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.socketThread_run_18917893861
+2026-08-11 11:18:52.094 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.socketThread_init_12847874822
+2026-08-11 11:18:52.192 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.socketThread_run_18917893863
+2026-08-11 11:18:52.194 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/socketThread::<init>(java/lang/String): void: null
+2026-08-11 11:18:52.194 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/socketThread::run(): void: null
+2026-08-11 11:18:52.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/socketThread::<init>(java/lang/String): void processing is finished normally
+2026-08-11 11:18:52.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/socketThread::run(): void processing is finished normally
+2026-08-11 11:18:52.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::<init>(): void
+2026-08-11 11:18:52.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -225,16 +225,16 @@ goto %label10
 
 %bb4: 	//predecessors %bb3
 	return
-2026-07-04 12:10:33.707 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.WebSocketServer_init_5651417860
-2026-07-04 12:10:33.709 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::runIUserMeetingService(com/org/service/IUserMeetingService): void
-2026-07-04 12:10:33.709 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::runIUserMeetingService(com/org/service/IUserMeetingService): void
+2026-08-11 11:18:52.324 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.WebSocketServer_init_5651417860
+2026-08-11 11:18:52.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::runIUserMeetingService(com/org/service/IUserMeetingService): void
+2026-08-11 11:18:52.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::runIUserMeetingService(com/org/service/IUserMeetingService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	WebSocketServer.userMeetingService = arg$0
 	return
-2026-07-04 12:10:33.710 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.327 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/IService
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
@@ -258,7 +258,7 @@ java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/ISe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.327 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/IService
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
@@ -282,16 +282,16 @@ java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/ISe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::runIUserMeetingService(com/org/service/IUserMeetingService): void: null
-2026-07-04 12:10:33.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::runIUserService(com/org/service/IUserService): void
-2026-07-04 12:10:33.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::runIUserService(com/org/service/IUserService): void
+2026-08-11 11:18:52.327 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::runIUserMeetingService(com/org/service/IUserMeetingService): void: null
+2026-08-11 11:18:52.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::runIUserService(com/org/service/IUserService): void
+2026-08-11 11:18:52.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::runIUserService(com/org/service/IUserService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	WebSocketServer.userService = arg$0
 	return
-2026-07-04 12:10:33.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.328 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/IService
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
@@ -315,7 +315,7 @@ java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/ISe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.328 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/IService
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
@@ -339,16 +339,16 @@ java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/ISe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.712 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::runIUserService(com/org/service/IUserService): void: null
-2026-07-04 12:10:33.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::runIMeetingService(com/org/service/IMeetingService): void
-2026-07-04 12:10:33.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::runIMeetingService(com/org/service/IMeetingService): void
+2026-08-11 11:18:52.328 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::runIUserService(com/org/service/IUserService): void: null
+2026-08-11 11:18:52.328 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::runIMeetingService(com/org/service/IMeetingService): void
+2026-08-11 11:18:52.328 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::runIMeetingService(com/org/service/IMeetingService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	WebSocketServer.meetingService = arg$0
 	return
-2026-07-04 12:10:33.712 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/IService
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
@@ -372,7 +372,7 @@ java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/ISe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.712 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/IService
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
@@ -396,9 +396,9 @@ java.lang.ClassNotFoundException: com/baomidou/mybatisplus/extension/service/ISe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.712 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::runIMeetingService(com/org/service/IMeetingService): void: null
-2026-07-04 12:10:33.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::onOpen(javax/websocket/Session, java/lang/String): void
-2026-07-04 12:10:33.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::onOpen(javax/websocket/Session, java/lang/String): void
+2026-08-11 11:18:52.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::runIMeetingService(com/org/service/IMeetingService): void: null
+2026-08-11 11:18:52.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::onOpen(javax/websocket/Session, java/lang/String): void
+2026-08-11 11:18:52.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::onOpen(javax/websocket/Session, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -448,7 +448,7 @@ goto %label1
 
 %goto0: 	//predecessors %bb7, %label1
 	return
-2026-07-04 12:10:33.713 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax.websocket.Session
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -475,7 +475,7 @@ java.lang.ClassNotFoundException: javax.websocket.Session
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.713 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax.websocket.Session
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -502,9 +502,9 @@ java.lang.ClassNotFoundException: javax.websocket.Session
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.713 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::onOpen(javax/websocket/Session, java/lang/String): void: null
-2026-07-04 12:10:33.713 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::onClose(): void
-2026-07-04 12:10:33.714 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::onClose(): void
+2026-08-11 11:18:52.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::onOpen(javax/websocket/Session, java/lang/String): void: null
+2026-08-11 11:18:52.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::onClose(): void
+2026-08-11 11:18:52.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::onClose(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -545,7 +545,7 @@ java.lang.ClassNotFoundException: javax.websocket.Session
 
 %bb7: 	//predecessors %bb6
 	return
-2026-07-04 12:10:33.715 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.331 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::onClose(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -585,7 +585,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.715 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.331 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::onClose(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -625,9 +625,9 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.715 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::onClose(): void: null
-2026-07-04 12:10:33.715 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::onMessage(java/lang/String): void
-2026-07-04 12:10:33.716 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::onMessage(java/lang/String): void
+2026-08-11 11:18:52.331 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::onClose(): void: null
+2026-08-11 11:18:52.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::onMessage(java/lang/String): void
+2026-08-11 11:18:52.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::onMessage(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -844,7 +844,7 @@ goto %label13
 
 %if.then1: 	//predecessors %bb10, %bb11, %bb12, %bb15
 	return
-2026-07-04 12:10:33.718 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.334 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::onMessage(java/lang/String): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -884,7 +884,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.718 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.334 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::onMessage(java/lang/String): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -924,9 +924,9 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.718 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::onMessage(java/lang/String): void: null
-2026-07-04 12:10:33.719 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map
-2026-07-04 12:10:33.720 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map
+2026-08-11 11:18:52.334 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::onMessage(java/lang/String): void: null
+2026-08-11 11:18:52.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map
+2026-08-11 11:18:52.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1079,7 +1079,7 @@ goto %label14
 
 %goto1: 	//predecessors %label13, %bb12, %bb14
 	return %71
-2026-07-04 12:10:33.720 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1119,7 +1119,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.721 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1159,9 +1159,9 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.721 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map: null
-2026-07-04 12:10:33.721 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map
-2026-07-04 12:10:33.721 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map
+2026-08-11 11:18:52.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map: null
+2026-08-11 11:18:52.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map
+2026-08-11 11:18:52.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1298,7 +1298,7 @@ goto %label12
 
 %goto1: 	//predecessors %label11, %bb10, %bb12
 	return %60
-2026-07-04 12:10:33.722 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.338 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1338,7 +1338,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.722 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1378,9 +1378,9 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.722 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map: null
-2026-07-04 12:10:33.722 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::onError(javax/websocket/Session, java/lang/Throwable): void
-2026-07-04 12:10:33.722 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::onError(javax/websocket/Session, java/lang/Throwable): void
+2026-08-11 11:18:52.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map: null
+2026-08-11 11:18:52.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::onError(javax/websocket/Session, java/lang/Throwable): void
+2026-08-11 11:18:52.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::onError(javax/websocket/Session, java/lang/Throwable): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1395,7 +1395,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 
 %bb2: 	//predecessors %bb1
 	return
-2026-07-04 12:10:33.722 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax.websocket.Session
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1422,7 +1422,7 @@ java.lang.ClassNotFoundException: javax.websocket.Session
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.723 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax.websocket.Session
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1449,9 +1449,9 @@ java.lang.ClassNotFoundException: javax.websocket.Session
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-07-04 12:10:33.723 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::onError(javax/websocket/Session, java/lang/Throwable): void: null
-2026-07-04 12:10:33.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::sendMessage(java/lang/String): void
-2026-07-04 12:10:33.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::sendMessage(java/lang/String): void
+2026-08-11 11:18:52.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::onError(javax/websocket/Session, java/lang/Throwable): void: null
+2026-08-11 11:18:52.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::sendMessage(java/lang/String): void
+2026-08-11 11:18:52.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::sendMessage(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1469,7 +1469,7 @@ java.lang.ClassNotFoundException: javax.websocket.Session
 
 %bb3: 	//predecessors %bb2
 	return
-2026-07-04 12:10:33.723 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::sendMessage(java/lang/String): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1509,7 +1509,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.723 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::sendMessage(java/lang/String): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1549,9 +1549,9 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.723 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::sendMessage(java/lang/String): void: null
-2026-07-04 12:10:33.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void
-2026-07-04 12:10:33.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void
+2026-08-11 11:18:52.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::sendMessage(java/lang/String): void: null
+2026-08-11 11:18:52.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void
+2026-08-11 11:18:52.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1629,7 +1629,7 @@ goto %label2
 
 %if.then1: 	//predecessors %bb4
 	return
-2026-07-04 12:10:33.724 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.342 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1669,7 +1669,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.724 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1709,16 +1709,16 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.724 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void: null
-2026-07-04 12:10:33.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::getOnlineCount(): int
-2026-07-04 12:10:33.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::getOnlineCount(): int
+2026-08-11 11:18:52.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void: null
+2026-08-11 11:18:52.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::getOnlineCount(): int
+2026-08-11 11:18:52.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::getOnlineCount(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	%1 = WebSocketServer.onlineCount
 	return %1
-2026-07-04 12:10:33.725 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::getOnlineCount(): int
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1758,7 +1758,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.725 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::getOnlineCount(): int
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1798,9 +1798,9 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.725 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::getOnlineCount(): int: null
-2026-07-04 12:10:33.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::addOnlineCount(): void
-2026-07-04 12:10:33.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::addOnlineCount(): void
+2026-08-11 11:18:52.344 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::getOnlineCount(): int: null
+2026-08-11 11:18:52.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::addOnlineCount(): void
+2026-08-11 11:18:52.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::addOnlineCount(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1812,7 +1812,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 
 %label0: 	//predecessors %bb0
 	return
-2026-07-04 12:10:33.726 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.344 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::addOnlineCount(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1852,7 +1852,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.726 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.345 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::addOnlineCount(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1892,9 +1892,9 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.726 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::addOnlineCount(): void: null
-2026-07-04 12:10:33.726 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::subOnlineCount(): void
-2026-07-04 12:10:33.726 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::subOnlineCount(): void
+2026-08-11 11:18:52.345 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::addOnlineCount(): void: null
+2026-08-11 11:18:52.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::subOnlineCount(): void
+2026-08-11 11:18:52.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::subOnlineCount(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1906,7 +1906,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 
 %label0: 	//predecessors %bb0
 	return
-2026-07-04 12:10:33.727 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.345 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::subOnlineCount(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1946,7 +1946,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.727 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.346 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::subOnlineCount(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1986,16 +1986,16 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.727 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::subOnlineCount(): void: null
-2026-07-04 12:10:33.727 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet
-2026-07-04 12:10:33.727 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet
+2026-08-11 11:18:52.346 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::subOnlineCount(): void: null
+2026-08-11 11:18:52.346 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet
+2026-08-11 11:18:52.346 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	%1 = WebSocketServer.webSocketSet
 	return %1
-2026-07-04 12:10:33.727 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.346 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2035,7 +2035,7 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:18:52.347 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2075,24 +2075,24 @@ Caused by: java.lang.ClassNotFoundException: com.baomidou.mybatisplus.extension.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 29 common frames omitted
-2026-07-04 12:10:33.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet: null
-2026-07-04 12:10:33.820 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.WebSocketServer_init_5651417861
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::runIUserMeetingService(com/org/service/IUserMeetingService): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::runIUserService(com/org/service/IUserService): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::runIMeetingService(com/org/service/IMeetingService): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::onOpen(javax/websocket/Session, java/lang/String): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::onClose(): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::onMessage(java/lang/String): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::onError(javax/websocket/Session, java/lang/Throwable): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::sendMessage(java/lang/String): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::getOnlineCount(): int processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::addOnlineCount(): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::subOnlineCount(): void processing is finished normally
-2026-07-04 12:10:33.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet processing is finished normally
-2026-07-04 12:10:33.822 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::<init>(): void: null
-2026-07-04 12:10:33.822 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::<init>(): void processing is finished normally
-2026-07-04 12:10:33.822 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-07-04 12:10:33.822 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 11:18:52.347 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet: null
+2026-08-11 11:18:52.443 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.org.startup.WebSocketServer_init_5651417861
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::runIUserMeetingService(com/org/service/IUserMeetingService): void processing is finished normally
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::runIUserService(com/org/service/IUserService): void processing is finished normally
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::runIMeetingService(com/org/service/IMeetingService): void processing is finished normally
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::onOpen(javax/websocket/Session, java/lang/String): void processing is finished normally
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::onClose(): void processing is finished normally
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::onMessage(java/lang/String): void processing is finished normally
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::listingResult(java/lang/Integer): java/util/Map processing is finished normally
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::successResult(java/lang/Integer): java/util/Map processing is finished normally
+2026-08-11 11:18:52.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::onError(javax/websocket/Session, java/lang/Throwable): void processing is finished normally
+2026-08-11 11:18:52.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::sendMessage(java/lang/String): void processing is finished normally
+2026-08-11 11:18:52.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::sendInfo(java/lang/String, java/lang/String): void processing is finished normally
+2026-08-11 11:18:52.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::getOnlineCount(): int processing is finished normally
+2026-08-11 11:18:52.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::addOnlineCount(): void processing is finished normally
+2026-08-11 11:18:52.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::subOnlineCount(): void processing is finished normally
+2026-08-11 11:18:52.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::getWebSocketSet(): java/util/concurrent/CopyOnWriteArraySet processing is finished normally
+2026-08-11 11:18:52.445 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/org/startup/WebSocketServer::<init>(): void: null
+2026-08-11 11:18:52.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/org/startup/WebSocketServer::<init>(): void processing is finished normally
+2026-08-11 11:18:52.446 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 11:18:52.446 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

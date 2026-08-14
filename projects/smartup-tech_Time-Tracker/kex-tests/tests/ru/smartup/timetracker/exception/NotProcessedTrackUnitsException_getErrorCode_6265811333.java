@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class NotProcessedTrackUnitsException_getErrorCode_6265811333 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term119519;
+     Object term119616;
 
     public NotProcessedTrackUnitsException_getErrorCode_6265811333() {
     }
@@ -31,14 +31,14 @@ public class NotProcessedTrackUnitsException_getErrorCode_6265811333 {
 
     @Before
     public void setup() throws Throwable {
-        term119519 = newInstance(Class.forName("ru.smartup.timetracker.exception.NotProcessedTrackUnitsException"));
-        setField(term119519, term119519.getClass(), "errorCode", null);
-        setField(term119519, term119519.getClass(), "backtrace", null);
-        setField(term119519, term119519.getClass(), "detailMessage", null);
-        setField(term119519, term119519.getClass(), "cause", null);
-        setField(term119519, term119519.getClass(), "stackTrace", null);
-        setIntField(term119519, term119519.getClass(), "depth", 0);
-        setField(term119519, term119519.getClass(), "suppressedExceptions", null);
+        term119616 = newInstance(Class.forName("ru.smartup.timetracker.exception.NotProcessedTrackUnitsException"));
+        setField(term119616, term119616.getClass(), "errorCode", null);
+        setField(term119616, term119616.getClass(), "backtrace", null);
+        setField(term119616, term119616.getClass(), "detailMessage", null);
+        setField(term119616, term119616.getClass(), "cause", null);
+        setField(term119616, term119616.getClass(), "stackTrace", null);
+        setIntField(term119616, term119616.getClass(), "depth", 0);
+        setField(term119616, term119616.getClass(), "suppressedExceptions", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class NotProcessedTrackUnitsException_getErrorCode_6265811333 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.exception.NotProcessedTrackUnitsException");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getErrorCode", argTypes, term119519, args);
+        callMethod(klass, "getErrorCode", argTypes, term119616, args);
     }
 
 };

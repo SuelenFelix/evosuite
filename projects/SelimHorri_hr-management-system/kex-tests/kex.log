@@ -1,16 +1,16 @@
-2026-06-28 16:48:56.730 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/SelimHorri_hr-management-system/target/classes
-2026-06-28 16:48:56.835 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 16:48:56.899 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 16:48:57.873 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 16:48:58.401 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/selimhorri/app/pack/services/impls/*
-2026-06-28 16:48:58.402 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 16:48:58.427 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/SelimHorri_hr-management-system/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 16:48:58.460 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/SelimHorri_hr-management-system/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 46113 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/SelimHorri_hr-management-system/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 16:48:58.474 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 16:50:38.507 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::<init>(com/selimhorri/app/pack/repositories/UserCredentialRepository): void
-2026-06-28 16:50:38.508 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::<init>(com/selimhorri/app/pack/repositories/UserCredentialRepository): void
+2026-08-11 03:41:37.941 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/SelimHorri_hr-management-system/target/classes
+2026-08-11 03:41:38.053 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 03:41:38.132 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 03:41:39.167 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 03:41:39.671 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/selimhorri/app/pack/services/impls/*
+2026-08-11 03:41:39.672 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 03:41:39.694 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/SelimHorri_hr-management-system/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 03:41:39.725 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/SelimHorri_hr-management-system/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 39965 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/SelimHorri_hr-management-system/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 03:41:39.738 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 03:43:19.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::<init>(com/selimhorri/app/pack/repositories/UserCredentialRepository): void
+2026-08-11 03:43:19.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::<init>(com/selimhorri/app/pack/repositories/UserCredentialRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -24,7 +24,7 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 16:50:38.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.777 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -48,7 +48,7 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 16:50:38.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.778 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -72,9 +72,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 16:50:38.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::<init>(com/selimhorri/app/pack/repositories/UserCredentialRepository): void: null
-2026-06-28 16:50:38.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List
-2026-06-28 16:50:38.513 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List
+2026-08-11 03:43:19.778 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::<init>(com/selimhorri/app/pack/repositories/UserCredentialRepository): void: null
+2026-08-11 03:43:19.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List
+2026-08-11 03:43:19.779 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -92,7 +92,7 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 16:50:38.514 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.780 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -127,7 +127,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 16:50:38.514 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.780 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -156,9 +156,9 @@ Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/use
 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
 	... 20 common frames omitted
-2026-06-28 16:50:38.514 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List: null
-2026-06-28 16:50:38.514 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential
-2026-06-28 16:50:38.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential
+2026-08-11 03:43:19.780 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List: null
+2026-08-11 03:43:19.780 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential
+2026-08-11 03:43:19.781 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -184,7 +184,7 @@ Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/use
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-28 16:50:38.515 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.781 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -213,7 +213,7 @@ Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/use
 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
 	... 20 common frames omitted
-2026-06-28 16:50:38.515 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.781 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -242,9 +242,9 @@ Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/use
 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
 	... 20 common frames omitted
-2026-06-28 16:50:38.515 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential: null
-2026-06-28 16:50:38.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential
-2026-06-28 16:50:38.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential
+2026-08-11 03:43:19.781 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential: null
+2026-08-11 03:43:19.781 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential
+2026-08-11 03:43:19.781 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -270,7 +270,7 @@ Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/use
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-28 16:50:38.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.782 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -299,7 +299,7 @@ Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/use
 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
 	... 20 common frames omitted
-2026-06-28 16:50:38.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.782 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -328,13 +328,13 @@ Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/use
 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
 	... 20 common frames omitted
-2026-06-28 16:50:38.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential: null
-2026-06-28 16:50:38.516 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::<init>(com/selimhorri/app/pack/repositories/UserCredentialRepository): void processing is finished normally
-2026-06-28 16:50:38.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List processing is finished normally
-2026-06-28 16:50:38.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential processing is finished normally
-2026-06-28 16:50:38.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential processing is finished normally
-2026-06-28 16:50:38.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::<init>(com/selimhorri/app/pack/repositories/DepartmentRepository): void
-2026-06-28 16:50:38.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::<init>(com/selimhorri/app/pack/repositories/DepartmentRepository): void
+2026-08-11 03:43:19.782 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential: null
+2026-08-11 03:43:19.782 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::<init>(com/selimhorri/app/pack/repositories/UserCredentialRepository): void processing is finished normally
+2026-08-11 03:43:19.782 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findAll(): java/util/List processing is finished normally
+2026-08-11 03:43:19.782 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/UserCredential processing is finished normally
+2026-08-11 03:43:19.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/UserCredentialServiceImpl::findByUsername(java/lang/String): com/selimhorri/app/pack/models/entities/UserCredential processing is finished normally
+2026-08-11 03:43:19.788 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::<init>(com/selimhorri/app/pack/repositories/DepartmentRepository): void
+2026-08-11 03:43:19.788 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::<init>(com/selimhorri/app/pack/repositories/DepartmentRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -348,7 +348,7 @@ Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/use
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 16:50:38.524 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -372,7 +372,7 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 16:50:38.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:19.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -396,9 +396,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 16:50:38.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::<init>(com/selimhorri/app/pack/repositories/DepartmentRepository): void: null
-2026-06-28 16:50:38.525 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findAll(): java/util/List
-2026-06-28 16:50:38.525 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findAll(): java/util/List
+2026-08-11 03:43:19.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::<init>(com/selimhorri/app/pack/repositories/DepartmentRepository): void: null
+2026-08-11 03:43:19.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findAll(): java/util/List
+2026-08-11 03:43:19.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findAll(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -416,9 +416,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 16:50:38.992 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_findAll_6925940760
-2026-06-28 16:50:38.999 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Department
-2026-06-28 16:50:38.999 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Department
+2026-08-11 03:43:20.247 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_findAll_6925940760
+2026-08-11 03:43:20.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Department
+2026-08-11 03:43:20.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Department
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -444,9 +444,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-28 16:50:39.116 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_findById_12279718791
-2026-06-28 16:50:39.117 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::save(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department
-2026-06-28 16:50:39.117 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::save(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department
+2026-08-11 03:43:20.361 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_findById_12279718791
+2026-08-11 03:43:20.362 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::save(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department
+2026-08-11 03:43:20.362 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::save(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -464,9 +464,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 16:50:39.231 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_save_626695332
-2026-06-28 16:50:39.231 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::update(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department
-2026-06-28 16:50:39.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::update(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department
+2026-08-11 03:43:20.473 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_save_626695332
+2026-08-11 03:43:20.473 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::update(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department
+2026-08-11 03:43:20.474 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::update(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -484,9 +484,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 16:50:39.321 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_update_20002838633
-2026-06-28 16:50:39.322 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::delete(java/lang/Integer): void
-2026-06-28 16:50:39.322 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::delete(java/lang/Integer): void
+2026-08-11 03:43:20.560 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_update_20002838633
+2026-08-11 03:43:20.561 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::delete(java/lang/Integer): void
+2026-08-11 03:43:20.561 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::delete(java/lang/Integer): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -504,9 +504,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 16:50:39.393 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_delete_17914816434
-2026-06-28 16:50:39.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::<init>(com/selimhorri/app/pack/repositories/DepartmentRepository): void processing is finished normally
-2026-06-28 16:50:39.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:20.629 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_delete_17914816434
+2026-08-11 03:43:20.630 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::<init>(com/selimhorri/app/pack/repositories/DepartmentRepository): void processing is finished normally
+2026-08-11 03:43:20.635 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -544,8 +544,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findAll(): java/util/List: null
-2026-06-28 16:50:39.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:20.635 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findAll(): java/util/List: null
+2026-08-11 03:43:20.636 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -583,8 +583,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Department: null
-2026-06-28 16:50:39.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:20.636 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Department: null
+2026-08-11 03:43:20.637 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -622,8 +622,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::save(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department: null
-2026-06-28 16:50:39.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:20.637 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::save(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department: null
+2026-08-11 03:43:20.638 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -661,8 +661,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::update(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department: null
-2026-06-28 16:50:39.401 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:20.638 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::update(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department: null
+2026-08-11 03:43:20.638 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -700,14 +700,14 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.401 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::delete(java/lang/Integer): void: null
-2026-06-28 16:50:39.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findAll(): java/util/List processing is finished normally
-2026-06-28 16:50:39.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Department processing is finished normally
-2026-06-28 16:50:39.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::save(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department processing is finished normally
-2026-06-28 16:50:39.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::update(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department processing is finished normally
-2026-06-28 16:50:39.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::delete(java/lang/Integer): void processing is finished normally
-2026-06-28 16:50:39.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::<init>(com/selimhorri/app/pack/repositories/EmployeeRepository, org/modelmapper/ModelMapper): void
-2026-06-28 16:50:39.408 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::<init>(com/selimhorri/app/pack/repositories/EmployeeRepository, org/modelmapper/ModelMapper): void
+2026-08-11 03:43:20.638 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::delete(java/lang/Integer): void: null
+2026-08-11 03:43:20.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findAll(): java/util/List processing is finished normally
+2026-08-11 03:43:20.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Department processing is finished normally
+2026-08-11 03:43:20.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::save(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department processing is finished normally
+2026-08-11 03:43:20.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::update(com/selimhorri/app/pack/models/entities/Department): com/selimhorri/app/pack/models/entities/Department processing is finished normally
+2026-08-11 03:43:20.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/DepartmentServiceImpl::delete(java/lang/Integer): void processing is finished normally
+2026-08-11 03:43:20.644 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::<init>(com/selimhorri/app/pack/repositories/EmployeeRepository, org/modelmapper/ModelMapper): void
+2026-08-11 03:43:20.644 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::<init>(com/selimhorri/app/pack/repositories/EmployeeRepository, org/modelmapper/ModelMapper): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -725,7 +725,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 16:50:39.408 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:20.645 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -749,7 +749,7 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 16:50:39.409 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:20.645 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -773,9 +773,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 16:50:39.409 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::<init>(com/selimhorri/app/pack/repositories/EmployeeRepository, org/modelmapper/ModelMapper): void: null
-2026-06-28 16:50:39.409 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findAll(): java/util/List
-2026-06-28 16:50:39.409 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findAll(): java/util/List
+2026-08-11 03:43:20.645 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::<init>(com/selimhorri/app/pack/repositories/EmployeeRepository, org/modelmapper/ModelMapper): void: null
+2026-08-11 03:43:20.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findAll(): java/util/List
+2026-08-11 03:43:20.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findAll(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -793,9 +793,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 16:50:39.475 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findAll_1376716160
-2026-06-28 16:50:39.476 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Employee
-2026-06-28 16:50:39.476 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Employee
+2026-08-11 03:43:20.709 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findAll_1376716160
+2026-08-11 03:43:20.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Employee
+2026-08-11 03:43:20.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Employee
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -821,9 +821,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-28 16:50:39.537 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findById_14669679031
-2026-06-28 16:50:39.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::save(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee
-2026-06-28 16:50:39.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::save(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee
+2026-08-11 03:43:20.771 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findById_14669679031
+2026-08-11 03:43:20.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::save(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee
+2026-08-11 03:43:20.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::save(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -841,9 +841,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 16:50:39.638 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_save_9021193672
-2026-06-28 16:50:39.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::update(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee
-2026-06-28 16:50:39.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::update(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee
+2026-08-11 03:43:20.874 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_save_9021193672
+2026-08-11 03:43:20.874 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::update(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee
+2026-08-11 03:43:20.874 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::update(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -861,9 +861,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 16:50:39.728 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_update_13298945333
-2026-06-28 16:50:39.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::delete(java/lang/Integer): void
-2026-06-28 16:50:39.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::delete(java/lang/Integer): void
+2026-08-11 03:43:20.970 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_update_13298945333
+2026-08-11 03:43:20.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::delete(java/lang/Integer): void
+2026-08-11 03:43:20.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::delete(java/lang/Integer): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -881,9 +881,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 16:50:39.790 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_delete_12365591834
-2026-06-28 16:50:39.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::getBoss(): com/selimhorri/app/pack/models/dto/BossEmployeeDTO
-2026-06-28 16:50:39.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::getBoss(): com/selimhorri/app/pack/models/dto/BossEmployeeDTO
+2026-08-11 03:43:21.019 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_delete_12365591834
+2026-08-11 03:43:21.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::getBoss(): com/selimhorri/app/pack/models/dto/BossEmployeeDTO
+2026-08-11 03:43:21.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::getBoss(): com/selimhorri/app/pack/models/dto/BossEmployeeDTO
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -909,9 +909,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-28 16:50:39.837 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_getBoss_20340263595
-2026-06-28 16:50:39.838 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::<init>(com/selimhorri/app/pack/repositories/EmployeeRepository, org/modelmapper/ModelMapper): void processing is finished normally
-2026-06-28 16:50:39.839 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:21.079 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_getBoss_20340263595
+2026-08-11 03:43:21.079 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::<init>(com/selimhorri/app/pack/repositories/EmployeeRepository, org/modelmapper/ModelMapper): void processing is finished normally
+2026-08-11 03:43:21.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -949,8 +949,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.840 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findAll(): java/util/List: null
-2026-06-28 16:50:39.840 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:21.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findAll(): java/util/List: null
+2026-08-11 03:43:21.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -988,8 +988,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.840 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Employee: null
-2026-06-28 16:50:39.841 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:21.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Employee: null
+2026-08-11 03:43:21.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1027,8 +1027,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.841 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::save(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee: null
-2026-06-28 16:50:39.841 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:21.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::save(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee: null
+2026-08-11 03:43:21.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1066,8 +1066,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.841 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::update(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee: null
-2026-06-28 16:50:39.842 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:21.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::update(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee: null
+2026-08-11 03:43:21.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1105,8 +1105,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.842 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::delete(java/lang/Integer): void: null
-2026-06-28 16:50:39.842 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 03:43:21.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::delete(java/lang/Integer): void: null
+2026-08-11 03:43:21.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1144,12 +1144,12 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 16:50:39.842 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::getBoss(): com/selimhorri/app/pack/models/dto/BossEmployeeDTO: null
-2026-06-28 16:50:39.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findAll(): java/util/List processing is finished normally
-2026-06-28 16:50:39.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Employee processing is finished normally
-2026-06-28 16:50:39.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::save(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee processing is finished normally
-2026-06-28 16:50:39.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::update(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee processing is finished normally
-2026-06-28 16:50:39.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::delete(java/lang/Integer): void processing is finished normally
-2026-06-28 16:50:39.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::getBoss(): com/selimhorri/app/pack/models/dto/BossEmployeeDTO processing is finished normally
-2026-06-28 16:50:39.843 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 16:50:39.843 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 03:43:21.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::getBoss(): com/selimhorri/app/pack/models/dto/BossEmployeeDTO: null
+2026-08-11 03:43:21.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findAll(): java/util/List processing is finished normally
+2026-08-11 03:43:21.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::findById(java/lang/Integer): com/selimhorri/app/pack/models/entities/Employee processing is finished normally
+2026-08-11 03:43:21.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::save(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee processing is finished normally
+2026-08-11 03:43:21.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::update(com/selimhorri/app/pack/models/entities/Employee): com/selimhorri/app/pack/models/entities/Employee processing is finished normally
+2026-08-11 03:43:21.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::delete(java/lang/Integer): void processing is finished normally
+2026-08-11 03:43:21.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/app/pack/services/impls/EmployeeServiceImpl::getBoss(): com/selimhorri/app/pack/models/dto/BossEmployeeDTO processing is finished normally
+2026-08-11 03:43:21.084 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 03:43:21.084 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

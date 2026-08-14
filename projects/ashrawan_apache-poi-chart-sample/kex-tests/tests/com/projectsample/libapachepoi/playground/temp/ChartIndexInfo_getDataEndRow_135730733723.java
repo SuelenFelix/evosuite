@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ChartIndexInfo_getDataEndRow_135730733723 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term208;
+     Object term75927;
 
     public ChartIndexInfo_getDataEndRow_135730733723() {
     }
@@ -31,15 +31,15 @@ public class ChartIndexInfo_getDataEndRow_135730733723 {
 
     @Before
     public void setup() throws Throwable {
-        term208 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
-        setIntField(term208, term208.getClass(), "dataStartRow", 0);
-        setIntField(term208, term208.getClass(), "dataEndRow", 0);
-        setIntField(term208, term208.getClass(), "dataStartColumn", 0);
-        setIntField(term208, term208.getClass(), "dataEndColumn", 0);
-        setIntField(term208, term208.getClass(), "categoryStartRow", 0);
-        setIntField(term208, term208.getClass(), "categoryEndRow", 0);
-        setIntField(term208, term208.getClass(), "categoryStartColumn", 0);
-        setIntField(term208, term208.getClass(), "categoryEndColumn", 0);
+        term75927 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
+        setIntField(term75927, term75927.getClass(), "dataStartRow", 0);
+        setIntField(term75927, term75927.getClass(), "dataEndRow", 0);
+        setIntField(term75927, term75927.getClass(), "dataStartColumn", 0);
+        setIntField(term75927, term75927.getClass(), "dataEndColumn", 0);
+        setIntField(term75927, term75927.getClass(), "categoryStartRow", 0);
+        setIntField(term75927, term75927.getClass(), "categoryEndRow", 0);
+        setIntField(term75927, term75927.getClass(), "categoryStartColumn", 0);
+        setIntField(term75927, term75927.getClass(), "categoryEndColumn", 0);
     }
 
     @Test
@@ -47,7 +47,7 @@ public class ChartIndexInfo_getDataEndRow_135730733723 {
         Class<?> klass = Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getDataEndRow", argTypes, term208, args);
+        callMethod(klass, "getDataEndRow", argTypes, term75927, args);
     }
 
 };

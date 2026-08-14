@@ -17,10 +17,12 @@ import java.util.stream.Stream;
 import java.util.stream.Collectors;
 import static com.org.model.dto.ReflectionUtils.*;
 import static org.junit.Assert.assertTrue;
+import java.lang.Integer;
 
 public class Meeting1DTO_equals_159650859510 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4234;
+     Object term4164;
+     Object term4203;
 
     public Meeting1DTO_equals_159650859510() {
     }
@@ -31,11 +33,13 @@ public class Meeting1DTO_equals_159650859510 {
 
     @Before
     public void setup() throws Throwable {
-        term4234 = newInstance(Class.forName("com.org.model.dto.Meeting1DTO"));
-        setField(term4234, term4234.getClass(), "userid", null);
-        setField(term4234, term4234.getClass(), "host", null);
-        setField(term4234, term4234.getClass(), "meetingname", null);
-        setField(term4234, term4234.getClass(), "meetingroom", null);
+        Integer term4165 = new Integer(1133116994);
+        term4164 = newInstance(Class.forName("com.org.model.dto.Meeting1DTO"));
+        setField(term4164, term4164.getClass(), "userid", term4165);
+        setField(term4164, term4164.getClass(), "host", "vXmDfMgmHu");
+        setField(term4164, term4164.getClass(), "meetingname", "fyRJvzWMpe");
+        setField(term4164, term4164.getClass(), "meetingroom", "KMDtTdvTCJ");
+        term4203 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -44,8 +48,8 @@ public class Meeting1DTO_equals_159650859510 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = null;
-        callMethod(klass, "equals", argTypes, term4234, args);
+        args[0] = term4203;
+        callMethod(klass, "equals", argTypes, term4164, args);
     }
 
 };

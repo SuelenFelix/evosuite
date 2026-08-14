@@ -21,8 +21,8 @@ import java.lang.Double;
 
 public class Node_setBias_114929997614 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term18772;
-     Object term18775;
+     Object term18788;
+     Object term18791;
 
     public Node_setBias_114929997614() {
     }
@@ -33,12 +33,12 @@ public class Node_setBias_114929997614 {
 
     @Before
     public void setup() throws Throwable {
-        term18772 = newInstance(Class.forName("nn.model.Node"));
-        setField(term18772, term18772.getClass(), "type", null);
-        setIntField(term18772, term18772.getClass(), "innovation", 0);
-        setField(term18772, term18772.getClass(), "connections", null);
-        setDoubleField(term18772, term18772.getClass(), "bias", 0.0);
-        term18775 = new Double(0.0);
+        term18788 = newInstance(Class.forName("nn.model.Node"));
+        setField(term18788, term18788.getClass(), "type", null);
+        setIntField(term18788, term18788.getClass(), "innovation", 0);
+        setField(term18788, term18788.getClass(), "connections", null);
+        setDoubleField(term18788, term18788.getClass(), "bias", 0.0);
+        term18791 = new Double(0.0);
     }
 
     @Test
@@ -47,8 +47,8 @@ public class Node_setBias_114929997614 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = double.class;
         Object[] args = new Object[1];
-        args[0] = term18775;
-        callMethod(klass, "setBias", argTypes, term18772, args);
+        args[0] = term18791;
+        callMethod(klass, "setBias", argTypes, term18788, args);
     }
 
 };

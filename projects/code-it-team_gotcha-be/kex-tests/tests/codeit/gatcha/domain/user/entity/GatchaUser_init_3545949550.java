@@ -43,8 +43,8 @@ public class GatchaUser_init_3545949550 {
         term25 = new Boolean(false);
         Integer term28 = new Integer(568599855);
         HashMap term43 = new HashMap();
-        Set<Object> term87 =  ((Map) term43).keySet();
-        HashSet term42 = new HashSet((Collection<? extends Object>) term87);
+        Set<Object> term89 =  ((Map) term43).keySet();
+        HashSet term42 = new HashSet((Collection<? extends Object>) term89);
         term27 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
         setField(term27, term27.getClass(), "id", term28);
         setField(term27, term27.getClass(), "role", "MuLcgQHgqz");

@@ -635,7 +635,7 @@ public class ModuleAnalysis_getSemestersBasement_9327364076 {
         setField(term7174, term7174.getClass(), "keySet", null);
         setField(term7174, term7174.getClass(), "values", null);
         setField(term7163, term7163.getClass(), "moduleToReader", term7174);
-        setLongField(term7179, term7179.getClass(), "timestamp", 163384181L);
+        setLongField(term7179, term7179.getClass(), "timestamp", 51655876L);
         setField(term7179, term7179.getClass(), "referent", null);
         setField(term7179, term7179.getClass(), "queue", null);
         setField(term7179, term7179.getClass(), "next", null);

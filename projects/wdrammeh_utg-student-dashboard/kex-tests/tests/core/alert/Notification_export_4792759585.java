@@ -266,7 +266,7 @@ public class Notification_export_4792759585 {
         setIntField(term4325, term4325.getClass(), "depth", 24);
         setIntField(term4325, term4325.getClass(), "colormap", 32);
         setField(term4325, term4325.getClass(), "colorModel", null);
-        setLongField(term4325, term4325.getClass(), "aData", 128688100652368L);
+        setLongField(term4325, term4325.getClass(), "aData", 138849725255120L);
         setBooleanField(term4325, term4325.getClass(), "doubleBuffer", true);
         setField(term4325, term4325.getClass(), "disposerReferent", null);
         setField(term4325, term4325.getClass(), "bufferCaps", null);

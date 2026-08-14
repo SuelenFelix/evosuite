@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class FitnessGenome_toString_2613304706 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10957;
+     Object term10954;
 
     public FitnessGenome_toString_2613304706() {
     }
@@ -33,53 +33,53 @@ public class FitnessGenome_toString_2613304706 {
 
     @Before
     public void setup() throws Throwable {
+        Object term10958 = newInstance(Class.forName("nn.model.Node"));
+        setField(term10958, term10958.getClass(), "type", null);
+        setIntField(term10958, term10958.getClass(), "innovation", 1428598210);
+        setField(term10958, term10958.getClass(), "connections", null);
+        setDoubleField(term10958, term10958.getClass(), "bias", 0.24376380251538943);
         Object term10961 = newInstance(Class.forName("nn.model.Node"));
         setField(term10961, term10961.getClass(), "type", null);
-        setIntField(term10961, term10961.getClass(), "innovation", 1428598210);
+        setIntField(term10961, term10961.getClass(), "innovation", 0);
         setField(term10961, term10961.getClass(), "connections", null);
-        setDoubleField(term10961, term10961.getClass(), "bias", 0.24376380251538943);
-        Object term10964 = newInstance(Class.forName("nn.model.Node"));
-        setField(term10964, term10964.getClass(), "type", null);
-        setIntField(term10964, term10964.getClass(), "innovation", 0);
-        setField(term10964, term10964.getClass(), "connections", null);
-        setDoubleField(term10964, term10964.getClass(), "bias", 0.0);
-        ArrayList term10959 = new ArrayList();
-        ((ArrayList) term10959).add(term10961);
-        ((ArrayList) term10959).add(term10964);
-        Object term10971 = newInstance(Class.forName("nn.model.Connection"));
-        setField(term10971, term10971.getClass(), "in", null);
-        setField(term10971, term10971.getClass(), "out", null);
-        setFloatField(term10971, term10971.getClass(), "weight", 0.31691194F);
-        setBooleanField(term10971, term10971.getClass(), "expressed", false);
-        setIntField(term10971, term10971.getClass(), "innovation", 1238707613);
-        Object term10975 = newInstance(Class.forName("nn.model.Connection"));
-        setField(term10975, term10975.getClass(), "in", null);
-        setField(term10975, term10975.getClass(), "out", null);
-        setFloatField(term10975, term10975.getClass(), "weight", 0.917166F);
-        setBooleanField(term10975, term10975.getClass(), "expressed", true);
-        setIntField(term10975, term10975.getClass(), "innovation", -1546528470);
-        ArrayList term10969 = new ArrayList();
-        ((ArrayList) term10969).add(term10971);
-        ((ArrayList) term10969).add(term10975);
-        term10957 = newInstance(Class.forName("nn.model.FitnessGenome"));
-        Object term10958 = newInstance(Class.forName("nn.model.Genome"));
-        Object term10981 = newInstance(Class.forName("nn.model.NodeInnovator"));
-        Object term10983 = newInstance(Class.forName("nn.model.ConnectionInnovator"));
-        Object term10985 = newInstance(Class.forName("java.util.Random"));
-        Object term10986 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
-        setField(term10958, term10958.getClass(), "nodes", term10959);
-        setField(term10958, term10958.getClass(), "connections", term10969);
-        setIntField(term10981, term10981.getClass(), "counter", 100);
-        setField(term10958, term10958.getClass(), "nodeInnovator", term10981);
-        setIntField(term10983, term10983.getClass(), "counter", 100);
-        setField(term10958, term10958.getClass(), "connectionInnovator", term10983);
-        setLongField(term10986, term10986.getClass(), "value", 224284609224746L);
-        setField(term10985, term10985.getClass(), "seed", term10986);
-        setDoubleField(term10985, term10985.getClass(), "nextNextGaussian", 0.1960225801238138);
-        setBooleanField(term10985, term10985.getClass(), "haveNextNextGaussian", true);
-        setField(term10958, term10958.getClass(), "random", term10985);
-        setField(term10957, term10957.getClass(), "genome", term10958);
-        setDoubleField(term10957, term10957.getClass(), "fitness", 0.5148137742678777);
+        setDoubleField(term10961, term10961.getClass(), "bias", 0.0);
+        ArrayList term10956 = new ArrayList();
+        ((ArrayList) term10956).add(term10958);
+        ((ArrayList) term10956).add(term10961);
+        Object term10968 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term10968, term10968.getClass(), "in", null);
+        setField(term10968, term10968.getClass(), "out", null);
+        setFloatField(term10968, term10968.getClass(), "weight", 0.31691194F);
+        setBooleanField(term10968, term10968.getClass(), "expressed", false);
+        setIntField(term10968, term10968.getClass(), "innovation", 1238707613);
+        Object term10972 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term10972, term10972.getClass(), "in", null);
+        setField(term10972, term10972.getClass(), "out", null);
+        setFloatField(term10972, term10972.getClass(), "weight", 0.917166F);
+        setBooleanField(term10972, term10972.getClass(), "expressed", true);
+        setIntField(term10972, term10972.getClass(), "innovation", -1546528470);
+        ArrayList term10966 = new ArrayList();
+        ((ArrayList) term10966).add(term10968);
+        ((ArrayList) term10966).add(term10972);
+        term10954 = newInstance(Class.forName("nn.model.FitnessGenome"));
+        Object term10955 = newInstance(Class.forName("nn.model.Genome"));
+        Object term10978 = newInstance(Class.forName("nn.model.NodeInnovator"));
+        Object term10980 = newInstance(Class.forName("nn.model.ConnectionInnovator"));
+        Object term10982 = newInstance(Class.forName("java.util.Random"));
+        Object term10983 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
+        setField(term10955, term10955.getClass(), "nodes", term10956);
+        setField(term10955, term10955.getClass(), "connections", term10966);
+        setIntField(term10978, term10978.getClass(), "counter", 100);
+        setField(term10955, term10955.getClass(), "nodeInnovator", term10978);
+        setIntField(term10980, term10980.getClass(), "counter", 100);
+        setField(term10955, term10955.getClass(), "connectionInnovator", term10980);
+        setLongField(term10983, term10983.getClass(), "value", 612500773694L);
+        setField(term10982, term10982.getClass(), "seed", term10983);
+        setDoubleField(term10982, term10982.getClass(), "nextNextGaussian", 0.1960225801238138);
+        setBooleanField(term10982, term10982.getClass(), "haveNextNextGaussian", true);
+        setField(term10955, term10955.getClass(), "random", term10982);
+        setField(term10954, term10954.getClass(), "genome", term10955);
+        setDoubleField(term10954, term10954.getClass(), "fitness", 0.5148137742678777);
     }
 
     @Test
@@ -87,7 +87,7 @@ public class FitnessGenome_toString_2613304706 {
         Class<?> klass = Class.forName("nn.model.FitnessGenome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term10957, args);
+        callMethod(klass, "toString", argTypes, term10954, args);
     }
 
 };

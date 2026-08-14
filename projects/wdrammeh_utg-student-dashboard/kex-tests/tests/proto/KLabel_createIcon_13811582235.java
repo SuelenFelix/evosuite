@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class KLabel_createIcon_13811582235 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term51258;
-     Object term51260;
+     Object term51307;
+     Object term51309;
 
     public KLabel_createIcon_13811582235() {
     }
@@ -33,8 +33,8 @@ public class KLabel_createIcon_13811582235 {
 
     @Before
     public void setup() throws Throwable {
-        term51258 = new Integer(873659088);
-        term51260 = new Integer(-975748721);
+        term51307 = new Integer(873659088);
+        term51309 = new Integer(-975748721);
     }
 
     @Test
@@ -46,8 +46,8 @@ public class KLabel_createIcon_13811582235 {
         argTypes[2] = int.class;
         Object[] args = new Object[3];
         args[0] = "MvRIxilFMJ";
-        args[1] = term51258;
-        args[2] = term51260;
+        args[1] = term51307;
+        args[2] = term51309;
         callMethod(klass, "createIcon", argTypes, null, args);
     }
 

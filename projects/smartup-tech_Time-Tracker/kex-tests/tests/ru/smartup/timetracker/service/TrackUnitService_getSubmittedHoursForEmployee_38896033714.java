@@ -26,9 +26,9 @@ import java.util.HashSet;
 
 public class TrackUnitService_getSubmittedHoursForEmployee_38896033714 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3313;
-     Object term3349;
-     Object term3353;
+     Object term3289;
+     Object term3325;
+     Object term3329;
 
     public TrackUnitService_getSubmittedHoursForEmployee_38896033714() {
     }
@@ -39,17 +39,17 @@ public class TrackUnitService_getSubmittedHoursForEmployee_38896033714 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term3314 = new HashMap();
-        Set<Object> term3357 =  ((Map) term3314).keySet();
-        term3313 = new HashSet((Collection<? extends Object>) term3357);
-        term3349 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term3349, term3349.getClass(), "year", 2027);
-        setShortField(term3349, term3349.getClass(), "month", (short) 2);
-        setShortField(term3349, term3349.getClass(), "day", (short) 18);
-        term3353 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term3353, term3353.getClass(), "year", 2028);
-        setShortField(term3353, term3353.getClass(), "month", (short) 5);
-        setShortField(term3353, term3353.getClass(), "day", (short) 29);
+        HashMap term3290 = new HashMap();
+        Set<Object> term3333 =  ((Map) term3290).keySet();
+        term3289 = new HashSet((Collection<? extends Object>) term3333);
+        term3325 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term3325, term3325.getClass(), "year", 2027);
+        setShortField(term3325, term3325.getClass(), "month", (short) 2);
+        setShortField(term3325, term3325.getClass(), "day", (short) 18);
+        term3329 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term3329, term3329.getClass(), "year", 2028);
+        setShortField(term3329, term3329.getClass(), "month", (short) 5);
+        setShortField(term3329, term3329.getClass(), "day", (short) 29);
     }
 
     @Test
@@ -60,9 +60,9 @@ public class TrackUnitService_getSubmittedHoursForEmployee_38896033714 {
         argTypes[1] = Class.forName("java.time.LocalDate");
         argTypes[2] = Class.forName("java.time.LocalDate");
         Object[] args = new Object[3];
-        args[0] = term3313;
-        args[1] = term3349;
-        args[2] = term3353;
+        args[0] = term3289;
+        args[1] = term3325;
+        args[2] = term3329;
         callMethod(klass, "getSubmittedHoursForEmployee", argTypes, null, args);
     }
 

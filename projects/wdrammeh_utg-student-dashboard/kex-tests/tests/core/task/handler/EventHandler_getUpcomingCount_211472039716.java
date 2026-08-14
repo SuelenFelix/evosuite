@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class EventHandler_getUpcomingCount_211472039716 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term25357;
+     Object term25345;
 
     public EventHandler_getUpcomingCount_211472039716() {
     }
@@ -31,7 +31,7 @@ public class EventHandler_getUpcomingCount_211472039716 {
 
     @Before
     public void setup() throws Throwable {
-        term25357 = newInstance(Class.forName("core.task.handler.EventHandler"));
+        term25345 = newInstance(Class.forName("core.task.handler.EventHandler"));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class EventHandler_getUpcomingCount_211472039716 {
         Class<?> klass = Class.forName("core.task.handler.EventHandler");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getUpcomingCount", argTypes, term25357, args);
+        callMethod(klass, "getUpcomingCount", argTypes, term25345, args);
     }
 
 };

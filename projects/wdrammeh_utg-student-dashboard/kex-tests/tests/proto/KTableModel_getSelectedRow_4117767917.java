@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KTableModel_getSelectedRow_4117767917 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term69888;
+     Object term69937;
 
     public KTableModel_getSelectedRow_4117767917() {
     }
@@ -31,11 +31,11 @@ public class KTableModel_getSelectedRow_4117767917 {
 
     @Before
     public void setup() throws Throwable {
-        term69888 = newInstance(Class.forName("proto.KTableModel"));
-        setField(term69888, term69888.getClass(), "table", null);
-        setField(term69888, term69888.getClass(), "dataVector", null);
-        setField(term69888, term69888.getClass(), "columnIdentifiers", null);
-        setField(term69888, term69888.getClass(), "listenerList", null);
+        term69937 = newInstance(Class.forName("proto.KTableModel"));
+        setField(term69937, term69937.getClass(), "table", null);
+        setField(term69937, term69937.getClass(), "dataVector", null);
+        setField(term69937, term69937.getClass(), "columnIdentifiers", null);
+        setField(term69937, term69937.getClass(), "listenerList", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KTableModel_getSelectedRow_4117767917 {
         Class<?> klass = Class.forName("proto.KTableModel");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getSelectedRow", argTypes, term69888, args);
+        callMethod(klass, "getSelectedRow", argTypes, term69937, args);
     }
 
 };

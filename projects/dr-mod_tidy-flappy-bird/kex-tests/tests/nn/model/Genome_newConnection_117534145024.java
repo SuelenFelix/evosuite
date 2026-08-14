@@ -21,8 +21,8 @@ import java.lang.Float;
 
 public class Genome_newConnection_117534145024 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10313;
-     Object term10314;
+     Object term10310;
+     Object term10311;
 
     public Genome_newConnection_117534145024() {
     }
@@ -33,13 +33,13 @@ public class Genome_newConnection_117534145024 {
 
     @Before
     public void setup() throws Throwable {
-        term10313 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10313, term10313.getClass(), "nodes", null);
-        setField(term10313, term10313.getClass(), "connections", null);
-        setField(term10313, term10313.getClass(), "nodeInnovator", null);
-        setField(term10313, term10313.getClass(), "connectionInnovator", null);
-        setField(term10313, term10313.getClass(), "random", null);
-        term10314 = new Float(0.0F);
+        term10310 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10310, term10310.getClass(), "nodes", null);
+        setField(term10310, term10310.getClass(), "connections", null);
+        setField(term10310, term10310.getClass(), "nodeInnovator", null);
+        setField(term10310, term10310.getClass(), "connectionInnovator", null);
+        setField(term10310, term10310.getClass(), "random", null);
+        term10311 = new Float(0.0F);
     }
 
     @Test
@@ -52,8 +52,8 @@ public class Genome_newConnection_117534145024 {
         Object[] args = new Object[3];
         args[0] = null;
         args[1] = null;
-        args[2] = term10314;
-        callMethod(klass, "newConnection", argTypes, term10313, args);
+        args[2] = term10311;
+        callMethod(klass, "newConnection", argTypes, term10310, args);
     }
 
 };

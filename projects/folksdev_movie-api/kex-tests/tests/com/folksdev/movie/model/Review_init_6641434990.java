@@ -21,7 +21,7 @@ import java.util.LinkedList;
 
 public class Review_init_6641434990 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term28811;
+     Object term28810;
 
     public Review_init_6641434990() {
     }
@@ -32,7 +32,7 @@ public class Review_init_6641434990 {
 
     @Before
     public void setup() throws Throwable {
-        term28811 = new LinkedList();
+        term28810 = new LinkedList();
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Review_init_6641434990 {
         Object[] args = new Object[3];
         args[0] = "ouCBOakoEl";
         args[1] = "wQVWUCbSgW";
-        args[2] = term28811;
+        args[2] = term28810;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

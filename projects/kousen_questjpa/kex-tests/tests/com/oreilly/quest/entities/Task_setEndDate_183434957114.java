@@ -62,12 +62,12 @@ public class Task_setEndDate_183434957114 {
         setField(term6603, term6603.getClass(), "name", "sEccwbJKYE");
         setIntField(term6603, term6603.getClass(), "priority", 3);
         setIntField(term6619, term6619.getClass(), "year", 2026);
-        setShortField(term6619, term6619.getClass(), "month", (short) 6);
-        setShortField(term6619, term6619.getClass(), "day", (short) 29);
+        setShortField(term6619, term6619.getClass(), "month", (short) 8);
+        setShortField(term6619, term6619.getClass(), "day", (short) 12);
         setField(term6603, term6603.getClass(), "startDate", term6619);
         setIntField(term6623, term6623.getClass(), "year", 2026);
-        setShortField(term6623, term6623.getClass(), "month", (short) 6);
-        setShortField(term6623, term6623.getClass(), "day", (short) 29);
+        setShortField(term6623, term6623.getClass(), "month", (short) 8);
+        setShortField(term6623, term6623.getClass(), "day", (short) 12);
         setField(term6603, term6603.getClass(), "endDate", term6623);
         setBooleanField(term6603, term6603.getClass(), "completed", false);
         setField(term6628, term6628.getClass(), "id", term6629);

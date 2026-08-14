@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class UpdateCategoryResponse_setImageUrl_27538229313 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1594;
+     Object term48893;
 
     public UpdateCategoryResponse_setImageUrl_27538229313() {
     }
@@ -31,11 +31,11 @@ public class UpdateCategoryResponse_setImageUrl_27538229313 {
 
     @Before
     public void setup() throws Throwable {
-        term1594 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse"));
-        setField(term1594, term1594.getClass(), "id", null);
-        setField(term1594, term1594.getClass(), "name", null);
-        setField(term1594, term1594.getClass(), "description", null);
-        setField(term1594, term1594.getClass(), "imageUrl", null);
+        term48893 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse"));
+        setField(term48893, term48893.getClass(), "id", null);
+        setField(term48893, term48893.getClass(), "name", null);
+        setField(term48893, term48893.getClass(), "description", null);
+        setField(term48893, term48893.getClass(), "imageUrl", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class UpdateCategoryResponse_setImageUrl_27538229313 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setImageUrl", argTypes, term1594, args);
+        callMethod(klass, "setImageUrl", argTypes, term48893, args);
     }
 
 };

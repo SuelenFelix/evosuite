@@ -298,7 +298,7 @@ public class News_answerActivity_3687289951 {
         setIntField(term172461, term172461.getClass(), "depth", 24);
         setIntField(term172461, term172461.getClass(), "colormap", 32);
         setField(term172461, term172461.getClass(), "colorModel", null);
-        setLongField(term172461, term172461.getClass(), "aData", 132177286166672L);
+        setLongField(term172461, term172461.getClass(), "aData", 127144459565888L);
         setBooleanField(term172461, term172461.getClass(), "doubleBuffer", true);
         setField(term172461, term172461.getClass(), "disposerReferent", null);
         setField(term172461, term172461.getClass(), "bufferCaps", null);

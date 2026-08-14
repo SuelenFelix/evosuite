@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SessionEmployeePrincipal_hashCode_61660416539 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2879;
+     Object term3253;
 
     public SessionEmployeePrincipal_hashCode_61660416539() {
     }
@@ -31,11 +31,11 @@ public class SessionEmployeePrincipal_hashCode_61660416539 {
 
     @Before
     public void setup() throws Throwable {
-        term2879 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2879, term2879.getClass(), "id", 0);
-        setField(term2879, term2879.getClass(), "email", null);
-        setField(term2879, term2879.getClass(), "employeeRoles", null);
-        setField(term2879, term2879.getClass(), "projectIdsByProjectRoles", null);
+        term3253 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3253, term3253.getClass(), "id", 0);
+        setField(term3253, term3253.getClass(), "email", null);
+        setField(term3253, term3253.getClass(), "employeeRoles", null);
+        setField(term3253, term3253.getClass(), "projectIdsByProjectRoles", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class SessionEmployeePrincipal_hashCode_61660416539 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term2879, args);
+        callMethod(klass, "hashCode", argTypes, term3253, args);
     }
 
 };

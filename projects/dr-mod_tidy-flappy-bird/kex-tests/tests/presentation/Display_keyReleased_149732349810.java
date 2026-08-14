@@ -157,7 +157,7 @@ public class Display_keyReleased_149732349810 {
         setIntField(term1843, term1843.getClass(), "yOpeningEnd", 0);
         setIntField(term1843, term1843.getClass(), "width", 0);
         setField(term1832, term1832.getClass(), "lastPipe", term1843);
-        setLongField(term1849, term1849.getClass(), "value", 273179421166530L);
+        setLongField(term1849, term1849.getClass(), "value", 91956878702440L);
         setField(term1848, term1848.getClass(), "seed", term1849);
         setDoubleField(term1848, term1848.getClass(), "nextNextGaussian", 0.0);
         setBooleanField(term1848, term1848.getClass(), "haveNextNextGaussian", false);

@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class SessionEmployeePrincipal_isEmployee_152012492230 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2859;
-     Object term2861;
+     Object term3233;
+     Object term3235;
 
     public SessionEmployeePrincipal_isEmployee_152012492230() {
     }
@@ -33,12 +33,12 @@ public class SessionEmployeePrincipal_isEmployee_152012492230 {
 
     @Before
     public void setup() throws Throwable {
-        term2859 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2859, term2859.getClass(), "id", 0);
-        setField(term2859, term2859.getClass(), "email", null);
-        setField(term2859, term2859.getClass(), "employeeRoles", null);
-        setField(term2859, term2859.getClass(), "projectIdsByProjectRoles", null);
-        term2861 = new Integer(0);
+        term3233 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3233, term3233.getClass(), "id", 0);
+        setField(term3233, term3233.getClass(), "email", null);
+        setField(term3233, term3233.getClass(), "employeeRoles", null);
+        setField(term3233, term3233.getClass(), "projectIdsByProjectRoles", null);
+        term3235 = new Integer(0);
     }
 
     @Test
@@ -47,8 +47,8 @@ public class SessionEmployeePrincipal_isEmployee_152012492230 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term2861;
-        callMethod(klass, "isEmployee", argTypes, term2859, args);
+        args[0] = term3235;
+        callMethod(klass, "isEmployee", argTypes, term3233, args);
     }
 
 };

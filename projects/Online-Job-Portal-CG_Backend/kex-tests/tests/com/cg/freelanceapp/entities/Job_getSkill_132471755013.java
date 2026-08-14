@@ -232,8 +232,8 @@ public class Job_getSkill_132471755013 {
         setField(term6254, term6254.getClass(), "freelancers", term6326);
         setField(term6200, term6200.getClass(), "postedBy", term6254);
         setIntField(term6340, term6340.getClass(), "year", 2026);
-        setShortField(term6340, term6340.getClass(), "month", (short) 6);
-        setShortField(term6340, term6340.getClass(), "day", (short) 29);
+        setShortField(term6340, term6340.getClass(), "month", (short) 8);
+        setShortField(term6340, term6340.getClass(), "day", (short) 11);
         setField(term6200, term6200.getClass(), "postedDate", term6340);
         setField(term6344, term6344.getClass(), "id", null);
         setField(term6344, term6344.getClass(), "userName", null);

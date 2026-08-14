@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SocialMedia_copy_88550843615 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34830;
+     Object term34829;
 
     public SocialMedia_copy_88550843615() {
     }
@@ -31,9 +31,9 @@ public class SocialMedia_copy_88550843615 {
 
     @Before
     public void setup() throws Throwable {
-        term34830 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
-        setField(term34830, term34830.getClass(), "id", null);
-        setField(term34830, term34830.getClass(), "url", null);
+        term34829 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
+        setField(term34829, term34829.getClass(), "id", null);
+        setField(term34829, term34829.getClass(), "url", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class SocialMedia_copy_88550843615 {
         Object[] args = new Object[2];
         args[0] = null;
         args[1] = null;
-        callMethod(klass, "copy", argTypes, term34830, args);
+        callMethod(klass, "copy", argTypes, term34829, args);
     }
 
 };

@@ -22,8 +22,8 @@ import java.lang.Long;
 
 public class ObservationTaskService_removeObservationForTask_146447361 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term23883;
-     Object term23885;
+     Object term24023;
+     Object term24025;
 
     public ObservationTaskService_removeObservationForTask_146447361() {
     }
@@ -34,8 +34,8 @@ public class ObservationTaskService_removeObservationForTask_146447361 {
 
     @Before
     public void setup() throws Throwable {
-        term23883 = new Integer(1146601902);
-        term23885 = new Long(-7672528020740371001L);
+        term24023 = new Integer(1146601902);
+        term24025 = new Long(-7672528020740371001L);
     }
 
     @Test
@@ -45,8 +45,8 @@ public class ObservationTaskService_removeObservationForTask_146447361 {
         argTypes[0] = int.class;
         argTypes[1] = long.class;
         Object[] args = new Object[2];
-        args[0] = term23883;
-        args[1] = term23885;
+        args[0] = term24023;
+        args[1] = term24025;
         callMethod(klass, "removeObservationForTask", argTypes, null, args);
     }
 

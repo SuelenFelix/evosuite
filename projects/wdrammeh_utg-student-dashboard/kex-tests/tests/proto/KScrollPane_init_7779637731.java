@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KScrollPane_init_7779637731 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term60847;
+     Object term60896;
 
     public KScrollPane_init_7779637731() {
     }
@@ -31,9 +31,9 @@ public class KScrollPane_init_7779637731 {
 
     @Before
     public void setup() throws Throwable {
-        term60847 = newInstance(Class.forName("java.awt.Dimension"));
-        setIntField(term60847, term60847.getClass(), "width", 674879025);
-        setIntField(term60847, term60847.getClass(), "height", -1538936030);
+        term60896 = newInstance(Class.forName("java.awt.Dimension"));
+        setIntField(term60896, term60896.getClass(), "width", 674879025);
+        setIntField(term60896, term60896.getClass(), "height", -1538936030);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class KScrollPane_init_7779637731 {
         argTypes[1] = Class.forName("java.awt.Dimension");
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term60847;
+        args[1] = term60896;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

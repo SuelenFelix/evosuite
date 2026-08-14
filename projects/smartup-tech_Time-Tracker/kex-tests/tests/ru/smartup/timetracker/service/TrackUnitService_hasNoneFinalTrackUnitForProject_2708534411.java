@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class TrackUnitService_hasNoneFinalTrackUnitForProject_2708534411 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3229;
+     Object term3205;
 
     public TrackUnitService_hasNoneFinalTrackUnitForProject_2708534411() {
     }
@@ -32,7 +32,7 @@ public class TrackUnitService_hasNoneFinalTrackUnitForProject_2708534411 {
 
     @Before
     public void setup() throws Throwable {
-        term3229 = new Integer(282916351);
+        term3205 = new Integer(282916351);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TrackUnitService_hasNoneFinalTrackUnitForProject_2708534411 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term3229;
+        args[0] = term3205;
         callMethod(klass, "hasNoneFinalTrackUnitForProject", argTypes, null, args);
     }
 

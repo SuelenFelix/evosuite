@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class TrackUnitService_hasNoneFinalTrackUnitForEmployee_16707108300 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3227;
+     Object term3203;
 
     public TrackUnitService_hasNoneFinalTrackUnitForEmployee_16707108300() {
     }
@@ -32,7 +32,7 @@ public class TrackUnitService_hasNoneFinalTrackUnitForEmployee_16707108300 {
 
     @Before
     public void setup() throws Throwable {
-        term3227 = new Integer(-2131181468);
+        term3203 = new Integer(-2131181468);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TrackUnitService_hasNoneFinalTrackUnitForEmployee_16707108300 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term3227;
+        args[0] = term3203;
         callMethod(klass, "hasNoneFinalTrackUnitForEmployee", argTypes, null, args);
     }
 

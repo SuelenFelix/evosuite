@@ -616,7 +616,7 @@ public class ModuleAnalysis_2_init_17513382140 {
         setField(term83227, term83227.getClass(), "keySet", null);
         setField(term83227, term83227.getClass(), "values", null);
         setField(term83216, term83216.getClass(), "moduleToReader", term83227);
-        setLongField(term83232, term83232.getClass(), "timestamp", 163410407L);
+        setLongField(term83232, term83232.getClass(), "timestamp", 51681018L);
         setField(term83232, term83232.getClass(), "referent", null);
         setField(term83232, term83232.getClass(), "queue", null);
         setField(term83232, term83232.getClass(), "next", null);
@@ -2477,11 +2477,11 @@ public class ModuleAnalysis_2_init_17513382140 {
         Object term84410 = newInstance(Class.forName("java.lang.ref.SoftReference"));
         Object term84412 = newInstance(Class.forName("java.lang.ref.ReferenceQueue"));
         Object term84413 = newInstance(Class.forName("java.lang.ref.ReferenceQueue$Lock"));
-        setIntField(term84381, term84381.getClass(), "hash", 1750330132);
+        setIntField(term84381, term84381.getClass(), "hash", 2001025200);
         setField(term84381, term84381.getClass(), "key", term84383);
         setField(term84381, term84381.getClass(), "value", term84384);
         setField(term84381, term84381.getClass(), "next", null);
-        setElement(term84380, 1, term84381);
+        setElement(term84380, 9, term84381);
         setField(term84379, term84379.getClass(), "table", term84380);
         setIntField(term84379, term84379.getClass(), "count", 1);
         setIntField(term84379, term84379.getClass(), "threshold", 8);

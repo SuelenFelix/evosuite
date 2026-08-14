@@ -1,16 +1,16 @@
-2026-06-28 23:17:11.726 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/markbdsouza_hateoas-with-pagination/target/classes
-2026-06-28 23:17:11.812 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 23:17:11.884 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 23:17:12.929 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 23:17:13.448 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/markbdsouza/hateoaspagination/customer/*
-2026-06-28 23:17:13.449 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 23:17:13.460 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/markbdsouza_hateoas-with-pagination/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 23:17:13.495 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/markbdsouza_hateoas-with-pagination/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 34749 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/markbdsouza_hateoas-with-pagination/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 23:17:13.510 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 23:18:53.548 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void
-2026-06-28 23:18:53.548 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void
+2026-08-11 17:05:26.677 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/markbdsouza_hateoas-with-pagination/target/classes
+2026-08-11 17:05:26.773 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 17:05:26.848 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 17:05:27.975 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 17:05:28.657 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/markbdsouza/hateoaspagination/customer/*
+2026-08-11 17:05:28.659 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 17:05:28.686 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/markbdsouza_hateoas-with-pagination/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 17:05:28.739 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/markbdsouza_hateoas-with-pagination/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 46313 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/markbdsouza_hateoas-with-pagination/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 17:05:28.798 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 17:07:08.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void
+2026-08-11 17:07:08.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,7 +20,7 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:53.553 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.800 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -56,7 +56,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 23:18:53.553 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.800 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -92,9 +92,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 23:18:53.553 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void: null
-2026-06-28 23:18:53.553 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List
-2026-06-28 23:18:53.554 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List
+2026-08-11 17:07:08.800 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void: null
+2026-08-11 17:07:08.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List
+2026-08-11 17:07:08.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -108,7 +108,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 23:18:53.554 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.801 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -143,7 +143,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.554 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.801 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -178,9 +178,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.554 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List: null
-2026-06-28 23:18:53.555 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List
-2026-06-28 23:18:53.555 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List
+2026-08-11 17:07:08.801 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List: null
+2026-08-11 17:07:08.801 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List
+2026-08-11 17:07:08.801 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -194,7 +194,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 23:18:53.555 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.802 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -229,7 +229,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.556 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.802 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -264,9 +264,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.556 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List: null
-2026-06-28 23:18:53.556 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
-2026-06-28 23:18:53.556 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
+2026-08-11 17:07:08.802 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List: null
+2026-08-11 17:07:08.802 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
+2026-08-11 17:07:08.803 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -284,7 +284,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 
 %bb2: 	//predecessors %bb1
 	return %5
-2026-06-28 23:18:53.557 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.803 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -319,7 +319,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.557 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.803 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -354,9 +354,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.557 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page: null
-2026-06-28 23:18:53.557 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page
-2026-06-28 23:18:53.557 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page
+2026-08-11 17:07:08.803 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page: null
+2026-08-11 17:07:08.803 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page
+2026-08-11 17:07:08.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -382,7 +382,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 
 %bb4: 	//predecessors %bb3
 	return %9
-2026-06-28 23:18:53.558 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.804 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -417,7 +417,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.559 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.805 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -452,9 +452,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.559 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page: null
-2026-06-28 23:18:53.559 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List
-2026-06-28 23:18:53.559 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List
+2026-08-11 17:07:08.805 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page: null
+2026-08-11 17:07:08.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List
+2026-08-11 17:07:08.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -516,7 +516,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 
 %if.then1: 	//predecessors %bb2
 	return %26
-2026-06-28 23:18:53.560 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -551,7 +551,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.560 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -586,15 +586,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:53.560 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List: null
-2026-06-28 23:18:53.560 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void processing is finished normally
-2026-06-28 23:18:53.560 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List processing is finished normally
-2026-06-28 23:18:53.560 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List processing is finished normally
-2026-06-28 23:18:53.560 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page processing is finished normally
-2026-06-28 23:18:53.561 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page processing is finished normally
-2026-06-28 23:18:53.561 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List processing is finished normally
-2026-06-28 23:18:53.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::<init>(): void
-2026-06-28 23:18:53.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::<init>(): void
+2026-08-11 17:07:08.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List: null
+2026-08-11 17:07:08.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::<init>(): void processing is finished normally
+2026-08-11 17:07:08.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsList(): java/util/List processing is finished normally
+2026-08-11 17:07:08.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchFilteredCustomerDataAsList(java/lang/String, java/lang/String): java/util/List processing is finished normally
+2026-08-11 17:07:08.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFiltering(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page processing is finished normally
+2026-08-11 17:07:08.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::fetchCustomerDataAsPageWithFilteringAndSorting(java/lang/String, java/lang/String, int, int, java/util/List, java/lang/String): org/springframework/data/domain/Page processing is finished normally
+2026-08-11 17:07:08.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerService::createSortOrder(java/util/List, java/lang/String): java/util/List processing is finished normally
+2026-08-11 17:07:08.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::<init>(): void
+2026-08-11 17:07:08.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -604,7 +604,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.domain.Pag
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:53.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/RepresentationModelAssemblerSupport
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -628,7 +628,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:53.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/RepresentationModelAssemblerSupport
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -652,9 +652,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:53.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::<init>(): void: null
-2026-06-28 23:18:53.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::toModel(com/markbdsouza/hateoaspagination/customer/Customer): com/markbdsouza/hateoaspagination/customer/CustomerModel
-2026-06-28 23:18:53.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::toModel(com/markbdsouza/hateoaspagination/customer/Customer): com/markbdsouza/hateoaspagination/customer/CustomerModel
+2026-08-11 17:07:08.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::<init>(): void: null
+2026-08-11 17:07:08.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::toModel(com/markbdsouza/hateoaspagination/customer/Customer): com/markbdsouza/hateoaspagination/customer/CustomerModel
+2026-08-11 17:07:08.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::toModel(com/markbdsouza/hateoaspagination/customer/Customer): com/markbdsouza/hateoaspagination/customer/CustomerModel
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -669,7 +669,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %label0
 	return %3
-2026-06-28 23:18:53.566 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.813 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/RepresentationModelAssemblerSupport
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -693,7 +693,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:53.566 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:08.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/RepresentationModelAssemblerSupport
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -717,11 +717,11 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:53.566 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::toModel(com/markbdsouza/hateoaspagination/customer/Customer): com/markbdsouza/hateoaspagination/customer/CustomerModel: null
-2026-06-28 23:18:53.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::<init>(): void processing is finished normally
-2026-06-28 23:18:53.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::toModel(com/markbdsouza/hateoaspagination/customer/Customer): com/markbdsouza/hateoaspagination/customer/CustomerModel processing is finished normally
-2026-06-28 23:18:53.570 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::<init>(): void
-2026-06-28 23:18:53.570 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::<init>(): void
+2026-08-11 17:07:08.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::toModel(com/markbdsouza/hateoaspagination/customer/Customer): com/markbdsouza/hateoaspagination/customer/CustomerModel: null
+2026-08-11 17:07:08.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::<init>(): void processing is finished normally
+2026-08-11 17:07:08.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModelAssembler::toModel(com/markbdsouza/hateoaspagination/customer/Customer): com/markbdsouza/hateoaspagination/customer/CustomerModel processing is finished normally
+2026-08-11 17:07:08.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::<init>(): void
+2026-08-11 17:07:08.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -731,9 +731,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:54.026 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_init_10147069440
-2026-06-28 23:18:54.032 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::getId(): java/lang/Long
-2026-06-28 23:18:54.032 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::getId(): java/lang/Long
+2026-08-11 17:07:09.264 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_init_10147069440
+2026-08-11 17:07:09.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::getId(): java/lang/Long
+2026-08-11 17:07:09.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::getId(): java/lang/Long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -743,9 +743,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 23:18:54.149 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getId_333202611
-2026-06-28 23:18:54.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::setId(java/lang/Long): void
-2026-06-28 23:18:54.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::setId(java/lang/Long): void
+2026-08-11 17:07:09.385 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getId_333202611
+2026-08-11 17:07:09.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::setId(java/lang/Long): void
+2026-08-11 17:07:09.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::setId(java/lang/Long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -755,9 +755,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:54.233 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setId_4633620192
-2026-06-28 23:18:54.234 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::getCustomerId(): java/lang/String
-2026-06-28 23:18:54.234 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::getCustomerId(): java/lang/String
+2026-08-11 17:07:09.467 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setId_4633620192
+2026-08-11 17:07:09.468 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::getCustomerId(): java/lang/String
+2026-08-11 17:07:09.468 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::getCustomerId(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -767,9 +767,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 23:18:54.309 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_2823286543
-2026-06-28 23:18:54.310 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::setCustomerId(java/lang/String): void
-2026-06-28 23:18:54.310 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::setCustomerId(java/lang/String): void
+2026-08-11 17:07:09.539 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_2823286543
+2026-08-11 17:07:09.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::setCustomerId(java/lang/String): void
+2026-08-11 17:07:09.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::setCustomerId(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -779,9 +779,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:54.378 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_11673924744
-2026-06-28 23:18:54.378 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::getFirstName(): java/lang/String
-2026-06-28 23:18:54.379 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::getFirstName(): java/lang/String
+2026-08-11 17:07:09.607 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_11673924744
+2026-08-11 17:07:09.607 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::getFirstName(): java/lang/String
+2026-08-11 17:07:09.608 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::getFirstName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -791,9 +791,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 23:18:54.461 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_2165744365
-2026-06-28 23:18:54.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::setFirstName(java/lang/String): void
-2026-06-28 23:18:54.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::setFirstName(java/lang/String): void
+2026-08-11 17:07:09.670 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_2165744365
+2026-08-11 17:07:09.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::setFirstName(java/lang/String): void
+2026-08-11 17:07:09.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::setFirstName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -803,9 +803,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:54.529 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_3793318766
-2026-06-28 23:18:54.529 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::getLastName(): java/lang/String
-2026-06-28 23:18:54.529 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::getLastName(): java/lang/String
+2026-08-11 17:07:09.724 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_3793318766
+2026-08-11 17:07:09.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::getLastName(): java/lang/String
+2026-08-11 17:07:09.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::getLastName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -815,9 +815,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 23:18:54.586 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getLastName_7630462827
-2026-06-28 23:18:54.586 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::setLastName(java/lang/String): void
-2026-06-28 23:18:54.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::setLastName(java/lang/String): void
+2026-08-11 17:07:09.779 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getLastName_7630462827
+2026-08-11 17:07:09.780 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/Customer::setLastName(java/lang/String): void
+2026-08-11 17:07:09.780 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/Customer::setLastName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -827,36 +827,36 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:54.650 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setLastName_19455785748
-2026-06-28 23:18:54.723 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_init_10147069449
-2026-06-28 23:18:54.766 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getId_3332026110
-2026-06-28 23:18:54.817 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setId_46336201911
-2026-06-28 23:18:54.862 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_28232865412
-2026-06-28 23:18:54.903 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_116739247413
-2026-06-28 23:18:54.962 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_21657443614
-2026-06-28 23:18:55.004 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_37933187615
-2026-06-28 23:18:55.044 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getLastName_76304628216
-2026-06-28 23:18:55.084 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setLastName_194557857417
-2026-06-28 23:18:55.085 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::<init>(): void: null
-2026-06-28 23:18:55.085 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::getId(): java/lang/Long: null
-2026-06-28 23:18:55.085 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::setId(java/lang/Long): void: null
-2026-06-28 23:18:55.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::getCustomerId(): java/lang/String: null
-2026-06-28 23:18:55.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::setCustomerId(java/lang/String): void: null
-2026-06-28 23:18:55.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::getFirstName(): java/lang/String: null
-2026-06-28 23:18:55.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::setFirstName(java/lang/String): void: null
-2026-06-28 23:18:55.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::getLastName(): java/lang/String: null
-2026-06-28 23:18:55.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::setLastName(java/lang/String): void: null
-2026-06-28 23:18:55.086 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::<init>(): void processing is finished normally
-2026-06-28 23:18:55.086 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::getId(): java/lang/Long processing is finished normally
-2026-06-28 23:18:55.086 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::setId(java/lang/Long): void processing is finished normally
-2026-06-28 23:18:55.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::getCustomerId(): java/lang/String processing is finished normally
-2026-06-28 23:18:55.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::setCustomerId(java/lang/String): void processing is finished normally
-2026-06-28 23:18:55.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::getFirstName(): java/lang/String processing is finished normally
-2026-06-28 23:18:55.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::setFirstName(java/lang/String): void processing is finished normally
-2026-06-28 23:18:55.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::getLastName(): java/lang/String processing is finished normally
-2026-06-28 23:18:55.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::setLastName(java/lang/String): void processing is finished normally
-2026-06-28 23:18:55.090 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::<init>(): void
-2026-06-28 23:18:55.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::<init>(): void
+2026-08-11 17:07:09.845 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setLastName_19455785748
+2026-08-11 17:07:09.893 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_init_10147069449
+2026-08-11 17:07:09.946 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getId_3332026110
+2026-08-11 17:07:09.992 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setId_46336201911
+2026-08-11 17:07:10.055 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_28232865412
+2026-08-11 17:07:10.098 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_116739247413
+2026-08-11 17:07:10.137 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_21657443614
+2026-08-11 17:07:10.178 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_37933187615
+2026-08-11 17:07:10.219 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_getLastName_76304628216
+2026-08-11 17:07:10.258 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.markbdsouza.hateoaspagination.customer.Customer_setLastName_194557857417
+2026-08-11 17:07:10.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::<init>(): void: null
+2026-08-11 17:07:10.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::getId(): java/lang/Long: null
+2026-08-11 17:07:10.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::setId(java/lang/Long): void: null
+2026-08-11 17:07:10.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::getCustomerId(): java/lang/String: null
+2026-08-11 17:07:10.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::setCustomerId(java/lang/String): void: null
+2026-08-11 17:07:10.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::getFirstName(): java/lang/String: null
+2026-08-11 17:07:10.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::setFirstName(java/lang/String): void: null
+2026-08-11 17:07:10.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::getLastName(): java/lang/String: null
+2026-08-11 17:07:10.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/Customer::setLastName(java/lang/String): void: null
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::<init>(): void processing is finished normally
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::getId(): java/lang/Long processing is finished normally
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::setId(java/lang/Long): void processing is finished normally
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::getCustomerId(): java/lang/String processing is finished normally
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::setCustomerId(java/lang/String): void processing is finished normally
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::getFirstName(): java/lang/String processing is finished normally
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::setFirstName(java/lang/String): void processing is finished normally
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::getLastName(): java/lang/String processing is finished normally
+2026-08-11 17:07:10.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/Customer::setLastName(java/lang/String): void processing is finished normally
+2026-08-11 17:07:10.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::<init>(): void
+2026-08-11 17:07:10.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -866,7 +866,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/server/mvc/Represe
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:55.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.265 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -890,7 +890,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.265 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -914,9 +914,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::<init>(): void: null
-2026-06-28 23:18:55.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::getId(): java/lang/Long
-2026-06-28 23:18:55.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::getId(): java/lang/Long
+2026-08-11 17:07:10.265 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::<init>(): void: null
+2026-08-11 17:07:10.265 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::getId(): java/lang/Long
+2026-08-11 17:07:10.265 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::getId(): java/lang/Long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -926,7 +926,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 23:18:55.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.265 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -950,7 +950,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.265 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -974,9 +974,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::getId(): java/lang/Long: null
-2026-06-28 23:18:55.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::setId(java/lang/Long): void
-2026-06-28 23:18:55.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::setId(java/lang/Long): void
+2026-08-11 17:07:10.265 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::getId(): java/lang/Long: null
+2026-08-11 17:07:10.266 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::setId(java/lang/Long): void
+2026-08-11 17:07:10.266 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::setId(java/lang/Long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -986,7 +986,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:55.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.266 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1010,7 +1010,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.266 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1034,9 +1034,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::setId(java/lang/Long): void: null
-2026-06-28 23:18:55.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::getCustomerId(): java/lang/String
-2026-06-28 23:18:55.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::getCustomerId(): java/lang/String
+2026-08-11 17:07:10.266 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::setId(java/lang/Long): void: null
+2026-08-11 17:07:10.266 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::getCustomerId(): java/lang/String
+2026-08-11 17:07:10.266 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::getCustomerId(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1046,7 +1046,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 23:18:55.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.267 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1070,7 +1070,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.267 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1094,9 +1094,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::getCustomerId(): java/lang/String: null
-2026-06-28 23:18:55.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::setCustomerId(java/lang/String): void
-2026-06-28 23:18:55.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::setCustomerId(java/lang/String): void
+2026-08-11 17:07:10.267 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::getCustomerId(): java/lang/String: null
+2026-08-11 17:07:10.267 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::setCustomerId(java/lang/String): void
+2026-08-11 17:07:10.267 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::setCustomerId(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1106,7 +1106,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:55.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.267 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1130,7 +1130,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.267 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1154,9 +1154,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::setCustomerId(java/lang/String): void: null
-2026-06-28 23:18:55.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::getFirstName(): java/lang/String
-2026-06-28 23:18:55.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::getFirstName(): java/lang/String
+2026-08-11 17:07:10.267 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::setCustomerId(java/lang/String): void: null
+2026-08-11 17:07:10.268 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::getFirstName(): java/lang/String
+2026-08-11 17:07:10.268 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::getFirstName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1166,7 +1166,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 23:18:55.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.268 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1190,7 +1190,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.268 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1214,9 +1214,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::getFirstName(): java/lang/String: null
-2026-06-28 23:18:55.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::setFirstName(java/lang/String): void
-2026-06-28 23:18:55.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::setFirstName(java/lang/String): void
+2026-08-11 17:07:10.268 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::getFirstName(): java/lang/String: null
+2026-08-11 17:07:10.268 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::setFirstName(java/lang/String): void
+2026-08-11 17:07:10.268 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::setFirstName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1226,7 +1226,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:55.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.269 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1250,7 +1250,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.269 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1274,9 +1274,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::setFirstName(java/lang/String): void: null
-2026-06-28 23:18:55.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::getLastName(): java/lang/String
-2026-06-28 23:18:55.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::getLastName(): java/lang/String
+2026-08-11 17:07:10.269 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::setFirstName(java/lang/String): void: null
+2026-08-11 17:07:10.269 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::getLastName(): java/lang/String
+2026-08-11 17:07:10.269 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::getLastName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1286,7 +1286,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 23:18:55.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.269 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1310,7 +1310,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.269 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1334,9 +1334,9 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::getLastName(): java/lang/String: null
-2026-06-28 23:18:55.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::setLastName(java/lang/String): void
-2026-06-28 23:18:55.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::setLastName(java/lang/String): void
+2026-08-11 17:07:10.269 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::getLastName(): java/lang/String: null
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerModel::setLastName(java/lang/String): void
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerModel::setLastName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1346,7 +1346,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:55.096 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.270 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1370,7 +1370,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.096 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.270 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationModel
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1394,18 +1394,18 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.096 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::setLastName(java/lang/String): void: null
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::<init>(): void processing is finished normally
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::getId(): java/lang/Long processing is finished normally
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::setId(java/lang/Long): void processing is finished normally
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::getCustomerId(): java/lang/String processing is finished normally
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::setCustomerId(java/lang/String): void processing is finished normally
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::getFirstName(): java/lang/String processing is finished normally
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::setFirstName(java/lang/String): void processing is finished normally
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::getLastName(): java/lang/String processing is finished normally
-2026-06-28 23:18:55.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::setLastName(java/lang/String): void processing is finished normally
-2026-06-28 23:18:55.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void
-2026-06-28 23:18:55.101 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void
+2026-08-11 17:07:10.270 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerModel::setLastName(java/lang/String): void: null
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::<init>(): void processing is finished normally
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::getId(): java/lang/Long processing is finished normally
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::setId(java/lang/Long): void processing is finished normally
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::getCustomerId(): java/lang/String processing is finished normally
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::setCustomerId(java/lang/String): void processing is finished normally
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::getFirstName(): java/lang/String processing is finished normally
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::setFirstName(java/lang/String): void processing is finished normally
+2026-08-11 17:07:10.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::getLastName(): java/lang/String processing is finished normally
+2026-08-11 17:07:10.271 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerModel::setLastName(java/lang/String): void processing is finished normally
+2026-08-11 17:07:10.274 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void
+2026-08-11 17:07:10.274 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1415,7 +1415,7 @@ java.lang.ClassNotFoundException: org/springframework/hateoas/RepresentationMode
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 23:18:55.101 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.275 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -1451,7 +1451,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 23:18:55.101 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.275 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -1487,9 +1487,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 23:18:55.101 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void: null
-2026-06-28 23:18:55.102 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List
-2026-06-28 23:18:55.102 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List
+2026-08-11 17:07:10.275 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void: null
+2026-08-11 17:07:10.275 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List
+2026-08-11 17:07:10.275 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1503,7 +1503,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 23:18:55.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.275 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1538,7 +1538,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:55.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1573,9 +1573,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:55.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List: null
-2026-06-28 23:18:55.102 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List
-2026-06-28 23:18:55.102 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List
+2026-08-11 17:07:10.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List: null
+2026-08-11 17:07:10.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List
+2026-08-11 17:07:10.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1589,7 +1589,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 23:18:55.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1624,7 +1624,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:55.103 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1659,9 +1659,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:55.103 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List: null
-2026-06-28 23:18:55.103 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
-2026-06-28 23:18:55.103 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
+2026-08-11 17:07:10.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List: null
+2026-08-11 17:07:10.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
+2026-08-11 17:07:10.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1675,7 +1675,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 23:18:55.103 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.277 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1710,7 +1710,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:55.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.277 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1745,9 +1745,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 23:18:55.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page: null
-2026-06-28 23:18:55.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterfaceAndSorted(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/data/domain/Page
-2026-06-28 23:18:55.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterfaceAndSorted(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/data/domain/Page
+2026-08-11 17:07:10.277 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page: null
+2026-08-11 17:07:10.277 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterfaceAndSorted(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/data/domain/Page
+2026-08-11 17:07:10.277 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterfaceAndSorted(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/data/domain/Page
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1765,7 +1765,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.hateoas.server.
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 23:18:55.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.278 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1792,7 +1792,7 @@ java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.278 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1819,9 +1819,9 @@ java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterfaceAndSorted(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/data/domain/Page: null
-2026-06-28 23:18:55.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPagination(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/hateoas/PagedModel
-2026-06-28 23:18:55.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPagination(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/hateoas/PagedModel
+2026-08-11 17:07:10.278 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterfaceAndSorted(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/data/domain/Page: null
+2026-08-11 17:07:10.278 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPagination(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/hateoas/PagedModel
+2026-08-11 17:07:10.278 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPagination(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/hateoas/PagedModel
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1851,7 +1851,7 @@ java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 
 %bb5: 	//predecessors %bb4
 	return %11
-2026-06-28 23:18:55.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.278 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1878,7 +1878,7 @@ java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.105 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 17:07:10.278 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1905,12 +1905,12 @@ java.lang.ClassNotFoundException: org.springframework.data.domain.Sort$Direction
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 23:18:55.105 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPagination(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/hateoas/PagedModel: null
-2026-06-28 23:18:55.105 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void processing is finished normally
-2026-06-28 23:18:55.105 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List processing is finished normally
-2026-06-28 23:18:55.105 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List processing is finished normally
-2026-06-28 23:18:55.105 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page processing is finished normally
-2026-06-28 23:18:55.105 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterfaceAndSorted(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/data/domain/Page processing is finished normally
-2026-06-28 23:18:55.105 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPagination(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/hateoas/PagedModel processing is finished normally
-2026-06-28 23:18:55.105 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 23:18:55.105 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 17:07:10.278 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPagination(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/hateoas/PagedModel: null
+2026-08-11 17:07:10.279 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::<init>(): void processing is finished normally
+2026-08-11 17:07:10.279 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsList(): java/util/List processing is finished normally
+2026-08-11 17:07:10.279 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersAsFilteredList(java/lang/String, java/lang/String): java/util/List processing is finished normally
+2026-08-11 17:07:10.279 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterface(java/lang/String, java/lang/String, int, int): org/springframework/data/domain/Page processing is finished normally
+2026-08-11 17:07:10.279 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPageInterfaceAndSorted(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/data/domain/Page processing is finished normally
+2026-08-11 17:07:10.279 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/markbdsouza/hateoaspagination/customer/CustomerController::fetchCustomersWithPagination(java/lang/String, java/lang/String, int, int, java/util/List, org/springframework/data/domain/Sort$Direction): org/springframework/hateoas/PagedModel processing is finished normally
+2026-08-11 17:07:10.279 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 17:07:10.279 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

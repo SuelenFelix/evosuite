@@ -33,10 +33,10 @@ public class CRUDFreezeService_getFreezeWithMinDateByStatus_4254020339 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term8361 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.FreezeRecordStatusEnum");
-        Field term8360 = ((Class) term8361).getDeclaredField((String) "DELETING");
-        ((Field) term8360).setAccessible(true);
-        enum17 = ((Field) term8360).get((Object) null);
+        Class<? extends Object> term8546 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.FreezeRecordStatusEnum");
+        Field term8545 = ((Class) term8546).getDeclaredField((String) "DELETING");
+        ((Field) term8545).setAccessible(true);
+        enum17 = ((Field) term8545).get((Object) null);
     }
 
     @Test

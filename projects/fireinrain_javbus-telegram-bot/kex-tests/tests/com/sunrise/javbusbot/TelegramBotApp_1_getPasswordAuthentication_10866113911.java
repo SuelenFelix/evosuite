@@ -68,7 +68,7 @@ public class TelegramBotApp_1_getPasswordAuthentication_10866113911 {
         setField(term1651, term1651.getClass(), "name", "PROXY");
         setIntField(term1651, term1651.getClass(), "ordinal", 0);
         setField(term1539, term1539.getClass(), "requestingAuthType", term1651);
-        setField(term1539, term1539.getClass(), "key", "810860754-1@com.sunrise.javbusbot.TelegramBotApp$1");
+        setField(term1539, term1539.getClass(), "key", "565341243-1@com.sunrise.javbusbot.TelegramBotApp$1");
     }
 
     @Test

@@ -57,7 +57,7 @@ public class PipesController_repurposePipes_20101054314 {
         setIntField(term219, term219.getClass(), "yOpeningEnd", -2063457669);
         setIntField(term219, term219.getClass(), "width", -1222006000);
         setField(term203, term203.getClass(), "lastPipe", term219);
-        setLongField(term225, term225.getClass(), "value", 258994784665478L);
+        setLongField(term225, term225.getClass(), "value", 71841399023968L);
         setField(term224, term224.getClass(), "seed", term225);
         setDoubleField(term224, term224.getClass(), "nextNextGaussian", 0.28570734989730284);
         setBooleanField(term224, term224.getClass(), "haveNextNextGaussian", false);

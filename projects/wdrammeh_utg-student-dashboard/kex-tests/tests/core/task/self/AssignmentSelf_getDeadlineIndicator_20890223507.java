@@ -354,7 +354,7 @@ public class AssignmentSelf_getDeadlineIndicator_20890223507 {
         setField(term5267, term5267.getClass(), "keySet", null);
         setField(term5267, term5267.getClass(), "values", null);
         setField(term5256, term5256.getClass(), "moduleToReader", term5267);
-        setLongField(term5272, term5272.getClass(), "timestamp", 164121360L);
+        setLongField(term5272, term5272.getClass(), "timestamp", 52397775L);
         setField(term5272, term5272.getClass(), "referent", null);
         setField(term5272, term5272.getClass(), "queue", null);
         setField(term5272, term5272.getClass(), "next", null);

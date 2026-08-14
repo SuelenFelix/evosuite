@@ -362,7 +362,7 @@ public class TodoSelf_setTotalTimeConsumed_85652587311 {
         setField(term86737, term86737.getClass(), "keySet", null);
         setField(term86737, term86737.getClass(), "values", null);
         setField(term86726, term86726.getClass(), "moduleToReader", term86737);
-        setLongField(term86742, term86742.getClass(), "timestamp", 164138908L);
+        setLongField(term86742, term86742.getClass(), "timestamp", 52416658L);
         setField(term86742, term86742.getClass(), "referent", null);
         setField(term86742, term86742.getClass(), "queue", null);
         setField(term86742, term86742.getClass(), "next", null);

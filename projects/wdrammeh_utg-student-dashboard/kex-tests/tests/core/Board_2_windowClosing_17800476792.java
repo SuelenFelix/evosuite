@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Board_2_windowClosing_17800476792 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term349793;
+     Object term349799;
 
     public Board_2_windowClosing_17800476792() {
     }
@@ -31,8 +31,8 @@ public class Board_2_windowClosing_17800476792 {
 
     @Before
     public void setup() throws Throwable {
-        term349793 = newInstance(Class.forName("core.Board$2"));
-        setField(term349793, term349793.getClass(), "this$0", null);
+        term349799 = newInstance(Class.forName("core.Board$2"));
+        setField(term349799, term349799.getClass(), "this$0", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class Board_2_windowClosing_17800476792 {
         argTypes[0] = Class.forName("java.awt.event.WindowEvent");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "windowClosing", argTypes, term349793, args);
+        callMethod(klass, "windowClosing", argTypes, term349799, args);
     }
 
 };

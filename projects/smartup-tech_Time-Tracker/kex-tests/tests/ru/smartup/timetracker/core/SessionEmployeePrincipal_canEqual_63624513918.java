@@ -26,8 +26,8 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_canEqual_63624513918 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2746;
-     Object term2778;
+     Object term3120;
+     Object term3152;
 
     public SessionEmployeePrincipal_canEqual_63624513918() {
     }
@@ -38,16 +38,16 @@ public class SessionEmployeePrincipal_canEqual_63624513918 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term2761 = new HashMap();
-        Set<Object> term2789 =  ((Map) term2761).keySet();
-        HashSet term2760 = new HashSet((Collection<? extends Object>) term2789);
-        HashMap term2773 = new HashMap();
-        term2746 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2746, term2746.getClass(), "id", -73683645);
-        setField(term2746, term2746.getClass(), "email", "RkybSrpybU");
-        setField(term2746, term2746.getClass(), "employeeRoles", term2760);
-        setField(term2746, term2746.getClass(), "projectIdsByProjectRoles", term2773);
-        term2778 = newInstance(Class.forName("java.lang.Object"));
+        HashMap term3135 = new HashMap();
+        Set<Object> term3163 =  ((Map) term3135).keySet();
+        HashSet term3134 = new HashSet((Collection<? extends Object>) term3163);
+        HashMap term3147 = new HashMap();
+        term3120 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3120, term3120.getClass(), "id", -73683645);
+        setField(term3120, term3120.getClass(), "email", "RkybSrpybU");
+        setField(term3120, term3120.getClass(), "employeeRoles", term3134);
+        setField(term3120, term3120.getClass(), "projectIdsByProjectRoles", term3147);
+        term3152 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -56,8 +56,8 @@ public class SessionEmployeePrincipal_canEqual_63624513918 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term2778;
-        callMethod(klass, "canEqual", argTypes, term2746, args);
+        args[0] = term3152;
+        callMethod(klass, "canEqual", argTypes, term3120, args);
     }
 
 };

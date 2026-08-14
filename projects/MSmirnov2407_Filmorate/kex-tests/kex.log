@@ -1,16 +1,16 @@
-2026-06-29 06:16:42.194 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/MSmirnov2407_Filmorate/target/classes
-2026-06-29 06:16:42.302 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 06:16:42.367 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 06:16:43.184 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 06:16:43.701 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package ru/yandex/practicum/filmorate/storage/*
-2026-06-29 06:16:43.702 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 06:16:43.716 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/MSmirnov2407_Filmorate/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 06:16:43.748 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/MSmirnov2407_Filmorate/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 41115 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/MSmirnov2407_Filmorate/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 06:16:43.763 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 06:18:23.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::create(ru/yandex/practicum/filmorate/model/Element): int
-2026-06-29 06:18:23.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::create(ru/yandex/practicum/filmorate/model/Element): int
+2026-08-12 09:03:34.638 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/MSmirnov2407_Filmorate/target/classes
+2026-08-12 09:03:34.742 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 09:03:34.803 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 09:03:35.649 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 09:03:36.193 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package ru/yandex/practicum/filmorate/storage/*
+2026-08-12 09:03:36.194 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 09:03:36.206 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/MSmirnov2407_Filmorate/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 09:03:36.237 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/MSmirnov2407_Filmorate/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 43761 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/MSmirnov2407_Filmorate/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 09:03:36.249 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 09:05:16.286 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::create(ru/yandex/practicum/filmorate/model/Element): int
+2026-08-12 09:05:16.286 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::create(ru/yandex/practicum/filmorate/model/Element): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -53,9 +53,9 @@
 
 %bb8: 	//predecessors %label0
 	return %14
-2026-06-29 06:18:24.271 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_create_13177499700
-2026-06-29 06:18:24.277 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::update(ru/yandex/practicum/filmorate/model/Element): int
-2026-06-29 06:18:24.277 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::update(ru/yandex/practicum/filmorate/model/Element): int
+2026-08-12 09:05:16.776 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_create_13177499700
+2026-08-12 09:05:16.781 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::update(ru/yandex/practicum/filmorate/model/Element): int
+2026-08-12 09:05:16.782 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::update(ru/yandex/practicum/filmorate/model/Element): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -98,9 +98,9 @@
 
 %bb7: 	//predecessors %bb6
 	return %17
-2026-06-29 06:18:24.387 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_update_8199284151
-2026-06-29 06:18:24.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::delete(int): void
-2026-06-29 06:18:24.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::delete(int): void
+2026-08-12 09:05:16.896 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_update_8199284151
+2026-08-12 09:05:16.897 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::delete(int): void
+2026-08-12 09:05:16.897 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::delete(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -118,9 +118,9 @@
 
 %label0: 	//predecessors %bb2
 	return
-2026-06-29 06:18:24.475 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_delete_3354062002
-2026-06-29 06:18:24.476 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getAll(): java/util/List
-2026-06-29 06:18:24.476 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getAll(): java/util/List
+2026-08-12 09:05:16.990 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_delete_3354062002
+2026-08-12 09:05:16.991 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getAll(): java/util/List
+2026-08-12 09:05:16.991 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getAll(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -139,9 +139,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 06:18:24.550 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_getAll_6602163683
-2026-06-29 06:18:24.551 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getById(int): ru/yandex/practicum/filmorate/model/Element
-2026-06-29 06:18:24.551 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getById(int): ru/yandex/practicum/filmorate/model/Element
+2026-08-12 09:05:17.063 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_getAll_6602163683
+2026-08-12 09:05:17.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getById(int): ru/yandex/practicum/filmorate/model/Element
+2026-08-12 09:05:17.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getById(int): ru/yandex/practicum/filmorate/model/Element
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -163,24 +163,24 @@
 
 %bb4: 	//predecessors %bb3
 	return %7
-2026-06-29 06:18:24.618 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_getById_12613540204
-2026-06-29 06:18:24.684 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_create_13177499705
-2026-06-29 06:18:24.748 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_update_8199284156
-2026-06-29 06:18:24.816 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_delete_3354062007
-2026-06-29 06:18:24.881 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_getAll_6602163688
-2026-06-29 06:18:24.943 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_getById_12613540209
-2026-06-29 06:18:24.944 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::create(ru/yandex/practicum/filmorate/model/Element): int: null
-2026-06-29 06:18:24.944 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::update(ru/yandex/practicum/filmorate/model/Element): int: null
-2026-06-29 06:18:24.944 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::delete(int): void: null
-2026-06-29 06:18:24.945 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getAll(): java/util/List: null
-2026-06-29 06:18:24.945 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getById(int): ru/yandex/practicum/filmorate/model/Element: null
-2026-06-29 06:18:24.945 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::create(ru/yandex/practicum/filmorate/model/Element): int processing is finished normally
-2026-06-29 06:18:24.945 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::update(ru/yandex/practicum/filmorate/model/Element): int processing is finished normally
-2026-06-29 06:18:24.945 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::delete(int): void processing is finished normally
-2026-06-29 06:18:24.945 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getAll(): java/util/List processing is finished normally
-2026-06-29 06:18:24.946 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getById(int): ru/yandex/practicum/filmorate/model/Element processing is finished normally
-2026-06-29 06:18:24.951 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::<init>(): void
-2026-06-29 06:18:24.951 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::<init>(): void
+2026-08-12 09:05:17.139 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_getById_12613540204
+2026-08-12 09:05:17.207 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_create_13177499705
+2026-08-12 09:05:17.277 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_update_8199284156
+2026-08-12 09:05:17.354 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_delete_3354062007
+2026-08-12 09:05:17.414 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_getAll_6602163688
+2026-08-12 09:05:17.465 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.AbstractElementStorage_getById_12613540209
+2026-08-12 09:05:17.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::create(ru/yandex/practicum/filmorate/model/Element): int: null
+2026-08-12 09:05:17.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::update(ru/yandex/practicum/filmorate/model/Element): int: null
+2026-08-12 09:05:17.467 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::delete(int): void: null
+2026-08-12 09:05:17.467 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getAll(): java/util/List: null
+2026-08-12 09:05:17.467 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getById(int): ru/yandex/practicum/filmorate/model/Element: null
+2026-08-12 09:05:17.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::create(ru/yandex/practicum/filmorate/model/Element): int processing is finished normally
+2026-08-12 09:05:17.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::update(ru/yandex/practicum/filmorate/model/Element): int processing is finished normally
+2026-08-12 09:05:17.468 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::delete(int): void processing is finished normally
+2026-08-12 09:05:17.468 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getAll(): java/util/List processing is finished normally
+2026-08-12 09:05:17.468 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/AbstractElementStorage::getById(int): ru/yandex/practicum/filmorate/model/Element processing is finished normally
+2026-08-12 09:05:17.472 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::<init>(): void
+2026-08-12 09:05:17.473 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -190,9 +190,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 06:18:25.003 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_init_5135187310
-2026-06-29 06:18:25.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::deleteLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void
-2026-06-29 06:18:25.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::deleteLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void
+2026-08-12 09:05:17.529 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_init_5135187310
+2026-08-12 09:05:17.530 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::deleteLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void
+2026-08-12 09:05:17.530 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::deleteLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -206,9 +206,9 @@
 
 %label0: 	//predecessors %bb1
 	return
-2026-06-29 06:18:25.098 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_deleteLike_6689415161
-2026-06-29 06:18:25.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::addLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void
-2026-06-29 06:18:25.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::addLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void
+2026-08-12 09:05:17.606 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_deleteLike_6689415161
+2026-08-12 09:05:17.607 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::addLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void
+2026-08-12 09:05:17.607 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::addLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -222,18 +222,18 @@
 
 %label0: 	//predecessors %bb1
 	return
-2026-06-29 06:18:25.159 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_addLike_919566502
-2026-06-29 06:18:25.221 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_init_5135187313
-2026-06-29 06:18:25.266 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_deleteLike_6689415164
-2026-06-29 06:18:25.329 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_addLike_919566505
-2026-06-29 06:18:25.330 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::<init>(): void: null
-2026-06-29 06:18:25.330 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::deleteLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void: null
-2026-06-29 06:18:25.331 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::addLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void: null
-2026-06-29 06:18:25.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::<init>(): void processing is finished normally
-2026-06-29 06:18:25.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::deleteLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void processing is finished normally
-2026-06-29 06:18:25.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::addLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void processing is finished normally
-2026-06-29 06:18:25.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::<init>(): void
-2026-06-29 06:18:25.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::<init>(): void
+2026-08-12 09:05:17.711 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_addLike_919566502
+2026-08-12 09:05:17.758 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_init_5135187313
+2026-08-12 09:05:17.802 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_deleteLike_6689415164
+2026-08-12 09:05:17.846 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryFilmStorage_addLike_919566505
+2026-08-12 09:05:17.846 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::<init>(): void: null
+2026-08-12 09:05:17.847 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::deleteLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void: null
+2026-08-12 09:05:17.847 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::addLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void: null
+2026-08-12 09:05:17.847 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::<init>(): void processing is finished normally
+2026-08-12 09:05:17.847 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::deleteLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void processing is finished normally
+2026-08-12 09:05:17.847 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryFilmStorage::addLike(ru/yandex/practicum/filmorate/model/Film, ru/yandex/practicum/filmorate/model/User): void processing is finished normally
+2026-08-12 09:05:17.856 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::<init>(): void
+2026-08-12 09:05:17.857 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -243,9 +243,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 06:18:25.384 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_init_17065953740
-2026-06-29 06:18:25.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::addFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void
-2026-06-29 06:18:25.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::addFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void
+2026-08-12 09:05:17.905 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_init_17065953740
+2026-08-12 09:05:17.906 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::addFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void
+2026-08-12 09:05:17.906 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::addFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -267,9 +267,9 @@
 
 %label0: 	//predecessors %bb3
 	return
-2026-06-29 06:18:25.441 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_addFriend_4178653431
-2026-06-29 06:18:25.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::deleteFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void
-2026-06-29 06:18:25.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::deleteFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void
+2026-08-12 09:05:17.960 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_addFriend_4178653431
+2026-08-12 09:05:17.960 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::deleteFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void
+2026-08-12 09:05:17.961 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::deleteFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -291,9 +291,9 @@
 
 %label0: 	//predecessors %bb3
 	return
-2026-06-29 06:18:25.496 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_deleteFriend_6608318632
-2026-06-29 06:18:25.497 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getFriendsByUserId(int): java/util/Set
-2026-06-29 06:18:25.497 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getFriendsByUserId(int): java/util/Set
+2026-08-12 09:05:18.012 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_deleteFriend_6608318632
+2026-08-12 09:05:18.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getFriendsByUserId(int): java/util/Set
+2026-08-12 09:05:18.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getFriendsByUserId(int): java/util/Set
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -340,9 +340,9 @@
 
 %bb7: 	//predecessors %bb6
 	return %19
-2026-06-29 06:18:25.539 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_getFriendsByUserId_14088291323
-2026-06-29 06:18:25.539 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getCommonFriends(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): java/util/List
-2026-06-29 06:18:25.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getCommonFriends(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): java/util/List
+2026-08-12 09:05:18.053 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_getFriendsByUserId_14088291323
+2026-08-12 09:05:18.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getCommonFriends(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): java/util/List
+2026-08-12 09:05:18.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getCommonFriends(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -402,21 +402,21 @@
 
 %bb8: 	//predecessors %bb7
 	return %27
-2026-06-29 06:18:25.592 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_getCommonFriends_10670485784
-2026-06-29 06:18:25.632 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_init_17065953745
-2026-06-29 06:18:25.672 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_addFriend_4178653436
-2026-06-29 06:18:25.736 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_deleteFriend_6608318637
-2026-06-29 06:18:25.787 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_getFriendsByUserId_14088291328
-2026-06-29 06:18:25.833 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_getCommonFriends_10670485789
-2026-06-29 06:18:25.833 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::<init>(): void: null
-2026-06-29 06:18:25.834 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::addFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void: null
-2026-06-29 06:18:25.834 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::deleteFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void: null
-2026-06-29 06:18:25.834 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getFriendsByUserId(int): java/util/Set: null
-2026-06-29 06:18:25.834 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getCommonFriends(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): java/util/List: null
-2026-06-29 06:18:25.834 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::<init>(): void processing is finished normally
-2026-06-29 06:18:25.834 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::addFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void processing is finished normally
-2026-06-29 06:18:25.834 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::deleteFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void processing is finished normally
-2026-06-29 06:18:25.834 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getFriendsByUserId(int): java/util/Set processing is finished normally
-2026-06-29 06:18:25.834 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getCommonFriends(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): java/util/List processing is finished normally
-2026-06-29 06:18:25.835 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 06:18:25.835 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 09:05:18.104 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_getCommonFriends_10670485784
+2026-08-12 09:05:18.146 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_init_17065953745
+2026-08-12 09:05:18.192 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_addFriend_4178653436
+2026-08-12 09:05:18.237 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_deleteFriend_6608318637
+2026-08-12 09:05:18.282 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_getFriendsByUserId_14088291328
+2026-08-12 09:05:18.328 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ru.yandex.practicum.filmorate.storage.InMemoryUserStorage_getCommonFriends_10670485789
+2026-08-12 09:05:18.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::<init>(): void: null
+2026-08-12 09:05:18.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::addFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void: null
+2026-08-12 09:05:18.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::deleteFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void: null
+2026-08-12 09:05:18.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getFriendsByUserId(int): java/util/Set: null
+2026-08-12 09:05:18.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getCommonFriends(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): java/util/List: null
+2026-08-12 09:05:18.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::<init>(): void processing is finished normally
+2026-08-12 09:05:18.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::addFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void processing is finished normally
+2026-08-12 09:05:18.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::deleteFriend(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): void processing is finished normally
+2026-08-12 09:05:18.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getFriendsByUserId(int): java/util/Set processing is finished normally
+2026-08-12 09:05:18.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ru/yandex/practicum/filmorate/storage/InMemoryUserStorage::getCommonFriends(ru/yandex/practicum/filmorate/model/User, ru/yandex/practicum/filmorate/model/User): java/util/List processing is finished normally
+2026-08-12 09:05:18.330 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 09:05:18.330 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

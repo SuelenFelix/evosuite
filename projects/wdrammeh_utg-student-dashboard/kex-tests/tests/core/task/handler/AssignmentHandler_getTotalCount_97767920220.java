@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AssignmentHandler_getTotalCount_97767920220 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34183;
+     Object term34167;
 
     public AssignmentHandler_getTotalCount_97767920220() {
     }
@@ -31,7 +31,7 @@ public class AssignmentHandler_getTotalCount_97767920220 {
 
     @Before
     public void setup() throws Throwable {
-        term34183 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
+        term34167 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class AssignmentHandler_getTotalCount_97767920220 {
         Class<?> klass = Class.forName("core.task.handler.AssignmentHandler");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getTotalCount", argTypes, term34183, args);
+        callMethod(klass, "getTotalCount", argTypes, term34167, args);
     }
 
 };

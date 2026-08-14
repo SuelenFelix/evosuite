@@ -231,7 +231,7 @@ public class Game_show_17518001663 {
         setIntField(term792, term792.getClass(), "yOpeningEnd", 0);
         setIntField(term792, term792.getClass(), "width", 0);
         setField(term756, term756.getClass(), "lastPipe", term792);
-        setLongField(term798, term798.getClass(), "value", 40476161428229L);
+        setLongField(term798, term798.getClass(), "value", 156178190266863L);
         setField(term797, term797.getClass(), "seed", term798);
         setDoubleField(term797, term797.getClass(), "nextNextGaussian", 0.0);
         setBooleanField(term797, term797.getClass(), "haveNextNextGaussian", false);
@@ -241,7 +241,7 @@ public class Game_show_17518001663 {
         setIntField(term803, term803.getClass(), "screenBottom", 1252951645);
         setField(term668, term668.getClass(), "collisionDetector", term803);
         setBooleanField(term668, term668.getClass(), "collision", false);
-        setIntField(term809, term809.getClass(), "hash", 913895736);
+        setIntField(term809, term809.getClass(), "hash", 1892645530);
         setField(term809, term809.getClass(), "key", null);
         setField(term809, term809.getClass(), "value", null);
         setField(term809, term809.getClass(), "next", null);

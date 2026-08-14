@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class HrManagementSystemApplication_main_16680293443 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5845;
+     Object term5849;
 
     public HrManagementSystemApplication_main_16680293443() {
     }
@@ -31,7 +31,7 @@ public class HrManagementSystemApplication_main_16680293443 {
 
     @Before
     public void setup() throws Throwable {
-        term5845 = newInstance(Class.forName("com.selimhorri.app.pack.HrManagementSystemApplication"));
+        term5849 = newInstance(Class.forName("com.selimhorri.app.pack.HrManagementSystemApplication"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class HrManagementSystemApplication_main_16680293443 {
         argTypes[0] = Array.newInstance(Class.forName("java.lang.String"), 0).getClass();
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "main", argTypes, term5845, args);
+        callMethod(klass, "main", argTypes, term5849, args);
     }
 
 };

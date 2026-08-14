@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Node_getInnovation_131025222724 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term13265;
+     Object term13262;
 
     public Node_getInnovation_131025222724() {
     }
@@ -31,11 +31,11 @@ public class Node_getInnovation_131025222724 {
 
     @Before
     public void setup() throws Throwable {
-        term13265 = newInstance(Class.forName("nn.model.Node"));
-        setField(term13265, term13265.getClass(), "type", null);
-        setIntField(term13265, term13265.getClass(), "innovation", 0);
-        setField(term13265, term13265.getClass(), "connections", null);
-        setDoubleField(term13265, term13265.getClass(), "bias", 0.0);
+        term13262 = newInstance(Class.forName("nn.model.Node"));
+        setField(term13262, term13262.getClass(), "type", null);
+        setIntField(term13262, term13262.getClass(), "innovation", 0);
+        setField(term13262, term13262.getClass(), "connections", null);
+        setDoubleField(term13262, term13262.getClass(), "bias", 0.0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class Node_getInnovation_131025222724 {
         Class<?> klass = Class.forName("nn.model.Node");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getInnovation", argTypes, term13265, args);
+        callMethod(klass, "getInnovation", argTypes, term13262, args);
     }
 
 };

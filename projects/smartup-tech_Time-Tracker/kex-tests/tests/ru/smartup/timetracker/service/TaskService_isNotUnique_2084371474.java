@@ -22,8 +22,8 @@ import java.lang.Long;
 
 public class TaskService_isNotUnique_2084371474 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term21945;
-     Object term21947;
+     Object term22085;
+     Object term22087;
 
     public TaskService_isNotUnique_2084371474() {
     }
@@ -34,8 +34,8 @@ public class TaskService_isNotUnique_2084371474 {
 
     @Before
     public void setup() throws Throwable {
-        term21945 = new Integer(-2119545015);
-        term21947 = new Long(-316468845751588286L);
+        term22085 = new Integer(-2119545015);
+        term22087 = new Long(-316468845751588286L);
     }
 
     @Test
@@ -46,8 +46,8 @@ public class TaskService_isNotUnique_2084371474 {
         argTypes[1] = long.class;
         argTypes[2] = Class.forName("java.lang.String");
         Object[] args = new Object[3];
-        args[0] = term21945;
-        args[1] = term21947;
+        args[0] = term22085;
+        args[1] = term22087;
         args[2] = "OzXRsFGTIp";
         callMethod(klass, "isNotUnique", argTypes, null, args);
     }

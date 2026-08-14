@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AssignmentHandler_initHandle_52636199118 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34181;
+     Object term34165;
 
     public AssignmentHandler_initHandle_52636199118() {
     }
@@ -31,7 +31,7 @@ public class AssignmentHandler_initHandle_52636199118 {
 
     @Before
     public void setup() throws Throwable {
-        term34181 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
+        term34165 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class AssignmentHandler_initHandle_52636199118 {
         argTypes[0] = Class.forName("proto.KButton");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "initHandle", argTypes, term34181, args);
+        callMethod(klass, "initHandle", argTypes, term34165, args);
     }
 
 };

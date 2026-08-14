@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class PvListRequest_hashCode_189171011428 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4091520;
+     Object term402265;
 
     public PvListRequest_hashCode_189171011428() {
     }
@@ -31,12 +31,12 @@ public class PvListRequest_hashCode_189171011428 {
 
     @Before
     public void setup() throws Throwable {
-        term4091520 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
-        setField(term4091520, term4091520.getClass(), "CreationDate", null);
-        setField(term4091520, term4091520.getClass(), "Easy", null);
-        setField(term4091520, term4091520.getClass(), "Normal", null);
-        setField(term4091520, term4091520.getClass(), "Hard", null);
-        setField(term4091520, term4091520.getClass(), "Extreme", null);
+        term402265 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
+        setField(term402265, term402265.getClass(), "CreationDate", null);
+        setField(term402265, term402265.getClass(), "Easy", null);
+        setField(term402265, term402265.getClass(), "Normal", null);
+        setField(term402265, term402265.getClass(), "Hard", null);
+        setField(term402265, term402265.getClass(), "Extreme", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class PvListRequest_hashCode_189171011428 {
         Class<?> klass = Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term4091520, args);
+        callMethod(klass, "hashCode", argTypes, term402265, args);
     }
 
 };

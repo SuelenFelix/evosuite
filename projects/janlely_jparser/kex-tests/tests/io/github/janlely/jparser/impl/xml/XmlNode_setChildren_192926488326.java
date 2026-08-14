@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class XmlNode_setChildren_192926488326 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1834;
+     Object term6699;
 
     public XmlNode_setChildren_192926488326() {
     }
@@ -31,11 +31,11 @@ public class XmlNode_setChildren_192926488326 {
 
     @Before
     public void setup() throws Throwable {
-        term1834 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
-        setField(term1834, term1834.getClass(), "name", null);
-        setField(term1834, term1834.getClass(), "props", null);
-        setField(term1834, term1834.getClass(), "children", null);
-        setField(term1834, term1834.getClass(), "content", null);
+        term6699 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
+        setField(term6699, term6699.getClass(), "name", null);
+        setField(term6699, term6699.getClass(), "props", null);
+        setField(term6699, term6699.getClass(), "children", null);
+        setField(term6699, term6699.getClass(), "content", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class XmlNode_setChildren_192926488326 {
         argTypes[0] = Class.forName("java.util.Map");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setChildren", argTypes, term1834, args);
+        callMethod(klass, "setChildren", argTypes, term6699, args);
     }
 
 };

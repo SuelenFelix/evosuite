@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class ProductCategory_getCategoryName_21295000152 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term975;
+     Object term977;
 
     public ProductCategory_getCategoryName_21295000152() {
     }
@@ -38,14 +38,14 @@ public class ProductCategory_getCategoryName_21295000152 {
 
     @Before
     public void setup() throws Throwable {
-        Long term976 = new Long(-6573104506744284592L);
-        HashMap term991 = new HashMap();
-        Set<Object> term1017 =  ((Map) term991).keySet();
-        HashSet term990 = new HashSet((Collection<? extends Object>) term1017);
-        term975 = newInstance(Class.forName("com.fatihhernn.ecommerce.entities.ProductCategory"));
-        setField(term975, term975.getClass(), "id", term976);
-        setField(term975, term975.getClass(), "categoryName", "rYbtIDVdnd");
-        setField(term975, term975.getClass(), "products", term990);
+        Long term978 = new Long(-6573104506744284592L);
+        HashMap term993 = new HashMap();
+        Set<Object> term1019 =  ((Map) term993).keySet();
+        HashSet term992 = new HashSet((Collection<? extends Object>) term1019);
+        term977 = newInstance(Class.forName("com.fatihhernn.ecommerce.entities.ProductCategory"));
+        setField(term977, term977.getClass(), "id", term978);
+        setField(term977, term977.getClass(), "categoryName", "rYbtIDVdnd");
+        setField(term977, term977.getClass(), "products", term992);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class ProductCategory_getCategoryName_21295000152 {
         Class<?> klass = Class.forName("com.fatihhernn.ecommerce.entities.ProductCategory");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getCategoryName", argTypes, term975, args);
+        callMethod(klass, "getCategoryName", argTypes, term977, args);
     }
 
 };

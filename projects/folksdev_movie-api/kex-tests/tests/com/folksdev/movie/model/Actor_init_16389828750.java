@@ -27,9 +27,9 @@ import java.util.HashSet;
 
 public class Actor_init_16389828750 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term30109;
+     Object term30108;
      Object enum99;
-     Object term30123;
+     Object term30122;
 
     public Actor_init_16389828750() {
     }
@@ -40,17 +40,17 @@ public class Actor_init_16389828750 {
 
     @Before
     public void setup() throws Throwable {
-        term30109 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term30109, term30109.getClass(), "year", 2023);
-        setShortField(term30109, term30109.getClass(), "month", (short) 11);
-        setShortField(term30109, term30109.getClass(), "day", (short) 13);
-        Class<? extends Object> term30150 = Class.forName((String) "com.folksdev.movie.model.Gender");
-        Field term30149 = ((Class) term30150).getDeclaredField((String) "FEMALE");
-        ((Field) term30149).setAccessible(true);
-        enum99 = ((Field) term30149).get((Object) null);
-        HashMap term30124 = new HashMap();
-        Set<Object> term30329 =  ((Map) term30124).keySet();
-        term30123 = new HashSet((Collection<? extends Object>) term30329);
+        term30108 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term30108, term30108.getClass(), "year", 2023);
+        setShortField(term30108, term30108.getClass(), "month", (short) 11);
+        setShortField(term30108, term30108.getClass(), "day", (short) 13);
+        Class<? extends Object> term30149 = Class.forName((String) "com.folksdev.movie.model.Gender");
+        Field term30148 = ((Class) term30149).getDeclaredField((String) "FEMALE");
+        ((Field) term30148).setAccessible(true);
+        enum99 = ((Field) term30148).get((Object) null);
+        HashMap term30123 = new HashMap();
+        Set<Object> term30328 =  ((Map) term30123).keySet();
+        term30122 = new HashSet((Collection<? extends Object>) term30328);
     }
 
     @Test
@@ -65,9 +65,9 @@ public class Actor_init_16389828750 {
         Object[] args = new Object[5];
         args[0] = "qSfmbHSpyF";
         args[1] = "nfLAMGBNLz";
-        args[2] = term30109;
+        args[2] = term30108;
         args[3] = enum99;
-        args[4] = term30123;
+        args[4] = term30122;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

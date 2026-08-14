@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeSchedulePlanner_cancel_61437748416 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term6534;
+     Object term6719;
 
     public FreezeSchedulePlanner_cancel_61437748416() {
     }
@@ -31,11 +31,11 @@ public class FreezeSchedulePlanner_cancel_61437748416 {
 
     @Before
     public void setup() throws Throwable {
-        term6534 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner"));
-        setField(term6534, term6534.getClass(), "crudFreezeService", null);
-        setField(term6534, term6534.getClass(), "freezeDateUtils", null);
-        setField(term6534, term6534.getClass(), "freezeScheduler", null);
-        setField(term6534, term6534.getClass(), "trackUnitService", null);
+        term6719 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner"));
+        setField(term6719, term6719.getClass(), "crudFreezeService", null);
+        setField(term6719, term6719.getClass(), "freezeDateUtils", null);
+        setField(term6719, term6719.getClass(), "freezeScheduler", null);
+        setField(term6719, term6719.getClass(), "trackUnitService", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class FreezeSchedulePlanner_cancel_61437748416 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "cancel", argTypes, term6534, args);
+        callMethod(klass, "cancel", argTypes, term6719, args);
     }
 
 };

@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class KPanel_init_5163855794 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term36959;
+     Object term36992;
 
     public KPanel_init_5163855794() {
     }
@@ -32,7 +32,7 @@ public class KPanel_init_5163855794 {
 
     @Before
     public void setup() throws Throwable {
-        term36959 = (Object[]) newArray("java.awt.Component", 0);
+        term36992 = (Object[]) newArray("java.awt.Component", 0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KPanel_init_5163855794 {
         argTypes[1] = Array.newInstance(Class.forName("java.awt.Component"), 0).getClass();
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term36959;
+        args[1] = term36992;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

@@ -21,7 +21,7 @@ import java.lang.Long;
 
 public class UpdateCategoryResponse_getImageUrl_18617247337 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1454;
+     Object term48753;
 
     public UpdateCategoryResponse_getImageUrl_18617247337() {
     }
@@ -32,12 +32,12 @@ public class UpdateCategoryResponse_getImageUrl_18617247337 {
 
     @Before
     public void setup() throws Throwable {
-        Long term1455 = new Long(5262507301787091109L);
-        term1454 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse"));
-        setField(term1454, term1454.getClass(), "id", term1455);
-        setField(term1454, term1454.getClass(), "name", "XqgfKFvPSD");
-        setField(term1454, term1454.getClass(), "description", "JiVRgTZvKc");
-        setField(term1454, term1454.getClass(), "imageUrl", "XPKmummaqg");
+        Long term48754 = new Long(6167026289140715860L);
+        term48753 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse"));
+        setField(term48753, term48753.getClass(), "id", term48754);
+        setField(term48753, term48753.getClass(), "name", "MgMUmPLywB");
+        setField(term48753, term48753.getClass(), "description", "pNJhowQpXJ");
+        setField(term48753, term48753.getClass(), "imageUrl", "gyfupqhzxo");
     }
 
     @Test
@@ -45,7 +45,7 @@ public class UpdateCategoryResponse_getImageUrl_18617247337 {
         Class<?> klass = Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getImageUrl", argTypes, term1454, args);
+        callMethod(klass, "getImageUrl", argTypes, term48753, args);
     }
 
 };

@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class TrackUnitService_getSubmittedHours_1690849409 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3283;
+     Object term3259;
 
     public TrackUnitService_getSubmittedHours_1690849409() {
     }
@@ -37,9 +37,9 @@ public class TrackUnitService_getSubmittedHours_1690849409 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term3284 = new HashMap();
-        Set<Object> term3289 =  ((Map) term3284).keySet();
-        term3283 = new HashSet((Collection<? extends Object>) term3289);
+        HashMap term3260 = new HashMap();
+        Set<Object> term3265 =  ((Map) term3260).keySet();
+        term3259 = new HashSet((Collection<? extends Object>) term3265);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class TrackUnitService_getSubmittedHours_1690849409 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.util.Set");
         Object[] args = new Object[1];
-        args[0] = term3283;
+        args[0] = term3259;
         callMethod(klass, "getSubmittedHours", argTypes, null, args);
     }
 

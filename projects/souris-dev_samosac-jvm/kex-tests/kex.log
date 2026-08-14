@@ -1,16 +1,16 @@
-2026-06-29 01:12:15.689 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/souris-dev_samosac-jvm/target/classes
-2026-06-29 01:12:15.914 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 01:12:15.961 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 01:12:16.789 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 01:12:17.297 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/sachett/samosa/samosac/symbol/symboltable/*
-2026-06-29 01:12:17.298 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 01:12:17.318 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/souris-dev_samosac-jvm/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 01:12:17.352 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/souris-dev_samosac-jvm/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 35923 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/souris-dev_samosac-jvm/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 01:12:17.365 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 01:13:57.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::<init>(): void
-2026-06-29 01:13:57.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::<init>(): void
+2026-08-11 22:21:18.616 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/souris-dev_samosac-jvm/target/classes
+2026-08-11 22:21:18.829 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 22:21:18.873 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 22:21:19.834 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 22:21:20.316 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/sachett/samosa/samosac/symbol/symboltable/*
+2026-08-11 22:21:20.317 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 22:21:20.359 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/souris-dev_samosac-jvm/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 22:21:20.389 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/souris-dev_samosac-jvm/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 44175 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/souris-dev_samosac-jvm/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 22:21:20.400 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 22:23:00.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::<init>(): void
+2026-08-11 22:23:00.505 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -135,9 +135,9 @@
 
 %label3: 	//predecessors %bb24
 	return
-2026-06-29 01:13:57.965 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_9130244310
-2026-06-29 01:13:57.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::getCreateNewScopeEntryOnIncrement(): bool
-2026-06-29 01:13:57.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::getCreateNewScopeEntryOnIncrement(): bool
+2026-08-11 22:23:01.188 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_9130244310
+2026-08-11 22:23:01.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::getCreateNewScopeEntryOnIncrement(): bool
+2026-08-11 22:23:01.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::getCreateNewScopeEntryOnIncrement(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -147,9 +147,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:13:58.137 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_getCreateNewScopeEntryOnIncrement_17593527231
-2026-06-29 01:13:58.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::setCreateNewScopeEntryOnIncrement(bool): void
-2026-06-29 01:13:58.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::setCreateNewScopeEntryOnIncrement(bool): void
+2026-08-11 22:23:01.379 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_getCreateNewScopeEntryOnIncrement_17593527231
+2026-08-11 22:23:01.380 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::setCreateNewScopeEntryOnIncrement(bool): void
+2026-08-11 22:23:01.380 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::setCreateNewScopeEntryOnIncrement(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -159,9 +159,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:13:58.251 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_setCreateNewScopeEntryOnIncrement_17701751512
-2026-06-29 01:13:58.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFunctions(): void
-2026-06-29 01:13:58.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFunctions(): void
+2026-08-11 22:23:01.484 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_setCreateNewScopeEntryOnIncrement_17701751512
+2026-08-11 22:23:01.484 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFunctions(): void
+2026-08-11 22:23:01.485 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFunctions(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -498,9 +498,9 @@
 
 %if.then5: 	//predecessors %label1
 	return
-2026-06-29 01:13:58.354 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBuiltinFunctions_12577493843
-2026-06-29 01:13:58.355 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFun(com/sachett/samosa/samosac/symbol/FunctionSymbol, java/lang/String, java/lang/reflect/Method): void
-2026-06-29 01:13:58.356 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFun(com/sachett/samosa/samosac/symbol/FunctionSymbol, java/lang/String, java/lang/reflect/Method): void
+2026-08-11 22:23:01.571 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBuiltinFunctions_12577493843
+2026-08-11 22:23:01.572 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFun(com/sachett/samosa/samosac/symbol/FunctionSymbol, java/lang/String, java/lang/reflect/Method): void
+2026-08-11 22:23:01.572 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFun(com/sachett/samosa/samosac/symbol/FunctionSymbol, java/lang/String, java/lang/reflect/Method): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -598,7 +598,7 @@
 
 %goto0: 	//predecessors %if.else1, %bb10, %bb18
 	return
-2026-06-29 01:13:58.428 [WARN ][org.vorpal.research.kex.reanimator.UnsafeGenerator] - Exception when generating action sequences:
+2026-08-11 22:23:01.631 [WARN ][org.vorpal.research.kex.reanimator.UnsafeGenerator] - Exception when generating action sequences:
 java.util.NoSuchElementException: Collection is empty.
 	at kotlin.collections.CollectionsKt___CollectionsKt.random(_Collections.kt:570)
 	at org.vorpal.research.kex.reanimator.actionsequence.generator.MethodGenerator.generate(MethodGenerator.kt:52)
@@ -629,9 +629,9 @@ java.util.NoSuchElementException: Collection is empty.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:13:58.509 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBuiltinFun_1704212115
-2026-06-29 01:13:58.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::insert(java/lang/String, com/sachett/samosa/samosac/symbol/ISymbol): bool
-2026-06-29 01:13:58.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::insert(java/lang/String, com/sachett/samosa/samosac/symbol/ISymbol): bool
+2026-08-11 22:23:01.699 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBuiltinFun_1704212115
+2026-08-11 22:23:01.700 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::insert(java/lang/String, com/sachett/samosa/samosac/symbol/ISymbol): bool
+2026-08-11 22:23:01.700 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::insert(java/lang/String, com/sachett/samosa/samosac/symbol/ISymbol): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -692,9 +692,9 @@ java.util.NoSuchElementException: Collection is empty.
 %bb.return0: 	//predecessors %if.else0, %label0
 	%retval1 = phi {%if.else0 -> 0; %label0 -> 1}
 	return %retval1
-2026-06-29 01:13:58.600 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_insert_1178325896
-2026-06-29 01:13:58.601 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScope(): void
-2026-06-29 01:13:58.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScope(): void
+2026-08-11 22:23:01.767 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_insert_1178325896
+2026-08-11 22:23:01.768 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScope(): void
+2026-08-11 22:23:01.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScope(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1123,9 +1123,9 @@ java.util.NoSuchElementException: Collection is empty.
 
 %goto0: 	//predecessors %bb32, %bb63, %bb90
 	return
-2026-06-29 01:13:58.684 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScope_20381975987
-2026-06-29 01:13:58.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScopeOverrideScopeCreation(bool): void
-2026-06-29 01:13:58.686 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScopeOverrideScopeCreation(bool): void
+2026-08-11 22:23:01.851 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScope_20381975987
+2026-08-11 22:23:01.852 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScopeOverrideScopeCreation(bool): void
+2026-08-11 22:23:01.852 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScopeOverrideScopeCreation(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1550,9 +1550,9 @@ java.util.NoSuchElementException: Collection is empty.
 
 %goto0: 	//predecessors %bb32, %bb62, %bb89
 	return
-2026-06-29 01:13:58.773 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScopeOverrideScopeCreation_5841163858
-2026-06-29 01:13:58.773 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::resetScopeIndex(): void
-2026-06-29 01:13:58.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::resetScopeIndex(): void
+2026-08-11 22:23:01.922 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScopeOverrideScopeCreation_5841163858
+2026-08-11 22:23:01.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::resetScopeIndex(): void
+2026-08-11 22:23:01.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::resetScopeIndex(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1603,9 +1603,9 @@ java.util.NoSuchElementException: Collection is empty.
 
 %bb11: 	//predecessors %bb10
 	return
-2026-06-29 01:13:58.838 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_resetScopeIndex_18646317989
-2026-06-29 01:13:58.839 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(bool): void
-2026-06-29 01:13:58.839 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(bool): void
+2026-08-11 22:23:01.988 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_resetScopeIndex_18646317989
+2026-08-11 22:23:01.989 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(bool): void
+2026-08-11 22:23:01.989 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1701,9 +1701,9 @@ java.util.NoSuchElementException: Collection is empty.
 
 %bb19: 	//predecessors %if.then0
 	return
-2026-06-29 01:13:58.904 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859017610
-2026-06-29 01:13:58.905 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookup(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol
-2026-06-29 01:13:58.905 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookup(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol
+2026-08-11 22:23:02.065 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859017610
+2026-08-11 22:23:02.065 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookup(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol
+2026-08-11 22:23:02.066 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookup(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1771,9 +1771,9 @@ java.util.NoSuchElementException: Collection is empty.
 %goto0: 	//predecessors %if.else2, %if.else3, %bb7
 	%30 = phi {%if.else2 -> null; %if.else3 -> null; %bb7 -> %28}
 	return %30
-2026-06-29 01:13:58.966 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookup_117639098211
-2026-06-29 01:13:58.967 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBlockInCurrentCoordinates(kotlin/Pair): void
-2026-06-29 01:13:58.967 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBlockInCurrentCoordinates(kotlin/Pair): void
+2026-08-11 22:23:02.119 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookup_117639098211
+2026-08-11 22:23:02.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBlockInCurrentCoordinates(kotlin/Pair): void
+2026-08-11 22:23:02.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBlockInCurrentCoordinates(kotlin/Pair): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1817,9 +1817,9 @@ java.util.NoSuchElementException: Collection is empty.
 
 %bb.return0: 	//predecessors %if.else0, %label0
 	return
-2026-06-29 01:13:59.030 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408812
-2026-06-29 01:13:59.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupWithNearestScopeValue(java/lang/String): kotlin/Pair
-2026-06-29 01:13:59.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupWithNearestScopeValue(java/lang/String): kotlin/Pair
+2026-08-11 22:23:02.174 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408812
+2026-08-11 22:23:02.174 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupWithNearestScopeValue(java/lang/String): kotlin/Pair
+2026-08-11 22:23:02.175 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupWithNearestScopeValue(java/lang/String): kotlin/Pair
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1908,9 +1908,9 @@ java.util.NoSuchElementException: Collection is empty.
 
 %bb9: 	//predecessors %goto1
 	return %43
-2026-06-29 01:13:59.104 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupWithNearestScopeValue_76469224713
-2026-06-29 01:13:59.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCoordinates(java/lang/String, kotlin/Pair): com/sachett/samosa/samosac/symbol/ISymbol
-2026-06-29 01:13:59.105 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCoordinates(java/lang/String, kotlin/Pair): com/sachett/samosa/samosac/symbol/ISymbol
+2026-08-11 22:23:02.226 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupWithNearestScopeValue_76469224713
+2026-08-11 22:23:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCoordinates(java/lang/String, kotlin/Pair): com/sachett/samosa/samosac/symbol/ISymbol
+2026-08-11 22:23:02.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCoordinates(java/lang/String, kotlin/Pair): com/sachett/samosa/samosac/symbol/ISymbol
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2025,9 +2025,9 @@ goto %label3
 
 %label4: 	//predecessors %goto1
 	return %44
-2026-06-29 01:13:59.164 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876414
-2026-06-29 01:13:59.165 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCurrentScopeOnly(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol
-2026-06-29 01:13:59.165 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCurrentScopeOnly(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol
+2026-08-11 22:23:02.280 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876414
+2026-08-11 22:23:02.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCurrentScopeOnly(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol
+2026-08-11 22:23:02.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCurrentScopeOnly(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2077,9 +2077,9 @@ goto %label3
 %goto0: 	//predecessors %bb8, %if.then0
 	%19 = phi {%bb8 -> %16; %if.then0 -> %17}
 	return %19
-2026-06-29 01:13:59.221 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCurrentScopeOnly_106735327415
-2026-06-29 01:13:59.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToCoordinates(kotlin/Pair): void
-2026-06-29 01:13:59.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToCoordinates(kotlin/Pair): void
+2026-08-11 22:23:02.353 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCurrentScopeOnly_106735327415
+2026-08-11 22:23:02.353 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToCoordinates(kotlin/Pair): void
+2026-08-11 22:23:02.353 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToCoordinates(kotlin/Pair): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2153,9 +2153,9 @@ goto %label3
 
 %bb17: 	//predecessors %bb16
 	return
-2026-06-29 01:13:59.276 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToCoordinates_83555032116
-2026-06-29 01:13:59.277 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToBlock(kotlin/Pair): void
-2026-06-29 01:13:59.277 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToBlock(kotlin/Pair): void
+2026-08-11 22:23:02.405 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToCoordinates_83555032116
+2026-08-11 22:23:02.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToBlock(kotlin/Pair): void
+2026-08-11 22:23:02.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToBlock(kotlin/Pair): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2185,9 +2185,9 @@ goto %label3
 
 %bb5: 	//predecessors %label0
 	return
-2026-06-29 01:13:59.332 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToBlock_66441717
-2026-06-29 01:13:59.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::restoreLastCoordinates(): void
-2026-06-29 01:13:59.334 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::restoreLastCoordinates(): void
+2026-08-11 22:23:02.457 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToBlock_66441717
+2026-08-11 22:23:02.457 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::restoreLastCoordinates(): void
+2026-08-11 22:23:02.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::restoreLastCoordinates(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2273,9 +2273,9 @@ goto %label3
 
 %bb20: 	//predecessors %bb19
 	return
-2026-06-29 01:13:59.384 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_restoreLastCoordinates_97607806018
-2026-06-29 01:13:59.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunction(java/lang/String, java/lang/String): kotlin/Pair
-2026-06-29 01:13:59.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunction(java/lang/String, java/lang/String): kotlin/Pair
+2026-08-11 22:23:02.516 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_restoreLastCoordinates_97607806018
+2026-08-11 22:23:02.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunction(java/lang/String, java/lang/String): kotlin/Pair
+2026-08-11 22:23:02.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunction(java/lang/String, java/lang/String): kotlin/Pair
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2377,9 +2377,9 @@ goto %label3
 %goto0: 	//predecessors %if.else1, %if.else2, %if.else3, %bb10, %if.else4, %bb14
 	%43 = phi {%if.else1 -> null; %if.else2 -> null; %if.else3 -> null; %bb10 -> %40; %if.else4 -> null; %bb14 -> %41}
 	return %43
-2026-06-29 01:13:59.436 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunction_201963240219
-2026-06-29 01:13:59.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionMatchingOverload(java/lang/String, java/lang/String): kotlin/Pair
-2026-06-29 01:13:59.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionMatchingOverload(java/lang/String, java/lang/String): kotlin/Pair
+2026-08-11 22:23:02.578 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunction_201963240219
+2026-08-11 22:23:02.578 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionMatchingOverload(java/lang/String, java/lang/String): kotlin/Pair
+2026-08-11 22:23:02.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionMatchingOverload(java/lang/String, java/lang/String): kotlin/Pair
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2547,9 +2547,9 @@ goto %label3
 %bb.return0: 	//predecessors %if.else0, %if.else4, %bb27
 	%retval1 = phi {%if.else0 -> null; %if.else4 -> null; %bb27 -> %70}
 	return %retval1
-2026-06-29 01:13:59.489 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543120
-2026-06-29 01:13:59.490 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionAllOverloads(java/lang/String): java/util/ArrayList
-2026-06-29 01:13:59.490 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionAllOverloads(java/lang/String): java/util/ArrayList
+2026-08-11 22:23:02.637 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543120
+2026-08-11 22:23:02.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionAllOverloads(java/lang/String): java/util/ArrayList
+2026-08-11 22:23:02.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionAllOverloads(java/lang/String): java/util/ArrayList
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2645,9 +2645,9 @@ goto %label3
 %bb.return0: 	//predecessors %if.else0, %if.then2
 	%retval1 = phi {%if.else0 -> null; %if.then2 -> %37}
 	return %retval1
-2026-06-29 01:13:59.541 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionAllOverloads_185849661821
-2026-06-29 01:13:59.542 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(): void
-2026-06-29 01:13:59.542 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(): void
+2026-08-11 22:23:02.706 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionAllOverloads_185849661821
+2026-08-11 22:23:02.707 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(): void
+2026-08-11 22:23:02.707 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2657,74 +2657,74 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:13:59.605 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859110622
-2026-06-29 01:13:59.658 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_91302443123
-2026-06-29 01:13:59.713 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_getCreateNewScopeEntryOnIncrement_175935272324
-2026-06-29 01:13:59.772 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_setCreateNewScopeEntryOnIncrement_177017515125
-2026-06-29 01:13:59.828 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBuiltinFunctions_125774938426
-2026-06-29 01:13:59.829 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFun(com/sachett/samosa/samosac/symbol/FunctionSymbol, java/lang/String, java/lang/reflect/Method): void: null
-2026-06-29 01:13:59.885 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_insert_11783258927
-2026-06-29 01:13:59.941 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScope_203819759828
-2026-06-29 01:14:00.014 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScopeOverrideScopeCreation_58411638529
-2026-06-29 01:14:00.088 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_resetScopeIndex_186463179830
-2026-06-29 01:14:00.132 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859017631
-2026-06-29 01:14:00.175 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookup_117639098232
-2026-06-29 01:14:00.217 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408833
-2026-06-29 01:14:00.259 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupWithNearestScopeValue_76469224734
-2026-06-29 01:14:00.305 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876435
-2026-06-29 01:14:00.344 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCurrentScopeOnly_106735327436
-2026-06-29 01:14:00.384 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToCoordinates_83555032137
-2026-06-29 01:14:00.426 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToBlock_66441738
-2026-06-29 01:14:00.468 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_restoreLastCoordinates_97607806039
-2026-06-29 01:14:00.510 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunction_201963240240
-2026-06-29 01:14:00.549 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543141
-2026-06-29 01:14:00.590 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionAllOverloads_185849661842
-2026-06-29 01:14:00.629 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859110643
-2026-06-29 01:14:00.630 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::<init>(): void: null
-2026-06-29 01:14:00.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::getCreateNewScopeEntryOnIncrement(): bool: null
-2026-06-29 01:14:00.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::setCreateNewScopeEntryOnIncrement(bool): void: null
-2026-06-29 01:14:00.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFunctions(): void: null
-2026-06-29 01:14:00.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFun(com/sachett/samosa/samosac/symbol/FunctionSymbol, java/lang/String, java/lang/reflect/Method): void processing is finished normally
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::insert(java/lang/String, com/sachett/samosa/samosac/symbol/ISymbol): bool: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScope(): void: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScopeOverrideScopeCreation(bool): void: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::resetScopeIndex(): void: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(bool): void: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookup(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBlockInCurrentCoordinates(kotlin/Pair): void: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupWithNearestScopeValue(java/lang/String): kotlin/Pair: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCoordinates(java/lang/String, kotlin/Pair): com/sachett/samosa/samosac/symbol/ISymbol: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCurrentScopeOnly(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol: null
-2026-06-29 01:14:00.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToCoordinates(kotlin/Pair): void: null
-2026-06-29 01:14:00.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToBlock(kotlin/Pair): void: null
-2026-06-29 01:14:00.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::restoreLastCoordinates(): void: null
-2026-06-29 01:14:00.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunction(java/lang/String, java/lang/String): kotlin/Pair: null
-2026-06-29 01:14:00.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionMatchingOverload(java/lang/String, java/lang/String): kotlin/Pair: null
-2026-06-29 01:14:00.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionAllOverloads(java/lang/String): java/util/ArrayList: null
-2026-06-29 01:14:00.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(): void: null
-2026-06-29 01:14:00.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::<init>(): void processing is finished normally
-2026-06-29 01:14:00.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::getCreateNewScopeEntryOnIncrement(): bool processing is finished normally
-2026-06-29 01:14:00.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::setCreateNewScopeEntryOnIncrement(bool): void processing is finished normally
-2026-06-29 01:14:00.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFunctions(): void processing is finished normally
-2026-06-29 01:14:00.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::insert(java/lang/String, com/sachett/samosa/samosac/symbol/ISymbol): bool processing is finished normally
-2026-06-29 01:14:00.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScope(): void processing is finished normally
-2026-06-29 01:14:00.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScopeOverrideScopeCreation(bool): void processing is finished normally
-2026-06-29 01:14:00.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::resetScopeIndex(): void processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(bool): void processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookup(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBlockInCurrentCoordinates(kotlin/Pair): void processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupWithNearestScopeValue(java/lang/String): kotlin/Pair processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCoordinates(java/lang/String, kotlin/Pair): com/sachett/samosa/samosac/symbol/ISymbol processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCurrentScopeOnly(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToCoordinates(kotlin/Pair): void processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToBlock(kotlin/Pair): void processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::restoreLastCoordinates(): void processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunction(java/lang/String, java/lang/String): kotlin/Pair processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionMatchingOverload(java/lang/String, java/lang/String): kotlin/Pair processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionAllOverloads(java/lang/String): java/util/ArrayList processing is finished normally
-2026-06-29 01:14:00.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(): void processing is finished normally
-2026-06-29 01:14:00.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::<init>(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): void
-2026-06-29 01:14:00.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::<init>(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): void
+2026-08-11 22:23:02.771 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859110622
+2026-08-11 22:23:02.811 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_91302443123
+2026-08-11 22:23:02.852 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_getCreateNewScopeEntryOnIncrement_175935272324
+2026-08-11 22:23:02.894 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_setCreateNewScopeEntryOnIncrement_177017515125
+2026-08-11 22:23:02.935 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBuiltinFunctions_125774938426
+2026-08-11 22:23:02.936 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFun(com/sachett/samosa/samosac/symbol/FunctionSymbol, java/lang/String, java/lang/reflect/Method): void: null
+2026-08-11 22:23:02.973 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_insert_11783258927
+2026-08-11 22:23:03.012 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScope_203819759828
+2026-08-11 22:23:03.051 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScopeOverrideScopeCreation_58411638529
+2026-08-11 22:23:03.090 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_resetScopeIndex_186463179830
+2026-08-11 22:23:03.129 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859017631
+2026-08-11 22:23:03.168 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookup_117639098232
+2026-08-11 22:23:03.211 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408833
+2026-08-11 22:23:03.256 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupWithNearestScopeValue_76469224734
+2026-08-11 22:23:03.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876435
+2026-08-11 22:23:03.334 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCurrentScopeOnly_106735327436
+2026-08-11 22:23:03.372 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToCoordinates_83555032137
+2026-08-11 22:23:03.407 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToBlock_66441738
+2026-08-11 22:23:03.443 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_restoreLastCoordinates_97607806039
+2026-08-11 22:23:03.478 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunction_201963240240
+2026-08-11 22:23:03.514 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543141
+2026-08-11 22:23:03.550 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionAllOverloads_185849661842
+2026-08-11 22:23:03.586 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859110643
+2026-08-11 22:23:03.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::<init>(): void: null
+2026-08-11 22:23:03.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::getCreateNewScopeEntryOnIncrement(): bool: null
+2026-08-11 22:23:03.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::setCreateNewScopeEntryOnIncrement(bool): void: null
+2026-08-11 22:23:03.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFunctions(): void: null
+2026-08-11 22:23:03.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFun(com/sachett/samosa/samosac/symbol/FunctionSymbol, java/lang/String, java/lang/reflect/Method): void processing is finished normally
+2026-08-11 22:23:03.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::insert(java/lang/String, com/sachett/samosa/samosac/symbol/ISymbol): bool: null
+2026-08-11 22:23:03.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScope(): void: null
+2026-08-11 22:23:03.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScopeOverrideScopeCreation(bool): void: null
+2026-08-11 22:23:03.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::resetScopeIndex(): void: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(bool): void: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookup(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBlockInCurrentCoordinates(kotlin/Pair): void: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupWithNearestScopeValue(java/lang/String): kotlin/Pair: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCoordinates(java/lang/String, kotlin/Pair): com/sachett/samosa/samosac/symbol/ISymbol: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCurrentScopeOnly(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToCoordinates(kotlin/Pair): void: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToBlock(kotlin/Pair): void: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::restoreLastCoordinates(): void: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunction(java/lang/String, java/lang/String): kotlin/Pair: null
+2026-08-11 22:23:03.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionMatchingOverload(java/lang/String, java/lang/String): kotlin/Pair: null
+2026-08-11 22:23:03.589 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionAllOverloads(java/lang/String): java/util/ArrayList: null
+2026-08-11 22:23:03.589 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(): void: null
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::<init>(): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::getCreateNewScopeEntryOnIncrement(): bool processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::setCreateNewScopeEntryOnIncrement(bool): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBuiltinFunctions(): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::insert(java/lang/String, com/sachett/samosa/samosac/symbol/ISymbol): bool processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScope(): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::incrementScopeOverrideScopeCreation(bool): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::resetScopeIndex(): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(bool): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookup(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::registerBlockInCurrentCoordinates(kotlin/Pair): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupWithNearestScopeValue(java/lang/String): kotlin/Pair processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCoordinates(java/lang/String, kotlin/Pair): com/sachett/samosa/samosac/symbol/ISymbol processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupInCurrentScopeOnly(java/lang/String): com/sachett/samosa/samosac/symbol/ISymbol processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToCoordinates(kotlin/Pair): void processing is finished normally
+2026-08-11 22:23:03.589 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::goToBlock(kotlin/Pair): void processing is finished normally
+2026-08-11 22:23:03.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::restoreLastCoordinates(): void processing is finished normally
+2026-08-11 22:23:03.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunction(java/lang/String, java/lang/String): kotlin/Pair processing is finished normally
+2026-08-11 22:23:03.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionMatchingOverload(java/lang/String, java/lang/String): kotlin/Pair processing is finished normally
+2026-08-11 22:23:03.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::lookupBuiltinFunctionAllOverloads(java/lang/String): java/util/ArrayList processing is finished normally
+2026-08-11 22:23:03.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTable::decrementScope(): void processing is finished normally
+2026-08-11 22:23:03.598 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::<init>(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): void
+2026-08-11 22:23:03.599 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::<init>(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2758,9 +2758,9 @@ goto %label3
 
 %bb7: 	//predecessors %bb6
 	return
-2026-06-29 01:14:00.703 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_init_8115470450
-2026-06-29 01:14:00.703 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeTable(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
-2026-06-29 01:14:00.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeTable(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
+2026-08-11 22:23:03.653 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_init_8115470450
+2026-08-11 22:23:03.654 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeTable(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
+2026-08-11 22:23:03.654 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeTable(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2770,9 +2770,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:00.749 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_17463045461
-2026-06-29 01:14:00.750 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeTable(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry): void
-2026-06-29 01:14:00.750 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeTable(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry): void
+2026-08-11 22:23:03.699 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_17463045461
+2026-08-11 22:23:03.699 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeTable(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry): void
+2026-08-11 22:23:03.700 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeTable(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2782,9 +2782,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:14:00.807 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeTable_17911259342
-2026-06-29 01:14:00.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getTable(): java/util/Map
-2026-06-29 01:14:00.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getTable(): java/util/Map
+2026-08-11 22:23:03.757 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeTable_17911259342
+2026-08-11 22:23:03.757 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getTable(): java/util/Map
+2026-08-11 22:23:03.757 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getTable(): java/util/Map
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2794,9 +2794,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:00.866 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getTable_4942467763
-2026-06-29 01:14:00.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeIndex(): int
-2026-06-29 01:14:00.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeIndex(): int
+2026-08-11 22:23:03.808 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getTable_4942467763
+2026-08-11 22:23:03.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeIndex(): int
+2026-08-11 22:23:03.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeIndex(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2806,9 +2806,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:00.925 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeIndex_6801177014
-2026-06-29 01:14:00.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeIndex(int): void
-2026-06-29 01:14:00.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeIndex(int): void
+2026-08-11 22:23:03.857 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeIndex_6801177014
+2026-08-11 22:23:03.857 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeIndex(int): void
+2026-08-11 22:23:03.857 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeIndex(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2818,9 +2818,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:14:00.985 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeIndex_20747489895
-2026-06-29 01:14:00.985 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getScopeIndex(): int
-2026-06-29 01:14:00.985 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getScopeIndex(): int
+2026-08-11 22:23:03.902 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeIndex_20747489895
+2026-08-11 22:23:03.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getScopeIndex(): int
+2026-08-11 22:23:03.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getScopeIndex(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2830,9 +2830,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:01.044 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getScopeIndex_9672367606
-2026-06-29 01:14:01.045 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setScopeIndex(int): void
-2026-06-29 01:14:01.045 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setScopeIndex(int): void
+2026-08-11 22:23:03.945 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getScopeIndex_9672367606
+2026-08-11 22:23:03.946 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setScopeIndex(int): void
+2026-08-11 22:23:03.946 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setScopeIndex(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2842,9 +2842,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:14:01.103 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setScopeIndex_528569827
-2026-06-29 01:14:01.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getRecordEntryCoordinates(): kotlin/Pair
-2026-06-29 01:14:01.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getRecordEntryCoordinates(): kotlin/Pair
+2026-08-11 22:23:03.988 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setScopeIndex_528569827
+2026-08-11 22:23:03.988 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getRecordEntryCoordinates(): kotlin/Pair
+2026-08-11 22:23:03.988 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getRecordEntryCoordinates(): kotlin/Pair
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2854,9 +2854,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:01.156 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_14762781968
-2026-06-29 01:14:01.157 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setRecordEntryCoordinates(kotlin/Pair): void
-2026-06-29 01:14:01.157 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setRecordEntryCoordinates(kotlin/Pair): void
+2026-08-11 22:23:04.032 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_14762781968
+2026-08-11 22:23:04.032 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setRecordEntryCoordinates(kotlin/Pair): void
+2026-08-11 22:23:04.033 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setRecordEntryCoordinates(kotlin/Pair): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2866,9 +2866,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:14:01.216 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setRecordEntryCoordinates_18344675829
-2026-06-29 01:14:01.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component1(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
-2026-06-29 01:14:01.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component1(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
+2026-08-11 22:23:04.079 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setRecordEntryCoordinates_18344675829
+2026-08-11 22:23:04.079 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component1(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
+2026-08-11 22:23:04.079 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component1(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2878,9 +2878,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:01.273 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982710
-2026-06-29 01:14:01.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component2(): java/util/Map
-2026-06-29 01:14:01.274 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component2(): java/util/Map
+2026-08-11 22:23:04.123 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982710
+2026-08-11 22:23:04.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component2(): java/util/Map
+2026-08-11 22:23:04.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component2(): java/util/Map
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2890,9 +2890,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:01.328 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component2_47737804311
-2026-06-29 01:14:01.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component3(): int
-2026-06-29 01:14:01.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component3(): int
+2026-08-11 22:23:04.165 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component2_47737804311
+2026-08-11 22:23:04.166 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component3(): int
+2026-08-11 22:23:04.166 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component3(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2902,9 +2902,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:01.382 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component3_158157032612
-2026-06-29 01:14:01.383 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component4(): int
-2026-06-29 01:14:01.383 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component4(): int
+2026-08-11 22:23:04.205 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component3_158157032612
+2026-08-11 22:23:04.206 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component4(): int
+2026-08-11 22:23:04.206 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component4(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2914,9 +2914,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:01.441 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component4_158156936513
-2026-06-29 01:14:01.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component5(): kotlin/Pair
-2026-06-29 01:14:01.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component5(): kotlin/Pair
+2026-08-11 22:23:04.245 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component4_158156936513
+2026-08-11 22:23:04.246 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component5(): kotlin/Pair
+2026-08-11 22:23:04.246 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component5(): kotlin/Pair
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2926,9 +2926,9 @@ goto %label3
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:14:01.496 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component5_100733480414
-2026-06-29 01:14:01.497 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::copy(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
-2026-06-29 01:14:01.497 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::copy(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
+2026-08-11 22:23:04.287 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component5_100733480414
+2026-08-11 22:23:04.288 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::copy(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
+2026-08-11 22:23:04.288 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::copy(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2943,9 +2943,9 @@ goto %label3
 
 %bb2: 	//predecessors %bb1
 	return %2
-2026-06-29 01:14:01.563 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_copy_193812079915
-2026-06-29 01:14:01.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::toString(): java/lang/String
-2026-06-29 01:14:01.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::toString(): java/lang/String
+2026-08-11 22:23:04.337 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_copy_193812079915
+2026-08-11 22:23:04.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::toString(): java/lang/String
+2026-08-11 22:23:04.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3024,9 +3024,9 @@ goto %label3
 
 %bb18: 	//predecessors %bb17
 	return %36
-2026-06-29 01:14:01.619 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_toString_139057564316
-2026-06-29 01:14:01.620 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::hashCode(): int
-2026-06-29 01:14:01.620 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::hashCode(): int
+2026-08-11 22:23:04.382 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_toString_139057564316
+2026-08-11 22:23:04.382 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::hashCode(): int
+2026-08-11 22:23:04.382 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::hashCode(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3107,9 +3107,9 @@ goto %label3
 	%45 = phi {%if.else1 -> 0; %bb10 -> %42}
 	%47 = %44 + %45
 	return %47
-2026-06-29 01:14:01.673 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_hashCode_87981595317
-2026-06-29 01:14:01.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::equals(java/lang/Object): bool
-2026-06-29 01:14:01.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::equals(java/lang/Object): bool
+2026-08-11 22:23:04.421 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_hashCode_87981595317
+2026-08-11 22:23:04.422 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::equals(java/lang/Object): bool
+2026-08-11 22:23:04.422 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::equals(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3225,63 +3225,63 @@ goto %label3
 %bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %if.else3, %if.else4, %if.else5, %if.else6, %if.then6
 	%retval1 = phi {%if.else0 -> 1; %if.else1 -> 0; %if.else2 -> 0; %if.else3 -> 0; %if.else4 -> 0; %if.else5 -> 0; %if.else6 -> 0; %if.then6 -> 1}
 	return %retval1
-2026-06-29 01:14:01.731 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927818
-2026-06-29 01:14:01.777 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_init_81154704519
-2026-06-29 01:14:01.823 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_174630454620
-2026-06-29 01:14:01.868 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeTable_179112593421
-2026-06-29 01:14:01.910 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getTable_49424677622
-2026-06-29 01:14:01.955 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeIndex_68011770123
-2026-06-29 01:14:02.005 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeIndex_207474898924
-2026-06-29 01:14:02.051 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getScopeIndex_96723676025
-2026-06-29 01:14:02.096 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setScopeIndex_5285698226
-2026-06-29 01:14:02.140 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_147627819627
-2026-06-29 01:14:02.187 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setRecordEntryCoordinates_183446758228
-2026-06-29 01:14:02.231 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982729
-2026-06-29 01:14:02.275 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component2_47737804330
-2026-06-29 01:14:02.317 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component3_158157032631
-2026-06-29 01:14:02.360 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component4_158156936532
-2026-06-29 01:14:02.403 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component5_100733480433
-2026-06-29 01:14:02.445 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_copy_193812079934
-2026-06-29 01:14:02.486 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_toString_139057564335
-2026-06-29 01:14:02.529 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_hashCode_87981595336
-2026-06-29 01:14:02.584 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927837
-2026-06-29 01:14:02.585 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::<init>(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): void: null
-2026-06-29 01:14:02.585 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeTable(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeTable(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry): void: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getTable(): java/util/Map: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeIndex(): int: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeIndex(int): void: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getScopeIndex(): int: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setScopeIndex(int): void: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getRecordEntryCoordinates(): kotlin/Pair: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setRecordEntryCoordinates(kotlin/Pair): void: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component1(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component2(): java/util/Map: null
-2026-06-29 01:14:02.586 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component3(): int: null
-2026-06-29 01:14:02.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component4(): int: null
-2026-06-29 01:14:02.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component5(): kotlin/Pair: null
-2026-06-29 01:14:02.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::copy(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry: null
-2026-06-29 01:14:02.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::toString(): java/lang/String: null
-2026-06-29 01:14:02.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::hashCode(): int: null
-2026-06-29 01:14:02.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::equals(java/lang/Object): bool: null
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::<init>(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): void processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeTable(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeTable(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry): void processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getTable(): java/util/Map processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeIndex(): int processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeIndex(int): void processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getScopeIndex(): int processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setScopeIndex(int): void processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getRecordEntryCoordinates(): kotlin/Pair processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setRecordEntryCoordinates(kotlin/Pair): void processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component1(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry processing is finished normally
-2026-06-29 01:14:02.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component2(): java/util/Map processing is finished normally
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component3(): int processing is finished normally
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component4(): int processing is finished normally
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component5(): kotlin/Pair processing is finished normally
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::copy(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry processing is finished normally
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::toString(): java/lang/String processing is finished normally
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::hashCode(): int processing is finished normally
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::equals(java/lang/Object): bool processing is finished normally
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 01:14:02.588 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 22:23:04.463 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927818
+2026-08-11 22:23:04.496 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_init_81154704519
+2026-08-11 22:23:04.530 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_174630454620
+2026-08-11 22:23:04.565 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeTable_179112593421
+2026-08-11 22:23:04.598 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getTable_49424677622
+2026-08-11 22:23:04.630 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeIndex_68011770123
+2026-08-11 22:23:04.662 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeIndex_207474898924
+2026-08-11 22:23:04.695 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getScopeIndex_96723676025
+2026-08-11 22:23:04.728 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setScopeIndex_5285698226
+2026-08-11 22:23:04.771 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_147627819627
+2026-08-11 22:23:04.813 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setRecordEntryCoordinates_183446758228
+2026-08-11 22:23:04.846 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982729
+2026-08-11 22:23:04.876 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component2_47737804330
+2026-08-11 22:23:04.907 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component3_158157032631
+2026-08-11 22:23:04.939 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component4_158156936532
+2026-08-11 22:23:04.970 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component5_100733480433
+2026-08-11 22:23:05.001 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_copy_193812079934
+2026-08-11 22:23:05.030 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_toString_139057564335
+2026-08-11 22:23:05.063 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_hashCode_87981595336
+2026-08-11 22:23:05.093 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927837
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::<init>(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): void: null
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeTable(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry: null
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeTable(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry): void: null
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getTable(): java/util/Map: null
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeIndex(): int: null
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeIndex(int): void: null
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getScopeIndex(): int: null
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setScopeIndex(int): void: null
+2026-08-11 22:23:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getRecordEntryCoordinates(): kotlin/Pair: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setRecordEntryCoordinates(kotlin/Pair): void: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component1(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component2(): java/util/Map: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component3(): int: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component4(): int: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component5(): kotlin/Pair: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::copy(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::toString(): java/lang/String: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::hashCode(): int: null
+2026-08-11 22:23:05.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::equals(java/lang/Object): bool: null
+2026-08-11 22:23:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::<init>(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): void processing is finished normally
+2026-08-11 22:23:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeTable(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry processing is finished normally
+2026-08-11 22:23:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeTable(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry): void processing is finished normally
+2026-08-11 22:23:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getTable(): java/util/Map processing is finished normally
+2026-08-11 22:23:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getPrevScopeIndex(): int processing is finished normally
+2026-08-11 22:23:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setPrevScopeIndex(int): void processing is finished normally
+2026-08-11 22:23:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getScopeIndex(): int processing is finished normally
+2026-08-11 22:23:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setScopeIndex(int): void processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::getRecordEntryCoordinates(): kotlin/Pair processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::setRecordEntryCoordinates(kotlin/Pair): void processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component1(): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component2(): java/util/Map processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component3(): int processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component4(): int processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::component5(): kotlin/Pair processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::copy(com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry, java/util/Map, int, int, kotlin/Pair): com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::toString(): java/lang/String processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::hashCode(): int processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sachett/samosa/samosac/symbol/symboltable/SymbolTableRecordEntry::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 22:23:05.096 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

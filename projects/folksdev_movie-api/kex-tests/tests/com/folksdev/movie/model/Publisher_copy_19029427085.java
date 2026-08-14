@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Publisher_copy_19029427085 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term29830;
+     Object term29829;
 
     public Publisher_copy_19029427085() {
     }
@@ -31,9 +31,9 @@ public class Publisher_copy_19029427085 {
 
     @Before
     public void setup() throws Throwable {
-        term29830 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
-        setField(term29830, term29830.getClass(), "id", "VGeGoUWPCQ");
-        setField(term29830, term29830.getClass(), "name", "ZjkLeKLILi");
+        term29829 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
+        setField(term29829, term29829.getClass(), "id", "VGeGoUWPCQ");
+        setField(term29829, term29829.getClass(), "name", "ZjkLeKLILi");
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Publisher_copy_19029427085 {
         Object[] args = new Object[2];
         args[0] = "CZAqWlBJTT";
         args[1] = "WPMnhxMKAm";
-        callMethod(klass, "copy", argTypes, term29830, args);
+        callMethod(klass, "copy", argTypes, term29829, args);
     }
 
 };

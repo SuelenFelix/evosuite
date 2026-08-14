@@ -27,8 +27,8 @@ import java.util.HashSet;
 
 public class GatchaUser_setId_12181366389 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term578;
-     Object term628;
+     Object term580;
+     Object term630;
 
     public GatchaUser_setId_12181366389() {
     }
@@ -39,22 +39,22 @@ public class GatchaUser_setId_12181366389 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term579 = new Integer(-505439934);
-        Integer term582 = new Integer(-344842608);
-        HashMap term597 = new HashMap();
-        Set<Object> term640 =  ((Map) term597).keySet();
-        HashSet term596 = new HashSet((Collection<? extends Object>) term640);
-        term578 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser"));
-        Object term581 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
-        setField(term578, term578.getClass(), "id", term579);
-        setField(term581, term581.getClass(), "id", term582);
-        setField(term581, term581.getClass(), "role", "EeBVbzjcCI");
-        setField(term581, term581.getClass(), "users", term596);
-        setField(term578, term578.getClass(), "authority", term581);
-        setField(term578, term578.getClass(), "email", "aWYOWZFyaX");
-        setField(term578, term578.getClass(), "password", "BRIVNtfUWU");
-        setBooleanField(term578, term578.getClass(), "enabled", true);
-        term628 = new Integer(-268815336);
+        Integer term581 = new Integer(-505439934);
+        Integer term584 = new Integer(-344842608);
+        HashMap term599 = new HashMap();
+        Set<Object> term642 =  ((Map) term599).keySet();
+        HashSet term598 = new HashSet((Collection<? extends Object>) term642);
+        term580 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser"));
+        Object term583 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
+        setField(term580, term580.getClass(), "id", term581);
+        setField(term583, term583.getClass(), "id", term584);
+        setField(term583, term583.getClass(), "role", "EeBVbzjcCI");
+        setField(term583, term583.getClass(), "users", term598);
+        setField(term580, term580.getClass(), "authority", term583);
+        setField(term580, term580.getClass(), "email", "aWYOWZFyaX");
+        setField(term580, term580.getClass(), "password", "BRIVNtfUWU");
+        setBooleanField(term580, term580.getClass(), "enabled", true);
+        term630 = new Integer(-268815336);
     }
 
     @Test
@@ -63,8 +63,8 @@ public class GatchaUser_setId_12181366389 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Integer");
         Object[] args = new Object[1];
-        args[0] = term628;
-        callMethod(klass, "setId", argTypes, term578, args);
+        args[0] = term630;
+        callMethod(klass, "setId", argTypes, term580, args);
     }
 
 };

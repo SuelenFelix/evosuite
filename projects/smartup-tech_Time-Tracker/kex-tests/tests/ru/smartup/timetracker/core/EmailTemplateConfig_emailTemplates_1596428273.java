@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class EmailTemplateConfig_emailTemplates_1596428273 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2928;
+     Object term3302;
 
     public EmailTemplateConfig_emailTemplates_1596428273() {
     }
@@ -31,7 +31,7 @@ public class EmailTemplateConfig_emailTemplates_1596428273 {
 
     @Before
     public void setup() throws Throwable {
-        term2928 = newInstance(Class.forName("ru.smartup.timetracker.core.EmailTemplateConfig"));
+        term3302 = newInstance(Class.forName("ru.smartup.timetracker.core.EmailTemplateConfig"));
     }
 
     @Test
@@ -43,7 +43,7 @@ public class EmailTemplateConfig_emailTemplates_1596428273 {
         Object[] args = new Object[2];
         args[0] = null;
         args[1] = null;
-        callMethod(klass, "emailTemplates", argTypes, term2928, args);
+        callMethod(klass, "emailTemplates", argTypes, term3302, args);
     }
 
 };

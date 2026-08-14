@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_newNodeMatching_179008643639 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10330;
+     Object term10327;
 
     public Genome_newNodeMatching_179008643639() {
     }
@@ -31,12 +31,12 @@ public class Genome_newNodeMatching_179008643639 {
 
     @Before
     public void setup() throws Throwable {
-        term10330 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10330, term10330.getClass(), "nodes", null);
-        setField(term10330, term10330.getClass(), "connections", null);
-        setField(term10330, term10330.getClass(), "nodeInnovator", null);
-        setField(term10330, term10330.getClass(), "connectionInnovator", null);
-        setField(term10330, term10330.getClass(), "random", null);
+        term10327 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10327, term10327.getClass(), "nodes", null);
+        setField(term10327, term10327.getClass(), "connections", null);
+        setField(term10327, term10327.getClass(), "nodeInnovator", null);
+        setField(term10327, term10327.getClass(), "connectionInnovator", null);
+        setField(term10327, term10327.getClass(), "random", null);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class Genome_newNodeMatching_179008643639 {
         args[0] = null;
         args[1] = null;
         args[2] = null;
-        callMethod(klass, "newNodeMatching", argTypes, term10330, args);
+        callMethod(klass, "newNodeMatching", argTypes, term10327, args);
     }
 
 };

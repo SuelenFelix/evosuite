@@ -76,7 +76,7 @@ public class Species_getStaleness_11773499387 {
         setField(term5019, term5019.getClass(), "nodeInnovator", term5028);
         setIntField(term5030, term5030.getClass(), "counter", 100);
         setField(term5019, term5019.getClass(), "connectionInnovator", term5030);
-        setLongField(term5033, term5033.getClass(), "value", 181126687502873L);
+        setLongField(term5033, term5033.getClass(), "value", 163397818140959L);
         setField(term5032, term5032.getClass(), "seed", term5033);
         setDoubleField(term5032, term5032.getClass(), "nextNextGaussian", 0.6635389764920203);
         setBooleanField(term5032, term5032.getClass(), "haveNextNextGaussian", false);

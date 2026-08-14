@@ -121,7 +121,7 @@ public class SettingsActivity_9_init_15055100150 {
         setField(term2406, term2406.getClass(), "text", "");
         setField(term2406, term2406.getClass(), "defaultIcon", null);
         setField(term2406, term2406.getClass(), "disabledIcon", null);
-        setBooleanField(term2406, term2406.getClass(), "disabledIconSet", true);
+        setBooleanField(term2406, term2406.getClass(), "disabledIconSet", false);
         setIntField(term2406, term2406.getClass(), "verticalAlignment", -1034506028);
         setIntField(term2406, term2406.getClass(), "horizontalAlignment", 10);
         setIntField(term2406, term2406.getClass(), "verticalTextPosition", -1263114719);
@@ -151,7 +151,7 @@ public class SettingsActivity_9_init_15055100150 {
         setField(term2436, term2436.getClass(), "map", term2437);
         setField(term2436, term2436.getClass(), "source", term2438);
         setField(term2406, term2406.getClass(), "vetoableChangeSupport", term2436);
-        setBooleanField(term2406, term2406.getClass(), "autoscrolls", false);
+        setBooleanField(term2406, term2406.getClass(), "autoscrolls", true);
         setField(term2406, term2406.getClass(), "border", null);
         setIntField(term2406, term2406.getClass(), "flags", 8388608);
         setField(term2406, term2406.getClass(), "inputVerifier", null);
@@ -313,7 +313,7 @@ public class SettingsActivity_9_init_15055100150 {
         setField(term2546, term2546.getClass(), "keySet", null);
         setField(term2546, term2546.getClass(), "values", null);
         setField(term2535, term2535.getClass(), "moduleToReader", term2546);
-        setLongField(term2551, term2551.getClass(), "timestamp", 163537220L);
+        setLongField(term2551, term2551.getClass(), "timestamp", 51806627L);
         setField(term2551, term2551.getClass(), "referent", null);
         setField(term2551, term2551.getClass(), "queue", null);
         setField(term2551, term2551.getClass(), "next", null);

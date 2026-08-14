@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KTableModel_setTable_16092122325 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term69379;
+     Object term69428;
 
     public KTableModel_setTable_16092122325() {
     }
@@ -31,11 +31,11 @@ public class KTableModel_setTable_16092122325 {
 
     @Before
     public void setup() throws Throwable {
-        term69379 = newInstance(Class.forName("proto.KTableModel"));
-        setField(term69379, term69379.getClass(), "table", null);
-        setField(term69379, term69379.getClass(), "dataVector", null);
-        setField(term69379, term69379.getClass(), "columnIdentifiers", null);
-        setField(term69379, term69379.getClass(), "listenerList", null);
+        term69428 = newInstance(Class.forName("proto.KTableModel"));
+        setField(term69428, term69428.getClass(), "table", null);
+        setField(term69428, term69428.getClass(), "dataVector", null);
+        setField(term69428, term69428.getClass(), "columnIdentifiers", null);
+        setField(term69428, term69428.getClass(), "listenerList", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class KTableModel_setTable_16092122325 {
         argTypes[0] = Class.forName("proto.KTable");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setTable", argTypes, term69379, args);
+        callMethod(klass, "setTable", argTypes, term69428, args);
     }
 
 };

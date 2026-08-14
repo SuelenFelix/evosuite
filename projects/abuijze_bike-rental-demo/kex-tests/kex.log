@@ -1,16 +1,16 @@
-2026-06-29 03:33:26.503 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/abuijze_bike-rental-demo/target/classes
-2026-06-29 03:33:26.606 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 03:33:26.687 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 03:33:27.739 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 03:33:28.318 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/axoniq/demo/bikerental/bikerental/query/*
-2026-06-29 03:33:28.343 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 03:33:28.363 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/abuijze_bike-rental-demo/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 03:33:28.395 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/abuijze_bike-rental-demo/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 40613 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/abuijze_bike-rental-demo/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 03:33:28.409 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 03:35:08.438 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(): void
-2026-06-29 03:35:08.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(): void
+2026-08-12 04:06:28.788 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/abuijze_bike-rental-demo/target/classes
+2026-08-12 04:06:28.882 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 04:06:28.957 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 04:06:29.772 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 04:06:30.297 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/axoniq/demo/bikerental/bikerental/query/*
+2026-08-12 04:06:30.298 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 04:06:30.321 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/abuijze_bike-rental-demo/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 04:06:30.353 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/abuijze_bike-rental-demo/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 39981 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/abuijze_bike-rental-demo/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 04:06:30.366 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 04:08:10.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(): void
+2026-08-12 04:08:10.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 03:35:08.930 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_init_6340654010
-2026-06-29 03:35:08.936 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(java/lang/String, java/lang/String, java/lang/String): void
-2026-06-29 03:35:08.936 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(java/lang/String, java/lang/String, java/lang/String): void
+2026-08-12 04:08:10.863 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_init_6340654010
+2026-08-12 04:08:10.868 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(java/lang/String, java/lang/String, java/lang/String): void
+2026-08-12 04:08:10.868 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(java/lang/String, java/lang/String, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -44,9 +44,9 @@
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-29 03:35:09.083 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_init_14975611801
-2026-06-29 03:35:09.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeId(): java/lang/String
-2026-06-29 03:35:09.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeId(): java/lang/String
+2026-08-12 04:08:10.978 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_init_14975611801
+2026-08-12 04:08:10.979 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeId(): java/lang/String
+2026-08-12 04:08:10.979 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeId(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -56,9 +56,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 03:35:09.179 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getBikeId_10685452402
-2026-06-29 03:35:09.180 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getLocation(): java/lang/String
-2026-06-29 03:35:09.180 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getLocation(): java/lang/String
+2026-08-12 04:08:11.070 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getBikeId_10685452402
+2026-08-12 04:08:11.071 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getLocation(): java/lang/String
+2026-08-12 04:08:11.071 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getLocation(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -68,9 +68,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 03:35:09.261 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getLocation_6194616473
-2026-06-29 03:35:09.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setLocation(java/lang/String): void
-2026-06-29 03:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setLocation(java/lang/String): void
+2026-08-12 04:08:11.144 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getLocation_6194616473
+2026-08-12 04:08:11.145 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setLocation(java/lang/String): void
+2026-08-12 04:08:11.145 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setLocation(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -80,9 +80,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 03:35:09.341 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_setLocation_20891632094
-2026-06-29 03:35:09.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getRenter(): java/lang/String
-2026-06-29 03:35:09.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getRenter(): java/lang/String
+2026-08-12 04:08:11.210 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_setLocation_20891632094
+2026-08-12 04:08:11.211 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getRenter(): java/lang/String
+2026-08-12 04:08:11.211 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getRenter(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -92,9 +92,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 03:35:09.410 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getRenter_2657200305
-2026-06-29 03:35:09.410 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setRenter(java/lang/String): void
-2026-06-29 03:35:09.410 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setRenter(java/lang/String): void
+2026-08-12 04:08:11.270 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getRenter_2657200305
+2026-08-12 04:08:11.271 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setRenter(java/lang/String): void
+2026-08-12 04:08:11.271 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setRenter(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -104,9 +104,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 03:35:09.473 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_setRenter_15801937866
-2026-06-29 03:35:09.474 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeType(): java/lang/String
-2026-06-29 03:35:09.474 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeType(): java/lang/String
+2026-08-12 04:08:11.331 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_setRenter_15801937866
+2026-08-12 04:08:11.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeType(): java/lang/String
+2026-08-12 04:08:11.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeType(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -116,33 +116,33 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 03:35:09.541 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getBikeType_12832088417
-2026-06-29 03:35:09.606 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_init_6340654018
-2026-06-29 03:35:09.704 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_init_14975611809
-2026-06-29 03:35:09.753 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getBikeId_106854524010
-2026-06-29 03:35:09.807 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getLocation_61946164711
-2026-06-29 03:35:09.864 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_setLocation_208916320912
-2026-06-29 03:35:09.910 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getRenter_26572003013
-2026-06-29 03:35:09.976 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_setRenter_158019378614
-2026-06-29 03:35:10.026 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getBikeType_128320884115
-2026-06-29 03:35:10.026 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(): void: null
-2026-06-29 03:35:10.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(java/lang/String, java/lang/String, java/lang/String): void: null
-2026-06-29 03:35:10.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeId(): java/lang/String: null
-2026-06-29 03:35:10.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getLocation(): java/lang/String: null
-2026-06-29 03:35:10.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setLocation(java/lang/String): void: null
-2026-06-29 03:35:10.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getRenter(): java/lang/String: null
-2026-06-29 03:35:10.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setRenter(java/lang/String): void: null
-2026-06-29 03:35:10.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeType(): java/lang/String: null
-2026-06-29 03:35:10.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(): void processing is finished normally
-2026-06-29 03:35:10.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(java/lang/String, java/lang/String, java/lang/String): void processing is finished normally
-2026-06-29 03:35:10.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeId(): java/lang/String processing is finished normally
-2026-06-29 03:35:10.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getLocation(): java/lang/String processing is finished normally
-2026-06-29 03:35:10.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setLocation(java/lang/String): void processing is finished normally
-2026-06-29 03:35:10.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getRenter(): java/lang/String processing is finished normally
-2026-06-29 03:35:10.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setRenter(java/lang/String): void processing is finished normally
-2026-06-29 03:35:10.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeType(): java/lang/String processing is finished normally
-2026-06-29 03:35:10.038 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::<init>(io/axoniq/demo/bikerental/bikerental/query/BikeStatusRepository): void
-2026-06-29 03:35:10.038 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::<init>(io/axoniq/demo/bikerental/bikerental/query/BikeStatusRepository): void
+2026-08-12 04:08:11.412 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getBikeType_12832088417
+2026-08-12 04:08:11.462 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_init_6340654018
+2026-08-12 04:08:11.508 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_init_14975611809
+2026-08-12 04:08:11.563 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getBikeId_106854524010
+2026-08-12 04:08:11.609 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getLocation_61946164711
+2026-08-12 04:08:11.669 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_setLocation_208916320912
+2026-08-12 04:08:11.710 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getRenter_26572003013
+2026-08-12 04:08:11.752 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_setRenter_158019378614
+2026-08-12 04:08:11.794 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatus_getBikeType_128320884115
+2026-08-12 04:08:11.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(): void: null
+2026-08-12 04:08:11.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(java/lang/String, java/lang/String, java/lang/String): void: null
+2026-08-12 04:08:11.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeId(): java/lang/String: null
+2026-08-12 04:08:11.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getLocation(): java/lang/String: null
+2026-08-12 04:08:11.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setLocation(java/lang/String): void: null
+2026-08-12 04:08:11.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getRenter(): java/lang/String: null
+2026-08-12 04:08:11.796 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setRenter(java/lang/String): void: null
+2026-08-12 04:08:11.796 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeType(): java/lang/String: null
+2026-08-12 04:08:11.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(): void processing is finished normally
+2026-08-12 04:08:11.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::<init>(java/lang/String, java/lang/String, java/lang/String): void processing is finished normally
+2026-08-12 04:08:11.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeId(): java/lang/String processing is finished normally
+2026-08-12 04:08:11.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getLocation(): java/lang/String processing is finished normally
+2026-08-12 04:08:11.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setLocation(java/lang/String): void processing is finished normally
+2026-08-12 04:08:11.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getRenter(): java/lang/String processing is finished normally
+2026-08-12 04:08:11.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::setRenter(java/lang/String): void processing is finished normally
+2026-08-12 04:08:11.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatus::getBikeType(): java/lang/String processing is finished normally
+2026-08-12 04:08:11.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::<init>(io/axoniq/demo/bikerental/bikerental/query/BikeStatusRepository): void
+2026-08-12 04:08:11.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::<init>(io/axoniq/demo/bikerental/bikerental/query/BikeStatusRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -156,7 +156,7 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 03:35:10.040 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 04:08:11.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -180,7 +180,7 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 03:35:10.040 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 04:08:11.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -204,9 +204,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 03:35:10.040 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::<init>(io/axoniq/demo/bikerental/bikerental/query/BikeStatusRepository): void: null
-2026-06-29 03:35:10.040 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRegisteredEvent): void
-2026-06-29 03:35:10.041 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRegisteredEvent): void
+2026-08-12 04:08:11.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::<init>(io/axoniq/demo/bikerental/bikerental/query/BikeStatusRepository): void: null
+2026-08-12 04:08:11.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRegisteredEvent): void
+2026-08-12 04:08:11.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRegisteredEvent): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -237,9 +237,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %label0: 	//predecessors %bb5
 	return
-2026-06-29 03:35:10.093 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_on_10178553520
-2026-06-29 03:35:10.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRentedEvent): void
-2026-06-29 03:35:10.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRentedEvent): void
+2026-08-12 04:08:11.851 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_on_10178553520
+2026-08-12 04:08:11.852 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRentedEvent): void
+2026-08-12 04:08:11.852 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRentedEvent): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -265,9 +265,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %label0: 	//predecessors %bb4
 	return
-2026-06-29 03:35:10.143 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_on_20782032941
-2026-06-29 03:35:10.144 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeReturnedEvent): void
-2026-06-29 03:35:10.144 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeReturnedEvent): void
+2026-08-12 04:08:11.892 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_on_20782032941
+2026-08-12 04:08:11.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeReturnedEvent): void
+2026-08-12 04:08:11.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeReturnedEvent): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -293,9 +293,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %label0: 	//predecessors %bb4
 	return
-2026-06-29 03:35:10.187 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_on_12400144212
-2026-06-29 03:35:10.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findAll(): java/lang/Iterable
-2026-06-29 03:35:10.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findAll(): java/lang/Iterable
+2026-08-12 04:08:11.933 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_on_12400144212
+2026-08-12 04:08:11.934 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findAll(): java/lang/Iterable
+2026-08-12 04:08:11.934 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findAll(): java/lang/Iterable
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -309,9 +309,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 03:35:10.232 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_findAll_19379274243
-2026-06-29 03:35:10.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findOne(java/lang/String): io/axoniq/demo/bikerental/bikerental/query/BikeStatus
-2026-06-29 03:35:10.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findOne(java/lang/String): io/axoniq/demo/bikerental/bikerental/query/BikeStatus
+2026-08-12 04:08:11.971 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_findAll_19379274243
+2026-08-12 04:08:11.972 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findOne(java/lang/String): io/axoniq/demo/bikerental/bikerental/query/BikeStatus
+2026-08-12 04:08:11.972 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findOne(java/lang/String): io/axoniq/demo/bikerental/bikerental/query/BikeStatus
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -333,9 +333,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb4: 	//predecessors %bb3
 	return %7
-2026-06-29 03:35:10.277 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_findOne_10420225864
-2026-06-29 03:35:10.277 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::<init>(io/axoniq/demo/bikerental/bikerental/query/BikeStatusRepository): void processing is finished normally
-2026-06-29 03:35:10.278 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 04:08:12.009 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.axoniq.demo.bikerental.bikerental.query.BikeStatusProjection_findOne_10420225864
+2026-08-12 04:08:12.010 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::<init>(io/axoniq/demo/bikerental/bikerental/query/BikeStatusRepository): void processing is finished normally
+2026-08-12 04:08:12.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -373,8 +373,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 03:35:10.278 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRegisteredEvent): void: null
-2026-06-29 03:35:10.279 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 04:08:12.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRegisteredEvent): void: null
+2026-08-12 04:08:12.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -412,8 +412,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 03:35:10.279 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRentedEvent): void: null
-2026-06-29 03:35:10.280 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 04:08:12.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRentedEvent): void: null
+2026-08-12 04:08:12.012 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -451,8 +451,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 03:35:10.280 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeReturnedEvent): void: null
-2026-06-29 03:35:10.280 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 04:08:12.012 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeReturnedEvent): void: null
+2026-08-12 04:08:12.012 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -490,8 +490,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 03:35:10.280 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findAll(): java/lang/Iterable: null
-2026-06-29 03:35:10.281 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 04:08:12.012 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findAll(): java/lang/Iterable: null
+2026-08-12 04:08:12.013 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -529,11 +529,11 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 03:35:10.281 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findOne(java/lang/String): io/axoniq/demo/bikerental/bikerental/query/BikeStatus: null
-2026-06-29 03:35:10.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRegisteredEvent): void processing is finished normally
-2026-06-29 03:35:10.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRentedEvent): void processing is finished normally
-2026-06-29 03:35:10.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeReturnedEvent): void processing is finished normally
-2026-06-29 03:35:10.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findAll(): java/lang/Iterable processing is finished normally
-2026-06-29 03:35:10.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findOne(java/lang/String): io/axoniq/demo/bikerental/bikerental/query/BikeStatus processing is finished normally
-2026-06-29 03:35:10.282 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 03:35:10.282 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 04:08:12.013 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findOne(java/lang/String): io/axoniq/demo/bikerental/bikerental/query/BikeStatus: null
+2026-08-12 04:08:12.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRegisteredEvent): void processing is finished normally
+2026-08-12 04:08:12.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeRentedEvent): void processing is finished normally
+2026-08-12 04:08:12.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::on(io/axoniq/demo/bikerental/bikerental/coreapi/BikeReturnedEvent): void processing is finished normally
+2026-08-12 04:08:12.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findAll(): java/lang/Iterable processing is finished normally
+2026-08-12 04:08:12.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/axoniq/demo/bikerental/bikerental/query/BikeStatusProjection::findOne(java/lang/String): io/axoniq/demo/bikerental/bikerental/query/BikeStatus processing is finished normally
+2026-08-12 04:08:12.014 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 04:08:12.014 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -61,12 +61,12 @@ public class Task_hashCode_204222220918 {
         setField(term7002, term7002.getClass(), "name", "fztQhjqwdP");
         setIntField(term7002, term7002.getClass(), "priority", 3);
         setIntField(term7018, term7018.getClass(), "year", 2026);
-        setShortField(term7018, term7018.getClass(), "month", (short) 6);
-        setShortField(term7018, term7018.getClass(), "day", (short) 29);
+        setShortField(term7018, term7018.getClass(), "month", (short) 8);
+        setShortField(term7018, term7018.getClass(), "day", (short) 12);
         setField(term7002, term7002.getClass(), "startDate", term7018);
         setIntField(term7022, term7022.getClass(), "year", 2026);
-        setShortField(term7022, term7022.getClass(), "month", (short) 6);
-        setShortField(term7022, term7022.getClass(), "day", (short) 29);
+        setShortField(term7022, term7022.getClass(), "month", (short) 8);
+        setShortField(term7022, term7022.getClass(), "day", (short) 12);
         setField(term7002, term7002.getClass(), "endDate", term7022);
         setBooleanField(term7002, term7002.getClass(), "completed", true);
         setField(term7027, term7027.getClass(), "id", term7028);

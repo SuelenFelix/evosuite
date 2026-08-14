@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Admin_getUserName_93381339314 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term20178;
+     Object term32302;
 
     public Admin_getUserName_93381339314() {
     }
@@ -31,12 +31,12 @@ public class Admin_getUserName_93381339314 {
 
     @Before
     public void setup() throws Throwable {
-        term20178 = newInstance(Class.forName("com.cg.freelanceapp.entities.Admin"));
-        setField(term20178, term20178.getClass(), "id", null);
-        setField(term20178, term20178.getClass(), "userName", null);
-        setField(term20178, term20178.getClass(), "firstName", null);
-        setField(term20178, term20178.getClass(), "lastName", null);
-        setField(term20178, term20178.getClass(), "password", null);
+        term32302 = newInstance(Class.forName("com.cg.freelanceapp.entities.Admin"));
+        setField(term32302, term32302.getClass(), "id", null);
+        setField(term32302, term32302.getClass(), "userName", null);
+        setField(term32302, term32302.getClass(), "firstName", null);
+        setField(term32302, term32302.getClass(), "lastName", null);
+        setField(term32302, term32302.getClass(), "password", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Admin_getUserName_93381339314 {
         Class<?> klass = Class.forName("com.cg.freelanceapp.entities.Admin");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getUserName", argTypes, term20178, args);
+        callMethod(klass, "getUserName", argTypes, term32302, args);
     }
 
 };

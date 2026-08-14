@@ -345,7 +345,7 @@ public class TodoSelf_setDateCompleted_68431537617 {
         setField(term90947, term90947.getClass(), "keySet", null);
         setField(term90947, term90947.getClass(), "values", null);
         setField(term90936, term90936.getClass(), "moduleToReader", term90947);
-        setLongField(term90952, term90952.getClass(), "timestamp", 164138908L);
+        setLongField(term90952, term90952.getClass(), "timestamp", 52418865L);
         setField(term90952, term90952.getClass(), "referent", null);
         setField(term90952, term90952.getClass(), "queue", null);
         setField(term90952, term90952.getClass(), "next", null);

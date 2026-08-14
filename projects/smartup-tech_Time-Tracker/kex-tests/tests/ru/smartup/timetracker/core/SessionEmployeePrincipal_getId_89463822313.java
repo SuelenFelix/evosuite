@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_getId_89463822313 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2547;
+     Object term2921;
 
     public SessionEmployeePrincipal_getId_89463822313() {
     }
@@ -37,15 +37,15 @@ public class SessionEmployeePrincipal_getId_89463822313 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term2562 = new HashMap();
-        Set<Object> term2587 =  ((Map) term2562).keySet();
-        HashSet term2561 = new HashSet((Collection<? extends Object>) term2587);
-        HashMap term2572 = new HashMap();
-        term2547 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2547, term2547.getClass(), "id", 865208305);
-        setField(term2547, term2547.getClass(), "email", "ZiaGIbnzTs");
-        setField(term2547, term2547.getClass(), "employeeRoles", term2561);
-        setField(term2547, term2547.getClass(), "projectIdsByProjectRoles", term2572);
+        HashMap term2936 = new HashMap();
+        Set<Object> term2961 =  ((Map) term2936).keySet();
+        HashSet term2935 = new HashSet((Collection<? extends Object>) term2961);
+        HashMap term2946 = new HashMap();
+        term2921 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term2921, term2921.getClass(), "id", 865208305);
+        setField(term2921, term2921.getClass(), "email", "ZiaGIbnzTs");
+        setField(term2921, term2921.getClass(), "employeeRoles", term2935);
+        setField(term2921, term2921.getClass(), "projectIdsByProjectRoles", term2946);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class SessionEmployeePrincipal_getId_89463822313 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getId", argTypes, term2547, args);
+        callMethod(klass, "getId", argTypes, term2921, args);
     }
 
 };

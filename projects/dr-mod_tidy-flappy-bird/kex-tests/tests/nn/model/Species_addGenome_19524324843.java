@@ -105,7 +105,7 @@ public class Species_addGenome_19524324843 {
         setField(term4817, term4817.getClass(), "nodeInnovator", term4826);
         setIntField(term4828, term4828.getClass(), "counter", 100);
         setField(term4817, term4817.getClass(), "connectionInnovator", term4828);
-        setLongField(term4831, term4831.getClass(), "value", 186592688906056L);
+        setLongField(term4831, term4831.getClass(), "value", 15810518210375L);
         setField(term4830, term4830.getClass(), "seed", term4831);
         setDoubleField(term4830, term4830.getClass(), "nextNextGaussian", 0.9452756892252447);
         setBooleanField(term4830, term4830.getClass(), "haveNextNextGaussian", true);
@@ -171,7 +171,7 @@ public class Species_addGenome_19524324843 {
         setField(term4838, term4838.getClass(), "nodeInnovator", term4868);
         setIntField(term4870, term4870.getClass(), "counter", 100);
         setField(term4838, term4838.getClass(), "connectionInnovator", term4870);
-        setLongField(term4873, term4873.getClass(), "value", 51058401765123L);
+        setLongField(term4873, term4873.getClass(), "value", 2880726852859L);
         setField(term4872, term4872.getClass(), "seed", term4873);
         setDoubleField(term4872, term4872.getClass(), "nextNextGaussian", 0.7815751235487547);
         setBooleanField(term4872, term4872.getClass(), "haveNextNextGaussian", true);

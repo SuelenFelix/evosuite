@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_addNodesAndConnections_196999070838 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10329;
+     Object term10326;
 
     public Genome_addNodesAndConnections_196999070838() {
     }
@@ -31,12 +31,12 @@ public class Genome_addNodesAndConnections_196999070838 {
 
     @Before
     public void setup() throws Throwable {
-        term10329 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10329, term10329.getClass(), "nodes", null);
-        setField(term10329, term10329.getClass(), "connections", null);
-        setField(term10329, term10329.getClass(), "nodeInnovator", null);
-        setField(term10329, term10329.getClass(), "connectionInnovator", null);
-        setField(term10329, term10329.getClass(), "random", null);
+        term10326 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10326, term10326.getClass(), "nodes", null);
+        setField(term10326, term10326.getClass(), "connections", null);
+        setField(term10326, term10326.getClass(), "nodeInnovator", null);
+        setField(term10326, term10326.getClass(), "connectionInnovator", null);
+        setField(term10326, term10326.getClass(), "random", null);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class Genome_addNodesAndConnections_196999070838 {
         args[0] = null;
         args[1] = null;
         args[2] = null;
-        callMethod(klass, "addNodesAndConnections", argTypes, term10329, args);
+        callMethod(klass, "addNodesAndConnections", argTypes, term10326, args);
     }
 
 };

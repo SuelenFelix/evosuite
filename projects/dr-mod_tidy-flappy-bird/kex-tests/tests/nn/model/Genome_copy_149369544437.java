@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_copy_149369544437 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10328;
+     Object term10325;
 
     public Genome_copy_149369544437() {
     }
@@ -31,12 +31,12 @@ public class Genome_copy_149369544437 {
 
     @Before
     public void setup() throws Throwable {
-        term10328 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10328, term10328.getClass(), "nodes", null);
-        setField(term10328, term10328.getClass(), "connections", null);
-        setField(term10328, term10328.getClass(), "nodeInnovator", null);
-        setField(term10328, term10328.getClass(), "connectionInnovator", null);
-        setField(term10328, term10328.getClass(), "random", null);
+        term10325 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10325, term10325.getClass(), "nodes", null);
+        setField(term10325, term10325.getClass(), "connections", null);
+        setField(term10325, term10325.getClass(), "nodeInnovator", null);
+        setField(term10325, term10325.getClass(), "connectionInnovator", null);
+        setField(term10325, term10325.getClass(), "random", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Genome_copy_149369544437 {
         Class<?> klass = Class.forName("nn.model.Genome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "copy", argTypes, term10328, args);
+        callMethod(klass, "copy", argTypes, term10325, args);
     }
 
 };

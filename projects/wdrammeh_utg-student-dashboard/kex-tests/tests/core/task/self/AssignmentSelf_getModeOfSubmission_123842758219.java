@@ -359,7 +359,7 @@ public class AssignmentSelf_getModeOfSubmission_123842758219 {
         setField(term16858, term16858.getClass(), "keySet", null);
         setField(term16858, term16858.getClass(), "values", null);
         setField(term16847, term16847.getClass(), "moduleToReader", term16858);
-        setLongField(term16863, term16863.getClass(), "timestamp", 164123309L);
+        setLongField(term16863, term16863.getClass(), "timestamp", 52399795L);
         setField(term16863, term16863.getClass(), "referent", null);
         setField(term16863, term16863.getClass(), "queue", null);
         setField(term16863, term16863.getClass(), "next", null);

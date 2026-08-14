@@ -39,7 +39,7 @@ public class QueryHistoryEntity_setId_12172316722 {
         setField(term408, term408.getClass(), "queryCommand", "MxlszYVzRf");
         setField(term408, term408.getClass(), "queryStr", "LQFpaHEwXR");
         setField(term408, term408.getClass(), "queryText", "oVcInYnLWB");
-        setField(term408, term408.getClass(), "updateTime", "2026-06-28 17:29:55");
+        setField(term408, term408.getClass(), "updateTime", "2026-08-11 06:36:30");
         term468 = new Integer(-117576464);
     }
 

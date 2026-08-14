@@ -359,7 +359,7 @@ public class AssignmentSelf_getQuestion_16343145812 {
         setField(term10012, term10012.getClass(), "keySet", null);
         setField(term10012, term10012.getClass(), "values", null);
         setField(term10001, term10001.getClass(), "moduleToReader", term10012);
-        setLongField(term10017, term10017.getClass(), "timestamp", 164122334L);
+        setLongField(term10017, term10017.getClass(), "timestamp", 52399795L);
         setField(term10017, term10017.getClass(), "referent", null);
         setField(term10017, term10017.getClass(), "queue", null);
         setField(term10017, term10017.getClass(), "next", null);

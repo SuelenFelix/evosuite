@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class UserReviewId_equals_55910948518 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term25554;
+     Object term25553;
 
     public UserReviewId_equals_55910948518() {
     }
@@ -31,9 +31,9 @@ public class UserReviewId_equals_55910948518 {
 
     @Before
     public void setup() throws Throwable {
-        term25554 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
-        setField(term25554, term25554.getClass(), "userId", null);
-        setField(term25554, term25554.getClass(), "reviewId", null);
+        term25553 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        setField(term25553, term25553.getClass(), "userId", null);
+        setField(term25553, term25553.getClass(), "reviewId", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class UserReviewId_equals_55910948518 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "equals", argTypes, term25554, args);
+        callMethod(klass, "equals", argTypes, term25553, args);
     }
 
 };

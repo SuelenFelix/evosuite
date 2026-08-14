@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Department_getDname_153228941716 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5715;
+     Object term5724;
 
     public Department_getDname_153228941716() {
     }
@@ -31,11 +31,11 @@ public class Department_getDname_153228941716 {
 
     @Before
     public void setup() throws Throwable {
-        term5715 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        setField(term5715, term5715.getClass(), "deptno", null);
-        setField(term5715, term5715.getClass(), "dname", null);
-        setField(term5715, term5715.getClass(), "loc", null);
-        setField(term5715, term5715.getClass(), "employees", null);
+        term5724 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        setField(term5724, term5724.getClass(), "deptno", null);
+        setField(term5724, term5724.getClass(), "dname", null);
+        setField(term5724, term5724.getClass(), "loc", null);
+        setField(term5724, term5724.getClass(), "employees", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class Department_getDname_153228941716 {
         Class<?> klass = Class.forName("com.selimhorri.app.pack.models.entities.Department");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getDname", argTypes, term5715, args);
+        callMethod(klass, "getDname", argTypes, term5724, args);
     }
 
 };

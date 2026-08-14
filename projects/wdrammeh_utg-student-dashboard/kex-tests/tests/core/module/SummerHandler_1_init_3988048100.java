@@ -964,7 +964,7 @@ public class SummerHandler_1_init_3988048100 {
         setField(term97355, term97355.getClass(), "keySet", null);
         setField(term97355, term97355.getClass(), "values", null);
         setField(term97344, term97344.getClass(), "moduleToReader", term97355);
-        setLongField(term97360, term97360.getClass(), "timestamp", 163420877L);
+        setLongField(term97360, term97360.getClass(), "timestamp", 51691101L);
         setField(term97360, term97360.getClass(), "referent", null);
         setField(term97360, term97360.getClass(), "queue", null);
         setField(term97360, term97360.getClass(), "next", null);

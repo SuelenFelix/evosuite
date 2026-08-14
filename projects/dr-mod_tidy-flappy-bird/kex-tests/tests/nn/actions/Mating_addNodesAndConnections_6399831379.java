@@ -21,8 +21,8 @@ import java.lang.Boolean;
 
 public class Mating_addNodesAndConnections_6399831379 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2653;
-     Object term2654;
+     Object term2651;
+     Object term2652;
 
     public Mating_addNodesAndConnections_6399831379() {
     }
@@ -33,11 +33,11 @@ public class Mating_addNodesAndConnections_6399831379 {
 
     @Before
     public void setup() throws Throwable {
-        term2653 = newInstance(Class.forName("nn.actions.Mating"));
-        setField(term2653, term2653.getClass(), "random", null);
-        setField(term2653, term2653.getClass(), "nodeInnovator", null);
-        setField(term2653, term2653.getClass(), "connectionInnovator", null);
-        term2654 = new Boolean(false);
+        term2651 = newInstance(Class.forName("nn.actions.Mating"));
+        setField(term2651, term2651.getClass(), "random", null);
+        setField(term2651, term2651.getClass(), "nodeInnovator", null);
+        setField(term2651, term2651.getClass(), "connectionInnovator", null);
+        term2652 = new Boolean(false);
     }
 
     @Test
@@ -52,8 +52,8 @@ public class Mating_addNodesAndConnections_6399831379 {
         args[0] = null;
         args[1] = null;
         args[2] = null;
-        args[3] = term2654;
-        callMethod(klass, "addNodesAndConnections", argTypes, term2653, args);
+        args[3] = term2652;
+        callMethod(klass, "addNodesAndConnections", argTypes, term2651, args);
     }
 
 };

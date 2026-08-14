@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_addNode_88481576521 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term11662;
+     Object term11678;
 
     public Genome_addNode_88481576521() {
     }
@@ -31,12 +31,12 @@ public class Genome_addNode_88481576521 {
 
     @Before
     public void setup() throws Throwable {
-        term11662 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term11662, term11662.getClass(), "nodes", null);
-        setField(term11662, term11662.getClass(), "connections", null);
-        setField(term11662, term11662.getClass(), "nodeInnovator", null);
-        setField(term11662, term11662.getClass(), "connectionInnovator", null);
-        setField(term11662, term11662.getClass(), "random", null);
+        term11678 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term11678, term11678.getClass(), "nodes", null);
+        setField(term11678, term11678.getClass(), "connections", null);
+        setField(term11678, term11678.getClass(), "nodeInnovator", null);
+        setField(term11678, term11678.getClass(), "connectionInnovator", null);
+        setField(term11678, term11678.getClass(), "random", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class Genome_addNode_88481576521 {
         argTypes[0] = Class.forName("nn.model.Node");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "addNode", argTypes, term11662, args);
+        callMethod(klass, "addNode", argTypes, term11678, args);
     }
 
 };

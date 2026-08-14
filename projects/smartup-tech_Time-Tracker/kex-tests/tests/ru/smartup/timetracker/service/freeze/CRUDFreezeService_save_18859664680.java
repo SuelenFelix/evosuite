@@ -28,7 +28,7 @@ import java.lang.Float;
 
 public class CRUDFreezeService_save_18859664680 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term6537;
+     Object term6722;
 
     public CRUDFreezeService_save_18859664680() {
     }
@@ -39,64 +39,64 @@ public class CRUDFreezeService_save_18859664680 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term6614 = new HashMap();
-        Set<Object> term6708 =  ((Map) term6614).keySet();
-        HashSet term6613 = new HashSet((Collection<? extends Object>) term6708);
-        Class<? extends Object> term6710 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.ProjectRoleEnum");
-        Field term6709 = ((Class) term6710).getDeclaredField((String) "MANAGER");
-        ((Field) term6709).setAccessible(true);
-        Object enum13 = ((Field) term6709).get((Object) null);
-        Float term6625 = new Float(0.80973893F);
-        Class<? extends Object> term7048 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.FreezeRecordStatusEnum");
-        Field term7047 = ((Class) term7048).getDeclaredField((String) "COMPLETED");
-        ((Field) term7047).setAccessible(true);
-        Object enum14 = ((Field) term7047).get((Object) null);
-        term6537 = newInstance(Class.forName("ru.smartup.timetracker.entity.FreezeRecord"));
-        Object term6539 = newInstance(Class.forName("java.time.LocalDate"));
-        Object term6543 = newInstance(Class.forName("ru.smartup.timetracker.entity.Employee"));
-        Object term6607 = newInstance(Class.forName("java.sql.Timestamp"));
-        Object term6610 = newInstance(Class.forName("java.sql.Timestamp"));
-        Object term6619 = newInstance(Class.forName("ru.smartup.timetracker.entity.EmployeeProjectRole"));
-        Object term6652 = newInstance(Class.forName("java.sql.Timestamp"));
-        Object term6655 = newInstance(Class.forName("java.sql.Timestamp"));
-        setIntField(term6537, term6537.getClass(), "id", 1743224434);
-        setIntField(term6539, term6539.getClass(), "year", 2028);
-        setShortField(term6539, term6539.getClass(), "month", (short) 5);
-        setShortField(term6539, term6539.getClass(), "day", (short) 29);
-        setField(term6537, term6537.getClass(), "freezeDate", term6539);
-        setIntField(term6543, term6543.getClass(), "id", 842904495);
-        setField(term6543, term6543.getClass(), "firstName", "SPtPatHeOm");
-        setField(term6543, term6543.getClass(), "middleName", "ywmcuThdfL");
-        setField(term6543, term6543.getClass(), "lastName", "GBOEuByOfr");
-        setField(term6543, term6543.getClass(), "email", "NHbOFFjyVK");
-        setField(term6543, term6543.getClass(), "passwordHash", "zaloBqlrSo");
-        setIntField(term6543, term6543.getClass(), "positionId", 1008080511);
-        setBooleanField(term6543, term6543.getClass(), "isArchived", true);
-        setIntField(term6607, term6607.getClass(), "nanos", 412000000);
-        setLongField(term6607, term6607.getClass(), "fastTime", 1368058638000L);
-        setField(term6607, term6607.getClass(), "cdate", null);
-        setField(term6543, term6543.getClass(), "createdDate", term6607);
-        setIntField(term6610, term6610.getClass(), "nanos", 512000000);
-        setLongField(term6610, term6610.getClass(), "fastTime", 1836071279000L);
-        setField(term6610, term6610.getClass(), "cdate", null);
-        setField(term6543, term6543.getClass(), "lastModifiedDate", term6610);
-        setField(term6543, term6543.getClass(), "employeeRoles", term6613);
-        setIntField(term6619, term6619.getClass(), "employeeId", 1935707624);
-        setIntField(term6619, term6619.getClass(), "projectId", 1507074215);
-        setField(term6619, term6619.getClass(), "projectRoleId", enum13);
-        setField(term6619, term6619.getClass(), "externalRate", term6625);
-        setField(term6543, term6543.getClass(), "employeeProjectRole", term6619);
-        setField(term6537, term6537.getClass(), "employee", term6543);
-        setField(term6537, term6537.getClass(), "status", enum14);
-        setField(term6537, term6537.getClass(), "info", "vvoLrMGCoN");
-        setIntField(term6652, term6652.getClass(), "nanos", 745000000);
-        setLongField(term6652, term6652.getClass(), "fastTime", 1426386667000L);
-        setField(term6652, term6652.getClass(), "cdate", null);
-        setField(term6537, term6537.getClass(), "createdDate", term6652);
-        setIntField(term6655, term6655.getClass(), "nanos", 42000000);
-        setLongField(term6655, term6655.getClass(), "fastTime", 1755540749000L);
-        setField(term6655, term6655.getClass(), "cdate", null);
-        setField(term6537, term6537.getClass(), "lastModifiedDate", term6655);
+        HashMap term6799 = new HashMap();
+        Set<Object> term6893 =  ((Map) term6799).keySet();
+        HashSet term6798 = new HashSet((Collection<? extends Object>) term6893);
+        Class<? extends Object> term6895 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.ProjectRoleEnum");
+        Field term6894 = ((Class) term6895).getDeclaredField((String) "MANAGER");
+        ((Field) term6894).setAccessible(true);
+        Object enum13 = ((Field) term6894).get((Object) null);
+        Float term6810 = new Float(0.80973893F);
+        Class<? extends Object> term7233 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.FreezeRecordStatusEnum");
+        Field term7232 = ((Class) term7233).getDeclaredField((String) "COMPLETED");
+        ((Field) term7232).setAccessible(true);
+        Object enum14 = ((Field) term7232).get((Object) null);
+        term6722 = newInstance(Class.forName("ru.smartup.timetracker.entity.FreezeRecord"));
+        Object term6724 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term6728 = newInstance(Class.forName("ru.smartup.timetracker.entity.Employee"));
+        Object term6792 = newInstance(Class.forName("java.sql.Timestamp"));
+        Object term6795 = newInstance(Class.forName("java.sql.Timestamp"));
+        Object term6804 = newInstance(Class.forName("ru.smartup.timetracker.entity.EmployeeProjectRole"));
+        Object term6837 = newInstance(Class.forName("java.sql.Timestamp"));
+        Object term6840 = newInstance(Class.forName("java.sql.Timestamp"));
+        setIntField(term6722, term6722.getClass(), "id", 1743224434);
+        setIntField(term6724, term6724.getClass(), "year", 2028);
+        setShortField(term6724, term6724.getClass(), "month", (short) 5);
+        setShortField(term6724, term6724.getClass(), "day", (short) 29);
+        setField(term6722, term6722.getClass(), "freezeDate", term6724);
+        setIntField(term6728, term6728.getClass(), "id", 842904495);
+        setField(term6728, term6728.getClass(), "firstName", "SPtPatHeOm");
+        setField(term6728, term6728.getClass(), "middleName", "ywmcuThdfL");
+        setField(term6728, term6728.getClass(), "lastName", "GBOEuByOfr");
+        setField(term6728, term6728.getClass(), "email", "NHbOFFjyVK");
+        setField(term6728, term6728.getClass(), "passwordHash", "zaloBqlrSo");
+        setIntField(term6728, term6728.getClass(), "positionId", 1008080511);
+        setBooleanField(term6728, term6728.getClass(), "isArchived", true);
+        setIntField(term6792, term6792.getClass(), "nanos", 412000000);
+        setLongField(term6792, term6792.getClass(), "fastTime", 1368058638000L);
+        setField(term6792, term6792.getClass(), "cdate", null);
+        setField(term6728, term6728.getClass(), "createdDate", term6792);
+        setIntField(term6795, term6795.getClass(), "nanos", 512000000);
+        setLongField(term6795, term6795.getClass(), "fastTime", 1836071279000L);
+        setField(term6795, term6795.getClass(), "cdate", null);
+        setField(term6728, term6728.getClass(), "lastModifiedDate", term6795);
+        setField(term6728, term6728.getClass(), "employeeRoles", term6798);
+        setIntField(term6804, term6804.getClass(), "employeeId", 1935707624);
+        setIntField(term6804, term6804.getClass(), "projectId", 1507074215);
+        setField(term6804, term6804.getClass(), "projectRoleId", enum13);
+        setField(term6804, term6804.getClass(), "externalRate", term6810);
+        setField(term6728, term6728.getClass(), "employeeProjectRole", term6804);
+        setField(term6722, term6722.getClass(), "employee", term6728);
+        setField(term6722, term6722.getClass(), "status", enum14);
+        setField(term6722, term6722.getClass(), "info", "vvoLrMGCoN");
+        setIntField(term6837, term6837.getClass(), "nanos", 745000000);
+        setLongField(term6837, term6837.getClass(), "fastTime", 1426386667000L);
+        setField(term6837, term6837.getClass(), "cdate", null);
+        setField(term6722, term6722.getClass(), "createdDate", term6837);
+        setIntField(term6840, term6840.getClass(), "nanos", 42000000);
+        setLongField(term6840, term6840.getClass(), "fastTime", 1755540749000L);
+        setField(term6840, term6840.getClass(), "cdate", null);
+        setField(term6722, term6722.getClass(), "lastModifiedDate", term6840);
     }
 
     @Test
@@ -105,7 +105,7 @@ public class CRUDFreezeService_save_18859664680 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("ru.smartup.timetracker.entity.FreezeRecord");
         Object[] args = new Object[1];
-        args[0] = term6537;
+        args[0] = term6722;
         callMethod(klass, "save", argTypes, null, args);
     }
 

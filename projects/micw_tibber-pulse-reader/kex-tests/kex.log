@@ -1,16 +1,16 @@
-2026-06-28 13:21:16.136 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/micw_tibber-pulse-reader/target/classes
-2026-06-28 13:21:16.243 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:21:16.306 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 13:21:17.315 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 13:21:17.811 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package de/wyraz/tibberpulse/util/*
-2026-06-28 13:21:17.812 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 13:21:17.832 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/micw_tibber-pulse-reader/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:21:17.862 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/micw_tibber-pulse-reader/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 41041 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/micw_tibber-pulse-reader/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 13:21:17.877 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 13:22:57.922 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::<init>(): void
-2026-06-28 13:22:57.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::<init>(): void
+2026-08-10 22:30:20.760 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/micw_tibber-pulse-reader/target/classes
+2026-08-10 22:30:20.867 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 22:30:20.927 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-10 22:30:21.844 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-10 22:30:22.305 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package de/wyraz/tibberpulse/util/*
+2026-08-10 22:30:22.306 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-10 22:30:22.348 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/micw_tibber-pulse-reader/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 22:30:22.383 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/micw_tibber-pulse-reader/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 33709 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/micw_tibber-pulse-reader/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-10 22:30:22.397 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-10 22:32:02.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::<init>(): void
+2026-08-10 22:32:02.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:22:58.389 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_init_14486595780
-2026-06-28 13:22:58.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::toBits(byte): java/lang/String
-2026-06-28 13:22:58.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::toBits(byte): java/lang/String
+2026-08-10 22:32:02.886 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_init_14486595780
+2026-08-10 22:32:02.891 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::toBits(byte): java/lang/String
+2026-08-10 22:32:02.891 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::toBits(byte): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -66,9 +66,9 @@
 
 %bb1: 	//predecessors %if.then1
 	return %22
-2026-06-28 13:22:58.505 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_toBits_20545319801
-2026-06-28 13:22:58.506 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::toHex(byte[]): java/lang/String
-2026-06-28 13:22:58.506 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::toHex(byte[]): java/lang/String
+2026-08-10 22:32:02.998 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_toBits_20545319801
+2026-08-10 22:32:02.999 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::toHex(byte[]): java/lang/String
+2026-08-10 22:32:02.999 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::toHex(byte[]): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -144,9 +144,9 @@
 %bb.return0: 	//predecessors %if.else0, %bb7
 	%retval1 = phi {%if.else0 -> null; %bb7 -> %43}
 	return %retval1
-2026-06-28 13:22:58.600 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_toHex_9571232772
-2026-06-28 13:22:58.601 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int8ToHex(int): java/lang/String
-2026-06-28 13:22:58.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int8ToHex(int): java/lang/String
+2026-08-10 22:32:03.091 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_toHex_9571232772
+2026-08-10 22:32:03.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int8ToHex(int): java/lang/String
+2026-08-10 22:32:03.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int8ToHex(int): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -166,9 +166,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %8
-2026-06-28 13:22:58.688 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int8ToHex_4663607543
-2026-06-28 13:22:58.689 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int16ToHex(long): java/lang/String
-2026-06-28 13:22:58.689 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int16ToHex(long): java/lang/String
+2026-08-10 22:32:03.166 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int8ToHex_4663607543
+2026-08-10 22:32:03.167 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int16ToHex(long): java/lang/String
+2026-08-10 22:32:03.167 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int16ToHex(long): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -197,9 +197,9 @@
 
 %bb4: 	//predecessors %bb3
 	return %19
-2026-06-28 13:22:58.758 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int16ToHex_12109534794
-2026-06-28 13:22:58.759 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int24ToHex(long): java/lang/String
-2026-06-28 13:22:58.759 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int24ToHex(long): java/lang/String
+2026-08-10 22:32:03.242 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int16ToHex_12109534794
+2026-08-10 22:32:03.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int24ToHex(long): java/lang/String
+2026-08-10 22:32:03.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int24ToHex(long): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -236,9 +236,9 @@
 
 %bb5: 	//predecessors %bb4
 	return %28
-2026-06-28 13:22:58.818 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int24ToHex_2128456425
-2026-06-28 13:22:58.819 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int32ToHex(long): java/lang/String
-2026-06-28 13:22:58.819 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int32ToHex(long): java/lang/String
+2026-08-10 22:32:03.310 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int24ToHex_2128456425
+2026-08-10 22:32:03.311 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int32ToHex(long): java/lang/String
+2026-08-10 22:32:03.311 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int32ToHex(long): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -283,9 +283,9 @@
 
 %bb6: 	//predecessors %bb5
 	return %37
-2026-06-28 13:22:58.876 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int32ToHex_7852621956
-2026-06-28 13:22:58.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int40ToHex(long): java/lang/String
-2026-06-28 13:22:58.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int40ToHex(long): java/lang/String
+2026-08-10 22:32:03.368 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int32ToHex_7852621956
+2026-08-10 22:32:03.369 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int40ToHex(long): java/lang/String
+2026-08-10 22:32:03.369 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int40ToHex(long): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -338,9 +338,9 @@
 
 %bb7: 	//predecessors %bb6
 	return %46
-2026-06-28 13:22:58.939 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int40ToHex_17833700327
-2026-06-28 13:22:58.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int64ToHex(long): java/lang/String
-2026-06-28 13:22:58.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int64ToHex(long): java/lang/String
+2026-08-10 22:32:03.430 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int40ToHex_17833700327
+2026-08-10 22:32:03.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method de/wyraz/tibberpulse/util/ByteUtil::int64ToHex(long): java/lang/String
+2026-08-10 22:32:03.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - de/wyraz/tibberpulse/util/ByteUtil::int64ToHex(long): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -417,33 +417,33 @@
 
 %bb10: 	//predecessors %bb9
 	return %73
-2026-06-28 13:22:59.009 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int64ToHex_15729623828
-2026-06-28 13:22:59.072 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_init_14486595789
-2026-06-28 13:22:59.127 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_toBits_205453198010
-2026-06-28 13:22:59.173 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_toHex_95712327711
-2026-06-28 13:22:59.222 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int8ToHex_46636075412
-2026-06-28 13:22:59.285 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int16ToHex_121095347913
-2026-06-28 13:22:59.328 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int24ToHex_21284564214
-2026-06-28 13:22:59.375 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int32ToHex_78526219515
-2026-06-28 13:22:59.418 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int40ToHex_178337003216
-2026-06-28 13:22:59.460 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int64ToHex_157296238217
-2026-06-28 13:22:59.460 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::<init>(): void: null
-2026-06-28 13:22:59.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::toBits(byte): java/lang/String: null
-2026-06-28 13:22:59.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::toHex(byte[]): java/lang/String: null
-2026-06-28 13:22:59.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int8ToHex(int): java/lang/String: null
-2026-06-28 13:22:59.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int16ToHex(long): java/lang/String: null
-2026-06-28 13:22:59.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int24ToHex(long): java/lang/String: null
-2026-06-28 13:22:59.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int32ToHex(long): java/lang/String: null
-2026-06-28 13:22:59.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int40ToHex(long): java/lang/String: null
-2026-06-28 13:22:59.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int64ToHex(long): java/lang/String: null
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::<init>(): void processing is finished normally
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::toBits(byte): java/lang/String processing is finished normally
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::toHex(byte[]): java/lang/String processing is finished normally
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int8ToHex(int): java/lang/String processing is finished normally
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int16ToHex(long): java/lang/String processing is finished normally
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int24ToHex(long): java/lang/String processing is finished normally
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int32ToHex(long): java/lang/String processing is finished normally
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int40ToHex(long): java/lang/String processing is finished normally
-2026-06-28 13:22:59.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int64ToHex(long): java/lang/String processing is finished normally
-2026-06-28 13:22:59.463 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 13:22:59.463 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-10 22:32:03.505 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int64ToHex_15729623828
+2026-08-10 22:32:03.555 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_init_14486595789
+2026-08-10 22:32:03.611 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_toBits_205453198010
+2026-08-10 22:32:03.657 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_toHex_95712327711
+2026-08-10 22:32:03.721 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int8ToHex_46636075412
+2026-08-10 22:32:03.767 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int16ToHex_121095347913
+2026-08-10 22:32:03.813 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int24ToHex_21284564214
+2026-08-10 22:32:03.855 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int32ToHex_78526219515
+2026-08-10 22:32:03.896 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int40ToHex_178337003216
+2026-08-10 22:32:03.938 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test de.wyraz.tibberpulse.util.ByteUtil_int64ToHex_157296238217
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::<init>(): void: null
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::toBits(byte): java/lang/String: null
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::toHex(byte[]): java/lang/String: null
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int8ToHex(int): java/lang/String: null
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int16ToHex(long): java/lang/String: null
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int24ToHex(long): java/lang/String: null
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int32ToHex(long): java/lang/String: null
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int40ToHex(long): java/lang/String: null
+2026-08-10 22:32:03.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method de/wyraz/tibberpulse/util/ByteUtil::int64ToHex(long): java/lang/String: null
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::<init>(): void processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::toBits(byte): java/lang/String processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::toHex(byte[]): java/lang/String processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int8ToHex(int): java/lang/String processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int16ToHex(long): java/lang/String processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int24ToHex(long): java/lang/String processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int32ToHex(long): java/lang/String processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int40ToHex(long): java/lang/String processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method de/wyraz/tibberpulse/util/ByteUtil::int64ToHex(long): java/lang/String processing is finished normally
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-10 22:32:03.940 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

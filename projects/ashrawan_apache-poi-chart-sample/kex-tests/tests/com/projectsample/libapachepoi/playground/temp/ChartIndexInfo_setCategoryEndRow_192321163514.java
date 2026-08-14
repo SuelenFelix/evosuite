@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class ChartIndexInfo_setCategoryEndRow_192321163514 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term128;
-     Object term137;
+     Object term75847;
+     Object term75856;
 
     public ChartIndexInfo_setCategoryEndRow_192321163514() {
     }
@@ -33,16 +33,16 @@ public class ChartIndexInfo_setCategoryEndRow_192321163514 {
 
     @Before
     public void setup() throws Throwable {
-        term128 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
-        setIntField(term128, term128.getClass(), "dataStartRow", -1476117762);
-        setIntField(term128, term128.getClass(), "dataEndRow", -341962980);
-        setIntField(term128, term128.getClass(), "dataStartColumn", 1532716628);
-        setIntField(term128, term128.getClass(), "dataEndColumn", -1801760683);
-        setIntField(term128, term128.getClass(), "categoryStartRow", 1141317871);
-        setIntField(term128, term128.getClass(), "categoryEndRow", 890669485);
-        setIntField(term128, term128.getClass(), "categoryStartColumn", 691577392);
-        setIntField(term128, term128.getClass(), "categoryEndColumn", -893623680);
-        term137 = new Integer(-1963434938);
+        term75847 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
+        setIntField(term75847, term75847.getClass(), "dataStartRow", -1972436591);
+        setIntField(term75847, term75847.getClass(), "dataEndRow", 68922753);
+        setIntField(term75847, term75847.getClass(), "dataStartColumn", -220791533);
+        setIntField(term75847, term75847.getClass(), "dataEndColumn", 1741500243);
+        setIntField(term75847, term75847.getClass(), "categoryStartRow", -2070466617);
+        setIntField(term75847, term75847.getClass(), "categoryEndRow", -1127721881);
+        setIntField(term75847, term75847.getClass(), "categoryStartColumn", 1074848808);
+        setIntField(term75847, term75847.getClass(), "categoryEndColumn", -146054762);
+        term75856 = new Integer(798043553);
     }
 
     @Test
@@ -51,8 +51,8 @@ public class ChartIndexInfo_setCategoryEndRow_192321163514 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term137;
-        callMethod(klass, "setCategoryEndRow", argTypes, term128, args);
+        args[0] = term75856;
+        callMethod(klass, "setCategoryEndRow", argTypes, term75847, args);
     }
 
 };

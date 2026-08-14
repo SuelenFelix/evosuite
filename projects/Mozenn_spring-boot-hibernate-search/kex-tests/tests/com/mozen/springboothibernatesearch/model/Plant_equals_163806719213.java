@@ -41,8 +41,8 @@ public class Plant_equals_163806719213 {
         setField(term930, term930.getClass(), "name", "aKnKipADSo");
         setField(term930, term930.getClass(), "scientificName", "wSQxaModmm");
         setField(term930, term930.getClass(), "family", "UlajhuVLaP");
-        setLongField(term969, term969.getClass(), "seconds", 1782719422L);
-        setIntField(term969, term969.getClass(), "nanos", 93744000);
+        setLongField(term969, term969.getClass(), "seconds", 1786530228L);
+        setIntField(term969, term969.getClass(), "nanos", 758107000);
         setField(term930, term930.getClass(), "createdAt", term969);
         term972 = newInstance(Class.forName("java.lang.Object"));
     }

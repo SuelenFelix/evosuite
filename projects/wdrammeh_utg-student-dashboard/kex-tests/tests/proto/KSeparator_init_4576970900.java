@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KSeparator_init_4576970900 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term66250;
+     Object term66299;
 
     public KSeparator_init_4576970900() {
     }
@@ -31,9 +31,9 @@ public class KSeparator_init_4576970900 {
 
     @Before
     public void setup() throws Throwable {
-        term66250 = newInstance(Class.forName("java.awt.Dimension"));
-        setIntField(term66250, term66250.getClass(), "width", -246967963);
-        setIntField(term66250, term66250.getClass(), "height", -1777140369);
+        term66299 = newInstance(Class.forName("java.awt.Dimension"));
+        setIntField(term66299, term66299.getClass(), "width", -246967963);
+        setIntField(term66299, term66299.getClass(), "height", -1777140369);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class KSeparator_init_4576970900 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.awt.Dimension");
         Object[] args = new Object[1];
-        args[0] = term66250;
+        args[0] = term66299;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

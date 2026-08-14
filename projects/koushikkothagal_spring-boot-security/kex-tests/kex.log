@@ -1,16 +1,16 @@
-2026-06-28 17:31:46.859 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/koushikkothagal_spring-boot-security/target/classes
-2026-06-28 17:31:46.941 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 17:31:47.017 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 17:31:47.918 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 17:31:48.446 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/javabrains/springbootsecurity/*
-2026-06-28 17:31:48.447 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 17:31:48.467 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/koushikkothagal_spring-boot-security/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 17:31:48.496 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/koushikkothagal_spring-boot-security/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 46017 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/koushikkothagal_spring-boot-security/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 17:31:48.509 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 17:33:28.544 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SecurityConfiguration::<init>(): void
-2026-06-28 17:33:28.545 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SecurityConfiguration::<init>(): void
+2026-08-11 06:47:25.068 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/koushikkothagal_spring-boot-security/target/classes
+2026-08-11 06:47:25.149 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 06:47:25.225 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 06:47:26.302 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 06:47:26.784 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/javabrains/springbootsecurity/*
+2026-08-11 06:47:26.785 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 06:47:26.807 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/koushikkothagal_spring-boot-security/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 06:47:26.840 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/koushikkothagal_spring-boot-security/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 33771 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/koushikkothagal_spring-boot-security/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 06:47:26.855 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 06:49:06.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SecurityConfiguration::<init>(): void
+2026-08-11 06:49:06.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SecurityConfiguration::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,7 +20,7 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 17:33:28.548 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 06:49:06.893 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -44,7 +44,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 17:33:28.549 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 06:49:06.893 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -68,9 +68,9 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 17:33:28.549 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SecurityConfiguration::<init>(): void: null
-2026-06-28 17:33:28.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void
-2026-06-28 17:33:28.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void
+2026-08-11 06:49:06.893 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SecurityConfiguration::<init>(): void: null
+2026-08-11 06:49:06.894 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void
+2026-08-11 06:49:06.894 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -128,7 +128,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %label4: 	//predecessors %bb8
 	return
-2026-06-28 17:33:28.550 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 06:49:06.894 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -152,7 +152,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 17:33:28.550 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 06:49:06.895 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -176,9 +176,9 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 17:33:28.550 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void: null
-2026-06-28 17:33:28.550 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SecurityConfiguration::getPasswordEncoder(): org/springframework/security/crypto/password/PasswordEncoder
-2026-06-28 17:33:28.550 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SecurityConfiguration::getPasswordEncoder(): org/springframework/security/crypto/password/PasswordEncoder
+2026-08-11 06:49:06.895 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void: null
+2026-08-11 06:49:06.895 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SecurityConfiguration::getPasswordEncoder(): org/springframework/security/crypto/password/PasswordEncoder
+2026-08-11 06:49:06.895 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SecurityConfiguration::getPasswordEncoder(): org/springframework/security/crypto/password/PasswordEncoder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -188,7 +188,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 17:33:28.551 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 06:49:06.895 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -212,7 +212,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 17:33:28.551 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 06:49:06.896 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -236,9 +236,9 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 17:33:28.551 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SecurityConfiguration::getPasswordEncoder(): org/springframework/security/crypto/password/PasswordEncoder: null
-2026-06-28 17:33:28.551 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
-2026-06-28 17:33:28.551 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
+2026-08-11 06:49:06.896 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SecurityConfiguration::getPasswordEncoder(): org/springframework/security/crypto/password/PasswordEncoder: null
+2026-08-11 06:49:06.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
+2026-08-11 06:49:06.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -332,7 +332,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %label0: 	//predecessors %bb21
 	return
-2026-06-28 17:33:28.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 06:49:06.897 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -356,7 +356,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 17:33:28.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 06:49:06.897 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -380,13 +380,13 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 17:33:28.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void: null
-2026-06-28 17:33:28.552 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SecurityConfiguration::<init>(): void processing is finished normally
-2026-06-28 17:33:28.553 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void processing is finished normally
-2026-06-28 17:33:28.553 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SecurityConfiguration::getPasswordEncoder(): org/springframework/security/crypto/password/PasswordEncoder processing is finished normally
-2026-06-28 17:33:28.553 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void processing is finished normally
-2026-06-28 17:33:28.555 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SpringBootSecurityApplication::<init>(): void
-2026-06-28 17:33:28.555 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SpringBootSecurityApplication::<init>(): void
+2026-08-11 06:49:06.897 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void: null
+2026-08-11 06:49:06.898 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SecurityConfiguration::<init>(): void processing is finished normally
+2026-08-11 06:49:06.898 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void processing is finished normally
+2026-08-11 06:49:06.898 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SecurityConfiguration::getPasswordEncoder(): org/springframework/security/crypto/password/PasswordEncoder processing is finished normally
+2026-08-11 06:49:06.898 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SecurityConfiguration::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void processing is finished normally
+2026-08-11 06:49:06.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SpringBootSecurityApplication::<init>(): void
+2026-08-11 06:49:06.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SpringBootSecurityApplication::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -396,9 +396,9 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 17:33:29.022 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.SpringBootSecurityApplication_init_19159107870
-2026-06-28 17:33:29.027 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SpringBootSecurityApplication::main(java/lang/String[]): void
-2026-06-28 17:33:29.027 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SpringBootSecurityApplication::main(java/lang/String[]): void
+2026-08-11 06:49:07.365 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.SpringBootSecurityApplication_init_19159107870
+2026-08-11 06:49:07.370 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/SpringBootSecurityApplication::main(java/lang/String[]): void
+2026-08-11 06:49:07.370 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/SpringBootSecurityApplication::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -408,15 +408,15 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-28 17:33:29.140 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.SpringBootSecurityApplication_main_20024935051
-2026-06-28 17:33:29.221 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.SpringBootSecurityApplication_init_19159107872
-2026-06-28 17:33:29.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.SpringBootSecurityApplication_main_20024935053
-2026-06-28 17:33:29.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SpringBootSecurityApplication::<init>(): void: null
-2026-06-28 17:33:29.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SpringBootSecurityApplication::<init>(): void processing is finished normally
-2026-06-28 17:33:29.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SpringBootSecurityApplication::main(java/lang/String[]): void: null
-2026-06-28 17:33:29.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SpringBootSecurityApplication::main(java/lang/String[]): void processing is finished normally
-2026-06-28 17:33:29.299 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/HomeResource::<init>(): void
-2026-06-28 17:33:29.299 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/HomeResource::<init>(): void
+2026-08-11 06:49:07.482 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.SpringBootSecurityApplication_main_20024935051
+2026-08-11 06:49:07.562 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.SpringBootSecurityApplication_init_19159107872
+2026-08-11 06:49:07.636 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.SpringBootSecurityApplication_main_20024935053
+2026-08-11 06:49:07.636 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SpringBootSecurityApplication::<init>(): void: null
+2026-08-11 06:49:07.637 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SpringBootSecurityApplication::<init>(): void processing is finished normally
+2026-08-11 06:49:07.637 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/SpringBootSecurityApplication::main(java/lang/String[]): void: null
+2026-08-11 06:49:07.637 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/SpringBootSecurityApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-11 06:49:07.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/HomeResource::<init>(): void
+2026-08-11 06:49:07.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/HomeResource::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -426,42 +426,42 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 17:33:29.364 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_init_16604793750
-2026-06-28 17:33:29.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/HomeResource::home(): java/lang/String
-2026-06-28 17:33:29.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/HomeResource::home(): java/lang/String
+2026-08-11 06:49:07.704 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_init_16604793750
+2026-08-11 06:49:07.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/HomeResource::home(): java/lang/String
+2026-08-11 06:49:07.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/HomeResource::home(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return "<h1>Welcome</h1>"
-2026-06-28 17:33:29.429 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_home_7806832191
-2026-06-28 17:33:29.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/HomeResource::user(): java/lang/String
-2026-06-28 17:33:29.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/HomeResource::user(): java/lang/String
+2026-08-11 06:49:07.766 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_home_7806832191
+2026-08-11 06:49:07.767 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/HomeResource::user(): java/lang/String
+2026-08-11 06:49:07.767 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/HomeResource::user(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return "<h1>Welcome User</h1>"
-2026-06-28 17:33:29.484 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_user_4050360072
-2026-06-28 17:33:29.485 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/HomeResource::admin(): java/lang/String
-2026-06-28 17:33:29.485 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/HomeResource::admin(): java/lang/String
+2026-08-11 06:49:07.824 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_user_4050360072
+2026-08-11 06:49:07.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/javabrains/springbootsecurity/HomeResource::admin(): java/lang/String
+2026-08-11 06:49:07.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/javabrains/springbootsecurity/HomeResource::admin(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return "<h1>Welcome Admin</h1>"
-2026-06-28 17:33:29.542 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_admin_7086462433
-2026-06-28 17:33:29.607 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_init_16604793754
-2026-06-28 17:33:29.676 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_home_7806832195
-2026-06-28 17:33:29.722 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_user_4050360076
-2026-06-28 17:33:29.775 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_admin_7086462437
-2026-06-28 17:33:29.776 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/HomeResource::<init>(): void: null
-2026-06-28 17:33:29.776 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/HomeResource::home(): java/lang/String: null
-2026-06-28 17:33:29.776 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/HomeResource::user(): java/lang/String: null
-2026-06-28 17:33:29.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/HomeResource::<init>(): void processing is finished normally
-2026-06-28 17:33:29.777 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/HomeResource::admin(): java/lang/String: null
-2026-06-28 17:33:29.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/HomeResource::home(): java/lang/String processing is finished normally
-2026-06-28 17:33:29.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/HomeResource::user(): java/lang/String processing is finished normally
-2026-06-28 17:33:29.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/HomeResource::admin(): java/lang/String processing is finished normally
-2026-06-28 17:33:29.777 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 17:33:29.777 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 06:49:07.878 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_admin_7086462433
+2026-08-11 06:49:07.939 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_init_16604793754
+2026-08-11 06:49:08.004 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_home_7806832195
+2026-08-11 06:49:08.050 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_user_4050360076
+2026-08-11 06:49:08.103 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.javabrains.springbootsecurity.HomeResource_admin_7086462437
+2026-08-11 06:49:08.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/HomeResource::<init>(): void: null
+2026-08-11 06:49:08.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/HomeResource::home(): java/lang/String: null
+2026-08-11 06:49:08.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/HomeResource::user(): java/lang/String: null
+2026-08-11 06:49:08.104 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/javabrains/springbootsecurity/HomeResource::admin(): java/lang/String: null
+2026-08-11 06:49:08.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/HomeResource::<init>(): void processing is finished normally
+2026-08-11 06:49:08.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/HomeResource::home(): java/lang/String processing is finished normally
+2026-08-11 06:49:08.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/HomeResource::user(): java/lang/String processing is finished normally
+2026-08-11 06:49:08.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/javabrains/springbootsecurity/HomeResource::admin(): java/lang/String processing is finished normally
+2026-08-11 06:49:08.105 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 06:49:08.105 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

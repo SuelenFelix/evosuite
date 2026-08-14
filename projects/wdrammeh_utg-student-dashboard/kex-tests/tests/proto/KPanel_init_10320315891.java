@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class KPanel_init_10320315891 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term36952;
-     Object term36954;
+     Object term36985;
+     Object term36987;
 
     public KPanel_init_10320315891() {
     }
@@ -33,8 +33,8 @@ public class KPanel_init_10320315891 {
 
     @Before
     public void setup() throws Throwable {
-        term36952 = new Integer(-2119545015);
-        term36954 = new Integer(1272542218);
+        term36985 = new Integer(-2119545015);
+        term36987 = new Integer(1272542218);
     }
 
     @Test
@@ -44,8 +44,8 @@ public class KPanel_init_10320315891 {
         argTypes[0] = int.class;
         argTypes[1] = int.class;
         Object[] args = new Object[2];
-        args[0] = term36952;
-        args[1] = term36954;
+        args[0] = term36985;
+        args[1] = term36987;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

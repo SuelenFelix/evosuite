@@ -1,16 +1,16 @@
-2026-06-29 07:58:07.989 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/kousen_questjpa/target/classes
-2026-06-29 07:58:08.081 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 07:58:08.148 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 07:58:09.176 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 07:58:10.338 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/oreilly/quest/services/*
-2026-06-29 07:58:10.340 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 07:58:10.370 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/kousen_questjpa/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 07:58:10.419 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/kousen_questjpa/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 37217 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/kousen_questjpa/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 07:58:10.433 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 07:59:50.488 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::<init>(com/oreilly/quest/dao/QuestRepository, com/oreilly/quest/dao/CastleRepository): void
-2026-06-29 07:59:50.488 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::<init>(com/oreilly/quest/dao/QuestRepository, com/oreilly/quest/dao/CastleRepository): void
+2026-08-12 12:37:20.813 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kousen_questjpa/target/classes
+2026-08-12 12:37:20.903 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 12:37:20.972 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 12:37:21.887 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 12:37:22.342 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/oreilly/quest/services/*
+2026-08-12 12:37:22.343 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 12:37:22.357 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kousen_questjpa/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 12:37:22.387 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kousen_questjpa/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 32773 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kousen_questjpa/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 12:37:22.402 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 12:39:02.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::<init>(com/oreilly/quest/dao/QuestRepository, com/oreilly/quest/dao/CastleRepository): void
+2026-08-12 12:39:02.438 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::<init>(com/oreilly/quest/dao/QuestRepository, com/oreilly/quest/dao/CastleRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -28,7 +28,7 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 07:59:50.493 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:39:02.442 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -52,7 +52,7 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 07:59:50.493 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:39:02.442 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -76,9 +76,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 07:59:50.494 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::<init>(com/oreilly/quest/dao/QuestRepository, com/oreilly/quest/dao/CastleRepository): void: null
-2026-06-29 07:59:50.494 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::initializeDatabase(): void
-2026-06-29 07:59:50.494 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::initializeDatabase(): void
+2026-08-12 12:39:02.442 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::<init>(com/oreilly/quest/dao/QuestRepository, com/oreilly/quest/dao/CastleRepository): void: null
+2026-08-12 12:39:02.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::initializeDatabase(): void
+2026-08-12 12:39:02.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::initializeDatabase(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -183,9 +183,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %if.then0: 	//predecessors %bb2, %bb15
 	return
-2026-06-29 07:59:50.963 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_initializeDatabase_4375132940
-2026-06-29 07:59:50.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::findAll(): java/util/List
-2026-06-29 07:59:50.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::findAll(): java/util/List
+2026-08-12 12:39:02.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_initializeDatabase_4375132940
+2026-08-12 12:39:02.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::findAll(): java/util/List
+2026-08-12 12:39:02.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::findAll(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -199,9 +199,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 07:59:51.079 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_findAll_19780029051
-2026-06-29 07:59:51.080 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::findByName(java/lang/String): java/util/Optional
-2026-06-29 07:59:51.080 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::findByName(java/lang/String): java/util/Optional
+2026-08-12 12:39:03.035 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_findAll_19780029051
+2026-08-12 12:39:03.035 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::findByName(java/lang/String): java/util/Optional
+2026-08-12 12:39:03.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::findByName(java/lang/String): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -215,9 +215,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 07:59:51.175 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_findByName_385037972
-2026-06-29 07:59:51.175 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::findById(java/lang/Long): java/util/Optional
-2026-06-29 07:59:51.175 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::findById(java/lang/Long): java/util/Optional
+2026-08-12 12:39:03.122 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_findByName_385037972
+2026-08-12 12:39:03.123 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::findById(java/lang/Long): java/util/Optional
+2026-08-12 12:39:03.123 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::findById(java/lang/Long): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -231,9 +231,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 07:59:51.255 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_findById_2567882403
-2026-06-29 07:59:51.255 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::findByIdWithTasks(java/lang/Long): java/util/Optional
-2026-06-29 07:59:51.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::findByIdWithTasks(java/lang/Long): java/util/Optional
+2026-08-12 12:39:03.197 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_findById_2567882403
+2026-08-12 12:39:03.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::findByIdWithTasks(java/lang/Long): java/util/Optional
+2026-08-12 12:39:03.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::findByIdWithTasks(java/lang/Long): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -247,9 +247,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 07:59:51.322 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664
-2026-06-29 07:59:51.323 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::deleteQuest(com/oreilly/quest/entities/Quest): void
-2026-06-29 07:59:51.323 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::deleteQuest(com/oreilly/quest/entities/Quest): void
+2026-08-12 12:39:03.262 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664
+2026-08-12 12:39:03.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/oreilly/quest/services/QuestService::deleteQuest(com/oreilly/quest/entities/Quest): void
+2026-08-12 12:39:03.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/oreilly/quest/services/QuestService::deleteQuest(com/oreilly/quest/entities/Quest): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -263,9 +263,9 @@ java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRep
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 07:59:51.397 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_deleteQuest_12224985485
-2026-06-29 07:59:51.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::<init>(com/oreilly/quest/dao/QuestRepository, com/oreilly/quest/dao/CastleRepository): void processing is finished normally
-2026-06-29 07:59:51.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:39:03.333 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.oreilly.quest.services.QuestService_deleteQuest_12224985485
+2026-08-12 12:39:03.334 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::<init>(com/oreilly/quest/dao/QuestRepository, com/oreilly/quest/dao/CastleRepository): void processing is finished normally
+2026-08-12 12:39:03.335 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -303,8 +303,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 07:59:51.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::initializeDatabase(): void: null
-2026-06-29 07:59:51.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:39:03.335 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::initializeDatabase(): void: null
+2026-08-12 12:39:03.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -342,8 +342,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 07:59:51.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::findAll(): java/util/List: null
-2026-06-29 07:59:51.401 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:39:03.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::findAll(): java/util/List: null
+2026-08-12 12:39:03.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -381,8 +381,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 07:59:51.401 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::findByName(java/lang/String): java/util/Optional: null
-2026-06-29 07:59:51.401 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:39:03.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::findByName(java/lang/String): java/util/Optional: null
+2026-08-12 12:39:03.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -420,8 +420,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 07:59:51.401 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::findById(java/lang/Long): java/util/Optional: null
-2026-06-29 07:59:51.402 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:39:03.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::findById(java/lang/Long): java/util/Optional: null
+2026-08-12 12:39:03.338 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -459,8 +459,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 07:59:51.402 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::findByIdWithTasks(java/lang/Long): java/util/Optional: null
-2026-06-29 07:59:51.403 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:39:03.338 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::findByIdWithTasks(java/lang/Long): java/util/Optional: null
+2026-08-12 12:39:03.338 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -498,12 +498,12 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.reposi
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 07:59:51.403 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::deleteQuest(com/oreilly/quest/entities/Quest): void: null
-2026-06-29 07:59:51.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::initializeDatabase(): void processing is finished normally
-2026-06-29 07:59:51.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::findAll(): java/util/List processing is finished normally
-2026-06-29 07:59:51.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::findByName(java/lang/String): java/util/Optional processing is finished normally
-2026-06-29 07:59:51.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::findById(java/lang/Long): java/util/Optional processing is finished normally
-2026-06-29 07:59:51.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::findByIdWithTasks(java/lang/Long): java/util/Optional processing is finished normally
-2026-06-29 07:59:51.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::deleteQuest(com/oreilly/quest/entities/Quest): void processing is finished normally
-2026-06-29 07:59:51.403 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 07:59:51.403 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 12:39:03.338 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/oreilly/quest/services/QuestService::deleteQuest(com/oreilly/quest/entities/Quest): void: null
+2026-08-12 12:39:03.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::initializeDatabase(): void processing is finished normally
+2026-08-12 12:39:03.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::findAll(): java/util/List processing is finished normally
+2026-08-12 12:39:03.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::findByName(java/lang/String): java/util/Optional processing is finished normally
+2026-08-12 12:39:03.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::findById(java/lang/Long): java/util/Optional processing is finished normally
+2026-08-12 12:39:03.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::findByIdWithTasks(java/lang/Long): java/util/Optional processing is finished normally
+2026-08-12 12:39:03.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/oreilly/quest/services/QuestService::deleteQuest(com/oreilly/quest/entities/Quest): void processing is finished normally
+2026-08-12 12:39:03.339 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 12:39:03.339 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Node_hashCode_58877657321 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term18795;
+     Object term18811;
 
     public Node_hashCode_58877657321() {
     }
@@ -31,11 +31,11 @@ public class Node_hashCode_58877657321 {
 
     @Before
     public void setup() throws Throwable {
-        term18795 = newInstance(Class.forName("nn.model.Node"));
-        setField(term18795, term18795.getClass(), "type", null);
-        setIntField(term18795, term18795.getClass(), "innovation", 0);
-        setField(term18795, term18795.getClass(), "connections", null);
-        setDoubleField(term18795, term18795.getClass(), "bias", 0.0);
+        term18811 = newInstance(Class.forName("nn.model.Node"));
+        setField(term18811, term18811.getClass(), "type", null);
+        setIntField(term18811, term18811.getClass(), "innovation", 0);
+        setField(term18811, term18811.getClass(), "connections", null);
+        setDoubleField(term18811, term18811.getClass(), "bias", 0.0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class Node_hashCode_58877657321 {
         Class<?> klass = Class.forName("nn.model.Node");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term18795, args);
+        callMethod(klass, "hashCode", argTypes, term18811, args);
     }
 
 };

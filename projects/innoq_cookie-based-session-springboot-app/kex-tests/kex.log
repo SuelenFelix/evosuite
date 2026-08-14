@@ -1,16 +1,16 @@
-2026-06-28 21:55:35.412 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/innoq_cookie-based-session-springboot-app/target/classes
-2026-06-28 21:55:35.503 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 21:55:35.572 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 21:55:36.548 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 21:55:37.070 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/innoq/cookiebasedsessionapp/*
-2026-06-28 21:55:37.071 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 21:55:37.093 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/innoq_cookie-based-session-springboot-app/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 21:55:37.126 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/innoq_cookie-based-session-springboot-app/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 37271 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/innoq_cookie-based-session-springboot-app/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 21:55:37.139 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 21:57:17.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(com/innoq/cookiebasedsessionapp/UserInfo, java/lang/String): void
-2026-06-28 21:57:17.192 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(com/innoq/cookiebasedsessionapp/UserInfo, java/lang/String): void
+2026-08-11 12:52:01.238 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/innoq_cookie-based-session-springboot-app/target/classes
+2026-08-11 12:52:01.336 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 12:52:01.436 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 12:52:02.412 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 12:52:02.936 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/innoq/cookiebasedsessionapp/*
+2026-08-11 12:52:02.937 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 12:52:02.949 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/innoq_cookie-based-session-springboot-app/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 12:52:02.983 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/innoq_cookie-based-session-springboot-app/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 41835 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/innoq_cookie-based-session-springboot-app/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 12:52:02.999 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 12:53:43.061 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(com/innoq/cookiebasedsessionapp/UserInfo, java/lang/String): void
+2026-08-11 12:53:43.062 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(com/innoq/cookiebasedsessionapp/UserInfo, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -110,7 +110,7 @@
 
 %bb20: 	//predecessors %bb19
 	return
-2026-06-28 21:57:17.196 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.067 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -134,7 +134,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.196 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.067 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -158,9 +158,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.196 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(com/innoq/cookiebasedsessionapp/UserInfo, java/lang/String): void: null
-2026-06-28 21:57:17.196 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(javax/servlet/http/Cookie, java/lang/String): void
-2026-06-28 21:57:17.197 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(javax/servlet/http/Cookie, java/lang/String): void
+2026-08-11 12:53:43.067 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(com/innoq/cookiebasedsessionapp/UserInfo, java/lang/String): void: null
+2026-08-11 12:53:43.068 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(javax/servlet/http/Cookie, java/lang/String): void
+2026-08-11 12:53:43.068 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(javax/servlet/http/Cookie, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -355,7 +355,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 
 %bb37: 	//predecessors %bb36
 	return
-2026-06-28 21:57:17.197 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.069 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -379,7 +379,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.197 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.069 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -403,9 +403,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(javax/servlet/http/Cookie, java/lang/String): void: null
-2026-06-28 21:57:17.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::parse(java/lang/String, java/util/regex/Pattern): java/util/Optional
-2026-06-28 21:57:17.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::parse(java/lang/String, java/util/regex/Pattern): java/util/Optional
+2026-08-11 12:53:43.069 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(javax/servlet/http/Cookie, java/lang/String): void: null
+2026-08-11 12:53:43.069 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::parse(java/lang/String, java/util/regex/Pattern): java/util/Optional
+2026-08-11 12:53:43.070 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::parse(java/lang/String, java/util/regex/Pattern): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -480,7 +480,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 %bb.return0: 	//predecessors %bb2, %bb4, %bb7, %bb8
 	%retval1 = phi {%bb2 -> %28; %bb4 -> %29; %bb7 -> %30; %bb8 -> %31}
 	return %retval1
-2026-06-28 21:57:17.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.070 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -504,7 +504,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.199 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.071 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -528,9 +528,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.199 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::parse(java/lang/String, java/util/regex/Pattern): java/util/Optional: null
-2026-06-28 21:57:17.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getValue(): java/lang/String
-2026-06-28 21:57:17.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getValue(): java/lang/String
+2026-08-11 12:53:43.071 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::parse(java/lang/String, java/util/regex/Pattern): java/util/Optional: null
+2026-08-11 12:53:43.071 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getValue(): java/lang/String
+2026-08-11 12:53:43.071 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getValue(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -552,7 +552,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 
 %bb4: 	//predecessors %bb3
 	return %7
-2026-06-28 21:57:17.200 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -576,7 +576,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.200 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -600,9 +600,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.200 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getValue(): java/lang/String: null
-2026-06-28 21:57:17.200 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUserInfo(): com/innoq/cookiebasedsessionapp/UserInfo
-2026-06-28 21:57:17.200 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUserInfo(): com/innoq/cookiebasedsessionapp/UserInfo
+2026-08-11 12:53:43.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getValue(): java/lang/String: null
+2026-08-11 12:53:43.072 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUserInfo(): com/innoq/cookiebasedsessionapp/UserInfo
+2026-08-11 12:53:43.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUserInfo(): com/innoq/cookiebasedsessionapp/UserInfo
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -661,7 +661,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 
 %bb13: 	//predecessors %bb12
 	return %26
-2026-06-28 21:57:17.201 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -685,7 +685,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.201 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -709,9 +709,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.201 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUserInfo(): com/innoq/cookiebasedsessionapp/UserInfo: null
-2026-06-28 21:57:17.201 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::calculateHmac(com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload, java/lang/String): java/lang/String
-2026-06-28 21:57:17.201 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::calculateHmac(com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload, java/lang/String): java/lang/String
+2026-08-11 12:53:43.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUserInfo(): com/innoq/cookiebasedsessionapp/UserInfo: null
+2026-08-11 12:53:43.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::calculateHmac(com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload, java/lang/String): java/lang/String
+2026-08-11 12:53:43.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::calculateHmac(com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload, java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -787,7 +787,7 @@ goto %label5
 
 %bb10: 	//predecessors %label5
 	throw %34
-2026-06-28 21:57:17.202 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -811,7 +811,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.202 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -835,9 +835,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.202 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::calculateHmac(com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload, java/lang/String): java/lang/String: null
-2026-06-28 21:57:17.202 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUsername(): java/lang/String
-2026-06-28 21:57:17.202 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUsername(): java/lang/String
+2026-08-11 12:53:43.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::calculateHmac(com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload, java/lang/String): java/lang/String: null
+2026-08-11 12:53:43.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUsername(): java/lang/String
+2026-08-11 12:53:43.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUsername(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -851,7 +851,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 21:57:17.203 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.076 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -875,7 +875,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.203 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.076 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -899,9 +899,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.203 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUsername(): java/lang/String: null
-2026-06-28 21:57:17.203 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getRoles(): java/util/List
-2026-06-28 21:57:17.203 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getRoles(): java/util/List
+2026-08-11 12:53:43.076 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUsername(): java/lang/String: null
+2026-08-11 12:53:43.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getRoles(): java/util/List
+2026-08-11 12:53:43.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getRoles(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -915,7 +915,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 21:57:17.204 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.077 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -939,7 +939,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.204 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.077 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -963,9 +963,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.204 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getRoles(): java/util/List: null
-2026-06-28 21:57:17.205 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getColour(): java/lang/String
-2026-06-28 21:57:17.205 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getColour(): java/lang/String
+2026-08-11 12:53:43.077 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getRoles(): java/util/List: null
+2026-08-11 12:53:43.078 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getColour(): java/lang/String
+2026-08-11 12:53:43.078 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getColour(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -979,7 +979,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 21:57:17.205 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.078 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1003,7 +1003,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.205 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.079 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1027,9 +1027,9 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.205 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getColour(): java/lang/String: null
-2026-06-28 21:57:17.206 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getHmac(): java/lang/String
-2026-06-28 21:57:17.206 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getHmac(): java/lang/String
+2026-08-11 12:53:43.079 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getColour(): java/lang/String: null
+2026-08-11 12:53:43.079 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getHmac(): java/lang/String
+2026-08-11 12:53:43.079 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getHmac(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1039,7 +1039,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 21:57:17.206 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.079 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1063,7 +1063,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.206 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.080 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1087,19 +1087,19 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.206 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getHmac(): java/lang/String: null
-2026-06-28 21:57:17.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(com/innoq/cookiebasedsessionapp/UserInfo, java/lang/String): void processing is finished normally
-2026-06-28 21:57:17.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(javax/servlet/http/Cookie, java/lang/String): void processing is finished normally
-2026-06-28 21:57:17.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::parse(java/lang/String, java/util/regex/Pattern): java/util/Optional processing is finished normally
-2026-06-28 21:57:17.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getValue(): java/lang/String processing is finished normally
-2026-06-28 21:57:17.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUserInfo(): com/innoq/cookiebasedsessionapp/UserInfo processing is finished normally
-2026-06-28 21:57:17.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::calculateHmac(com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload, java/lang/String): java/lang/String processing is finished normally
-2026-06-28 21:57:17.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUsername(): java/lang/String processing is finished normally
-2026-06-28 21:57:17.208 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getRoles(): java/util/List processing is finished normally
-2026-06-28 21:57:17.208 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getColour(): java/lang/String processing is finished normally
-2026-06-28 21:57:17.208 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getHmac(): java/lang/String processing is finished normally
-2026-06-28 21:57:17.213 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set): void
-2026-06-28 21:57:17.213 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set): void
+2026-08-11 12:53:43.080 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getHmac(): java/lang/String: null
+2026-08-11 12:53:43.080 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(com/innoq/cookiebasedsessionapp/UserInfo, java/lang/String): void processing is finished normally
+2026-08-11 12:53:43.080 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::<init>(javax/servlet/http/Cookie, java/lang/String): void processing is finished normally
+2026-08-11 12:53:43.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::parse(java/lang/String, java/util/regex/Pattern): java/util/Optional processing is finished normally
+2026-08-11 12:53:43.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getValue(): java/lang/String processing is finished normally
+2026-08-11 12:53:43.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUserInfo(): com/innoq/cookiebasedsessionapp/UserInfo processing is finished normally
+2026-08-11 12:53:43.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::calculateHmac(com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload, java/lang/String): java/lang/String processing is finished normally
+2026-08-11 12:53:43.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getUsername(): java/lang/String processing is finished normally
+2026-08-11 12:53:43.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getRoles(): java/util/List processing is finished normally
+2026-08-11 12:53:43.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getColour(): java/lang/String processing is finished normally
+2026-08-11 12:53:43.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie::getHmac(): java/lang/String processing is finished normally
+2026-08-11 12:53:43.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set): void
+2026-08-11 12:53:43.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1109,7 +1109,7 @@ java.lang.ClassNotFoundException: javax/servlet/http/Cookie
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 21:57:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.088 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1133,7 +1133,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.214 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.089 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1157,9 +1157,9 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.214 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set): void: null
-2026-06-28 21:57:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set, java/lang/String): void
-2026-06-28 21:57:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set, java/lang/String): void
+2026-08-11 12:53:43.089 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set): void: null
+2026-08-11 12:53:43.089 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set, java/lang/String): void
+2026-08-11 12:53:43.089 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1173,7 +1173,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 21:57:17.214 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.089 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1197,7 +1197,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.215 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1221,9 +1221,9 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.215 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set, java/lang/String): void: null
-2026-06-28 21:57:17.215 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/lang/String, java/util/Set): void
-2026-06-28 21:57:17.215 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/lang/String, java/util/Set): void
+2026-08-11 12:53:43.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set, java/lang/String): void: null
+2026-08-11 12:53:43.090 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/lang/String, java/util/Set): void
+2026-08-11 12:53:43.090 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/lang/String, java/util/Set): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1245,7 +1245,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 21:57:17.215 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1269,7 +1269,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.215 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1293,9 +1293,9 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.216 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/lang/String, java/util/Set): void: null
-2026-06-28 21:57:17.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::getAuthorities(): java/util/Collection
-2026-06-28 21:57:17.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::getAuthorities(): java/util/Collection
+2026-08-11 12:53:43.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/lang/String, java/util/Set): void: null
+2026-08-11 12:53:43.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::getAuthorities(): java/util/Collection
+2026-08-11 12:53:43.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::getAuthorities(): java/util/Collection
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1305,7 +1305,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 21:57:17.216 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1329,7 +1329,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.216 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1353,15 +1353,15 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.216 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::getAuthorities(): java/util/Collection: null
-2026-06-28 21:57:17.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::getPassword(): java/lang/String
-2026-06-28 21:57:17.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::getPassword(): java/lang/String
+2026-08-11 12:53:43.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::getAuthorities(): java/util/Collection: null
+2026-08-11 12:53:43.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::getPassword(): java/lang/String
+2026-08-11 12:53:43.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::getPassword(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return ""
-2026-06-28 21:57:17.216 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1385,7 +1385,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.217 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1409,9 +1409,9 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.217 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::getPassword(): java/lang/String: null
-2026-06-28 21:57:17.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::getUsername(): java/lang/String
-2026-06-28 21:57:17.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::getUsername(): java/lang/String
+2026-08-11 12:53:43.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::getPassword(): java/lang/String: null
+2026-08-11 12:53:43.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::getUsername(): java/lang/String
+2026-08-11 12:53:43.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::getUsername(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1421,7 +1421,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 21:57:17.217 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1445,7 +1445,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.217 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1469,15 +1469,15 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.217 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::getUsername(): java/lang/String: null
-2026-06-28 21:57:17.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonExpired(): bool
-2026-06-28 21:57:17.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonExpired(): bool
+2026-08-11 12:53:43.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::getUsername(): java/lang/String: null
+2026-08-11 12:53:43.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonExpired(): bool
+2026-08-11 12:53:43.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonExpired(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return 1
-2026-06-28 21:57:17.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1501,7 +1501,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1525,15 +1525,15 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonExpired(): bool: null
-2026-06-28 21:57:17.218 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonLocked(): bool
-2026-06-28 21:57:17.218 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonLocked(): bool
+2026-08-11 12:53:43.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonExpired(): bool: null
+2026-08-11 12:53:43.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonLocked(): bool
+2026-08-11 12:53:43.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonLocked(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return 1
-2026-06-28 21:57:17.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1557,7 +1557,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1581,15 +1581,15 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonLocked(): bool: null
-2026-06-28 21:57:17.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::isCredentialsNonExpired(): bool
-2026-06-28 21:57:17.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::isCredentialsNonExpired(): bool
+2026-08-11 12:53:43.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonLocked(): bool: null
+2026-08-11 12:53:43.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::isCredentialsNonExpired(): bool
+2026-08-11 12:53:43.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::isCredentialsNonExpired(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return 1
-2026-06-28 21:57:17.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1613,7 +1613,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1637,15 +1637,15 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::isCredentialsNonExpired(): bool: null
-2026-06-28 21:57:17.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::isEnabled(): bool
-2026-06-28 21:57:17.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::isEnabled(): bool
+2026-08-11 12:53:43.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::isCredentialsNonExpired(): bool: null
+2026-08-11 12:53:43.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::isEnabled(): bool
+2026-08-11 12:53:43.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::isEnabled(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return 1
-2026-06-28 21:57:17.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1669,7 +1669,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.096 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1693,9 +1693,9 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::isEnabled(): bool: null
-2026-06-28 21:57:17.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::getColour(): java/util/Optional
-2026-06-28 21:57:17.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::getColour(): java/util/Optional
+2026-08-11 12:53:43.096 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::isEnabled(): bool: null
+2026-08-11 12:53:43.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::getColour(): java/util/Optional
+2026-08-11 12:53:43.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::getColour(): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1709,7 +1709,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 21:57:17.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.096 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1733,7 +1733,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.097 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1757,9 +1757,9 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::getColour(): java/util/Optional: null
-2026-06-28 21:57:17.221 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::setColour(java/lang/String): void
-2026-06-28 21:57:17.221 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::setColour(java/lang/String): void
+2026-08-11 12:53:43.097 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::getColour(): java/util/Optional: null
+2026-08-11 12:53:43.097 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/UserInfo::setColour(java/lang/String): void
+2026-08-11 12:53:43.097 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/UserInfo::setColour(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1788,7 +1788,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %goto0: 	//predecessors %bb2, %if.then1
 	return
-2026-06-28 21:57:17.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.097 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1812,7 +1812,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.222 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:43.097 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/UserDetails
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1836,21 +1836,21 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:17.222 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::setColour(java/lang/String): void: null
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set): void processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set, java/lang/String): void processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/lang/String, java/util/Set): void processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::getAuthorities(): java/util/Collection processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::getPassword(): java/lang/String processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::getUsername(): java/lang/String processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonExpired(): bool processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonLocked(): bool processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::isCredentialsNonExpired(): bool processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::isEnabled(): bool processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::getColour(): java/util/Optional processing is finished normally
-2026-06-28 21:57:17.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::setColour(java/lang/String): void processing is finished normally
-2026-06-28 21:57:17.224 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieVerificationFailedException::<init>(java/lang/String): void
-2026-06-28 21:57:17.224 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieVerificationFailedException::<init>(java/lang/String): void
+2026-08-11 12:53:43.098 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/UserInfo::setColour(java/lang/String): void: null
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set): void processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/util/Set, java/lang/String): void processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::<init>(java/lang/String, java/lang/String, java/util/Set): void processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::getAuthorities(): java/util/Collection processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::getPassword(): java/lang/String processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::getUsername(): java/lang/String processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonExpired(): bool processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::isAccountNonLocked(): bool processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::isCredentialsNonExpired(): bool processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::isEnabled(): bool processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::getColour(): java/util/Optional processing is finished normally
+2026-08-11 12:53:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/UserInfo::setColour(java/lang/String): void processing is finished normally
+2026-08-11 12:53:43.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieVerificationFailedException::<init>(java/lang/String): void
+2026-08-11 12:53:43.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieVerificationFailedException::<init>(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1860,12 +1860,12 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 21:57:17.695 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieVerificationFailedException_init_17886625060
-2026-06-28 21:57:17.803 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieVerificationFailedException_init_17886625061
-2026-06-28 21:57:17.805 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieVerificationFailedException::<init>(java/lang/String): void: null
-2026-06-28 21:57:17.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieVerificationFailedException::<init>(java/lang/String): void processing is finished normally
-2026-06-28 21:57:17.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::<init>(): void
-2026-06-28 21:57:17.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::<init>(): void
+2026-08-11 12:53:43.629 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieVerificationFailedException_init_17886625060
+2026-08-11 12:53:43.743 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieVerificationFailedException_init_17886625061
+2026-08-11 12:53:43.744 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieVerificationFailedException::<init>(java/lang/String): void: null
+2026-08-11 12:53:43.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieVerificationFailedException::<init>(java/lang/String): void processing is finished normally
+2026-08-11 12:53:43.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::<init>(): void
+2026-08-11 12:53:43.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1875,9 +1875,9 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 21:57:17.888 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieBasedSessionSpringBootApplication_init_10194334420
-2026-06-28 21:57:17.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::main(java/lang/String[]): void
-2026-06-28 21:57:17.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::main(java/lang/String[]): void
+2026-08-11 12:53:43.878 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieBasedSessionSpringBootApplication_init_10194334420
+2026-08-11 12:53:43.879 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::main(java/lang/String[]): void
+2026-08-11 12:53:43.879 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1887,15 +1887,15 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-28 21:57:17.967 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieBasedSessionSpringBootApplication_main_6428704381
-2026-06-28 21:57:18.032 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieBasedSessionSpringBootApplication_init_10194334422
-2026-06-28 21:57:18.105 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieBasedSessionSpringBootApplication_main_6428704383
-2026-06-28 21:57:18.106 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::<init>(): void: null
-2026-06-28 21:57:18.106 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::main(java/lang/String[]): void: null
-2026-06-28 21:57:18.106 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::<init>(): void processing is finished normally
-2026-06-28 21:57:18.107 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::main(java/lang/String[]): void processing is finished normally
-2026-06-28 21:57:18.109 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::<init>(java/lang/String, java/util/List, java/lang/String): void
-2026-06-28 21:57:18.110 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::<init>(java/lang/String, java/util/List, java/lang/String): void
+2026-08-11 12:53:43.993 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieBasedSessionSpringBootApplication_main_6428704381
+2026-08-11 12:53:44.062 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieBasedSessionSpringBootApplication_init_10194334422
+2026-08-11 12:53:44.139 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.CookieBasedSessionSpringBootApplication_main_6428704383
+2026-08-11 12:53:44.140 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::<init>(): void: null
+2026-08-11 12:53:44.140 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::main(java/lang/String[]): void: null
+2026-08-11 12:53:44.140 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::<init>(): void processing is finished normally
+2026-08-11 12:53:44.140 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieBasedSessionSpringBootApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-11 12:53:44.143 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::<init>(java/lang/String, java/util/List, java/lang/String): void
+2026-08-11 12:53:44.143 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::<init>(java/lang/String, java/util/List, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1917,9 +1917,9 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 21:57:18.177 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.SignedUserInfoCookie_Payload_init_5570692310
-2026-06-28 21:57:18.178 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::toString(): java/lang/String
-2026-06-28 21:57:18.178 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::toString(): java/lang/String
+2026-08-11 12:53:44.211 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.SignedUserInfoCookie_Payload_init_5570692310
+2026-08-11 12:53:44.212 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::toString(): java/lang/String
+2026-08-11 12:53:44.212 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1964,15 +1964,15 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb7: 	//predecessors %goto0
 	return %17
-2026-06-28 21:57:18.234 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.SignedUserInfoCookie_Payload_toString_5806489341
-2026-06-28 21:57:18.293 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.SignedUserInfoCookie_Payload_init_5570692312
-2026-06-28 21:57:18.362 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.SignedUserInfoCookie_Payload_toString_5806489343
-2026-06-28 21:57:18.363 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::<init>(java/lang/String, java/util/List, java/lang/String): void: null
-2026-06-28 21:57:18.363 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::toString(): java/lang/String: null
-2026-06-28 21:57:18.363 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::<init>(java/lang/String, java/util/List, java/lang/String): void processing is finished normally
-2026-06-28 21:57:18.363 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::toString(): java/lang/String processing is finished normally
-2026-06-28 21:57:18.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/MvcConfig::<init>(): void
-2026-06-28 21:57:18.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/MvcConfig::<init>(): void
+2026-08-11 12:53:44.268 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.SignedUserInfoCookie_Payload_toString_5806489341
+2026-08-11 12:53:44.324 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.SignedUserInfoCookie_Payload_init_5570692312
+2026-08-11 12:53:44.387 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.innoq.cookiebasedsessionapp.SignedUserInfoCookie_Payload_toString_5806489343
+2026-08-11 12:53:44.387 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::<init>(java/lang/String, java/util/List, java/lang/String): void: null
+2026-08-11 12:53:44.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::toString(): java/lang/String: null
+2026-08-11 12:53:44.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::<init>(java/lang/String, java/util/List, java/lang/String): void processing is finished normally
+2026-08-11 12:53:44.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/SignedUserInfoCookie$Payload::toString(): java/lang/String processing is finished normally
+2026-08-11 12:53:44.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/MvcConfig::<init>(): void
+2026-08-11 12:53:44.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/MvcConfig::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1982,7 +1982,7 @@ java.lang.ClassNotFoundException: org/springframework/security/core/userdetails/
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 21:57:18.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.390 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotation/WebMvcConfigurer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2006,7 +2006,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotation/WebMvcConfigurer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2030,9 +2030,9 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/MvcConfig::<init>(): void: null
-2026-06-28 21:57:18.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/MvcConfig::addViewControllers(org/springframework/web/servlet/config/annotation/ViewControllerRegistry): void
-2026-06-28 21:57:18.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/MvcConfig::addViewControllers(org/springframework/web/servlet/config/annotation/ViewControllerRegistry): void
+2026-08-11 12:53:44.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/MvcConfig::<init>(): void: null
+2026-08-11 12:53:44.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/MvcConfig::addViewControllers(org/springframework/web/servlet/config/annotation/ViewControllerRegistry): void
+2026-08-11 12:53:44.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/MvcConfig::addViewControllers(org/springframework/web/servlet/config/annotation/ViewControllerRegistry): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2062,7 +2062,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 
 %bb6: 	//predecessors %bb5
 	return
-2026-06-28 21:57:18.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotation/WebMvcConfigurer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2086,7 +2086,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.367 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotation/WebMvcConfigurer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2110,11 +2110,11 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.367 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/MvcConfig::addViewControllers(org/springframework/web/servlet/config/annotation/ViewControllerRegistry): void: null
-2026-06-28 21:57:18.367 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/MvcConfig::<init>(): void processing is finished normally
-2026-06-28 21:57:18.367 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/MvcConfig::addViewControllers(org/springframework/web/servlet/config/annotation/ViewControllerRegistry): void processing is finished normally
-2026-06-28 21:57:18.372 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/WebSecurityConfig::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint, com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler, com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider): void
-2026-06-28 21:57:18.372 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/WebSecurityConfig::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint, com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler, com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider): void
+2026-08-11 12:53:44.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/MvcConfig::addViewControllers(org/springframework/web/servlet/config/annotation/ViewControllerRegistry): void: null
+2026-08-11 12:53:44.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/MvcConfig::<init>(): void processing is finished normally
+2026-08-11 12:53:44.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/MvcConfig::addViewControllers(org/springframework/web/servlet/config/annotation/ViewControllerRegistry): void processing is finished normally
+2026-08-11 12:53:44.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/WebSecurityConfig::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint, com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler, com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider): void
+2026-08-11 12:53:44.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/WebSecurityConfig::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint, com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler, com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2140,7 +2140,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 
 %bb5: 	//predecessors %bb4
 	return
-2026-06-28 21:57:18.372 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2164,7 +2164,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.373 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2188,9 +2188,9 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.373 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/WebSecurityConfig::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint, com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler, com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider): void: null
-2026-06-28 21:57:18.373 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
-2026-06-28 21:57:18.373 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
+2026-08-11 12:53:44.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/WebSecurityConfig::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint, com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler, com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider): void: null
+2026-08-11 12:53:44.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
+2026-08-11 12:53:44.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -2377,7 +2377,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %label2: 	//predecessors %bb42
 	return
-2026-06-28 21:57:18.373 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2401,7 +2401,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2425,9 +2425,9 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void: null
-2026-06-28 21:57:18.374 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void
-2026-06-28 21:57:18.374 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void
+2026-08-11 12:53:44.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void: null
+2026-08-11 12:53:44.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void
+2026-08-11 12:53:44.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2441,7 +2441,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %label0: 	//predecessors %bb1
 	return
-2026-06-28 21:57:18.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.400 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2465,7 +2465,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.401 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2489,12 +2489,12 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void: null
-2026-06-28 21:57:18.374 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/WebSecurityConfig::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint, com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler, com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider): void processing is finished normally
-2026-06-28 21:57:18.375 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void processing is finished normally
-2026-06-28 21:57:18.375 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void processing is finished normally
-2026-06-28 21:57:18.377 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::<init>(): void
-2026-06-28 21:57:18.377 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::<init>(): void
+2026-08-11 12:53:44.401 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void: null
+2026-08-11 12:53:44.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/WebSecurityConfig::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint, com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler, com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider): void processing is finished normally
+2026-08-11 12:53:44.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void processing is finished normally
+2026-08-11 12:53:44.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/WebSecurityConfig::configure(org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder): void processing is finished normally
+2026-08-11 12:53:44.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::<init>(): void
+2026-08-11 12:53:44.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2504,7 +2504,7 @@ java.lang.ClassNotFoundException: org/springframework/security/config/annotation
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 21:57:18.378 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/LoginUrlAuthenticationEntryPoint
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2528,7 +2528,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.378 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/LoginUrlAuthenticationEntryPoint
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2552,9 +2552,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.378 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::<init>(): void: null
-2026-06-28 21:57:18.378 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::determineUrlToUseForThisRequest(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/AuthenticationException): java/lang/String
-2026-06-28 21:57:18.378 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::determineUrlToUseForThisRequest(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/AuthenticationException): java/lang/String
+2026-08-11 12:53:44.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::<init>(): void: null
+2026-08-11 12:53:44.404 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::determineUrlToUseForThisRequest(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/AuthenticationException): java/lang/String
+2026-08-11 12:53:44.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::determineUrlToUseForThisRequest(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/AuthenticationException): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2588,7 +2588,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 
 %bb6: 	//predecessors %bb5
 	return %12
-2026-06-28 21:57:18.378 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/LoginUrlAuthenticationEntryPoint
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2612,7 +2612,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.378 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/LoginUrlAuthenticationEntryPoint
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2636,11 +2636,11 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.378 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::determineUrlToUseForThisRequest(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/AuthenticationException): java/lang/String: null
-2026-06-28 21:57:18.378 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::<init>(): void processing is finished normally
-2026-06-28 21:57:18.379 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::determineUrlToUseForThisRequest(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/AuthenticationException): java/lang/String processing is finished normally
-2026-06-28 21:57:18.382 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void
-2026-06-28 21:57:18.383 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void
+2026-08-11 12:53:44.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::determineUrlToUseForThisRequest(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/AuthenticationException): java/lang/String: null
+2026-08-11 12:53:44.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::<init>(): void processing is finished normally
+2026-08-11 12:53:44.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/LoginWithTargetUrlAuthenticationEntryPoint::determineUrlToUseForThisRequest(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/AuthenticationException): java/lang/String processing is finished normally
+2026-08-11 12:53:44.411 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void
+2026-08-11 12:53:44.411 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2666,7 +2666,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 
 %bb5: 	//predecessors %bb4
 	return
-2026-06-28 21:57:18.383 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.412 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveContextOnUpdateOrErrorResponseWrapper
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2690,7 +2690,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveC
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.383 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.412 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveContextOnUpdateOrErrorResponseWrapper
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2714,9 +2714,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveC
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.383 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void: null
-2026-06-28 21:57:18.384 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::saveContext(org/springframework/security/core/context/SecurityContext): void
-2026-06-28 21:57:18.384 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::saveContext(org/springframework/security/core/context/SecurityContext): void
+2026-08-11 12:53:44.412 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void: null
+2026-08-11 12:53:44.421 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::saveContext(org/springframework/security/core/context/SecurityContext): void
+2026-08-11 12:53:44.423 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::saveContext(org/springframework/security/core/context/SecurityContext): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2856,7 +2856,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveC
 
 %bb.return0: 	//predecessors %bb3, %bb7, %bb13, %bb23
 	return
-2026-06-28 21:57:18.384 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.424 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveContextOnUpdateOrErrorResponseWrapper
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2880,7 +2880,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveC
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.384 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.425 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveContextOnUpdateOrErrorResponseWrapper
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2904,11 +2904,11 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveC
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.384 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::saveContext(org/springframework/security/core/context/SecurityContext): void: null
-2026-06-28 21:57:18.384 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void processing is finished normally
-2026-06-28 21:57:18.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::saveContext(org/springframework/security/core/context/SecurityContext): void processing is finished normally
-2026-06-28 21:57:18.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::<init>(): void
-2026-06-28 21:57:18.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::<init>(): void
+2026-08-11 12:53:44.425 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::saveContext(org/springframework/security/core/context/SecurityContext): void: null
+2026-08-11 12:53:44.426 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::<init>(com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void processing is finished normally
+2026-08-11 12:53:44.427 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository$SaveToCookieResponseWrapper::saveContext(org/springframework/security/core/context/SecurityContext): void processing is finished normally
+2026-08-11 12:53:44.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::<init>(): void
+2026-08-11 12:53:44.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2922,7 +2922,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/SaveC
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 21:57:18.387 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2946,7 +2946,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2970,9 +2970,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::<init>(): void: null
-2026-06-28 21:57:18.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::onAuthenticationSuccess(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): void
-2026-06-28 21:57:18.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::onAuthenticationSuccess(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): void
+2026-08-11 12:53:44.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::<init>(): void: null
+2026-08-11 12:53:44.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::onAuthenticationSuccess(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): void
+2026-08-11 12:53:44.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::onAuthenticationSuccess(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2998,7 +2998,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 21:57:18.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3022,7 +3022,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3046,9 +3046,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::onAuthenticationSuccess(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): void: null
-2026-06-28 21:57:18.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::determineTargetUrl(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): java/lang/String
-2026-06-28 21:57:18.389 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::determineTargetUrl(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): java/lang/String
+2026-08-11 12:53:44.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::onAuthenticationSuccess(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): void: null
+2026-08-11 12:53:44.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::determineTargetUrl(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): java/lang/String
+2026-08-11 12:53:44.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::determineTargetUrl(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3078,7 +3078,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 %bb.return0: 	//predecessors %bb2, %if.then0
 	%retval1 = phi {%bb2 -> "/"; %if.then0 -> %9}
 	return %retval1
-2026-06-28 21:57:18.389 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3102,7 +3102,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.389 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3126,12 +3126,12 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.389 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::determineTargetUrl(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): java/lang/String: null
-2026-06-28 21:57:18.389 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::<init>(): void processing is finished normally
-2026-06-28 21:57:18.389 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::onAuthenticationSuccess(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): void processing is finished normally
-2026-06-28 21:57:18.389 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::determineTargetUrl(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): java/lang/String processing is finished normally
-2026-06-28 21:57:18.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::<init>(java/lang/String): void
-2026-06-28 21:57:18.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::<init>(java/lang/String): void
+2026-08-11 12:53:44.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::determineTargetUrl(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): java/lang/String: null
+2026-08-11 12:53:44.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::<init>(): void processing is finished normally
+2026-08-11 12:53:44.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::onAuthenticationSuccess(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): void processing is finished normally
+2026-08-11 12:53:44.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/RedirectToOriginalUrlAuthenticationSuccessHandler::determineTargetUrl(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, org/springframework/security/core/Authentication): java/lang/String processing is finished normally
+2026-08-11 12:53:44.440 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::<init>(java/lang/String): void
+2026-08-11 12:53:44.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::<init>(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3145,7 +3145,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/authenticatio
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 21:57:18.395 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.441 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3169,7 +3169,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.442 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3193,9 +3193,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::<init>(java/lang/String): void: null
-2026-06-28 21:57:18.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::loadContext(org/springframework/security/web/context/HttpRequestResponseHolder): org/springframework/security/core/context/SecurityContext
-2026-06-28 21:57:18.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::loadContext(org/springframework/security/web/context/HttpRequestResponseHolder): org/springframework/security/core/context/SecurityContext
+2026-08-11 12:53:44.442 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::<init>(java/lang/String): void: null
+2026-08-11 12:53:44.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::loadContext(org/springframework/security/web/context/HttpRequestResponseHolder): org/springframework/security/core/context/SecurityContext
+2026-08-11 12:53:44.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::loadContext(org/springframework/security/web/context/HttpRequestResponseHolder): org/springframework/security/core/context/SecurityContext
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3234,7 +3234,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 
 %bb5: 	//predecessors %bb4
 	return %14
-2026-06-28 21:57:18.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.442 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3258,7 +3258,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.443 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3282,9 +3282,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::loadContext(org/springframework/security/web/context/HttpRequestResponseHolder): org/springframework/security/core/context/SecurityContext: null
-2026-06-28 21:57:18.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::saveContext(org/springframework/security/core/context/SecurityContext, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void
-2026-06-28 21:57:18.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::saveContext(org/springframework/security/core/context/SecurityContext, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void
+2026-08-11 12:53:44.443 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::loadContext(org/springframework/security/web/context/HttpRequestResponseHolder): org/springframework/security/core/context/SecurityContext: null
+2026-08-11 12:53:44.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::saveContext(org/springframework/security/core/context/SecurityContext, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void
+2026-08-11 12:53:44.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::saveContext(org/springframework/security/core/context/SecurityContext, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3306,7 +3306,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 
 %if.then0: 	//predecessors %bb1, %if.else0
 	return
-2026-06-28 21:57:18.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.443 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3330,7 +3330,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.443 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3354,9 +3354,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::saveContext(org/springframework/security/core/context/SecurityContext, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void: null
-2026-06-28 21:57:18.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::containsContext(javax/servlet/http/HttpServletRequest): bool
-2026-06-28 21:57:18.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::containsContext(javax/servlet/http/HttpServletRequest): bool
+2026-08-11 12:53:44.444 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::saveContext(org/springframework/security/core/context/SecurityContext, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void: null
+2026-08-11 12:53:44.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::containsContext(javax/servlet/http/HttpServletRequest): bool
+2026-08-11 12:53:44.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::containsContext(javax/servlet/http/HttpServletRequest): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3370,7 +3370,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 21:57:18.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.444 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3394,7 +3394,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.444 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3418,9 +3418,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::containsContext(javax/servlet/http/HttpServletRequest): bool: null
-2026-06-28 21:57:18.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readUserInfoFromCookie(javax/servlet/http/HttpServletRequest): java/util/Optional
-2026-06-28 21:57:18.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readUserInfoFromCookie(javax/servlet/http/HttpServletRequest): java/util/Optional
+2026-08-11 12:53:44.444 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::containsContext(javax/servlet/http/HttpServletRequest): bool: null
+2026-08-11 12:53:44.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readUserInfoFromCookie(javax/servlet/http/HttpServletRequest): java/util/Optional
+2026-08-11 12:53:44.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readUserInfoFromCookie(javax/servlet/http/HttpServletRequest): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3438,7 +3438,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 21:57:18.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.445 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3462,7 +3462,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.445 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3486,9 +3486,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readUserInfoFromCookie(javax/servlet/http/HttpServletRequest): java/util/Optional: null
-2026-06-28 21:57:18.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readCookieFromRequest(javax/servlet/http/HttpServletRequest): java/util/Optional
-2026-06-28 21:57:18.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readCookieFromRequest(javax/servlet/http/HttpServletRequest): java/util/Optional
+2026-08-11 12:53:44.445 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readUserInfoFromCookie(javax/servlet/http/HttpServletRequest): java/util/Optional: null
+2026-08-11 12:53:44.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readCookieFromRequest(javax/servlet/http/HttpServletRequest): java/util/Optional
+2026-08-11 12:53:44.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readCookieFromRequest(javax/servlet/http/HttpServletRequest): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3551,7 +3551,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 %bb.return0: 	//predecessors %bb3, %if.then1
 	%retval1 = phi {%bb3 -> %23; %if.then1 -> %24}
 	return %retval1
-2026-06-28 21:57:18.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3575,7 +3575,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3599,9 +3599,9 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readCookieFromRequest(javax/servlet/http/HttpServletRequest): java/util/Optional: null
-2026-06-28 21:57:18.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::createUserInfo(javax/servlet/http/Cookie): com/innoq/cookiebasedsessionapp/UserInfo
-2026-06-28 21:57:18.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::createUserInfo(javax/servlet/http/Cookie): com/innoq/cookiebasedsessionapp/UserInfo
+2026-08-11 12:53:44.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readCookieFromRequest(javax/servlet/http/HttpServletRequest): java/util/Optional: null
+2026-08-11 12:53:44.446 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::createUserInfo(javax/servlet/http/Cookie): com/innoq/cookiebasedsessionapp/UserInfo
+2026-08-11 12:53:44.446 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::createUserInfo(javax/servlet/http/Cookie): com/innoq/cookiebasedsessionapp/UserInfo
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3620,7 +3620,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-28 21:57:18.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3644,7 +3644,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/web/context/SecurityContextRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3668,16 +3668,16 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::createUserInfo(javax/servlet/http/Cookie): com/innoq/cookiebasedsessionapp/UserInfo: null
-2026-06-28 21:57:18.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::<init>(java/lang/String): void processing is finished normally
-2026-06-28 21:57:18.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::loadContext(org/springframework/security/web/context/HttpRequestResponseHolder): org/springframework/security/core/context/SecurityContext processing is finished normally
-2026-06-28 21:57:18.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::saveContext(org/springframework/security/core/context/SecurityContext, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void processing is finished normally
-2026-06-28 21:57:18.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::containsContext(javax/servlet/http/HttpServletRequest): bool processing is finished normally
-2026-06-28 21:57:18.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readUserInfoFromCookie(javax/servlet/http/HttpServletRequest): java/util/Optional processing is finished normally
-2026-06-28 21:57:18.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readCookieFromRequest(javax/servlet/http/HttpServletRequest): java/util/Optional processing is finished normally
-2026-06-28 21:57:18.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::createUserInfo(javax/servlet/http/Cookie): com/innoq/cookiebasedsessionapp/UserInfo processing is finished normally
-2026-06-28 21:57:18.402 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::<init>(): void
-2026-06-28 21:57:18.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::<init>(): void
+2026-08-11 12:53:44.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::createUserInfo(javax/servlet/http/Cookie): com/innoq/cookiebasedsessionapp/UserInfo: null
+2026-08-11 12:53:44.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::<init>(java/lang/String): void processing is finished normally
+2026-08-11 12:53:44.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::loadContext(org/springframework/security/web/context/HttpRequestResponseHolder): org/springframework/security/core/context/SecurityContext processing is finished normally
+2026-08-11 12:53:44.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::saveContext(org/springframework/security/core/context/SecurityContext, javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse): void processing is finished normally
+2026-08-11 12:53:44.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::containsContext(javax/servlet/http/HttpServletRequest): bool processing is finished normally
+2026-08-11 12:53:44.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readUserInfoFromCookie(javax/servlet/http/HttpServletRequest): java/util/Optional processing is finished normally
+2026-08-11 12:53:44.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::readCookieFromRequest(javax/servlet/http/HttpServletRequest): java/util/Optional processing is finished normally
+2026-08-11 12:53:44.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/CookieSecurityContextRepository::createUserInfo(javax/servlet/http/Cookie): com/innoq/cookiebasedsessionapp/UserInfo processing is finished normally
+2026-08-11 12:53:44.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::<init>(): void
+2026-08-11 12:53:44.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3687,7 +3687,7 @@ java.lang.ClassNotFoundException: org/springframework/security/web/context/Secur
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 21:57:18.403 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.451 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/authentication/AuthenticationProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3711,7 +3711,7 @@ java.lang.ClassNotFoundException: org/springframework/security/authentication/Au
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.403 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/authentication/AuthenticationProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3735,9 +3735,9 @@ java.lang.ClassNotFoundException: org/springframework/security/authentication/Au
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.403 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::<init>(): void: null
-2026-06-28 21:57:18.404 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::authenticate(org/springframework/security/core/Authentication): org/springframework/security/core/Authentication
-2026-06-28 21:57:18.404 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::authenticate(org/springframework/security/core/Authentication): org/springframework/security/core/Authentication
+2026-08-11 12:53:44.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::<init>(): void: null
+2026-08-11 12:53:44.452 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::authenticate(org/springframework/security/core/Authentication): org/springframework/security/core/Authentication
+2026-08-11 12:53:44.452 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::authenticate(org/springframework/security/core/Authentication): org/springframework/security/core/Authentication
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3785,7 +3785,7 @@ java.lang.ClassNotFoundException: org/springframework/security/authentication/Au
 
 %bb9: 	//predecessors %bb8
 	return %24
-2026-06-28 21:57:18.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/authentication/AuthenticationProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3809,7 +3809,7 @@ java.lang.ClassNotFoundException: org/springframework/security/authentication/Au
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/authentication/AuthenticationProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3833,9 +3833,9 @@ java.lang.ClassNotFoundException: org/springframework/security/authentication/Au
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::authenticate(org/springframework/security/core/Authentication): org/springframework/security/core/Authentication: null
-2026-06-28 21:57:18.404 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::supports(java/lang/Class): bool
-2026-06-28 21:57:18.404 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::supports(java/lang/Class): bool
+2026-08-11 12:53:44.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::authenticate(org/springframework/security/core/Authentication): org/springframework/security/core/Authentication: null
+2026-08-11 12:53:44.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::supports(java/lang/Class): bool
+2026-08-11 12:53:44.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::supports(java/lang/Class): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3845,7 +3845,7 @@ java.lang.ClassNotFoundException: org/springframework/security/authentication/Au
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 21:57:18.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/authentication/AuthenticationProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3869,7 +3869,7 @@ java.lang.ClassNotFoundException: org/springframework/security/authentication/Au
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 12:53:44.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/security/authentication/AuthenticationProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3893,9 +3893,9 @@ java.lang.ClassNotFoundException: org/springframework/security/authentication/Au
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 21:57:18.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::supports(java/lang/Class): bool: null
-2026-06-28 21:57:18.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::<init>(): void processing is finished normally
-2026-06-28 21:57:18.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::authenticate(org/springframework/security/core/Authentication): org/springframework/security/core/Authentication processing is finished normally
-2026-06-28 21:57:18.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::supports(java/lang/Class): bool processing is finished normally
-2026-06-28 21:57:18.405 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 21:57:18.406 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 12:53:44.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::supports(java/lang/Class): bool: null
+2026-08-11 12:53:44.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::<init>(): void processing is finished normally
+2026-08-11 12:53:44.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::authenticate(org/springframework/security/core/Authentication): org/springframework/security/core/Authentication processing is finished normally
+2026-08-11 12:53:44.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/innoq/cookiebasedsessionapp/InMemoryAuthenticationProvider::supports(java/lang/Class): bool processing is finished normally
+2026-08-11 12:53:44.454 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 12:53:44.454 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

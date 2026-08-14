@@ -35,7 +35,7 @@ public class BacktraceParser_init_1410980401 {
     @Before
     public void setup() throws Throwable {
         term607 = new Boolean(false);
-        term609 = (Object[]) newArray("java.util.function.Supplier", 9);
+        term609 = (Object[]) newArray("java.util.function.Supplier", 7);
     }
 
     @Test

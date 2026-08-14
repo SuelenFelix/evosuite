@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SessionEmployeePrincipal_getProjectIdsByProjectRole_138863417631 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2863;
+     Object term3237;
 
     public SessionEmployeePrincipal_getProjectIdsByProjectRole_138863417631() {
     }
@@ -31,11 +31,11 @@ public class SessionEmployeePrincipal_getProjectIdsByProjectRole_138863417631 {
 
     @Before
     public void setup() throws Throwable {
-        term2863 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2863, term2863.getClass(), "id", 0);
-        setField(term2863, term2863.getClass(), "email", null);
-        setField(term2863, term2863.getClass(), "employeeRoles", null);
-        setField(term2863, term2863.getClass(), "projectIdsByProjectRoles", null);
+        term3237 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3237, term3237.getClass(), "id", 0);
+        setField(term3237, term3237.getClass(), "email", null);
+        setField(term3237, term3237.getClass(), "employeeRoles", null);
+        setField(term3237, term3237.getClass(), "projectIdsByProjectRoles", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class SessionEmployeePrincipal_getProjectIdsByProjectRole_138863417631 {
         argTypes[0] = Class.forName("ru.smartup.timetracker.entity.field.enumerated.ProjectRoleEnum");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "getProjectIdsByProjectRole", argTypes, term2863, args);
+        callMethod(klass, "getProjectIdsByProjectRole", argTypes, term3237, args);
     }
 
 };

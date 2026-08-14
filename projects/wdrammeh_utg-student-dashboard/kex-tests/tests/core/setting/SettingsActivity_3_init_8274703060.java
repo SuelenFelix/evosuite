@@ -119,7 +119,7 @@ public class SettingsActivity_3_init_8274703060 {
         Object term1397 = newInstance(Class.forName("java.security.ProtectionDomain$Key"));
         Object term1407 = newInstance(Class.forName("java.lang.Object"));
         setBooleanField(term1018, term1018.getClass(), "reflectTheme", true);
-        setBooleanField(term1018, term1018.getClass(), "isAlignmentXSet", false);
+        setBooleanField(term1018, term1018.getClass(), "isAlignmentXSet", true);
         setFloatField(term1018, term1018.getClass(), "alignmentX", 0.40176582F);
         setBooleanField(term1018, term1018.getClass(), "isAlignmentYSet", false);
         setFloatField(term1018, term1018.getClass(), "alignmentY", 0.8783184F);
@@ -132,7 +132,7 @@ public class SettingsActivity_3_init_8274703060 {
         setField(term1029, term1029.getClass(), "map", term1030);
         setField(term1029, term1029.getClass(), "source", term1031);
         setField(term1018, term1018.getClass(), "vetoableChangeSupport", term1029);
-        setBooleanField(term1018, term1018.getClass(), "autoscrolls", true);
+        setBooleanField(term1018, term1018.getClass(), "autoscrolls", false);
         setField(term1018, term1018.getClass(), "border", null);
         setIntField(term1018, term1018.getClass(), "flags", 9);
         setField(term1018, term1018.getClass(), "inputVerifier", null);
@@ -324,7 +324,7 @@ public class SettingsActivity_3_init_8274703060 {
         setIntField(term1132, term1132.getClass(), "depth", 24);
         setIntField(term1132, term1132.getClass(), "colormap", 32);
         setField(term1132, term1132.getClass(), "colorModel", null);
-        setLongField(term1132, term1132.getClass(), "aData", 128935589666736L);
+        setLongField(term1132, term1132.getClass(), "aData", 139180093218656L);
         setBooleanField(term1132, term1132.getClass(), "doubleBuffer", true);
         setField(term1132, term1132.getClass(), "disposerReferent", term1142);
         setField(term1132, term1132.getClass(), "bufferCaps", null);
@@ -803,7 +803,7 @@ public class SettingsActivity_3_init_8274703060 {
         setField(term1445, term1445.getClass(), "map", term1446);
         setField(term1445, term1445.getClass(), "source", term1447);
         setField(term1415, term1415.getClass(), "vetoableChangeSupport", term1445);
-        setBooleanField(term1415, term1415.getClass(), "autoscrolls", true);
+        setBooleanField(term1415, term1415.getClass(), "autoscrolls", false);
         setField(term1415, term1415.getClass(), "border", null);
         setIntField(term1415, term1415.getClass(), "flags", 8388608);
         setField(term1415, term1415.getClass(), "inputVerifier", null);

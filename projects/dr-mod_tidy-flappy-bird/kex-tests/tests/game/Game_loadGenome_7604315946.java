@@ -163,7 +163,7 @@ public class Game_loadGenome_7604315946 {
         setIntField(term1296, term1296.getClass(), "yOpeningEnd", 1607082164);
         setIntField(term1296, term1296.getClass(), "width", 1890399366);
         setField(term1265, term1265.getClass(), "lastPipe", term1296);
-        setLongField(term1302, term1302.getClass(), "value", 177178277888816L);
+        setLongField(term1302, term1302.getClass(), "value", 13192147243458L);
         setField(term1301, term1301.getClass(), "seed", term1302);
         setDoubleField(term1301, term1301.getClass(), "nextNextGaussian", 0.10667076642995188);
         setBooleanField(term1301, term1301.getClass(), "haveNextNextGaussian", true);
@@ -173,11 +173,11 @@ public class Game_loadGenome_7604315946 {
         setIntField(term1307, term1307.getClass(), "screenBottom", 952869601);
         setField(term1199, term1199.getClass(), "collisionDetector", term1307);
         setBooleanField(term1199, term1199.getClass(), "collision", false);
-        setIntField(term1313, term1313.getClass(), "hash", 234215314);
+        setIntField(term1313, term1313.getClass(), "hash", 310826957);
         setField(term1313, term1313.getClass(), "key", null);
         setField(term1313, term1313.getClass(), "value", null);
         setField(term1313, term1313.getClass(), "next", null);
-        setElement(term1312, 3, term1313);
+        setElement(term1312, 1, term1313);
         setField(term1311, term1311.getClass(), "table", term1312);
         setIntField(term1311, term1311.getClass(), "count", 1);
         setIntField(term1311, term1311.getClass(), "threshold", 8);

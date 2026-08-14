@@ -1,16 +1,16 @@
-2026-06-28 23:59:50.085 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/dr-mod_tidy-flappy-bird/target/classes
-2026-06-28 23:59:50.191 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 23:59:50.255 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 23:59:51.081 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 23:59:51.543 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package utils/*
-2026-06-28 23:59:51.545 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 23:59:51.560 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/dr-mod_tidy-flappy-bird/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 23:59:51.594 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/dr-mod_tidy-flappy-bird/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 42351 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/dr-mod_tidy-flappy-bird/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 23:59:51.633 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 00:01:31.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::<init>(float, float): void
-2026-06-29 00:01:31.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::<init>(float, float): void
+2026-08-11 20:33:24.584 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/dr-mod_tidy-flappy-bird/target/classes
+2026-08-11 20:33:24.690 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 20:33:24.752 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 20:33:25.548 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 20:33:26.108 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package utils/*
+2026-08-11 20:33:26.109 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 20:33:26.121 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/dr-mod_tidy-flappy-bird/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 20:33:26.158 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/dr-mod_tidy-flappy-bird/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 38185 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/dr-mod_tidy-flappy-bird/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 20:33:26.174 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 20:35:06.223 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::<init>(float, float): void
+2026-08-11 20:35:06.224 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::<init>(float, float): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -28,9 +28,9 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 00:01:32.251 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_init_3899402280
-2026-06-29 00:01:32.259 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::fromAngle(float): utils/Vector
-2026-06-29 00:01:32.259 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::fromAngle(float): utils/Vector
+2026-08-11 20:35:06.704 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_init_3899402280
+2026-08-11 20:35:06.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::fromAngle(float): utils/Vector
+2026-08-11 20:35:06.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::fromAngle(float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -53,9 +53,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %14
-2026-06-29 00:01:32.419 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_fromAngle_681098101
-2026-06-29 00:01:32.420 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::rotate(float): utils/Vector
-2026-06-29 00:01:32.421 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::rotate(float): utils/Vector
+2026-08-11 20:35:06.817 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_fromAngle_681098101
+2026-08-11 20:35:06.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::rotate(float): utils/Vector
+2026-08-11 20:35:06.819 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::rotate(float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -118,9 +118,9 @@
 
 %bb9: 	//predecessors %label1
 	return %46
-2026-06-29 00:01:32.558 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_rotate_6900735042
-2026-06-29 00:01:32.559 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::copy(): utils/Vector
-2026-06-29 00:01:32.559 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::copy(): utils/Vector
+2026-08-11 20:35:06.918 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_rotate_6900735042
+2026-08-11 20:35:06.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::copy(): utils/Vector
+2026-08-11 20:35:06.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::copy(): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -139,9 +139,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 00:01:32.658 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_copy_6473130123
-2026-06-29 00:01:32.658 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::get(float[]): float[]
-2026-06-29 00:01:32.659 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::get(float[]): float[]
+2026-08-11 20:35:06.997 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_copy_6473130123
+2026-08-11 20:35:06.998 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::get(float[]): float[]
+2026-08-11 20:35:06.998 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::get(float[]): float[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -202,9 +202,9 @@
 %bb.return0: 	//predecessors %bb5, %if.then1
 	%retval1 = phi {%bb5 -> %17; %if.then1 -> arg$0}
 	return %retval1
-2026-06-29 00:01:32.746 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_get_20892025064
-2026-06-29 00:01:32.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::mag(): float
-2026-06-29 00:01:32.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::mag(): float
+2026-08-11 20:35:07.071 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_get_20892025064
+2026-08-11 20:35:07.071 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::mag(): float
+2026-08-11 20:35:07.072 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::mag(): float
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -235,9 +235,9 @@
 %bb5: 	//predecessors %bb4
 	%19 = (float) %17
 	return %19
-2026-06-29 00:01:32.825 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mag_8121439555
-2026-06-29 00:01:32.826 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::magSq(): float
-2026-06-29 00:01:32.826 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::magSq(): float
+2026-08-11 20:35:07.137 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mag_8121439555
+2026-08-11 20:35:07.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::magSq(): float
+2026-08-11 20:35:07.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::magSq(): float
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -262,9 +262,9 @@
 	%11 = %7 * %8
 	%13 = %10 + %11
 	return %13
-2026-06-29 00:01:32.895 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_magSq_874114776
-2026-06-29 00:01:32.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::add(utils/Vector): utils/Vector
-2026-06-29 00:01:32.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::add(utils/Vector): utils/Vector
+2026-08-11 20:35:07.204 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_magSq_874114776
+2026-08-11 20:35:07.205 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::add(utils/Vector): utils/Vector
+2026-08-11 20:35:07.205 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::add(utils/Vector): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -293,9 +293,9 @@
 
 %bb5: 	//predecessors %bb4
 	return %14
-2026-06-29 00:01:32.970 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_10813654737
-2026-06-29 00:01:32.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::add(float, float): utils/Vector
-2026-06-29 00:01:32.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::add(float, float): utils/Vector
+2026-08-11 20:35:07.286 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_10813654737
+2026-08-11 20:35:07.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::add(float, float): utils/Vector
+2026-08-11 20:35:07.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::add(float, float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -316,9 +316,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %10
-2026-06-29 00:01:33.054 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_566224328
-2026-06-29 00:01:33.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::add(utils/Vector, utils/Vector): utils/Vector
-2026-06-29 00:01:33.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::add(utils/Vector, utils/Vector): utils/Vector
+2026-08-11 20:35:07.341 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_566224328
+2026-08-11 20:35:07.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::add(utils/Vector, utils/Vector): utils/Vector
+2026-08-11 20:35:07.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::add(utils/Vector, utils/Vector): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -347,9 +347,9 @@
 
 %bb5: 	//predecessors %bb4
 	return %14
-2026-06-29 00:01:33.161 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_2668429449
-2026-06-29 00:01:33.162 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dist(utils/Vector): float
-2026-06-29 00:01:33.162 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dist(utils/Vector): float
+2026-08-11 20:35:07.399 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_2668429449
+2026-08-11 20:35:07.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dist(utils/Vector): float
+2026-08-11 20:35:07.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dist(utils/Vector): float
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -388,9 +388,9 @@
 %bb5: 	//predecessors %label1
 	%25 = (float) %23
 	return %25
-2026-06-29 00:01:33.235 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dist_103430387310
-2026-06-29 00:01:33.236 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dist(utils/Vector, utils/Vector): float
-2026-06-29 00:01:33.236 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dist(utils/Vector, utils/Vector): float
+2026-08-11 20:35:07.446 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dist_103430387310
+2026-08-11 20:35:07.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dist(utils/Vector, utils/Vector): float
+2026-08-11 20:35:07.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dist(utils/Vector, utils/Vector): float
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -429,9 +429,9 @@
 %bb5: 	//predecessors %label1
 	%25 = (float) %23
 	return %25
-2026-06-29 00:01:33.325 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dist_31390454411
-2026-06-29 00:01:33.326 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dot(utils/Vector): float
-2026-06-29 00:01:33.326 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dot(utils/Vector): float
+2026-08-11 20:35:07.491 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dist_31390454411
+2026-08-11 20:35:07.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dot(utils/Vector): float
+2026-08-11 20:35:07.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dot(utils/Vector): float
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -456,9 +456,9 @@
 	%11 = %7 * %8
 	%13 = %10 + %11
 	return %13
-2026-06-29 00:01:33.394 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_183334799612
-2026-06-29 00:01:33.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dot(float, float, float): float
-2026-06-29 00:01:33.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dot(float, float, float): float
+2026-08-11 20:35:07.556 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_183334799612
+2026-08-11 20:35:07.557 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dot(float, float, float): float
+2026-08-11 20:35:07.557 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dot(float, float, float): float
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -475,9 +475,9 @@
 	%7 = %4 * arg$1
 	%9 = %6 + %7
 	return %9
-2026-06-29 00:01:33.484 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_84717947913
-2026-06-29 00:01:33.485 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dot(utils/Vector, utils/Vector): float
-2026-06-29 00:01:33.485 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dot(utils/Vector, utils/Vector): float
+2026-08-11 20:35:07.602 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_84717947913
+2026-08-11 20:35:07.603 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::dot(utils/Vector, utils/Vector): float
+2026-08-11 20:35:07.603 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::dot(utils/Vector, utils/Vector): float
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -502,9 +502,9 @@
 	%11 = %7 * %8
 	%13 = %10 + %11
 	return %13
-2026-06-29 00:01:33.536 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_111341088314
-2026-06-29 00:01:33.537 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::normalize(utils/Vector): utils/Vector
-2026-06-29 00:01:33.537 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::normalize(utils/Vector): utils/Vector
+2026-08-11 20:35:07.651 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_111341088314
+2026-08-11 20:35:07.652 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::normalize(utils/Vector): utils/Vector
+2026-08-11 20:35:07.652 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::normalize(utils/Vector): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -560,9 +560,9 @@
 %bb.return0: 	//predecessors %bb5, %bb8
 	%retval1 = phi {%bb5 -> %24; %bb8 -> %25}
 	return %retval1
-2026-06-29 00:01:33.589 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_normalize_73697262115
-2026-06-29 00:01:33.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::mult(float): utils/Vector
-2026-06-29 00:01:33.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::mult(float): utils/Vector
+2026-08-11 20:35:07.695 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_normalize_73697262115
+2026-08-11 20:35:07.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::mult(float): utils/Vector
+2026-08-11 20:35:07.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::mult(float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -583,9 +583,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %10
-2026-06-29 00:01:33.647 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mult_33262740316
-2026-06-29 00:01:33.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::mult(utils/Vector, float): utils/Vector
-2026-06-29 00:01:33.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::mult(utils/Vector, float): utils/Vector
+2026-08-11 20:35:07.739 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mult_33262740316
+2026-08-11 20:35:07.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::mult(utils/Vector, float): utils/Vector
+2026-08-11 20:35:07.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::mult(utils/Vector, float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -606,9 +606,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %10
-2026-06-29 00:01:33.709 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mult_168083582017
-2026-06-29 00:01:33.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::limit(float): utils/Vector
-2026-06-29 00:01:33.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::limit(float): utils/Vector
+2026-08-11 20:35:07.782 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mult_168083582017
+2026-08-11 20:35:07.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::limit(float): utils/Vector
+2026-08-11 20:35:07.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::limit(float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -652,9 +652,9 @@
 %bb.return0: 	//predecessors %bb3, %bb6
 	%retval1 = phi {%bb3 -> %17; %bb6 -> %18}
 	return %retval1
-2026-06-29 00:01:33.776 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_limit_90649548818
-2026-06-29 00:01:33.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::normalize(): utils/Vector
-2026-06-29 00:01:33.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::normalize(): utils/Vector
+2026-08-11 20:35:07.827 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_limit_90649548818
+2026-08-11 20:35:07.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::normalize(): utils/Vector
+2026-08-11 20:35:07.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::normalize(): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -698,9 +698,9 @@
 %bb.return0: 	//predecessors %bb1, %bb4
 	%retval1 = phi {%bb1 -> %19; %bb4 -> %20}
 	return %retval1
-2026-06-29 00:01:33.824 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_normalize_175029454019
-2026-06-29 00:01:33.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::div(float): utils/Vector
-2026-06-29 00:01:33.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::div(float): utils/Vector
+2026-08-11 20:35:07.868 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_normalize_175029454019
+2026-08-11 20:35:07.869 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::div(float): utils/Vector
+2026-08-11 20:35:07.869 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::div(float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -727,9 +727,9 @@
 
 %bb5: 	//predecessors %bb4
 	return %10
-2026-06-29 00:01:33.876 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_div_82597512620
-2026-06-29 00:01:33.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::div(utils/Vector, float): utils/Vector
-2026-06-29 00:01:33.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::div(utils/Vector, float): utils/Vector
+2026-08-11 20:35:07.914 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_div_82597512620
+2026-08-11 20:35:07.914 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::div(utils/Vector, float): utils/Vector
+2026-08-11 20:35:07.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::div(utils/Vector, float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -756,9 +756,9 @@
 
 %bb5: 	//predecessors %bb4
 	return %10
-2026-06-29 00:01:33.925 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_div_52223329121
-2026-06-29 00:01:33.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::setMag(float): utils/Vector
-2026-06-29 00:01:33.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::setMag(float): utils/Vector
+2026-08-11 20:35:07.955 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_div_52223329121
+2026-08-11 20:35:07.955 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::setMag(float): utils/Vector
+2026-08-11 20:35:07.955 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::setMag(float): utils/Vector
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -772,9 +772,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 00:01:33.976 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_setMag_212874709422
-2026-06-29 00:01:33.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::heading(): float
-2026-06-29 00:01:33.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::heading(): float
+2026-08-11 20:35:08.006 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_setMag_212874709422
+2026-08-11 20:35:08.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::heading(): float
+2026-08-11 20:35:08.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::heading(): float
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -795,9 +795,9 @@
 %bb3: 	//predecessors %bb2
 	%11 = (float) %9
 	return %11
-2026-06-29 00:01:34.027 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_heading_112551024423
-2026-06-29 00:01:34.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::toString(): java/lang/String
-2026-06-29 00:01:34.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::toString(): java/lang/String
+2026-08-11 20:35:08.056 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_heading_112551024423
+2026-08-11 20:35:08.057 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::toString(): java/lang/String
+2026-08-11 20:35:08.057 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -815,9 +815,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-29 00:01:34.091 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_toString_132150625724
-2026-06-29 00:01:34.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::equals(java/lang/Object): bool
-2026-06-29 00:01:34.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::equals(java/lang/Object): bool
+2026-08-11 20:35:08.108 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_toString_132150625724
+2026-08-11 20:35:08.109 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::equals(java/lang/Object): bool
+2026-08-11 20:35:08.109 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::equals(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -872,9 +872,9 @@
 %bb.return0: 	//predecessors %if.else0, %goto0
 	%retval1 = phi {%if.else0 -> 0; %goto0 -> %24}
 	return %retval1
-2026-06-29 00:01:34.157 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_equals_36205989225
-2026-06-29 00:01:34.158 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::hashCode(): int
-2026-06-29 00:01:34.158 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::hashCode(): int
+2026-08-11 20:35:08.167 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_equals_36205989225
+2026-08-11 20:35:08.168 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utils/Vector::hashCode(): int
+2026-08-11 20:35:08.168 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utils/Vector::hashCode(): int
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -906,87 +906,87 @@
 
 %label2: 	//predecessors %bb3
 	return %15
-2026-06-29 00:01:34.238 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_hashCode_81074656726
-2026-06-29 00:01:34.312 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_init_38994022827
-2026-06-29 00:01:34.407 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_fromAngle_6810981028
-2026-06-29 00:01:34.484 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_rotate_69007350429
-2026-06-29 00:01:34.547 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_copy_64731301230
-2026-06-29 00:01:34.594 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_get_208920250631
-2026-06-29 00:01:34.644 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mag_81214395532
-2026-06-29 00:01:34.709 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_magSq_8741147733
-2026-06-29 00:01:34.763 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_108136547334
-2026-06-29 00:01:34.808 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_5662243235
-2026-06-29 00:01:34.853 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_26684294436
-2026-06-29 00:01:34.897 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dist_103430387337
-2026-06-29 00:01:34.938 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dist_31390454438
-2026-06-29 00:01:34.979 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_183334799639
-2026-06-29 00:01:35.019 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_84717947940
-2026-06-29 00:01:35.061 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_111341088341
-2026-06-29 00:01:35.102 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_normalize_73697262142
-2026-06-29 00:01:35.141 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mult_33262740343
-2026-06-29 00:01:35.190 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mult_168083582044
-2026-06-29 00:01:35.242 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_limit_90649548845
-2026-06-29 00:01:35.298 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_normalize_175029454046
-2026-06-29 00:01:35.344 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_div_82597512647
-2026-06-29 00:01:35.405 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_div_52223329148
-2026-06-29 00:01:35.445 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_setMag_212874709449
-2026-06-29 00:01:35.487 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_heading_112551024450
-2026-06-29 00:01:35.540 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_toString_132150625751
-2026-06-29 00:01:35.571 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_equals_36205989252
-2026-06-29 00:01:35.605 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_hashCode_81074656753
-2026-06-29 00:01:35.606 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::<init>(float, float): void: null
-2026-06-29 00:01:35.606 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::fromAngle(float): utils/Vector: null
-2026-06-29 00:01:35.606 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::rotate(float): utils/Vector: null
-2026-06-29 00:01:35.606 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::copy(): utils/Vector: null
-2026-06-29 00:01:35.606 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::get(float[]): float[]: null
-2026-06-29 00:01:35.606 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::mag(): float: null
-2026-06-29 00:01:35.606 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::magSq(): float: null
-2026-06-29 00:01:35.606 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::add(utils/Vector): utils/Vector: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::add(float, float): utils/Vector: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::add(utils/Vector, utils/Vector): utils/Vector: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dist(utils/Vector): float: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dist(utils/Vector, utils/Vector): float: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dot(utils/Vector): float: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dot(float, float, float): float: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dot(utils/Vector, utils/Vector): float: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::normalize(utils/Vector): utils/Vector: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::mult(float): utils/Vector: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::mult(utils/Vector, float): utils/Vector: null
-2026-06-29 00:01:35.607 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::limit(float): utils/Vector: null
-2026-06-29 00:01:35.608 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::normalize(): utils/Vector: null
-2026-06-29 00:01:35.608 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::div(float): utils/Vector: null
-2026-06-29 00:01:35.608 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::div(utils/Vector, float): utils/Vector: null
-2026-06-29 00:01:35.608 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::setMag(float): utils/Vector: null
-2026-06-29 00:01:35.608 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::heading(): float: null
-2026-06-29 00:01:35.608 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::toString(): java/lang/String: null
-2026-06-29 00:01:35.608 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::equals(java/lang/Object): bool: null
-2026-06-29 00:01:35.608 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::hashCode(): int: null
-2026-06-29 00:01:35.608 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::<init>(float, float): void processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::fromAngle(float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::rotate(float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::copy(): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::get(float[]): float[] processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::mag(): float processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::magSq(): float processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::add(utils/Vector): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::add(float, float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::add(utils/Vector, utils/Vector): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dist(utils/Vector): float processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dist(utils/Vector, utils/Vector): float processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dot(utils/Vector): float processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dot(float, float, float): float processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dot(utils/Vector, utils/Vector): float processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::normalize(utils/Vector): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::mult(float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::mult(utils/Vector, float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::limit(float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::normalize(): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::div(float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::div(utils/Vector, float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::setMag(float): utils/Vector processing is finished normally
-2026-06-29 00:01:35.609 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::heading(): float processing is finished normally
-2026-06-29 00:01:35.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::toString(): java/lang/String processing is finished normally
-2026-06-29 00:01:35.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::equals(java/lang/Object): bool processing is finished normally
-2026-06-29 00:01:35.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::hashCode(): int processing is finished normally
-2026-06-29 00:01:35.610 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 00:01:35.610 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 20:35:08.215 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_hashCode_81074656726
+2026-08-11 20:35:08.266 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_init_38994022827
+2026-08-11 20:35:08.320 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_fromAngle_6810981028
+2026-08-11 20:35:08.356 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_rotate_69007350429
+2026-08-11 20:35:08.393 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_copy_64731301230
+2026-08-11 20:35:08.431 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_get_208920250631
+2026-08-11 20:35:08.468 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mag_81214395532
+2026-08-11 20:35:08.505 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_magSq_8741147733
+2026-08-11 20:35:08.540 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_108136547334
+2026-08-11 20:35:08.578 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_5662243235
+2026-08-11 20:35:08.616 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_add_26684294436
+2026-08-11 20:35:08.652 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dist_103430387337
+2026-08-11 20:35:08.703 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dist_31390454438
+2026-08-11 20:35:08.743 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_183334799639
+2026-08-11 20:35:08.777 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_84717947940
+2026-08-11 20:35:08.811 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_dot_111341088341
+2026-08-11 20:35:08.852 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_normalize_73697262142
+2026-08-11 20:35:08.886 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mult_33262740343
+2026-08-11 20:35:08.925 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_mult_168083582044
+2026-08-11 20:35:08.957 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_limit_90649548845
+2026-08-11 20:35:08.991 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_normalize_175029454046
+2026-08-11 20:35:09.030 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_div_82597512647
+2026-08-11 20:35:09.070 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_div_52223329148
+2026-08-11 20:35:09.105 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_setMag_212874709449
+2026-08-11 20:35:09.144 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_heading_112551024450
+2026-08-11 20:35:09.191 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_toString_132150625751
+2026-08-11 20:35:09.225 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_equals_36205989252
+2026-08-11 20:35:09.258 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utils.Vector_hashCode_81074656753
+2026-08-11 20:35:09.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::<init>(float, float): void: null
+2026-08-11 20:35:09.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::fromAngle(float): utils/Vector: null
+2026-08-11 20:35:09.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::rotate(float): utils/Vector: null
+2026-08-11 20:35:09.259 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::copy(): utils/Vector: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::get(float[]): float[]: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::mag(): float: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::magSq(): float: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::add(utils/Vector): utils/Vector: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::add(float, float): utils/Vector: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::add(utils/Vector, utils/Vector): utils/Vector: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dist(utils/Vector): float: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dist(utils/Vector, utils/Vector): float: null
+2026-08-11 20:35:09.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dot(utils/Vector): float: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dot(float, float, float): float: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::dot(utils/Vector, utils/Vector): float: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::normalize(utils/Vector): utils/Vector: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::mult(float): utils/Vector: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::mult(utils/Vector, float): utils/Vector: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::limit(float): utils/Vector: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::normalize(): utils/Vector: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::div(float): utils/Vector: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::div(utils/Vector, float): utils/Vector: null
+2026-08-11 20:35:09.261 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::setMag(float): utils/Vector: null
+2026-08-11 20:35:09.262 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::heading(): float: null
+2026-08-11 20:35:09.262 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::toString(): java/lang/String: null
+2026-08-11 20:35:09.262 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::equals(java/lang/Object): bool: null
+2026-08-11 20:35:09.262 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utils/Vector::hashCode(): int: null
+2026-08-11 20:35:09.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::<init>(float, float): void processing is finished normally
+2026-08-11 20:35:09.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::fromAngle(float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::rotate(float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::copy(): utils/Vector processing is finished normally
+2026-08-11 20:35:09.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::get(float[]): float[] processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::mag(): float processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::magSq(): float processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::add(utils/Vector): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::add(float, float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::add(utils/Vector, utils/Vector): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dist(utils/Vector): float processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dist(utils/Vector, utils/Vector): float processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dot(utils/Vector): float processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dot(float, float, float): float processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::dot(utils/Vector, utils/Vector): float processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::normalize(utils/Vector): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::mult(float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::mult(utils/Vector, float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::limit(float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::normalize(): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::div(float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::div(utils/Vector, float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::setMag(float): utils/Vector processing is finished normally
+2026-08-11 20:35:09.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::heading(): float processing is finished normally
+2026-08-11 20:35:09.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::toString(): java/lang/String processing is finished normally
+2026-08-11 20:35:09.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 20:35:09.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utils/Vector::hashCode(): int processing is finished normally
+2026-08-11 20:35:09.264 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 20:35:09.264 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class GatchaUser_GatchaUserBuilder_email_19162243923 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1679;
+     Object term1683;
 
     public GatchaUser_GatchaUserBuilder_email_19162243923() {
     }
@@ -38,21 +38,21 @@ public class GatchaUser_GatchaUserBuilder_email_19162243923 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term1680 = new Integer(-2003192918);
-        Integer term1683 = new Integer(-1362856620);
-        HashMap term1698 = new HashMap();
-        Set<Object> term1751 =  ((Map) term1698).keySet();
-        HashSet term1697 = new HashSet((Collection<? extends Object>) term1751);
-        term1679 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
-        Object term1682 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
-        setField(term1679, term1679.getClass(), "id", term1680);
-        setField(term1682, term1682.getClass(), "id", term1683);
-        setField(term1682, term1682.getClass(), "role", "qphdrqUtNx");
-        setField(term1682, term1682.getClass(), "users", term1697);
-        setField(term1679, term1679.getClass(), "authority", term1682);
-        setField(term1679, term1679.getClass(), "email", "GeddnXjHGy");
-        setField(term1679, term1679.getClass(), "password", "vLTbaoAxBm");
-        setBooleanField(term1679, term1679.getClass(), "enabled", true);
+        Integer term1684 = new Integer(-2003192918);
+        Integer term1687 = new Integer(-1362856620);
+        HashMap term1702 = new HashMap();
+        Set<Object> term1755 =  ((Map) term1702).keySet();
+        HashSet term1701 = new HashSet((Collection<? extends Object>) term1755);
+        term1683 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
+        Object term1686 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
+        setField(term1683, term1683.getClass(), "id", term1684);
+        setField(term1686, term1686.getClass(), "id", term1687);
+        setField(term1686, term1686.getClass(), "role", "qphdrqUtNx");
+        setField(term1686, term1686.getClass(), "users", term1701);
+        setField(term1683, term1683.getClass(), "authority", term1686);
+        setField(term1683, term1683.getClass(), "email", "GeddnXjHGy");
+        setField(term1683, term1683.getClass(), "password", "vLTbaoAxBm");
+        setBooleanField(term1683, term1683.getClass(), "enabled", true);
     }
 
     @Test
@@ -62,7 +62,7 @@ public class GatchaUser_GatchaUserBuilder_email_19162243923 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = "BXTjEyEZxD";
-        callMethod(klass, "email", argTypes, term1679, args);
+        callMethod(klass, "email", argTypes, term1683, args);
     }
 
 };

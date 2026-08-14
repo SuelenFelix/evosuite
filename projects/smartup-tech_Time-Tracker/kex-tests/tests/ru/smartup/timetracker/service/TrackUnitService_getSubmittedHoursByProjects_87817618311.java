@@ -26,8 +26,8 @@ import java.util.HashSet;
 
 public class TrackUnitService_getSubmittedHoursByProjects_87817618311 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3292;
-     Object term3294;
+     Object term3268;
+     Object term3270;
 
     public TrackUnitService_getSubmittedHoursByProjects_87817618311() {
     }
@@ -38,12 +38,12 @@ public class TrackUnitService_getSubmittedHoursByProjects_87817618311 {
 
     @Before
     public void setup() throws Throwable {
-        term3292 = newInstance(Class.forName("java.sql.Date"));
-        setLongField(term3292, term3292.getClass(), "fastTime", 1610940182830L);
-        setField(term3292, term3292.getClass(), "cdate", null);
-        HashMap term3295 = new HashMap();
-        Set<Object> term3300 =  ((Map) term3295).keySet();
-        term3294 = new HashSet((Collection<? extends Object>) term3300);
+        term3268 = newInstance(Class.forName("java.sql.Date"));
+        setLongField(term3268, term3268.getClass(), "fastTime", 1610940182830L);
+        setField(term3268, term3268.getClass(), "cdate", null);
+        HashMap term3271 = new HashMap();
+        Set<Object> term3276 =  ((Map) term3271).keySet();
+        term3270 = new HashSet((Collection<? extends Object>) term3276);
     }
 
     @Test
@@ -53,8 +53,8 @@ public class TrackUnitService_getSubmittedHoursByProjects_87817618311 {
         argTypes[0] = Class.forName("java.sql.Date");
         argTypes[1] = Class.forName("java.util.Set");
         Object[] args = new Object[2];
-        args[0] = term3292;
-        args[1] = term3294;
+        args[0] = term3268;
+        args[1] = term3270;
         callMethod(klass, "getSubmittedHoursByProjects", argTypes, null, args);
     }
 

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Mating_crossover_11879603487 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2651;
+     Object term2649;
 
     public Mating_crossover_11879603487() {
     }
@@ -31,10 +31,10 @@ public class Mating_crossover_11879603487 {
 
     @Before
     public void setup() throws Throwable {
-        term2651 = newInstance(Class.forName("nn.actions.Mating"));
-        setField(term2651, term2651.getClass(), "random", null);
-        setField(term2651, term2651.getClass(), "nodeInnovator", null);
-        setField(term2651, term2651.getClass(), "connectionInnovator", null);
+        term2649 = newInstance(Class.forName("nn.actions.Mating"));
+        setField(term2649, term2649.getClass(), "random", null);
+        setField(term2649, term2649.getClass(), "nodeInnovator", null);
+        setField(term2649, term2649.getClass(), "connectionInnovator", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class Mating_crossover_11879603487 {
         Object[] args = new Object[2];
         args[0] = null;
         args[1] = null;
-        callMethod(klass, "crossover", argTypes, term2651, args);
+        callMethod(klass, "crossover", argTypes, term2649, args);
     }
 
 };

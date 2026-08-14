@@ -27,10 +27,10 @@ import java.util.HashSet;
 
 public class Actor_copy_138449258913 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term33187;
-     Object term33248;
+     Object term33186;
+     Object term33247;
      Object enum113;
-     Object term33262;
+     Object term33261;
 
     public Actor_copy_138449258913() {
     }
@@ -41,31 +41,31 @@ public class Actor_copy_138449258913 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term33289 = Class.forName((String) "com.folksdev.movie.model.Gender");
-        Field term33288 = ((Class) term33289).getDeclaredField((String) "MALE");
-        ((Field) term33288).setAccessible(true);
-        Object enum112 = ((Field) term33288).get((Object) null);
-        term33187 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        Object term33212 = newInstance(Class.forName("java.time.LocalDate"));
-        setField(term33187, term33187.getClass(), "id", "gGVmBWDOsX");
-        setField(term33187, term33187.getClass(), "name", "NktLacflHU");
-        setIntField(term33212, term33212.getClass(), "year", 2028);
-        setShortField(term33212, term33212.getClass(), "month", (short) 9);
-        setShortField(term33212, term33212.getClass(), "day", (short) 26);
-        setField(term33187, term33187.getClass(), "dateOfBirth", term33212);
-        setField(term33187, term33187.getClass(), "gender", enum112);
-        setField(term33187, term33187.getClass(), "movies", null);
-        term33248 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term33248, term33248.getClass(), "year", 2014);
-        setShortField(term33248, term33248.getClass(), "month", (short) 11);
-        setShortField(term33248, term33248.getClass(), "day", (short) 1);
-        Class<? extends Object> term33483 = Class.forName((String) "com.folksdev.movie.model.Gender");
-        Field term33482 = ((Class) term33483).getDeclaredField((String) "FEMALE");
-        ((Field) term33482).setAccessible(true);
-        enum113 = ((Field) term33482).get((Object) null);
-        HashMap term33263 = new HashMap();
-        Set<Object> term33662 =  ((Map) term33263).keySet();
-        term33262 = new HashSet((Collection<? extends Object>) term33662);
+        Class<? extends Object> term33288 = Class.forName((String) "com.folksdev.movie.model.Gender");
+        Field term33287 = ((Class) term33288).getDeclaredField((String) "MALE");
+        ((Field) term33287).setAccessible(true);
+        Object enum112 = ((Field) term33287).get((Object) null);
+        term33186 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        Object term33211 = newInstance(Class.forName("java.time.LocalDate"));
+        setField(term33186, term33186.getClass(), "id", "gGVmBWDOsX");
+        setField(term33186, term33186.getClass(), "name", "NktLacflHU");
+        setIntField(term33211, term33211.getClass(), "year", 2028);
+        setShortField(term33211, term33211.getClass(), "month", (short) 9);
+        setShortField(term33211, term33211.getClass(), "day", (short) 26);
+        setField(term33186, term33186.getClass(), "dateOfBirth", term33211);
+        setField(term33186, term33186.getClass(), "gender", enum112);
+        setField(term33186, term33186.getClass(), "movies", null);
+        term33247 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term33247, term33247.getClass(), "year", 2014);
+        setShortField(term33247, term33247.getClass(), "month", (short) 11);
+        setShortField(term33247, term33247.getClass(), "day", (short) 1);
+        Class<? extends Object> term33482 = Class.forName((String) "com.folksdev.movie.model.Gender");
+        Field term33481 = ((Class) term33482).getDeclaredField((String) "FEMALE");
+        ((Field) term33481).setAccessible(true);
+        enum113 = ((Field) term33481).get((Object) null);
+        HashMap term33262 = new HashMap();
+        Set<Object> term33661 =  ((Map) term33262).keySet();
+        term33261 = new HashSet((Collection<? extends Object>) term33661);
     }
 
     @Test
@@ -80,10 +80,10 @@ public class Actor_copy_138449258913 {
         Object[] args = new Object[5];
         args[0] = "aTdLOvYsQE";
         args[1] = "AavZwxppSr";
-        args[2] = term33248;
+        args[2] = term33247;
         args[3] = enum113;
-        args[4] = term33262;
-        callMethod(klass, "copy", argTypes, term33187, args);
+        args[4] = term33261;
+        callMethod(klass, "copy", argTypes, term33186, args);
     }
 
 };

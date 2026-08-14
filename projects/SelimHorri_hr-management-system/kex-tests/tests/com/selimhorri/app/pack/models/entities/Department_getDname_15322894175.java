@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class Department_getDname_15322894175 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5243;
+     Object term5245;
 
     public Department_getDname_15322894175() {
     }
@@ -38,15 +38,15 @@ public class Department_getDname_15322894175 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term5244 = new Integer(612177768);
-        HashMap term5271 = new HashMap();
-        Set<Object> term5305 =  ((Map) term5271).keySet();
-        HashSet term5270 = new HashSet((Collection<? extends Object>) term5305);
-        term5243 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        setField(term5243, term5243.getClass(), "deptno", term5244);
-        setField(term5243, term5243.getClass(), "dname", "kEehLMZcOU");
-        setField(term5243, term5243.getClass(), "loc", "RhLliqMiOF");
-        setField(term5243, term5243.getClass(), "employees", term5270);
+        Integer term5246 = new Integer(612177768);
+        HashMap term5273 = new HashMap();
+        Set<Object> term5307 =  ((Map) term5273).keySet();
+        HashSet term5272 = new HashSet((Collection<? extends Object>) term5307);
+        term5245 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        setField(term5245, term5245.getClass(), "deptno", term5246);
+        setField(term5245, term5245.getClass(), "dname", "kEehLMZcOU");
+        setField(term5245, term5245.getClass(), "loc", "RhLliqMiOF");
+        setField(term5245, term5245.getClass(), "employees", term5272);
     }
 
     @Test
@@ -54,7 +54,7 @@ public class Department_getDname_15322894175 {
         Class<?> klass = Class.forName("com.selimhorri.app.pack.models.entities.Department");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getDname", argTypes, term5243, args);
+        callMethod(klass, "getDname", argTypes, term5245, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SocialMedia_component2_11951615384 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34556;
+     Object term34555;
 
     public SocialMedia_component2_11951615384() {
     }
@@ -31,9 +31,9 @@ public class SocialMedia_component2_11951615384 {
 
     @Before
     public void setup() throws Throwable {
-        term34556 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
-        setField(term34556, term34556.getClass(), "id", "ReKmMCwzEQ");
-        setField(term34556, term34556.getClass(), "url", "tNcYNTIZXy");
+        term34555 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
+        setField(term34555, term34555.getClass(), "id", "ReKmMCwzEQ");
+        setField(term34555, term34555.getClass(), "url", "tNcYNTIZXy");
     }
 
     @Test
@@ -41,7 +41,7 @@ public class SocialMedia_component2_11951615384 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.SocialMedia");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "component2", argTypes, term34556, args);
+        callMethod(klass, "component2", argTypes, term34555, args);
     }
 
 };

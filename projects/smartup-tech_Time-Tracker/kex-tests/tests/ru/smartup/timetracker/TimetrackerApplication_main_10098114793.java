@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TimetrackerApplication_main_10098114793 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term50923;
+     Object term50868;
 
     public TimetrackerApplication_main_10098114793() {
     }
@@ -31,7 +31,7 @@ public class TimetrackerApplication_main_10098114793 {
 
     @Before
     public void setup() throws Throwable {
-        term50923 = newInstance(Class.forName("ru.smartup.timetracker.TimetrackerApplication"));
+        term50868 = newInstance(Class.forName("ru.smartup.timetracker.TimetrackerApplication"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TimetrackerApplication_main_10098114793 {
         argTypes[0] = Array.newInstance(Class.forName("java.lang.String"), 0).getClass();
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "main", argTypes, term50923, args);
+        callMethod(klass, "main", argTypes, term50868, args);
     }
 
 };

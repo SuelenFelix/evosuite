@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class XmlNode_builder_192796096619 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1827;
+     Object term6692;
 
     public XmlNode_builder_192796096619() {
     }
@@ -31,11 +31,11 @@ public class XmlNode_builder_192796096619 {
 
     @Before
     public void setup() throws Throwable {
-        term1827 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
-        setField(term1827, term1827.getClass(), "name", null);
-        setField(term1827, term1827.getClass(), "props", null);
-        setField(term1827, term1827.getClass(), "children", null);
-        setField(term1827, term1827.getClass(), "content", null);
+        term6692 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
+        setField(term6692, term6692.getClass(), "name", null);
+        setField(term6692, term6692.getClass(), "props", null);
+        setField(term6692, term6692.getClass(), "children", null);
+        setField(term6692, term6692.getClass(), "content", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class XmlNode_builder_192796096619 {
         Class<?> klass = Class.forName("io.github.janlely.jparser.impl.xml.XmlNode");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "builder", argTypes, term1827, args);
+        callMethod(klass, "builder", argTypes, term6692, args);
     }
 
 };

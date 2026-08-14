@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class HrManagementSystemApplication_main_16680293441 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5734;
+     Object term5738;
 
     public HrManagementSystemApplication_main_16680293441() {
     }
@@ -32,12 +32,12 @@ public class HrManagementSystemApplication_main_16680293441 {
 
     @Before
     public void setup() throws Throwable {
-        term5734 = (Object[]) newArray("java.lang.String", 5);
-        setElement(term5734, 0, "yCWSlaOrSv");
-        setElement(term5734, 1, "PFpWKxDIRz");
-        setElement(term5734, 2, "qePuOCwoCf");
-        setElement(term5734, 3, "vJPujDInGq");
-        setElement(term5734, 4, "cHZGcMhatT");
+        term5738 = (Object[]) newArray("java.lang.String", 5);
+        setElement(term5738, 0, "yCWSlaOrSv");
+        setElement(term5738, 1, "PFpWKxDIRz");
+        setElement(term5738, 2, "qePuOCwoCf");
+        setElement(term5738, 3, "vJPujDInGq");
+        setElement(term5738, 4, "cHZGcMhatT");
     }
 
     @Test
@@ -46,7 +46,7 @@ public class HrManagementSystemApplication_main_16680293441 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Array.newInstance(Class.forName("java.lang.String"), 0).getClass();
         Object[] args = new Object[1];
-        args[0] = term5734;
+        args[0] = term5738;
         callMethod(klass, "main", argTypes, null, args);
     }
 

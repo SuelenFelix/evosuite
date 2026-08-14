@@ -388,7 +388,7 @@ public class AssignmentSelf_getStartDate_89063718016 {
         setField(term14027, term14027.getClass(), "keySet", null);
         setField(term14027, term14027.getClass(), "values", null);
         setField(term14016, term14016.getClass(), "moduleToReader", term14027);
-        setLongField(term14032, term14032.getClass(), "timestamp", 164122334L);
+        setLongField(term14032, term14032.getClass(), "timestamp", 52399795L);
         setField(term14032, term14032.getClass(), "referent", null);
         setField(term14032, term14032.getClass(), "queue", null);
         setField(term14032, term14032.getClass(), "next", null);

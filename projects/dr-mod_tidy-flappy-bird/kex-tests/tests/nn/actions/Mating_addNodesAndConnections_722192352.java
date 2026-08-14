@@ -43,7 +43,7 @@ public class Mating_addNodesAndConnections_722192352 {
         Object term1543 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
         Object term1547 = newInstance(Class.forName("nn.model.NodeInnovator"));
         Object term1549 = newInstance(Class.forName("nn.model.ConnectionInnovator"));
-        setLongField(term1543, term1543.getClass(), "value", 205058762486273L);
+        setLongField(term1543, term1543.getClass(), "value", 18711959047644L);
         setField(term1542, term1542.getClass(), "seed", term1543);
         setDoubleField(term1542, term1542.getClass(), "nextNextGaussian", 0.4355627280318103);
         setBooleanField(term1542, term1542.getClass(), "haveNextNextGaussian", true);
@@ -167,7 +167,7 @@ public class Mating_addNodesAndConnections_722192352 {
         setField(term1551, term1551.getClass(), "nodeInnovator", term1613);
         setIntField(term1615, term1615.getClass(), "counter", 100);
         setField(term1551, term1551.getClass(), "connectionInnovator", term1615);
-        setLongField(term1618, term1618.getClass(), "value", 274074675894172L);
+        setLongField(term1618, term1618.getClass(), "value", 90433639622358L);
         setField(term1617, term1617.getClass(), "seed", term1618);
         setDoubleField(term1617, term1617.getClass(), "nextNextGaussian", 0.07901636960861558);
         setBooleanField(term1617, term1617.getClass(), "haveNextNextGaussian", false);

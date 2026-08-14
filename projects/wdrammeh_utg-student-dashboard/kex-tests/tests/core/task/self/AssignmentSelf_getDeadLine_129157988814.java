@@ -405,7 +405,7 @@ public class AssignmentSelf_getDeadLine_129157988814 {
         setField(term12115, term12115.getClass(), "keySet", null);
         setField(term12115, term12115.getClass(), "values", null);
         setField(term12104, term12104.getClass(), "moduleToReader", term12115);
-        setLongField(term12120, term12120.getClass(), "timestamp", 164122334L);
+        setLongField(term12120, term12120.getClass(), "timestamp", 52399795L);
         setField(term12120, term12120.getClass(), "referent", null);
         setField(term12120, term12120.getClass(), "queue", null);
         setField(term12120, term12120.getClass(), "next", null);

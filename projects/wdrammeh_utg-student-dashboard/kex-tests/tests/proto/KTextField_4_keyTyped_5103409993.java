@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KTextField_4_keyTyped_5103409993 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term45939;
+     Object term45980;
 
     public KTextField_4_keyTyped_5103409993() {
     }
@@ -31,9 +31,9 @@ public class KTextField_4_keyTyped_5103409993 {
 
     @Before
     public void setup() throws Throwable {
-        term45939 = newInstance(Class.forName("proto.KTextField$4"));
-        setField(term45939, term45939.getClass(), "val$field", null);
-        setIntField(term45939, term45939.getClass(), "val$limit", 0);
+        term45980 = newInstance(Class.forName("proto.KTextField$4"));
+        setField(term45980, term45980.getClass(), "val$field", null);
+        setIntField(term45980, term45980.getClass(), "val$limit", 0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KTextField_4_keyTyped_5103409993 {
         argTypes[0] = Class.forName("java.awt.event.KeyEvent");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "keyTyped", argTypes, term45939, args);
+        callMethod(klass, "keyTyped", argTypes, term45980, args);
     }
 
 };

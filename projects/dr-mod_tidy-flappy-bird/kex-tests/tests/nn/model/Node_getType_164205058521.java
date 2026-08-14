@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Node_getType_164205058521 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term13256;
+     Object term13253;
 
     public Node_getType_164205058521() {
     }
@@ -31,11 +31,11 @@ public class Node_getType_164205058521 {
 
     @Before
     public void setup() throws Throwable {
-        term13256 = newInstance(Class.forName("nn.model.Node"));
-        setField(term13256, term13256.getClass(), "type", null);
-        setIntField(term13256, term13256.getClass(), "innovation", 0);
-        setField(term13256, term13256.getClass(), "connections", null);
-        setDoubleField(term13256, term13256.getClass(), "bias", 0.0);
+        term13253 = newInstance(Class.forName("nn.model.Node"));
+        setField(term13253, term13253.getClass(), "type", null);
+        setIntField(term13253, term13253.getClass(), "innovation", 0);
+        setField(term13253, term13253.getClass(), "connections", null);
+        setDoubleField(term13253, term13253.getClass(), "bias", 0.0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class Node_getType_164205058521 {
         Class<?> klass = Class.forName("nn.model.Node");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getType", argTypes, term13256, args);
+        callMethod(klass, "getType", argTypes, term13253, args);
     }
 
 };

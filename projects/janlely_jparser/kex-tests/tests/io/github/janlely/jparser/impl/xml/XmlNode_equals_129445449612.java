@@ -23,8 +23,8 @@ import java.util.HashMap;
 
 public class XmlNode_equals_129445449612 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1520;
-     Object term1575;
+     Object term6406;
+     Object term6455;
 
     public XmlNode_equals_129445449612() {
     }
@@ -35,42 +35,34 @@ public class XmlNode_equals_129445449612 {
 
     @Before
     public void setup() throws Throwable {
-        Object term1535 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
-        setField(term1535, term1535.getClass(), "name", "");
-        setField(term1535, term1535.getClass(), "value", "");
-        Object term1538 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
-        setField(term1538, term1538.getClass(), "name", "");
-        setField(term1538, term1538.getClass(), "value", "");
-        Object term1541 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
-        setField(term1541, term1541.getClass(), "name", "");
-        setField(term1541, term1541.getClass(), "value", "");
-        Object term1544 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
-        setField(term1544, term1544.getClass(), "name", "");
-        setField(term1544, term1544.getClass(), "value", "");
-        Object term1547 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
-        setField(term1547, term1547.getClass(), "name", "");
-        setField(term1547, term1547.getClass(), "value", "");
-        Object term1550 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
-        setField(term1550, term1550.getClass(), "name", "");
-        setField(term1550, term1550.getClass(), "value", "");
-        Object term1553 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
-        setField(term1553, term1553.getClass(), "name", "");
-        setField(term1553, term1553.getClass(), "value", "");
-        ArrayList term1533 = new ArrayList();
-        ((ArrayList) term1533).add(term1535);
-        ((ArrayList) term1533).add(term1538);
-        ((ArrayList) term1533).add(term1541);
-        ((ArrayList) term1533).add(term1544);
-        ((ArrayList) term1533).add(term1547);
-        ((ArrayList) term1533).add(term1550);
-        ((ArrayList) term1533).add(term1553);
-        HashMap term1558 = new HashMap();
-        term1520 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
-        setField(term1520, term1520.getClass(), "name", "mfHtgSbdjD");
-        setField(term1520, term1520.getClass(), "props", term1533);
-        setField(term1520, term1520.getClass(), "children", term1558);
-        setField(term1520, term1520.getClass(), "content", "zMsSLTfGhl");
-        term1575 = newInstance(Class.forName("java.lang.Object"));
+        Object term6421 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
+        setField(term6421, term6421.getClass(), "name", "");
+        setField(term6421, term6421.getClass(), "value", "");
+        Object term6424 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
+        setField(term6424, term6424.getClass(), "name", "");
+        setField(term6424, term6424.getClass(), "value", "");
+        Object term6427 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
+        setField(term6427, term6427.getClass(), "name", "");
+        setField(term6427, term6427.getClass(), "value", "");
+        Object term6430 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
+        setField(term6430, term6430.getClass(), "name", "");
+        setField(term6430, term6430.getClass(), "value", "");
+        Object term6433 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlProp"));
+        setField(term6433, term6433.getClass(), "name", "");
+        setField(term6433, term6433.getClass(), "value", "");
+        ArrayList term6419 = new ArrayList();
+        ((ArrayList) term6419).add(term6421);
+        ((ArrayList) term6419).add(term6424);
+        ((ArrayList) term6419).add(term6427);
+        ((ArrayList) term6419).add(term6430);
+        ((ArrayList) term6419).add(term6433);
+        HashMap term6438 = new HashMap();
+        term6406 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
+        setField(term6406, term6406.getClass(), "name", "QpYltHAdyY");
+        setField(term6406, term6406.getClass(), "props", term6419);
+        setField(term6406, term6406.getClass(), "children", term6438);
+        setField(term6406, term6406.getClass(), "content", "pDkMNnAGgv");
+        term6455 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -79,8 +71,8 @@ public class XmlNode_equals_129445449612 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term1575;
-        callMethod(klass, "equals", argTypes, term1520, args);
+        args[0] = term6455;
+        callMethod(klass, "equals", argTypes, term6406, args);
     }
 
 };

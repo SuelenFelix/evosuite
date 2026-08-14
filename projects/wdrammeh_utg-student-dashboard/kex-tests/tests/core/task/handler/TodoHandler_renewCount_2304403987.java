@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class TodoHandler_renewCount_2304403987 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term15585;
+     Object term15577;
 
     public TodoHandler_renewCount_2304403987() {
     }
@@ -32,7 +32,7 @@ public class TodoHandler_renewCount_2304403987 {
 
     @Before
     public void setup() throws Throwable {
-        term15585 = new Integer(1598895173);
+        term15577 = new Integer(1598895173);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TodoHandler_renewCount_2304403987 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term15585;
+        args[0] = term15577;
         callMethod(klass, "renewCount", argTypes, null, args);
     }
 

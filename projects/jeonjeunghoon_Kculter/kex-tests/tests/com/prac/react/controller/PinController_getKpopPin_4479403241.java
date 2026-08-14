@@ -79,7 +79,7 @@ public class PinController_getKpopPin_4479403241 {
         setIntField(term487, term487.getClass(), "maxCallerDataDepth", 8);
         setIntField(term487, term487.getClass(), "resetCount", 0);
         setField(term487, term487.getClass(), "frameworkPackages", null);
-        setLongField(term487, term487.getClass(), "birthTime", 1782677609604L);
+        setLongField(term487, term487.getClass(), "birthTime", 1786432600198L);
         setField(term487, term487.getClass(), "name", null);
         setField(term487, term487.getClass(), "sm", null);
         setField(term487, term487.getClass(), "propertyMap", null);

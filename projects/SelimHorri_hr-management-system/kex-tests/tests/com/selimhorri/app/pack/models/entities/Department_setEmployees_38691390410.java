@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class Department_setEmployees_38691390410 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5590;
+     Object term5592;
      Object term5636;
 
     public Department_setEmployees_38691390410() {
@@ -39,18 +39,18 @@ public class Department_setEmployees_38691390410 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term5591 = new Integer(-1631048635);
-        HashMap term5618 = new HashMap();
-        Set<Object> term5710 =  ((Map) term5618).keySet();
-        HashSet term5617 = new HashSet((Collection<? extends Object>) term5710);
-        term5590 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        setField(term5590, term5590.getClass(), "deptno", term5591);
-        setField(term5590, term5590.getClass(), "dname", "bqIuFFFwnP");
-        setField(term5590, term5590.getClass(), "loc", "hDxvvVgGlk");
-        setField(term5590, term5590.getClass(), "employees", term5617);
+        Integer term5593 = new Integer(-1631048635);
+        HashMap term5620 = new HashMap();
+        Set<Object> term5719 =  ((Map) term5620).keySet();
+        HashSet term5619 = new HashSet((Collection<? extends Object>) term5719);
+        term5592 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        setField(term5592, term5592.getClass(), "deptno", term5593);
+        setField(term5592, term5592.getClass(), "dname", "bqIuFFFwnP");
+        setField(term5592, term5592.getClass(), "loc", "hDxvvVgGlk");
+        setField(term5592, term5592.getClass(), "employees", term5619);
         HashMap term5637 = new HashMap();
-        Set<Object> term5711 =  ((Map) term5637).keySet();
-        term5636 = new HashSet((Collection<? extends Object>) term5711);
+        Set<Object> term5720 =  ((Map) term5637).keySet();
+        term5636 = new HashSet((Collection<? extends Object>) term5720);
     }
 
     @Test
@@ -60,7 +60,7 @@ public class Department_setEmployees_38691390410 {
         argTypes[0] = Class.forName("java.util.Set");
         Object[] args = new Object[1];
         args[0] = term5636;
-        callMethod(klass, "setEmployees", argTypes, term5590, args);
+        callMethod(klass, "setEmployees", argTypes, term5592, args);
     }
 
 };

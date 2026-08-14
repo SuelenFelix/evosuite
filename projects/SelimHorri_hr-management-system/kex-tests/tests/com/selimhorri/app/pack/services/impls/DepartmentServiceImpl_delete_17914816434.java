@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class DepartmentServiceImpl_delete_17914816434 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term125;
+     Object term123;
 
     public DepartmentServiceImpl_delete_17914816434() {
     }
@@ -32,7 +32,7 @@ public class DepartmentServiceImpl_delete_17914816434 {
 
     @Before
     public void setup() throws Throwable {
-        term125 = new Integer(97029295);
+        term123 = new Integer(97029295);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class DepartmentServiceImpl_delete_17914816434 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Integer");
         Object[] args = new Object[1];
-        args[0] = term125;
+        args[0] = term123;
         callMethod(klass, "delete", argTypes, null, args);
     }
 

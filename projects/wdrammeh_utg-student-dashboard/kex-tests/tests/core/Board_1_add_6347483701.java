@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Board_1_add_6347483701 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term344932;
+     Object term344938;
 
     public Board_1_add_6347483701() {
     }
@@ -31,10 +31,10 @@ public class Board_1_add_6347483701 {
 
     @Before
     public void setup() throws Throwable {
-        term344932 = newInstance(Class.forName("core.Board$1"));
-        setField(term344932, term344932.getClass(), "elementData", null);
-        setIntField(term344932, term344932.getClass(), "size", 0);
-        setIntField(term344932, term344932.getClass(), "modCount", 0);
+        term344938 = newInstance(Class.forName("core.Board$1"));
+        setField(term344938, term344938.getClass(), "elementData", null);
+        setIntField(term344938, term344938.getClass(), "size", 0);
+        setIntField(term344938, term344938.getClass(), "modCount", 0);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Board_1_add_6347483701 {
         argTypes[0] = Class.forName("java.lang.Runnable");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "add", argTypes, term344932, args);
+        callMethod(klass, "add", argTypes, term344938, args);
     }
 
 };

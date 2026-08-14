@@ -63,7 +63,7 @@ public class SettingsActivity_4_keyReleased_5352672781 {
         setByteElement(term965, 0, (byte) 47);
         setField(term953, term953.getClass(), "bdata", term965);
         setIntField(term953, term953.getClass(), "id", 1324040357);
-        setBooleanField(term953, term953.getClass(), "consumed", false);
+        setBooleanField(term953, term953.getClass(), "consumed", true);
         setField(term972, term972.getClass(), "location", null);
         setField(term972, term972.getClass(), "signers", null);
         setField(term972, term972.getClass(), "certs", null);
@@ -119,7 +119,7 @@ public class SettingsActivity_4_keyReleased_5352672781 {
         setField(term988, term988.getClass(), "key", null);
         setElement(term970, 5, term988);
         setField(term969, term969.getClass(), "context", term970);
-        setBooleanField(term969, term969.getClass(), "isPrivileged", false);
+        setBooleanField(term969, term969.getClass(), "isPrivileged", true);
         setBooleanField(term969, term969.getClass(), "isAuthorized", false);
         setField(term993, term993.getClass(), "context", null);
         setBooleanField(term993, term993.getClass(), "isPrivileged", false);
@@ -139,9 +139,9 @@ public class SettingsActivity_4_keyReleased_5352672781 {
         setBooleanField(term969, term969.getClass(), "isLimited", false);
         setField(term969, term969.getClass(), "limitedContext", null);
         setField(term953, term953.getClass(), "acc", term969);
-        setBooleanField(term953, term953.getClass(), "focusManagerIsDispatching", true);
-        setBooleanField(term953, term953.getClass(), "isPosted", false);
-        setBooleanField(term953, term953.getClass(), "isSystemGenerated", true);
+        setBooleanField(term953, term953.getClass(), "focusManagerIsDispatching", false);
+        setBooleanField(term953, term953.getClass(), "isPosted", true);
+        setBooleanField(term953, term953.getClass(), "isSystemGenerated", false);
         setField(term953, term953.getClass(), "source", term1003);
     }
 

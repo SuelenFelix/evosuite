@@ -1,16 +1,16 @@
-2026-06-28 19:14:31.932 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/awslabs_kinesis-kafka-connector/target/classes
-2026-06-28 19:14:32.021 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 19:14:32.092 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 19:14:33.126 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 19:14:33.548 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/amazon/kinesis/kafka/*
-2026-06-28 19:14:33.550 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 19:14:33.572 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/awslabs_kinesis-kafka-connector/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 19:14:33.605 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/awslabs_kinesis-kafka-connector/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33175 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/awslabs_kinesis-kafka-connector/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 19:14:33.618 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 19:16:13.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::<init>(): void
-2026-06-28 19:16:13.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::<init>(): void
+2026-08-11 11:04:01.223 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/awslabs_kinesis-kafka-connector/target/classes
+2026-08-11 11:04:01.319 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 11:04:01.398 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 11:04:02.244 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 11:04:02.841 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/amazon/kinesis/kafka/*
+2026-08-11 11:04:02.842 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 11:04:02.855 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/awslabs_kinesis-kafka-connector/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 11:04:02.893 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/awslabs_kinesis-kafka-connector/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 35879 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/awslabs_kinesis-kafka-connector/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 11:04:02.912 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 11:05:42.997 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::<init>(): void
+2026-08-11 11:05:42.998 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -38,7 +38,7 @@
 
 %bb5: 	//predecessors %bb4
 	return
-2026-06-28 19:16:13.686 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.001 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -62,7 +62,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.687 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.002 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -86,9 +86,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.687 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::<init>(): void: null
-2026-06-28 19:16:13.687 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::initialize(org/apache/kafka/connect/sink/SinkTaskContext): void
-2026-06-28 19:16:13.687 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::initialize(org/apache/kafka/connect/sink/SinkTaskContext): void
+2026-08-11 11:05:43.002 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::<init>(): void: null
+2026-08-11 11:05:43.002 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::initialize(org/apache/kafka/connect/sink/SinkTaskContext): void
+2026-08-11 11:05:43.002 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::initialize(org/apache/kafka/connect/sink/SinkTaskContext): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -98,7 +98,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 19:16:13.688 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.003 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -122,7 +122,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.688 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.003 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -146,15 +146,15 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.688 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::initialize(org/apache/kafka/connect/sink/SinkTaskContext): void: null
-2026-06-28 19:16:13.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::version(): java/lang/String
-2026-06-28 19:16:13.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::version(): java/lang/String
+2026-08-11 11:05:43.003 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::initialize(org/apache/kafka/connect/sink/SinkTaskContext): void: null
+2026-08-11 11:05:43.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::version(): java/lang/String
+2026-08-11 11:05:43.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::version(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return null
-2026-06-28 19:16:13.689 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.004 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -178,7 +178,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.689 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.005 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -202,9 +202,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.689 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::version(): java/lang/String: null
-2026-06-28 19:16:13.689 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::flush(java/util/Map): void
-2026-06-28 19:16:13.690 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::flush(java/util/Map): void
+2026-08-11 11:05:43.005 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::version(): java/lang/String: null
+2026-08-11 11:05:43.005 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::flush(java/util/Map): void
+2026-08-11 11:05:43.005 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::flush(java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -268,7 +268,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %goto0: 	//predecessors %bb6, %bb9, %bb10
 	return
-2026-06-28 19:16:13.690 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.006 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -292,7 +292,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.691 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.006 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -316,9 +316,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.691 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::flush(java/util/Map): void: null
-2026-06-28 19:16:13.691 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::put(java/util/Collection): void
-2026-06-28 19:16:13.692 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::put(java/util/Collection): void
+2026-08-11 11:05:43.006 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::flush(java/util/Map): void: null
+2026-08-11 11:05:43.006 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::put(java/util/Collection): void
+2026-08-11 11:05:43.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::put(java/util/Collection): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -496,7 +496,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %if.then2: 	//predecessors %bb3
 	return
-2026-06-28 19:16:13.692 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.008 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -520,7 +520,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.693 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.008 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -544,9 +544,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.693 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::put(java/util/Collection): void: null
-2026-06-28 19:16:13.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::validateOutStandingRecords(): bool
-2026-06-28 19:16:13.694 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::validateOutStandingRecords(): bool
+2026-08-11 11:05:43.008 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::put(java/util/Collection): void: null
+2026-08-11 11:05:43.009 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::validateOutStandingRecords(): bool
+2026-08-11 11:05:43.010 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::validateOutStandingRecords(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -745,7 +745,7 @@ goto %label3
 %bb.return0: 	//predecessors %bb6, %if.then3, %if.then4
 	%retval1 = phi {%bb6 -> 1; %if.then3 -> 1; %if.then4 -> 1}
 	return %retval1
-2026-06-28 19:16:13.695 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -769,7 +769,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.695 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -793,9 +793,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.695 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::validateOutStandingRecords(): bool: null
-2026-06-28 19:16:13.695 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::checkForEarlierPutException(): void
-2026-06-28 19:16:13.695 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::checkForEarlierPutException(): void
+2026-08-11 11:05:43.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::validateOutStandingRecords(): bool: null
+2026-08-11 11:05:43.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::checkForEarlierPutException(): void
+2026-08-11 11:05:43.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::checkForEarlierPutException(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -820,7 +820,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %if.then0: 	//predecessors %bb1
 	return
-2026-06-28 19:16:13.696 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.012 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -844,7 +844,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.696 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.012 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -868,9 +868,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.696 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::checkForEarlierPutException(): void: null
-2026-06-28 19:16:13.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::addUserRecord(com/amazonaws/services/kinesis/producer/KinesisProducer, java/lang/String, java/lang/String, bool, org/apache/kafka/connect/sink/SinkRecord): com/google/common/util/concurrent/ListenableFuture
-2026-06-28 19:16:13.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::addUserRecord(com/amazonaws/services/kinesis/producer/KinesisProducer, java/lang/String, java/lang/String, bool, org/apache/kafka/connect/sink/SinkRecord): com/google/common/util/concurrent/ListenableFuture
+2026-08-11 11:05:43.012 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::checkForEarlierPutException(): void: null
+2026-08-11 11:05:43.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::addUserRecord(com/amazonaws/services/kinesis/producer/KinesisProducer, java/lang/String, java/lang/String, bool, org/apache/kafka/connect/sink/SinkRecord): com/google/common/util/concurrent/ListenableFuture
+2026-08-11 11:05:43.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::addUserRecord(com/amazonaws/services/kinesis/producer/KinesisProducer, java/lang/String, java/lang/String, bool, org/apache/kafka/connect/sink/SinkRecord): com/google/common/util/concurrent/ListenableFuture
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -934,7 +934,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 %bb.return0: 	//predecessors %bb6, %bb10
 	%retval1 = phi {%bb6 -> %22; %bb10 -> %23}
 	return %retval1
-2026-06-28 19:16:13.697 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.013 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -958,7 +958,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.697 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.014 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -982,9 +982,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.697 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::addUserRecord(com/amazonaws/services/kinesis/producer/KinesisProducer, java/lang/String, java/lang/String, bool, org/apache/kafka/connect/sink/SinkRecord): com/google/common/util/concurrent/ListenableFuture: null
-2026-06-28 19:16:13.697 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::start(java/util/Map): void
-2026-06-28 19:16:13.698 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::start(java/util/Map): void
+2026-08-11 11:05:43.014 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::addUserRecord(com/amazonaws/services/kinesis/producer/KinesisProducer, java/lang/String, java/lang/String, bool, org/apache/kafka/connect/sink/SinkRecord): com/google/common/util/concurrent/ListenableFuture: null
+2026-08-11 11:05:43.014 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::start(java/util/Map): void
+2026-08-11 11:05:43.014 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::start(java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1326,7 +1326,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %bb80: 	//predecessors %if.then0
 	return
-2026-06-28 19:16:13.698 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.015 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1350,7 +1350,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.699 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.015 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1374,9 +1374,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.699 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::start(java/util/Map): void: null
-2026-06-28 19:16:13.699 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::open(java/util/Collection): void
-2026-06-28 19:16:13.699 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::open(java/util/Collection): void
+2026-08-11 11:05:43.015 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::start(java/util/Map): void: null
+2026-08-11 11:05:43.016 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::open(java/util/Collection): void
+2026-08-11 11:05:43.016 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::open(java/util/Collection): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1440,7 +1440,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %if.then0: 	//predecessors %bb1, %bb3
 	return
-2026-06-28 19:16:13.700 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.016 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1464,7 +1464,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.700 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.017 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1488,9 +1488,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.700 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::open(java/util/Collection): void: null
-2026-06-28 19:16:13.700 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::close(java/util/Collection): void
-2026-06-28 19:16:13.701 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::close(java/util/Collection): void
+2026-08-11 11:05:43.017 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::open(java/util/Collection): void: null
+2026-08-11 11:05:43.017 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::close(java/util/Collection): void
+2026-08-11 11:05:43.017 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::close(java/util/Collection): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1578,7 +1578,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %if.then0: 	//predecessors %bb1, %bb3
 	return
-2026-06-28 19:16:13.701 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.018 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1602,7 +1602,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.701 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.018 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1626,9 +1626,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.701 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::close(java/util/Collection): void: null
-2026-06-28 19:16:13.702 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::stop(): void
-2026-06-28 19:16:13.702 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::stop(): void
+2026-08-11 11:05:43.018 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::close(java/util/Collection): void: null
+2026-08-11 11:05:43.018 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::stop(): void
+2026-08-11 11:05:43.019 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::stop(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1695,7 +1695,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %goto0: 	//predecessors %if.then0, %bb9
 	return
-2026-06-28 19:16:13.702 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.019 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1719,7 +1719,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.703 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.019 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1743,9 +1743,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.703 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::stop(): void: null
-2026-06-28 19:16:13.703 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::getKinesisProducer(): com/amazonaws/services/kinesis/producer/KinesisProducer
-2026-06-28 19:16:13.703 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::getKinesisProducer(): com/amazonaws/services/kinesis/producer/KinesisProducer
+2026-08-11 11:05:43.019 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::stop(): void: null
+2026-08-11 11:05:43.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::getKinesisProducer(): com/amazonaws/services/kinesis/producer/KinesisProducer
+2026-08-11 11:05:43.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask::getKinesisProducer(): com/amazonaws/services/kinesis/producer/KinesisProducer
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1888,7 +1888,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %bb20: 	//predecessors %label10
 	return %73
-2026-06-28 19:16:13.703 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.021 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1912,7 +1912,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.704 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.021 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1936,22 +1936,22 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.704 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::getKinesisProducer(): com/amazonaws/services/kinesis/producer/KinesisProducer: null
-2026-06-28 19:16:13.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::<init>(): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::initialize(org/apache/kafka/connect/sink/SinkTaskContext): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::version(): java/lang/String processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::flush(java/util/Map): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::put(java/util/Collection): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::validateOutStandingRecords(): bool processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::checkForEarlierPutException(): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::addUserRecord(com/amazonaws/services/kinesis/producer/KinesisProducer, java/lang/String, java/lang/String, bool, org/apache/kafka/connect/sink/SinkRecord): com/google/common/util/concurrent/ListenableFuture processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::start(java/util/Map): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::open(java/util/Collection): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::close(java/util/Collection): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::stop(): void processing is finished normally
-2026-06-28 19:16:13.705 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::getKinesisProducer(): com/amazonaws/services/kinesis/producer/KinesisProducer processing is finished normally
-2026-06-28 19:16:13.715 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::<init>(): void
-2026-06-28 19:16:13.715 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::<init>(): void
+2026-08-11 11:05:43.021 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::getKinesisProducer(): com/amazonaws/services/kinesis/producer/KinesisProducer: null
+2026-08-11 11:05:43.022 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::<init>(): void processing is finished normally
+2026-08-11 11:05:43.022 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::initialize(org/apache/kafka/connect/sink/SinkTaskContext): void processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::version(): java/lang/String processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::flush(java/util/Map): void processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::put(java/util/Collection): void processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::validateOutStandingRecords(): bool processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::checkForEarlierPutException(): void processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::addUserRecord(com/amazonaws/services/kinesis/producer/KinesisProducer, java/lang/String, java/lang/String, bool, org/apache/kafka/connect/sink/SinkRecord): com/google/common/util/concurrent/ListenableFuture processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::start(java/util/Map): void processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::open(java/util/Collection): void processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::close(java/util/Collection): void processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::stop(): void processing is finished normally
+2026-08-11 11:05:43.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask::getKinesisProducer(): com/amazonaws/services/kinesis/producer/KinesisProducer processing is finished normally
+2026-08-11 11:05:43.035 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::<init>(): void
+2026-08-11 11:05:43.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1969,7 +1969,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 19:16:13.716 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.036 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -1993,7 +1993,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.717 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.037 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2017,9 +2017,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.717 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::<init>(): void: null
-2026-06-28 19:16:13.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::start(java/util/Map): void
-2026-06-28 19:16:13.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::start(java/util/Map): void
+2026-08-11 11:05:43.037 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::<init>(): void: null
+2026-08-11 11:05:43.037 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::start(java/util/Map): void
+2026-08-11 11:05:43.037 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::start(java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2145,7 +2145,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %bb30: 	//predecessors %bb29
 	return
-2026-06-28 19:16:13.718 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.038 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2169,7 +2169,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.718 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.038 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2193,15 +2193,15 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.718 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::start(java/util/Map): void: null
-2026-06-28 19:16:13.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::stop(): void
-2026-06-28 19:16:13.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::stop(): void
+2026-08-11 11:05:43.038 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::start(java/util/Map): void: null
+2026-08-11 11:05:43.038 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::stop(): void
+2026-08-11 11:05:43.039 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::stop(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return
-2026-06-28 19:16:13.719 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.039 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2225,7 +2225,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.719 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.039 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2249,15 +2249,15 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.719 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::stop(): void: null
-2026-06-28 19:16:13.719 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskClass(): java/lang/Class
-2026-06-28 19:16:13.719 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::taskClass(): java/lang/Class
+2026-08-11 11:05:43.039 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::stop(): void: null
+2026-08-11 11:05:43.040 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskClass(): java/lang/Class
+2026-08-11 11:05:43.040 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::taskClass(): java/lang/Class
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return com/amazon/kinesis/kafka/FirehoseSinkTask.class
-2026-06-28 19:16:13.719 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.040 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2281,7 +2281,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.720 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.040 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2305,9 +2305,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.720 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskClass(): java/lang/Class: null
-2026-06-28 19:16:13.720 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskConfigs(int): java/util/List
-2026-06-28 19:16:13.720 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::taskConfigs(int): java/util/List
+2026-08-11 11:05:43.040 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskClass(): java/lang/Class: null
+2026-08-11 11:05:43.040 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskConfigs(int): java/util/List
+2026-08-11 11:05:43.041 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::taskConfigs(int): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2550,7 +2550,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %if.then10: 	//predecessors %label1
 	return %100
-2026-06-28 19:16:13.721 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.041 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2574,7 +2574,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.721 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2598,9 +2598,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.721 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskConfigs(int): java/util/List: null
-2026-06-28 19:16:13.721 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::version(): java/lang/String
-2026-06-28 19:16:13.721 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::version(): java/lang/String
+2026-08-11 11:05:43.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskConfigs(int): java/util/List: null
+2026-08-11 11:05:43.042 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::version(): java/lang/String
+2026-08-11 11:05:43.042 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::version(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2610,7 +2610,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 19:16:13.722 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2634,7 +2634,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.722 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.043 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2658,9 +2658,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.722 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::version(): java/lang/String: null
-2026-06-28 19:16:13.722 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::config(): org/apache/kafka/common/config/ConfigDef
-2026-06-28 19:16:13.722 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::config(): org/apache/kafka/common/config/ConfigDef
+2026-08-11 11:05:43.043 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::version(): java/lang/String: null
+2026-08-11 11:05:43.043 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkConnector::config(): org/apache/kafka/common/config/ConfigDef
+2026-08-11 11:05:43.043 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkConnector::config(): org/apache/kafka/common/config/ConfigDef
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2671,7 +2671,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %bb1: 	//predecessors %bb0
 	return %2
-2026-06-28 19:16:13.723 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.043 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2695,7 +2695,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.723 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.044 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2719,16 +2719,16 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.723 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::config(): org/apache/kafka/common/config/ConfigDef: null
-2026-06-28 19:16:13.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::<init>(): void processing is finished normally
-2026-06-28 19:16:13.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::start(java/util/Map): void processing is finished normally
-2026-06-28 19:16:13.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::stop(): void processing is finished normally
-2026-06-28 19:16:13.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskClass(): java/lang/Class processing is finished normally
-2026-06-28 19:16:13.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskConfigs(int): java/util/List processing is finished normally
-2026-06-28 19:16:13.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::version(): java/lang/String processing is finished normally
-2026-06-28 19:16:13.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::config(): org/apache/kafka/common/config/ConfigDef processing is finished normally
-2026-06-28 19:16:13.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::<init>(com/amazon/kinesis/kafka/AmazonKinesisSinkTask): void
-2026-06-28 19:16:13.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::<init>(com/amazon/kinesis/kafka/AmazonKinesisSinkTask): void
+2026-08-11 11:05:43.044 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkConnector::config(): org/apache/kafka/common/config/ConfigDef: null
+2026-08-11 11:05:43.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::<init>(): void processing is finished normally
+2026-08-11 11:05:43.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::start(java/util/Map): void processing is finished normally
+2026-08-11 11:05:43.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::stop(): void processing is finished normally
+2026-08-11 11:05:43.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskClass(): java/lang/Class processing is finished normally
+2026-08-11 11:05:43.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::taskConfigs(int): java/util/List processing is finished normally
+2026-08-11 11:05:43.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::version(): java/lang/String processing is finished normally
+2026-08-11 11:05:43.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkConnector::config(): org/apache/kafka/common/config/ConfigDef processing is finished normally
+2026-08-11 11:05:43.048 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::<init>(com/amazon/kinesis/kafka/AmazonKinesisSinkTask): void
+2026-08-11 11:05:43.048 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::<init>(com/amazon/kinesis/kafka/AmazonKinesisSinkTask): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2742,7 +2742,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 19:16:13.729 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.049 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallback
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2766,7 +2766,7 @@ java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallba
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.730 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.049 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallback
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2790,9 +2790,9 @@ java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallba
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.730 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::<init>(com/amazon/kinesis/kafka/AmazonKinesisSinkTask): void: null
-2026-06-28 19:16:13.730 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onFailure(java/lang/Throwable): void
-2026-06-28 19:16:13.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onFailure(java/lang/Throwable): void
+2026-08-11 11:05:43.049 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::<init>(com/amazon/kinesis/kafka/AmazonKinesisSinkTask): void: null
+2026-08-11 11:05:43.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onFailure(java/lang/Throwable): void
+2026-08-11 11:05:43.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onFailure(java/lang/Throwable): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2867,7 +2867,7 @@ java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallba
 
 %bb.return0: 	//predecessors %bb9, %bb12
 	return
-2026-06-28 19:16:13.732 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallback
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2891,7 +2891,7 @@ java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallba
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.732 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallback
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2915,15 +2915,15 @@ java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallba
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.732 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onFailure(java/lang/Throwable): void: null
-2026-06-28 19:16:13.733 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onSuccess(com/amazonaws/services/kinesis/producer/UserRecordResult): void
-2026-06-28 19:16:13.733 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onSuccess(com/amazonaws/services/kinesis/producer/UserRecordResult): void
+2026-08-11 11:05:43.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onFailure(java/lang/Throwable): void: null
+2026-08-11 11:05:43.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onSuccess(com/amazonaws/services/kinesis/producer/UserRecordResult): void
+2026-08-11 11:05:43.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onSuccess(com/amazonaws/services/kinesis/producer/UserRecordResult): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return
-2026-06-28 19:16:13.739 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallback
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2947,7 +2947,7 @@ java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallba
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.740 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallback
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2971,12 +2971,12 @@ java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallba
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.740 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onSuccess(com/amazonaws/services/kinesis/producer/UserRecordResult): void: null
-2026-06-28 19:16:13.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::<init>(com/amazon/kinesis/kafka/AmazonKinesisSinkTask): void processing is finished normally
-2026-06-28 19:16:13.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onFailure(java/lang/Throwable): void processing is finished normally
-2026-06-28 19:16:13.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onSuccess(com/amazonaws/services/kinesis/producer/UserRecordResult): void processing is finished normally
-2026-06-28 19:16:13.755 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/DataUtility::<init>(): void
-2026-06-28 19:16:13.755 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/DataUtility::<init>(): void
+2026-08-11 11:05:43.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onSuccess(com/amazonaws/services/kinesis/producer/UserRecordResult): void: null
+2026-08-11 11:05:43.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::<init>(com/amazon/kinesis/kafka/AmazonKinesisSinkTask): void processing is finished normally
+2026-08-11 11:05:43.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onFailure(java/lang/Throwable): void processing is finished normally
+2026-08-11 11:05:43.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkTask$1::onSuccess(com/amazonaws/services/kinesis/producer/UserRecordResult): void processing is finished normally
+2026-08-11 11:05:43.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/DataUtility::<init>(): void
+2026-08-11 11:05:43.088 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/DataUtility::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2986,7 +2986,7 @@ java.lang.ClassNotFoundException: com/google/common/util/concurrent/FutureCallba
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 19:16:13.758 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.089 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/amazon/kinesis/kafka/DataUtility::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -3022,7 +3022,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.kafka.connect.errors.Dat
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 19:16:13.758 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/amazon/kinesis/kafka/DataUtility::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -3058,9 +3058,9 @@ Caused by: java.lang.ClassNotFoundException: org.apache.kafka.connect.errors.Dat
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 19:16:13.758 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/DataUtility::<init>(): void: null
-2026-06-28 19:16:13.758 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/DataUtility::parseValue(org/apache/kafka/connect/data/Schema, java/lang/Object): java/nio/ByteBuffer
-2026-06-28 19:16:13.763 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/DataUtility::parseValue(org/apache/kafka/connect/data/Schema, java/lang/Object): java/nio/ByteBuffer
+2026-08-11 11:05:43.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/DataUtility::<init>(): void: null
+2026-08-11 11:05:43.090 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/DataUtility::parseValue(org/apache/kafka/connect/data/Schema, java/lang/Object): java/nio/ByteBuffer
+2026-08-11 11:05:43.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/DataUtility::parseValue(org/apache/kafka/connect/data/Schema, java/lang/Object): java/nio/ByteBuffer
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3483,7 +3483,7 @@ goto %label16
 %bb.return0: 	//predecessors %if.else0, %label2, %label4, %label6, %label8, %label10, %label12, %label14, %bb19, %bb39, %bb41, %bb42, %bb43, %bb52, %tableswitch.default0
 	%retval1 = phi {%if.else0 -> null; %label2 -> %183; %label4 -> %184; %label6 -> %185; %label8 -> %186; %label10 -> %187; %label12 -> %188; %label14 -> %189; %bb19 -> %190; %bb39 -> %191; %bb41 -> %192; %bb42 -> %193; %bb43 -> %194; %bb52 -> %195; %tableswitch.default0 -> null}
 	return %retval1
-2026-06-28 19:16:13.764 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.kafka.connect.data.Schema
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -3510,7 +3510,7 @@ java.lang.ClassNotFoundException: org.apache.kafka.connect.data.Schema
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.764 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.kafka.connect.data.Schema
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -3537,9 +3537,9 @@ java.lang.ClassNotFoundException: org.apache.kafka.connect.data.Schema
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.764 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/DataUtility::parseValue(org/apache/kafka/connect/data/Schema, java/lang/Object): java/nio/ByteBuffer: null
-2026-06-28 19:16:13.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/DataUtility::createRecord(org/apache/kafka/connect/sink/SinkRecord): com/amazonaws/services/kinesisfirehose/model/Record
-2026-06-28 19:16:13.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/DataUtility::createRecord(org/apache/kafka/connect/sink/SinkRecord): com/amazonaws/services/kinesisfirehose/model/Record
+2026-08-11 11:05:43.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/DataUtility::parseValue(org/apache/kafka/connect/data/Schema, java/lang/Object): java/nio/ByteBuffer: null
+2026-08-11 11:05:43.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/DataUtility::createRecord(org/apache/kafka/connect/sink/SinkRecord): com/amazonaws/services/kinesisfirehose/model/Record
+2026-08-11 11:05:43.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/DataUtility::createRecord(org/apache/kafka/connect/sink/SinkRecord): com/amazonaws/services/kinesisfirehose/model/Record
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3566,7 +3566,7 @@ java.lang.ClassNotFoundException: org.apache.kafka.connect.data.Schema
 
 %bb5: 	//predecessors %bb4
 	return %10
-2026-06-28 19:16:13.764 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.kafka.connect.sink.SinkRecord
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -3593,7 +3593,7 @@ java.lang.ClassNotFoundException: org.apache.kafka.connect.sink.SinkRecord
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.764 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.kafka.connect.sink.SinkRecord
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -3620,12 +3620,12 @@ java.lang.ClassNotFoundException: org.apache.kafka.connect.sink.SinkRecord
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.764 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/DataUtility::createRecord(org/apache/kafka/connect/sink/SinkRecord): com/amazonaws/services/kinesisfirehose/model/Record: null
-2026-06-28 19:16:13.765 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/DataUtility::<init>(): void processing is finished normally
-2026-06-28 19:16:13.765 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/DataUtility::parseValue(org/apache/kafka/connect/data/Schema, java/lang/Object): java/nio/ByteBuffer processing is finished normally
-2026-06-28 19:16:13.765 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/DataUtility::createRecord(org/apache/kafka/connect/sink/SinkRecord): com/amazonaws/services/kinesisfirehose/model/Record processing is finished normally
-2026-06-28 19:16:13.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/IAMUtility::<init>(): void
-2026-06-28 19:16:13.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/IAMUtility::<init>(): void
+2026-08-11 11:05:43.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/DataUtility::createRecord(org/apache/kafka/connect/sink/SinkRecord): com/amazonaws/services/kinesisfirehose/model/Record: null
+2026-08-11 11:05:43.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/DataUtility::<init>(): void processing is finished normally
+2026-08-11 11:05:43.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/DataUtility::parseValue(org/apache/kafka/connect/data/Schema, java/lang/Object): java/nio/ByteBuffer processing is finished normally
+2026-08-11 11:05:43.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/DataUtility::createRecord(org/apache/kafka/connect/sink/SinkRecord): com/amazonaws/services/kinesisfirehose/model/Record processing is finished normally
+2026-08-11 11:05:43.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/IAMUtility::<init>(): void
+2026-08-11 11:05:43.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/IAMUtility::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3635,7 +3635,7 @@ java.lang.ClassNotFoundException: org.apache.kafka.connect.sink.SinkRecord
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 19:16:13.771 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.097 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/amazon/kinesis/kafka/IAMUtility::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -3671,7 +3671,7 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.auth.AWSCredentialsPr
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 19:16:13.771 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.097 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/amazon/kinesis/kafka/IAMUtility::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -3707,9 +3707,9 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.auth.AWSCredentialsPr
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 19:16:13.771 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/IAMUtility::<init>(): void: null
-2026-06-28 19:16:13.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider
-2026-06-28 19:16:13.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider
+2026-08-11 11:05:43.098 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/IAMUtility::<init>(): void: null
+2026-08-11 11:05:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider
+2026-08-11 11:05:43.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3810,7 +3810,7 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.auth.AWSCredentialsPr
 	%retval1 = phi {%bb2 -> %45; %bb13 -> %46}
 	%retval.casted1 = (com/amazonaws/auth/AWSCredentialsProvider) %retval1
 	return %retval.casted1
-2026-06-28 19:16:13.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.099 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3845,7 +3845,7 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.auth.AWSCredentialsPr
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 19:16:13.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.099 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3880,11 +3880,11 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.auth.AWSCredentialsPr
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 19:16:13.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider: null
-2026-06-28 19:16:13.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/IAMUtility::<init>(): void processing is finished normally
-2026-06-28 19:16:13.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider processing is finished normally
-2026-06-28 19:16:13.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::<init>(): void
-2026-06-28 19:16:13.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::<init>(): void
+2026-08-11 11:05:43.099 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider: null
+2026-08-11 11:05:43.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/IAMUtility::<init>(): void processing is finished normally
+2026-08-11 11:05:43.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/IAMUtility::createCredentials(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int): com/amazonaws/auth/AWSCredentialsProvider processing is finished normally
+2026-08-11 11:05:43.116 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::<init>(): void
+2026-08-11 11:05:43.117 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3894,7 +3894,7 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.auth.AWSCredentialsPr
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 19:16:13.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.117 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3918,7 +3918,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.118 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3942,9 +3942,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::<init>(): void: null
-2026-06-28 19:16:13.793 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::start(java/util/Map): void
-2026-06-28 19:16:13.793 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::start(java/util/Map): void
+2026-08-11 11:05:43.118 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::<init>(): void: null
+2026-08-11 11:05:43.118 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::start(java/util/Map): void
+2026-08-11 11:05:43.119 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::start(java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4214,7 +4214,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %bb66: 	//predecessors %bb65
 	return
-2026-06-28 19:16:13.793 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.119 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4238,7 +4238,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.794 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.119 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4262,15 +4262,15 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.794 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::start(java/util/Map): void: null
-2026-06-28 19:16:13.794 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::stop(): void
-2026-06-28 19:16:13.794 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::stop(): void
+2026-08-11 11:05:43.119 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::start(java/util/Map): void: null
+2026-08-11 11:05:43.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::stop(): void
+2026-08-11 11:05:43.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::stop(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return
-2026-06-28 19:16:13.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.120 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4294,7 +4294,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.120 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4318,15 +4318,15 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::stop(): void: null
-2026-06-28 19:16:13.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskClass(): java/lang/Class
-2026-06-28 19:16:13.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskClass(): java/lang/Class
+2026-08-11 11:05:43.120 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::stop(): void: null
+2026-08-11 11:05:43.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskClass(): java/lang/Class
+2026-08-11 11:05:43.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskClass(): java/lang/Class
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return com/amazon/kinesis/kafka/AmazonKinesisSinkTask.class
-2026-06-28 19:16:13.796 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.121 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4350,7 +4350,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.796 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.121 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4374,9 +4374,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.796 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskClass(): java/lang/Class: null
-2026-06-28 19:16:13.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskConfigs(int): java/util/List
-2026-06-28 19:16:13.797 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskConfigs(int): java/util/List
+2026-08-11 11:05:43.121 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskClass(): java/lang/Class: null
+2026-08-11 11:05:43.121 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskConfigs(int): java/util/List
+2026-08-11 11:05:43.122 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskConfigs(int): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4938,7 +4938,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %if.then22: 	//predecessors %label1
 	return %222
-2026-06-28 19:16:13.797 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.122 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4962,7 +4962,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.798 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.123 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4986,9 +4986,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.798 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskConfigs(int): java/util/List: null
-2026-06-28 19:16:13.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::version(): java/lang/String
-2026-06-28 19:16:13.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::version(): java/lang/String
+2026-08-11 11:05:43.123 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskConfigs(int): java/util/List: null
+2026-08-11 11:05:43.123 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::version(): java/lang/String
+2026-08-11 11:05:43.123 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::version(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4998,7 +4998,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 19:16:13.798 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.123 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5022,7 +5022,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.799 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.123 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5046,9 +5046,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.799 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::version(): java/lang/String: null
-2026-06-28 19:16:13.799 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::config(): org/apache/kafka/common/config/ConfigDef
-2026-06-28 19:16:13.799 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::config(): org/apache/kafka/common/config/ConfigDef
+2026-08-11 11:05:43.123 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::version(): java/lang/String: null
+2026-08-11 11:05:43.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::config(): org/apache/kafka/common/config/ConfigDef
+2026-08-11 11:05:43.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::config(): org/apache/kafka/common/config/ConfigDef
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5059,7 +5059,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %bb1: 	//predecessors %bb0
 	return %2
-2026-06-28 19:16:13.799 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5083,7 +5083,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.799 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5107,16 +5107,16 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.799 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::config(): org/apache/kafka/common/config/ConfigDef: null
-2026-06-28 19:16:13.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::<init>(): void processing is finished normally
-2026-06-28 19:16:13.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::start(java/util/Map): void processing is finished normally
-2026-06-28 19:16:13.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::stop(): void processing is finished normally
-2026-06-28 19:16:13.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskClass(): java/lang/Class processing is finished normally
-2026-06-28 19:16:13.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskConfigs(int): java/util/List processing is finished normally
-2026-06-28 19:16:13.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::version(): java/lang/String processing is finished normally
-2026-06-28 19:16:13.800 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::config(): org/apache/kafka/common/config/ConfigDef processing is finished normally
-2026-06-28 19:16:13.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::<init>(): void
-2026-06-28 19:16:13.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::<init>(): void
+2026-08-11 11:05:43.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::config(): org/apache/kafka/common/config/ConfigDef: null
+2026-08-11 11:05:43.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::<init>(): void processing is finished normally
+2026-08-11 11:05:43.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::start(java/util/Map): void processing is finished normally
+2026-08-11 11:05:43.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::stop(): void processing is finished normally
+2026-08-11 11:05:43.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskClass(): java/lang/Class processing is finished normally
+2026-08-11 11:05:43.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::taskConfigs(int): java/util/List processing is finished normally
+2026-08-11 11:05:43.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::version(): java/lang/String processing is finished normally
+2026-08-11 11:05:43.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/AmazonKinesisSinkConnector::config(): org/apache/kafka/common/config/ConfigDef processing is finished normally
+2026-08-11 11:05:43.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::<init>(): void
+2026-08-11 11:05:43.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5126,7 +5126,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkConnector
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 19:16:13.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.139 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5150,7 +5150,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.139 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5174,9 +5174,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::<init>(): void: null
-2026-06-28 19:16:13.812 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::version(): java/lang/String
-2026-06-28 19:16:13.812 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::version(): java/lang/String
+2026-08-11 11:05:43.139 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::<init>(): void: null
+2026-08-11 11:05:43.139 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::version(): java/lang/String
+2026-08-11 11:05:43.140 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::version(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5191,7 +5191,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %bb2: 	//predecessors %bb1
 	return %4
-2026-06-28 19:16:13.813 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.140 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5215,7 +5215,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.813 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.140 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5239,15 +5239,15 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.813 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::version(): java/lang/String: null
-2026-06-28 19:16:13.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::flush(java/util/Map): void
-2026-06-28 19:16:13.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::flush(java/util/Map): void
+2026-08-11 11:05:43.140 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::version(): java/lang/String: null
+2026-08-11 11:05:43.141 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::flush(java/util/Map): void
+2026-08-11 11:05:43.141 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::flush(java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return
-2026-06-28 19:16:13.813 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.141 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5271,7 +5271,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.141 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5295,9 +5295,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::flush(java/util/Map): void: null
-2026-06-28 19:16:13.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::put(java/util/Collection): void
-2026-06-28 19:16:13.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::put(java/util/Collection): void
+2026-08-11 11:05:43.141 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::flush(java/util/Map): void: null
+2026-08-11 11:05:43.141 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::put(java/util/Collection): void
+2026-08-11 11:05:43.141 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::put(java/util/Collection): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5322,7 +5322,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %goto0: 	//predecessors %bb2, %if.then0
 	return
-2026-06-28 19:16:13.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.141 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5346,7 +5346,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.142 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5370,9 +5370,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::put(java/util/Collection): void: null
-2026-06-28 19:16:13.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::start(java/util/Map): void
-2026-06-28 19:16:13.815 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::start(java/util/Map): void
+2026-08-11 11:05:43.142 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::put(java/util/Collection): void: null
+2026-08-11 11:05:43.142 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::start(java/util/Map): void
+2026-08-11 11:05:43.142 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::start(java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5617,7 +5617,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %bb52: 	//predecessors %bb51
 	return
-2026-06-28 19:16:13.815 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.142 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5641,7 +5641,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.815 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.143 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5665,15 +5665,15 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.815 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::start(java/util/Map): void: null
-2026-06-28 19:16:13.815 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::stop(): void
-2026-06-28 19:16:13.815 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::stop(): void
+2026-08-11 11:05:43.143 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::start(java/util/Map): void: null
+2026-08-11 11:05:43.143 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::stop(): void
+2026-08-11 11:05:43.143 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::stop(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return
-2026-06-28 19:16:13.816 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.143 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5697,7 +5697,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.816 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.143 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5721,9 +5721,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.816 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::stop(): void: null
-2026-06-28 19:16:13.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::validateDeliveryStream(): void
-2026-06-28 19:16:13.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::validateDeliveryStream(): void
+2026-08-11 11:05:43.143 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::stop(): void: null
+2026-08-11 11:05:43.143 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::validateDeliveryStream(): void
+2026-08-11 11:05:43.144 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::validateDeliveryStream(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5789,7 +5789,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %if.then0: 	//predecessors %bb5
 	return
-2026-06-28 19:16:13.816 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.144 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5813,7 +5813,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.817 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.144 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5837,9 +5837,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.817 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::validateDeliveryStream(): void: null
-2026-06-28 19:16:13.817 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordBatch(java/util/List): com/amazonaws/services/kinesisfirehose/model/PutRecordBatchResult
-2026-06-28 19:16:13.817 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordBatch(java/util/List): com/amazonaws/services/kinesisfirehose/model/PutRecordBatchResult
+2026-08-11 11:05:43.144 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::validateDeliveryStream(): void: null
+2026-08-11 11:05:43.144 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordBatch(java/util/List): com/amazonaws/services/kinesisfirehose/model/PutRecordBatchResult
+2026-08-11 11:05:43.144 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordBatch(java/util/List): com/amazonaws/services/kinesisfirehose/model/PutRecordBatchResult
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5919,7 +5919,7 @@ goto %label4
 %goto0: 	//predecessors %label2, %bb8, %bb10
 	%34 = phi {%label2 -> %30; %bb8 -> %31; %bb10 -> %32}
 	return %34
-2026-06-28 19:16:13.817 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.145 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5943,7 +5943,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.818 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.145 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -5967,9 +5967,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.818 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordBatch(java/util/List): com/amazonaws/services/kinesisfirehose/model/PutRecordBatchResult: null
-2026-06-28 19:16:13.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordsInBatch(java/util/Collection): void
-2026-06-28 19:16:13.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordsInBatch(java/util/Collection): void
+2026-08-11 11:05:43.145 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordBatch(java/util/List): com/amazonaws/services/kinesisfirehose/model/PutRecordBatchResult: null
+2026-08-11 11:05:43.145 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordsInBatch(java/util/Collection): void
+2026-08-11 11:05:43.145 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordsInBatch(java/util/Collection): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -6072,7 +6072,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 
 %if.then3: 	//predecessors %if.then2, %bb8
 	return
-2026-06-28 19:16:13.818 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.145 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -6096,7 +6096,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.819 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.146 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -6120,9 +6120,9 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.819 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordsInBatch(java/util/Collection): void: null
-2026-06-28 19:16:13.819 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecords(java/util/Collection): void
-2026-06-28 19:16:13.819 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::putRecords(java/util/Collection): void
+2026-08-11 11:05:43.146 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordsInBatch(java/util/Collection): void: null
+2026-08-11 11:05:43.146 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecords(java/util/Collection): void
+2026-08-11 11:05:43.146 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazon/kinesis/kafka/FirehoseSinkTask::putRecords(java/util/Collection): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -6226,7 +6226,7 @@ goto %label5
 
 %if.then0: 	//predecessors %bb2
 	return
-2026-06-28 19:16:13.819 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.146 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -6250,7 +6250,7 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.820 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 11:05:43.146 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -6274,16 +6274,16 @@ java.lang.ClassNotFoundException: org/apache/kafka/connect/sink/SinkTask
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 19:16:13.820 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecords(java/util/Collection): void: null
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::<init>(): void processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::version(): java/lang/String processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::flush(java/util/Map): void processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::put(java/util/Collection): void processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::start(java/util/Map): void processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::stop(): void processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::validateDeliveryStream(): void processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordBatch(java/util/List): com/amazonaws/services/kinesisfirehose/model/PutRecordBatchResult processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordsInBatch(java/util/Collection): void processing is finished normally
-2026-06-28 19:16:13.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecords(java/util/Collection): void processing is finished normally
-2026-06-28 19:16:13.821 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 19:16:13.821 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 11:05:43.147 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecords(java/util/Collection): void: null
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::<init>(): void processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::version(): java/lang/String processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::flush(java/util/Map): void processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::put(java/util/Collection): void processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::start(java/util/Map): void processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::stop(): void processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::validateDeliveryStream(): void processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordBatch(java/util/List): com/amazonaws/services/kinesisfirehose/model/PutRecordBatchResult processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecordsInBatch(java/util/Collection): void processing is finished normally
+2026-08-11 11:05:43.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazon/kinesis/kafka/FirehoseSinkTask::putRecords(java/util/Collection): void processing is finished normally
+2026-08-11 11:05:43.148 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 11:05:43.148 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

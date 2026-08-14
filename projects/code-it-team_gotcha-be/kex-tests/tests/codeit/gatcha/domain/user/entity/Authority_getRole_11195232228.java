@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Authority_getRole_11195232228 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1259;
+     Object term1261;
 
     public Authority_getRole_11195232228() {
     }
@@ -31,10 +31,10 @@ public class Authority_getRole_11195232228 {
 
     @Before
     public void setup() throws Throwable {
-        term1259 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
-        setField(term1259, term1259.getClass(), "id", null);
-        setField(term1259, term1259.getClass(), "role", null);
-        setField(term1259, term1259.getClass(), "users", null);
+        term1261 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
+        setField(term1261, term1261.getClass(), "id", null);
+        setField(term1261, term1261.getClass(), "role", null);
+        setField(term1261, term1261.getClass(), "users", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class Authority_getRole_11195232228 {
         Class<?> klass = Class.forName("codeit.gatcha.domain.user.entity.Authority");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getRole", argTypes, term1259, args);
+        callMethod(klass, "getRole", argTypes, term1261, args);
     }
 
 };

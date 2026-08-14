@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ProjectHandler_newIncoming_106430513510 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term9363;
+     Object term9359;
 
     public ProjectHandler_newIncoming_106430513510() {
     }
@@ -31,7 +31,7 @@ public class ProjectHandler_newIncoming_106430513510 {
 
     @Before
     public void setup() throws Throwable {
-        term9363 = newInstance(Class.forName("core.task.handler.ProjectHandler"));
+        term9359 = newInstance(Class.forName("core.task.handler.ProjectHandler"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class ProjectHandler_newIncoming_106430513510 {
         argTypes[0] = Class.forName("core.task.self.ProjectSelf");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "newIncoming", argTypes, term9363, args);
+        callMethod(klass, "newIncoming", argTypes, term9359, args);
     }
 
 };

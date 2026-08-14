@@ -298,7 +298,7 @@ public class News_deserialize_4600735835 {
         setIntField(term175047, term175047.getClass(), "depth", 24);
         setIntField(term175047, term175047.getClass(), "colormap", 32);
         setField(term175047, term175047.getClass(), "colorModel", null);
-        setLongField(term175047, term175047.getClass(), "aData", 132177286166672L);
+        setLongField(term175047, term175047.getClass(), "aData", 127144459565888L);
         setBooleanField(term175047, term175047.getClass(), "doubleBuffer", true);
         setField(term175047, term175047.getClass(), "disposerReferent", null);
         setField(term175047, term175047.getClass(), "bufferCaps", null);

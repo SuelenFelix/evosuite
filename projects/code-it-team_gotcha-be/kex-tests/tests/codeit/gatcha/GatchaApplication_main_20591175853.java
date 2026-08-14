@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class GatchaApplication_main_20591175853 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term12910;
+     Object term12904;
 
     public GatchaApplication_main_20591175853() {
     }
@@ -31,7 +31,7 @@ public class GatchaApplication_main_20591175853 {
 
     @Before
     public void setup() throws Throwable {
-        term12910 = newInstance(Class.forName("codeit.gatcha.GatchaApplication"));
+        term12904 = newInstance(Class.forName("codeit.gatcha.GatchaApplication"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class GatchaApplication_main_20591175853 {
         argTypes[0] = Array.newInstance(Class.forName("java.lang.String"), 0).getClass();
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "main", argTypes, term12910, args);
+        callMethod(klass, "main", argTypes, term12904, args);
     }
 
 };

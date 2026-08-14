@@ -1,16 +1,16 @@
-2026-06-29 03:12:08.167 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/supaldubey_blog-server/target/classes
-2026-06-29 03:12:08.333 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 03:12:08.385 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 03:12:09.302 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 03:12:09.749 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package in/cubestack/apps/blog/util/*
-2026-06-29 03:12:09.750 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 03:12:09.779 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/supaldubey_blog-server/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 03:12:09.811 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/supaldubey_blog-server/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33323 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/supaldubey_blog-server/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 03:12:09.825 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 03:13:49.857 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::<init>(): void
-2026-06-29 03:13:49.857 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::<init>(): void
+2026-08-12 01:51:37.662 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/supaldubey_blog-server/target/classes
+2026-08-12 01:51:37.811 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 01:51:37.864 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 01:51:38.828 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 01:51:39.330 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package in/cubestack/apps/blog/util/*
+2026-08-12 01:51:39.331 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 01:51:39.345 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/supaldubey_blog-server/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 01:51:39.377 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/supaldubey_blog-server/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 42953 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/supaldubey_blog-server/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 01:51:39.392 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 01:53:19.424 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::<init>(): void
+2026-08-12 01:53:19.424 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,7 +20,7 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 03:13:49.860 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:19.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -44,7 +44,7 @@ java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 03:13:49.861 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:19.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -68,9 +68,9 @@ java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 03:13:49.861 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::<init>(): void: null
-2026-06-29 03:13:49.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::setAttributes(org/commonmark/node/Node, java/lang/String, java/util/Map): void
-2026-06-29 03:13:49.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::setAttributes(org/commonmark/node/Node, java/lang/String, java/util/Map): void
+2026-08-12 01:53:19.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::<init>(): void: null
+2026-08-12 01:53:19.428 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::setAttributes(org/commonmark/node/Node, java/lang/String, java/util/Map): void
+2026-08-12 01:53:19.428 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::setAttributes(org/commonmark/node/Node, java/lang/String, java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -100,7 +100,7 @@ java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 
 %if.then1: 	//predecessors %if.then0, %bb2
 	return
-2026-06-29 03:13:49.861 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:19.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -124,7 +124,7 @@ java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 03:13:49.862 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:19.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -148,11 +148,11 @@ java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 03:13:49.862 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::setAttributes(org/commonmark/node/Node, java/lang/String, java/util/Map): void: null
-2026-06-29 03:13:49.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::<init>(): void processing is finished normally
-2026-06-29 03:13:49.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::setAttributes(org/commonmark/node/Node, java/lang/String, java/util/Map): void processing is finished normally
-2026-06-29 03:13:49.866 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/DateTimeHelper::<init>(): void
-2026-06-29 03:13:49.866 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/DateTimeHelper::<init>(): void
+2026-08-12 01:53:19.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::setAttributes(org/commonmark/node/Node, java/lang/String, java/util/Map): void: null
+2026-08-12 01:53:19.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::<init>(): void processing is finished normally
+2026-08-12 01:53:19.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper$TableAttributeProvider::setAttributes(org/commonmark/node/Node, java/lang/String, java/util/Map): void processing is finished normally
+2026-08-12 01:53:19.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/DateTimeHelper::<init>(): void
+2026-08-12 01:53:19.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/DateTimeHelper::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -162,9 +162,9 @@ java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 03:13:50.337 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.DateTimeHelper_init_20301751950
-2026-06-29 03:13:50.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/DateTimeHelper::toDateString(java/time/LocalDateTime): java/lang/String
-2026-06-29 03:13:50.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/DateTimeHelper::toDateString(java/time/LocalDateTime): java/lang/String
+2026-08-12 01:53:19.907 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.DateTimeHelper_init_20301751950
+2026-08-12 01:53:19.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/DateTimeHelper::toDateString(java/time/LocalDateTime): java/lang/String
+2026-08-12 01:53:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/DateTimeHelper::toDateString(java/time/LocalDateTime): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -183,15 +183,15 @@ java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 %goto0: 	//predecessors %if.else0, %if.then0
 	%7 = phi {%if.else0 -> ""; %if.then0 -> %5}
 	return %7
-2026-06-29 03:13:50.470 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.DateTimeHelper_toDateString_7229471211
-2026-06-29 03:13:50.558 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.DateTimeHelper_init_20301751952
-2026-06-29 03:13:50.637 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.DateTimeHelper_toDateString_7229471213
-2026-06-29 03:13:50.638 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/DateTimeHelper::<init>(): void: null
-2026-06-29 03:13:50.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/DateTimeHelper::<init>(): void processing is finished normally
-2026-06-29 03:13:50.638 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/DateTimeHelper::toDateString(java/time/LocalDateTime): java/lang/String: null
-2026-06-29 03:13:50.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/DateTimeHelper::toDateString(java/time/LocalDateTime): java/lang/String processing is finished normally
-2026-06-29 03:13:50.646 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void
-2026-06-29 03:13:50.646 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void
+2026-08-12 01:53:20.040 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.DateTimeHelper_toDateString_7229471211
+2026-08-12 01:53:20.128 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.DateTimeHelper_init_20301751952
+2026-08-12 01:53:20.209 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.DateTimeHelper_toDateString_7229471213
+2026-08-12 01:53:20.210 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/DateTimeHelper::<init>(): void: null
+2026-08-12 01:53:20.210 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/DateTimeHelper::<init>(): void processing is finished normally
+2026-08-12 01:53:20.210 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/DateTimeHelper::toDateString(java/time/LocalDateTime): java/lang/String: null
+2026-08-12 01:53:20.210 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/DateTimeHelper::toDateString(java/time/LocalDateTime): java/lang/String processing is finished normally
+2026-08-12 01:53:20.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void
+2026-08-12 01:53:20.218 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -205,7 +205,7 @@ java.lang.ClassNotFoundException: org/commonmark/renderer/html/AttributeProvider
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 03:13:50.647 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:20.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -241,7 +241,7 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 03:13:50.648 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:20.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -277,9 +277,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 03:13:50.648 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void: null
-2026-06-29 03:13:50.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper::initialize(): void
-2026-06-29 03:13:50.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper::initialize(): void
+2026-08-12 01:53:20.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void: null
+2026-08-12 01:53:20.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper::initialize(): void
+2026-08-12 01:53:20.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper::initialize(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -333,7 +333,7 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb10: 	//predecessors %bb9
 	return
-2026-06-29 03:13:50.648 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:20.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method in/cubestack/apps/blog/util/ContentHelper::initialize(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -368,7 +368,7 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 03:13:50.649 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:20.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method in/cubestack/apps/blog/util/ContentHelper::initialize(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -403,9 +403,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 03:13:50.649 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper::initialize(): void: null
-2026-06-29 03:13:50.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String
-2026-06-29 03:13:50.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String
+2026-08-12 01:53:20.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper::initialize(): void: null
+2026-08-12 01:53:20.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String
+2026-08-12 01:53:20.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -435,7 +435,7 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb3: 	//predecessors %bb2
 	return %11
-2026-06-29 03:13:50.649 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:20.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -470,7 +470,7 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 03:13:50.650 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:20.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -505,9 +505,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 03:13:50.650 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String: null
-2026-06-29 03:13:50.650 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String
-2026-06-29 03:13:50.650 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String
+2026-08-12 01:53:20.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String: null
+2026-08-12 01:53:20.221 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String
+2026-08-12 01:53:20.221 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -529,7 +529,7 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb3: 	//predecessors %bb2
 	return %7
-2026-06-29 03:13:50.650 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:20.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -564,7 +564,7 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 03:13:50.651 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 01:53:20.222 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -599,13 +599,13 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 03:13:50.651 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String: null
-2026-06-29 03:13:50.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void processing is finished normally
-2026-06-29 03:13:50.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper::initialize(): void processing is finished normally
-2026-06-29 03:13:50.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String processing is finished normally
-2026-06-29 03:13:50.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String processing is finished normally
-2026-06-29 03:13:50.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::<init>(): void
-2026-06-29 03:13:50.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::<init>(): void
+2026-08-12 01:53:20.222 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String: null
+2026-08-12 01:53:20.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper::<init>(in/cubestack/apps/blog/util/Slugify): void processing is finished normally
+2026-08-12 01:53:20.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper::initialize(): void processing is finished normally
+2026-08-12 01:53:20.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper::slugify(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 01:53:20.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/ContentHelper::markdownToHtml(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 01:53:20.268 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::<init>(): void
+2026-08-12 01:53:20.268 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -649,9 +649,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb9: 	//predecessors %bb8
 	return
-2026-06-29 03:13:50.770 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_init_14580026670
-2026-06-29 03:13:50.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::withCustomReplacement(java/lang/String, java/lang/String): in/cubestack/apps/blog/util/Slugify
-2026-06-29 03:13:50.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::withCustomReplacement(java/lang/String, java/lang/String): in/cubestack/apps/blog/util/Slugify
+2026-08-12 01:53:20.338 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_init_14580026670
+2026-08-12 01:53:20.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::withCustomReplacement(java/lang/String, java/lang/String): in/cubestack/apps/blog/util/Slugify
+2026-08-12 01:53:20.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::withCustomReplacement(java/lang/String, java/lang/String): in/cubestack/apps/blog/util/Slugify
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -665,9 +665,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %label0: 	//predecessors %bb1
 	return this
-2026-06-29 03:13:50.859 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withCustomReplacement_15274716221
-2026-06-29 03:13:50.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::withCustomReplacements(java/util/Map): in/cubestack/apps/blog/util/Slugify
-2026-06-29 03:13:50.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::withCustomReplacements(java/util/Map): in/cubestack/apps/blog/util/Slugify
+2026-08-12 01:53:20.444 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withCustomReplacement_15274716221
+2026-08-12 01:53:20.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::withCustomReplacements(java/util/Map): in/cubestack/apps/blog/util/Slugify
+2026-08-12 01:53:20.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::withCustomReplacements(java/util/Map): in/cubestack/apps/blog/util/Slugify
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -681,9 +681,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb2: 	//predecessors %bb1
 	return this
-2026-06-29 03:13:50.952 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withCustomReplacements_14870977572
-2026-06-29 03:13:50.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::withUnderscoreSeparator(bool): in/cubestack/apps/blog/util/Slugify
-2026-06-29 03:13:50.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::withUnderscoreSeparator(bool): in/cubestack/apps/blog/util/Slugify
+2026-08-12 01:53:20.522 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withCustomReplacements_14870977572
+2026-08-12 01:53:20.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::withUnderscoreSeparator(bool): in/cubestack/apps/blog/util/Slugify
+2026-08-12 01:53:20.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::withUnderscoreSeparator(bool): in/cubestack/apps/blog/util/Slugify
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -693,9 +693,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 03:13:51.034 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withUnderscoreSeparator_18526874623
-2026-06-29 03:13:51.035 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::slugify(java/lang/String): java/lang/String
-2026-06-29 03:13:51.035 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::slugify(java/lang/String): java/lang/String
+2026-08-12 01:53:20.596 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withUnderscoreSeparator_18526874623
+2026-08-12 01:53:20.597 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::slugify(java/lang/String): java/lang/String
+2026-08-12 01:53:20.597 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::slugify(java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -748,9 +748,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 %bb.return0: 	//predecessors %if.else0, %if.then1
 	%retval1 = phi {%if.else0 -> ""; %if.then1 -> %20}
 	return %retval1
-2026-06-29 03:13:51.100 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_slugify_14300323444
-2026-06-29 03:13:51.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::defaultProperties(): java/util/Map
-2026-06-29 03:13:51.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::defaultProperties(): java/util/Map
+2026-08-12 01:53:20.658 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_slugify_14300323444
+2026-08-12 01:53:20.659 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::defaultProperties(): java/util/Map
+2026-08-12 01:53:20.663 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::defaultProperties(): java/util/Map
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1489,9 +1489,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %label182: 	//predecessors %label181
 	return %366
-2026-06-29 03:13:51.190 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_defaultProperties_18908857075
-2026-06-29 03:13:51.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::getCustomReplacements(): java/util/Map
-2026-06-29 03:13:51.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::getCustomReplacements(): java/util/Map
+2026-08-12 01:53:20.770 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_defaultProperties_18908857075
+2026-08-12 01:53:20.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::getCustomReplacements(): java/util/Map
+2026-08-12 01:53:20.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::getCustomReplacements(): java/util/Map
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1501,9 +1501,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 03:13:51.252 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_getCustomReplacements_12962332076
-2026-06-29 03:13:51.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::customReplacements(java/lang/String): java/lang/String
-2026-06-29 03:13:51.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::customReplacements(java/lang/String): java/lang/String
+2026-08-12 01:53:20.826 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_getCustomReplacements_12962332076
+2026-08-12 01:53:20.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::customReplacements(java/lang/String): java/lang/String
+2026-08-12 01:53:20.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::customReplacements(java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1564,9 +1564,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %if.then0: 	//predecessors %bb3
 	return %28
-2026-06-29 03:13:51.307 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_customReplacements_10383231617
-2026-06-29 03:13:51.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::builtInReplacements(java/lang/String): java/lang/String
-2026-06-29 03:13:51.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::builtInReplacements(java/lang/String): java/lang/String
+2026-08-12 01:53:20.881 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_customReplacements_10383231617
+2026-08-12 01:53:20.882 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::builtInReplacements(java/lang/String): java/lang/String
+2026-08-12 01:53:20.882 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::builtInReplacements(java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1651,9 +1651,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb12: 	//predecessors %if.then1
 	return %41
-2026-06-29 03:13:51.380 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_builtInReplacements_8732884918
-2026-06-29 03:13:51.381 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::loadReplacements(): void
-2026-06-29 03:13:51.381 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::loadReplacements(): void
+2026-08-12 01:53:20.937 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_builtInReplacements_8732884918
+2026-08-12 01:53:20.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::loadReplacements(): void
+2026-08-12 01:53:20.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::loadReplacements(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1683,9 +1683,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb.return0: 	//predecessors %if.else0, %bb3
 	return
-2026-06-29 03:13:51.438 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_loadReplacements_10923530569
-2026-06-29 03:13:51.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::createPatternCache(): void
-2026-06-29 03:13:51.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::createPatternCache(): void
+2026-08-12 01:53:20.989 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_loadReplacements_10923530569
+2026-08-12 01:53:20.990 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::createPatternCache(): void
+2026-08-12 01:53:20.990 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::createPatternCache(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1722,9 +1722,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb.return0: 	//predecessors %if.else0, %bb5
 	return
-2026-06-29 03:13:51.493 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_createPatternCache_23916892110
-2026-06-29 03:13:51.494 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::addReplacement(java/util/Map$Entry): void
-2026-06-29 03:13:51.494 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::addReplacement(java/util/Map$Entry): void
+2026-08-12 01:53:21.044 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_createPatternCache_23916892110
+2026-08-12 01:53:21.045 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::addReplacement(java/util/Map$Entry): void
+2026-08-12 01:53:21.045 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::addReplacement(java/util/Map$Entry): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1778,9 +1778,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %label0: 	//predecessors %bb9
 	return
-2026-06-29 03:13:51.565 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_addReplacement_91677174611
-2026-06-29 03:13:51.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::isValidReplacement(java/util/Map$Entry): bool
-2026-06-29 03:13:51.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::isValidReplacement(java/util/Map$Entry): bool
+2026-08-12 01:53:21.110 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_addReplacement_91677174611
+2026-08-12 01:53:21.111 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::isValidReplacement(java/util/Map$Entry): bool
+2026-08-12 01:53:21.111 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::isValidReplacement(java/util/Map$Entry): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1809,9 +1809,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 %goto0: 	//predecessors %if.else0, %if.then0
 	%9 = phi {%if.else0 -> 1; %if.then0 -> 0}
 	return %9
-2026-06-29 03:13:51.617 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_isValidReplacement_148864784312
-2026-06-29 03:13:51.617 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::isNullOrBlank(java/lang/String): bool
-2026-06-29 03:13:51.617 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::isNullOrBlank(java/lang/String): bool
+2026-08-12 01:53:21.160 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_isValidReplacement_148864784312
+2026-08-12 01:53:21.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::isNullOrBlank(java/lang/String): bool
+2026-08-12 01:53:21.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::isNullOrBlank(java/lang/String): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1840,9 +1840,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 %goto0: 	//predecessors %if.then0, %if.then1
 	%9 = phi {%if.then0 -> 1; %if.then1 -> 0}
 	return %9
-2026-06-29 03:13:51.678 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_isNullOrBlank_118272070613
-2026-06-29 03:13:51.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::normalize(java/lang/String): java/lang/String
-2026-06-29 03:13:51.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::normalize(java/lang/String): java/lang/String
+2026-08-12 01:53:21.217 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_isNullOrBlank_118272070613
+2026-08-12 01:53:21.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::normalize(java/lang/String): java/lang/String
+2026-08-12 01:53:21.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::normalize(java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1857,9 +1857,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %label1: 	//predecessors %label0
 	return %5
-2026-06-29 03:13:51.745 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_normalize_17546868414
-2026-06-29 03:13:51.746 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::matchAndReplace(java/lang/String): java/lang/String
-2026-06-29 03:13:51.746 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::matchAndReplace(java/lang/String): java/lang/String
+2026-08-12 01:53:21.280 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_normalize_17546868414
+2026-08-12 01:53:21.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/Slugify::matchAndReplace(java/lang/String): java/lang/String
+2026-08-12 01:53:21.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/Slugify::matchAndReplace(java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1916,57 +1916,57 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %label2: 	//predecessors %bb6
 	return %30
-2026-06-29 03:13:51.811 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_matchAndReplace_211517141515
-2026-06-29 03:13:51.877 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_init_145800266716
-2026-06-29 03:13:51.944 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withCustomReplacement_152747162217
-2026-06-29 03:13:51.990 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withCustomReplacements_148709775718
-2026-06-29 03:13:52.038 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withUnderscoreSeparator_185268746219
-2026-06-29 03:13:52.083 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_slugify_143003234420
-2026-06-29 03:13:52.128 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_defaultProperties_189088570721
-2026-06-29 03:13:52.172 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_getCustomReplacements_129623320722
-2026-06-29 03:13:52.217 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_customReplacements_103832316123
-2026-06-29 03:13:52.263 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_builtInReplacements_87328849124
-2026-06-29 03:13:52.307 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_loadReplacements_109235305625
-2026-06-29 03:13:52.350 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_createPatternCache_23916892126
-2026-06-29 03:13:52.394 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_addReplacement_91677174627
-2026-06-29 03:13:52.439 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_isValidReplacement_148864784328
-2026-06-29 03:13:52.485 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_isNullOrBlank_118272070629
-2026-06-29 03:13:52.533 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_normalize_17546868430
-2026-06-29 03:13:52.577 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_matchAndReplace_211517141531
-2026-06-29 03:13:52.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::<init>(): void: null
-2026-06-29 03:13:52.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::withCustomReplacement(java/lang/String, java/lang/String): in/cubestack/apps/blog/util/Slugify: null
-2026-06-29 03:13:52.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::withCustomReplacements(java/util/Map): in/cubestack/apps/blog/util/Slugify: null
-2026-06-29 03:13:52.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::withUnderscoreSeparator(bool): in/cubestack/apps/blog/util/Slugify: null
-2026-06-29 03:13:52.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::slugify(java/lang/String): java/lang/String: null
-2026-06-29 03:13:52.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::defaultProperties(): java/util/Map: null
-2026-06-29 03:13:52.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::getCustomReplacements(): java/util/Map: null
-2026-06-29 03:13:52.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::customReplacements(java/lang/String): java/lang/String: null
-2026-06-29 03:13:52.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::builtInReplacements(java/lang/String): java/lang/String: null
-2026-06-29 03:13:52.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::loadReplacements(): void: null
-2026-06-29 03:13:52.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::createPatternCache(): void: null
-2026-06-29 03:13:52.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::addReplacement(java/util/Map$Entry): void: null
-2026-06-29 03:13:52.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::isValidReplacement(java/util/Map$Entry): bool: null
-2026-06-29 03:13:52.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::isNullOrBlank(java/lang/String): bool: null
-2026-06-29 03:13:52.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::normalize(java/lang/String): java/lang/String: null
-2026-06-29 03:13:52.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::matchAndReplace(java/lang/String): java/lang/String: null
-2026-06-29 03:13:52.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::<init>(): void processing is finished normally
-2026-06-29 03:13:52.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::withCustomReplacement(java/lang/String, java/lang/String): in/cubestack/apps/blog/util/Slugify processing is finished normally
-2026-06-29 03:13:52.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::withCustomReplacements(java/util/Map): in/cubestack/apps/blog/util/Slugify processing is finished normally
-2026-06-29 03:13:52.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::withUnderscoreSeparator(bool): in/cubestack/apps/blog/util/Slugify processing is finished normally
-2026-06-29 03:13:52.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::slugify(java/lang/String): java/lang/String processing is finished normally
-2026-06-29 03:13:52.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::defaultProperties(): java/util/Map processing is finished normally
-2026-06-29 03:13:52.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::getCustomReplacements(): java/util/Map processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::customReplacements(java/lang/String): java/lang/String processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::builtInReplacements(java/lang/String): java/lang/String processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::loadReplacements(): void processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::createPatternCache(): void processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::addReplacement(java/util/Map$Entry): void processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::isValidReplacement(java/util/Map$Entry): bool processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::isNullOrBlank(java/lang/String): bool processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::normalize(java/lang/String): java/lang/String processing is finished normally
-2026-06-29 03:13:52.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::matchAndReplace(java/lang/String): java/lang/String processing is finished normally
-2026-06-29 03:13:52.583 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/EncryptionHelper::<init>(): void
-2026-06-29 03:13:52.583 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/EncryptionHelper::<init>(): void
+2026-08-12 01:53:21.343 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_matchAndReplace_211517141515
+2026-08-12 01:53:21.398 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_init_145800266716
+2026-08-12 01:53:21.458 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withCustomReplacement_152747162217
+2026-08-12 01:53:21.510 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withCustomReplacements_148709775718
+2026-08-12 01:53:21.553 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_withUnderscoreSeparator_185268746219
+2026-08-12 01:53:21.595 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_slugify_143003234420
+2026-08-12 01:53:21.639 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_defaultProperties_189088570721
+2026-08-12 01:53:21.682 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_getCustomReplacements_129623320722
+2026-08-12 01:53:21.725 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_customReplacements_103832316123
+2026-08-12 01:53:21.769 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_builtInReplacements_87328849124
+2026-08-12 01:53:21.813 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_loadReplacements_109235305625
+2026-08-12 01:53:21.855 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_createPatternCache_23916892126
+2026-08-12 01:53:21.898 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_addReplacement_91677174627
+2026-08-12 01:53:21.940 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_isValidReplacement_148864784328
+2026-08-12 01:53:21.989 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_isNullOrBlank_118272070629
+2026-08-12 01:53:22.039 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_normalize_17546868430
+2026-08-12 01:53:22.079 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.Slugify_matchAndReplace_211517141531
+2026-08-12 01:53:22.080 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::<init>(): void: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::withCustomReplacement(java/lang/String, java/lang/String): in/cubestack/apps/blog/util/Slugify: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::withCustomReplacements(java/util/Map): in/cubestack/apps/blog/util/Slugify: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::withUnderscoreSeparator(bool): in/cubestack/apps/blog/util/Slugify: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::slugify(java/lang/String): java/lang/String: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::defaultProperties(): java/util/Map: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::getCustomReplacements(): java/util/Map: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::customReplacements(java/lang/String): java/lang/String: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::builtInReplacements(java/lang/String): java/lang/String: null
+2026-08-12 01:53:22.081 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::loadReplacements(): void: null
+2026-08-12 01:53:22.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::createPatternCache(): void: null
+2026-08-12 01:53:22.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::addReplacement(java/util/Map$Entry): void: null
+2026-08-12 01:53:22.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::isValidReplacement(java/util/Map$Entry): bool: null
+2026-08-12 01:53:22.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::isNullOrBlank(java/lang/String): bool: null
+2026-08-12 01:53:22.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::normalize(java/lang/String): java/lang/String: null
+2026-08-12 01:53:22.082 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/Slugify::matchAndReplace(java/lang/String): java/lang/String: null
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::<init>(): void processing is finished normally
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::withCustomReplacement(java/lang/String, java/lang/String): in/cubestack/apps/blog/util/Slugify processing is finished normally
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::withCustomReplacements(java/util/Map): in/cubestack/apps/blog/util/Slugify processing is finished normally
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::withUnderscoreSeparator(bool): in/cubestack/apps/blog/util/Slugify processing is finished normally
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::slugify(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::defaultProperties(): java/util/Map processing is finished normally
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::getCustomReplacements(): java/util/Map processing is finished normally
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::customReplacements(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 01:53:22.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::builtInReplacements(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 01:53:22.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::loadReplacements(): void processing is finished normally
+2026-08-12 01:53:22.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::createPatternCache(): void processing is finished normally
+2026-08-12 01:53:22.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::addReplacement(java/util/Map$Entry): void processing is finished normally
+2026-08-12 01:53:22.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::isValidReplacement(java/util/Map$Entry): bool processing is finished normally
+2026-08-12 01:53:22.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::isNullOrBlank(java/lang/String): bool processing is finished normally
+2026-08-12 01:53:22.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::normalize(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 01:53:22.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/Slugify::matchAndReplace(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 01:53:22.085 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/EncryptionHelper::<init>(): void
+2026-08-12 01:53:22.086 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/EncryptionHelper::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1976,9 +1976,9 @@ Caused by: java.lang.ClassNotFoundException: org.commonmark.renderer.html.Attrib
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 03:13:52.624 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.EncryptionHelper_init_5302786530
-2026-06-29 03:13:52.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/EncryptionHelper::getHash(char[], byte[]): java/lang/String
-2026-06-29 03:13:52.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/EncryptionHelper::getHash(char[], byte[]): java/lang/String
+2026-08-12 01:53:22.131 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.EncryptionHelper_init_5302786530
+2026-08-12 01:53:22.131 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method in/cubestack/apps/blog/util/EncryptionHelper::getHash(char[], byte[]): java/lang/String
+2026-08-12 01:53:22.132 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - in/cubestack/apps/blog/util/EncryptionHelper::getHash(char[], byte[]): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2017,12 +2017,12 @@ goto %label3
 
 %bb3: 	//predecessors %label3
 	throw %15
-2026-06-29 03:13:52.670 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.EncryptionHelper_getHash_2275865041
-2026-06-29 03:13:52.715 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.EncryptionHelper_init_5302786532
-2026-06-29 03:13:52.758 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.EncryptionHelper_getHash_2275865043
-2026-06-29 03:13:52.758 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/EncryptionHelper::<init>(): void: null
-2026-06-29 03:13:52.759 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/EncryptionHelper::getHash(char[], byte[]): java/lang/String: null
-2026-06-29 03:13:52.759 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/EncryptionHelper::<init>(): void processing is finished normally
-2026-06-29 03:13:52.759 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/EncryptionHelper::getHash(char[], byte[]): java/lang/String processing is finished normally
-2026-06-29 03:13:52.759 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 03:13:52.759 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 01:53:22.173 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.EncryptionHelper_getHash_2275865041
+2026-08-12 01:53:22.215 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.EncryptionHelper_init_5302786532
+2026-08-12 01:53:22.256 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test in.cubestack.apps.blog.util.EncryptionHelper_getHash_2275865043
+2026-08-12 01:53:22.257 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/EncryptionHelper::<init>(): void: null
+2026-08-12 01:53:22.257 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method in/cubestack/apps/blog/util/EncryptionHelper::getHash(char[], byte[]): java/lang/String: null
+2026-08-12 01:53:22.257 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/EncryptionHelper::<init>(): void processing is finished normally
+2026-08-12 01:53:22.257 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method in/cubestack/apps/blog/util/EncryptionHelper::getHash(char[], byte[]): java/lang/String processing is finished normally
+2026-08-12 01:53:22.257 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 01:53:22.257 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

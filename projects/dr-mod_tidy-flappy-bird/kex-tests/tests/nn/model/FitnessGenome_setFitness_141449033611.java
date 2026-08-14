@@ -21,8 +21,8 @@ import java.lang.Double;
 
 public class FitnessGenome_setFitness_141449033611 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10999;
-     Object term11001;
+     Object term10996;
+     Object term10998;
 
     public FitnessGenome_setFitness_141449033611() {
     }
@@ -33,10 +33,10 @@ public class FitnessGenome_setFitness_141449033611 {
 
     @Before
     public void setup() throws Throwable {
-        term10999 = newInstance(Class.forName("nn.model.FitnessGenome"));
-        setField(term10999, term10999.getClass(), "genome", null);
-        setDoubleField(term10999, term10999.getClass(), "fitness", 0.0);
-        term11001 = new Double(0.0);
+        term10996 = newInstance(Class.forName("nn.model.FitnessGenome"));
+        setField(term10996, term10996.getClass(), "genome", null);
+        setDoubleField(term10996, term10996.getClass(), "fitness", 0.0);
+        term10998 = new Double(0.0);
     }
 
     @Test
@@ -45,8 +45,8 @@ public class FitnessGenome_setFitness_141449033611 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = double.class;
         Object[] args = new Object[1];
-        args[0] = term11001;
-        callMethod(klass, "setFitness", argTypes, term10999, args);
+        args[0] = term10998;
+        callMethod(klass, "setFitness", argTypes, term10996, args);
     }
 
 };

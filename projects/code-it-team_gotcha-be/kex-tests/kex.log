@@ -1,16 +1,16 @@
-2026-06-28 14:56:08.318 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/code-it-team_gotcha-be/target/classes
-2026-06-28 14:56:08.460 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 14:56:08.516 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 14:56:09.502 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 14:56:09.966 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package codeit/gatcha/domain/user/service/signUp/*
-2026-06-28 14:56:09.968 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 14:56:09.984 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/code-it-team_gotcha-be/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 14:56:10.016 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/code-it-team_gotcha-be/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 39795 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/code-it-team_gotcha-be/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 14:56:10.029 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 14:57:50.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationTokenToUser(codeit/gatcha/domain/user/entity/GatchaUser): void
-2026-06-28 14:57:50.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationTokenToUser(codeit/gatcha/domain/user/entity/GatchaUser): void
+2026-08-11 00:55:03.132 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/code-it-team_gotcha-be/target/classes
+2026-08-11 00:55:03.267 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 00:55:03.323 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 00:55:04.208 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 00:55:04.766 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package codeit/gatcha/domain/user/service/signUp/*
+2026-08-11 00:55:04.767 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 00:55:04.784 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/code-it-team_gotcha-be/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 00:55:04.841 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/code-it-team_gotcha-be/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 45629 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/code-it-team_gotcha-be/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 00:55:04.856 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 00:56:44.892 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationTokenToUser(codeit/gatcha/domain/user/entity/GatchaUser): void
+2026-08-11 00:56:44.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationTokenToUser(codeit/gatcha/domain/user/entity/GatchaUser): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -33,9 +33,9 @@
 
 %bb2: 	//predecessors %label1
 	return
-2026-06-28 14:57:50.561 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.EmailConfirmationService_createAndSendConfirmationTokenToUser_14278954560
-2026-06-28 14:57:50.567 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationEmail(codeit/gatcha/domain/user/entity/GatchaUser, codeit/gatcha/api/security/entity/ConfirmationToken): void
-2026-06-28 14:57:50.567 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationEmail(codeit/gatcha/domain/user/entity/GatchaUser, codeit/gatcha/api/security/entity/ConfirmationToken): void
+2026-08-11 00:56:45.405 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.EmailConfirmationService_createAndSendConfirmationTokenToUser_14278954560
+2026-08-11 00:56:45.411 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationEmail(codeit/gatcha/domain/user/entity/GatchaUser, codeit/gatcha/api/security/entity/ConfirmationToken): void
+2026-08-11 00:56:45.411 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationEmail(codeit/gatcha/domain/user/entity/GatchaUser, codeit/gatcha/api/security/entity/ConfirmationToken): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -82,9 +82,9 @@
 
 %bb9: 	//predecessors %bb8
 	return
-2026-06-28 14:57:50.709 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.EmailConfirmationService_createAndSendConfirmationEmail_10148110211
-2026-06-28 14:57:50.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::getConfirmationLink(codeit/gatcha/api/security/entity/ConfirmationToken): java/lang/String
-2026-06-28 14:57:50.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::getConfirmationLink(codeit/gatcha/api/security/entity/ConfirmationToken): java/lang/String
+2026-08-11 00:56:45.542 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.EmailConfirmationService_createAndSendConfirmationEmail_10148110211
+2026-08-11 00:56:45.543 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::getConfirmationLink(codeit/gatcha/api/security/entity/ConfirmationToken): java/lang/String
+2026-08-11 00:56:45.543 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::getConfirmationLink(codeit/gatcha/api/security/entity/ConfirmationToken): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -118,9 +118,9 @@
 
 %bb6: 	//predecessors %bb5
 	return %11
-2026-06-28 14:57:50.815 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.EmailConfirmationService_getConfirmationLink_16262126432
-2026-06-28 14:57:50.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::<init>(codeit/gatcha/api/security/repo/ConfirmationTokenRepo, codeit/gatcha/common/email/service/EmailSendingService): void
-2026-06-28 14:57:50.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::<init>(codeit/gatcha/api/security/repo/ConfirmationTokenRepo, codeit/gatcha/common/email/service/EmailSendingService): void
+2026-08-11 00:56:45.637 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.EmailConfirmationService_getConfirmationLink_16262126432
+2026-08-11 00:56:45.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::<init>(codeit/gatcha/api/security/repo/ConfirmationTokenRepo, codeit/gatcha/common/email/service/EmailSendingService): void
+2026-08-11 00:56:45.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::<init>(codeit/gatcha/api/security/repo/ConfirmationTokenRepo, codeit/gatcha/common/email/service/EmailSendingService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -138,7 +138,7 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 14:57:50.817 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.640 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -162,7 +162,7 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 14:57:50.818 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.640 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -186,8 +186,8 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 14:57:50.818 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::<init>(codeit/gatcha/api/security/repo/ConfirmationTokenRepo, codeit/gatcha/common/email/service/EmailSendingService): void: null
-2026-06-28 14:57:50.819 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.640 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::<init>(codeit/gatcha/api/security/repo/ConfirmationTokenRepo, codeit/gatcha/common/email/service/EmailSendingService): void: null
+2026-08-11 00:56:45.641 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -225,8 +225,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 14:57:50.819 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationTokenToUser(codeit/gatcha/domain/user/entity/GatchaUser): void: null
-2026-06-28 14:57:50.820 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.641 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationTokenToUser(codeit/gatcha/domain/user/entity/GatchaUser): void: null
+2026-08-11 00:56:45.642 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -264,8 +264,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 14:57:50.820 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationEmail(codeit/gatcha/domain/user/entity/GatchaUser, codeit/gatcha/api/security/entity/ConfirmationToken): void: null
-2026-06-28 14:57:50.820 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.642 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationEmail(codeit/gatcha/domain/user/entity/GatchaUser, codeit/gatcha/api/security/entity/ConfirmationToken): void: null
+2026-08-11 00:56:45.643 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -303,13 +303,13 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 14:57:50.821 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::getConfirmationLink(codeit/gatcha/api/security/entity/ConfirmationToken): java/lang/String: null
-2026-06-28 14:57:50.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::<init>(codeit/gatcha/api/security/repo/ConfirmationTokenRepo, codeit/gatcha/common/email/service/EmailSendingService): void processing is finished normally
-2026-06-28 14:57:50.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationTokenToUser(codeit/gatcha/domain/user/entity/GatchaUser): void processing is finished normally
-2026-06-28 14:57:50.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationEmail(codeit/gatcha/domain/user/entity/GatchaUser, codeit/gatcha/api/security/entity/ConfirmationToken): void processing is finished normally
-2026-06-28 14:57:50.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::getConfirmationLink(codeit/gatcha/api/security/entity/ConfirmationToken): java/lang/String processing is finished normally
-2026-06-28 14:57:50.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::createNewUser(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser
-2026-06-28 14:57:50.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::createNewUser(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser
+2026-08-11 00:56:45.643 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::getConfirmationLink(codeit/gatcha/api/security/entity/ConfirmationToken): java/lang/String: null
+2026-08-11 00:56:45.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::<init>(codeit/gatcha/api/security/repo/ConfirmationTokenRepo, codeit/gatcha/common/email/service/EmailSendingService): void processing is finished normally
+2026-08-11 00:56:45.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationTokenToUser(codeit/gatcha/domain/user/entity/GatchaUser): void processing is finished normally
+2026-08-11 00:56:45.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::createAndSendConfirmationEmail(codeit/gatcha/domain/user/entity/GatchaUser, codeit/gatcha/api/security/entity/ConfirmationToken): void processing is finished normally
+2026-08-11 00:56:45.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/EmailConfirmationService::getConfirmationLink(codeit/gatcha/api/security/entity/ConfirmationToken): java/lang/String processing is finished normally
+2026-08-11 00:56:45.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::createNewUser(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser
+2026-08-11 00:56:45.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::createNewUser(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -331,9 +331,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb3: 	//predecessors %bb2
 	return %7
-2026-06-28 14:57:50.918 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.SignUpService_createNewUser_11631280030
-2026-06-28 14:57:50.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::createUserFromSignUpDTO(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser
-2026-06-28 14:57:50.920 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::createUserFromSignUpDTO(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser
+2026-08-11 00:56:45.736 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.SignUpService_createNewUser_11631280030
+2026-08-11 00:56:45.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::createUserFromSignUpDTO(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser
+2026-08-11 00:56:45.738 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::createUserFromSignUpDTO(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -387,9 +387,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb8: 	//predecessors %bb7
 	return %23
-2026-06-28 14:57:50.990 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.SignUpService_createUserFromSignUpDTO_9044806181
-2026-06-28 14:57:50.991 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::activateUserAccount(java/lang/String): void
-2026-06-28 14:57:50.991 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::activateUserAccount(java/lang/String): void
+2026-08-11 00:56:45.807 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.SignUpService_createUserFromSignUpDTO_9044806181
+2026-08-11 00:56:45.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::activateUserAccount(java/lang/String): void
+2026-08-11 00:56:45.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::activateUserAccount(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -411,9 +411,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 14:57:51.057 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.SignUpService_activateUserAccount_3747083042
-2026-06-28 14:57:51.058 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::enableUserAccount(codeit/gatcha/domain/user/entity/GatchaUser): void
-2026-06-28 14:57:51.058 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::enableUserAccount(codeit/gatcha/domain/user/entity/GatchaUser): void
+2026-08-11 00:56:45.870 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.SignUpService_activateUserAccount_3747083042
+2026-08-11 00:56:45.871 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::enableUserAccount(codeit/gatcha/domain/user/entity/GatchaUser): void
+2026-08-11 00:56:45.871 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::enableUserAccount(codeit/gatcha/domain/user/entity/GatchaUser): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -431,9 +431,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %label0: 	//predecessors %bb2
 	return
-2026-06-28 14:57:51.131 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.SignUpService_enableUserAccount_9553865553
-2026-06-28 14:57:51.132 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::<init>(codeit/gatcha/domain/user/repo/IUserRepo, codeit/gatcha/domain/user/repo/IAuthorityRepo, codeit/gatcha/api/security/repo/ConfirmationTokenRepo): void
-2026-06-28 14:57:51.132 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::<init>(codeit/gatcha/domain/user/repo/IUserRepo, codeit/gatcha/domain/user/repo/IAuthorityRepo, codeit/gatcha/api/security/repo/ConfirmationTokenRepo): void
+2026-08-11 00:56:45.938 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.SignUpService_enableUserAccount_9553865553
+2026-08-11 00:56:45.939 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/SignUpService::<init>(codeit/gatcha/domain/user/repo/IUserRepo, codeit/gatcha/domain/user/repo/IAuthorityRepo, codeit/gatcha/api/security/repo/ConfirmationTokenRepo): void
+2026-08-11 00:56:45.939 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/SignUpService::<init>(codeit/gatcha/domain/user/repo/IUserRepo, codeit/gatcha/domain/user/repo/IAuthorityRepo, codeit/gatcha/api/security/repo/ConfirmationTokenRepo): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -455,7 +455,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 14:57:51.133 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -479,7 +479,7 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 14:57:51.133 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.940 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -503,8 +503,8 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 14:57:51.133 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::<init>(codeit/gatcha/domain/user/repo/IUserRepo, codeit/gatcha/domain/user/repo/IAuthorityRepo, codeit/gatcha/api/security/repo/ConfirmationTokenRepo): void: null
-2026-06-28 14:57:51.134 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.940 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::<init>(codeit/gatcha/domain/user/repo/IUserRepo, codeit/gatcha/domain/user/repo/IAuthorityRepo, codeit/gatcha/api/security/repo/ConfirmationTokenRepo): void: null
+2026-08-11 00:56:45.940 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -542,8 +542,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 14:57:51.134 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::createNewUser(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser: null
-2026-06-28 14:57:51.135 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.940 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::createNewUser(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser: null
+2026-08-11 00:56:45.941 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -581,8 +581,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 14:57:51.135 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::createUserFromSignUpDTO(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser: null
-2026-06-28 14:57:51.136 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.941 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::createUserFromSignUpDTO(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser: null
+2026-08-11 00:56:45.942 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -620,8 +620,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 14:57:51.136 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::activateUserAccount(java/lang/String): void: null
-2026-06-28 14:57:51.136 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:45.942 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::activateUserAccount(java/lang/String): void: null
+2026-08-11 00:56:45.942 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -659,14 +659,14 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 14:57:51.136 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::enableUserAccount(codeit/gatcha/domain/user/entity/GatchaUser): void: null
-2026-06-28 14:57:51.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::<init>(codeit/gatcha/domain/user/repo/IUserRepo, codeit/gatcha/domain/user/repo/IAuthorityRepo, codeit/gatcha/api/security/repo/ConfirmationTokenRepo): void processing is finished normally
-2026-06-28 14:57:51.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::createNewUser(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser processing is finished normally
-2026-06-28 14:57:51.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::createUserFromSignUpDTO(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser processing is finished normally
-2026-06-28 14:57:51.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::activateUserAccount(java/lang/String): void processing is finished normally
-2026-06-28 14:57:51.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::enableUserAccount(codeit/gatcha/domain/user/entity/GatchaUser): void processing is finished normally
-2026-06-28 14:57:51.139 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/UserService::emailIsUsed(java/lang/String): bool
-2026-06-28 14:57:51.139 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/UserService::emailIsUsed(java/lang/String): bool
+2026-08-11 00:56:45.942 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/SignUpService::enableUserAccount(codeit/gatcha/domain/user/entity/GatchaUser): void: null
+2026-08-11 00:56:45.942 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::<init>(codeit/gatcha/domain/user/repo/IUserRepo, codeit/gatcha/domain/user/repo/IAuthorityRepo, codeit/gatcha/api/security/repo/ConfirmationTokenRepo): void processing is finished normally
+2026-08-11 00:56:45.942 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::createNewUser(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser processing is finished normally
+2026-08-11 00:56:45.942 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::createUserFromSignUpDTO(codeit/gatcha/domain/user/DTO/SignUpDTO): codeit/gatcha/domain/user/entity/GatchaUser processing is finished normally
+2026-08-11 00:56:45.942 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::activateUserAccount(java/lang/String): void processing is finished normally
+2026-08-11 00:56:45.943 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/SignUpService::enableUserAccount(codeit/gatcha/domain/user/entity/GatchaUser): void processing is finished normally
+2026-08-11 00:56:45.950 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/UserService::emailIsUsed(java/lang/String): bool
+2026-08-11 00:56:45.951 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/UserService::emailIsUsed(java/lang/String): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -684,9 +684,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-28 14:57:51.215 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.UserService_emailIsUsed_17272265310
-2026-06-28 14:57:51.215 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/UserService::<init>(codeit/gatcha/domain/user/repo/IUserRepo): void
-2026-06-28 14:57:51.215 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/UserService::<init>(codeit/gatcha/domain/user/repo/IUserRepo): void
+2026-08-11 00:56:46.013 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test codeit.gatcha.domain.user.service.signUp.UserService_emailIsUsed_17272265310
+2026-08-11 00:56:46.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method codeit/gatcha/domain/user/service/signUp/UserService::<init>(codeit/gatcha/domain/user/repo/IUserRepo): void
+2026-08-11 00:56:46.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - codeit/gatcha/domain/user/service/signUp/UserService::<init>(codeit/gatcha/domain/user/repo/IUserRepo): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -700,7 +700,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 14:57:51.216 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:46.014 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -724,7 +724,7 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 14:57:51.216 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:46.014 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -748,8 +748,8 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 14:57:51.216 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/UserService::<init>(codeit/gatcha/domain/user/repo/IUserRepo): void: null
-2026-06-28 14:57:51.217 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 00:56:46.014 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/UserService::<init>(codeit/gatcha/domain/user/repo/IUserRepo): void: null
+2026-08-11 00:56:46.014 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -787,8 +787,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 14:57:51.217 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/UserService::emailIsUsed(java/lang/String): bool: null
-2026-06-28 14:57:51.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/UserService::<init>(codeit/gatcha/domain/user/repo/IUserRepo): void processing is finished normally
-2026-06-28 14:57:51.217 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/UserService::emailIsUsed(java/lang/String): bool processing is finished normally
-2026-06-28 14:57:51.217 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 14:57:51.217 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 00:56:46.015 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method codeit/gatcha/domain/user/service/signUp/UserService::emailIsUsed(java/lang/String): bool: null
+2026-08-11 00:56:46.015 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/UserService::<init>(codeit/gatcha/domain/user/repo/IUserRepo): void processing is finished normally
+2026-08-11 00:56:46.015 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method codeit/gatcha/domain/user/service/signUp/UserService::emailIsUsed(java/lang/String): bool processing is finished normally
+2026-08-11 00:56:46.015 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 00:56:46.015 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

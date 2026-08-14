@@ -33,10 +33,10 @@ public class AnnType_valueOf_19754981804 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term930 = Class.forName((String) "nn.neural.AnnType");
-        Field term929 = ((Class) term930).getDeclaredField((String) "HIDDEN");
-        ((Field) term929).setAccessible(true);
-        enum6 = ((Field) term929).get((Object) null);
+        Class<? extends Object> term928 = Class.forName((String) "nn.neural.AnnType");
+        Field term927 = ((Class) term928).getDeclaredField((String) "HIDDEN");
+        ((Field) term927).setAccessible(true);
+        enum6 = ((Field) term927).get((Object) null);
     }
 
     @Test

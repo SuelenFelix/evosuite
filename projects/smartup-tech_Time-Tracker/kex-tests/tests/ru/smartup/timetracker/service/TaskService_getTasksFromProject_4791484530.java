@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class TaskService_getTasksFromProject_4791484530 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term21915;
+     Object term22055;
 
     public TaskService_getTasksFromProject_4791484530() {
     }
@@ -32,7 +32,7 @@ public class TaskService_getTasksFromProject_4791484530 {
 
     @Before
     public void setup() throws Throwable {
-        term21915 = new Integer(1774507971);
+        term22055 = new Integer(1774507971);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TaskService_getTasksFromProject_4791484530 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term21915;
+        args[0] = term22055;
         callMethod(klass, "getTasksFromProject", argTypes, null, args);
     }
 

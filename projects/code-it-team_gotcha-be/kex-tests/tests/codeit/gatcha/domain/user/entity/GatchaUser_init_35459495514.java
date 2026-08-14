@@ -21,7 +21,7 @@ import java.lang.Boolean;
 
 public class GatchaUser_init_35459495514 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1072;
+     Object term1074;
 
     public GatchaUser_init_35459495514() {
     }
@@ -32,7 +32,7 @@ public class GatchaUser_init_35459495514 {
 
     @Before
     public void setup() throws Throwable {
-        term1072 = new Boolean(false);
+        term1074 = new Boolean(false);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class GatchaUser_init_35459495514 {
         Object[] args = new Object[4];
         args[0] = null;
         args[1] = null;
-        args[2] = term1072;
+        args[2] = term1074;
         args[3] = null;
         Object instance = callConstructor(klass, argTypes, args);
     }

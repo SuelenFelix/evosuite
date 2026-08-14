@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class KComboBox_init_13057080237 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10233;
+     Object term10234;
 
     public KComboBox_init_13057080237() {
     }
@@ -32,7 +32,7 @@ public class KComboBox_init_13057080237 {
 
     @Before
     public void setup() throws Throwable {
-        term10233 = new Integer(0);
+        term10234 = new Integer(0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KComboBox_init_13057080237 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term10233;
+        args[1] = term10234;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

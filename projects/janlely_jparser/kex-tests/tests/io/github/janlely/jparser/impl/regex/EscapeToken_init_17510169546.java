@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class EscapeToken_init_17510169546 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term8708;
+     Object term18840;
 
     public EscapeToken_init_17510169546() {
     }
@@ -32,7 +32,7 @@ public class EscapeToken_init_17510169546 {
 
     @Before
     public void setup() throws Throwable {
-        term8708 = new Integer(0);
+        term18840 = new Integer(0);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class EscapeToken_init_17510169546 {
         argTypes[2] = Class.forName("java.util.function.Predicate");
         Object[] args = new Object[3];
         args[0] = null;
-        args[1] = term8708;
+        args[1] = term18840;
         args[2] = null;
         Object instance = callConstructor(klass, argTypes, args);
     }

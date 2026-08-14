@@ -1,6 +1,6 @@
 package com.org.controller;
 
-import java.util.Base64;
+import Decoder.BASE64Encoder;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
 import com.auth0.jwt.interfaces.Claim;
@@ -198,7 +198,7 @@ public class UserController {
         UserMeeting userMeeting = null;
         List<XSSFPictureData> pictures = (List<XSSFPictureData>) workbook.getAllPictures();
         // 对字节数组Base64编码
-        Base64.Encoder encoder = Base64.getEncoder();
+        BASE64Encoder encoder = new BASE64Encoder();
         for(int rowNum=1; rowNum<rowCount; rowNum++) {
             Row rowData = sheet.getRow(rowNum);
             newUser = new User();
@@ -265,7 +265,7 @@ public class UserController {
                 /*用户人脸位置,如果是老用户，不对他进行注册但会更新人脸头像*/
                 newUser.setFaceUrl(filemap.get("src")+filemap.get("picName"));
                 /*进行编码*/
-                base64str = Base64.getEncoder().encodeToString(Objects.requireNonNull(picData));
+                base64str = encoder.encode(Objects.requireNonNull(picData));
             }
             if(flag) {
                 userService.save(newUser);                     //往用户表插入数据

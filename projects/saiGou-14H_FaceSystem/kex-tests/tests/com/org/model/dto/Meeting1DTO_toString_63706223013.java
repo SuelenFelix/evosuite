@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class Meeting1DTO_toString_63706223013 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4374;
+     Object term4373;
 
     public Meeting1DTO_toString_63706223013() {
     }
@@ -32,12 +32,12 @@ public class Meeting1DTO_toString_63706223013 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term4375 = new Integer(1844345719);
-        term4374 = newInstance(Class.forName("com.org.model.dto.Meeting1DTO"));
-        setField(term4374, term4374.getClass(), "userid", term4375);
-        setField(term4374, term4374.getClass(), "host", "qTRnuuLERk");
-        setField(term4374, term4374.getClass(), "meetingname", "ieCQQDUgWu");
-        setField(term4374, term4374.getClass(), "meetingroom", "tIHHXpuCOh");
+        Integer term4374 = new Integer(1844345719);
+        term4373 = newInstance(Class.forName("com.org.model.dto.Meeting1DTO"));
+        setField(term4373, term4373.getClass(), "userid", term4374);
+        setField(term4373, term4373.getClass(), "host", "qTRnuuLERk");
+        setField(term4373, term4373.getClass(), "meetingname", "ieCQQDUgWu");
+        setField(term4373, term4373.getClass(), "meetingroom", "tIHHXpuCOh");
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Meeting1DTO_toString_63706223013 {
         Class<?> klass = Class.forName("com.org.model.dto.Meeting1DTO");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term4374, args);
+        callMethod(klass, "toString", argTypes, term4373, args);
     }
 
 };

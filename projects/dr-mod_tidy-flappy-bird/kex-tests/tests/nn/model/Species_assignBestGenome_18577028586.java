@@ -103,7 +103,7 @@ public class Species_assignBestGenome_18577028586 {
         setField(term4990, term4990.getClass(), "nodeInnovator", term4999);
         setIntField(term5001, term5001.getClass(), "counter", 100);
         setField(term4990, term4990.getClass(), "connectionInnovator", term5001);
-        setLongField(term5004, term5004.getClass(), "value", 279001617269647L);
+        setLongField(term5004, term5004.getClass(), "value", 34344839636037L);
         setField(term5003, term5003.getClass(), "seed", term5004);
         setDoubleField(term5003, term5003.getClass(), "nextNextGaussian", 0.40387522930100916);
         setBooleanField(term5003, term5003.getClass(), "haveNextNextGaussian", false);

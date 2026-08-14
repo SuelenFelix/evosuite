@@ -1,16 +1,16 @@
-2026-06-29 06:20:11.597 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/sofieneBK_Hands-on-ci-cd-for-springboot-apps/target/classes
-2026-06-29 06:20:11.677 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 06:20:11.758 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 06:20:12.695 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 06:20:13.224 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/dev/cicd/data/controller/*
-2026-06-29 06:20:13.225 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 06:20:13.246 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/sofieneBK_Hands-on-ci-cd-for-springboot-apps/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 06:20:13.276 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/sofieneBK_Hands-on-ci-cd-for-springboot-apps/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 37307 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/sofieneBK_Hands-on-ci-cd-for-springboot-apps/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 06:20:13.288 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 06:21:53.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::<init>(): void
-2026-06-29 06:21:53.328 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::<init>(): void
+2026-08-12 09:32:54.114 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/sofieneBK_Hands-on-ci-cd-for-springboot-apps/target/classes
+2026-08-12 09:32:54.202 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 09:32:54.289 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 09:32:55.357 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 09:32:55.975 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/dev/cicd/data/controller/*
+2026-08-12 09:32:55.977 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 09:32:55.997 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/sofieneBK_Hands-on-ci-cd-for-springboot-apps/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 09:32:56.030 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/sofieneBK_Hands-on-ci-cd-for-springboot-apps/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 41301 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/sofieneBK_Hands-on-ci-cd-for-springboot-apps/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 09:32:56.044 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 09:34:36.085 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::<init>(): void
+2026-08-12 09:34:36.085 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,7 +20,7 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 06:21:53.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.089 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/dev/cicd/data/controller/DataController::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -56,7 +56,7 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 06:21:53.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/dev/cicd/data/controller/DataController::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -92,15 +92,15 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 06:21:53.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::<init>(): void: null
-2026-06-29 06:21:53.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String
-2026-06-29 06:21:53.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String
+2026-08-12 09:34:36.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::<init>(): void: null
+2026-08-12 09:34:36.090 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String
+2026-08-12 09:34:36.090 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return "HEALTH CHECK OK!"
-2026-06-29 06:21:53.333 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -135,7 +135,7 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:21:53.334 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -170,15 +170,15 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:21:53.334 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String: null
-2026-06-29 06:21:53.334 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::version(): java/lang/String
-2026-06-29 06:21:53.334 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::version(): java/lang/String
+2026-08-12 09:34:36.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String: null
+2026-08-12 09:34:36.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::version(): java/lang/String
+2026-08-12 09:34:36.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::version(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return "The actual version is 1.0.0"
-2026-06-29 06:21:53.334 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/dev/cicd/data/controller/DataController::version(): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -213,7 +213,7 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:21:53.335 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/dev/cicd/data/controller/DataController::version(): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -248,9 +248,9 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:21:53.335 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::version(): java/lang/String: null
-2026-06-29 06:21:53.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode
-2026-06-29 06:21:53.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode
+2026-08-12 09:34:36.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::version(): java/lang/String: null
+2026-08-12 09:34:36.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode
+2026-08-12 09:34:36.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -331,7 +331,7 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 
 %if.then0: 	//predecessors %label3
 	return %43
-2026-06-29 06:21:53.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -366,7 +366,7 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:21:53.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -401,9 +401,9 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:21:53.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode: null
-2026-06-29 06:21:53.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode
-2026-06-29 06:21:53.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode
+2026-08-12 09:34:36.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode: null
+2026-08-12 09:34:36.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode
+2026-08-12 09:34:36.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -468,7 +468,7 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 
 %if.then0: 	//predecessors %label3
 	return %33
-2026-06-29 06:21:53.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -503,7 +503,7 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:21:53.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:34:36.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -538,11 +538,11 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.Json
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:21:53.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode: null
-2026-06-29 06:21:53.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::<init>(): void processing is finished normally
-2026-06-29 06:21:53.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String processing is finished normally
-2026-06-29 06:21:53.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::version(): java/lang/String processing is finished normally
-2026-06-29 06:21:53.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode processing is finished normally
-2026-06-29 06:21:53.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode processing is finished normally
-2026-06-29 06:21:53.339 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 06:21:53.339 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 09:34:36.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode: null
+2026-08-12 09:34:36.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::<init>(): void processing is finished normally
+2026-08-12 09:34:36.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::healthCheck(): java/lang/String processing is finished normally
+2026-08-12 09:34:36.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::version(): java/lang/String processing is finished normally
+2026-08-12 09:34:36.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::getRandomNations(): com/fasterxml/jackson/databind/JsonNode processing is finished normally
+2026-08-12 09:34:36.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/dev/cicd/data/controller/DataController::getRandomCurrencies(): com/fasterxml/jackson/databind/JsonNode processing is finished normally
+2026-08-12 09:34:36.096 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 09:34:36.096 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

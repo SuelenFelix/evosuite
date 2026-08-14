@@ -119,7 +119,7 @@ public class Display_keyTyped_14078200058 {
         setIntField(term1436, term1436.getClass(), "yOpeningEnd", 0);
         setIntField(term1436, term1436.getClass(), "width", 0);
         setField(term1425, term1425.getClass(), "lastPipe", term1436);
-        setLongField(term1442, term1442.getClass(), "value", 213945416403393L);
+        setLongField(term1442, term1442.getClass(), "value", 115740329661390L);
         setField(term1441, term1441.getClass(), "seed", term1442);
         setDoubleField(term1441, term1441.getClass(), "nextNextGaussian", 0.0);
         setBooleanField(term1441, term1441.getClass(), "haveNextNextGaussian", false);

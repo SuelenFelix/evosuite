@@ -23,7 +23,7 @@ import java.lang.Object;
 
 public class TrackUnitService_reject_93343009625 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3446;
+     Object term3422;
 
     public TrackUnitService_reject_93343009625() {
     }
@@ -34,20 +34,20 @@ public class TrackUnitService_reject_93343009625 {
 
     @Before
     public void setup() throws Throwable {
-        Long term3449 = new Long(-5476826692763582090L);
-        Long term3452 = new Long(-872011222785455006L);
-        Long term3455 = new Long(-316468845751588286L);
-        Long term3458 = new Long(5127676408959197577L);
-        term3446 = new LinkedList();
-        ((LinkedList) term3446).add(term3449);
-        ((LinkedList) term3446).add(term3452);
-        ((LinkedList) term3446).add(term3455);
-        ((LinkedList) term3446).add(term3458);
-        ((LinkedList) term3446).add((Object)null);
-        ((LinkedList) term3446).add((Object)null);
-        ((LinkedList) term3446).add((Object)null);
-        ((LinkedList) term3446).add((Object)null);
-        ((LinkedList) term3446).add((Object)null);
+        Long term3425 = new Long(-5476826692763582090L);
+        Long term3428 = new Long(-872011222785455006L);
+        Long term3431 = new Long(-316468845751588286L);
+        Long term3434 = new Long(5127676408959197577L);
+        term3422 = new LinkedList();
+        ((LinkedList) term3422).add(term3425);
+        ((LinkedList) term3422).add(term3428);
+        ((LinkedList) term3422).add(term3431);
+        ((LinkedList) term3422).add(term3434);
+        ((LinkedList) term3422).add((Object)null);
+        ((LinkedList) term3422).add((Object)null);
+        ((LinkedList) term3422).add((Object)null);
+        ((LinkedList) term3422).add((Object)null);
+        ((LinkedList) term3422).add((Object)null);
     }
 
     @Test
@@ -57,7 +57,7 @@ public class TrackUnitService_reject_93343009625 {
         argTypes[0] = Class.forName("java.util.List");
         argTypes[1] = Class.forName("java.lang.String");
         Object[] args = new Object[2];
-        args[0] = term3446;
+        args[0] = term3422;
         args[1] = "nghfqDXyCG";
         callMethod(klass, "reject", argTypes, null, args);
     }

@@ -20,8 +20,8 @@ import static org.junit.Assert.assertTrue;
 
 public class ChartIndexInfo_equals_107823145017 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term161;
-     Object term170;
+     Object term75880;
+     Object term75889;
 
     public ChartIndexInfo_equals_107823145017() {
     }
@@ -32,16 +32,16 @@ public class ChartIndexInfo_equals_107823145017 {
 
     @Before
     public void setup() throws Throwable {
-        term161 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
-        setIntField(term161, term161.getClass(), "dataStartRow", 71190297);
-        setIntField(term161, term161.getClass(), "dataEndRow", 1202361360);
-        setIntField(term161, term161.getClass(), "dataStartColumn", -2015048153);
-        setIntField(term161, term161.getClass(), "dataEndColumn", -2063457669);
-        setIntField(term161, term161.getClass(), "categoryStartRow", -1222006000);
-        setIntField(term161, term161.getClass(), "categoryEndRow", 2095798786);
-        setIntField(term161, term161.getClass(), "categoryStartColumn", -1565502840);
-        setIntField(term161, term161.getClass(), "categoryEndColumn", 344323424);
-        term170 = newInstance(Class.forName("java.lang.Object"));
+        term75880 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
+        setIntField(term75880, term75880.getClass(), "dataStartRow", -1813280137);
+        setIntField(term75880, term75880.getClass(), "dataEndRow", 719656595);
+        setIntField(term75880, term75880.getClass(), "dataStartColumn", -1516995753);
+        setIntField(term75880, term75880.getClass(), "dataEndColumn", -390501023);
+        setIntField(term75880, term75880.getClass(), "categoryStartRow", -1667482829);
+        setIntField(term75880, term75880.getClass(), "categoryEndRow", 1116576792);
+        setIntField(term75880, term75880.getClass(), "categoryStartColumn", -942194446);
+        setIntField(term75880, term75880.getClass(), "categoryEndColumn", -938508470);
+        term75889 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -50,8 +50,8 @@ public class ChartIndexInfo_equals_107823145017 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term170;
-        callMethod(klass, "equals", argTypes, term161, args);
+        args[0] = term75889;
+        callMethod(klass, "equals", argTypes, term75880, args);
     }
 
 };

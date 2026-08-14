@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class XmlNode_canEqual_209861712529 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1837;
+     Object term6702;
 
     public XmlNode_canEqual_209861712529() {
     }
@@ -31,11 +31,11 @@ public class XmlNode_canEqual_209861712529 {
 
     @Before
     public void setup() throws Throwable {
-        term1837 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
-        setField(term1837, term1837.getClass(), "name", null);
-        setField(term1837, term1837.getClass(), "props", null);
-        setField(term1837, term1837.getClass(), "children", null);
-        setField(term1837, term1837.getClass(), "content", null);
+        term6702 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
+        setField(term6702, term6702.getClass(), "name", null);
+        setField(term6702, term6702.getClass(), "props", null);
+        setField(term6702, term6702.getClass(), "children", null);
+        setField(term6702, term6702.getClass(), "content", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class XmlNode_canEqual_209861712529 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "canEqual", argTypes, term1837, args);
+        callMethod(klass, "canEqual", argTypes, term6702, args);
     }
 
 };

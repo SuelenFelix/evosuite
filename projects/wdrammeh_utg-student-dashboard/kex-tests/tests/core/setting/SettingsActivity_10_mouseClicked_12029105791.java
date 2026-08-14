@@ -246,7 +246,7 @@ public class SettingsActivity_10_mouseClicked_12029105791 {
         setField(term5508, term5508.getClass(), "keySet", null);
         setField(term5508, term5508.getClass(), "values", null);
         setField(term5497, term5497.getClass(), "moduleToReader", term5508);
-        setLongField(term5513, term5513.getClass(), "timestamp", 163538403L);
+        setLongField(term5513, term5513.getClass(), "timestamp", 51810171L);
         setField(term5513, term5513.getClass(), "referent", null);
         setField(term5513, term5513.getClass(), "queue", null);
         setField(term5513, term5513.getClass(), "next", null);
@@ -529,11 +529,11 @@ public class SettingsActivity_10_mouseClicked_12029105791 {
         setIntField(term5656, term5656.getClass(), "clickCount", 1598895173);
         setBooleanField(term5656, term5656.getClass(), "causedByTouchEvent", false);
         setIntField(term5656, term5656.getClass(), "button", 1830648570);
-        setBooleanField(term5656, term5656.getClass(), "popupTrigger", true);
+        setBooleanField(term5656, term5656.getClass(), "popupTrigger", false);
         setBooleanField(term5656, term5656.getClass(), "shouldExcludeButtonFromExtModifiers", false);
         setLongField(term5656, term5656.getClass(), "when", -5476826692763582090L);
         setIntField(term5656, term5656.getClass(), "modifiers", -227365013);
-        setBooleanField(term5656, term5656.getClass(), "canAccessSystemClipboard", false);
+        setBooleanField(term5656, term5656.getClass(), "canAccessSystemClipboard", true);
         setByteElement(term5669, 0, (byte) 67);
         setByteElement(term5669, 1, (byte) 78);
         setByteElement(term5669, 2, (byte) 87);
@@ -544,7 +544,7 @@ public class SettingsActivity_10_mouseClicked_12029105791 {
         setByteElement(term5669, 7, (byte) -112);
         setField(term5656, term5656.getClass(), "bdata", term5669);
         setIntField(term5656, term5656.getClass(), "id", 11724947);
-        setBooleanField(term5656, term5656.getClass(), "consumed", true);
+        setBooleanField(term5656, term5656.getClass(), "consumed", false);
         setField(term5683, term5683.getClass(), "location", null);
         setField(term5683, term5683.getClass(), "signers", null);
         setField(term5683, term5683.getClass(), "certs", null);
@@ -608,8 +608,8 @@ public class SettingsActivity_10_mouseClicked_12029105791 {
         setField(term5702, term5702.getClass(), "key", null);
         setElement(term5681, 6, term5702);
         setField(term5680, term5680.getClass(), "context", term5681);
-        setBooleanField(term5680, term5680.getClass(), "isPrivileged", false);
-        setBooleanField(term5680, term5680.getClass(), "isAuthorized", false);
+        setBooleanField(term5680, term5680.getClass(), "isPrivileged", true);
+        setBooleanField(term5680, term5680.getClass(), "isAuthorized", true);
         setField(term5707, term5707.getClass(), "context", null);
         setBooleanField(term5707, term5707.getClass(), "isPrivileged", false);
         setBooleanField(term5707, term5707.getClass(), "isAuthorized", false);
@@ -628,7 +628,7 @@ public class SettingsActivity_10_mouseClicked_12029105791 {
         setBooleanField(term5680, term5680.getClass(), "isLimited", false);
         setField(term5680, term5680.getClass(), "limitedContext", null);
         setField(term5656, term5656.getClass(), "acc", term5680);
-        setBooleanField(term5656, term5656.getClass(), "focusManagerIsDispatching", true);
+        setBooleanField(term5656, term5656.getClass(), "focusManagerIsDispatching", false);
         setBooleanField(term5656, term5656.getClass(), "isPosted", false);
         setBooleanField(term5656, term5656.getClass(), "isSystemGenerated", true);
         setField(term5656, term5656.getClass(), "source", term5717);

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Admin_getLastName_58620160618 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term20182;
+     Object term32306;
 
     public Admin_getLastName_58620160618() {
     }
@@ -31,12 +31,12 @@ public class Admin_getLastName_58620160618 {
 
     @Before
     public void setup() throws Throwable {
-        term20182 = newInstance(Class.forName("com.cg.freelanceapp.entities.Admin"));
-        setField(term20182, term20182.getClass(), "id", null);
-        setField(term20182, term20182.getClass(), "userName", null);
-        setField(term20182, term20182.getClass(), "firstName", null);
-        setField(term20182, term20182.getClass(), "lastName", null);
-        setField(term20182, term20182.getClass(), "password", null);
+        term32306 = newInstance(Class.forName("com.cg.freelanceapp.entities.Admin"));
+        setField(term32306, term32306.getClass(), "id", null);
+        setField(term32306, term32306.getClass(), "userName", null);
+        setField(term32306, term32306.getClass(), "firstName", null);
+        setField(term32306, term32306.getClass(), "lastName", null);
+        setField(term32306, term32306.getClass(), "password", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Admin_getLastName_58620160618 {
         Class<?> klass = Class.forName("com.cg.freelanceapp.entities.Admin");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getLastName", argTypes, term20182, args);
+        callMethod(klass, "getLastName", argTypes, term32306, args);
     }
 
 };

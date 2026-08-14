@@ -40,7 +40,7 @@ public class Genome_init_11716018280 {
         setIntField(term5089, term5089.getClass(), "counter", 100);
         term5091 = newInstance(Class.forName("java.util.Random"));
         Object term5092 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
-        setLongField(term5092, term5092.getClass(), "value", 220794019384176L);
+        setLongField(term5092, term5092.getClass(), "value", 255199994074783L);
         setField(term5091, term5091.getClass(), "seed", term5092);
         setDoubleField(term5091, term5091.getClass(), "nextNextGaussian", 0.6391065297971349);
         setBooleanField(term5091, term5091.getClass(), "haveNextNextGaussian", true);

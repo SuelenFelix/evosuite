@@ -21,9 +21,9 @@ import java.lang.Integer;
 
 public class Movie_copy_73924253648 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24667;
-     Object term24670;
-     Object term24672;
+     Object term24666;
+     Object term24669;
+     Object term24671;
 
     public Movie_copy_73924253648() {
     }
@@ -34,19 +34,19 @@ public class Movie_copy_73924253648 {
 
     @Before
     public void setup() throws Throwable {
-        term24667 = newInstance(Class.forName("com.folksdev.movie.model.Movie"));
-        setField(term24667, term24667.getClass(), "id", null);
-        setField(term24667, term24667.getClass(), "title", null);
-        setField(term24667, term24667.getClass(), "description", null);
-        setField(term24667, term24667.getClass(), "imdbUrl", null);
-        setIntField(term24667, term24667.getClass(), "duration", 0);
-        setIntField(term24667, term24667.getClass(), "featuredYear", 0);
-        setField(term24667, term24667.getClass(), "genresTypes", null);
-        setField(term24667, term24667.getClass(), "actors", null);
-        setField(term24667, term24667.getClass(), "director", null);
-        setField(term24667, term24667.getClass(), "publisher", null);
-        term24670 = new Integer(0);
-        term24672 = new Integer(0);
+        term24666 = newInstance(Class.forName("com.folksdev.movie.model.Movie"));
+        setField(term24666, term24666.getClass(), "id", null);
+        setField(term24666, term24666.getClass(), "title", null);
+        setField(term24666, term24666.getClass(), "description", null);
+        setField(term24666, term24666.getClass(), "imdbUrl", null);
+        setIntField(term24666, term24666.getClass(), "duration", 0);
+        setIntField(term24666, term24666.getClass(), "featuredYear", 0);
+        setField(term24666, term24666.getClass(), "genresTypes", null);
+        setField(term24666, term24666.getClass(), "actors", null);
+        setField(term24666, term24666.getClass(), "director", null);
+        setField(term24666, term24666.getClass(), "publisher", null);
+        term24669 = new Integer(0);
+        term24671 = new Integer(0);
     }
 
     @Test
@@ -68,13 +68,13 @@ public class Movie_copy_73924253648 {
         args[1] = null;
         args[2] = null;
         args[3] = null;
-        args[4] = term24670;
-        args[5] = term24672;
+        args[4] = term24669;
+        args[5] = term24671;
         args[6] = null;
         args[7] = null;
         args[8] = null;
         args[9] = null;
-        callMethod(klass, "copy", argTypes, term24667, args);
+        callMethod(klass, "copy", argTypes, term24666, args);
     }
 
 };

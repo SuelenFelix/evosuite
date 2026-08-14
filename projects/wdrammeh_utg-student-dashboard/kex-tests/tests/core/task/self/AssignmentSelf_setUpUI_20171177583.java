@@ -355,7 +355,7 @@ public class AssignmentSelf_setUpUI_20171177583 {
         setField(term1435, term1435.getClass(), "keySet", null);
         setField(term1435, term1435.getClass(), "values", null);
         setField(term1424, term1424.getClass(), "moduleToReader", term1435);
-        setLongField(term1440, term1440.getClass(), "timestamp", 164120230L);
+        setLongField(term1440, term1440.getClass(), "timestamp", 52397718L);
         setField(term1440, term1440.getClass(), "referent", null);
         setField(term1440, term1440.getClass(), "queue", null);
         setField(term1440, term1440.getClass(), "next", null);

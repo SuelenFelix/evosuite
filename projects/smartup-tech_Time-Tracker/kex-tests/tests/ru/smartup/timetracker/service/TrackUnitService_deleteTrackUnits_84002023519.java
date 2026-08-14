@@ -21,7 +21,7 @@ import java.util.LinkedList;
 
 public class TrackUnitService_deleteTrackUnits_84002023519 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3410;
+     Object term3386;
 
     public TrackUnitService_deleteTrackUnits_84002023519() {
     }
@@ -32,7 +32,7 @@ public class TrackUnitService_deleteTrackUnits_84002023519 {
 
     @Before
     public void setup() throws Throwable {
-        term3410 = new LinkedList();
+        term3386 = new LinkedList();
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TrackUnitService_deleteTrackUnits_84002023519 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.util.List");
         Object[] args = new Object[1];
-        args[0] = term3410;
+        args[0] = term3386;
         callMethod(klass, "deleteTrackUnits", argTypes, null, args);
     }
 

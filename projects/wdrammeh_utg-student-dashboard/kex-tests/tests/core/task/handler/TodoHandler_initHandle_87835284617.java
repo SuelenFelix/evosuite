@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TodoHandler_initHandle_87835284617 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term16981;
+     Object term16973;
 
     public TodoHandler_initHandle_87835284617() {
     }
@@ -31,7 +31,7 @@ public class TodoHandler_initHandle_87835284617 {
 
     @Before
     public void setup() throws Throwable {
-        term16981 = newInstance(Class.forName("core.task.handler.TodoHandler"));
+        term16973 = newInstance(Class.forName("core.task.handler.TodoHandler"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TodoHandler_initHandle_87835284617 {
         argTypes[0] = Class.forName("proto.KButton");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "initHandle", argTypes, term16981, args);
+        callMethod(klass, "initHandle", argTypes, term16973, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class GatchaUser_GatchaUserBuilder_authority_78946972610 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2132;
+     Object term2136;
 
     public GatchaUser_GatchaUserBuilder_authority_78946972610() {
     }
@@ -31,12 +31,12 @@ public class GatchaUser_GatchaUserBuilder_authority_78946972610 {
 
     @Before
     public void setup() throws Throwable {
-        term2132 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
-        setField(term2132, term2132.getClass(), "id", null);
-        setField(term2132, term2132.getClass(), "authority", null);
-        setField(term2132, term2132.getClass(), "email", null);
-        setField(term2132, term2132.getClass(), "password", null);
-        setBooleanField(term2132, term2132.getClass(), "enabled", false);
+        term2136 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
+        setField(term2136, term2136.getClass(), "id", null);
+        setField(term2136, term2136.getClass(), "authority", null);
+        setField(term2136, term2136.getClass(), "email", null);
+        setField(term2136, term2136.getClass(), "password", null);
+        setBooleanField(term2136, term2136.getClass(), "enabled", false);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class GatchaUser_GatchaUserBuilder_authority_78946972610 {
         argTypes[0] = Class.forName("codeit.gatcha.domain.user.entity.Authority");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "authority", argTypes, term2132, args);
+        callMethod(klass, "authority", argTypes, term2136, args);
     }
 
 };

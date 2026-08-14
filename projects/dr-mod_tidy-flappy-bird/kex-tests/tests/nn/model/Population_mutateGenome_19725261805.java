@@ -89,7 +89,7 @@ public class Population_mutateGenome_19725261805 {
         Object term3941 = newInstance(Class.forName("nn.model.NodeInnovator"));
         setField(term3889, term3889.getClass(), "genomes", term3890);
         setField(term3889, term3889.getClass(), "evaluator", null);
-        setLongField(term3909, term3909.getClass(), "value", 281336128039340L);
+        setLongField(term3909, term3909.getClass(), "value", 22993414273318L);
         setField(term3908, term3908.getClass(), "seed", term3909);
         setDoubleField(term3908, term3908.getClass(), "nextNextGaussian", 0.1882701721081318);
         setBooleanField(term3908, term3908.getClass(), "haveNextNextGaussian", true);
@@ -103,7 +103,7 @@ public class Population_mutateGenome_19725261805 {
         setField(term3920, term3920.getClass(), "nodeInnovator", term3929);
         setIntField(term3931, term3931.getClass(), "counter", 100);
         setField(term3920, term3920.getClass(), "connectionInnovator", term3931);
-        setLongField(term3934, term3934.getClass(), "value", 238950159284746L);
+        setLongField(term3934, term3934.getClass(), "value", 93412999280859L);
         setField(term3933, term3933.getClass(), "seed", term3934);
         setDoubleField(term3933, term3933.getClass(), "nextNextGaussian", 0.20230843747579808);
         setBooleanField(term3933, term3933.getClass(), "haveNextNextGaussian", true);
@@ -215,7 +215,7 @@ public class Population_mutateGenome_19725261805 {
         setField(term3943, term3943.getClass(), "nodeInnovator", term3995);
         setIntField(term3997, term3997.getClass(), "counter", 100);
         setField(term3943, term3943.getClass(), "connectionInnovator", term3997);
-        setLongField(term4000, term4000.getClass(), "value", 164952354143530L);
+        setLongField(term4000, term4000.getClass(), "value", 125860408487199L);
         setField(term3999, term3999.getClass(), "seed", term4000);
         setDoubleField(term3999, term3999.getClass(), "nextNextGaussian", 0.12331301462770328);
         setBooleanField(term3999, term3999.getClass(), "haveNextNextGaussian", false);

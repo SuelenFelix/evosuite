@@ -363,7 +363,7 @@ public class TodoSelf_initializeTimer_21457324312 {
         setField(term80198, term80198.getClass(), "keySet", null);
         setField(term80198, term80198.getClass(), "values", null);
         setField(term80187, term80187.getClass(), "moduleToReader", term80198);
-        setLongField(term80203, term80203.getClass(), "timestamp", 164137941L);
+        setLongField(term80203, term80203.getClass(), "timestamp", 52416658L);
         setField(term80203, term80203.getClass(), "referent", null);
         setField(term80203, term80203.getClass(), "queue", null);
         setField(term80203, term80203.getClass(), "next", null);

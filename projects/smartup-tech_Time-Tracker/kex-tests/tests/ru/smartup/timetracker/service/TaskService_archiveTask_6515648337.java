@@ -21,7 +21,7 @@ import java.lang.Long;
 
 public class TaskService_archiveTask_6515648337 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term22037;
+     Object term22177;
 
     public TaskService_archiveTask_6515648337() {
     }
@@ -32,7 +32,7 @@ public class TaskService_archiveTask_6515648337 {
 
     @Before
     public void setup() throws Throwable {
-        term22037 = new Long(-4920224193275732920L);
+        term22177 = new Long(-4920224193275732920L);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TaskService_archiveTask_6515648337 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = long.class;
         Object[] args = new Object[1];
-        args[0] = term22037;
+        args[0] = term22177;
         callMethod(klass, "archiveTask", argTypes, null, args);
     }
 

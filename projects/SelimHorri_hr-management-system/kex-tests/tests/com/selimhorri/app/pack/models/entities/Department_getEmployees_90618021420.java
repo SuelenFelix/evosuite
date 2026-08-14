@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Department_getEmployees_90618021420 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5719;
+     Object term5728;
 
     public Department_getEmployees_90618021420() {
     }
@@ -31,11 +31,11 @@ public class Department_getEmployees_90618021420 {
 
     @Before
     public void setup() throws Throwable {
-        term5719 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        setField(term5719, term5719.getClass(), "deptno", null);
-        setField(term5719, term5719.getClass(), "dname", null);
-        setField(term5719, term5719.getClass(), "loc", null);
-        setField(term5719, term5719.getClass(), "employees", null);
+        term5728 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        setField(term5728, term5728.getClass(), "deptno", null);
+        setField(term5728, term5728.getClass(), "dname", null);
+        setField(term5728, term5728.getClass(), "loc", null);
+        setField(term5728, term5728.getClass(), "employees", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class Department_getEmployees_90618021420 {
         Class<?> klass = Class.forName("com.selimhorri.app.pack.models.entities.Department");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getEmployees", argTypes, term5719, args);
+        callMethod(klass, "getEmployees", argTypes, term5728, args);
     }
 
 };

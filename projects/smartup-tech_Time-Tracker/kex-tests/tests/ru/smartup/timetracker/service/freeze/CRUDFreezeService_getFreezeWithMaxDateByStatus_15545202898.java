@@ -33,10 +33,10 @@ public class CRUDFreezeService_getFreezeWithMaxDateByStatus_15545202898 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term7964 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.FreezeRecordStatusEnum");
-        Field term7963 = ((Class) term7964).getDeclaredField((String) "IN_PROGRESS");
-        ((Field) term7963).setAccessible(true);
-        enum16 = ((Field) term7963).get((Object) null);
+        Class<? extends Object> term8149 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.FreezeRecordStatusEnum");
+        Field term8148 = ((Class) term8149).getDeclaredField((String) "IN_PROGRESS");
+        ((Field) term8148).setAccessible(true);
+        enum16 = ((Field) term8148).get((Object) null);
     }
 
     @Test

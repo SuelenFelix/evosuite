@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class Gender_init_18300599553 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24709;
+     Object term24708;
 
     public Gender_init_18300599553() {
     }
@@ -32,7 +32,7 @@ public class Gender_init_18300599553 {
 
     @Before
     public void setup() throws Throwable {
-        term24709 = new Integer(0);
+        term24708 = new Integer(0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class Gender_init_18300599553 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term24709;
+        args[1] = term24708;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

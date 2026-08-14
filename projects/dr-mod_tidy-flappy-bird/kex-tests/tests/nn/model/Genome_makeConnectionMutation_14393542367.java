@@ -136,7 +136,7 @@ public class Genome_makeConnectionMutation_14393542367 {
         setField(term6232, term6232.getClass(), "nodeInnovator", term6285);
         setIntField(term6287, term6287.getClass(), "counter", 100);
         setField(term6232, term6232.getClass(), "connectionInnovator", term6287);
-        setLongField(term6290, term6290.getClass(), "value", 88076447422985L);
+        setLongField(term6290, term6290.getClass(), "value", 31064646993302L);
         setField(term6289, term6289.getClass(), "seed", term6290);
         setDoubleField(term6289, term6289.getClass(), "nextNextGaussian", 0.2351393567986032);
         setBooleanField(term6289, term6289.getClass(), "haveNextNextGaussian", false);

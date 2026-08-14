@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KPanel_init_13781667543 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term36956;
+     Object term36989;
 
     public KPanel_init_13781667543() {
     }
@@ -31,9 +31,9 @@ public class KPanel_init_13781667543 {
 
     @Before
     public void setup() throws Throwable {
-        term36956 = newInstance(Class.forName("java.awt.Dimension"));
-        setIntField(term36956, term36956.getClass(), "width", 1209799204);
-        setIntField(term36956, term36956.getClass(), "height", 1094107751);
+        term36989 = newInstance(Class.forName("java.awt.Dimension"));
+        setIntField(term36989, term36989.getClass(), "width", 1209799204);
+        setIntField(term36989, term36989.getClass(), "height", 1094107751);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class KPanel_init_13781667543 {
         argTypes[1] = Class.forName("java.awt.Dimension");
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term36956;
+        args[1] = term36989;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

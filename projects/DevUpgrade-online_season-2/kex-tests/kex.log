@@ -1,16 +1,16 @@
-2026-06-28 18:38:13.476 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/DevUpgrade-online_season-2/target/classes
-2026-06-28 18:38:13.581 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 18:38:13.644 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 18:38:14.540 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 18:38:15.137 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package online/devupgrade/sezon2/utilshelpers/*
-2026-06-28 18:38:15.138 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 18:38:15.149 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/DevUpgrade-online_season-2/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 18:38:15.180 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/DevUpgrade-online_season-2/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 45477 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/DevUpgrade-online_season-2/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 18:38:15.194 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 18:39:55.226 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::<init>(): void
-2026-06-28 18:39:55.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::<init>(): void
+2026-08-11 08:05:59.773 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/DevUpgrade-online_season-2/target/classes
+2026-08-11 08:05:59.875 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 08:05:59.938 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 08:06:00.910 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 08:06:01.442 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package online/devupgrade/sezon2/utilshelpers/*
+2026-08-11 08:06:01.443 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 08:06:01.462 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/DevUpgrade-online_season-2/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 08:06:01.493 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/DevUpgrade-online_season-2/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 40465 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/DevUpgrade-online_season-2/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 08:06:01.507 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 08:07:41.537 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::<init>(): void
+2026-08-11 08:07:41.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,34 +20,34 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 18:39:55.698 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383400
-2026-06-28 18:39:55.703 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::get(java/lang/String, java/lang/Integer, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): java/util/List
-2026-06-28 18:39:55.703 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::get(java/lang/String, java/lang/Integer, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): java/util/List
+2026-08-11 08:07:42.010 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383400
+2026-08-11 08:07:42.015 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::get(java/lang/String, java/lang/Integer, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): java/util/List
+2026-08-11 08:07:42.015 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::get(java/lang/String, java/lang/Integer, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return null
-2026-06-28 18:39:55.830 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_get_1509806961
-2026-06-28 18:39:55.831 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::save(java/lang/String, online/devupgrade/sezon2/dto/ProductCommand, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): void
-2026-06-28 18:39:55.831 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::save(java/lang/String, online/devupgrade/sezon2/dto/ProductCommand, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): void
+2026-08-11 08:07:42.140 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_get_1509806961
+2026-08-11 08:07:42.141 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::save(java/lang/String, online/devupgrade/sezon2/dto/ProductCommand, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): void
+2026-08-11 08:07:42.141 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::save(java/lang/String, online/devupgrade/sezon2/dto/ProductCommand, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): void
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return
-2026-06-28 18:39:55.919 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_save_18605003192
-2026-06-28 18:39:55.993 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383403
-2026-06-28 18:39:56.061 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_get_1509806964
-2026-06-28 18:39:56.124 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_save_18605003195
-2026-06-28 18:39:56.125 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::<init>(): void: null
-2026-06-28 18:39:56.126 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::get(java/lang/String, java/lang/Integer, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): java/util/List: null
-2026-06-28 18:39:56.126 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::save(java/lang/String, online/devupgrade/sezon2/dto/ProductCommand, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): void: null
-2026-06-28 18:39:56.126 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::<init>(): void processing is finished normally
-2026-06-28 18:39:56.126 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::get(java/lang/String, java/lang/Integer, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): java/util/List processing is finished normally
-2026-06-28 18:39:56.126 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::save(java/lang/String, online/devupgrade/sezon2/dto/ProductCommand, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): void processing is finished normally
-2026-06-28 18:39:56.131 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/SumProvider::<init>(): void
-2026-06-28 18:39:56.131 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/SumProvider::<init>(): void
+2026-08-11 08:07:42.243 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_save_18605003192
+2026-08-11 08:07:42.339 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383403
+2026-08-11 08:07:42.422 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_get_1509806964
+2026-08-11 08:07:42.488 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_save_18605003195
+2026-08-11 08:07:42.489 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::<init>(): void: null
+2026-08-11 08:07:42.489 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::get(java/lang/String, java/lang/Integer, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): java/util/List: null
+2026-08-11 08:07:42.489 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::save(java/lang/String, online/devupgrade/sezon2/dto/ProductCommand, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): void: null
+2026-08-11 08:07:42.490 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::<init>(): void processing is finished normally
+2026-08-11 08:07:42.490 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::get(java/lang/String, java/lang/Integer, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): java/util/List processing is finished normally
+2026-08-11 08:07:42.490 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper::save(java/lang/String, online/devupgrade/sezon2/dto/ProductCommand, online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel): void processing is finished normally
+2026-08-11 08:07:42.493 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/SumProvider::<init>(): void
+2026-08-11 08:07:42.493 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/SumProvider::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -57,9 +57,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 18:39:56.198 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_init_18628961160
-2026-06-28 18:39:56.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/SumProvider::add(java/lang/Float): void
-2026-06-28 18:39:56.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/SumProvider::add(java/lang/Float): void
+2026-08-11 08:07:42.562 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_init_18628961160
+2026-08-11 08:07:42.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/SumProvider::add(java/lang/Float): void
+2026-08-11 08:07:42.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/SumProvider::add(java/lang/Float): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -83,9 +83,9 @@
 
 %label0: 	//predecessors %bb3
 	return
-2026-06-28 18:39:56.268 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_add_9192079891
-2026-06-28 18:39:56.269 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/SumProvider::reset(): void
-2026-06-28 18:39:56.269 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/SumProvider::reset(): void
+2026-08-11 08:07:42.626 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_add_9192079891
+2026-08-11 08:07:42.627 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/SumProvider::reset(): void
+2026-08-11 08:07:42.627 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/SumProvider::reset(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -99,18 +99,18 @@
 
 %label0: 	//predecessors %bb1
 	return
-2026-06-28 18:39:56.347 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_reset_914426012
-2026-06-28 18:39:56.401 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_init_18628961163
-2026-06-28 18:39:56.457 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_add_9192079894
-2026-06-28 18:39:56.503 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_reset_914426015
-2026-06-28 18:39:56.504 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/SumProvider::<init>(): void: null
-2026-06-28 18:39:56.504 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/SumProvider::add(java/lang/Float): void: null
-2026-06-28 18:39:56.504 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/SumProvider::reset(): void: null
-2026-06-28 18:39:56.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/SumProvider::<init>(): void processing is finished normally
-2026-06-28 18:39:56.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/SumProvider::add(java/lang/Float): void processing is finished normally
-2026-06-28 18:39:56.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/SumProvider::reset(): void processing is finished normally
-2026-06-28 18:39:56.508 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::values(): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel[]
-2026-06-28 18:39:56.508 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::values(): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel[]
+2026-08-11 08:07:42.693 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_reset_914426012
+2026-08-11 08:07:42.741 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_init_18628961163
+2026-08-11 08:07:42.794 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_add_9192079894
+2026-08-11 08:07:42.838 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.SumProvider_reset_914426015
+2026-08-11 08:07:42.839 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/SumProvider::<init>(): void: null
+2026-08-11 08:07:42.839 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/SumProvider::add(java/lang/Float): void: null
+2026-08-11 08:07:42.839 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/SumProvider::reset(): void: null
+2026-08-11 08:07:42.839 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/SumProvider::<init>(): void processing is finished normally
+2026-08-11 08:07:42.839 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/SumProvider::add(java/lang/Float): void processing is finished normally
+2026-08-11 08:07:42.839 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/SumProvider::reset(): void processing is finished normally
+2026-08-11 08:07:42.843 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::values(): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel[]
+2026-08-11 08:07:42.843 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::values(): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -125,9 +125,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %5
-2026-06-28 18:39:56.570 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_values_15857528010
-2026-06-28 18:39:56.570 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::valueOf(java/lang/String): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel
-2026-06-28 18:39:56.571 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::valueOf(java/lang/String): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel
+2026-08-11 08:07:42.903 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_values_15857528010
+2026-08-11 08:07:42.904 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::valueOf(java/lang/String): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel
+2026-08-11 08:07:42.904 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::valueOf(java/lang/String): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -141,9 +141,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 18:39:56.613 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832041
-2026-06-28 18:39:56.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::<init>(java/lang/String, int): void
-2026-06-28 18:39:56.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::<init>(java/lang/String, int): void
+2026-08-11 08:07:42.946 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832041
+2026-08-11 08:07:42.947 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::<init>(java/lang/String, int): void
+2026-08-11 08:07:42.947 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::<init>(java/lang/String, int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -153,18 +153,18 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 18:39:56.656 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_init_2815839292
-2026-06-28 18:39:56.705 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_values_15857528013
-2026-06-28 18:39:56.746 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832044
-2026-06-28 18:39:56.786 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_init_2815839295
-2026-06-28 18:39:56.786 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::values(): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel[]: null
-2026-06-28 18:39:56.786 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::valueOf(java/lang/String): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel: null
-2026-06-28 18:39:56.787 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::<init>(java/lang/String, int): void: null
-2026-06-28 18:39:56.787 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::values(): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel[] processing is finished normally
-2026-06-28 18:39:56.787 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::valueOf(java/lang/String): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel processing is finished normally
-2026-06-28 18:39:56.787 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::<init>(java/lang/String, int): void processing is finished normally
-2026-06-28 18:39:56.794 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::<init>(): void
-2026-06-28 18:39:56.794 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::<init>(): void
+2026-08-11 08:07:42.990 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_init_2815839292
+2026-08-11 08:07:43.035 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_values_15857528013
+2026-08-11 08:07:43.079 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832044
+2026-08-11 08:07:43.119 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_init_2815839295
+2026-08-11 08:07:43.119 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::values(): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel[]: null
+2026-08-11 08:07:43.119 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::valueOf(java/lang/String): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel: null
+2026-08-11 08:07:43.119 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::<init>(java/lang/String, int): void: null
+2026-08-11 08:07:43.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::values(): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel[] processing is finished normally
+2026-08-11 08:07:43.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::valueOf(java/lang/String): online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel processing is finished normally
+2026-08-11 08:07:43.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DatabaseUtilsHelper$TransactionIsolationLevel::<init>(java/lang/String, int): void processing is finished normally
+2026-08-11 08:07:43.127 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::<init>(): void
+2026-08-11 08:07:43.127 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -183,9 +183,9 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 18:39:56.840 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_init_5964413020
-2026-06-28 18:39:56.841 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional
-2026-06-28 18:39:56.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional
+2026-08-11 08:07:43.170 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_init_5964413020
+2026-08-11 08:07:43.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional
+2026-08-11 08:07:43.172 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -237,15 +237,15 @@
 %goto0: 	//predecessors %bb7, %if.then0
 	%20 = phi {%bb7 -> %17; %if.then0 -> %18}
 	return %20
-2026-06-28 18:39:56.899 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702151
-2026-06-28 18:39:56.940 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_init_5964413022
-2026-06-28 18:39:56.980 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702153
-2026-06-28 18:39:56.981 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::<init>(): void: null
-2026-06-28 18:39:56.981 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional: null
-2026-06-28 18:39:56.981 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::<init>(): void processing is finished normally
-2026-06-28 18:39:56.981 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional processing is finished normally
-2026-06-28 18:39:56.996 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::<init>(): void
-2026-06-28 18:39:56.996 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::<init>(): void
+2026-08-11 08:07:43.223 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702151
+2026-08-11 08:07:43.261 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_init_5964413022
+2026-08-11 08:07:43.300 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702153
+2026-08-11 08:07:43.300 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::<init>(): void: null
+2026-08-11 08:07:43.300 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional: null
+2026-08-11 08:07:43.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::<init>(): void processing is finished normally
+2026-08-11 08:07:43.301 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/OrderPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional processing is finished normally
+2026-08-11 08:07:43.314 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::<init>(): void
+2026-08-11 08:07:43.315 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -264,9 +264,9 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 18:39:57.052 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_init_72580140
-2026-06-28 18:39:57.052 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional
-2026-06-28 18:39:57.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional
+2026-08-11 08:07:43.375 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_init_72580140
+2026-08-11 08:07:43.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional
+2026-08-11 08:07:43.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -318,12 +318,12 @@
 %goto0: 	//predecessors %bb7, %if.then0
 	%20 = phi {%bb7 -> %17; %if.then0 -> %18}
 	return %20
-2026-06-28 18:39:57.102 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137931
-2026-06-28 18:39:57.146 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_init_72580142
-2026-06-28 18:39:57.192 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137933
-2026-06-28 18:39:57.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::<init>(): void: null
-2026-06-28 18:39:57.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional: null
-2026-06-28 18:39:57.193 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::<init>(): void processing is finished normally
-2026-06-28 18:39:57.193 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional processing is finished normally
-2026-06-28 18:39:57.194 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 18:39:57.194 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 08:07:43.423 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137931
+2026-08-11 08:07:43.468 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_init_72580142
+2026-08-11 08:07:43.514 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137933
+2026-08-11 08:07:43.514 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::<init>(): void: null
+2026-08-11 08:07:43.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::<init>(): void processing is finished normally
+2026-08-11 08:07:43.515 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional: null
+2026-08-11 08:07:43.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method online/devupgrade/sezon2/utilshelpers/DiscountedPriceSumCalculator::visit(java/util/List, java/util/Optional): java/util/Optional processing is finished normally
+2026-08-11 08:07:43.515 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 08:07:43.515 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

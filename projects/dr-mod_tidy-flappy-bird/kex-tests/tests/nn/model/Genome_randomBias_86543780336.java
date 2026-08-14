@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_randomBias_86543780336 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10327;
+     Object term10324;
 
     public Genome_randomBias_86543780336() {
     }
@@ -31,12 +31,12 @@ public class Genome_randomBias_86543780336 {
 
     @Before
     public void setup() throws Throwable {
-        term10327 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10327, term10327.getClass(), "nodes", null);
-        setField(term10327, term10327.getClass(), "connections", null);
-        setField(term10327, term10327.getClass(), "nodeInnovator", null);
-        setField(term10327, term10327.getClass(), "connectionInnovator", null);
-        setField(term10327, term10327.getClass(), "random", null);
+        term10324 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10324, term10324.getClass(), "nodes", null);
+        setField(term10324, term10324.getClass(), "connections", null);
+        setField(term10324, term10324.getClass(), "nodeInnovator", null);
+        setField(term10324, term10324.getClass(), "connectionInnovator", null);
+        setField(term10324, term10324.getClass(), "random", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Genome_randomBias_86543780336 {
         Class<?> klass = Class.forName("nn.model.Genome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "randomBias", argTypes, term10327, args);
+        callMethod(klass, "randomBias", argTypes, term10324, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TaskActivity_serializeAll_52949815015 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term111393;
+     Object term111407;
 
     public TaskActivity_serializeAll_52949815015() {
     }
@@ -31,10 +31,10 @@ public class TaskActivity_serializeAll_52949815015 {
 
     @Before
     public void setup() throws Throwable {
-        term111393 = newInstance(Class.forName("core.task.TaskActivity"));
-        setField(term111393, term111393.getClass(), "hintLabel", null);
-        setField(term111393, term111393.getClass(), "inPanel", null);
-        setField(term111393, term111393.getClass(), "cardLayout", null);
+        term111407 = newInstance(Class.forName("core.task.TaskActivity"));
+        setField(term111407, term111407.getClass(), "hintLabel", null);
+        setField(term111407, term111407.getClass(), "inPanel", null);
+        setField(term111407, term111407.getClass(), "cardLayout", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class TaskActivity_serializeAll_52949815015 {
         Class<?> klass = Class.forName("core.task.TaskActivity");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "serializeAll", argTypes, term111393, args);
+        callMethod(klass, "serializeAll", argTypes, term111407, args);
     }
 
 };

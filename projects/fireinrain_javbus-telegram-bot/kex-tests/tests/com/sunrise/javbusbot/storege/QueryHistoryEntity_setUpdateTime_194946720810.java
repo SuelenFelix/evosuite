@@ -38,7 +38,7 @@ public class QueryHistoryEntity_setUpdateTime_194946720810 {
         setField(term1348, term1348.getClass(), "queryCommand", "aKnKipADSo");
         setField(term1348, term1348.getClass(), "queryStr", "wSQxaModmm");
         setField(term1348, term1348.getClass(), "queryText", "UlajhuVLaP");
-        setField(term1348, term1348.getClass(), "updateTime", "2026-06-28 17:29:55");
+        setField(term1348, term1348.getClass(), "updateTime", "2026-08-11 06:36:31");
     }
 
     @Test

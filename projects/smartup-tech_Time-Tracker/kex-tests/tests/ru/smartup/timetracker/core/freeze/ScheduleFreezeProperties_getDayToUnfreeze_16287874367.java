@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ScheduleFreezeProperties_getDayToUnfreeze_16287874367 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term257;
+     Object term647;
 
     public ScheduleFreezeProperties_getDayToUnfreeze_16287874367() {
     }
@@ -31,10 +31,10 @@ public class ScheduleFreezeProperties_getDayToUnfreeze_16287874367 {
 
     @Before
     public void setup() throws Throwable {
-        term257 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
-        setField(term257, term257.getClass(), "timeZone", null);
-        setField(term257, term257.getClass(), "fixedTimeFreeze", null);
-        setIntField(term257, term257.getClass(), "dayToUnfreeze", 0);
+        term647 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
+        setField(term647, term647.getClass(), "timeZone", null);
+        setField(term647, term647.getClass(), "fixedTimeFreeze", null);
+        setIntField(term647, term647.getClass(), "dayToUnfreeze", 0);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class ScheduleFreezeProperties_getDayToUnfreeze_16287874367 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getDayToUnfreeze", argTypes, term257, args);
+        callMethod(klass, "getDayToUnfreeze", argTypes, term647, args);
     }
 
 };

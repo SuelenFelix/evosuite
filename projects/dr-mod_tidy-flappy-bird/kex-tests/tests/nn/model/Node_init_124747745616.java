@@ -22,8 +22,8 @@ import java.lang.Double;
 
 public class Node_init_124747745616 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term18779;
-     Object term18781;
+     Object term18795;
+     Object term18797;
 
     public Node_init_124747745616() {
     }
@@ -34,8 +34,8 @@ public class Node_init_124747745616 {
 
     @Before
     public void setup() throws Throwable {
-        term18779 = new Integer(0);
-        term18781 = new Double(0.0);
+        term18795 = new Integer(0);
+        term18797 = new Double(0.0);
     }
 
     @Test
@@ -47,8 +47,8 @@ public class Node_init_124747745616 {
         argTypes[2] = double.class;
         Object[] args = new Object[3];
         args[0] = null;
-        args[1] = term18779;
-        args[2] = term18781;
+        args[1] = term18795;
+        args[2] = term18797;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

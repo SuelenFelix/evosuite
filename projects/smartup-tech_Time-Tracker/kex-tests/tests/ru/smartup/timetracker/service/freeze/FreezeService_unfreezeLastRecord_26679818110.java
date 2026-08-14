@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeService_unfreezeLastRecord_26679818110 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term886;
+     Object term1067;
 
     public FreezeService_unfreezeLastRecord_26679818110() {
     }
@@ -31,12 +31,12 @@ public class FreezeService_unfreezeLastRecord_26679818110 {
 
     @Before
     public void setup() throws Throwable {
-        term886 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeService"));
-        setField(term886, term886.getClass(), "freezeSchedulePlanner", null);
-        setField(term886, term886.getClass(), "crudFreezeService", null);
-        setField(term886, term886.getClass(), "freezeValidator", null);
-        setField(term886, term886.getClass(), "freezeDateUtils", null);
-        setField(term886, term886.getClass(), "lockManager", null);
+        term1067 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeService"));
+        setField(term1067, term1067.getClass(), "freezeSchedulePlanner", null);
+        setField(term1067, term1067.getClass(), "crudFreezeService", null);
+        setField(term1067, term1067.getClass(), "freezeValidator", null);
+        setField(term1067, term1067.getClass(), "freezeDateUtils", null);
+        setField(term1067, term1067.getClass(), "lockManager", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class FreezeService_unfreezeLastRecord_26679818110 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.service.freeze.FreezeService");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "unfreezeLastRecord", argTypes, term886, args);
+        callMethod(klass, "unfreezeLastRecord", argTypes, term1067, args);
     }
 
 };

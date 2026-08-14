@@ -36,7 +36,7 @@ public class Mating_init_8867956450 {
     public void setup() throws Throwable {
         term1436 = newInstance(Class.forName("java.util.Random"));
         Object term1437 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
-        setLongField(term1437, term1437.getClass(), "value", 105138792486701L);
+        setLongField(term1437, term1437.getClass(), "value", 269265656200142L);
         setField(term1436, term1436.getClass(), "seed", term1437);
         setDoubleField(term1436, term1436.getClass(), "nextNextGaussian", 0.9341364461850963);
         setBooleanField(term1436, term1436.getClass(), "haveNextNextGaussian", true);

@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class KTextField_4_init_928628912 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term45937;
+     Object term45978;
 
     public KTextField_4_init_928628912() {
     }
@@ -32,7 +32,7 @@ public class KTextField_4_init_928628912 {
 
     @Before
     public void setup() throws Throwable {
-        term45937 = new Integer(0);
+        term45978 = new Integer(0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KTextField_4_init_928628912 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term45937;
+        args[1] = term45978;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

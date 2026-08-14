@@ -113,7 +113,7 @@ public class SettingsActivity_3_mouseClicked_15391405771 {
         setBooleanField(term1904, term1904.getClass(), "reflectTheme", true);
         setBooleanField(term1904, term1904.getClass(), "isAlignmentXSet", true);
         setFloatField(term1904, term1904.getClass(), "alignmentX", 0.3692338F);
-        setBooleanField(term1904, term1904.getClass(), "isAlignmentYSet", false);
+        setBooleanField(term1904, term1904.getClass(), "isAlignmentYSet", true);
         setFloatField(term1904, term1904.getClass(), "alignmentY", 0.13906479F);
         setField(term1904, term1904.getClass(), "ui", term1910);
         setField(term1911, term1911.getClass(), "listenerList", term1912);
@@ -258,7 +258,7 @@ public class SettingsActivity_3_mouseClicked_15391405771 {
         setIntField(term1990, term1990.getClass(), "depth", 24);
         setIntField(term1990, term1990.getClass(), "colormap", 32);
         setField(term1990, term1990.getClass(), "colorModel", null);
-        setLongField(term1990, term1990.getClass(), "aData", 128935589666736L);
+        setLongField(term1990, term1990.getClass(), "aData", 139180093218656L);
         setBooleanField(term1990, term1990.getClass(), "doubleBuffer", true);
         setField(term1990, term1990.getClass(), "disposerReferent", null);
         setField(term1990, term1990.getClass(), "bufferCaps", null);
@@ -807,8 +807,8 @@ public class SettingsActivity_3_mouseClicked_15391405771 {
         setIntField(term2313, term2313.getClass(), "clickCount", 1114000454);
         setBooleanField(term2313, term2313.getClass(), "causedByTouchEvent", true);
         setIntField(term2313, term2313.getClass(), "button", -556405712);
-        setBooleanField(term2313, term2313.getClass(), "popupTrigger", false);
-        setBooleanField(term2313, term2313.getClass(), "shouldExcludeButtonFromExtModifiers", false);
+        setBooleanField(term2313, term2313.getClass(), "popupTrigger", true);
+        setBooleanField(term2313, term2313.getClass(), "shouldExcludeButtonFromExtModifiers", true);
         setLongField(term2313, term2313.getClass(), "when", -8885298608300233488L);
         setIntField(term2313, term2313.getClass(), "modifiers", -1772434990);
         setBooleanField(term2313, term2313.getClass(), "canAccessSystemClipboard", false);
@@ -888,9 +888,9 @@ public class SettingsActivity_3_mouseClicked_15391405771 {
         setBooleanField(term2335, term2335.getClass(), "isLimited", false);
         setField(term2335, term2335.getClass(), "limitedContext", null);
         setField(term2313, term2313.getClass(), "acc", term2335);
-        setBooleanField(term2313, term2313.getClass(), "focusManagerIsDispatching", true);
+        setBooleanField(term2313, term2313.getClass(), "focusManagerIsDispatching", false);
         setBooleanField(term2313, term2313.getClass(), "isPosted", false);
-        setBooleanField(term2313, term2313.getClass(), "isSystemGenerated", false);
+        setBooleanField(term2313, term2313.getClass(), "isSystemGenerated", true);
         setField(term2313, term2313.getClass(), "source", term2366);
     }
 

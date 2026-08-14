@@ -243,7 +243,7 @@ public class AssignmentSelf_MemberExhibitor_1_mouseDragged_11929369473 {
         setIntField(term34080, term34080.getClass(), "depth", 24);
         setIntField(term34080, term34080.getClass(), "colormap", 32);
         setField(term34080, term34080.getClass(), "colorModel", null);
-        setLongField(term34080, term34080.getClass(), "aData", 129248793455408L);
+        setLongField(term34080, term34080.getClass(), "aData", 139320425543328L);
         setBooleanField(term34080, term34080.getClass(), "doubleBuffer", true);
         setField(term34080, term34080.getClass(), "disposerReferent", null);
         setField(term34080, term34080.getClass(), "bufferCaps", null);

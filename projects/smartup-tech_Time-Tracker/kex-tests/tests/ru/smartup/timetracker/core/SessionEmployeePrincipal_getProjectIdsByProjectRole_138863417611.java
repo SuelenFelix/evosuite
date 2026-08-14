@@ -27,7 +27,7 @@ import java.lang.String;
 
 public class SessionEmployeePrincipal_getProjectIdsByProjectRole_138863417611 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2114;
+     Object term2488;
      Object enum2;
 
     public SessionEmployeePrincipal_getProjectIdsByProjectRole_138863417611() {
@@ -39,19 +39,19 @@ public class SessionEmployeePrincipal_getProjectIdsByProjectRole_138863417611 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term2129 = new HashMap();
-        Set<Object> term2167 =  ((Map) term2129).keySet();
-        HashSet term2128 = new HashSet((Collection<? extends Object>) term2167);
-        HashMap term2141 = new HashMap();
-        term2114 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2114, term2114.getClass(), "id", 1135664017);
-        setField(term2114, term2114.getClass(), "email", "oVcInYnLWB");
-        setField(term2114, term2114.getClass(), "employeeRoles", term2128);
-        setField(term2114, term2114.getClass(), "projectIdsByProjectRoles", term2141);
-        Class<? extends Object> term2169 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.ProjectRoleEnum");
-        Field term2168 = ((Class) term2169).getDeclaredField((String) "MANAGER");
-        ((Field) term2168).setAccessible(true);
-        enum2 = ((Field) term2168).get((Object) null);
+        HashMap term2503 = new HashMap();
+        Set<Object> term2541 =  ((Map) term2503).keySet();
+        HashSet term2502 = new HashSet((Collection<? extends Object>) term2541);
+        HashMap term2515 = new HashMap();
+        term2488 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term2488, term2488.getClass(), "id", 1135664017);
+        setField(term2488, term2488.getClass(), "email", "oVcInYnLWB");
+        setField(term2488, term2488.getClass(), "employeeRoles", term2502);
+        setField(term2488, term2488.getClass(), "projectIdsByProjectRoles", term2515);
+        Class<? extends Object> term2543 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.ProjectRoleEnum");
+        Field term2542 = ((Class) term2543).getDeclaredField((String) "MANAGER");
+        ((Field) term2542).setAccessible(true);
+        enum2 = ((Field) term2542).get((Object) null);
     }
 
     @Test
@@ -61,7 +61,7 @@ public class SessionEmployeePrincipal_getProjectIdsByProjectRole_138863417611 {
         argTypes[0] = Class.forName("ru.smartup.timetracker.entity.field.enumerated.ProjectRoleEnum");
         Object[] args = new Object[1];
         args[0] = enum2;
-        callMethod(klass, "getProjectIdsByProjectRole", argTypes, term2114, args);
+        callMethod(klass, "getProjectIdsByProjectRole", argTypes, term2488, args);
     }
 
 };

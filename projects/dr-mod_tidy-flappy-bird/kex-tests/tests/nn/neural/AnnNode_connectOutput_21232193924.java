@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AnnNode_connectOutput_21232193924 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1973;
+     Object term1971;
 
     public AnnNode_connectOutput_21232193924() {
     }
@@ -31,13 +31,13 @@ public class AnnNode_connectOutput_21232193924 {
 
     @Before
     public void setup() throws Throwable {
-        term1973 = newInstance(Class.forName("nn.neural.AnnNode"));
-        setField(term1973, term1973.getClass(), "output", null);
-        setField(term1973, term1973.getClass(), "inputs", null);
-        setField(term1973, term1973.getClass(), "outputs", null);
-        setField(term1973, term1973.getClass(), "type", null);
-        setIntField(term1973, term1973.getClass(), "id", 0);
-        setDoubleField(term1973, term1973.getClass(), "bias", 0.0);
+        term1971 = newInstance(Class.forName("nn.neural.AnnNode"));
+        setField(term1971, term1971.getClass(), "output", null);
+        setField(term1971, term1971.getClass(), "inputs", null);
+        setField(term1971, term1971.getClass(), "outputs", null);
+        setField(term1971, term1971.getClass(), "type", null);
+        setIntField(term1971, term1971.getClass(), "id", 0);
+        setDoubleField(term1971, term1971.getClass(), "bias", 0.0);
     }
 
     @Test
@@ -47,7 +47,7 @@ public class AnnNode_connectOutput_21232193924 {
         argTypes[0] = Class.forName("nn.neural.AnnConnection");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "connectOutput", argTypes, term1973, args);
+        callMethod(klass, "connectOutput", argTypes, term1971, args);
     }
 
 };

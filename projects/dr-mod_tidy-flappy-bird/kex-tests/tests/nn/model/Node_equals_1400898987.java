@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Node_equals_1400898987 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term12383;
+     Object term12380;
 
     public Node_equals_1400898987() {
     }
@@ -31,11 +31,11 @@ public class Node_equals_1400898987 {
 
     @Before
     public void setup() throws Throwable {
-        term12383 = newInstance(Class.forName("nn.model.Node"));
-        setField(term12383, term12383.getClass(), "type", null);
-        setIntField(term12383, term12383.getClass(), "innovation", 0);
-        setField(term12383, term12383.getClass(), "connections", null);
-        setDoubleField(term12383, term12383.getClass(), "bias", 0.0);
+        term12380 = newInstance(Class.forName("nn.model.Node"));
+        setField(term12380, term12380.getClass(), "type", null);
+        setIntField(term12380, term12380.getClass(), "innovation", 0);
+        setField(term12380, term12380.getClass(), "connections", null);
+        setDoubleField(term12380, term12380.getClass(), "bias", 0.0);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Node_equals_1400898987 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "equals", argTypes, term12383, args);
+        callMethod(klass, "equals", argTypes, term12380, args);
     }
 
 };

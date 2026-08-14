@@ -378,7 +378,7 @@ public class TodoSelf_getDaysTaken_6789159669 {
         setField(term85316, term85316.getClass(), "keySet", null);
         setField(term85316, term85316.getClass(), "values", null);
         setField(term85305, term85305.getClass(), "moduleToReader", term85316);
-        setLongField(term85321, term85321.getClass(), "timestamp", 164137941L);
+        setLongField(term85321, term85321.getClass(), "timestamp", 52416658L);
         setField(term85321, term85321.getClass(), "referent", null);
         setField(term85321, term85321.getClass(), "queue", null);
         setField(term85321, term85321.getClass(), "next", null);

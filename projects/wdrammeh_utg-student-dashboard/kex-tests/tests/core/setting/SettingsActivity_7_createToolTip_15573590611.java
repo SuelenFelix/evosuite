@@ -45,15 +45,15 @@ public class SettingsActivity_7_createToolTip_15573590611 {
         setField(term3757, term3757.getClass(), "renderer", null);
         setField(term3757, term3757.getClass(), "editor", null);
         setIntField(term3757, term3757.getClass(), "maximumRowCount", -2015854073);
-        setBooleanField(term3757, term3757.getClass(), "isEditable", false);
+        setBooleanField(term3757, term3757.getClass(), "isEditable", true);
         setField(term3757, term3757.getClass(), "keySelectionManager", null);
         setField(term3757, term3757.getClass(), "actionCommand", "wSQxaModmm");
         setBooleanField(term3757, term3757.getClass(), "lightWeightPopupEnabled", true);
         setField(term3757, term3757.getClass(), "selectedItemReminder", term3773);
         setField(term3757, term3757.getClass(), "prototypeDisplayValue", "UlajhuVLaP");
-        setBooleanField(term3757, term3757.getClass(), "firingActionEvent", true);
+        setBooleanField(term3757, term3757.getClass(), "firingActionEvent", false);
         setBooleanField(term3757, term3757.getClass(), "selectingItem", true);
-        setBooleanField(term3757, term3757.getClass(), "updateInProgress", false);
+        setBooleanField(term3757, term3757.getClass(), "updateInProgress", true);
         setField(term3757, term3757.getClass(), "action", null);
         setField(term3757, term3757.getClass(), "actionPropertyChangeListener", null);
         setBooleanField(term3757, term3757.getClass(), "isAlignmentXSet", true);
@@ -69,7 +69,7 @@ public class SettingsActivity_7_createToolTip_15573590611 {
         setField(term3797, term3797.getClass(), "map", term3798);
         setField(term3797, term3797.getClass(), "source", term3799);
         setField(term3757, term3757.getClass(), "vetoableChangeSupport", term3797);
-        setBooleanField(term3757, term3757.getClass(), "autoscrolls", false);
+        setBooleanField(term3757, term3757.getClass(), "autoscrolls", true);
         setField(term3757, term3757.getClass(), "border", null);
         setIntField(term3757, term3757.getClass(), "flags", 96566506);
         setField(term3757, term3757.getClass(), "inputVerifier", null);

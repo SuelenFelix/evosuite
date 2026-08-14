@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_isAdmin_17563646772 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1735;
+     Object term2109;
 
     public SessionEmployeePrincipal_isAdmin_17563646772() {
     }
@@ -37,15 +37,15 @@ public class SessionEmployeePrincipal_isAdmin_17563646772 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term1750 = new HashMap();
-        Set<Object> term1775 =  ((Map) term1750).keySet();
-        HashSet term1749 = new HashSet((Collection<? extends Object>) term1775);
-        HashMap term1760 = new HashMap();
-        term1735 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term1735, term1735.getClass(), "id", -522618178);
-        setField(term1735, term1735.getClass(), "email", "EGtDIRbSSb");
-        setField(term1735, term1735.getClass(), "employeeRoles", term1749);
-        setField(term1735, term1735.getClass(), "projectIdsByProjectRoles", term1760);
+        HashMap term2124 = new HashMap();
+        Set<Object> term2149 =  ((Map) term2124).keySet();
+        HashSet term2123 = new HashSet((Collection<? extends Object>) term2149);
+        HashMap term2134 = new HashMap();
+        term2109 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term2109, term2109.getClass(), "id", -522618178);
+        setField(term2109, term2109.getClass(), "email", "EGtDIRbSSb");
+        setField(term2109, term2109.getClass(), "employeeRoles", term2123);
+        setField(term2109, term2109.getClass(), "projectIdsByProjectRoles", term2134);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class SessionEmployeePrincipal_isAdmin_17563646772 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "isAdmin", argTypes, term1735, args);
+        callMethod(klass, "isAdmin", argTypes, term2109, args);
     }
 
 };

@@ -53,10 +53,10 @@ public class SettingsActivity_6_createToolTip_15573590301 {
         setField(term571, term571.getClass(), "prototypeDisplayValue", "tbcdzjIfER");
         setBooleanField(term571, term571.getClass(), "firingActionEvent", true);
         setBooleanField(term571, term571.getClass(), "selectingItem", true);
-        setBooleanField(term571, term571.getClass(), "updateInProgress", false);
+        setBooleanField(term571, term571.getClass(), "updateInProgress", true);
         setField(term571, term571.getClass(), "action", null);
         setField(term571, term571.getClass(), "actionPropertyChangeListener", null);
-        setBooleanField(term571, term571.getClass(), "isAlignmentXSet", true);
+        setBooleanField(term571, term571.getClass(), "isAlignmentXSet", false);
         setFloatField(term571, term571.getClass(), "alignmentX", 0.5446086F);
         setBooleanField(term571, term571.getClass(), "isAlignmentYSet", true);
         setFloatField(term571, term571.getClass(), "alignmentY", 0.5254275F);

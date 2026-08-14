@@ -384,7 +384,7 @@ public class AssignmentSelf_initializeTimer_2911682322 {
         setField(term491, term491.getClass(), "keySet", null);
         setField(term491, term491.getClass(), "values", null);
         setField(term480, term480.getClass(), "moduleToReader", term491);
-        setLongField(term496, term496.getClass(), "timestamp", 164119258L);
+        setLongField(term496, term496.getClass(), "timestamp", 52396573L);
         setField(term496, term496.getClass(), "referent", null);
         setField(term496, term496.getClass(), "queue", null);
         setField(term496, term496.getClass(), "next", null);

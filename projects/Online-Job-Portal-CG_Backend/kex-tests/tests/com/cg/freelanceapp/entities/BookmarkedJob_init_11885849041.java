@@ -293,8 +293,8 @@ public class BookmarkedJob_init_11885849041 {
         setField(term10111, term10111.getClass(), "freelancers", term10193);
         setField(term10057, term10057.getClass(), "postedBy", term10111);
         setIntField(term10201, term10201.getClass(), "year", 2026);
-        setShortField(term10201, term10201.getClass(), "month", (short) 6);
-        setShortField(term10201, term10201.getClass(), "day", (short) 29);
+        setShortField(term10201, term10201.getClass(), "month", (short) 8);
+        setShortField(term10201, term10201.getClass(), "day", (short) 11);
         setField(term10057, term10057.getClass(), "postedDate", term10201);
         setField(term10205, term10205.getClass(), "id", term10206);
         setField(term10205, term10205.getClass(), "userName", "oLFNhFdMBL");

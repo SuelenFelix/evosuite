@@ -41,11 +41,11 @@ public class SettingsActivity_1_init_16595630570 {
         Object term330 = newInstance(Class.forName("java.lang.ref.SoftReference"));
         Object term332 = newInstance(Class.forName("java.lang.ref.ReferenceQueue"));
         Object term333 = newInstance(Class.forName("java.lang.ref.ReferenceQueue$Lock"));
-        setIntField(term301, term301.getClass(), "hash", 146906769);
+        setIntField(term301, term301.getClass(), "hash", 1047100902);
         setField(term301, term301.getClass(), "key", term303);
         setField(term301, term301.getClass(), "value", term304);
         setField(term301, term301.getClass(), "next", null);
-        setElement(term300, 9, term301);
+        setElement(term300, 1, term301);
         setField(term299, term299.getClass(), "table", term300);
         setIntField(term299, term299.getClass(), "count", 1);
         setIntField(term299, term299.getClass(), "threshold", 8);

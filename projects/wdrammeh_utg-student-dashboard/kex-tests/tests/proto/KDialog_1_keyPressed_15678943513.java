@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KDialog_1_keyPressed_15678943513 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term67725;
+     Object term67774;
 
     public KDialog_1_keyPressed_15678943513() {
     }
@@ -31,8 +31,8 @@ public class KDialog_1_keyPressed_15678943513 {
 
     @Before
     public void setup() throws Throwable {
-        term67725 = newInstance(Class.forName("proto.KDialog$1"));
-        setField(term67725, term67725.getClass(), "this$0", null);
+        term67774 = newInstance(Class.forName("proto.KDialog$1"));
+        setField(term67774, term67774.getClass(), "this$0", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class KDialog_1_keyPressed_15678943513 {
         argTypes[0] = Class.forName("java.awt.event.KeyEvent");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "keyPressed", argTypes, term67725, args);
+        callMethod(klass, "keyPressed", argTypes, term67774, args);
     }
 
 };

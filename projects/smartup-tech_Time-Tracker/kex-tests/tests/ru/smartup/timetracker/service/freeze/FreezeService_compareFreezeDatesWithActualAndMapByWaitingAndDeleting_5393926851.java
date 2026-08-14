@@ -48,8 +48,7 @@ public class FreezeService_compareFreezeDatesWithActualAndMapByWaitingAndDeletin
         Object term55 = newInstance(Class.forName("java.time.LocalTime"));
         Object term61 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
         Object term62 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
-        Object term63 = newInstance(Class.forName("java.time.ZoneRegion"));
-        Object term65 = newInstance(Class.forName("java.time.zone.ZoneRules"));
+        Object term63 = newInstance(Class.forName("java.time.ZoneOffset"));
         Object term66 = newInstance(Class.forName("java.time.LocalTime"));
         setField(term51, term51.getClass(), "crudFreezeService", null);
         setField(term54, term54.getClass(), "id", null);
@@ -68,15 +67,8 @@ public class FreezeService_compareFreezeDatesWithActualAndMapByWaitingAndDeletin
         setField(term50, term50.getClass(), "freezeSchedulePlanner", term51);
         setField(term50, term50.getClass(), "crudFreezeService", null);
         setField(term50, term50.getClass(), "freezeValidator", null);
+        setIntField(term63, term63.getClass(), "totalSeconds", -25200);
         setField(term63, term63.getClass(), "id", "");
-        setField(term65, term65.getClass(), "standardTransitions", null);
-        setField(term65, term65.getClass(), "standardOffsets", null);
-        setField(term65, term65.getClass(), "savingsInstantTransitions", null);
-        setField(term65, term65.getClass(), "savingsLocalTransitions", null);
-        setField(term65, term65.getClass(), "wallOffsets", null);
-        setField(term65, term65.getClass(), "lastRules", null);
-        setField(term65, term65.getClass(), "lastRulesCache", null);
-        setField(term63, term63.getClass(), "rules", term65);
         setField(term62, term62.getClass(), "timeZone", term63);
         setByteField(term66, term66.getClass(), "hour", (byte) 21);
         setByteField(term66, term66.getClass(), "minute", (byte) 41);

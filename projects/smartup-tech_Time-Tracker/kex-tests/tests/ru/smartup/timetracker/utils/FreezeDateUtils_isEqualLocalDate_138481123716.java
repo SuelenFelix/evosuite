@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeDateUtils_isEqualLocalDate_138481123716 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3546;
+     Object term3950;
 
     public FreezeDateUtils_isEqualLocalDate_138481123716() {
     }
@@ -31,8 +31,8 @@ public class FreezeDateUtils_isEqualLocalDate_138481123716 {
 
     @Before
     public void setup() throws Throwable {
-        term3546 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
-        setField(term3546, term3546.getClass(), "freezeProperties", null);
+        term3950 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
+        setField(term3950, term3950.getClass(), "freezeProperties", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class FreezeDateUtils_isEqualLocalDate_138481123716 {
         Object[] args = new Object[2];
         args[0] = null;
         args[1] = null;
-        callMethod(klass, "isEqualLocalDate", argTypes, term3546, args);
+        callMethod(klass, "isEqualLocalDate", argTypes, term3950, args);
     }
 
 };

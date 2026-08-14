@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class TimetrackerApplication_main_10098114791 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term50878;
+     Object term50823;
 
     public TimetrackerApplication_main_10098114791() {
     }
@@ -32,9 +32,9 @@ public class TimetrackerApplication_main_10098114791 {
 
     @Before
     public void setup() throws Throwable {
-        term50878 = (Object[]) newArray("java.lang.String", 2);
-        setElement(term50878, 0, "BsuVlGUUjV");
-        setElement(term50878, 1, "bHHjfDCntT");
+        term50823 = (Object[]) newArray("java.lang.String", 2);
+        setElement(term50823, 0, "BsuVlGUUjV");
+        setElement(term50823, 1, "bHHjfDCntT");
     }
 
     @Test
@@ -43,7 +43,7 @@ public class TimetrackerApplication_main_10098114791 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Array.newInstance(Class.forName("java.lang.String"), 0).getClass();
         Object[] args = new Object[1];
-        args[0] = term50878;
+        args[0] = term50823;
         callMethod(klass, "main", argTypes, null, args);
     }
 

@@ -211,8 +211,8 @@ public class Job_setPostedDate_59443377721 {
         setField(term9439, term9439.getClass(), "freelancers", term9510);
         setField(term9385, term9385.getClass(), "postedBy", term9439);
         setIntField(term9519, term9519.getClass(), "year", 2026);
-        setShortField(term9519, term9519.getClass(), "month", (short) 6);
-        setShortField(term9519, term9519.getClass(), "day", (short) 29);
+        setShortField(term9519, term9519.getClass(), "month", (short) 8);
+        setShortField(term9519, term9519.getClass(), "day", (short) 11);
         setField(term9385, term9385.getClass(), "postedDate", term9519);
         setField(term9523, term9523.getClass(), "id", null);
         setField(term9523, term9523.getClass(), "userName", null);

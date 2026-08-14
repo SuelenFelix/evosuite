@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_makeConnectionMutation_143935423625 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10316;
+     Object term10313;
 
     public Genome_makeConnectionMutation_143935423625() {
     }
@@ -31,12 +31,12 @@ public class Genome_makeConnectionMutation_143935423625 {
 
     @Before
     public void setup() throws Throwable {
-        term10316 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10316, term10316.getClass(), "nodes", null);
-        setField(term10316, term10316.getClass(), "connections", null);
-        setField(term10316, term10316.getClass(), "nodeInnovator", null);
-        setField(term10316, term10316.getClass(), "connectionInnovator", null);
-        setField(term10316, term10316.getClass(), "random", null);
+        term10313 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10313, term10313.getClass(), "nodes", null);
+        setField(term10313, term10313.getClass(), "connections", null);
+        setField(term10313, term10313.getClass(), "nodeInnovator", null);
+        setField(term10313, term10313.getClass(), "connectionInnovator", null);
+        setField(term10313, term10313.getClass(), "random", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Genome_makeConnectionMutation_143935423625 {
         Class<?> klass = Class.forName("nn.model.Genome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "makeConnectionMutation", argTypes, term10316, args);
+        callMethod(klass, "makeConnectionMutation", argTypes, term10313, args);
     }
 
 };

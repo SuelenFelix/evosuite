@@ -29,9 +29,9 @@ import java.lang.Float;
 
 public class SessionEmployeePrincipal_setAllRoles_17476661261 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term900;
-     Object term932;
-     Object term941;
+     Object term1274;
+     Object term1306;
+     Object term1315;
 
     public SessionEmployeePrincipal_setAllRoles_17476661261() {
     }
@@ -42,36 +42,36 @@ public class SessionEmployeePrincipal_setAllRoles_17476661261 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term915 = new HashMap();
-        Set<Object> term963 =  ((Map) term915).keySet();
-        HashSet term914 = new HashSet((Collection<? extends Object>) term963);
-        HashMap term927 = new HashMap();
-        term900 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term900, term900.getClass(), "id", -2038273078);
-        setField(term900, term900.getClass(), "email", "jJCZpVmanW");
-        setField(term900, term900.getClass(), "employeeRoles", term914);
-        setField(term900, term900.getClass(), "projectIdsByProjectRoles", term927);
-        Class<? extends Object> term1020 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.EmployeeRoleEnum");
-        Field term1019 = ((Class) term1020).getDeclaredField((String) "ROLE_ADMIN");
-        ((Field) term1019).setAccessible(true);
-        Object enum0 = ((Field) term1019).get((Object) null);
-        Object term935 = newInstance(Class.forName("ru.smartup.timetracker.entity.EmployeeRole"));
-        setIntField(term935, term935.getClass(), "employeeId", 1227103734);
-        setField(term935, term935.getClass(), "roleId", enum0);
-        term932 = new LinkedList();
-        ((LinkedList) term932).add(term935);
-        Class<? extends Object> term1395 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.ProjectRoleEnum");
-        Field term1394 = ((Class) term1395).getDeclaredField((String) "EMPLOYEE");
-        ((Field) term1394).setAccessible(true);
-        Object enum1 = ((Field) term1394).get((Object) null);
-        Float term950 = new Float(0.13238746F);
-        Object term944 = newInstance(Class.forName("ru.smartup.timetracker.entity.EmployeeProjectRole"));
-        setIntField(term944, term944.getClass(), "employeeId", -1339778481);
-        setIntField(term944, term944.getClass(), "projectId", 1725571209);
-        setField(term944, term944.getClass(), "projectRoleId", enum1);
-        setField(term944, term944.getClass(), "externalRate", term950);
-        term941 = new LinkedList();
-        ((LinkedList) term941).add(term944);
+        HashMap term1289 = new HashMap();
+        Set<Object> term1337 =  ((Map) term1289).keySet();
+        HashSet term1288 = new HashSet((Collection<? extends Object>) term1337);
+        HashMap term1301 = new HashMap();
+        term1274 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term1274, term1274.getClass(), "id", -2038273078);
+        setField(term1274, term1274.getClass(), "email", "jJCZpVmanW");
+        setField(term1274, term1274.getClass(), "employeeRoles", term1288);
+        setField(term1274, term1274.getClass(), "projectIdsByProjectRoles", term1301);
+        Class<? extends Object> term1394 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.EmployeeRoleEnum");
+        Field term1393 = ((Class) term1394).getDeclaredField((String) "ROLE_ADMIN");
+        ((Field) term1393).setAccessible(true);
+        Object enum0 = ((Field) term1393).get((Object) null);
+        Object term1309 = newInstance(Class.forName("ru.smartup.timetracker.entity.EmployeeRole"));
+        setIntField(term1309, term1309.getClass(), "employeeId", 1227103734);
+        setField(term1309, term1309.getClass(), "roleId", enum0);
+        term1306 = new LinkedList();
+        ((LinkedList) term1306).add(term1309);
+        Class<? extends Object> term1769 = Class.forName((String) "ru.smartup.timetracker.entity.field.enumerated.ProjectRoleEnum");
+        Field term1768 = ((Class) term1769).getDeclaredField((String) "EMPLOYEE");
+        ((Field) term1768).setAccessible(true);
+        Object enum1 = ((Field) term1768).get((Object) null);
+        Float term1324 = new Float(0.13238746F);
+        Object term1318 = newInstance(Class.forName("ru.smartup.timetracker.entity.EmployeeProjectRole"));
+        setIntField(term1318, term1318.getClass(), "employeeId", -1339778481);
+        setIntField(term1318, term1318.getClass(), "projectId", 1725571209);
+        setField(term1318, term1318.getClass(), "projectRoleId", enum1);
+        setField(term1318, term1318.getClass(), "externalRate", term1324);
+        term1315 = new LinkedList();
+        ((LinkedList) term1315).add(term1318);
     }
 
     @Test
@@ -81,9 +81,9 @@ public class SessionEmployeePrincipal_setAllRoles_17476661261 {
         argTypes[0] = Class.forName("java.util.List");
         argTypes[1] = Class.forName("java.util.List");
         Object[] args = new Object[2];
-        args[0] = term932;
-        args[1] = term941;
-        callMethod(klass, "setAllRoles", argTypes, term900, args);
+        args[0] = term1306;
+        args[1] = term1315;
+        callMethod(klass, "setAllRoles", argTypes, term1274, args);
     }
 
 };

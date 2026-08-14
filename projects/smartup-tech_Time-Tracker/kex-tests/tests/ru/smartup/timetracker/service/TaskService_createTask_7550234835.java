@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class TaskService_createTask_7550234835 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term21971;
+     Object term22111;
 
     public TaskService_createTask_7550234835() {
     }
@@ -32,22 +32,22 @@ public class TaskService_createTask_7550234835 {
 
     @Before
     public void setup() throws Throwable {
-        term21971 = newInstance(Class.forName("ru.smartup.timetracker.entity.Task"));
-        Object term21988 = newInstance(Class.forName("java.sql.Timestamp"));
-        Object term21991 = newInstance(Class.forName("java.sql.Timestamp"));
-        setLongField(term21971, term21971.getClass(), "id", 5127676408959197577L);
-        setField(term21971, term21971.getClass(), "name", "TjWpyghUWN");
-        setIntField(term21971, term21971.getClass(), "projectId", 1272542218);
-        setBooleanField(term21971, term21971.getClass(), "billable", false);
-        setBooleanField(term21971, term21971.getClass(), "isArchived", false);
-        setIntField(term21988, term21988.getClass(), "nanos", 235000000);
-        setLongField(term21988, term21988.getClass(), "fastTime", 1732167331000L);
-        setField(term21988, term21988.getClass(), "cdate", null);
-        setField(term21971, term21971.getClass(), "createdDate", term21988);
-        setIntField(term21991, term21991.getClass(), "nanos", 814000000);
-        setLongField(term21991, term21991.getClass(), "fastTime", 1498604526000L);
-        setField(term21991, term21991.getClass(), "cdate", null);
-        setField(term21971, term21971.getClass(), "lastModifiedDate", term21991);
+        term22111 = newInstance(Class.forName("ru.smartup.timetracker.entity.Task"));
+        Object term22128 = newInstance(Class.forName("java.sql.Timestamp"));
+        Object term22131 = newInstance(Class.forName("java.sql.Timestamp"));
+        setLongField(term22111, term22111.getClass(), "id", 5127676408959197577L);
+        setField(term22111, term22111.getClass(), "name", "TjWpyghUWN");
+        setIntField(term22111, term22111.getClass(), "projectId", 1272542218);
+        setBooleanField(term22111, term22111.getClass(), "billable", false);
+        setBooleanField(term22111, term22111.getClass(), "isArchived", false);
+        setIntField(term22128, term22128.getClass(), "nanos", 235000000);
+        setLongField(term22128, term22128.getClass(), "fastTime", 1732167331000L);
+        setField(term22128, term22128.getClass(), "cdate", null);
+        setField(term22111, term22111.getClass(), "createdDate", term22128);
+        setIntField(term22131, term22131.getClass(), "nanos", 814000000);
+        setLongField(term22131, term22131.getClass(), "fastTime", 1498604526000L);
+        setField(term22131, term22131.getClass(), "cdate", null);
+        setField(term22111, term22111.getClass(), "lastModifiedDate", term22131);
     }
 
     @Test
@@ -56,7 +56,7 @@ public class TaskService_createTask_7550234835 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("ru.smartup.timetracker.entity.Task");
         Object[] args = new Object[1];
-        args[0] = term21971;
+        args[0] = term22111;
         callMethod(klass, "createTask", argTypes, null, args);
     }
 

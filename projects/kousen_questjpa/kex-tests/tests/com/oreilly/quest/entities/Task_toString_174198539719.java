@@ -61,12 +61,12 @@ public class Task_toString_174198539719 {
         setField(term7100, term7100.getClass(), "name", "SJiQaLvSKv");
         setIntField(term7100, term7100.getClass(), "priority", 3);
         setIntField(term7116, term7116.getClass(), "year", 2026);
-        setShortField(term7116, term7116.getClass(), "month", (short) 6);
-        setShortField(term7116, term7116.getClass(), "day", (short) 29);
+        setShortField(term7116, term7116.getClass(), "month", (short) 8);
+        setShortField(term7116, term7116.getClass(), "day", (short) 12);
         setField(term7100, term7100.getClass(), "startDate", term7116);
         setIntField(term7120, term7120.getClass(), "year", 2026);
-        setShortField(term7120, term7120.getClass(), "month", (short) 6);
-        setShortField(term7120, term7120.getClass(), "day", (short) 29);
+        setShortField(term7120, term7120.getClass(), "month", (short) 8);
+        setShortField(term7120, term7120.getClass(), "day", (short) 12);
         setField(term7100, term7100.getClass(), "endDate", term7120);
         setBooleanField(term7100, term7100.getClass(), "completed", false);
         setField(term7125, term7125.getClass(), "id", term7126);

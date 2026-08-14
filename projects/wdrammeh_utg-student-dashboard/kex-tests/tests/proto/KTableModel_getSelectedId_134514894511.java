@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KTableModel_getSelectedId_134514894511 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term70928;
+     Object term70977;
 
     public KTableModel_getSelectedId_134514894511() {
     }
@@ -31,11 +31,11 @@ public class KTableModel_getSelectedId_134514894511 {
 
     @Before
     public void setup() throws Throwable {
-        term70928 = newInstance(Class.forName("proto.KTableModel"));
-        setField(term70928, term70928.getClass(), "table", null);
-        setField(term70928, term70928.getClass(), "dataVector", null);
-        setField(term70928, term70928.getClass(), "columnIdentifiers", null);
-        setField(term70928, term70928.getClass(), "listenerList", null);
+        term70977 = newInstance(Class.forName("proto.KTableModel"));
+        setField(term70977, term70977.getClass(), "table", null);
+        setField(term70977, term70977.getClass(), "dataVector", null);
+        setField(term70977, term70977.getClass(), "columnIdentifiers", null);
+        setField(term70977, term70977.getClass(), "listenerList", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KTableModel_getSelectedId_134514894511 {
         Class<?> klass = Class.forName("proto.KTableModel");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getSelectedId", argTypes, term70928, args);
+        callMethod(klass, "getSelectedId", argTypes, term70977, args);
     }
 
 };

@@ -121,7 +121,7 @@ public class SettingsActivity_10_init_11692802030 {
         setField(term4696, term4696.getClass(), "text", "");
         setField(term4696, term4696.getClass(), "defaultIcon", null);
         setField(term4696, term4696.getClass(), "disabledIcon", null);
-        setBooleanField(term4696, term4696.getClass(), "disabledIconSet", false);
+        setBooleanField(term4696, term4696.getClass(), "disabledIconSet", true);
         setIntField(term4696, term4696.getClass(), "verticalAlignment", -1222006000);
         setIntField(term4696, term4696.getClass(), "horizontalAlignment", 10);
         setIntField(term4696, term4696.getClass(), "verticalTextPosition", 2095798786);
@@ -313,7 +313,7 @@ public class SettingsActivity_10_init_11692802030 {
         setField(term4836, term4836.getClass(), "keySet", null);
         setField(term4836, term4836.getClass(), "values", null);
         setField(term4825, term4825.getClass(), "moduleToReader", term4836);
-        setLongField(term4841, term4841.getClass(), "timestamp", 163538403L);
+        setLongField(term4841, term4841.getClass(), "timestamp", 51810171L);
         setField(term4841, term4841.getClass(), "referent", null);
         setField(term4841, term4841.getClass(), "queue", null);
         setField(term4841, term4841.getClass(), "next", null);

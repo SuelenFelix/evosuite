@@ -38,7 +38,7 @@ public class EscapeToken_valueOf_21138775001 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
-        args[0] = "SzjVpOQTyS";
+        args[0] = "XZkOUcbfFg";
         callMethod(klass, "valueOf", argTypes, null, args);
     }
 

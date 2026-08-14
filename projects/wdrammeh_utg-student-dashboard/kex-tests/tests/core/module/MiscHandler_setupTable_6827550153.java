@@ -964,7 +964,7 @@ public class MiscHandler_setupTable_6827550153 {
         setField(term49405, term49405.getClass(), "keySet", null);
         setField(term49405, term49405.getClass(), "values", null);
         setField(term49394, term49394.getClass(), "moduleToReader", term49405);
-        setLongField(term49410, term49410.getClass(), "timestamp", 163397500L);
+        setLongField(term49410, term49410.getClass(), "timestamp", 51668656L);
         setField(term49410, term49410.getClass(), "referent", null);
         setField(term49410, term49410.getClass(), "queue", null);
         setField(term49410, term49410.getClass(), "next", null);

@@ -264,7 +264,7 @@ public class LocalAlertHandler_delete_19474840044 {
         setIntField(term628, term628.getClass(), "depth", 24);
         setIntField(term628, term628.getClass(), "colormap", 32);
         setField(term628, term628.getClass(), "colorModel", null);
-        setLongField(term628, term628.getClass(), "aData", 128688100652368L);
+        setLongField(term628, term628.getClass(), "aData", 138849725255120L);
         setBooleanField(term628, term628.getClass(), "doubleBuffer", true);
         setField(term628, term628.getClass(), "disposerReferent", null);
         setField(term628, term628.getClass(), "bufferCaps", null);

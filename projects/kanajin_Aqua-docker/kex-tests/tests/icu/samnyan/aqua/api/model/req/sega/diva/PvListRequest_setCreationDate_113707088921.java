@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class PvListRequest_setCreationDate_113707088921 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4091513;
+     Object term402258;
 
     public PvListRequest_setCreationDate_113707088921() {
     }
@@ -31,12 +31,12 @@ public class PvListRequest_setCreationDate_113707088921 {
 
     @Before
     public void setup() throws Throwable {
-        term4091513 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
-        setField(term4091513, term4091513.getClass(), "CreationDate", null);
-        setField(term4091513, term4091513.getClass(), "Easy", null);
-        setField(term4091513, term4091513.getClass(), "Normal", null);
-        setField(term4091513, term4091513.getClass(), "Hard", null);
-        setField(term4091513, term4091513.getClass(), "Extreme", null);
+        term402258 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
+        setField(term402258, term402258.getClass(), "CreationDate", null);
+        setField(term402258, term402258.getClass(), "Easy", null);
+        setField(term402258, term402258.getClass(), "Normal", null);
+        setField(term402258, term402258.getClass(), "Hard", null);
+        setField(term402258, term402258.getClass(), "Extreme", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class PvListRequest_setCreationDate_113707088921 {
         argTypes[0] = Class.forName("java.time.LocalDateTime");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setCreationDate", argTypes, term4091513, args);
+        callMethod(klass, "setCreationDate", argTypes, term402258, args);
     }
 
 };

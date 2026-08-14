@@ -63,7 +63,7 @@ public class PipesController_getCurrentPipe_2718182496 {
         setIntField(term303, term303.getClass(), "yOpeningEnd", 584893196);
         setIntField(term303, term303.getClass(), "width", 497269071);
         setField(term282, term282.getClass(), "lastPipe", term303);
-        setLongField(term309, term309.getClass(), "value", 273300444806592L);
+        setLongField(term309, term309.getClass(), "value", 90484917985205L);
         setField(term308, term308.getClass(), "seed", term309);
         setDoubleField(term308, term308.getClass(), "nextNextGaussian", 0.2641345529914265);
         setBooleanField(term308, term308.getClass(), "haveNextNextGaussian", true);

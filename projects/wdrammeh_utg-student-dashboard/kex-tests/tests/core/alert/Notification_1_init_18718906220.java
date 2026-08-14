@@ -266,7 +266,7 @@ public class Notification_1_init_18718906220 {
         setIntField(term2000, term2000.getClass(), "depth", 24);
         setIntField(term2000, term2000.getClass(), "colormap", 32);
         setField(term2000, term2000.getClass(), "colorModel", null);
-        setLongField(term2000, term2000.getClass(), "aData", 128688100652368L);
+        setLongField(term2000, term2000.getClass(), "aData", 138849725255120L);
         setBooleanField(term2000, term2000.getClass(), "doubleBuffer", true);
         setField(term2000, term2000.getClass(), "disposerReferent", null);
         setField(term2000, term2000.getClass(), "bufferCaps", null);

@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class ReportService_getReportHoursForCurrentEmployee_8832811746 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24321;
-     Object term24322;
+     Object term24461;
+     Object term24462;
 
     public ReportService_getReportHoursForCurrentEmployee_8832811746() {
     }
@@ -33,9 +33,9 @@ public class ReportService_getReportHoursForCurrentEmployee_8832811746 {
 
     @Before
     public void setup() throws Throwable {
-        term24321 = newInstance(Class.forName("ru.smartup.timetracker.service.ReportService"));
-        setField(term24321, term24321.getClass(), "reportRepository", null);
-        term24322 = new Integer(0);
+        term24461 = newInstance(Class.forName("ru.smartup.timetracker.service.ReportService"));
+        setField(term24461, term24461.getClass(), "reportRepository", null);
+        term24462 = new Integer(0);
     }
 
     @Test
@@ -46,10 +46,10 @@ public class ReportService_getReportHoursForCurrentEmployee_8832811746 {
         argTypes[1] = Class.forName("java.sql.Date");
         argTypes[2] = Class.forName("java.sql.Date");
         Object[] args = new Object[3];
-        args[0] = term24322;
+        args[0] = term24462;
         args[1] = null;
         args[2] = null;
-        callMethod(klass, "getReportHoursForCurrentEmployee", argTypes, term24321, args);
+        callMethod(klass, "getReportHoursForCurrentEmployee", argTypes, term24461, args);
     }
 
 };

@@ -77,7 +77,7 @@ public class SigunguService_getSigungu_3487930891 {
         setIntField(term960, term960.getClass(), "maxCallerDataDepth", 8);
         setIntField(term960, term960.getClass(), "resetCount", 0);
         setField(term960, term960.getClass(), "frameworkPackages", null);
-        setLongField(term960, term960.getClass(), "birthTime", 1782678045176L);
+        setLongField(term960, term960.getClass(), "birthTime", 1786433033413L);
         setField(term960, term960.getClass(), "name", null);
         setField(term960, term960.getClass(), "sm", null);
         setField(term960, term960.getClass(), "propertyMap", null);

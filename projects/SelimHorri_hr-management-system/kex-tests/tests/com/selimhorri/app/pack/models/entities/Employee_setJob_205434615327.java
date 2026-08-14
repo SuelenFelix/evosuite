@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Employee_setJob_205434615327 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10505;
+     Object term10512;
 
     public Employee_setJob_205434615327() {
     }
@@ -31,16 +31,16 @@ public class Employee_setJob_205434615327 {
 
     @Before
     public void setup() throws Throwable {
-        term10505 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
-        setField(term10505, term10505.getClass(), "empno", null);
-        setField(term10505, term10505.getClass(), "ename", null);
-        setField(term10505, term10505.getClass(), "job", null);
-        setField(term10505, term10505.getClass(), "mgr", null);
-        setField(term10505, term10505.getClass(), "hireDate", null);
-        setField(term10505, term10505.getClass(), "sal", null);
-        setField(term10505, term10505.getClass(), "comm", null);
-        setField(term10505, term10505.getClass(), "department", null);
-        setField(term10505, term10505.getClass(), "userCredential", null);
+        term10512 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
+        setField(term10512, term10512.getClass(), "empno", null);
+        setField(term10512, term10512.getClass(), "ename", null);
+        setField(term10512, term10512.getClass(), "job", null);
+        setField(term10512, term10512.getClass(), "mgr", null);
+        setField(term10512, term10512.getClass(), "hireDate", null);
+        setField(term10512, term10512.getClass(), "sal", null);
+        setField(term10512, term10512.getClass(), "comm", null);
+        setField(term10512, term10512.getClass(), "department", null);
+        setField(term10512, term10512.getClass(), "userCredential", null);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class Employee_setJob_205434615327 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setJob", argTypes, term10505, args);
+        callMethod(klass, "setJob", argTypes, term10512, args);
     }
 
 };

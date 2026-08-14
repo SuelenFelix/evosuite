@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_isReportReceiver_583568133 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1776;
+     Object term2150;
 
     public SessionEmployeePrincipal_isReportReceiver_583568133() {
     }
@@ -37,15 +37,15 @@ public class SessionEmployeePrincipal_isReportReceiver_583568133 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term1791 = new HashMap();
-        Set<Object> term1814 =  ((Map) term1791).keySet();
-        HashSet term1790 = new HashSet((Collection<? extends Object>) term1814);
-        HashMap term1799 = new HashMap();
-        term1776 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term1776, term1776.getClass(), "id", 1134449235);
-        setField(term1776, term1776.getClass(), "email", "SzjVpOQTyS");
-        setField(term1776, term1776.getClass(), "employeeRoles", term1790);
-        setField(term1776, term1776.getClass(), "projectIdsByProjectRoles", term1799);
+        HashMap term2165 = new HashMap();
+        Set<Object> term2188 =  ((Map) term2165).keySet();
+        HashSet term2164 = new HashSet((Collection<? extends Object>) term2188);
+        HashMap term2173 = new HashMap();
+        term2150 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term2150, term2150.getClass(), "id", 1134449235);
+        setField(term2150, term2150.getClass(), "email", "SzjVpOQTyS");
+        setField(term2150, term2150.getClass(), "employeeRoles", term2164);
+        setField(term2150, term2150.getClass(), "projectIdsByProjectRoles", term2173);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class SessionEmployeePrincipal_isReportReceiver_583568133 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "isReportReceiver", argTypes, term1776, args);
+        callMethod(klass, "isReportReceiver", argTypes, term2150, args);
     }
 
 };

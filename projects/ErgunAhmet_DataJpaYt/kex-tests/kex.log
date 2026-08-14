@@ -1,16 +1,16 @@
-2026-06-29 02:12:22.107 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/ErgunAhmet_DataJpaYt/target/classes
-2026-06-29 02:12:22.228 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 02:12:22.296 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 02:12:23.371 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 02:12:23.966 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/datajpa/relationship/service/*
-2026-06-29 02:12:23.968 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 02:12:23.998 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/ErgunAhmet_DataJpaYt/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 02:12:24.042 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/ErgunAhmet_DataJpaYt/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 46109 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/ErgunAhmet_DataJpaYt/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 02:12:24.057 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 02:14:04.119 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::<init>(com/datajpa/relationship/repository/ZipcodeRepository, com/datajpa/relationship/service/CityService): void
-2026-06-29 02:14:04.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::<init>(com/datajpa/relationship/repository/ZipcodeRepository, com/datajpa/relationship/service/CityService): void
+2026-08-11 23:58:54.250 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ErgunAhmet_DataJpaYt/target/classes
+2026-08-11 23:58:54.355 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 23:58:54.417 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 23:58:55.320 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 23:58:55.929 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/datajpa/relationship/service/*
+2026-08-11 23:58:55.930 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 23:58:55.941 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ErgunAhmet_DataJpaYt/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 23:58:55.973 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ErgunAhmet_DataJpaYt/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 38333 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ErgunAhmet_DataJpaYt/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 23:58:55.986 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 00:00:36.037 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::<init>(com/datajpa/relationship/repository/ZipcodeRepository, com/datajpa/relationship/service/CityService): void
+2026-08-12 00:00:36.037 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::<init>(com/datajpa/relationship/repository/ZipcodeRepository, com/datajpa/relationship/service/CityService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -28,7 +28,7 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 02:14:04.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:36.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -52,7 +52,7 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:04.125 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:36.043 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -76,9 +76,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:04.125 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::<init>(com/datajpa/relationship/repository/ZipcodeRepository, com/datajpa/relationship/service/CityService): void: null
-2026-06-29 02:14:04.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::addZipcode(com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode
-2026-06-29 02:14:04.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::addZipcode(com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.043 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::<init>(com/datajpa/relationship/repository/ZipcodeRepository, com/datajpa/relationship/service/CityService): void: null
+2026-08-12 00:00:36.043 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::addZipcode(com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::addZipcode(com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -152,9 +152,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 %bb.return0: 	//predecessors %bb6, %bb12
 	%retval1 = phi {%bb6 -> %28; %bb12 -> %29}
 	return %retval1
-2026-06-29 02:14:04.608 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_addZipcode_6812769010
-2026-06-29 02:14:04.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcodes(): java/util/List
-2026-06-29 02:14:04.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcodes(): java/util/List
+2026-08-12 00:00:36.539 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_addZipcode_6812769010
+2026-08-12 00:00:36.545 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcodes(): java/util/List
+2026-08-12 00:00:36.545 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcodes(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -188,9 +188,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb7: 	//predecessors %bb6
 	return %13
-2026-06-29 02:14:04.724 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_getZipcodes_19185693001
-2026-06-29 02:14:04.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
-2026-06-29 02:14:04.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.662 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_getZipcodes_19185693001
+2026-08-12 00:00:36.663 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.663 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -216,9 +216,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-29 02:14:04.816 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_getZipcode_10450890182
-2026-06-29 02:14:04.817 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::deleteZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
-2026-06-29 02:14:04.817 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::deleteZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.764 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_getZipcode_10450890182
+2026-08-12 00:00:36.765 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::deleteZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.765 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::deleteZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -236,9 +236,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb2: 	//predecessors %bb1
 	return %4
-2026-06-29 02:14:04.895 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_deleteZipcode_18369178293
-2026-06-29 02:14:04.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::editZipcode(java/lang/Long, com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode
-2026-06-29 02:14:04.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::editZipcode(java/lang/Long, com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.849 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_deleteZipcode_18369178293
+2026-08-12 00:00:36.850 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::editZipcode(java/lang/Long, com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.850 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::editZipcode(java/lang/Long, com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -287,9 +287,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 %bb.return0: 	//predecessors %if.else0, %bb6
 	%retval1 = phi {%if.else0 -> %16; %bb6 -> %16}
 	return %retval1
-2026-06-29 02:14:04.965 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_editZipcode_327173984
-2026-06-29 02:14:04.966 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::addCityToZipcode(java/lang/Long, java/lang/Long): com/datajpa/relationship/model/Zipcode
-2026-06-29 02:14:04.966 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::addCityToZipcode(java/lang/Long, java/lang/Long): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.927 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_editZipcode_327173984
+2026-08-12 00:00:36.928 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::addCityToZipcode(java/lang/Long, java/lang/Long): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:36.928 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::addCityToZipcode(java/lang/Long, java/lang/Long): com/datajpa/relationship/model/Zipcode
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -331,9 +331,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb5: 	//predecessors %if.then0
 	return %16
-2026-06-29 02:14:05.027 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_addCityToZipcode_2995580895
-2026-06-29 02:14:05.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::removeCityFromZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
-2026-06-29 02:14:05.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::removeCityFromZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:37.002 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_addCityToZipcode_2995580895
+2026-08-12 00:00:37.003 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/ZipcodeServiceImpl::removeCityFromZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
+2026-08-12 00:00:37.003 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/ZipcodeServiceImpl::removeCityFromZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -367,9 +367,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb4: 	//predecessors %if.then0
 	return %12
-2026-06-29 02:14:05.088 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_removeCityFromZipcode_12658763116
-2026-06-29 02:14:05.089 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::<init>(com/datajpa/relationship/repository/ZipcodeRepository, com/datajpa/relationship/service/CityService): void processing is finished normally
-2026-06-29 02:14:05.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.069 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.ZipcodeServiceImpl_removeCityFromZipcode_12658763116
+2026-08-12 00:00:37.070 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::<init>(com/datajpa/relationship/repository/ZipcodeRepository, com/datajpa/relationship/service/CityService): void processing is finished normally
+2026-08-12 00:00:37.071 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -407,8 +407,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::addZipcode(com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode: null
-2026-06-29 02:14:05.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.071 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::addZipcode(com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode: null
+2026-08-12 00:00:37.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -446,8 +446,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcodes(): java/util/List: null
-2026-06-29 02:14:05.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcodes(): java/util/List: null
+2026-08-12 00:00:37.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -485,8 +485,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode: null
-2026-06-29 02:14:05.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode: null
+2026-08-12 00:00:37.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -524,8 +524,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::deleteZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode: null
-2026-06-29 02:14:05.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::deleteZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode: null
+2026-08-12 00:00:37.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -563,8 +563,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::editZipcode(java/lang/Long, com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode: null
-2026-06-29 02:14:05.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::editZipcode(java/lang/Long, com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode: null
+2026-08-12 00:00:37.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -602,8 +602,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::addCityToZipcode(java/lang/Long, java/lang/Long): com/datajpa/relationship/model/Zipcode: null
-2026-06-29 02:14:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::addCityToZipcode(java/lang/Long, java/lang/Long): com/datajpa/relationship/model/Zipcode: null
+2026-08-12 00:00:37.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -641,16 +641,16 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::removeCityFromZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode: null
-2026-06-29 02:14:05.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::addZipcode(com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode processing is finished normally
-2026-06-29 02:14:05.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcodes(): java/util/List processing is finished normally
-2026-06-29 02:14:05.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode processing is finished normally
-2026-06-29 02:14:05.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::deleteZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode processing is finished normally
-2026-06-29 02:14:05.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::editZipcode(java/lang/Long, com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode processing is finished normally
-2026-06-29 02:14:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::addCityToZipcode(java/lang/Long, java/lang/Long): com/datajpa/relationship/model/Zipcode processing is finished normally
-2026-06-29 02:14:05.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::removeCityFromZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode processing is finished normally
-2026-06-29 02:14:05.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::<init>(com/datajpa/relationship/repository/CategoryRepository): void
-2026-06-29 02:14:05.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::<init>(com/datajpa/relationship/repository/CategoryRepository): void
+2026-08-12 00:00:37.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/ZipcodeServiceImpl::removeCityFromZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode: null
+2026-08-12 00:00:37.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::addZipcode(com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode processing is finished normally
+2026-08-12 00:00:37.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcodes(): java/util/List processing is finished normally
+2026-08-12 00:00:37.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::getZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode processing is finished normally
+2026-08-12 00:00:37.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::deleteZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode processing is finished normally
+2026-08-12 00:00:37.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::editZipcode(java/lang/Long, com/datajpa/relationship/dto/requestDto/ZipcodeRequestDto): com/datajpa/relationship/model/Zipcode processing is finished normally
+2026-08-12 00:00:37.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::addCityToZipcode(java/lang/Long, java/lang/Long): com/datajpa/relationship/model/Zipcode processing is finished normally
+2026-08-12 00:00:37.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/ZipcodeServiceImpl::removeCityFromZipcode(java/lang/Long): com/datajpa/relationship/model/Zipcode processing is finished normally
+2026-08-12 00:00:37.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::<init>(com/datajpa/relationship/repository/CategoryRepository): void
+2026-08-12 00:00:37.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::<init>(com/datajpa/relationship/repository/CategoryRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -664,7 +664,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 02:14:05.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -688,7 +688,7 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:05.103 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -712,9 +712,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:05.103 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::<init>(com/datajpa/relationship/repository/CategoryRepository): void: null
-2026-06-29 02:14:05.103 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::getCategory(java/lang/Long): com/datajpa/relationship/model/Category
-2026-06-29 02:14:05.103 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::getCategory(java/lang/Long): com/datajpa/relationship/model/Category
+2026-08-12 00:00:37.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::<init>(com/datajpa/relationship/repository/CategoryRepository): void: null
+2026-08-12 00:00:37.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::getCategory(java/lang/Long): com/datajpa/relationship/model/Category
+2026-08-12 00:00:37.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::getCategory(java/lang/Long): com/datajpa/relationship/model/Category
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -740,9 +740,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-29 02:14:05.174 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_getCategory_2214905900
-2026-06-29 02:14:05.175 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::addCategory(com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
-2026-06-29 02:14:05.175 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::addCategory(com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
+2026-08-12 00:00:37.154 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_getCategory_2214905900
+2026-08-12 00:00:37.155 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::addCategory(com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
+2026-08-12 00:00:37.155 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::addCategory(com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -773,9 +773,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb4: 	//predecessors %label1
 	return %11
-2026-06-29 02:14:05.231 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_addCategory_511989601
-2026-06-29 02:14:05.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::getCategoryById(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
-2026-06-29 02:14:05.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::getCategoryById(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
+2026-08-12 00:00:37.222 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_addCategory_511989601
+2026-08-12 00:00:37.223 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::getCategoryById(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
+2026-08-12 00:00:37.223 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::getCategoryById(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -789,9 +789,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb1: 	//predecessors %label0
 	return %3
-2026-06-29 02:14:05.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_getCategoryById_8525126012
-2026-06-29 02:14:05.295 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::getCategories(): java/util/List
-2026-06-29 02:14:05.295 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::getCategories(): java/util/List
+2026-08-12 00:00:37.293 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_getCategoryById_8525126012
+2026-08-12 00:00:37.294 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::getCategories(): java/util/List
+2026-08-12 00:00:37.294 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::getCategories(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -829,9 +829,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb7: 	//predecessors %label0
 	return %15
-2026-06-29 02:14:05.345 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_getCategories_7526279713
-2026-06-29 02:14:05.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::deleteCategory(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
-2026-06-29 02:14:05.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::deleteCategory(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
+2026-08-12 00:00:37.341 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_getCategories_7526279713
+2026-08-12 00:00:37.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::deleteCategory(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
+2026-08-12 00:00:37.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::deleteCategory(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -853,9 +853,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 02:14:05.414 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_deleteCategory_1682068524
-2026-06-29 02:14:05.415 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::editCategory(java/lang/Long, com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
-2026-06-29 02:14:05.415 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::editCategory(java/lang/Long, com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
+2026-08-12 00:00:37.390 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_deleteCategory_1682068524
+2026-08-12 00:00:37.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CategoryServiceImpl::editCategory(java/lang/Long, com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
+2026-08-12 00:00:37.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CategoryServiceImpl::editCategory(java/lang/Long, com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -877,9 +877,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 02:14:05.462 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_editCategory_7824974655
-2026-06-29 02:14:05.463 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::<init>(com/datajpa/relationship/repository/CategoryRepository): void processing is finished normally
-2026-06-29 02:14:05.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.445 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CategoryServiceImpl_editCategory_7824974655
+2026-08-12 00:00:37.446 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::<init>(com/datajpa/relationship/repository/CategoryRepository): void processing is finished normally
+2026-08-12 00:00:37.447 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -917,8 +917,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::getCategory(java/lang/Long): com/datajpa/relationship/model/Category: null
-2026-06-29 02:14:05.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.447 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::getCategory(java/lang/Long): com/datajpa/relationship/model/Category: null
+2026-08-12 00:00:37.449 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -956,8 +956,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::addCategory(com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto: null
-2026-06-29 02:14:05.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.449 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::addCategory(com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto: null
+2026-08-12 00:00:37.449 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -995,8 +995,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::getCategoryById(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto: null
-2026-06-29 02:14:05.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.449 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::getCategoryById(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto: null
+2026-08-12 00:00:37.450 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1034,8 +1034,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::getCategories(): java/util/List: null
-2026-06-29 02:14:05.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.450 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::getCategories(): java/util/List: null
+2026-08-12 00:00:37.450 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1073,8 +1073,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::deleteCategory(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto: null
-2026-06-29 02:14:05.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.450 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::deleteCategory(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto: null
+2026-08-12 00:00:37.450 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1112,15 +1112,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::editCategory(java/lang/Long, com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto: null
-2026-06-29 02:14:05.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::getCategory(java/lang/Long): com/datajpa/relationship/model/Category processing is finished normally
-2026-06-29 02:14:05.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::addCategory(com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto processing is finished normally
-2026-06-29 02:14:05.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::getCategoryById(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto processing is finished normally
-2026-06-29 02:14:05.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::getCategories(): java/util/List processing is finished normally
-2026-06-29 02:14:05.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::deleteCategory(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto processing is finished normally
-2026-06-29 02:14:05.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::editCategory(java/lang/Long, com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto processing is finished normally
-2026-06-29 02:14:05.472 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::<init>(com/datajpa/relationship/repository/CityRepository): void
-2026-06-29 02:14:05.473 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::<init>(com/datajpa/relationship/repository/CityRepository): void
+2026-08-12 00:00:37.450 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CategoryServiceImpl::editCategory(java/lang/Long, com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto: null
+2026-08-12 00:00:37.450 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::getCategory(java/lang/Long): com/datajpa/relationship/model/Category processing is finished normally
+2026-08-12 00:00:37.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::addCategory(com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto processing is finished normally
+2026-08-12 00:00:37.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::getCategoryById(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto processing is finished normally
+2026-08-12 00:00:37.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::getCategories(): java/util/List processing is finished normally
+2026-08-12 00:00:37.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::deleteCategory(java/lang/Long): com/datajpa/relationship/dto/responseDto/CategoryResponseDto processing is finished normally
+2026-08-12 00:00:37.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CategoryServiceImpl::editCategory(java/lang/Long, com/datajpa/relationship/dto/requestDto/CategoryRequestDto): com/datajpa/relationship/dto/responseDto/CategoryResponseDto processing is finished normally
+2026-08-12 00:00:37.457 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::<init>(com/datajpa/relationship/repository/CityRepository): void
+2026-08-12 00:00:37.457 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::<init>(com/datajpa/relationship/repository/CityRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1134,7 +1134,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 02:14:05.474 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.458 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -1158,7 +1158,7 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:05.474 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.458 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -1182,9 +1182,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:05.474 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::<init>(com/datajpa/relationship/repository/CityRepository): void: null
-2026-06-29 02:14:05.474 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::addCity(com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City
-2026-06-29 02:14:05.474 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::addCity(com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City
+2026-08-12 00:00:37.458 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::<init>(com/datajpa/relationship/repository/CityRepository): void: null
+2026-08-12 00:00:37.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::addCity(com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City
+2026-08-12 00:00:37.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::addCity(com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1215,9 +1215,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb5: 	//predecessors %bb4
 	return %11
-2026-06-29 02:14:05.520 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_addCity_9188899790
-2026-06-29 02:14:05.520 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::getCities(): java/util/List
-2026-06-29 02:14:05.521 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::getCities(): java/util/List
+2026-08-12 00:00:37.503 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_addCity_9188899790
+2026-08-12 00:00:37.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::getCities(): java/util/List
+2026-08-12 00:00:37.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::getCities(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1248,9 +1248,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb5: 	//predecessors %bb4
 	return %11
-2026-06-29 02:14:05.565 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_getCities_2568511131
-2026-06-29 02:14:05.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::getCity(java/lang/Long): com/datajpa/relationship/model/City
-2026-06-29 02:14:05.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::getCity(java/lang/Long): com/datajpa/relationship/model/City
+2026-08-12 00:00:37.551 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_getCities_2568511131
+2026-08-12 00:00:37.551 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::getCity(java/lang/Long): com/datajpa/relationship/model/City
+2026-08-12 00:00:37.551 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::getCity(java/lang/Long): com/datajpa/relationship/model/City
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1276,9 +1276,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-29 02:14:05.612 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_getCity_19148116712
-2026-06-29 02:14:05.613 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::deleteCity(java/lang/Long): com/datajpa/relationship/model/City
-2026-06-29 02:14:05.613 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::deleteCity(java/lang/Long): com/datajpa/relationship/model/City
+2026-08-12 00:00:37.598 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_getCity_19148116712
+2026-08-12 00:00:37.598 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::deleteCity(java/lang/Long): com/datajpa/relationship/model/City
+2026-08-12 00:00:37.598 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::deleteCity(java/lang/Long): com/datajpa/relationship/model/City
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1296,9 +1296,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb2: 	//predecessors %bb1
 	return %4
-2026-06-29 02:14:05.655 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_deleteCity_8160823023
-2026-06-29 02:14:05.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::editCity(java/lang/Long, com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City
-2026-06-29 02:14:05.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::editCity(java/lang/Long, com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City
+2026-08-12 00:00:37.642 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_deleteCity_8160823023
+2026-08-12 00:00:37.642 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/CityServiceImpl::editCity(java/lang/Long, com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City
+2026-08-12 00:00:37.642 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/CityServiceImpl::editCity(java/lang/Long, com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1316,9 +1316,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb2: 	//predecessors %bb1
 	return %4
-2026-06-29 02:14:05.698 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_editCity_12682783404
-2026-06-29 02:14:05.699 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::<init>(com/datajpa/relationship/repository/CityRepository): void processing is finished normally
-2026-06-29 02:14:05.700 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.684 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.CityServiceImpl_editCity_12682783404
+2026-08-12 00:00:37.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::<init>(com/datajpa/relationship/repository/CityRepository): void processing is finished normally
+2026-08-12 00:00:37.686 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1356,8 +1356,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.700 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::addCity(com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City: null
-2026-06-29 02:14:05.700 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.686 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::addCity(com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City: null
+2026-08-12 00:00:37.686 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1395,8 +1395,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.700 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::getCities(): java/util/List: null
-2026-06-29 02:14:05.701 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.686 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::getCities(): java/util/List: null
+2026-08-12 00:00:37.687 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1434,8 +1434,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.701 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::getCity(java/lang/Long): com/datajpa/relationship/model/City: null
-2026-06-29 02:14:05.701 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.687 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::getCity(java/lang/Long): com/datajpa/relationship/model/City: null
+2026-08-12 00:00:37.687 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1473,8 +1473,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.701 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::deleteCity(java/lang/Long): com/datajpa/relationship/model/City: null
-2026-06-29 02:14:05.702 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.687 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::deleteCity(java/lang/Long): com/datajpa/relationship/model/City: null
+2026-08-12 00:00:37.688 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -1512,14 +1512,14 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:05.702 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::editCity(java/lang/Long, com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City: null
-2026-06-29 02:14:05.702 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::addCity(com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City processing is finished normally
-2026-06-29 02:14:05.702 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::getCities(): java/util/List processing is finished normally
-2026-06-29 02:14:05.702 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::getCity(java/lang/Long): com/datajpa/relationship/model/City processing is finished normally
-2026-06-29 02:14:05.702 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::deleteCity(java/lang/Long): com/datajpa/relationship/model/City processing is finished normally
-2026-06-29 02:14:05.702 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::editCity(java/lang/Long, com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City processing is finished normally
-2026-06-29 02:14:05.715 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::<init>(com/datajpa/relationship/repository/BookRepository, com/datajpa/relationship/service/AuthorService, com/datajpa/relationship/service/CategoryService): void
-2026-06-29 02:14:05.716 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::<init>(com/datajpa/relationship/repository/BookRepository, com/datajpa/relationship/service/AuthorService, com/datajpa/relationship/service/CategoryService): void
+2026-08-12 00:00:37.688 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/CityServiceImpl::editCity(java/lang/Long, com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City: null
+2026-08-12 00:00:37.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::addCity(com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City processing is finished normally
+2026-08-12 00:00:37.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::getCities(): java/util/List processing is finished normally
+2026-08-12 00:00:37.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::getCity(java/lang/Long): com/datajpa/relationship/model/City processing is finished normally
+2026-08-12 00:00:37.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::deleteCity(java/lang/Long): com/datajpa/relationship/model/City processing is finished normally
+2026-08-12 00:00:37.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/CityServiceImpl::editCity(java/lang/Long, com/datajpa/relationship/dto/requestDto/CityRequestDto): com/datajpa/relationship/model/City processing is finished normally
+2026-08-12 00:00:37.702 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::<init>(com/datajpa/relationship/repository/BookRepository, com/datajpa/relationship/service/AuthorService, com/datajpa/relationship/service/CategoryService): void
+2026-08-12 00:00:37.703 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::<init>(com/datajpa/relationship/repository/BookRepository, com/datajpa/relationship/service/AuthorService, com/datajpa/relationship/service/CategoryService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1541,7 +1541,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-29 02:14:05.716 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.703 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -1565,7 +1565,7 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:05.716 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:37.704 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -1589,9 +1589,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:05.717 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::<init>(com/datajpa/relationship/repository/BookRepository, com/datajpa/relationship/service/AuthorService, com/datajpa/relationship/service/CategoryService): void: null
-2026-06-29 02:14:05.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::addBook(com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto
-2026-06-29 02:14:05.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::addBook(com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.704 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::<init>(com/datajpa/relationship/repository/BookRepository, com/datajpa/relationship/service/AuthorService, com/datajpa/relationship/service/CategoryService): void: null
+2026-08-12 00:00:37.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::addBook(com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::addBook(com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1729,9 +1729,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb19: 	//predecessors %label7
 	return %59
-2026-06-29 02:14:05.767 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_addBook_1263641440
-2026-06-29 02:14:05.768 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::getBookById(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
-2026-06-29 02:14:05.768 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::getBookById(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.762 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_addBook_1263641440
+2026-08-12 00:00:37.762 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::getBookById(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.763 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::getBookById(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1745,9 +1745,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb1: 	//predecessors %label0
 	return %3
-2026-06-29 02:14:05.815 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_getBookById_6665561961
-2026-06-29 02:14:05.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::getBook(java/lang/Long): com/datajpa/relationship/model/Book
-2026-06-29 02:14:05.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::getBook(java/lang/Long): com/datajpa/relationship/model/Book
+2026-08-12 00:00:37.802 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_getBookById_6665561961
+2026-08-12 00:00:37.803 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::getBook(java/lang/Long): com/datajpa/relationship/model/Book
+2026-08-12 00:00:37.803 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::getBook(java/lang/Long): com/datajpa/relationship/model/Book
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1773,9 +1773,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %label0: 	//predecessors %bb4
 	return %9
-2026-06-29 02:14:05.867 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_getBook_13682920672
-2026-06-29 02:14:05.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::getBooks(): java/util/List
-2026-06-29 02:14:05.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::getBooks(): java/util/List
+2026-08-12 00:00:37.844 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_getBook_13682920672
+2026-08-12 00:00:37.845 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::getBooks(): java/util/List
+2026-08-12 00:00:37.845 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::getBooks(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1813,9 +1813,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb7: 	//predecessors %label0
 	return %15
-2026-06-29 02:14:05.923 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_getBooks_7860282143
-2026-06-29 02:14:05.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::deleteBook(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
-2026-06-29 02:14:05.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::deleteBook(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.893 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_getBooks_7860282143
+2026-08-12 00:00:37.894 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::deleteBook(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.894 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::deleteBook(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1837,9 +1837,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 02:14:05.972 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_deleteBook_21002798654
-2026-06-29 02:14:05.973 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::editBook(java/lang/Long, com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto
-2026-06-29 02:14:05.973 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::editBook(java/lang/Long, com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.932 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_deleteBook_21002798654
+2026-08-12 00:00:37.932 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::editBook(java/lang/Long, com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.932 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::editBook(java/lang/Long, com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1948,9 +1948,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb13: 	//predecessors %if.then2
 	return %46
-2026-06-29 02:14:06.025 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_editBook_4757525055
-2026-06-29 02:14:06.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::addAuthorToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
-2026-06-29 02:14:06.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::addAuthorToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.979 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_editBook_4757525055
+2026-08-12 00:00:37.980 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::addAuthorToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:37.980 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::addAuthorToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2000,9 +2000,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb7: 	//predecessors %bb6
 	return %21
-2026-06-29 02:14:06.068 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_addAuthorToBook_8113962716
-2026-06-29 02:14:06.068 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::deleteAuthorFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
-2026-06-29 02:14:06.069 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::deleteAuthorFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:38.031 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_addAuthorToBook_8113962716
+2026-08-12 00:00:38.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::deleteAuthorFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:38.032 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::deleteAuthorFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2052,9 +2052,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb7: 	//predecessors %bb6
 	return %21
-2026-06-29 02:14:06.137 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_deleteAuthorFromBook_16393678627
-2026-06-29 02:14:06.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::addCategoryToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
-2026-06-29 02:14:06.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::addCategoryToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:38.082 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_deleteAuthorFromBook_16393678627
+2026-08-12 00:00:38.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::addCategoryToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:38.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::addCategoryToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2104,9 +2104,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb7: 	//predecessors %bb6
 	return %20
-2026-06-29 02:14:06.179 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_addCategoryToBook_1133648688
-2026-06-29 02:14:06.180 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::removeCategoryFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
-2026-06-29 02:14:06.180 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::removeCategoryFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:38.133 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_addCategoryToBook_1133648688
+2026-08-12 00:00:38.133 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/BookServiceImpl::removeCategoryFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
+2026-08-12 00:00:38.134 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/BookServiceImpl::removeCategoryFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2156,9 +2156,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb7: 	//predecessors %bb6
 	return %19
-2026-06-29 02:14:06.217 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_removeCategoryFromBook_1337207909
-2026-06-29 02:14:06.218 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::<init>(com/datajpa/relationship/repository/BookRepository, com/datajpa/relationship/service/AuthorService, com/datajpa/relationship/service/CategoryService): void processing is finished normally
-2026-06-29 02:14:06.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.184 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.BookServiceImpl_removeCategoryFromBook_1337207909
+2026-08-12 00:00:38.185 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::<init>(com/datajpa/relationship/repository/BookRepository, com/datajpa/relationship/service/AuthorService, com/datajpa/relationship/service/CategoryService): void processing is finished normally
+2026-08-12 00:00:38.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2196,8 +2196,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::addBook(com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
-2026-06-29 02:14:06.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::addBook(com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
+2026-08-12 00:00:38.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2235,8 +2235,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::getBookById(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
-2026-06-29 02:14:06.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::getBookById(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
+2026-08-12 00:00:38.187 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2274,8 +2274,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::getBook(java/lang/Long): com/datajpa/relationship/model/Book: null
-2026-06-29 02:14:06.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.187 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::getBook(java/lang/Long): com/datajpa/relationship/model/Book: null
+2026-08-12 00:00:38.187 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2313,8 +2313,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::getBooks(): java/util/List: null
-2026-06-29 02:14:06.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.187 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::getBooks(): java/util/List: null
+2026-08-12 00:00:38.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2352,8 +2352,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::deleteBook(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
-2026-06-29 02:14:06.220 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::deleteBook(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
+2026-08-12 00:00:38.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2391,8 +2391,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::editBook(java/lang/Long, com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
-2026-06-29 02:14:06.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::editBook(java/lang/Long, com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
+2026-08-12 00:00:38.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2430,8 +2430,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::addAuthorToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
-2026-06-29 02:14:06.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::addAuthorToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
+2026-08-12 00:00:38.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2469,8 +2469,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.221 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::deleteAuthorFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
-2026-06-29 02:14:06.222 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::deleteAuthorFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
+2026-08-12 00:00:38.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2508,8 +2508,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.222 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::addCategoryToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
-2026-06-29 02:14:06.222 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::addCategoryToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
+2026-08-12 00:00:38.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2547,19 +2547,19 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.222 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::removeCategoryFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::addBook(com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::getBookById(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::getBook(java/lang/Long): com/datajpa/relationship/model/Book processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::getBooks(): java/util/List processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::deleteBook(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::editBook(java/lang/Long, com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::addAuthorToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::deleteAuthorFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::addCategoryToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
-2026-06-29 02:14:06.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::removeCategoryFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
-2026-06-29 02:14:06.230 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::<init>(com/datajpa/relationship/repository/AuthorRepository, com/datajpa/relationship/service/ZipcodeService): void
-2026-06-29 02:14:06.231 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::<init>(com/datajpa/relationship/repository/AuthorRepository, com/datajpa/relationship/service/ZipcodeService): void
+2026-08-12 00:00:38.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/BookServiceImpl::removeCategoryFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto: null
+2026-08-12 00:00:38.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::addBook(com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
+2026-08-12 00:00:38.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::getBookById(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
+2026-08-12 00:00:38.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::getBook(java/lang/Long): com/datajpa/relationship/model/Book processing is finished normally
+2026-08-12 00:00:38.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::getBooks(): java/util/List processing is finished normally
+2026-08-12 00:00:38.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::deleteBook(java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
+2026-08-12 00:00:38.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::editBook(java/lang/Long, com/datajpa/relationship/dto/requestDto/BookRequestDto): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
+2026-08-12 00:00:38.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::addAuthorToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
+2026-08-12 00:00:38.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::deleteAuthorFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
+2026-08-12 00:00:38.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::addCategoryToBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
+2026-08-12 00:00:38.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/BookServiceImpl::removeCategoryFromBook(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/BookResponseDto processing is finished normally
+2026-08-12 00:00:38.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::<init>(com/datajpa/relationship/repository/AuthorRepository, com/datajpa/relationship/service/ZipcodeService): void
+2026-08-12 00:00:38.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::<init>(com/datajpa/relationship/repository/AuthorRepository, com/datajpa/relationship/service/ZipcodeService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2577,7 +2577,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 02:14:06.232 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.199 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -2601,7 +2601,7 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:06.232 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.200 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/data/repository/CrudRepository
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -2625,9 +2625,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 02:14:06.232 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::<init>(com/datajpa/relationship/repository/AuthorRepository, com/datajpa/relationship/service/ZipcodeService): void: null
-2026-06-29 02:14:06.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::addAuthor(com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
-2026-06-29 02:14:06.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::addAuthor(com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.200 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::<init>(com/datajpa/relationship/repository/AuthorRepository, com/datajpa/relationship/service/ZipcodeService): void: null
+2026-08-12 00:00:38.200 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::addAuthor(com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.200 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::addAuthor(com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2690,9 +2690,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb9: 	//predecessors %label2
 	return %25
-2026-06-29 02:14:06.273 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_addAuthor_3018643040
-2026-06-29 02:14:06.274 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::getAuthors(): java/util/List
-2026-06-29 02:14:06.274 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::getAuthors(): java/util/List
+2026-08-12 00:00:38.255 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_addAuthor_3018643040
+2026-08-12 00:00:38.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::getAuthors(): java/util/List
+2026-08-12 00:00:38.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::getAuthors(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2730,9 +2730,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb7: 	//predecessors %label0
 	return %15
-2026-06-29 02:14:06.308 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_getAuthors_45661981
-2026-06-29 02:14:06.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::getAuthorById(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
-2026-06-29 02:14:06.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::getAuthorById(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.301 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_getAuthors_45661981
+2026-08-12 00:00:38.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::getAuthorById(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::getAuthorById(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2746,9 +2746,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 02:14:06.345 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_getAuthorById_18899168582
-2026-06-29 02:14:06.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::getAuthor(java/lang/Long): com/datajpa/relationship/model/Author
-2026-06-29 02:14:06.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::getAuthor(java/lang/Long): com/datajpa/relationship/model/Author
+2026-08-12 00:00:38.346 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_getAuthorById_18899168582
+2026-08-12 00:00:38.347 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::getAuthor(java/lang/Long): com/datajpa/relationship/model/Author
+2026-08-12 00:00:38.347 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::getAuthor(java/lang/Long): com/datajpa/relationship/model/Author
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2774,9 +2774,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %label0: 	//predecessors %bb4
 	return %9
-2026-06-29 02:14:06.380 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_getAuthor_33565993
-2026-06-29 02:14:06.381 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::deleteAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
-2026-06-29 02:14:06.381 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::deleteAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.393 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_getAuthor_33565993
+2026-08-12 00:00:38.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::deleteAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::deleteAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2798,9 +2798,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 02:14:06.415 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_deleteAuthor_3516924574
-2026-06-29 02:14:06.415 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::editAuthor(java/lang/Long, com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
-2026-06-29 02:14:06.415 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::editAuthor(java/lang/Long, com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.455 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_deleteAuthor_3516924574
+2026-08-12 00:00:38.456 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::editAuthor(java/lang/Long, com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.456 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::editAuthor(java/lang/Long, com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2846,9 +2846,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb6: 	//predecessors %if.then0
 	return %17
-2026-06-29 02:14:06.451 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_editAuthor_9243622475
-2026-06-29 02:14:06.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::addZipcodeToAuthor(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
-2026-06-29 02:14:06.452 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::addZipcodeToAuthor(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.503 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_editAuthor_9243622475
+2026-08-12 00:00:38.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::addZipcodeToAuthor(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::addZipcodeToAuthor(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2894,9 +2894,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb6: 	//predecessors %bb5
 	return %18
-2026-06-29 02:14:06.488 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_addZipcodeToAuthor_3383897806
-2026-06-29 02:14:06.488 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::deleteZipcodeFromAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
-2026-06-29 02:14:06.488 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::deleteZipcodeFromAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.539 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_addZipcodeToAuthor_3383897806
+2026-08-12 00:00:38.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/datajpa/relationship/service/AuthorServiceImpl::deleteZipcodeFromAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
+2026-08-12 00:00:38.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/datajpa/relationship/service/AuthorServiceImpl::deleteZipcodeFromAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2914,9 +2914,9 @@ java.lang.ClassNotFoundException: org/springframework/data/repository/CrudReposi
 
 %bb2: 	//predecessors %bb1
 	return %4
-2026-06-29 02:14:06.523 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_deleteZipcodeFromAuthor_13058605237
-2026-06-29 02:14:06.524 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::<init>(com/datajpa/relationship/repository/AuthorRepository, com/datajpa/relationship/service/ZipcodeService): void processing is finished normally
-2026-06-29 02:14:06.524 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.575 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.datajpa.relationship.service.AuthorServiceImpl_deleteZipcodeFromAuthor_13058605237
+2026-08-12 00:00:38.576 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::<init>(com/datajpa/relationship/repository/AuthorRepository, com/datajpa/relationship/service/ZipcodeService): void processing is finished normally
+2026-08-12 00:00:38.577 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2954,8 +2954,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.524 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::addAuthor(com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
-2026-06-29 02:14:06.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.577 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::addAuthor(com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
+2026-08-12 00:00:38.577 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -2993,8 +2993,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::getAuthors(): java/util/List: null
-2026-06-29 02:14:06.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.577 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::getAuthors(): java/util/List: null
+2026-08-12 00:00:38.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -3032,8 +3032,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::getAuthorById(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
-2026-06-29 02:14:06.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::getAuthorById(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
+2026-08-12 00:00:38.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -3071,8 +3071,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::getAuthor(java/lang/Long): com/datajpa/relationship/model/Author: null
-2026-06-29 02:14:06.526 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.578 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::getAuthor(java/lang/Long): com/datajpa/relationship/model/Author: null
+2026-08-12 00:00:38.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -3110,8 +3110,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.526 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::deleteAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
-2026-06-29 02:14:06.526 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::deleteAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
+2026-08-12 00:00:38.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -3149,8 +3149,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.526 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::editAuthor(java/lang/Long, com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
-2026-06-29 02:14:06.526 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::editAuthor(java/lang/Long, com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
+2026-08-12 00:00:38.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -3188,8 +3188,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.526 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::addZipcodeToAuthor(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
-2026-06-29 02:14:06.527 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 00:00:38.579 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::addZipcodeToAuthor(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
+2026-08-12 00:00:38.580 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -3227,14 +3227,14 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-29 02:14:06.527 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::deleteZipcodeFromAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
-2026-06-29 02:14:06.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::addAuthor(com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
-2026-06-29 02:14:06.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::getAuthors(): java/util/List processing is finished normally
-2026-06-29 02:14:06.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::getAuthorById(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
-2026-06-29 02:14:06.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::getAuthor(java/lang/Long): com/datajpa/relationship/model/Author processing is finished normally
-2026-06-29 02:14:06.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::deleteAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
-2026-06-29 02:14:06.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::editAuthor(java/lang/Long, com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
-2026-06-29 02:14:06.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::addZipcodeToAuthor(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
-2026-06-29 02:14:06.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::deleteZipcodeFromAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
-2026-06-29 02:14:06.528 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 02:14:06.529 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 00:00:38.580 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/datajpa/relationship/service/AuthorServiceImpl::deleteZipcodeFromAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto: null
+2026-08-12 00:00:38.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::addAuthor(com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
+2026-08-12 00:00:38.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::getAuthors(): java/util/List processing is finished normally
+2026-08-12 00:00:38.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::getAuthorById(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
+2026-08-12 00:00:38.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::getAuthor(java/lang/Long): com/datajpa/relationship/model/Author processing is finished normally
+2026-08-12 00:00:38.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::deleteAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
+2026-08-12 00:00:38.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::editAuthor(java/lang/Long, com/datajpa/relationship/dto/requestDto/AuthorRequestDto): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
+2026-08-12 00:00:38.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::addZipcodeToAuthor(java/lang/Long, java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
+2026-08-12 00:00:38.580 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/datajpa/relationship/service/AuthorServiceImpl::deleteZipcodeFromAuthor(java/lang/Long): com/datajpa/relationship/dto/responseDto/AuthorResponseDto processing is finished normally
+2026-08-12 00:00:38.582 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 00:00:38.582 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

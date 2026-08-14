@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class EmployeeServiceImpl_findById_14669679031 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term132;
+     Object term130;
 
     public EmployeeServiceImpl_findById_14669679031() {
     }
@@ -32,7 +32,7 @@ public class EmployeeServiceImpl_findById_14669679031 {
 
     @Before
     public void setup() throws Throwable {
-        term132 = new Integer(-1371869594);
+        term130 = new Integer(-1371869594);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class EmployeeServiceImpl_findById_14669679031 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Integer");
         Object[] args = new Object[1];
-        args[0] = term132;
+        args[0] = term130;
         callMethod(klass, "findById", argTypes, null, args);
     }
 

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class PvListRequest_getCreationDate_163786340116 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4091508;
+     Object term402253;
 
     public PvListRequest_getCreationDate_163786340116() {
     }
@@ -31,12 +31,12 @@ public class PvListRequest_getCreationDate_163786340116 {
 
     @Before
     public void setup() throws Throwable {
-        term4091508 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
-        setField(term4091508, term4091508.getClass(), "CreationDate", null);
-        setField(term4091508, term4091508.getClass(), "Easy", null);
-        setField(term4091508, term4091508.getClass(), "Normal", null);
-        setField(term4091508, term4091508.getClass(), "Hard", null);
-        setField(term4091508, term4091508.getClass(), "Extreme", null);
+        term402253 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
+        setField(term402253, term402253.getClass(), "CreationDate", null);
+        setField(term402253, term402253.getClass(), "Easy", null);
+        setField(term402253, term402253.getClass(), "Normal", null);
+        setField(term402253, term402253.getClass(), "Hard", null);
+        setField(term402253, term402253.getClass(), "Extreme", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class PvListRequest_getCreationDate_163786340116 {
         Class<?> klass = Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getCreationDate", argTypes, term4091508, args);
+        callMethod(klass, "getCreationDate", argTypes, term402253, args);
     }
 
 };

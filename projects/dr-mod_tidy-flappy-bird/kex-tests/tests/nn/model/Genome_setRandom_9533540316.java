@@ -104,14 +104,14 @@ public class Genome_setRandom_9533540316 {
         setField(term8489, term8489.getClass(), "nodeInnovator", term8530);
         setIntField(term8532, term8532.getClass(), "counter", 100);
         setField(term8489, term8489.getClass(), "connectionInnovator", term8532);
-        setLongField(term8535, term8535.getClass(), "value", 278356302286696L);
+        setLongField(term8535, term8535.getClass(), "value", 21825791665971L);
         setField(term8534, term8534.getClass(), "seed", term8535);
         setDoubleField(term8534, term8534.getClass(), "nextNextGaussian", 0.6463368736569162);
         setBooleanField(term8534, term8534.getClass(), "haveNextNextGaussian", true);
         setField(term8489, term8489.getClass(), "random", term8534);
         term8539 = newInstance(Class.forName("java.util.Random"));
         Object term8540 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
-        setLongField(term8540, term8540.getClass(), "value", 273189150871214L);
+        setLongField(term8540, term8540.getClass(), "value", 94679811750422L);
         setField(term8539, term8539.getClass(), "seed", term8540);
         setDoubleField(term8539, term8539.getClass(), "nextNextGaussian", 0.35554035462293654);
         setBooleanField(term8539, term8539.getClass(), "haveNextNextGaussian", false);

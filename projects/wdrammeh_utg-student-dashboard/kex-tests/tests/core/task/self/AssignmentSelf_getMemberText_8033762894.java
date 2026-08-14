@@ -360,7 +360,7 @@ public class AssignmentSelf_getMemberText_8033762894 {
         setField(term2437, term2437.getClass(), "keySet", null);
         setField(term2437, term2437.getClass(), "values", null);
         setField(term2426, term2426.getClass(), "moduleToReader", term2437);
-        setLongField(term2442, term2442.getClass(), "timestamp", 164120287L);
+        setLongField(term2442, term2442.getClass(), "timestamp", 52397775L);
         setField(term2442, term2442.getClass(), "referent", null);
         setField(term2442, term2442.getClass(), "queue", null);
         setField(term2442, term2442.getClass(), "next", null);

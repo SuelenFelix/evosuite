@@ -38,7 +38,7 @@ public class QueryHistoryEntity_setQueryStr_10273184116 {
         setField(term868, term868.getClass(), "queryCommand", "vrQLuWIDJX");
         setField(term868, term868.getClass(), "queryStr", "flxyYxBRtu");
         setField(term868, term868.getClass(), "queryText", "OclPbYPkcH");
-        setField(term868, term868.getClass(), "updateTime", "2026-06-28 17:29:55");
+        setField(term868, term868.getClass(), "updateTime", "2026-08-11 06:36:30");
     }
 
     @Test

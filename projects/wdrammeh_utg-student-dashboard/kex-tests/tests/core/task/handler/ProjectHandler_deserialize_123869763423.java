@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ProjectHandler_deserialize_123869763423 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10666;
+     Object term10662;
 
     public ProjectHandler_deserialize_123869763423() {
     }
@@ -31,7 +31,7 @@ public class ProjectHandler_deserialize_123869763423 {
 
     @Before
     public void setup() throws Throwable {
-        term10666 = newInstance(Class.forName("core.task.handler.ProjectHandler"));
+        term10662 = newInstance(Class.forName("core.task.handler.ProjectHandler"));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class ProjectHandler_deserialize_123869763423 {
         Class<?> klass = Class.forName("core.task.handler.ProjectHandler");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "deserialize", argTypes, term10666, args);
+        callMethod(klass, "deserialize", argTypes, term10662, args);
     }
 
 };

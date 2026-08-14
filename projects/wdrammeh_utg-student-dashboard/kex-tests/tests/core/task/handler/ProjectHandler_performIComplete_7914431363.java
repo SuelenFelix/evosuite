@@ -21,8 +21,8 @@ import java.lang.Boolean;
 
 public class ProjectHandler_performIComplete_7914431363 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5432;
-     Object term5433;
+     Object term5428;
+     Object term5429;
 
     public ProjectHandler_performIComplete_7914431363() {
     }
@@ -33,8 +33,8 @@ public class ProjectHandler_performIComplete_7914431363 {
 
     @Before
     public void setup() throws Throwable {
-        term5432 = newInstance(Class.forName("core.task.handler.ProjectHandler"));
-        term5433 = new Boolean(false);
+        term5428 = newInstance(Class.forName("core.task.handler.ProjectHandler"));
+        term5429 = new Boolean(false);
     }
 
     @Test
@@ -45,8 +45,8 @@ public class ProjectHandler_performIComplete_7914431363 {
         argTypes[1] = boolean.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term5433;
-        callMethod(klass, "performIComplete", argTypes, term5432, args);
+        args[1] = term5429;
+        callMethod(klass, "performIComplete", argTypes, term5428, args);
     }
 
 };

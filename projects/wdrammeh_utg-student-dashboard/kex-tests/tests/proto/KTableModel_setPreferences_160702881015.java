@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KTableModel_setPreferences_160702881015 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term71954;
+     Object term72003;
 
     public KTableModel_setPreferences_160702881015() {
     }
@@ -31,11 +31,11 @@ public class KTableModel_setPreferences_160702881015 {
 
     @Before
     public void setup() throws Throwable {
-        term71954 = newInstance(Class.forName("proto.KTableModel"));
-        setField(term71954, term71954.getClass(), "table", null);
-        setField(term71954, term71954.getClass(), "dataVector", null);
-        setField(term71954, term71954.getClass(), "columnIdentifiers", null);
-        setField(term71954, term71954.getClass(), "listenerList", null);
+        term72003 = newInstance(Class.forName("proto.KTableModel"));
+        setField(term72003, term72003.getClass(), "table", null);
+        setField(term72003, term72003.getClass(), "dataVector", null);
+        setField(term72003, term72003.getClass(), "columnIdentifiers", null);
+        setField(term72003, term72003.getClass(), "listenerList", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KTableModel_setPreferences_160702881015 {
         Class<?> klass = Class.forName("proto.KTableModel");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "setPreferences", argTypes, term71954, args);
+        callMethod(klass, "setPreferences", argTypes, term72003, args);
     }
 
 };

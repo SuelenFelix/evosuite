@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class XmlNode_setProps_71146810425 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1833;
+     Object term6698;
 
     public XmlNode_setProps_71146810425() {
     }
@@ -31,11 +31,11 @@ public class XmlNode_setProps_71146810425 {
 
     @Before
     public void setup() throws Throwable {
-        term1833 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
-        setField(term1833, term1833.getClass(), "name", null);
-        setField(term1833, term1833.getClass(), "props", null);
-        setField(term1833, term1833.getClass(), "children", null);
-        setField(term1833, term1833.getClass(), "content", null);
+        term6698 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
+        setField(term6698, term6698.getClass(), "name", null);
+        setField(term6698, term6698.getClass(), "props", null);
+        setField(term6698, term6698.getClass(), "children", null);
+        setField(term6698, term6698.getClass(), "content", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class XmlNode_setProps_71146810425 {
         argTypes[0] = Class.forName("java.util.List");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setProps", argTypes, term1833, args);
+        callMethod(klass, "setProps", argTypes, term6698, args);
     }
 
 };

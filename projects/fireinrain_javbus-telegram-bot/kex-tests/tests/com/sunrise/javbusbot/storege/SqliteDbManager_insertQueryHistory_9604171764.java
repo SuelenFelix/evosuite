@@ -38,7 +38,7 @@ public class SqliteDbManager_insertQueryHistory_9604171764 {
         setField(term79, term79.getClass(), "queryCommand", "sjlJAEtRrb");
         setField(term79, term79.getClass(), "queryStr", "MuLcgQHgqz");
         setField(term79, term79.getClass(), "queryText", "xxtlPwDYFs");
-        setField(term79, term79.getClass(), "updateTime", "2026-06-28 17:29:54");
+        setField(term79, term79.getClass(), "updateTime", "2026-08-11 06:36:30");
     }
 
     @Test

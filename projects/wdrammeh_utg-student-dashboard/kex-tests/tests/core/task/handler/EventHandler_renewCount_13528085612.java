@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class EventHandler_renewCount_13528085612 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term25351;
-     Object term25352;
+     Object term25339;
+     Object term25340;
 
     public EventHandler_renewCount_13528085612() {
     }
@@ -33,8 +33,8 @@ public class EventHandler_renewCount_13528085612 {
 
     @Before
     public void setup() throws Throwable {
-        term25351 = newInstance(Class.forName("core.task.handler.EventHandler"));
-        term25352 = new Integer(0);
+        term25339 = newInstance(Class.forName("core.task.handler.EventHandler"));
+        term25340 = new Integer(0);
     }
 
     @Test
@@ -43,8 +43,8 @@ public class EventHandler_renewCount_13528085612 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term25352;
-        callMethod(klass, "renewCount", argTypes, term25351, args);
+        args[0] = term25340;
+        callMethod(klass, "renewCount", argTypes, term25339, args);
     }
 
 };

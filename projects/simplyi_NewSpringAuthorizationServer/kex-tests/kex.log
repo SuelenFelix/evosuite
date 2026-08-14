@@ -1,16 +1,16 @@
-2026-06-28 11:33:07.005 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/simplyi_NewSpringAuthorizationServer/target/classes
-2026-06-28 11:33:07.108 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 11:33:07.216 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 11:33:08.744 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 11:33:09.634 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/appsdeveloperblog/photoapp/oauthserver/*
-2026-06-28 11:33:09.636 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 11:33:09.660 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/simplyi_NewSpringAuthorizationServer/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 11:33:09.707 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/simplyi_NewSpringAuthorizationServer/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 46707 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/simplyi_NewSpringAuthorizationServer/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 11:33:09.726 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 11:34:49.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void
-2026-06-28 11:34:49.765 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void
+2026-08-10 20:13:52.417 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/simplyi_NewSpringAuthorizationServer/target/classes
+2026-08-10 20:13:52.500 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 20:13:52.574 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-10 20:13:53.547 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-10 20:13:54.050 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/appsdeveloperblog/photoapp/oauthserver/*
+2026-08-10 20:13:54.052 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-10 20:13:54.075 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/simplyi_NewSpringAuthorizationServer/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 20:13:54.105 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/simplyi_NewSpringAuthorizationServer/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 44857 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/simplyi_NewSpringAuthorizationServer/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-10 20:13:54.117 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-10 20:15:34.159 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void
+2026-08-10 20:15:34.159 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,7 +20,7 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 11:34:49.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.163 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -56,7 +56,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 11:34:49.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.164 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -92,9 +92,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 11:34:49.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void: null
-2026-06-28 11:34:49.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository
-2026-06-28 11:34:49.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository
+2026-08-10 20:15:34.164 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void: null
+2026-08-10 20:15:34.164 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository
+2026-08-10 20:15:34.164 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -177,7 +177,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 
 %bb9: 	//predecessors %bb8
 	return %37
-2026-06-28 11:34:49.770 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.165 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -212,7 +212,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.770 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.165 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -247,9 +247,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.770 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository: null
-2026-06-28 11:34:49.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::authorizationServerSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain
-2026-06-28 11:34:49.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::authorizationServerSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain
+2026-08-10 20:15:34.165 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository: null
+2026-08-10 20:15:34.165 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::authorizationServerSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain
+2026-08-10 20:15:34.165 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::authorizationServerSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -275,7 +275,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 
 %bb5: 	//predecessors %bb4
 	return %7
-2026-06-28 11:34:49.771 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.166 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.security.config.annotation.web.builders.HttpSecurity
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -302,7 +302,7 @@ java.lang.ClassNotFoundException: org.springframework.security.config.annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 11:34:49.771 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.166 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.security.config.annotation.web.builders.HttpSecurity
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -329,9 +329,9 @@ java.lang.ClassNotFoundException: org.springframework.security.config.annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 11:34:49.771 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::authorizationServerSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain: null
-2026-06-28 11:34:49.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings
-2026-06-28 11:34:49.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings
+2026-08-10 20:15:34.166 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::authorizationServerSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain: null
+2026-08-10 20:15:34.166 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings
+2026-08-10 20:15:34.166 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -349,7 +349,7 @@ java.lang.ClassNotFoundException: org.springframework.security.config.annotation
 
 %bb2: 	//predecessors %bb1
 	return %5
-2026-06-28 11:34:49.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.166 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -384,7 +384,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.167 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -419,9 +419,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings: null
-2026-06-28 11:34:49.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwtDecoder(com/nimbusds/jose/jwk/source/JWKSource): org/springframework/security/oauth2/jwt/JwtDecoder
-2026-06-28 11:34:49.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwtDecoder(com/nimbusds/jose/jwk/source/JWKSource): org/springframework/security/oauth2/jwt/JwtDecoder
+2026-08-10 20:15:34.167 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings: null
+2026-08-10 20:15:34.167 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwtDecoder(com/nimbusds/jose/jwk/source/JWKSource): org/springframework/security/oauth2/jwt/JwtDecoder
+2026-08-10 20:15:34.167 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwtDecoder(com/nimbusds/jose/jwk/source/JWKSource): org/springframework/security/oauth2/jwt/JwtDecoder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -431,7 +431,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 11:34:49.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.167 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.nimbusds.jose.jwk.source.JWKSource
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -458,7 +458,7 @@ java.lang.ClassNotFoundException: com.nimbusds.jose.jwk.source.JWKSource
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 11:34:49.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.167 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.nimbusds.jose.jwk.source.JWKSource
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -485,9 +485,9 @@ java.lang.ClassNotFoundException: com.nimbusds.jose.jwk.source.JWKSource
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 11:34:49.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwtDecoder(com/nimbusds/jose/jwk/source/JWKSource): org/springframework/security/oauth2/jwt/JwtDecoder: null
-2026-06-28 11:34:49.773 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource
-2026-06-28 11:34:49.773 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource
+2026-08-10 20:15:34.167 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwtDecoder(com/nimbusds/jose/jwk/source/JWKSource): org/springframework/security/oauth2/jwt/JwtDecoder: null
+2026-08-10 20:15:34.168 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource
+2026-08-10 20:15:34.168 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -506,7 +506,7 @@ java.lang.ClassNotFoundException: com.nimbusds.jose.jwk.source.JWKSource
 
 %bb1: 	//predecessors %label1
 	return %6
-2026-06-28 11:34:49.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.168 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -541,7 +541,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.168 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -576,9 +576,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource: null
-2026-06-28 11:34:49.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey
-2026-06-28 11:34:49.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey
+2026-08-10 20:15:34.168 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource: null
+2026-08-10 20:15:34.169 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey
+2026-08-10 20:15:34.169 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -629,7 +629,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 
 %bb7: 	//predecessors %bb6
 	return %23
-2026-06-28 11:34:49.774 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.169 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -664,7 +664,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.774 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.169 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -699,9 +699,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.774 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey: null
-2026-06-28 11:34:49.775 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair
-2026-06-28 11:34:49.775 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair
+2026-08-10 20:15:34.169 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey: null
+2026-08-10 20:15:34.170 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair
+2026-08-10 20:15:34.170 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -719,7 +719,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 
 %bb2: 	//predecessors %bb1
 	return %4
-2026-06-28 11:34:49.775 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.170 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -754,7 +754,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.775 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.170 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -789,17 +789,17 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:49.775 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair: null
-2026-06-28 11:34:49.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void processing is finished normally
-2026-06-28 11:34:49.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository processing is finished normally
-2026-06-28 11:34:49.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::authorizationServerSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain processing is finished normally
-2026-06-28 11:34:49.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings processing is finished normally
-2026-06-28 11:34:49.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwtDecoder(com/nimbusds/jose/jwk/source/JWKSource): org/springframework/security/oauth2/jwt/JwtDecoder processing is finished normally
-2026-06-28 11:34:49.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource processing is finished normally
-2026-06-28 11:34:49.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey processing is finished normally
-2026-06-28 11:34:49.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair processing is finished normally
-2026-06-28 11:34:49.779 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::<init>(): void
-2026-06-28 11:34:49.779 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::<init>(): void
+2026-08-10 20:15:34.170 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair: null
+2026-08-10 20:15:34.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::<init>(): void processing is finished normally
+2026-08-10 20:15:34.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::registeredClientRepository(): org/springframework/security/oauth2/server/authorization/client/RegisteredClientRepository processing is finished normally
+2026-08-10 20:15:34.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::authorizationServerSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain processing is finished normally
+2026-08-10 20:15:34.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::providerSettings(): org/springframework/security/oauth2/server/authorization/config/ProviderSettings processing is finished normally
+2026-08-10 20:15:34.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwtDecoder(com/nimbusds/jose/jwk/source/JWKSource): org/springframework/security/oauth2/jwt/JwtDecoder processing is finished normally
+2026-08-10 20:15:34.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::jwkSource(): com/nimbusds/jose/jwk/source/JWKSource processing is finished normally
+2026-08-10 20:15:34.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsa(): com/nimbusds/jose/jwk/RSAKey processing is finished normally
+2026-08-10 20:15:34.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/AuthorizationServerConfiguration::generateRsaKey(): java/security/KeyPair processing is finished normally
+2026-08-10 20:15:34.174 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::<init>(): void
+2026-08-10 20:15:34.175 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -809,9 +809,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 11:34:50.329 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427620
-2026-06-28 11:34:50.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::main(java/lang/String[]): void
-2026-06-28 11:34:50.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::main(java/lang/String[]): void
+2026-08-10 20:15:34.623 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427620
+2026-08-10 20:15:34.628 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::main(java/lang/String[]): void
+2026-08-10 20:15:34.628 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -821,15 +821,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-28 11:34:50.493 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
-2026-06-28 11:34:50.615 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
-2026-06-28 11:34:50.716 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
-2026-06-28 11:34:50.717 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::<init>(): void: null
-2026-06-28 11:34:50.717 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::main(java/lang/String[]): void: null
-2026-06-28 11:34:50.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::<init>(): void processing is finished normally
-2026-06-28 11:34:50.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::main(java/lang/String[]): void processing is finished normally
-2026-06-28 11:34:50.727 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void
-2026-06-28 11:34:50.727 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void
+2026-08-10 20:15:34.745 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
+2026-08-10 20:15:34.828 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
+2026-08-10 20:15:34.902 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
+2026-08-10 20:15:34.904 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::<init>(): void: null
+2026-08-10 20:15:34.904 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::main(java/lang/String[]): void: null
+2026-08-10 20:15:34.904 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::<init>(): void processing is finished normally
+2026-08-10 20:15:34.904 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-10 20:15:34.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void
+2026-08-10 20:15:34.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -839,7 +839,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.oauth2
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 11:34:50.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -875,7 +875,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 11:34:50.729 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -911,9 +911,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 11:34:50.729 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void: null
-2026-06-28 11:34:50.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::configureSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain
-2026-06-28 11:34:50.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::configureSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain
+2026-08-10 20:15:34.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void: null
+2026-08-10 20:15:34.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::configureSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain
+2026-08-10 20:15:34.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::configureSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -943,7 +943,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 
 %bb5: 	//predecessors %bb4
 	return %10
-2026-06-28 11:34:50.729 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.security.config.annotation.web.builders.HttpSecurity
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -970,7 +970,7 @@ java.lang.ClassNotFoundException: org.springframework.security.config.annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 11:34:50.729 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.security.config.annotation.web.builders.HttpSecurity
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -997,9 +997,9 @@ java.lang.ClassNotFoundException: org.springframework.security.config.annotation
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 11:34:50.729 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::configureSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain: null
-2026-06-28 11:34:50.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService
-2026-06-28 11:34:50.730 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService
+2026-08-10 20:15:34.914 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::configureSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain: null
+2026-08-10 20:15:34.914 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService
+2026-08-10 20:15:34.914 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1050,7 +1050,7 @@ java.lang.ClassNotFoundException: org.springframework.security.config.annotation
 
 %bb8: 	//predecessors %bb7
 	return %20
-2026-06-28 11:34:50.730 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.914 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1085,7 +1085,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:50.730 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.914 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1120,9 +1120,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:50.730 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService: null
-2026-06-28 11:34:50.730 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer
-2026-06-28 11:34:50.730 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer
+2026-08-10 20:15:34.914 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService: null
+2026-08-10 20:15:34.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer
+2026-08-10 20:15:34.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1132,7 +1132,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 11:34:50.731 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.915 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1167,7 +1167,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:50.731 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 20:15:34.915 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1202,10 +1202,10 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.u
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 11:34:50.731 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer: null
-2026-06-28 11:34:50.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void processing is finished normally
-2026-06-28 11:34:50.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::configureSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain processing is finished normally
-2026-06-28 11:34:50.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService processing is finished normally
-2026-06-28 11:34:50.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer processing is finished normally
-2026-06-28 11:34:50.732 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 11:34:50.732 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-10 20:15:34.915 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer: null
+2026-08-10 20:15:34.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::<init>(): void processing is finished normally
+2026-08-10 20:15:34.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::configureSecurityFilterChain(org/springframework/security/config/annotation/web/builders/HttpSecurity): org/springframework/security/web/SecurityFilterChain processing is finished normally
+2026-08-10 20:15:34.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::users(): org/springframework/security/core/userdetails/UserDetailsService processing is finished normally
+2026-08-10 20:15:34.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/appsdeveloperblog/photoapp/oauthserver/SpringSecurityConfiguration::jwtCustomizer(): org/springframework/security/oauth2/server/authorization/OAuth2TokenCustomizer processing is finished normally
+2026-08-10 20:15:34.916 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-10 20:15:34.916 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

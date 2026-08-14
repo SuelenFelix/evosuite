@@ -21,7 +21,7 @@ import java.lang.Boolean;
 
 public class KCheckBox_init_9153231071 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term57133;
+     Object term57182;
 
     public KCheckBox_init_9153231071() {
     }
@@ -32,7 +32,7 @@ public class KCheckBox_init_9153231071 {
 
     @Before
     public void setup() throws Throwable {
-        term57133 = new Boolean(false);
+        term57182 = new Boolean(true);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KCheckBox_init_9153231071 {
         argTypes[1] = boolean.class;
         Object[] args = new Object[2];
         args[0] = "JDaAnsVTGV";
-        args[1] = term57133;
+        args[1] = term57182;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

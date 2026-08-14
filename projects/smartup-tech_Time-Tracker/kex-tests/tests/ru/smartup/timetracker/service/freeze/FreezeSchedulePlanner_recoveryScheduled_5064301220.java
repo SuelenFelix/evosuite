@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class FreezeSchedulePlanner_recoveryScheduled_5064301220 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term887;
+     Object term1068;
 
     public FreezeSchedulePlanner_recoveryScheduled_5064301220() {
     }
@@ -32,33 +32,33 @@ public class FreezeSchedulePlanner_recoveryScheduled_5064301220 {
 
     @Before
     public void setup() throws Throwable {
-        term887 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner"));
-        Object term888 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
-        Object term889 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
-        Object term890 = newInstance(Class.forName("java.time.ZoneRegion"));
-        Object term892 = newInstance(Class.forName("java.time.zone.ZoneRules"));
-        Object term893 = newInstance(Class.forName("java.time.LocalTime"));
-        setField(term887, term887.getClass(), "crudFreezeService", null);
-        setField(term890, term890.getClass(), "id", "");
-        setField(term892, term892.getClass(), "standardTransitions", null);
-        setField(term892, term892.getClass(), "standardOffsets", null);
-        setField(term892, term892.getClass(), "savingsInstantTransitions", null);
-        setField(term892, term892.getClass(), "savingsLocalTransitions", null);
-        setField(term892, term892.getClass(), "wallOffsets", null);
-        setField(term892, term892.getClass(), "lastRules", null);
-        setField(term892, term892.getClass(), "lastRulesCache", null);
-        setField(term890, term890.getClass(), "rules", term892);
-        setField(term889, term889.getClass(), "timeZone", term890);
-        setByteField(term893, term893.getClass(), "hour", (byte) 3);
-        setByteField(term893, term893.getClass(), "minute", (byte) 40);
-        setByteField(term893, term893.getClass(), "second", (byte) 46);
-        setIntField(term893, term893.getClass(), "nano", 759135300);
-        setField(term889, term889.getClass(), "fixedTimeFreeze", term893);
-        setIntField(term889, term889.getClass(), "dayToUnfreeze", -165587447);
-        setField(term888, term888.getClass(), "freezeProperties", term889);
-        setField(term887, term887.getClass(), "freezeDateUtils", term888);
-        setField(term887, term887.getClass(), "freezeScheduler", null);
-        setField(term887, term887.getClass(), "trackUnitService", null);
+        term1068 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner"));
+        Object term1069 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
+        Object term1070 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
+        Object term1071 = newInstance(Class.forName("java.time.ZoneRegion"));
+        Object term1073 = newInstance(Class.forName("java.time.zone.ZoneRules"));
+        Object term1074 = newInstance(Class.forName("java.time.LocalTime"));
+        setField(term1068, term1068.getClass(), "crudFreezeService", null);
+        setField(term1071, term1071.getClass(), "id", "");
+        setField(term1073, term1073.getClass(), "standardTransitions", null);
+        setField(term1073, term1073.getClass(), "standardOffsets", null);
+        setField(term1073, term1073.getClass(), "savingsInstantTransitions", null);
+        setField(term1073, term1073.getClass(), "savingsLocalTransitions", null);
+        setField(term1073, term1073.getClass(), "wallOffsets", null);
+        setField(term1073, term1073.getClass(), "lastRules", null);
+        setField(term1073, term1073.getClass(), "lastRulesCache", null);
+        setField(term1071, term1071.getClass(), "rules", term1073);
+        setField(term1070, term1070.getClass(), "timeZone", term1071);
+        setByteField(term1074, term1074.getClass(), "hour", (byte) 3);
+        setByteField(term1074, term1074.getClass(), "minute", (byte) 40);
+        setByteField(term1074, term1074.getClass(), "second", (byte) 46);
+        setIntField(term1074, term1074.getClass(), "nano", 759135300);
+        setField(term1070, term1070.getClass(), "fixedTimeFreeze", term1074);
+        setIntField(term1070, term1070.getClass(), "dayToUnfreeze", -165587447);
+        setField(term1069, term1069.getClass(), "freezeProperties", term1070);
+        setField(term1068, term1068.getClass(), "freezeDateUtils", term1069);
+        setField(term1068, term1068.getClass(), "freezeScheduler", null);
+        setField(term1068, term1068.getClass(), "trackUnitService", null);
     }
 
     @Test
@@ -66,7 +66,7 @@ public class FreezeSchedulePlanner_recoveryScheduled_5064301220 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "recoveryScheduled", argTypes, term887, args);
+        callMethod(klass, "recoveryScheduled", argTypes, term1068, args);
     }
 
 };

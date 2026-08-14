@@ -20,8 +20,8 @@ import static org.junit.Assert.assertTrue;
 
 public class News_NewsSavior_equals_1814898991 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term123574;
-     Object term123623;
+     Object term123572;
+     Object term123621;
 
     public News_NewsSavior_equals_1814898991() {
     }
@@ -32,12 +32,12 @@ public class News_NewsSavior_equals_1814898991 {
 
     @Before
     public void setup() throws Throwable {
-        term123574 = newInstance(Class.forName("core.News$NewsSavior"));
-        setField(term123574, term123574.getClass(), "heading", "bIrtpkYJWT");
-        setField(term123574, term123574.getClass(), "body", "VuLLXpvPpZ");
-        setField(term123574, term123574.getClass(), "link", "UEdzEKEEEV");
-        setField(term123574, term123574.getClass(), "content", "BcENaQFYSd");
-        term123623 = newInstance(Class.forName("java.lang.Object"));
+        term123572 = newInstance(Class.forName("core.News$NewsSavior"));
+        setField(term123572, term123572.getClass(), "heading", "bIrtpkYJWT");
+        setField(term123572, term123572.getClass(), "body", "VuLLXpvPpZ");
+        setField(term123572, term123572.getClass(), "link", "UEdzEKEEEV");
+        setField(term123572, term123572.getClass(), "content", "BcENaQFYSd");
+        term123621 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -46,8 +46,8 @@ public class News_NewsSavior_equals_1814898991 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term123623;
-        callMethod(klass, "equals", argTypes, term123574, args);
+        args[0] = term123621;
+        callMethod(klass, "equals", argTypes, term123572, args);
     }
 
 };

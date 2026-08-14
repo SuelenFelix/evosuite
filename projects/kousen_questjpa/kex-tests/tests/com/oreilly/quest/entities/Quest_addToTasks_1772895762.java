@@ -75,12 +75,12 @@ public class Quest_addToTasks_1772895762 {
         setField(term9688, term9688.getClass(), "name", "DhjNLmRMCu");
         setIntField(term9688, term9688.getClass(), "priority", 3);
         setIntField(term9704, term9704.getClass(), "year", 2026);
-        setShortField(term9704, term9704.getClass(), "month", (short) 6);
-        setShortField(term9704, term9704.getClass(), "day", (short) 29);
+        setShortField(term9704, term9704.getClass(), "month", (short) 8);
+        setShortField(term9704, term9704.getClass(), "day", (short) 12);
         setField(term9688, term9688.getClass(), "startDate", term9704);
         setIntField(term9708, term9708.getClass(), "year", 2026);
-        setShortField(term9708, term9708.getClass(), "month", (short) 6);
-        setShortField(term9708, term9708.getClass(), "day", (short) 29);
+        setShortField(term9708, term9708.getClass(), "month", (short) 8);
+        setShortField(term9708, term9708.getClass(), "day", (short) 12);
         setField(term9688, term9688.getClass(), "endDate", term9708);
         setBooleanField(term9688, term9688.getClass(), "completed", false);
         setField(term9713, term9713.getClass(), "id", term9714);

@@ -22,8 +22,8 @@ import java.lang.Object;
 
 public class RParser_setType_21188998608 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term12543;
-     Object enum42;
+     Object term22686;
+     Object enum62;
 
     public RParser_setType_21188998608() {
     }
@@ -34,20 +34,16 @@ public class RParser_setType_21188998608 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term12565 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
-        Field term12564 = ((Class) term12565).getDeclaredField((String) "GROUP");
-        ((Field) term12564).setAccessible(true);
-        Object enum41 = ((Field) term12564).get((Object) null);
-        term12543 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
-        setField(term12543, term12543.getClass(), "type", enum41);
-        setIntField(term12543, term12543.getClass(), "quoteId", 1193880199);
-        setIntField(term12543, term12543.getClass(), "groupId", -1087774327);
-        setField(term12543, term12543.getClass(), "parser", null);
-        setField(term12543, term12543.getClass(), "func", null);
-        Class<? extends Object> term12862 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
-        Field term12861 = ((Class) term12862).getDeclaredField((String) "QUOTE");
-        ((Field) term12861).setAccessible(true);
-        enum42 = ((Field) term12861).get((Object) null);
+        Class<? extends Object> term22699 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
+        Field term22698 = ((Class) term22699).getDeclaredField((String) "GROUP");
+        ((Field) term22698).setAccessible(true);
+        enum62 = ((Field) term22698).get((Object) null);
+        term22686 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
+        setField(term22686, term22686.getClass(), "type", enum62);
+        setIntField(term22686, term22686.getClass(), "quoteId", 937859191);
+        setIntField(term22686, term22686.getClass(), "groupId", -916584829);
+        setField(term22686, term22686.getClass(), "parser", null);
+        setField(term22686, term22686.getClass(), "func", null);
     }
 
     @Test
@@ -56,8 +52,8 @@ public class RParser_setType_21188998608 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("io.github.janlely.jparser.impl.regex.RParser$ParserType");
         Object[] args = new Object[1];
-        args[0] = enum42;
-        callMethod(klass, "setType", argTypes, term12543, args);
+        args[0] = enum62;
+        callMethod(klass, "setType", argTypes, term22686, args);
     }
 
 };

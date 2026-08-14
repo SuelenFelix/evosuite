@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class KTextArea_getLimitedEntryArea_1550243161 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term57457;
+     Object term57506;
 
     public KTextArea_getLimitedEntryArea_1550243161() {
     }
@@ -32,7 +32,7 @@ public class KTextArea_getLimitedEntryArea_1550243161 {
 
     @Before
     public void setup() throws Throwable {
-        term57457 = new Integer(1633913667);
+        term57506 = new Integer(1633913667);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class KTextArea_getLimitedEntryArea_1550243161 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term57457;
+        args[0] = term57506;
         callMethod(klass, "getLimitedEntryArea", argTypes, null, args);
     }
 

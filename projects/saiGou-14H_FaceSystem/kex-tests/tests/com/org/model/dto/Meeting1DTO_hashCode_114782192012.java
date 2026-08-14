@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class Meeting1DTO_hashCode_114782192012 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4305;
+     Object term4304;
 
     public Meeting1DTO_hashCode_114782192012() {
     }
@@ -32,12 +32,12 @@ public class Meeting1DTO_hashCode_114782192012 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term4306 = new Integer(-470798982);
-        term4305 = newInstance(Class.forName("com.org.model.dto.Meeting1DTO"));
-        setField(term4305, term4305.getClass(), "userid", term4306);
-        setField(term4305, term4305.getClass(), "host", "WSDrFHxHqO");
-        setField(term4305, term4305.getClass(), "meetingname", "kbdjWUKDix");
-        setField(term4305, term4305.getClass(), "meetingroom", "jhXmnsQIUw");
+        Integer term4305 = new Integer(-470798982);
+        term4304 = newInstance(Class.forName("com.org.model.dto.Meeting1DTO"));
+        setField(term4304, term4304.getClass(), "userid", term4305);
+        setField(term4304, term4304.getClass(), "host", "WSDrFHxHqO");
+        setField(term4304, term4304.getClass(), "meetingname", "kbdjWUKDix");
+        setField(term4304, term4304.getClass(), "meetingroom", "jhXmnsQIUw");
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Meeting1DTO_hashCode_114782192012 {
         Class<?> klass = Class.forName("com.org.model.dto.Meeting1DTO");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term4305, args);
+        callMethod(klass, "hashCode", argTypes, term4304, args);
     }
 
 };

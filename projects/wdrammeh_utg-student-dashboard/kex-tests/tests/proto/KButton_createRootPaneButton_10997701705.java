@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class KButton_createRootPaneButton_10997701705 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term14998;
+     Object term14995;
 
     public KButton_createRootPaneButton_10997701705() {
     }
@@ -32,7 +32,7 @@ public class KButton_createRootPaneButton_10997701705 {
 
     @Before
     public void setup() throws Throwable {
-        term14998 = new Integer(98922530);
+        term14995 = new Integer(98922530);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class KButton_createRootPaneButton_10997701705 {
         argTypes[0] = int.class;
         argTypes[1] = Class.forName("java.awt.event.ActionListener");
         Object[] args = new Object[2];
-        args[0] = term14998;
+        args[0] = term14995;
         args[1] = null;
         callMethod(klass, "createRootPaneButton", argTypes, null, args);
     }

@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class ObservationTaskService_getTrackedProjectTaskInfoByEmployee_15190681572 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term23887;
+     Object term24027;
 
     public ObservationTaskService_getTrackedProjectTaskInfoByEmployee_15190681572() {
     }
@@ -32,7 +32,7 @@ public class ObservationTaskService_getTrackedProjectTaskInfoByEmployee_15190681
 
     @Before
     public void setup() throws Throwable {
-        term23887 = new Integer(-1938881385);
+        term24027 = new Integer(-1938881385);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class ObservationTaskService_getTrackedProjectTaskInfoByEmployee_15190681
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term23887;
+        args[0] = term24027;
         callMethod(klass, "getTrackedProjectTaskInfoByEmployee", argTypes, null, args);
     }
 

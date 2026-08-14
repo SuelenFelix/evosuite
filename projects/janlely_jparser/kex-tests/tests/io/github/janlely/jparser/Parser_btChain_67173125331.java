@@ -35,7 +35,7 @@ public class Parser_btChain_67173125331 {
     @Before
     public void setup() throws Throwable {
         term758 = new Boolean(true);
-        term760 = (Object[]) newArray("java.util.function.Supplier", 5);
+        term760 = (Object[]) newArray("java.util.function.Supplier", 10);
     }
 
     @Test

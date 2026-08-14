@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TodoHandler_finalizeTransfer_82008422218 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term16982;
+     Object term16974;
 
     public TodoHandler_finalizeTransfer_82008422218() {
     }
@@ -31,7 +31,7 @@ public class TodoHandler_finalizeTransfer_82008422218 {
 
     @Before
     public void setup() throws Throwable {
-        term16982 = newInstance(Class.forName("core.task.handler.TodoHandler"));
+        term16974 = newInstance(Class.forName("core.task.handler.TodoHandler"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TodoHandler_finalizeTransfer_82008422218 {
         argTypes[0] = Class.forName("core.task.self.TodoSelf");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "finalizeTransfer", argTypes, term16982, args);
+        callMethod(klass, "finalizeTransfer", argTypes, term16974, args);
     }
 
 };

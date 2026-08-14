@@ -1,16 +1,16 @@
-2026-06-28 19:10:55.097 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes
-2026-06-28 19:10:55.304 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 19:10:55.349 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 19:10:56.167 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 19:10:56.696 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package utg/*
-2026-06-28 19:10:56.697 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 19:10:56.714 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 19:10:56.777 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/wdrammeh_utg-student-dashboard/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33453 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 19:10:56.791 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 19:12:36.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::<init>(): void
-2026-06-28 19:12:36.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::<init>(): void
+2026-08-11 10:36:29.118 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/wdrammeh_utg-student-dashboard/target/classes
+2026-08-11 10:36:29.333 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 10:36:29.381 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 10:36:30.692 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 10:36:31.207 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package utg/*
+2026-08-11 10:36:31.208 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 10:36:31.231 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/wdrammeh_utg-student-dashboard/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 10:36:31.287 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/wdrammeh_utg-student-dashboard/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 36129 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/wdrammeh_utg-student-dashboard/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 10:36:31.300 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 10:38:11.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::<init>(): void
+2026-08-11 10:38:11.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 19:12:37.358 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_init_19992220390
-2026-06-28 19:12:37.363 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::transit(utg/Version, utg/Version): void
-2026-06-28 19:12:37.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::transit(utg/Version, utg/Version): void
+2026-08-11 10:38:11.929 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_init_19992220390
+2026-08-11 10:38:11.936 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::transit(utg/Version, utg/Version): void
+2026-08-11 10:38:11.936 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::transit(utg/Version, utg/Version): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -95,9 +95,9 @@ goto %label2
 
 %if.then0: 	//predecessors %bb2, %bb11, %label2
 	return
-2026-06-28 19:12:37.537 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_transit_17717473701
-2026-06-28 19:12:37.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void
-2026-06-28 19:12:37.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::copyDirectory(java/lang/String, java/lang/String): void
+2026-08-11 10:38:12.141 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_transit_17717473701
+2026-08-11 10:38:12.141 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void
+2026-08-11 10:38:12.142 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::copyDirectory(java/lang/String, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -127,18 +127,18 @@ goto %label2
 
 %bb6: 	//predecessors %bb5
 	return
-2026-06-28 19:12:37.659 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_copyDirectory_11966323352
-2026-06-28 19:12:37.765 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_init_19992220393
-2026-06-28 19:12:37.860 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_transit_17717473704
-2026-06-28 19:12:37.957 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_copyDirectory_11966323355
-2026-06-28 19:12:37.959 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::<init>(): void: null
-2026-06-28 19:12:37.960 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::transit(utg/Version, utg/Version): void: null
-2026-06-28 19:12:37.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void: null
-2026-06-28 19:12:37.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::<init>(): void processing is finished normally
-2026-06-28 19:12:37.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::transit(utg/Version, utg/Version): void processing is finished normally
-2026-06-28 19:12:37.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void processing is finished normally
-2026-06-28 19:12:37.973 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::<init>(int, int, int): void
-2026-06-28 19:12:37.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::<init>(int, int, int): void
+2026-08-11 10:38:12.292 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_copyDirectory_11966323352
+2026-08-11 10:38:12.431 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_init_19992220393
+2026-08-11 10:38:12.558 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_transit_17717473704
+2026-08-11 10:38:12.663 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_copyDirectory_11966323355
+2026-08-11 10:38:12.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::<init>(): void: null
+2026-08-11 10:38:12.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::transit(utg/Version, utg/Version): void: null
+2026-08-11 10:38:12.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void: null
+2026-08-11 10:38:12.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::<init>(): void processing is finished normally
+2026-08-11 10:38:12.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::transit(utg/Version, utg/Version): void processing is finished normally
+2026-08-11 10:38:12.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void processing is finished normally
+2026-08-11 10:38:12.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::<init>(int, int, int): void
+2026-08-11 10:38:12.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::<init>(int, int, int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -160,9 +160,9 @@ goto %label2
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 19:12:38.054 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_init_6593593060
-2026-06-28 19:12:38.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::parse(java/lang/String): utg/Version
-2026-06-28 19:12:38.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::parse(java/lang/String): utg/Version
+2026-08-11 10:38:12.794 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_init_6593593060
+2026-08-11 10:38:12.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::parse(java/lang/String): utg/Version
+2026-08-11 10:38:12.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::parse(java/lang/String): utg/Version
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -236,9 +236,9 @@ goto %label1
 %bb.return0: 	//predecessors %bb9, %bb13
 	%retval1 = phi {%bb9 -> %28; %bb13 -> null}
 	return %retval1
-2026-06-28 19:12:38.127 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_parse_10237415851
-2026-06-28 19:12:38.128 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::getDeprecateTime(): java/util/Date
-2026-06-28 19:12:38.128 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::getDeprecateTime(): java/util/Date
+2026-08-11 10:38:12.877 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_parse_10237415851
+2026-08-11 10:38:12.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::getDeprecateTime(): java/util/Date
+2026-08-11 10:38:12.878 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::getDeprecateTime(): java/util/Date
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -248,9 +248,9 @@ goto %label1
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 19:12:38.194 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_getDeprecateTime_8139155162
-2026-06-28 19:12:38.195 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::setDeprecateTime(java/util/Date): void
-2026-06-28 19:12:38.195 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::setDeprecateTime(java/util/Date): void
+2026-08-11 10:38:12.986 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_getDeprecateTime_8139155162
+2026-08-11 10:38:12.987 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::setDeprecateTime(java/util/Date): void
+2026-08-11 10:38:12.987 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::setDeprecateTime(java/util/Date): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -260,9 +260,9 @@ goto %label1
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 19:12:38.271 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_setDeprecateTime_5042705463
-2026-06-28 19:12:38.271 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::toLiteral(): java/lang/String
-2026-06-28 19:12:38.272 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::toLiteral(): java/lang/String
+2026-08-11 10:38:13.063 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_setDeprecateTime_5042705463
+2026-08-11 10:38:13.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::toLiteral(): java/lang/String
+2026-08-11 10:38:13.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::toLiteral(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -316,9 +316,9 @@ goto %label1
 
 %bb12: 	//predecessors %bb11
 	return %20
-2026-06-28 19:12:38.335 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toLiteral_10330641034
-2026-06-28 19:12:38.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::toString(): java/lang/String
-2026-06-28 19:12:38.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::toString(): java/lang/String
+2026-08-11 10:38:13.156 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toLiteral_10330641034
+2026-08-11 10:38:13.156 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::toString(): java/lang/String
+2026-08-11 10:38:13.156 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -328,9 +328,9 @@ goto %label1
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 19:12:38.405 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toString_1158120015
-2026-06-28 19:12:38.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::equals(java/lang/String): bool
-2026-06-28 19:12:38.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::equals(java/lang/String): bool
+2026-08-11 10:38:13.250 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toString_1158120015
+2026-08-11 10:38:13.251 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::equals(java/lang/String): bool
+2026-08-11 10:38:13.251 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::equals(java/lang/String): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -355,9 +355,9 @@ goto %label1
 %goto0: 	//predecessors %if.else0, %if.then0
 	%7 = phi {%if.else0 -> 1; %if.then0 -> 0}
 	return %7
-2026-06-28 19:12:38.467 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_equals_6215240106
-2026-06-28 19:12:38.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::compare(utg/Version): int
-2026-06-28 19:12:38.468 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::compare(utg/Version): int
+2026-08-11 10:38:13.342 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_equals_6215240106
+2026-08-11 10:38:13.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::compare(utg/Version): int
+2026-08-11 10:38:13.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::compare(utg/Version): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -472,33 +472,33 @@ goto %label1
 %bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %if.else3, %if.else4, %if.else5, %goto0
 	%retval1 = phi {%if.else0 -> 1; %if.else1 -> 0; %if.else2 -> 1; %if.else3 -> -1; %if.else4 -> 1; %if.else5 -> -1; %goto0 -> %41}
 	return %retval1
-2026-06-28 19:12:38.533 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_compare_10279769247
-2026-06-28 19:12:38.591 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_init_6593593068
-2026-06-28 19:12:38.652 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_parse_10237415859
-2026-06-28 19:12:38.725 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_getDeprecateTime_81391551610
-2026-06-28 19:12:38.795 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_setDeprecateTime_50427054611
-2026-06-28 19:12:38.865 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toLiteral_103306410312
-2026-06-28 19:12:38.941 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toString_11581200113
-2026-06-28 19:12:39.008 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_equals_62152401014
-2026-06-28 19:12:39.085 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_compare_102797692415
-2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::<init>(int, int, int): void: null
-2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::parse(java/lang/String): utg/Version: null
-2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::getDeprecateTime(): java/util/Date: null
-2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::setDeprecateTime(java/util/Date): void: null
-2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::toLiteral(): java/lang/String: null
-2026-06-28 19:12:39.087 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::toString(): java/lang/String: null
-2026-06-28 19:12:39.087 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::equals(java/lang/String): bool: null
-2026-06-28 19:12:39.087 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::compare(utg/Version): int: null
-2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::<init>(int, int, int): void processing is finished normally
-2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::parse(java/lang/String): utg/Version processing is finished normally
-2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::getDeprecateTime(): java/util/Date processing is finished normally
-2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::setDeprecateTime(java/util/Date): void processing is finished normally
-2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::toLiteral(): java/lang/String processing is finished normally
-2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::toString(): java/lang/String processing is finished normally
-2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::equals(java/lang/String): bool processing is finished normally
-2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::compare(utg/Version): int processing is finished normally
-2026-06-28 19:12:39.109 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::<init>(): void
-2026-06-28 19:12:39.109 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::<init>(): void
+2026-08-11 10:38:13.435 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_compare_10279769247
+2026-08-11 10:38:13.508 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_init_6593593068
+2026-08-11 10:38:13.591 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_parse_10237415859
+2026-08-11 10:38:13.667 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_getDeprecateTime_81391551610
+2026-08-11 10:38:13.753 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_setDeprecateTime_50427054611
+2026-08-11 10:38:13.843 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toLiteral_103306410312
+2026-08-11 10:38:13.940 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toString_11581200113
+2026-08-11 10:38:14.034 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_equals_62152401014
+2026-08-11 10:38:14.121 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_compare_102797692415
+2026-08-11 10:38:14.122 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::<init>(int, int, int): void: null
+2026-08-11 10:38:14.122 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::parse(java/lang/String): utg/Version: null
+2026-08-11 10:38:14.122 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::getDeprecateTime(): java/util/Date: null
+2026-08-11 10:38:14.123 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::setDeprecateTime(java/util/Date): void: null
+2026-08-11 10:38:14.123 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::toLiteral(): java/lang/String: null
+2026-08-11 10:38:14.123 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::toString(): java/lang/String: null
+2026-08-11 10:38:14.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::equals(java/lang/String): bool: null
+2026-08-11 10:38:14.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::<init>(int, int, int): void processing is finished normally
+2026-08-11 10:38:14.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::parse(java/lang/String): utg/Version processing is finished normally
+2026-08-11 10:38:14.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::getDeprecateTime(): java/util/Date processing is finished normally
+2026-08-11 10:38:14.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::setDeprecateTime(java/util/Date): void processing is finished normally
+2026-08-11 10:38:14.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::toLiteral(): java/lang/String processing is finished normally
+2026-08-11 10:38:14.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::toString(): java/lang/String processing is finished normally
+2026-08-11 10:38:14.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::equals(java/lang/String): bool processing is finished normally
+2026-08-11 10:38:14.125 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::compare(utg/Version): int: null
+2026-08-11 10:38:14.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::compare(utg/Version): int processing is finished normally
+2026-08-11 10:38:14.155 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::<init>(): void
+2026-08-11 10:38:14.155 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -508,9 +508,9 @@ goto %label1
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 19:12:39.175 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_init_18783412400
-2026-06-28 19:12:39.176 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::main(java/lang/String[]): void
-2026-06-28 19:12:39.176 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::main(java/lang/String[]): void
+2026-08-11 10:38:14.220 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_init_18783412400
+2026-08-11 10:38:14.221 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::main(java/lang/String[]): void
+2026-08-11 10:38:14.222 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -862,9 +862,9 @@ https://github.com/wdrammeh/utg-student-dashboard#install")
 
 %goto4: 	//predecessors %goto3, %if.then9
 	return
-2026-06-28 19:12:39.232 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_main_15017782361
-2026-06-28 19:12:39.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::storeConfigs(): void
-2026-06-28 19:12:39.233 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::storeConfigs(): void
+2026-08-11 10:38:14.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_main_15017782361
+2026-08-11 10:38:14.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::storeConfigs(): void
+2026-08-11 10:38:14.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::storeConfigs(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -936,9 +936,9 @@ https://github.com/wdrammeh/utg-student-dashboard#install")
 
 %bb14: 	//predecessors %bb13
 	return
-2026-06-28 19:12:39.282 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_storeConfigs_20367221342
-2026-06-28 19:12:39.283 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getLastConfigs(): java/util/HashMap
-2026-06-28 19:12:39.283 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getLastConfigs(): java/util/HashMap
+2026-08-11 10:38:14.353 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_storeConfigs_20367221342
+2026-08-11 10:38:14.353 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getLastConfigs(): java/util/HashMap
+2026-08-11 10:38:14.354 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getLastConfigs(): java/util/HashMap
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1020,9 +1020,9 @@ https://github.com/wdrammeh/utg-student-dashboard#install")
 
 %if.then0: 	//predecessors %label1, %bb11
 	return %39
-2026-06-28 19:12:39.335 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getLastConfigs_9379385553
-2026-06-28 19:12:39.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::freshStart(): void
-2026-06-28 19:12:39.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::freshStart(): void
+2026-08-11 10:38:14.421 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getLastConfigs_9379385553
+2026-08-11 10:38:14.422 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::freshStart(): void
+2026-08-11 10:38:14.422 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::freshStart(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1054,9 +1054,9 @@ https://github.com/wdrammeh/utg-student-dashboard#install")
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 19:12:39.386 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_freshStart_5874020744
-2026-06-28 19:12:39.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::verifyUser(bool): void
-2026-06-28 19:12:39.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::verifyUser(bool): void
+2026-08-11 10:38:14.498 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_freshStart_5874020744
+2026-08-11 10:38:14.499 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::verifyUser(bool): void
+2026-08-11 10:38:14.499 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::verifyUser(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1156,9 +1156,9 @@ goto %label0
 
 %bb.return0: 	//predecessors %bb3, %bb5, %goto0
 	return
-2026-06-28 19:12:39.444 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_verifyUser_21132310925
-2026-06-28 19:12:39.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::requestPassword(): java/lang/String
-2026-06-28 19:12:39.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::requestPassword(): java/lang/String
+2026-08-11 10:38:14.577 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_verifyUser_21132310925
+2026-08-11 10:38:14.578 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::requestPassword(): java/lang/String
+2026-08-11 10:38:14.578 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::requestPassword(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1201,9 +1201,9 @@ Please enter your Matriculation Number to confirm:"))
 %goto0: 	//predecessors %if.else1, %if.then1
 	%17 = phi {%if.else1 -> %14; %if.then1 -> %15}
 	return %17
-2026-06-28 19:12:39.495 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_requestPassword_10897024636
-2026-06-28 19:12:39.496 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::rebuildNow(bool): void
-2026-06-28 19:12:39.496 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::rebuildNow(bool): void
+2026-08-11 10:38:14.660 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_requestPassword_10897024636
+2026-08-11 10:38:14.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::rebuildNow(bool): void
+2026-08-11 10:38:14.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::rebuildNow(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1246,9 +1246,9 @@ goto %label0
 
 %bb.return0: 	//predecessors %bb3, %bb5
 	return
-2026-06-28 19:12:39.549 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_rebuildNow_13185428137
-2026-06-28 19:12:39.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::setFirst(bool): void
-2026-06-28 19:12:39.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::setFirst(bool): void
+2026-08-11 10:38:14.734 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_rebuildNow_13185428137
+2026-08-11 10:38:14.735 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::setFirst(bool): void
+2026-08-11 10:38:14.735 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::setFirst(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1258,18 +1258,18 @@ goto %label0
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-28 19:12:39.604 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setFirst_5652797668
-2026-06-28 19:12:39.604 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::isFirst(): bool
-2026-06-28 19:12:39.605 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::isFirst(): bool
+2026-08-11 10:38:14.801 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setFirst_5652797668
+2026-08-11 10:38:14.802 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::isFirst(): bool
+2026-08-11 10:38:14.802 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::isFirst(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	%1 = Dashboard.isFirst
 	return %1
-2026-06-28 19:12:39.655 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_isFirst_13031764729
-2026-06-28 19:12:39.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::setAuthentic(bool): void
-2026-06-28 19:12:39.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::setAuthentic(bool): void
+2026-08-11 10:38:14.875 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_isFirst_13031764729
+2026-08-11 10:38:14.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::setAuthentic(bool): void
+2026-08-11 10:38:14.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::setAuthentic(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1279,18 +1279,18 @@ goto %label0
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-28 19:12:39.706 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setAuthentic_65621344310
-2026-06-28 19:12:39.706 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getPath(): java/lang/String
-2026-06-28 19:12:39.706 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getPath(): java/lang/String
+2026-08-11 10:38:14.947 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setAuthentic_65621344310
+2026-08-11 10:38:14.947 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getPath(): java/lang/String
+2026-08-11 10:38:14.948 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getPath(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	%1 = Dashboard.path
 	return %1
-2026-06-28 19:12:39.760 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getPath_134950907411
-2026-06-28 19:12:39.761 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getDefaultPath(): java/lang/String
-2026-06-28 19:12:39.761 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getDefaultPath(): java/lang/String
+2026-08-11 10:38:15.018 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getPath_134950907411
+2026-08-11 10:38:15.019 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getDefaultPath(): java/lang/String
+2026-08-11 10:38:15.019 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getDefaultPath(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1316,9 +1316,9 @@ goto %label0
 
 %bb5: 	//predecessors %bb4
 	return %7
-2026-06-28 19:12:39.823 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getDefaultPath_40145888712
-2026-06-28 19:12:39.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::reportAuthenticationError(): void
-2026-06-28 19:12:39.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::reportAuthenticationError(): void
+2026-08-11 10:38:15.087 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getDefaultPath_40145888712
+2026-08-11 10:38:15.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::reportAuthenticationError(): void
+2026-08-11 10:38:15.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::reportAuthenticationError(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1333,48 +1333,48 @@ Contact the developers: 'utgdashboard@gmail.com'.")
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 19:12:39.883 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_reportAuthenticationError_6763465413
-2026-06-28 19:12:39.949 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_init_187834124014
-2026-06-28 19:12:40.125 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_main_150177823615
-2026-06-28 19:12:40.192 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_storeConfigs_203672213416
-2026-06-28 19:12:40.256 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getLastConfigs_93793855517
-2026-06-28 19:12:40.318 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_freshStart_58740207418
-2026-06-28 19:12:40.386 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_verifyUser_211323109219
-2026-06-28 19:12:40.451 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_requestPassword_108970246320
-2026-06-28 19:12:40.512 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_rebuildNow_131854281321
-2026-06-28 19:12:40.575 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setFirst_56527976622
-2026-06-28 19:12:40.636 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_isFirst_130317647223
-2026-06-28 19:12:40.699 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setAuthentic_65621344324
-2026-06-28 19:12:40.759 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getPath_134950907425
-2026-06-28 19:12:40.821 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getDefaultPath_40145888726
-2026-06-28 19:12:40.884 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_reportAuthenticationError_6763465427
-2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::<init>(): void: null
-2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::main(java/lang/String[]): void: null
-2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::storeConfigs(): void: null
-2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getLastConfigs(): java/util/HashMap: null
-2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::freshStart(): void: null
-2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::verifyUser(bool): void: null
-2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::requestPassword(): java/lang/String: null
-2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::rebuildNow(bool): void: null
-2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::setFirst(bool): void: null
-2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::isFirst(): bool: null
-2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::setAuthentic(bool): void: null
-2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getPath(): java/lang/String: null
-2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getDefaultPath(): java/lang/String: null
-2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::reportAuthenticationError(): void: null
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::<init>(): void processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::main(java/lang/String[]): void processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::storeConfigs(): void processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getLastConfigs(): java/util/HashMap processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::freshStart(): void processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::verifyUser(bool): void processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::requestPassword(): java/lang/String processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::rebuildNow(bool): void processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::setFirst(bool): void processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::isFirst(): bool processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::setAuthentic(bool): void processing is finished normally
-2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getPath(): java/lang/String processing is finished normally
-2026-06-28 19:12:40.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getDefaultPath(): java/lang/String processing is finished normally
-2026-06-28 19:12:40.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::reportAuthenticationError(): void processing is finished normally
-2026-06-28 19:12:40.887 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 19:12:40.887 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 10:38:15.159 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_reportAuthenticationError_6763465413
+2026-08-11 10:38:15.231 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_init_187834124014
+2026-08-11 10:38:15.460 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_main_150177823615
+2026-08-11 10:38:15.536 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_storeConfigs_203672213416
+2026-08-11 10:38:15.599 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getLastConfigs_93793855517
+2026-08-11 10:38:15.669 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_freshStart_58740207418
+2026-08-11 10:38:15.741 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_verifyUser_211323109219
+2026-08-11 10:38:15.819 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_requestPassword_108970246320
+2026-08-11 10:38:15.882 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_rebuildNow_131854281321
+2026-08-11 10:38:15.953 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setFirst_56527976622
+2026-08-11 10:38:16.020 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_isFirst_130317647223
+2026-08-11 10:38:16.087 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setAuthentic_65621344324
+2026-08-11 10:38:16.152 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getPath_134950907425
+2026-08-11 10:38:16.216 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getDefaultPath_40145888726
+2026-08-11 10:38:16.270 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_reportAuthenticationError_6763465427
+2026-08-11 10:38:16.271 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::<init>(): void: null
+2026-08-11 10:38:16.271 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::main(java/lang/String[]): void: null
+2026-08-11 10:38:16.271 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::storeConfigs(): void: null
+2026-08-11 10:38:16.271 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getLastConfigs(): java/util/HashMap: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::freshStart(): void: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::verifyUser(bool): void: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::requestPassword(): java/lang/String: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::rebuildNow(bool): void: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::setFirst(bool): void: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::isFirst(): bool: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::setAuthentic(bool): void: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getPath(): java/lang/String: null
+2026-08-11 10:38:16.272 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getDefaultPath(): java/lang/String: null
+2026-08-11 10:38:16.273 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::reportAuthenticationError(): void: null
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::<init>(): void processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::main(java/lang/String[]): void processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::storeConfigs(): void processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getLastConfigs(): java/util/HashMap processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::freshStart(): void processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::verifyUser(bool): void processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::requestPassword(): java/lang/String processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::rebuildNow(bool): void processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::setFirst(bool): void processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::isFirst(): bool processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::setAuthentic(bool): void processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getPath(): java/lang/String processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getDefaultPath(): java/lang/String processing is finished normally
+2026-08-11 10:38:16.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::reportAuthenticationError(): void processing is finished normally
+2026-08-11 10:38:16.274 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 10:38:16.274 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

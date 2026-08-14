@@ -1,16 +1,16 @@
-2026-06-29 01:21:08.198 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/eh3rrera_graphql-java-spring-boot-example/target/classes
-2026-06-29 01:21:08.303 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 01:21:08.395 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 01:21:09.334 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 01:21:09.903 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/example/DemoGraphQL/resolver/*
-2026-06-29 01:21:09.904 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 01:21:09.923 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/eh3rrera_graphql-java-spring-boot-example/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 01:21:09.953 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/eh3rrera_graphql-java-spring-boot-example/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 38793 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/eh3rrera_graphql-java-spring-boot-example/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 01:21:09.964 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 01:22:50.000 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void
-2026-06-29 01:22:50.001 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void
+2026-08-11 22:44:59.267 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/eh3rrera_graphql-java-spring-boot-example/target/classes
+2026-08-11 22:44:59.365 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 22:44:59.440 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 22:45:00.387 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 22:45:00.877 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/example/DemoGraphQL/resolver/*
+2026-08-11 22:45:00.878 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 22:45:00.890 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/eh3rrera_graphql-java-spring-boot-example/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 22:45:00.923 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/eh3rrera_graphql-java-spring-boot-example/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 37929 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/eh3rrera_graphql-java-spring-boot-example/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 22:45:00.938 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 22:46:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void
+2026-08-11 22:46:40.975 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -28,7 +28,7 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 01:22:50.005 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.978 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -52,7 +52,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.005 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.979 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -76,9 +76,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.005 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void: null
-2026-06-29 01:22:50.006 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::newAuthor(java/lang/String, java/lang/String): com/example/DemoGraphQL/model/Author
-2026-06-29 01:22:50.006 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::newAuthor(java/lang/String, java/lang/String): com/example/DemoGraphQL/model/Author
+2026-08-11 22:46:40.979 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void: null
+2026-08-11 22:46:40.979 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::newAuthor(java/lang/String, java/lang/String): com/example/DemoGraphQL/model/Author
+2026-08-11 22:46:40.979 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::newAuthor(java/lang/String, java/lang/String): com/example/DemoGraphQL/model/Author
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -105,7 +105,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 
 %label1: 	//predecessors %bb3
 	return %8
-2026-06-29 01:22:50.006 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.980 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -129,7 +129,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.007 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.980 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -153,9 +153,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.007 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::newAuthor(java/lang/String, java/lang/String): com/example/DemoGraphQL/model/Author: null
-2026-06-29 01:22:50.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::newBook(java/lang/String, java/lang/String, java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book
-2026-06-29 01:22:50.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::newBook(java/lang/String, java/lang/String, java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book
+2026-08-11 22:46:40.980 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::newAuthor(java/lang/String, java/lang/String): com/example/DemoGraphQL/model/Author: null
+2026-08-11 22:46:40.980 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::newBook(java/lang/String, java/lang/String, java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book
+2026-08-11 22:46:40.981 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::newBook(java/lang/String, java/lang/String, java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -210,7 +210,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 
 %label1: 	//predecessors %bb7
 	return %19
-2026-06-29 01:22:50.008 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.981 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -234,7 +234,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.008 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.981 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -258,9 +258,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.008 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::newBook(java/lang/String, java/lang/String, java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book: null
-2026-06-29 01:22:50.009 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::deleteBook(java/lang/Long): bool
-2026-06-29 01:22:50.009 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::deleteBook(java/lang/Long): bool
+2026-08-11 22:46:40.981 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::newBook(java/lang/String, java/lang/String, java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book: null
+2026-08-11 22:46:40.982 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::deleteBook(java/lang/Long): bool
+2026-08-11 22:46:40.982 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::deleteBook(java/lang/Long): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -274,7 +274,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 
 %bb2: 	//predecessors %bb1
 	return 1
-2026-06-29 01:22:50.009 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.982 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -298,7 +298,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.982 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -322,9 +322,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::deleteBook(java/lang/Long): bool: null
-2026-06-29 01:22:50.010 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::updateBookPageCount(java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book
-2026-06-29 01:22:50.010 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::updateBookPageCount(java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book
+2026-08-11 22:46:40.982 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::deleteBook(java/lang/Long): bool: null
+2026-08-11 22:46:40.982 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Mutation::updateBookPageCount(java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book
+2026-08-11 22:46:40.983 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Mutation::updateBookPageCount(java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -378,7 +378,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 
 %bb7: 	//predecessors %if.then0
 	throw %22
-2026-06-29 01:22:50.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.983 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -402,7 +402,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.983 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -426,14 +426,14 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::updateBookPageCount(java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book: null
-2026-06-29 01:22:50.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void processing is finished normally
-2026-06-29 01:22:50.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::newAuthor(java/lang/String, java/lang/String): com/example/DemoGraphQL/model/Author processing is finished normally
-2026-06-29 01:22:50.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::newBook(java/lang/String, java/lang/String, java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book processing is finished normally
-2026-06-29 01:22:50.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::deleteBook(java/lang/Long): bool processing is finished normally
-2026-06-29 01:22:50.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::updateBookPageCount(java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book processing is finished normally
-2026-06-29 01:22:50.016 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void
-2026-06-29 01:22:50.017 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void
+2026-08-11 22:46:40.983 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Mutation::updateBookPageCount(java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book: null
+2026-08-11 22:46:40.984 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void processing is finished normally
+2026-08-11 22:46:40.984 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::newAuthor(java/lang/String, java/lang/String): com/example/DemoGraphQL/model/Author processing is finished normally
+2026-08-11 22:46:40.984 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::newBook(java/lang/String, java/lang/String, java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book processing is finished normally
+2026-08-11 22:46:40.984 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::deleteBook(java/lang/Long): bool processing is finished normally
+2026-08-11 22:46:40.984 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Mutation::updateBookPageCount(java/lang/Integer, java/lang/Long): com/example/DemoGraphQL/model/Book processing is finished normally
+2026-08-11 22:46:40.987 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void
+2026-08-11 22:46:40.988 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -451,7 +451,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLMutationResolve
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 01:22:50.017 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.988 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -475,7 +475,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.018 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.989 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -499,9 +499,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.018 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void: null
-2026-06-29 01:22:50.018 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::findAllBooks(): java/lang/Iterable
-2026-06-29 01:22:50.018 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::findAllBooks(): java/lang/Iterable
+2026-08-11 22:46:40.989 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void: null
+2026-08-11 22:46:40.989 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::findAllBooks(): java/lang/Iterable
+2026-08-11 22:46:40.989 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::findAllBooks(): java/lang/Iterable
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -515,7 +515,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 01:22:50.019 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.990 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -539,7 +539,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.019 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.990 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -563,9 +563,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.019 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::findAllBooks(): java/lang/Iterable: null
-2026-06-29 01:22:50.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::countBooks(): long
-2026-06-29 01:22:50.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::countBooks(): long
+2026-08-11 22:46:40.990 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::findAllBooks(): java/lang/Iterable: null
+2026-08-11 22:46:40.990 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::countBooks(): long
+2026-08-11 22:46:40.990 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::countBooks(): long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -579,7 +579,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 01:22:50.020 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.990 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -603,7 +603,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.021 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.991 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -627,9 +627,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.021 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::countBooks(): long: null
-2026-06-29 01:22:50.021 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::findAllAuthors(): java/lang/Iterable
-2026-06-29 01:22:50.021 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::findAllAuthors(): java/lang/Iterable
+2026-08-11 22:46:40.991 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::countBooks(): long: null
+2026-08-11 22:46:40.991 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::findAllAuthors(): java/lang/Iterable
+2026-08-11 22:46:40.991 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::findAllAuthors(): java/lang/Iterable
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -643,7 +643,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 01:22:50.022 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.991 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -667,7 +667,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.022 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.992 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -691,9 +691,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.022 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::findAllAuthors(): java/lang/Iterable: null
-2026-06-29 01:22:50.022 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::countAuthors(): long
-2026-06-29 01:22:50.022 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::countAuthors(): long
+2026-08-11 22:46:40.992 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::findAllAuthors(): java/lang/Iterable: null
+2026-08-11 22:46:40.992 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/Query::countAuthors(): long
+2026-08-11 22:46:40.992 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/Query::countAuthors(): long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -707,7 +707,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 01:22:50.023 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.992 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -731,7 +731,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.023 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.993 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -755,14 +755,14 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.023 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::countAuthors(): long: null
-2026-06-29 01:22:50.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void processing is finished normally
-2026-06-29 01:22:50.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::findAllBooks(): java/lang/Iterable processing is finished normally
-2026-06-29 01:22:50.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::countBooks(): long processing is finished normally
-2026-06-29 01:22:50.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::findAllAuthors(): java/lang/Iterable processing is finished normally
-2026-06-29 01:22:50.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::countAuthors(): long processing is finished normally
-2026-06-29 01:22:50.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/BookResolver::<init>(com/example/DemoGraphQL/repository/AuthorRepository): void
-2026-06-29 01:22:50.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/BookResolver::<init>(com/example/DemoGraphQL/repository/AuthorRepository): void
+2026-08-11 22:46:40.993 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/Query::countAuthors(): long: null
+2026-08-11 22:46:40.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::<init>(com/example/DemoGraphQL/repository/AuthorRepository, com/example/DemoGraphQL/repository/BookRepository): void processing is finished normally
+2026-08-11 22:46:40.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::findAllBooks(): java/lang/Iterable processing is finished normally
+2026-08-11 22:46:40.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::countBooks(): long processing is finished normally
+2026-08-11 22:46:40.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::findAllAuthors(): java/lang/Iterable processing is finished normally
+2026-08-11 22:46:40.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/Query::countAuthors(): long processing is finished normally
+2026-08-11 22:46:40.995 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/BookResolver::<init>(com/example/DemoGraphQL/repository/AuthorRepository): void
+2026-08-11 22:46:40.995 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/BookResolver::<init>(com/example/DemoGraphQL/repository/AuthorRepository): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -776,7 +776,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLQueryResolver
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 01:22:50.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.996 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -800,7 +800,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.996 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -824,9 +824,9 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/BookResolver::<init>(com/example/DemoGraphQL/repository/AuthorRepository): void: null
-2026-06-29 01:22:50.027 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/BookResolver::getAuthor(com/example/DemoGraphQL/model/Book): com/example/DemoGraphQL/model/Author
-2026-06-29 01:22:50.027 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/BookResolver::getAuthor(com/example/DemoGraphQL/model/Book): com/example/DemoGraphQL/model/Author
+2026-08-11 22:46:40.996 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/BookResolver::<init>(com/example/DemoGraphQL/repository/AuthorRepository): void: null
+2026-08-11 22:46:40.996 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/DemoGraphQL/resolver/BookResolver::getAuthor(com/example/DemoGraphQL/model/Book): com/example/DemoGraphQL/model/Author
+2026-08-11 22:46:40.996 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/DemoGraphQL/resolver/BookResolver::getAuthor(com/example/DemoGraphQL/model/Book): com/example/DemoGraphQL/model/Author
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -856,7 +856,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 
 %bb5: 	//predecessors %bb4
 	return %11
-2026-06-29 01:22:50.028 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.997 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -880,7 +880,7 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.028 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:46:40.997 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -904,8 +904,8 @@ java.lang.ClassNotFoundException: graphql/kickstart/tools/GraphQLResolver
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:22:50.028 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/BookResolver::getAuthor(com/example/DemoGraphQL/model/Book): com/example/DemoGraphQL/model/Author: null
-2026-06-29 01:22:50.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/BookResolver::<init>(com/example/DemoGraphQL/repository/AuthorRepository): void processing is finished normally
-2026-06-29 01:22:50.028 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/BookResolver::getAuthor(com/example/DemoGraphQL/model/Book): com/example/DemoGraphQL/model/Author processing is finished normally
-2026-06-29 01:22:50.029 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 01:22:50.029 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 22:46:40.997 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/DemoGraphQL/resolver/BookResolver::getAuthor(com/example/DemoGraphQL/model/Book): com/example/DemoGraphQL/model/Author: null
+2026-08-11 22:46:40.997 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/BookResolver::<init>(com/example/DemoGraphQL/repository/AuthorRepository): void processing is finished normally
+2026-08-11 22:46:40.997 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/DemoGraphQL/resolver/BookResolver::getAuthor(com/example/DemoGraphQL/model/Book): com/example/DemoGraphQL/model/Author processing is finished normally
+2026-08-11 22:46:40.997 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 22:46:40.998 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -21,7 +21,7 @@ import java.lang.Double;
 
 public class FitnessGenome_init_21424561827 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10991;
+     Object term10988;
 
     public FitnessGenome_init_21424561827() {
     }
@@ -32,7 +32,7 @@ public class FitnessGenome_init_21424561827 {
 
     @Before
     public void setup() throws Throwable {
-        term10991 = new Double(0.0);
+        term10988 = new Double(0.0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class FitnessGenome_init_21424561827 {
         argTypes[1] = double.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term10991;
+        args[1] = term10988;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

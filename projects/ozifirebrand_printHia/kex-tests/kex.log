@@ -1,16 +1,16 @@
-2026-06-28 15:41:04.938 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/ozifirebrand_printHia/target/classes
-2026-06-28 15:41:05.046 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 15:41:05.109 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 15:41:06.009 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 15:41:06.489 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package ozi/app/printer/web/controllers/*
-2026-06-28 15:41:06.490 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 15:41:06.513 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/ozifirebrand_printHia/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 15:41:06.544 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/ozifirebrand_printHia/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 43427 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/ozifirebrand_printHia/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 15:41:06.557 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 15:42:46.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/AdminController::<init>(): void
-2026-06-28 15:42:46.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/AdminController::<init>(): void
+2026-08-11 01:41:15.192 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ozifirebrand_printHia/target/classes
+2026-08-11 01:41:15.301 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 01:41:15.370 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 01:41:16.324 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 01:41:16.857 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package ozi/app/printer/web/controllers/*
+2026-08-11 01:41:16.859 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 01:41:16.884 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ozifirebrand_printHia/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 01:41:16.942 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ozifirebrand_printHia/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 36457 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ozifirebrand_printHia/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 01:41:16.954 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 01:42:56.988 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/AdminController::<init>(): void
+2026-08-11 01:42:56.988 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/AdminController::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 15:42:47.064 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.AdminController_init_15169552650
-2026-06-28 15:42:47.070 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity
-2026-06-28 15:42:47.071 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.456 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.AdminController_init_15169552650
+2026-08-11 01:42:57.461 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -68,7 +68,7 @@ goto %label1
 %bb.return0: 	//predecessors %bb3, %bb6
 	%retval1 = phi {%bb3 -> %16; %bb6 -> %17}
 	return %retval1
-2026-06-28 15:42:47.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -103,7 +103,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -138,9 +138,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity: null
-2026-06-28 15:42:47.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity
-2026-06-28 15:42:47.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity: null
+2026-08-11 01:42:57.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -187,7 +187,7 @@ goto %label1
 %bb.return0: 	//predecessors %bb3, %bb6
 	%retval1 = phi {%bb3 -> %18; %bb6 -> %19}
 	return %retval1
-2026-06-28 15:42:47.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -222,7 +222,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -257,14 +257,14 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity: null
-2026-06-28 15:42:47.183 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.AdminController_init_15169552651
-2026-06-28 15:42:47.184 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity processing is finished normally
-2026-06-28 15:42:47.184 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity processing is finished normally
-2026-06-28 15:42:47.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/AdminController::<init>(): void: null
-2026-06-28 15:42:47.185 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/AdminController::<init>(): void processing is finished normally
-2026-06-28 15:42:47.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/HomeController::<init>(): void
-2026-06-28 15:42:47.187 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/HomeController::<init>(): void
+2026-08-11 01:42:57.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity: null
+2026-08-11 01:42:57.571 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.AdminController_init_15169552651
+2026-08-11 01:42:57.572 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/AdminController::createOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): org/springframework/http/ResponseEntity processing is finished normally
+2026-08-11 01:42:57.572 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/AdminController::getOrderById(java/lang/String): org/springframework/http/ResponseEntity processing is finished normally
+2026-08-11 01:42:57.572 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/AdminController::<init>(): void: null
+2026-08-11 01:42:57.572 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/AdminController::<init>(): void processing is finished normally
+2026-08-11 01:42:57.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/HomeController::<init>(): void
+2026-08-11 01:42:57.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/HomeController::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -274,9 +274,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 15:42:47.275 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.HomeController_init_20866300190
-2026-06-28 15:42:47.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/HomeController::makeOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): ozi/app/printer/data/dtos/responses/OrderCreationResponse
-2026-06-28 15:42:47.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/HomeController::makeOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): ozi/app/printer/data/dtos/responses/OrderCreationResponse
+2026-08-11 01:42:57.663 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.HomeController_init_20866300190
+2026-08-11 01:42:57.664 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/HomeController::makeOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): ozi/app/printer/data/dtos/responses/OrderCreationResponse
+2026-08-11 01:42:57.664 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/HomeController::makeOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): ozi/app/printer/data/dtos/responses/OrderCreationResponse
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -290,15 +290,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 15:42:47.378 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.HomeController_makeOrder_20175129571
-2026-06-28 15:42:47.451 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.HomeController_init_20866300192
-2026-06-28 15:42:47.519 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.HomeController_makeOrder_20175129573
-2026-06-28 15:42:47.520 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/HomeController::<init>(): void: null
-2026-06-28 15:42:47.520 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/HomeController::makeOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): ozi/app/printer/data/dtos/responses/OrderCreationResponse: null
-2026-06-28 15:42:47.520 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/HomeController::<init>(): void processing is finished normally
-2026-06-28 15:42:47.520 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/HomeController::makeOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): ozi/app/printer/data/dtos/responses/OrderCreationResponse processing is finished normally
-2026-06-28 15:42:47.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/UserController::<init>(): void
-2026-06-28 15:42:47.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/UserController::<init>(): void
+2026-08-11 01:42:57.766 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.HomeController_makeOrder_20175129571
+2026-08-11 01:42:57.840 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.HomeController_init_20866300192
+2026-08-11 01:42:57.907 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.HomeController_makeOrder_20175129573
+2026-08-11 01:42:57.908 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/HomeController::<init>(): void: null
+2026-08-11 01:42:57.908 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/HomeController::makeOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): ozi/app/printer/data/dtos/responses/OrderCreationResponse: null
+2026-08-11 01:42:57.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/HomeController::<init>(): void processing is finished normally
+2026-08-11 01:42:57.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/HomeController::makeOrder(ozi/app/printer/data/dtos/requests/OrderCreationRequest): ozi/app/printer/data/dtos/responses/OrderCreationResponse processing is finished normally
+2026-08-11 01:42:57.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/UserController::<init>(): void
+2026-08-11 01:42:57.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/UserController::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -308,15 +308,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 15:42:47.599 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.UserController_init_20819353370
-2026-06-28 15:42:47.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity
-2026-06-28 15:42:47.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.975 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.UserController_init_20819353370
+2026-08-11 01:42:57.976 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.976 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return null
-2026-06-28 15:42:47.600 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.976 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -351,7 +351,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.601 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.977 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -386,15 +386,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.601 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity: null
-2026-06-28 15:42:47.601 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity
-2026-06-28 15:42:47.601 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.977 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity: null
+2026-08-11 01:42:57.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return null
-2026-06-28 15:42:47.602 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.977 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -429,7 +429,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.602 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.978 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -464,15 +464,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.602 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity: null
-2026-06-28 15:42:47.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity
-2026-06-28 15:42:47.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.978 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity: null
+2026-08-11 01:42:57.978 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity
+2026-08-11 01:42:57.978 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return null
-2026-06-28 15:42:47.603 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.978 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -507,7 +507,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.603 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 01:42:57.979 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -542,12 +542,12 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEn
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 15:42:47.603 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity: null
-2026-06-28 15:42:47.686 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.UserController_init_20819353371
-2026-06-28 15:42:47.686 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity processing is finished normally
-2026-06-28 15:42:47.687 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity processing is finished normally
-2026-06-28 15:42:47.687 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity processing is finished normally
-2026-06-28 15:42:47.687 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/UserController::<init>(): void: null
-2026-06-28 15:42:47.687 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/UserController::<init>(): void processing is finished normally
-2026-06-28 15:42:47.687 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 15:42:47.687 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 01:42:57.979 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity: null
+2026-08-11 01:42:58.050 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test ozi.app.printer.web.controllers.UserController_init_20819353371
+2026-08-11 01:42:58.051 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/UserController::viewAllOrders(java/lang/String): org/springframework/http/ResponseEntity processing is finished normally
+2026-08-11 01:42:58.051 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/UserController::viewProfileDetails(java/lang/String): org/springframework/http/ResponseEntity processing is finished normally
+2026-08-11 01:42:58.051 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/UserController::editProfileDetails(java/lang/String, ozi/app/printer/data/dtos/requests/UserCreationRequest): org/springframework/http/ResponseEntity processing is finished normally
+2026-08-11 01:42:58.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method ozi/app/printer/web/controllers/UserController::<init>(): void: null
+2026-08-11 01:42:58.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method ozi/app/printer/web/controllers/UserController::<init>(): void processing is finished normally
+2026-08-11 01:42:58.057 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 01:42:58.057 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -1,16 +1,16 @@
-2026-06-29 00:40:35.181 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/anicetkeric_aws-cognito-spring-auth-server/target/classes
-2026-06-29 00:40:35.289 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 00:40:35.353 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 00:40:36.330 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 00:40:36.872 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/authorization/sample/awscognitospringauthserver/web/response/*
-2026-06-29 00:40:36.873 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 00:40:36.893 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/anicetkeric_aws-cognito-spring-auth-server/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 00:40:36.923 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/anicetkeric_aws-cognito-spring-auth-server/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 37891 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/anicetkeric_aws-cognito-spring-auth-server/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 00:40:36.936 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 00:42:16.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::<init>(): void
-2026-06-29 00:42:16.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::<init>(): void
+2026-08-11 21:49:38.506 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/anicetkeric_aws-cognito-spring-auth-server/target/classes
+2026-08-11 21:49:38.620 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 21:49:38.683 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 21:49:39.542 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 21:49:40.133 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/authorization/sample/awscognitospringauthserver/web/response/*
+2026-08-11 21:49:40.134 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 21:49:40.159 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/anicetkeric_aws-cognito-spring-auth-server/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 21:49:40.212 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/anicetkeric_aws-cognito-spring-auth-server/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 41137 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/anicetkeric_aws-cognito-spring-auth-server/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 21:49:40.225 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 21:51:20.258 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::<init>(): void
+2026-08-11 21:51:20.259 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:17.442 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_init_9325288670
-2026-06-29 00:42:17.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::data(java/lang/Object): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
-2026-06-29 00:42:17.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::data(java/lang/Object): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
+2026-08-11 21:51:20.723 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_init_9325288670
+2026-08-11 21:51:20.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::data(java/lang/Object): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
+2026-08-11 21:51:20.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::data(java/lang/Object): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -32,9 +32,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 00:42:17.573 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_data_8662584561
-2026-06-29 00:42:17.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::message(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
-2026-06-29 00:42:17.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::message(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
+2026-08-11 21:51:20.847 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_data_8662584561
+2026-08-11 21:51:20.848 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::message(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
+2026-08-11 21:51:20.848 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::message(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -44,9 +44,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 00:42:17.665 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_message_5430539872
-2026-06-29 00:42:17.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::error(bool): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
-2026-06-29 00:42:17.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::error(bool): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
+2026-08-11 21:51:20.936 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_message_5430539872
+2026-08-11 21:51:20.937 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::error(bool): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
+2026-08-11 21:51:20.937 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::error(bool): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -56,9 +56,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 00:42:17.754 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_error_6563360733
-2026-06-29 00:42:17.755 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse
-2026-06-29 00:42:17.755 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse
+2026-08-11 21:51:21.017 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_error_6563360733
+2026-08-11 21:51:21.018 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse
+2026-08-11 21:51:21.018 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -81,9 +81,9 @@
 
 %bb4: 	//predecessors %bb3
 	return %8
-2026-06-29 00:42:17.827 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_build_5969036084
-2026-06-29 00:42:17.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::toString(): java/lang/String
-2026-06-29 00:42:17.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::toString(): java/lang/String
+2026-08-11 21:51:21.086 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_build_5969036084
+2026-08-11 21:51:21.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::toString(): java/lang/String
+2026-08-11 21:51:21.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -109,27 +109,27 @@
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-29 00:42:17.897 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_toString_3870730165
-2026-06-29 00:42:17.967 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_init_9325288676
-2026-06-29 00:42:18.051 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_data_8662584567
-2026-06-29 00:42:18.108 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_message_5430539878
-2026-06-29 00:42:18.168 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_error_6563360739
-2026-06-29 00:42:18.219 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_build_59690360810
-2026-06-29 00:42:18.281 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_toString_38707301611
-2026-06-29 00:42:18.282 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::<init>(): void: null
-2026-06-29 00:42:18.283 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::data(java/lang/Object): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder: null
-2026-06-29 00:42:18.283 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::message(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder: null
-2026-06-29 00:42:18.283 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::error(bool): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder: null
-2026-06-29 00:42:18.283 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse: null
-2026-06-29 00:42:18.283 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::toString(): java/lang/String: null
-2026-06-29 00:42:18.283 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::<init>(): void processing is finished normally
-2026-06-29 00:42:18.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::data(java/lang/Object): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder processing is finished normally
-2026-06-29 00:42:18.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::message(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder processing is finished normally
-2026-06-29 00:42:18.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::error(bool): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder processing is finished normally
-2026-06-29 00:42:18.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse processing is finished normally
-2026-06-29 00:42:18.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::toString(): java/lang/String processing is finished normally
-2026-06-29 00:42:18.288 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::<init>(): void
-2026-06-29 00:42:18.288 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::<init>(): void
+2026-08-11 21:51:21.150 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_toString_3870730165
+2026-08-11 21:51:21.209 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_init_9325288676
+2026-08-11 21:51:21.271 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_data_8662584567
+2026-08-11 21:51:21.346 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_message_5430539878
+2026-08-11 21:51:21.398 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_error_6563360739
+2026-08-11 21:51:21.454 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_build_59690360810
+2026-08-11 21:51:21.501 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_BaseResponseBuilder_toString_38707301611
+2026-08-11 21:51:21.502 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::<init>(): void: null
+2026-08-11 21:51:21.502 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::data(java/lang/Object): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder: null
+2026-08-11 21:51:21.502 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::message(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder: null
+2026-08-11 21:51:21.502 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::error(bool): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder: null
+2026-08-11 21:51:21.502 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse: null
+2026-08-11 21:51:21.503 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::toString(): java/lang/String: null
+2026-08-11 21:51:21.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::<init>(): void processing is finished normally
+2026-08-11 21:51:21.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::data(java/lang/Object): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder processing is finished normally
+2026-08-11 21:51:21.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::message(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder processing is finished normally
+2026-08-11 21:51:21.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::error(bool): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder processing is finished normally
+2026-08-11 21:51:21.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse processing is finished normally
+2026-08-11 21:51:21.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder::toString(): java/lang/String processing is finished normally
+2026-08-11 21:51:21.507 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::<init>(): void
+2026-08-11 21:51:21.507 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -139,9 +139,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:18.341 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_init_832723950
-2026-06-29 00:42:18.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::username(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
-2026-06-29 00:42:18.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::username(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:21.571 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_init_832723950
+2026-08-11 21:51:21.572 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::username(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:21.572 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::username(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -151,9 +151,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 00:42:18.390 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_username_13045906701
-2026-06-29 00:42:18.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::accessToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
-2026-06-29 00:42:18.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::accessToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:21.618 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_username_13045906701
+2026-08-11 21:51:21.619 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::accessToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:21.619 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::accessToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -163,9 +163,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 00:42:18.440 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_accessToken_6540643672
-2026-06-29 00:42:18.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::idToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
-2026-06-29 00:42:18.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::idToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:21.665 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_accessToken_6540643672
+2026-08-11 21:51:21.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::idToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:21.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::idToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -175,9 +175,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 00:42:18.491 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_idToken_14531539263
-2026-06-29 00:42:18.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::refreshToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
-2026-06-29 00:42:18.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::refreshToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:21.710 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_idToken_14531539263
+2026-08-11 21:51:21.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::refreshToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:21.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::refreshToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -187,9 +187,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 00:42:18.539 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_refreshToken_21200804544
-2026-06-29 00:42:18.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse
-2026-06-29 00:42:18.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse
+2026-08-11 21:51:21.760 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_refreshToken_21200804544
+2026-08-11 21:51:21.761 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse
+2026-08-11 21:51:21.761 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -216,9 +216,9 @@
 
 %bb5: 	//predecessors %bb4
 	return %10
-2026-06-29 00:42:18.585 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_build_6387073885
-2026-06-29 00:42:18.585 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::toString(): java/lang/String
-2026-06-29 00:42:18.586 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::toString(): java/lang/String
+2026-08-11 21:51:21.804 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_build_6387073885
+2026-08-11 21:51:21.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::toString(): java/lang/String
+2026-08-11 21:51:21.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -244,30 +244,30 @@
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-29 00:42:18.633 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_toString_4621834566
-2026-06-29 00:42:18.689 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_init_832723957
-2026-06-29 00:42:18.739 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_username_13045906708
-2026-06-29 00:42:18.794 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_accessToken_6540643679
-2026-06-29 00:42:18.849 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_idToken_145315392610
-2026-06-29 00:42:18.904 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_refreshToken_212008045411
-2026-06-29 00:42:18.953 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_build_63870738812
-2026-06-29 00:42:19.024 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_toString_46218345613
-2026-06-29 00:42:19.025 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::<init>(): void: null
-2026-06-29 00:42:19.025 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::username(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
-2026-06-29 00:42:19.025 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::accessToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
-2026-06-29 00:42:19.025 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::idToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
-2026-06-29 00:42:19.025 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::refreshToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
-2026-06-29 00:42:19.025 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse: null
-2026-06-29 00:42:19.026 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::toString(): java/lang/String: null
-2026-06-29 00:42:19.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::<init>(): void processing is finished normally
-2026-06-29 00:42:19.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::username(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
-2026-06-29 00:42:19.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::accessToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
-2026-06-29 00:42:19.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::idToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
-2026-06-29 00:42:19.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::refreshToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
-2026-06-29 00:42:19.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse processing is finished normally
-2026-06-29 00:42:19.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::toString(): java/lang/String processing is finished normally
-2026-06-29 00:42:19.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String): void
-2026-06-29 00:42:19.032 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String): void
+2026-08-11 21:51:21.847 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_toString_4621834566
+2026-08-11 21:51:21.887 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_init_832723957
+2026-08-11 21:51:21.946 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_username_13045906708
+2026-08-11 21:51:21.988 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_accessToken_6540643679
+2026-08-11 21:51:22.038 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_idToken_145315392610
+2026-08-11 21:51:22.090 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_refreshToken_212008045411
+2026-08-11 21:51:22.141 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_build_63870738812
+2026-08-11 21:51:22.192 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_AuthenticatedResponseBuilder_toString_46218345613
+2026-08-11 21:51:22.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::<init>(): void: null
+2026-08-11 21:51:22.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::username(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
+2026-08-11 21:51:22.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::accessToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
+2026-08-11 21:51:22.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::idToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
+2026-08-11 21:51:22.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::refreshToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
+2026-08-11 21:51:22.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse: null
+2026-08-11 21:51:22.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::toString(): java/lang/String: null
+2026-08-11 21:51:22.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::<init>(): void processing is finished normally
+2026-08-11 21:51:22.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::username(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
+2026-08-11 21:51:22.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::accessToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
+2026-08-11 21:51:22.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::idToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
+2026-08-11 21:51:22.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::refreshToken(java/lang/String): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
+2026-08-11 21:51:22.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::build(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse processing is finished normally
+2026-08-11 21:51:22.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder::toString(): java/lang/String processing is finished normally
+2026-08-11 21:51:22.200 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String): void
+2026-08-11 21:51:22.200 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -289,9 +289,9 @@
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-29 00:42:19.073 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_5831007840
-2026-06-29 00:42:19.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
-2026-06-29 00:42:19.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
+2026-08-11 21:51:22.259 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_5831007840
+2026-08-11 21:51:22.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
+2026-08-11 21:51:22.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -302,9 +302,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %2
-2026-06-29 00:42:19.114 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_builder_9290444491
-2026-06-29 00:42:19.115 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getData(): java/lang/Object
-2026-06-29 00:42:19.115 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getData(): java/lang/Object
+2026-08-11 21:51:22.318 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_builder_9290444491
+2026-08-11 21:51:22.319 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getData(): java/lang/Object
+2026-08-11 21:51:22.319 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getData(): java/lang/Object
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -314,9 +314,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 00:42:19.155 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_getData_6947742872
-2026-06-29 00:42:19.155 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getMessage(): java/lang/String
-2026-06-29 00:42:19.155 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getMessage(): java/lang/String
+2026-08-11 21:51:22.355 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_getData_6947742872
+2026-08-11 21:51:22.356 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getMessage(): java/lang/String
+2026-08-11 21:51:22.356 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getMessage(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -326,9 +326,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 00:42:19.194 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_getMessage_9805572303
-2026-06-29 00:42:19.195 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::isError(): bool
-2026-06-29 00:42:19.195 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::isError(): bool
+2026-08-11 21:51:22.393 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_getMessage_9805572303
+2026-08-11 21:51:22.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::isError(): bool
+2026-08-11 21:51:22.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::isError(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -338,9 +338,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 00:42:19.236 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_isError_4934182984
-2026-06-29 00:42:19.236 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setData(java/lang/Object): void
-2026-06-29 00:42:19.237 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setData(java/lang/Object): void
+2026-08-11 21:51:22.430 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_isError_4934182984
+2026-08-11 21:51:22.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setData(java/lang/Object): void
+2026-08-11 21:51:22.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setData(java/lang/Object): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -350,9 +350,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:19.278 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setData_15268236055
-2026-06-29 00:42:19.278 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setMessage(java/lang/String): void
-2026-06-29 00:42:19.278 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setMessage(java/lang/String): void
+2026-08-11 21:51:22.467 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setData_15268236055
+2026-08-11 21:51:22.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setMessage(java/lang/String): void
+2026-08-11 21:51:22.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setMessage(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -362,9 +362,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:19.319 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setMessage_17920382546
-2026-06-29 00:42:19.320 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setError(bool): void
-2026-06-29 00:42:19.320 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setError(bool): void
+2026-08-11 21:51:22.505 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setMessage_17920382546
+2026-08-11 21:51:22.506 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setError(bool): void
+2026-08-11 21:51:22.506 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setError(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -374,9 +374,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:19.360 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setError_2444784087
-2026-06-29 00:42:19.361 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(): void
-2026-06-29 00:42:19.361 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(): void
+2026-08-11 21:51:22.545 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setError_2444784087
+2026-08-11 21:51:22.546 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(): void
+2026-08-11 21:51:22.546 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -390,9 +390,9 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 00:42:19.399 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_16985454748
-2026-06-29 00:42:19.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String, bool): void
-2026-06-29 00:42:19.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String, bool): void
+2026-08-11 21:51:22.583 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_16985454748
+2026-08-11 21:51:22.583 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String, bool): void
+2026-08-11 21:51:22.583 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String, bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -418,9 +418,9 @@
 
 %bb5: 	//predecessors %bb4
 	return
-2026-06-29 00:42:19.439 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_3130108589
-2026-06-29 00:42:19.440 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::toString(): java/lang/String
-2026-06-29 00:42:19.440 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::toString(): java/lang/String
+2026-08-11 21:51:22.620 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_3130108589
+2026-08-11 21:51:22.620 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::toString(): java/lang/String
+2026-08-11 21:51:22.621 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -446,42 +446,42 @@
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-29 00:42:19.480 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_toString_205096597110
-2026-06-29 00:42:19.518 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_58310078411
-2026-06-29 00:42:19.554 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_builder_92904444912
-2026-06-29 00:42:19.593 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_getData_69477428713
-2026-06-29 00:42:19.630 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_getMessage_98055723014
-2026-06-29 00:42:19.668 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_isError_49341829815
-2026-06-29 00:42:19.718 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setData_152682360516
-2026-06-29 00:42:19.763 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setMessage_179203825417
-2026-06-29 00:42:19.802 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setError_24447840818
-2026-06-29 00:42:19.841 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_169854547419
-2026-06-29 00:42:19.876 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_31301085820
-2026-06-29 00:42:19.911 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_toString_205096597121
-2026-06-29 00:42:19.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String): void: null
-2026-06-29 00:42:19.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder: null
-2026-06-29 00:42:19.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getData(): java/lang/Object: null
-2026-06-29 00:42:19.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getMessage(): java/lang/String: null
-2026-06-29 00:42:19.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::isError(): bool: null
-2026-06-29 00:42:19.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setData(java/lang/Object): void: null
-2026-06-29 00:42:19.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setMessage(java/lang/String): void: null
-2026-06-29 00:42:19.912 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setError(bool): void: null
-2026-06-29 00:42:19.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(): void: null
-2026-06-29 00:42:19.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String, bool): void: null
-2026-06-29 00:42:19.913 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::toString(): java/lang/String: null
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String): void processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getData(): java/lang/Object processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getMessage(): java/lang/String processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::isError(): bool processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setData(java/lang/Object): void processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setMessage(java/lang/String): void processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setError(bool): void processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(): void processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String, bool): void processing is finished normally
-2026-06-29 00:42:19.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::toString(): java/lang/String processing is finished normally
-2026-06-29 00:42:19.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String): void
-2026-06-29 00:42:19.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String): void
+2026-08-11 21:51:22.659 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_toString_205096597110
+2026-08-11 21:51:22.696 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_58310078411
+2026-08-11 21:51:22.737 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_builder_92904444912
+2026-08-11 21:51:22.772 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_getData_69477428713
+2026-08-11 21:51:22.807 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_getMessage_98055723014
+2026-08-11 21:51:22.853 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_isError_49341829815
+2026-08-11 21:51:22.901 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setData_152682360516
+2026-08-11 21:51:22.944 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setMessage_179203825417
+2026-08-11 21:51:22.979 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_setError_24447840818
+2026-08-11 21:51:23.014 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_169854547419
+2026-08-11 21:51:23.047 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_init_31301085820
+2026-08-11 21:51:23.082 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.BaseResponse_toString_205096597121
+2026-08-11 21:51:23.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String): void: null
+2026-08-11 21:51:23.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder: null
+2026-08-11 21:51:23.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getData(): java/lang/Object: null
+2026-08-11 21:51:23.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getMessage(): java/lang/String: null
+2026-08-11 21:51:23.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::isError(): bool: null
+2026-08-11 21:51:23.084 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setData(java/lang/Object): void: null
+2026-08-11 21:51:23.084 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setMessage(java/lang/String): void: null
+2026-08-11 21:51:23.084 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setError(bool): void: null
+2026-08-11 21:51:23.084 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(): void: null
+2026-08-11 21:51:23.084 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String, bool): void: null
+2026-08-11 21:51:23.084 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::toString(): java/lang/String: null
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String): void processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse$BaseResponseBuilder processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getData(): java/lang/Object processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::getMessage(): java/lang/String processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::isError(): bool processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setData(java/lang/Object): void processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setMessage(java/lang/String): void processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::setError(bool): void processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(): void processing is finished normally
+2026-08-11 21:51:23.084 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::<init>(java/lang/Object, java/lang/String, bool): void processing is finished normally
+2026-08-11 21:51:23.085 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/BaseResponse::toString(): java/lang/String processing is finished normally
+2026-08-11 21:51:23.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String): void
+2026-08-11 21:51:23.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -507,9 +507,9 @@
 
 %bb5: 	//predecessors %bb4
 	return
-2026-06-29 00:42:19.964 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_init_3601846660
-2026-06-29 00:42:19.964 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
-2026-06-29 00:42:19.965 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:23.137 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_init_3601846660
+2026-08-11 21:51:23.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
+2026-08-11 21:51:23.138 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -520,9 +520,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %2
-2026-06-29 00:42:20.000 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_builder_2686492591
-2026-06-29 00:42:20.000 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getUsername(): java/lang/String
-2026-06-29 00:42:20.000 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getUsername(): java/lang/String
+2026-08-11 21:51:23.172 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_builder_2686492591
+2026-08-11 21:51:23.172 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getUsername(): java/lang/String
+2026-08-11 21:51:23.172 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getUsername(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -532,9 +532,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 00:42:20.038 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getUsername_16108155372
-2026-06-29 00:42:20.038 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getAccessToken(): java/lang/String
-2026-06-29 00:42:20.038 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getAccessToken(): java/lang/String
+2026-08-11 21:51:23.210 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getUsername_16108155372
+2026-08-11 21:51:23.210 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getAccessToken(): java/lang/String
+2026-08-11 21:51:23.210 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getAccessToken(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -544,9 +544,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 00:42:20.076 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getAccessToken_14412909803
-2026-06-29 00:42:20.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getIdToken(): java/lang/String
-2026-06-29 00:42:20.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getIdToken(): java/lang/String
+2026-08-11 21:51:23.244 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getAccessToken_14412909803
+2026-08-11 21:51:23.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getIdToken(): java/lang/String
+2026-08-11 21:51:23.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getIdToken(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -556,9 +556,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 00:42:20.113 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getIdToken_17503959814
-2026-06-29 00:42:20.114 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getRefreshToken(): java/lang/String
-2026-06-29 00:42:20.114 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getRefreshToken(): java/lang/String
+2026-08-11 21:51:23.278 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getIdToken_17503959814
+2026-08-11 21:51:23.278 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getRefreshToken(): java/lang/String
+2026-08-11 21:51:23.278 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getRefreshToken(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -568,9 +568,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 00:42:20.150 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getRefreshToken_8010327615
-2026-06-29 00:42:20.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setUsername(java/lang/String): void
-2026-06-29 00:42:20.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setUsername(java/lang/String): void
+2026-08-11 21:51:23.312 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getRefreshToken_8010327615
+2026-08-11 21:51:23.313 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setUsername(java/lang/String): void
+2026-08-11 21:51:23.313 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setUsername(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -580,9 +580,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:20.184 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setUsername_244730976
-2026-06-29 00:42:20.185 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setAccessToken(java/lang/String): void
-2026-06-29 00:42:20.185 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setAccessToken(java/lang/String): void
+2026-08-11 21:51:23.348 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setUsername_244730976
+2026-08-11 21:51:23.348 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setAccessToken(java/lang/String): void
+2026-08-11 21:51:23.348 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setAccessToken(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -592,9 +592,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:20.219 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setAccessToken_15443417967
-2026-06-29 00:42:20.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setIdToken(java/lang/String): void
-2026-06-29 00:42:20.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setIdToken(java/lang/String): void
+2026-08-11 21:51:23.383 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setAccessToken_15443417967
+2026-08-11 21:51:23.383 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setIdToken(java/lang/String): void
+2026-08-11 21:51:23.383 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setIdToken(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -604,9 +604,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:20.252 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setIdToken_9389149578
-2026-06-29 00:42:20.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setRefreshToken(java/lang/String): void
-2026-06-29 00:42:20.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setRefreshToken(java/lang/String): void
+2026-08-11 21:51:23.418 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setIdToken_9389149578
+2026-08-11 21:51:23.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setRefreshToken(java/lang/String): void
+2026-08-11 21:51:23.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setRefreshToken(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -616,9 +616,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:42:20.288 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setRefreshToken_17953735859
-2026-06-29 00:42:20.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::equals(java/lang/Object): bool
-2026-06-29 00:42:20.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::equals(java/lang/Object): bool
+2026-08-11 21:51:23.451 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setRefreshToken_17953735859
+2026-08-11 21:51:23.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::equals(java/lang/Object): bool
+2026-08-11 21:51:23.452 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::equals(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -778,18 +778,18 @@
 %bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %goto0, %goto1, %goto2, %goto3, %if.then10
 	%retval1 = phi {%if.else0 -> 1; %if.else1 -> 0; %if.else2 -> 0; %goto0 -> 0; %goto1 -> 0; %goto2 -> 0; %goto3 -> 0; %if.then10 -> 1}
 	return %retval1
-2026-06-29 00:42:20.322 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_equals_199943125010
-2026-06-29 00:42:20.322 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::canEqual(java/lang/Object): bool
-2026-06-29 00:42:20.323 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::canEqual(java/lang/Object): bool
+2026-08-11 21:51:23.486 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_equals_199943125010
+2026-08-11 21:51:23.487 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::canEqual(java/lang/Object): bool
+2026-08-11 21:51:23.487 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::canEqual(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	%1 = arg$0 instanceOf com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse
 	return %1
-2026-06-29 00:42:20.355 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_canEqual_119526862111
-2026-06-29 00:42:20.355 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::hashCode(): int
-2026-06-29 00:42:20.356 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::hashCode(): int
+2026-08-11 21:51:23.527 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_canEqual_119526862111
+2026-08-11 21:51:23.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::hashCode(): int
+2026-08-11 21:51:23.527 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::hashCode(): int
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -867,9 +867,9 @@
 	%49 = phi {%if.else3 -> 43; %if.then3 -> %46}
 	%51 = %48 + %49
 	return %51
-2026-06-29 00:42:20.389 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_hashCode_184684937112
-2026-06-29 00:42:20.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::toString(): java/lang/String
-2026-06-29 00:42:20.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::toString(): java/lang/String
+2026-08-11 21:51:23.564 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_hashCode_184684937112
+2026-08-11 21:51:23.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::toString(): java/lang/String
+2026-08-11 21:51:23.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -895,48 +895,48 @@
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-29 00:42:20.422 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_toString_133608968113
-2026-06-29 00:42:20.455 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_init_36018466614
-2026-06-29 00:42:20.490 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_builder_26864925915
-2026-06-29 00:42:20.527 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getUsername_161081553716
-2026-06-29 00:42:20.566 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getAccessToken_144129098017
-2026-06-29 00:42:20.605 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getIdToken_175039598118
-2026-06-29 00:42:20.646 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getRefreshToken_80103276119
-2026-06-29 00:42:20.683 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setUsername_2447309720
-2026-06-29 00:42:20.716 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setAccessToken_154434179621
-2026-06-29 00:42:20.747 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setIdToken_93891495722
-2026-06-29 00:42:20.778 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setRefreshToken_179537358523
-2026-06-29 00:42:20.810 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_equals_199943125024
-2026-06-29 00:42:20.842 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_canEqual_119526862125
-2026-06-29 00:42:20.872 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_hashCode_184684937126
-2026-06-29 00:42:20.905 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_toString_133608968127
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String): void: null
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getUsername(): java/lang/String: null
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getAccessToken(): java/lang/String: null
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getIdToken(): java/lang/String: null
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getRefreshToken(): java/lang/String: null
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setUsername(java/lang/String): void: null
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setAccessToken(java/lang/String): void: null
-2026-06-29 00:42:20.906 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setIdToken(java/lang/String): void: null
-2026-06-29 00:42:20.907 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setRefreshToken(java/lang/String): void: null
-2026-06-29 00:42:20.907 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::equals(java/lang/Object): bool: null
-2026-06-29 00:42:20.907 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::canEqual(java/lang/Object): bool: null
-2026-06-29 00:42:20.907 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::hashCode(): int: null
-2026-06-29 00:42:20.907 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::toString(): java/lang/String: null
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String): void processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getUsername(): java/lang/String processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getAccessToken(): java/lang/String processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getIdToken(): java/lang/String processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getRefreshToken(): java/lang/String processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setUsername(java/lang/String): void processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setAccessToken(java/lang/String): void processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setIdToken(java/lang/String): void processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setRefreshToken(java/lang/String): void processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::equals(java/lang/Object): bool processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::canEqual(java/lang/Object): bool processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::hashCode(): int processing is finished normally
-2026-06-29 00:42:20.907 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::toString(): java/lang/String processing is finished normally
-2026-06-29 00:42:20.908 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 00:42:20.908 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 21:51:23.596 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_toString_133608968113
+2026-08-11 21:51:23.628 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_init_36018466614
+2026-08-11 21:51:23.658 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_builder_26864925915
+2026-08-11 21:51:23.691 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getUsername_161081553716
+2026-08-11 21:51:23.722 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getAccessToken_144129098017
+2026-08-11 21:51:23.753 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getIdToken_175039598118
+2026-08-11 21:51:23.784 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_getRefreshToken_80103276119
+2026-08-11 21:51:23.818 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setUsername_2447309720
+2026-08-11 21:51:23.849 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setAccessToken_154434179621
+2026-08-11 21:51:23.887 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setIdToken_93891495722
+2026-08-11 21:51:23.926 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_setRefreshToken_179537358523
+2026-08-11 21:51:23.961 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_equals_199943125024
+2026-08-11 21:51:23.993 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_canEqual_119526862125
+2026-08-11 21:51:24.023 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_hashCode_184684937126
+2026-08-11 21:51:24.052 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.authorization.sample.awscognitospringauthserver.web.response.AuthenticatedResponse_toString_133608968127
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String): void: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getUsername(): java/lang/String: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getAccessToken(): java/lang/String: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getIdToken(): java/lang/String: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getRefreshToken(): java/lang/String: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setUsername(java/lang/String): void: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setAccessToken(java/lang/String): void: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setIdToken(java/lang/String): void: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setRefreshToken(java/lang/String): void: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::equals(java/lang/Object): bool: null
+2026-08-11 21:51:24.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::canEqual(java/lang/Object): bool: null
+2026-08-11 21:51:24.054 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::hashCode(): int: null
+2026-08-11 21:51:24.054 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::toString(): java/lang/String: null
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String): void processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::builder(): com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse$AuthenticatedResponseBuilder processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getUsername(): java/lang/String processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getAccessToken(): java/lang/String processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getIdToken(): java/lang/String processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::getRefreshToken(): java/lang/String processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setUsername(java/lang/String): void processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setAccessToken(java/lang/String): void processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setIdToken(java/lang/String): void processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::setRefreshToken(java/lang/String): void processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::canEqual(java/lang/Object): bool processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::hashCode(): int processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/authorization/sample/awscognitospringauthserver/web/response/AuthenticatedResponse::toString(): java/lang/String processing is finished normally
+2026-08-11 21:51:24.054 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 21:51:24.055 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

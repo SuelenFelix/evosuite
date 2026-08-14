@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class KLabel_getPredefinedLabel_10601880686 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term51284;
+     Object term51333;
 
     public KLabel_getPredefinedLabel_10601880686() {
     }
@@ -32,7 +32,7 @@ public class KLabel_getPredefinedLabel_10601880686 {
 
     @Before
     public void setup() throws Throwable {
-        term51284 = new Integer(433248783);
+        term51333 = new Integer(433248783);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KLabel_getPredefinedLabel_10601880686 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = "iNwOJRBEjp";
-        args[1] = term51284;
+        args[1] = term51333;
         callMethod(klass, "getPredefinedLabel", argTypes, null, args);
     }
 

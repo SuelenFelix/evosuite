@@ -35,8 +35,8 @@ public class Movie_copy_73924253621 {
      Object term20919;
      Object term20921;
      Object term20924;
-     Object term20955;
-     Object term20992;
+     Object term20954;
+     Object term20991;
 
     public Movie_copy_73924253621() {
     }
@@ -47,18 +47,18 @@ public class Movie_copy_73924253621 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term21058 = Class.forName((String) "com.folksdev.movie.model.GenresType");
-        Field term21057 = ((Class) term21058).getDeclaredField((String) "THRILLER");
-        ((Field) term21057).setAccessible(true);
-        Object enum83 =  ((Field) term21057).get((Object) null);
-        Class<? extends Object> term21264 = Class.forName((String) "com.folksdev.movie.model.GenresType");
-        Field term21263 = ((Class) term21264).getDeclaredField((String) "SCI_FI");
-        ((Field) term21263).setAccessible(true);
-        Object enum84 =  ((Field) term21263).get((Object) null);
-        Class<? extends Object> term21464 = Class.forName((String) "com.folksdev.movie.model.GenresType");
-        Field term21463 = ((Class) term21464).getDeclaredField((String) "ROMANCE");
-        ((Field) term21463).setAccessible(true);
-        Object enum85 =  ((Field) term21463).get((Object) null);
+        Class<? extends Object> term21057 = Class.forName((String) "com.folksdev.movie.model.GenresType");
+        Field term21056 = ((Class) term21057).getDeclaredField((String) "THRILLER");
+        ((Field) term21056).setAccessible(true);
+        Object enum83 =  ((Field) term21056).get((Object) null);
+        Class<? extends Object> term21263 = Class.forName((String) "com.folksdev.movie.model.GenresType");
+        Field term21262 = ((Class) term21263).getDeclaredField((String) "SCI_FI");
+        ((Field) term21262).setAccessible(true);
+        Object enum84 =  ((Field) term21262).get((Object) null);
+        Class<? extends Object> term21463 = Class.forName((String) "com.folksdev.movie.model.GenresType");
+        Field term21462 = ((Class) term21463).getDeclaredField((String) "ROMANCE");
+        ((Field) term21462).setAccessible(true);
+        Object enum85 =  ((Field) term21462).get((Object) null);
         ArrayList term20809 = new ArrayList();
         ((ArrayList) term20809).add(enum83);
         ((ArrayList) term20809).add(enum84);
@@ -66,8 +66,8 @@ public class Movie_copy_73924253621 {
         ((ArrayList) term20809).add(enum85);
         ((ArrayList) term20809).add(enum85);
         HashMap term20823 = new HashMap();
-        Set<Object> term21666 =  ((Map) term20823).keySet();
-        HashSet term20822 = new HashSet((Collection<? extends Object>) term21666);
+        Set<Object> term21665 =  ((Map) term20823).keySet();
+        HashSet term20822 = new HashSet((Collection<? extends Object>) term21665);
         term20758 = newInstance(Class.forName("com.folksdev.movie.model.Movie"));
         Object term20831 = newInstance(Class.forName("com.folksdev.movie.model.Director"));
         Object term20868 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
@@ -91,16 +91,16 @@ public class Movie_copy_73924253621 {
         term20919 = new Integer(1303442927);
         term20921 = new LinkedList();
         HashMap term20925 = new HashMap();
-        Set<Object> term21737 =  ((Map) term20925).keySet();
-        term20924 = new HashSet((Collection<? extends Object>) term21737);
-        term20955 = newInstance(Class.forName("com.folksdev.movie.model.Director"));
-        setField(term20955, term20955.getClass(), "id", "lcCEhCpiZM");
-        setField(term20955, term20955.getClass(), "name", "OPJlqMJxdq");
-        setField(term20955, term20955.getClass(), "lastName", "COhzwXcfds");
-        setField(term20955, term20955.getClass(), "movies", null);
-        term20992 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
-        setField(term20992, term20992.getClass(), "id", "GiNZRBZjgO");
-        setField(term20992, term20992.getClass(), "name", "ceGAKcClsG");
+        Set<Object> term21736 =  ((Map) term20925).keySet();
+        term20924 = new HashSet((Collection<? extends Object>) term21736);
+        term20954 = newInstance(Class.forName("com.folksdev.movie.model.Director"));
+        setField(term20954, term20954.getClass(), "id", "lcCEhCpiZM");
+        setField(term20954, term20954.getClass(), "name", "OPJlqMJxdq");
+        setField(term20954, term20954.getClass(), "lastName", "COhzwXcfds");
+        setField(term20954, term20954.getClass(), "movies", null);
+        term20991 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
+        setField(term20991, term20991.getClass(), "id", "GiNZRBZjgO");
+        setField(term20991, term20991.getClass(), "name", "ceGAKcClsG");
     }
 
     @Test
@@ -126,8 +126,8 @@ public class Movie_copy_73924253621 {
         args[5] = term20919;
         args[6] = term20921;
         args[7] = term20924;
-        args[8] = term20955;
-        args[9] = term20992;
+        args[8] = term20954;
+        args[9] = term20991;
         callMethod(klass, "copy", argTypes, term20758, args);
     }
 

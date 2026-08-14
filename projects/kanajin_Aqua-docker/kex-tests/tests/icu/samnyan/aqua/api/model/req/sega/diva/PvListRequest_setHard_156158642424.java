@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class PvListRequest_setHard_156158642424 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4091516;
+     Object term402261;
 
     public PvListRequest_setHard_156158642424() {
     }
@@ -31,12 +31,12 @@ public class PvListRequest_setHard_156158642424 {
 
     @Before
     public void setup() throws Throwable {
-        term4091516 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
-        setField(term4091516, term4091516.getClass(), "CreationDate", null);
-        setField(term4091516, term4091516.getClass(), "Easy", null);
-        setField(term4091516, term4091516.getClass(), "Normal", null);
-        setField(term4091516, term4091516.getClass(), "Hard", null);
-        setField(term4091516, term4091516.getClass(), "Extreme", null);
+        term402261 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
+        setField(term402261, term402261.getClass(), "CreationDate", null);
+        setField(term402261, term402261.getClass(), "Easy", null);
+        setField(term402261, term402261.getClass(), "Normal", null);
+        setField(term402261, term402261.getClass(), "Hard", null);
+        setField(term402261, term402261.getClass(), "Extreme", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class PvListRequest_setHard_156158642424 {
         argTypes[0] = Class.forName("java.util.List");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setHard", argTypes, term4091516, args);
+        callMethod(klass, "setHard", argTypes, term402261, args);
     }
 
 };

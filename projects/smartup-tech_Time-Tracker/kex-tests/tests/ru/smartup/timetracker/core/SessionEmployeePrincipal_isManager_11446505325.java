@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SessionEmployeePrincipal_isManager_11446505325 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2841;
+     Object term3215;
 
     public SessionEmployeePrincipal_isManager_11446505325() {
     }
@@ -31,11 +31,11 @@ public class SessionEmployeePrincipal_isManager_11446505325 {
 
     @Before
     public void setup() throws Throwable {
-        term2841 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2841, term2841.getClass(), "id", 0);
-        setField(term2841, term2841.getClass(), "email", null);
-        setField(term2841, term2841.getClass(), "employeeRoles", null);
-        setField(term2841, term2841.getClass(), "projectIdsByProjectRoles", null);
+        term3215 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3215, term3215.getClass(), "id", 0);
+        setField(term3215, term3215.getClass(), "email", null);
+        setField(term3215, term3215.getClass(), "employeeRoles", null);
+        setField(term3215, term3215.getClass(), "projectIdsByProjectRoles", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class SessionEmployeePrincipal_isManager_11446505325 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "isManager", argTypes, term2841, args);
+        callMethod(klass, "isManager", argTypes, term3215, args);
     }
 
 };

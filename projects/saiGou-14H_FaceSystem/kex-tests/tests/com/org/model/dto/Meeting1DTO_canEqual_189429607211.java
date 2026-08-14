@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class Meeting1DTO_canEqual_189429607211 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4235;
-     Object term4274;
+     Object term4234;
+     Object term4273;
 
     public Meeting1DTO_canEqual_189429607211() {
     }
@@ -33,13 +33,13 @@ public class Meeting1DTO_canEqual_189429607211 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term4236 = new Integer(-1195191239);
-        term4235 = newInstance(Class.forName("com.org.model.dto.Meeting1DTO"));
-        setField(term4235, term4235.getClass(), "userid", term4236);
-        setField(term4235, term4235.getClass(), "host", "EGFHrFOTWy");
-        setField(term4235, term4235.getClass(), "meetingname", "VQLNXTwXTJ");
-        setField(term4235, term4235.getClass(), "meetingroom", "GZygAttIuk");
-        term4274 = newInstance(Class.forName("java.lang.Object"));
+        Integer term4235 = new Integer(-1195191239);
+        term4234 = newInstance(Class.forName("com.org.model.dto.Meeting1DTO"));
+        setField(term4234, term4234.getClass(), "userid", term4235);
+        setField(term4234, term4234.getClass(), "host", "EGFHrFOTWy");
+        setField(term4234, term4234.getClass(), "meetingname", "VQLNXTwXTJ");
+        setField(term4234, term4234.getClass(), "meetingroom", "GZygAttIuk");
+        term4273 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -48,8 +48,8 @@ public class Meeting1DTO_canEqual_189429607211 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term4274;
-        callMethod(klass, "canEqual", argTypes, term4235, args);
+        args[0] = term4273;
+        callMethod(klass, "canEqual", argTypes, term4234, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class RParser_getQuoteId_204669921121 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term15657;
+     Object term25490;
 
     public RParser_getQuoteId_204669921121() {
     }
@@ -31,12 +31,12 @@ public class RParser_getQuoteId_204669921121 {
 
     @Before
     public void setup() throws Throwable {
-        term15657 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
-        setField(term15657, term15657.getClass(), "type", null);
-        setIntField(term15657, term15657.getClass(), "quoteId", 0);
-        setIntField(term15657, term15657.getClass(), "groupId", 0);
-        setField(term15657, term15657.getClass(), "parser", null);
-        setField(term15657, term15657.getClass(), "func", null);
+        term25490 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
+        setField(term25490, term25490.getClass(), "type", null);
+        setIntField(term25490, term25490.getClass(), "quoteId", 0);
+        setIntField(term25490, term25490.getClass(), "groupId", 0);
+        setField(term25490, term25490.getClass(), "parser", null);
+        setField(term25490, term25490.getClass(), "func", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class RParser_getQuoteId_204669921121 {
         Class<?> klass = Class.forName("io.github.janlely.jparser.impl.regex.RParser");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getQuoteId", argTypes, term15657, args);
+        callMethod(klass, "getQuoteId", argTypes, term25490, args);
     }
 
 };

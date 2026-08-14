@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Actor_copy_138449258931 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34375;
+     Object term34374;
 
     public Actor_copy_138449258931() {
     }
@@ -31,12 +31,12 @@ public class Actor_copy_138449258931 {
 
     @Before
     public void setup() throws Throwable {
-        term34375 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        setField(term34375, term34375.getClass(), "id", null);
-        setField(term34375, term34375.getClass(), "name", null);
-        setField(term34375, term34375.getClass(), "dateOfBirth", null);
-        setField(term34375, term34375.getClass(), "gender", null);
-        setField(term34375, term34375.getClass(), "movies", null);
+        term34374 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        setField(term34374, term34374.getClass(), "id", null);
+        setField(term34374, term34374.getClass(), "name", null);
+        setField(term34374, term34374.getClass(), "dateOfBirth", null);
+        setField(term34374, term34374.getClass(), "gender", null);
+        setField(term34374, term34374.getClass(), "movies", null);
     }
 
     @Test
@@ -54,7 +54,7 @@ public class Actor_copy_138449258931 {
         args[2] = null;
         args[3] = null;
         args[4] = null;
-        callMethod(klass, "copy", argTypes, term34375, args);
+        callMethod(klass, "copy", argTypes, term34374, args);
     }
 
 };

@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class ConnectionInnovator_init_14257432201 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term11007;
+     Object term11004;
 
     public ConnectionInnovator_init_14257432201() {
     }
@@ -32,7 +32,7 @@ public class ConnectionInnovator_init_14257432201 {
 
     @Before
     public void setup() throws Throwable {
-        term11007 = new Integer(1527034193);
+        term11004 = new Integer(1527034193);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class ConnectionInnovator_init_14257432201 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term11007;
+        args[0] = term11004;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

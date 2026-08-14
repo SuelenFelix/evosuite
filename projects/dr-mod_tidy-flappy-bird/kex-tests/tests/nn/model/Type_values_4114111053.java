@@ -33,10 +33,10 @@ public class Type_values_4114111053 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term11036 = Class.forName((String) "nn.model.Type");
-        Field term11035 = ((Class) term11036).getDeclaredField((String) "OUTPUT");
-        ((Field) term11035).setAccessible(true);
-        enum70 = ((Field) term11035).get((Object) null);
+        Class<? extends Object> term11033 = Class.forName((String) "nn.model.Type");
+        Field term11032 = ((Class) term11033).getDeclaredField((String) "OUTPUT");
+        ((Field) term11032).setAccessible(true);
+        enum70 = ((Field) term11032).get((Object) null);
     }
 
     @Test

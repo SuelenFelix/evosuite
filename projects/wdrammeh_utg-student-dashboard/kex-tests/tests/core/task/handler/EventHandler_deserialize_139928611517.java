@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class EventHandler_deserialize_139928611517 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term25358;
+     Object term25346;
 
     public EventHandler_deserialize_139928611517() {
     }
@@ -31,7 +31,7 @@ public class EventHandler_deserialize_139928611517 {
 
     @Before
     public void setup() throws Throwable {
-        term25358 = newInstance(Class.forName("core.task.handler.EventHandler"));
+        term25346 = newInstance(Class.forName("core.task.handler.EventHandler"));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class EventHandler_deserialize_139928611517 {
         Class<?> klass = Class.forName("core.task.handler.EventHandler");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "deserialize", argTypes, term25358, args);
+        callMethod(klass, "deserialize", argTypes, term25346, args);
     }
 
 };

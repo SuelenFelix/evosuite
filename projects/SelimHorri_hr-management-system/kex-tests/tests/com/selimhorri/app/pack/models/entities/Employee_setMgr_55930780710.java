@@ -29,8 +29,8 @@ import java.lang.Boolean;
 
 public class Employee_setMgr_55930780710 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term8156;
-     Object term8299;
+     Object term8165;
+     Object term8308;
 
     public Employee_setMgr_55930780710() {
     }
@@ -41,63 +41,63 @@ public class Employee_setMgr_55930780710 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term8157 = new Integer(-1954860951);
-        Integer term8183 = new Integer(-2078879114);
-        Double term8195 = new Double(0.46055414536796613);
-        Double term8197 = new Double(0.7658890382866111);
-        Integer term8200 = new Integer(-1186882318);
-        HashMap term8227 = new HashMap();
-        Set<Object> term8341 =  ((Map) term8227).keySet();
-        HashSet term8226 = new HashSet((Collection<? extends Object>) term8341);
-        Integer term8234 = new Integer(-2092117838);
-        Boolean term8260 = new Boolean(true);
-        term8156 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
-        Object term8185 = newInstance(Class.forName("java.time.LocalDateTime"));
-        Object term8186 = newInstance(Class.forName("java.time.LocalDate"));
-        Object term8190 = newInstance(Class.forName("java.time.LocalTime"));
-        Object term8199 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        Object term8233 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.UserCredential"));
-        Object term8298 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
-        setField(term8156, term8156.getClass(), "empno", term8157);
-        setField(term8156, term8156.getClass(), "ename", "vVVFChfeBQ");
-        setField(term8156, term8156.getClass(), "job", "aASfcqfBbh");
-        setField(term8156, term8156.getClass(), "mgr", term8183);
-        setIntField(term8186, term8186.getClass(), "year", 2019);
-        setShortField(term8186, term8186.getClass(), "month", (short) 3);
-        setShortField(term8186, term8186.getClass(), "day", (short) 19);
-        setField(term8185, term8185.getClass(), "date", term8186);
-        setByteField(term8190, term8190.getClass(), "hour", (byte) 19);
-        setByteField(term8190, term8190.getClass(), "minute", (byte) 24);
-        setByteField(term8190, term8190.getClass(), "second", (byte) 21);
-        setIntField(term8190, term8190.getClass(), "nano", 765889037);
-        setField(term8185, term8185.getClass(), "time", term8190);
-        setField(term8156, term8156.getClass(), "hireDate", term8185);
-        setField(term8156, term8156.getClass(), "sal", term8195);
-        setField(term8156, term8156.getClass(), "comm", term8197);
-        setField(term8199, term8199.getClass(), "deptno", term8200);
-        setField(term8199, term8199.getClass(), "dname", "DwpOIkpRFT");
-        setField(term8199, term8199.getClass(), "loc", "LPlTDoLrUy");
-        setField(term8199, term8199.getClass(), "employees", term8226);
-        setField(term8156, term8156.getClass(), "department", term8199);
-        setField(term8233, term8233.getClass(), "id", term8234);
-        setField(term8233, term8233.getClass(), "username", "kNkFIdfwqs");
-        setField(term8233, term8233.getClass(), "password", "sHLdqoTjnP");
-        setField(term8233, term8233.getClass(), "enabled", term8260);
-        setField(term8233, term8233.getClass(), "email", "UakuVGzEav");
-        setField(term8233, term8233.getClass(), "phone", "DxiwTTouEo");
-        setField(term8233, term8233.getClass(), "role", "ghoklPMuMt");
-        setField(term8298, term8298.getClass(), "empno", null);
-        setField(term8298, term8298.getClass(), "ename", null);
-        setField(term8298, term8298.getClass(), "job", null);
-        setField(term8298, term8298.getClass(), "mgr", null);
-        setField(term8298, term8298.getClass(), "hireDate", null);
-        setField(term8298, term8298.getClass(), "sal", null);
-        setField(term8298, term8298.getClass(), "comm", null);
-        setField(term8298, term8298.getClass(), "department", null);
-        setField(term8298, term8298.getClass(), "userCredential", null);
-        setField(term8233, term8233.getClass(), "employee", term8298);
-        setField(term8156, term8156.getClass(), "userCredential", term8233);
-        term8299 = new Integer(1524590776);
+        Integer term8166 = new Integer(-1954860951);
+        Integer term8192 = new Integer(-2078879114);
+        Double term8204 = new Double(0.46055414536796613);
+        Double term8206 = new Double(0.7658890382866111);
+        Integer term8209 = new Integer(-1186882318);
+        HashMap term8236 = new HashMap();
+        Set<Object> term8350 =  ((Map) term8236).keySet();
+        HashSet term8235 = new HashSet((Collection<? extends Object>) term8350);
+        Integer term8243 = new Integer(-2092117838);
+        Boolean term8269 = new Boolean(true);
+        term8165 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
+        Object term8194 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term8195 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term8199 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term8208 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        Object term8242 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.UserCredential"));
+        Object term8307 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
+        setField(term8165, term8165.getClass(), "empno", term8166);
+        setField(term8165, term8165.getClass(), "ename", "vVVFChfeBQ");
+        setField(term8165, term8165.getClass(), "job", "aASfcqfBbh");
+        setField(term8165, term8165.getClass(), "mgr", term8192);
+        setIntField(term8195, term8195.getClass(), "year", 2019);
+        setShortField(term8195, term8195.getClass(), "month", (short) 3);
+        setShortField(term8195, term8195.getClass(), "day", (short) 19);
+        setField(term8194, term8194.getClass(), "date", term8195);
+        setByteField(term8199, term8199.getClass(), "hour", (byte) 19);
+        setByteField(term8199, term8199.getClass(), "minute", (byte) 24);
+        setByteField(term8199, term8199.getClass(), "second", (byte) 21);
+        setIntField(term8199, term8199.getClass(), "nano", 765889037);
+        setField(term8194, term8194.getClass(), "time", term8199);
+        setField(term8165, term8165.getClass(), "hireDate", term8194);
+        setField(term8165, term8165.getClass(), "sal", term8204);
+        setField(term8165, term8165.getClass(), "comm", term8206);
+        setField(term8208, term8208.getClass(), "deptno", term8209);
+        setField(term8208, term8208.getClass(), "dname", "DwpOIkpRFT");
+        setField(term8208, term8208.getClass(), "loc", "LPlTDoLrUy");
+        setField(term8208, term8208.getClass(), "employees", term8235);
+        setField(term8165, term8165.getClass(), "department", term8208);
+        setField(term8242, term8242.getClass(), "id", term8243);
+        setField(term8242, term8242.getClass(), "username", "kNkFIdfwqs");
+        setField(term8242, term8242.getClass(), "password", "sHLdqoTjnP");
+        setField(term8242, term8242.getClass(), "enabled", term8269);
+        setField(term8242, term8242.getClass(), "email", "UakuVGzEav");
+        setField(term8242, term8242.getClass(), "phone", "DxiwTTouEo");
+        setField(term8242, term8242.getClass(), "role", "ghoklPMuMt");
+        setField(term8307, term8307.getClass(), "empno", null);
+        setField(term8307, term8307.getClass(), "ename", null);
+        setField(term8307, term8307.getClass(), "job", null);
+        setField(term8307, term8307.getClass(), "mgr", null);
+        setField(term8307, term8307.getClass(), "hireDate", null);
+        setField(term8307, term8307.getClass(), "sal", null);
+        setField(term8307, term8307.getClass(), "comm", null);
+        setField(term8307, term8307.getClass(), "department", null);
+        setField(term8307, term8307.getClass(), "userCredential", null);
+        setField(term8242, term8242.getClass(), "employee", term8307);
+        setField(term8165, term8165.getClass(), "userCredential", term8242);
+        term8308 = new Integer(1524590776);
     }
 
     @Test
@@ -106,8 +106,8 @@ public class Employee_setMgr_55930780710 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Integer");
         Object[] args = new Object[1];
-        args[0] = term8299;
-        callMethod(klass, "setMgr", argTypes, term8156, args);
+        args[0] = term8308;
+        callMethod(klass, "setMgr", argTypes, term8165, args);
     }
 
 };

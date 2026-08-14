@@ -36,7 +36,7 @@ public class Population_init_12955824490 {
     public void setup() throws Throwable {
         term3368 = newInstance(Class.forName("java.util.Random"));
         Object term3369 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
-        setLongField(term3369, term3369.getClass(), "value", 183036524342803L);
+        setLongField(term3369, term3369.getClass(), "value", 171739736862046L);
         setField(term3368, term3368.getClass(), "seed", term3369);
         setDoubleField(term3368, term3368.getClass(), "nextNextGaussian", 0.9113409083257852);
         setBooleanField(term3368, term3368.getClass(), "haveNextNextGaussian", false);

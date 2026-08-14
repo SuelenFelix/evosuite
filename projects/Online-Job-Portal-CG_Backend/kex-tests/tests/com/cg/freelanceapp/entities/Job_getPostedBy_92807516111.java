@@ -229,8 +229,8 @@ public class Job_getPostedBy_92807516111 {
         setField(term5571, term5571.getClass(), "freelancers", term5643);
         setField(term5517, term5517.getClass(), "postedBy", term5571);
         setIntField(term5647, term5647.getClass(), "year", 2026);
-        setShortField(term5647, term5647.getClass(), "month", (short) 6);
-        setShortField(term5647, term5647.getClass(), "day", (short) 29);
+        setShortField(term5647, term5647.getClass(), "month", (short) 8);
+        setShortField(term5647, term5647.getClass(), "day", (short) 11);
         setField(term5517, term5517.getClass(), "postedDate", term5647);
         setField(term5651, term5651.getClass(), "id", term5652);
         setField(term5651, term5651.getClass(), "userName", "mDTRMwjBpc");

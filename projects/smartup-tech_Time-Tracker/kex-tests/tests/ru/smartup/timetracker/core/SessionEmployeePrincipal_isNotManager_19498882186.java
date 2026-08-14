@@ -27,8 +27,8 @@ import java.lang.Integer;
 
 public class SessionEmployeePrincipal_isNotManager_19498882186 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1897;
-     Object term1927;
+     Object term2271;
+     Object term2301;
 
     public SessionEmployeePrincipal_isNotManager_19498882186() {
     }
@@ -39,16 +39,16 @@ public class SessionEmployeePrincipal_isNotManager_19498882186 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term1912 = new HashMap();
-        Set<Object> term1939 =  ((Map) term1912).keySet();
-        HashSet term1911 = new HashSet((Collection<? extends Object>) term1939);
-        HashMap term1922 = new HashMap();
-        term1897 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term1897, term1897.getClass(), "id", 597278769);
-        setField(term1897, term1897.getClass(), "email", "RMFIsYGgne");
-        setField(term1897, term1897.getClass(), "employeeRoles", term1911);
-        setField(term1897, term1897.getClass(), "projectIdsByProjectRoles", term1922);
-        term1927 = new Integer(-1685132342);
+        HashMap term2286 = new HashMap();
+        Set<Object> term2313 =  ((Map) term2286).keySet();
+        HashSet term2285 = new HashSet((Collection<? extends Object>) term2313);
+        HashMap term2296 = new HashMap();
+        term2271 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term2271, term2271.getClass(), "id", 597278769);
+        setField(term2271, term2271.getClass(), "email", "RMFIsYGgne");
+        setField(term2271, term2271.getClass(), "employeeRoles", term2285);
+        setField(term2271, term2271.getClass(), "projectIdsByProjectRoles", term2296);
+        term2301 = new Integer(-1685132342);
     }
 
     @Test
@@ -57,8 +57,8 @@ public class SessionEmployeePrincipal_isNotManager_19498882186 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term1927;
-        callMethod(klass, "isNotManager", argTypes, term1897, args);
+        args[0] = term2301;
+        callMethod(klass, "isNotManager", argTypes, term2271, args);
     }
 
 };

@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class Actor_init_206992865617 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34155;
+     Object term34154;
      Object enum116;
 
     public Actor_init_206992865617() {
@@ -34,14 +34,14 @@ public class Actor_init_206992865617 {
 
     @Before
     public void setup() throws Throwable {
-        term34155 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term34155, term34155.getClass(), "year", 2025);
-        setShortField(term34155, term34155.getClass(), "month", (short) 10);
-        setShortField(term34155, term34155.getClass(), "day", (short) 29);
-        Class<? extends Object> term34181 = Class.forName((String) "com.folksdev.movie.model.Gender");
-        Field term34180 = ((Class) term34181).getDeclaredField((String) "UNKNOWN");
-        ((Field) term34180).setAccessible(true);
-        enum116 = ((Field) term34180).get((Object) null);
+        term34154 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term34154, term34154.getClass(), "year", 2025);
+        setShortField(term34154, term34154.getClass(), "month", (short) 10);
+        setShortField(term34154, term34154.getClass(), "day", (short) 29);
+        Class<? extends Object> term34180 = Class.forName((String) "com.folksdev.movie.model.Gender");
+        Field term34179 = ((Class) term34180).getDeclaredField((String) "UNKNOWN");
+        ((Field) term34179).setAccessible(true);
+        enum116 = ((Field) term34179).get((Object) null);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class Actor_init_206992865617 {
         argTypes[2] = Class.forName("com.folksdev.movie.model.Gender");
         Object[] args = new Object[3];
         args[0] = "pWwlfpmeFT";
-        args[1] = term34155;
+        args[1] = term34154;
         args[2] = enum116;
         Object instance = callConstructor(klass, argTypes, args);
     }

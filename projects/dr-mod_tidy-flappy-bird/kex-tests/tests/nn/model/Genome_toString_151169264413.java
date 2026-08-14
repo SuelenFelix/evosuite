@@ -164,7 +164,7 @@ public class Genome_toString_151169264413 {
         setField(term7455, term7455.getClass(), "nodeInnovator", term7529);
         setIntField(term7531, term7531.getClass(), "counter", 100);
         setField(term7455, term7455.getClass(), "connectionInnovator", term7531);
-        setLongField(term7534, term7534.getClass(), "value", 81712934337737L);
+        setLongField(term7534, term7534.getClass(), "value", 162014817815243L);
         setField(term7533, term7533.getClass(), "seed", term7534);
         setDoubleField(term7533, term7533.getClass(), "nextNextGaussian", 0.9147378755448754);
         setBooleanField(term7533, term7533.getClass(), "haveNextNextGaussian", true);

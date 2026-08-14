@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeDateUtils_getMinZoneTimestamp_181477143212 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3542;
+     Object term3946;
 
     public FreezeDateUtils_getMinZoneTimestamp_181477143212() {
     }
@@ -31,8 +31,8 @@ public class FreezeDateUtils_getMinZoneTimestamp_181477143212 {
 
     @Before
     public void setup() throws Throwable {
-        term3542 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
-        setField(term3542, term3542.getClass(), "freezeProperties", null);
+        term3946 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
+        setField(term3946, term3946.getClass(), "freezeProperties", null);
     }
 
     @Test
@@ -40,7 +40,7 @@ public class FreezeDateUtils_getMinZoneTimestamp_181477143212 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getMinZoneTimestamp", argTypes, term3542, args);
+        callMethod(klass, "getMinZoneTimestamp", argTypes, term3946, args);
     }
 
 };

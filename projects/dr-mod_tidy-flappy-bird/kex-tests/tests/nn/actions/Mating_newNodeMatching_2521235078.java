@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Mating_newNodeMatching_2521235078 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term20043;
+     Object term20075;
 
     public Mating_newNodeMatching_2521235078() {
     }
@@ -31,10 +31,10 @@ public class Mating_newNodeMatching_2521235078 {
 
     @Before
     public void setup() throws Throwable {
-        term20043 = newInstance(Class.forName("nn.actions.Mating"));
-        setField(term20043, term20043.getClass(), "random", null);
-        setField(term20043, term20043.getClass(), "nodeInnovator", null);
-        setField(term20043, term20043.getClass(), "connectionInnovator", null);
+        term20075 = newInstance(Class.forName("nn.actions.Mating"));
+        setField(term20075, term20075.getClass(), "random", null);
+        setField(term20075, term20075.getClass(), "nodeInnovator", null);
+        setField(term20075, term20075.getClass(), "connectionInnovator", null);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class Mating_newNodeMatching_2521235078 {
         args[0] = null;
         args[1] = null;
         args[2] = null;
-        callMethod(klass, "newNodeMatching", argTypes, term20043, args);
+        callMethod(klass, "newNodeMatching", argTypes, term20075, args);
     }
 
 };

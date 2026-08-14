@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class UserReview_hashCode_14321621925 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term27907;
+     Object term27906;
 
     public UserReview_hashCode_14321621925() {
     }
@@ -31,11 +31,11 @@ public class UserReview_hashCode_14321621925 {
 
     @Before
     public void setup() throws Throwable {
-        term27907 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
-        setField(term27907, term27907.getClass(), "userReviewId", null);
-        setField(term27907, term27907.getClass(), "user", null);
-        setField(term27907, term27907.getClass(), "review", null);
-        setField(term27907, term27907.getClass(), "date", null);
+        term27906 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        setField(term27906, term27906.getClass(), "userReviewId", null);
+        setField(term27906, term27906.getClass(), "user", null);
+        setField(term27906, term27906.getClass(), "review", null);
+        setField(term27906, term27906.getClass(), "date", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class UserReview_hashCode_14321621925 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.UserReview");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term27907, args);
+        callMethod(klass, "hashCode", argTypes, term27906, args);
     }
 
 };

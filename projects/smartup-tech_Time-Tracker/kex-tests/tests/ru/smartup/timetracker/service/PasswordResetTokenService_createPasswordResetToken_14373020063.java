@@ -22,8 +22,8 @@ import java.lang.Long;
 
 public class PasswordResetTokenService_createPasswordResetToken_14373020063 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term23319;
-     Object term23321;
+     Object term23459;
+     Object term23461;
 
     public PasswordResetTokenService_createPasswordResetToken_14373020063() {
     }
@@ -34,8 +34,8 @@ public class PasswordResetTokenService_createPasswordResetToken_14373020063 {
 
     @Before
     public void setup() throws Throwable {
-        term23319 = new Integer(1303442927);
-        term23321 = new Long(2486810210675247493L);
+        term23459 = new Integer(1303442927);
+        term23461 = new Long(2486810210675247493L);
     }
 
     @Test
@@ -45,8 +45,8 @@ public class PasswordResetTokenService_createPasswordResetToken_14373020063 {
         argTypes[0] = int.class;
         argTypes[1] = long.class;
         Object[] args = new Object[2];
-        args[0] = term23319;
-        args[1] = term23321;
+        args[0] = term23459;
+        args[1] = term23461;
         callMethod(klass, "createPasswordResetToken", argTypes, null, args);
     }
 

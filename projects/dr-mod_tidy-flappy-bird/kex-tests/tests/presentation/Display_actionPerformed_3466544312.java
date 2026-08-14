@@ -173,7 +173,7 @@ public class Display_actionPerformed_3466544312 {
         setIntField(term214, term214.getClass(), "yOpeningEnd", 0);
         setIntField(term214, term214.getClass(), "width", 0);
         setField(term203, term203.getClass(), "lastPipe", term214);
-        setLongField(term220, term220.getClass(), "value", 136440192351119L);
+        setLongField(term220, term220.getClass(), "value", 237219820443591L);
         setField(term219, term219.getClass(), "seed", term220);
         setDoubleField(term219, term219.getClass(), "nextNextGaussian", 0.0);
         setBooleanField(term219, term219.getClass(), "haveNextNextGaussian", false);

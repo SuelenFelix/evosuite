@@ -26,10 +26,10 @@ import java.util.HashSet;
 
 public class ReportService_getReportHoursForProjects_14490803670 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24278;
-     Object term24279;
-     Object term24295;
-     Object term24297;
+     Object term24418;
+     Object term24419;
+     Object term24435;
+     Object term24437;
 
     public ReportService_getReportHoursForProjects_14490803670() {
     }
@@ -40,17 +40,17 @@ public class ReportService_getReportHoursForProjects_14490803670 {
 
     @Before
     public void setup() throws Throwable {
-        term24278 = newInstance(Class.forName("ru.smartup.timetracker.service.ReportService"));
-        setField(term24278, term24278.getClass(), "reportRepository", null);
-        HashMap term24280 = new HashMap();
-        Set<Object> term24299 =  ((Map) term24280).keySet();
-        term24279 = new HashSet((Collection<? extends Object>) term24299);
-        term24295 = newInstance(Class.forName("java.sql.Date"));
-        setLongField(term24295, term24295.getClass(), "fastTime", 1442639565302L);
-        setField(term24295, term24295.getClass(), "cdate", null);
-        term24297 = newInstance(Class.forName("java.sql.Date"));
-        setLongField(term24297, term24297.getClass(), "fastTime", 1515890130018L);
-        setField(term24297, term24297.getClass(), "cdate", null);
+        term24418 = newInstance(Class.forName("ru.smartup.timetracker.service.ReportService"));
+        setField(term24418, term24418.getClass(), "reportRepository", null);
+        HashMap term24420 = new HashMap();
+        Set<Object> term24439 =  ((Map) term24420).keySet();
+        term24419 = new HashSet((Collection<? extends Object>) term24439);
+        term24435 = newInstance(Class.forName("java.sql.Date"));
+        setLongField(term24435, term24435.getClass(), "fastTime", 1442639565302L);
+        setField(term24435, term24435.getClass(), "cdate", null);
+        term24437 = newInstance(Class.forName("java.sql.Date"));
+        setLongField(term24437, term24437.getClass(), "fastTime", 1515890130018L);
+        setField(term24437, term24437.getClass(), "cdate", null);
     }
 
     @Test
@@ -61,10 +61,10 @@ public class ReportService_getReportHoursForProjects_14490803670 {
         argTypes[1] = Class.forName("java.sql.Date");
         argTypes[2] = Class.forName("java.sql.Date");
         Object[] args = new Object[3];
-        args[0] = term24279;
-        args[1] = term24295;
-        args[2] = term24297;
-        callMethod(klass, "getReportHoursForProjects", argTypes, term24278, args);
+        args[0] = term24419;
+        args[1] = term24435;
+        args[2] = term24437;
+        callMethod(klass, "getReportHoursForProjects", argTypes, term24418, args);
     }
 
 };

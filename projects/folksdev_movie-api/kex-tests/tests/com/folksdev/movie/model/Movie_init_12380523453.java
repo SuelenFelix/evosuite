@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class Movie_init_12380523453 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24683;
-     Object term24685;
+     Object term24682;
+     Object term24684;
 
     public Movie_init_12380523453() {
     }
@@ -33,8 +33,8 @@ public class Movie_init_12380523453 {
 
     @Before
     public void setup() throws Throwable {
-        term24683 = new Integer(0);
-        term24685 = new Integer(0);
+        term24682 = new Integer(0);
+        term24684 = new Integer(0);
     }
 
     @Test
@@ -54,8 +54,8 @@ public class Movie_init_12380523453 {
         args[0] = null;
         args[1] = null;
         args[2] = null;
-        args[3] = term24683;
-        args[4] = term24685;
+        args[3] = term24682;
+        args[4] = term24684;
         args[5] = null;
         args[6] = null;
         args[7] = null;

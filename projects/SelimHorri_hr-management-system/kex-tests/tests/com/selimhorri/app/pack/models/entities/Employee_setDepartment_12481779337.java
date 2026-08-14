@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Employee_setDepartment_12481779337 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10515;
+     Object term10522;
 
     public Employee_setDepartment_12481779337() {
     }
@@ -31,16 +31,16 @@ public class Employee_setDepartment_12481779337 {
 
     @Before
     public void setup() throws Throwable {
-        term10515 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
-        setField(term10515, term10515.getClass(), "empno", null);
-        setField(term10515, term10515.getClass(), "ename", null);
-        setField(term10515, term10515.getClass(), "job", null);
-        setField(term10515, term10515.getClass(), "mgr", null);
-        setField(term10515, term10515.getClass(), "hireDate", null);
-        setField(term10515, term10515.getClass(), "sal", null);
-        setField(term10515, term10515.getClass(), "comm", null);
-        setField(term10515, term10515.getClass(), "department", null);
-        setField(term10515, term10515.getClass(), "userCredential", null);
+        term10522 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
+        setField(term10522, term10522.getClass(), "empno", null);
+        setField(term10522, term10522.getClass(), "ename", null);
+        setField(term10522, term10522.getClass(), "job", null);
+        setField(term10522, term10522.getClass(), "mgr", null);
+        setField(term10522, term10522.getClass(), "hireDate", null);
+        setField(term10522, term10522.getClass(), "sal", null);
+        setField(term10522, term10522.getClass(), "comm", null);
+        setField(term10522, term10522.getClass(), "department", null);
+        setField(term10522, term10522.getClass(), "userCredential", null);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class Employee_setDepartment_12481779337 {
         argTypes[0] = Class.forName("com.selimhorri.app.pack.models.entities.Department");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setDepartment", argTypes, term10515, args);
+        callMethod(klass, "setDepartment", argTypes, term10522, args);
     }
 
 };

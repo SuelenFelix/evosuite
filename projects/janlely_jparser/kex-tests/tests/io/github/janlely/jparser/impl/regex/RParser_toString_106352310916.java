@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class RParser_toString_106352310916 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term15331;
+     Object term25168;
 
     public RParser_toString_106352310916() {
     }
@@ -33,16 +33,16 @@ public class RParser_toString_106352310916 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term15345 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
-        Field term15344 = ((Class) term15345).getDeclaredField((String) "PARSER");
-        ((Field) term15344).setAccessible(true);
-        Object enum50 = ((Field) term15344).get((Object) null);
-        term15331 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
-        setField(term15331, term15331.getClass(), "type", enum50);
-        setIntField(term15331, term15331.getClass(), "quoteId", -1786399638);
-        setIntField(term15331, term15331.getClass(), "groupId", 2055867847);
-        setField(term15331, term15331.getClass(), "parser", null);
-        setField(term15331, term15331.getClass(), "func", null);
+        Class<? extends Object> term25181 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
+        Field term25180 = ((Class) term25181).getDeclaredField((String) "QUOTE");
+        ((Field) term25180).setAccessible(true);
+        Object enum70 = ((Field) term25180).get((Object) null);
+        term25168 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
+        setField(term25168, term25168.getClass(), "type", enum70);
+        setIntField(term25168, term25168.getClass(), "quoteId", 1045547089);
+        setIntField(term25168, term25168.getClass(), "groupId", -1122880881);
+        setField(term25168, term25168.getClass(), "parser", null);
+        setField(term25168, term25168.getClass(), "func", null);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class RParser_toString_106352310916 {
         Class<?> klass = Class.forName("io.github.janlely.jparser.impl.regex.RParser");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term15331, args);
+        callMethod(klass, "toString", argTypes, term25168, args);
     }
 
 };

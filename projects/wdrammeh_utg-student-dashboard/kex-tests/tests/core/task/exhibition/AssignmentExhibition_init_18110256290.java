@@ -382,7 +382,7 @@ public class AssignmentExhibition_init_18110256290 {
         setField(term287, term287.getClass(), "keySet", null);
         setField(term287, term287.getClass(), "values", null);
         setField(term276, term276.getClass(), "moduleToReader", term287);
-        setLongField(term292, term292.getClass(), "timestamp", 163897003L);
+        setLongField(term292, term292.getClass(), "timestamp", 52172802L);
         setField(term292, term292.getClass(), "referent", null);
         setField(term292, term292.getClass(), "queue", null);
         setField(term292, term292.getClass(), "next", null);

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Admin_setId_28651734321 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term20185;
+     Object term32309;
 
     public Admin_setId_28651734321() {
     }
@@ -31,12 +31,12 @@ public class Admin_setId_28651734321 {
 
     @Before
     public void setup() throws Throwable {
-        term20185 = newInstance(Class.forName("com.cg.freelanceapp.entities.Admin"));
-        setField(term20185, term20185.getClass(), "id", null);
-        setField(term20185, term20185.getClass(), "userName", null);
-        setField(term20185, term20185.getClass(), "firstName", null);
-        setField(term20185, term20185.getClass(), "lastName", null);
-        setField(term20185, term20185.getClass(), "password", null);
+        term32309 = newInstance(Class.forName("com.cg.freelanceapp.entities.Admin"));
+        setField(term32309, term32309.getClass(), "id", null);
+        setField(term32309, term32309.getClass(), "userName", null);
+        setField(term32309, term32309.getClass(), "firstName", null);
+        setField(term32309, term32309.getClass(), "lastName", null);
+        setField(term32309, term32309.getClass(), "password", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class Admin_setId_28651734321 {
         argTypes[0] = Class.forName("java.lang.Long");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setId", argTypes, term20185, args);
+        callMethod(klass, "setId", argTypes, term32309, args);
     }
 
 };

@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_hashCode_61660416519 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2790;
+     Object term3164;
 
     public SessionEmployeePrincipal_hashCode_61660416519() {
     }
@@ -37,15 +37,15 @@ public class SessionEmployeePrincipal_hashCode_61660416519 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term2805 = new HashMap();
-        Set<Object> term2830 =  ((Map) term2805).keySet();
-        HashSet term2804 = new HashSet((Collection<? extends Object>) term2830);
-        HashMap term2815 = new HashMap();
-        term2790 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2790, term2790.getClass(), "id", -226514366);
-        setField(term2790, term2790.getClass(), "email", "xOEqzGAmDU");
-        setField(term2790, term2790.getClass(), "employeeRoles", term2804);
-        setField(term2790, term2790.getClass(), "projectIdsByProjectRoles", term2815);
+        HashMap term3179 = new HashMap();
+        Set<Object> term3204 =  ((Map) term3179).keySet();
+        HashSet term3178 = new HashSet((Collection<? extends Object>) term3204);
+        HashMap term3189 = new HashMap();
+        term3164 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3164, term3164.getClass(), "id", -226514366);
+        setField(term3164, term3164.getClass(), "email", "xOEqzGAmDU");
+        setField(term3164, term3164.getClass(), "employeeRoles", term3178);
+        setField(term3164, term3164.getClass(), "projectIdsByProjectRoles", term3189);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class SessionEmployeePrincipal_hashCode_61660416519 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term2790, args);
+        callMethod(klass, "hashCode", argTypes, term3164, args);
     }
 
 };

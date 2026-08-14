@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class RepeatToken_hashCode_21032249368 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term7093;
+     Object term17233;
 
     public RepeatToken_hashCode_21032249368() {
     }
@@ -33,14 +33,14 @@ public class RepeatToken_hashCode_21032249368 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term7104 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RepeatType");
-        Field term7103 = ((Class) term7104).getDeclaredField((String) "MANY");
-        ((Field) term7103).setAccessible(true);
-        Object enum23 = ((Field) term7103).get((Object) null);
-        term7093 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken"));
-        Object term7102 = newInstance(Class.forName("java.lang.Object"));
-        setField(term7093, term7093.getClass(), "type", enum23);
-        setField(term7093, term7093.getClass(), "value", term7102);
+        Class<? extends Object> term17244 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RepeatType");
+        Field term17243 = ((Class) term17244).getDeclaredField((String) "MANY");
+        ((Field) term17243).setAccessible(true);
+        Object enum44 = ((Field) term17243).get((Object) null);
+        term17233 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken"));
+        Object term17242 = newInstance(Class.forName("java.lang.Object"));
+        setField(term17233, term17233.getClass(), "type", enum44);
+        setField(term17233, term17233.getClass(), "value", term17242);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class RepeatToken_hashCode_21032249368 {
         Class<?> klass = Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term7093, args);
+        callMethod(klass, "hashCode", argTypes, term17233, args);
     }
 
 };

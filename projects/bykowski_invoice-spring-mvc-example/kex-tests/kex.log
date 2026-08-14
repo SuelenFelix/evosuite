@@ -1,16 +1,16 @@
-2026-06-28 16:00:14.862 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/bykowski_invoice-spring-mvc-example/target/classes
-2026-06-28 16:00:14.945 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 16:00:15.018 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 16:00:16.095 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 16:00:16.573 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package pl/bykowski/invoicespringmvcexample/*
-2026-06-28 16:00:16.574 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 16:00:16.600 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/bykowski_invoice-spring-mvc-example/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 16:00:16.633 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/bykowski_invoice-spring-mvc-example/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 37887 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/bykowski_invoice-spring-mvc-example/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 16:00:16.647 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 16:01:56.680 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceController::<init>(pl/bykowski/invoicespringmvcexample/InvoiceService): void
-2026-06-28 16:01:56.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceController::<init>(pl/bykowski/invoicespringmvcexample/InvoiceService): void
+2026-08-11 02:31:56.938 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/bykowski_invoice-spring-mvc-example/target/classes
+2026-08-11 02:31:57.022 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 02:31:57.093 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 02:31:58.144 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 02:31:58.706 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package pl/bykowski/invoicespringmvcexample/*
+2026-08-11 02:31:58.707 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 02:31:58.730 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/bykowski_invoice-spring-mvc-example/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 02:31:58.784 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/bykowski_invoice-spring-mvc-example/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 43373 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/bykowski_invoice-spring-mvc-example/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 02:31:58.796 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 02:33:38.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceController::<init>(pl/bykowski/invoicespringmvcexample/InvoiceService): void
+2026-08-11 02:33:38.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceController::<init>(pl/bykowski/invoicespringmvcexample/InvoiceService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -24,9 +24,9 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 16:01:57.143 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325980
-2026-06-28 16:01:57.149 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceController::getAllInvoices(org/springframework/ui/Model): java/lang/String
-2026-06-28 16:01:57.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceController::getAllInvoices(org/springframework/ui/Model): java/lang/String
+2026-08-11 02:33:39.300 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325980
+2026-08-11 02:33:39.306 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceController::getAllInvoices(org/springframework/ui/Model): java/lang/String
+2026-08-11 02:33:39.306 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceController::getAllInvoices(org/springframework/ui/Model): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -44,7 +44,7 @@
 
 %label1: 	//predecessors %label0
 	return "gui"
-2026-06-28 16:01:57.151 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 02:33:39.308 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -71,7 +71,7 @@ java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 16:01:57.151 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 02:33:39.308 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -98,9 +98,9 @@ java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 16:01:57.151 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceController::getAllInvoices(org/springframework/ui/Model): java/lang/String: null
-2026-06-28 16:01:57.152 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String
-2026-06-28 16:01:57.152 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String
+2026-08-11 02:33:39.308 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceController::getAllInvoices(org/springframework/ui/Model): java/lang/String: null
+2026-08-11 02:33:39.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String
+2026-08-11 02:33:39.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -114,7 +114,7 @@ java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb2: 	//predecessors %bb1
 	return "redirect:/"
-2026-06-28 16:01:57.152 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 02:33:39.309 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -149,7 +149,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 16:01:57.153 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 02:33:39.310 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -184,9 +184,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 16:01:57.153 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String: null
-2026-06-28 16:01:57.153 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String
-2026-06-28 16:01:57.153 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String
+2026-08-11 02:33:39.310 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String: null
+2026-08-11 02:33:39.310 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String
+2026-08-11 02:33:39.310 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -200,7 +200,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb2: 	//predecessors %bb1
 	return "redirect:/"
-2026-06-28 16:01:57.153 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 02:33:39.310 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -235,7 +235,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 16:01:57.154 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 02:33:39.311 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -270,15 +270,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 16:01:57.154 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String: null
-2026-06-28 16:01:57.252 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325981
-2026-06-28 16:01:57.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceController::getAllInvoices(org/springframework/ui/Model): java/lang/String processing is finished normally
-2026-06-28 16:01:57.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String processing is finished normally
-2026-06-28 16:01:57.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String processing is finished normally
-2026-06-28 16:01:57.253 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceController::<init>(pl/bykowski/invoicespringmvcexample/InvoiceService): void: null
-2026-06-28 16:01:57.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceController::<init>(pl/bykowski/invoicespringmvcexample/InvoiceService): void processing is finished normally
-2026-06-28 16:01:57.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::<init>(): void
-2026-06-28 16:01:57.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::<init>(): void
+2026-08-11 02:33:39.311 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String: null
+2026-08-11 02:33:39.407 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325981
+2026-08-11 02:33:39.408 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceController::getAllInvoices(org/springframework/ui/Model): java/lang/String processing is finished normally
+2026-08-11 02:33:39.408 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceController::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): java/lang/String processing is finished normally
+2026-08-11 02:33:39.408 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceController::deleteInvoice(java/lang/Long): java/lang/String processing is finished normally
+2026-08-11 02:33:39.408 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceController::<init>(pl/bykowski/invoicespringmvcexample/InvoiceService): void: null
+2026-08-11 02:33:39.408 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceController::<init>(pl/bykowski/invoicespringmvcexample/InvoiceService): void processing is finished normally
+2026-08-11 02:33:39.417 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::<init>(): void
+2026-08-11 02:33:39.417 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -379,9 +379,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %label3: 	//predecessors %bb19
 	return
-2026-06-28 16:01:57.341 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_init_15531079510
-2026-06-28 16:01:57.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::getAllInvoices(): java/util/List
-2026-06-28 16:01:57.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::getAllInvoices(): java/util/List
+2026-08-11 02:33:39.500 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_init_15531079510
+2026-08-11 02:33:39.500 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::getAllInvoices(): java/util/List
+2026-08-11 02:33:39.501 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::getAllInvoices(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -391,9 +391,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 16:01:57.439 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_getAllInvoices_4731643581
-2026-06-28 16:01:57.440 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void
-2026-06-28 16:01:57.440 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void
+2026-08-11 02:33:39.598 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_getAllInvoices_4731643581
+2026-08-11 02:33:39.599 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void
+2026-08-11 02:33:39.599 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -407,9 +407,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %label0: 	//predecessors %bb1
 	return
-2026-06-28 16:01:57.522 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_saveInvoice_7873538082
-2026-06-28 16:01:57.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::deleteInvoice(java/lang/Long): void
-2026-06-28 16:01:57.524 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::deleteInvoice(java/lang/Long): void
+2026-08-11 02:33:39.677 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_saveInvoice_7873538082
+2026-08-11 02:33:39.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::deleteInvoice(java/lang/Long): void
+2026-08-11 02:33:39.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::deleteInvoice(java/lang/Long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -427,9 +427,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %label0: 	//predecessors %bb2
 	return
-2026-06-28 16:01:57.593 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_deleteInvoice_3513312833
-2026-06-28 16:01:57.593 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::updateInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void
-2026-06-28 16:01:57.594 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::updateInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void
+2026-08-11 02:33:39.744 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_deleteInvoice_3513312833
+2026-08-11 02:33:39.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::updateInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void
+2026-08-11 02:33:39.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::updateInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -479,24 +479,24 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %label2: 	//predecessors %bb8
 	return
-2026-06-28 16:01:57.659 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_updateInvoice_18804292124
-2026-06-28 16:01:57.716 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_init_15531079515
-2026-06-28 16:01:57.767 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_getAllInvoices_4731643586
-2026-06-28 16:01:57.828 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_saveInvoice_7873538087
-2026-06-28 16:01:57.874 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_deleteInvoice_3513312838
-2026-06-28 16:01:57.926 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_updateInvoice_18804292129
-2026-06-28 16:01:57.926 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::<init>(): void: null
-2026-06-28 16:01:57.926 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::getAllInvoices(): java/util/List: null
-2026-06-28 16:01:57.927 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void: null
-2026-06-28 16:01:57.927 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::deleteInvoice(java/lang/Long): void: null
-2026-06-28 16:01:57.927 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::updateInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void: null
-2026-06-28 16:01:57.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::<init>(): void processing is finished normally
-2026-06-28 16:01:57.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::getAllInvoices(): java/util/List processing is finished normally
-2026-06-28 16:01:57.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void processing is finished normally
-2026-06-28 16:01:57.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::deleteInvoice(java/lang/Long): void processing is finished normally
-2026-06-28 16:01:57.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::updateInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void processing is finished normally
-2026-06-28 16:01:57.929 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::<init>(): void
-2026-06-28 16:01:57.929 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::<init>(): void
+2026-08-11 02:33:39.808 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_updateInvoice_18804292124
+2026-08-11 02:33:39.862 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_init_15531079515
+2026-08-11 02:33:39.915 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_getAllInvoices_4731643586
+2026-08-11 02:33:39.979 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_saveInvoice_7873538087
+2026-08-11 02:33:40.025 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_deleteInvoice_3513312838
+2026-08-11 02:33:40.072 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_updateInvoice_18804292129
+2026-08-11 02:33:40.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::<init>(): void: null
+2026-08-11 02:33:40.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::getAllInvoices(): java/util/List: null
+2026-08-11 02:33:40.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void: null
+2026-08-11 02:33:40.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::deleteInvoice(java/lang/Long): void: null
+2026-08-11 02:33:40.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::<init>(): void processing is finished normally
+2026-08-11 02:33:40.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::updateInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void: null
+2026-08-11 02:33:40.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::getAllInvoices(): java/util/List processing is finished normally
+2026-08-11 02:33:40.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::saveInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void processing is finished normally
+2026-08-11 02:33:40.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::deleteInvoice(java/lang/Long): void processing is finished normally
+2026-08-11 02:33:40.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceServiceImpl::updateInvoice(pl/bykowski/invoicespringmvcexample/Invoice): void processing is finished normally
+2026-08-11 02:33:40.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::<init>(): void
+2026-08-11 02:33:40.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -506,9 +506,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:01:57.972 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_init_7189142210
-2026-06-28 16:01:57.972 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::main(java/lang/String[]): void
-2026-06-28 16:01:57.972 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::main(java/lang/String[]): void
+2026-08-11 02:33:40.113 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_init_7189142210
+2026-08-11 02:33:40.114 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::main(java/lang/String[]): void
+2026-08-11 02:33:40.114 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -518,15 +518,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-28 16:01:58.036 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772251
-2026-06-28 16:01:58.074 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_init_7189142212
-2026-06-28 16:01:58.115 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772253
-2026-06-28 16:01:58.115 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::<init>(): void: null
-2026-06-28 16:01:58.115 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::main(java/lang/String[]): void: null
-2026-06-28 16:01:58.115 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::<init>(): void processing is finished normally
-2026-06-28 16:01:58.115 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::main(java/lang/String[]): void processing is finished normally
-2026-06-28 16:01:58.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::<init>(): void
-2026-06-28 16:01:58.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::<init>(): void
+2026-08-11 02:33:40.152 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772251
+2026-08-11 02:33:40.206 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_init_7189142212
+2026-08-11 02:33:40.244 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772253
+2026-08-11 02:33:40.245 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::<init>(): void: null
+2026-08-11 02:33:40.245 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::main(java/lang/String[]): void: null
+2026-08-11 02:33:40.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::<init>(): void processing is finished normally
+2026-08-11 02:33:40.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/InvoiceSpringMvcExampleApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-11 02:33:40.249 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::<init>(): void
+2026-08-11 02:33:40.249 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -536,9 +536,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:01:58.161 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_init_15042974360
-2026-06-28 16:01:58.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::getId(): java/lang/Long
-2026-06-28 16:01:58.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::getId(): java/lang/Long
+2026-08-11 02:33:40.287 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_init_15042974360
+2026-08-11 02:33:40.288 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::getId(): java/lang/Long
+2026-08-11 02:33:40.288 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::getId(): java/lang/Long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -548,9 +548,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 16:01:58.204 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getId_5229107531
-2026-06-28 16:01:58.204 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::setId(java/lang/Long): void
-2026-06-28 16:01:58.204 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::setId(java/lang/Long): void
+2026-08-11 02:33:40.328 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getId_5229107531
+2026-08-11 02:33:40.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::setId(java/lang/Long): void
+2026-08-11 02:33:40.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::setId(java/lang/Long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -560,9 +560,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:01:58.245 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setId_9529525112
-2026-06-28 16:01:58.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::getPrice(): java/math/BigDecimal
-2026-06-28 16:01:58.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::getPrice(): java/math/BigDecimal
+2026-08-11 02:33:40.366 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setId_9529525112
+2026-08-11 02:33:40.367 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::getPrice(): java/math/BigDecimal
+2026-08-11 02:33:40.367 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::getPrice(): java/math/BigDecimal
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -572,9 +572,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 16:01:58.284 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getPrice_6531561563
-2026-06-28 16:01:58.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::setPrice(java/math/BigDecimal): void
-2026-06-28 16:01:58.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::setPrice(java/math/BigDecimal): void
+2026-08-11 02:33:40.402 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getPrice_6531561563
+2026-08-11 02:33:40.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::setPrice(java/math/BigDecimal): void
+2026-08-11 02:33:40.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::setPrice(java/math/BigDecimal): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -584,9 +584,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:01:58.323 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setPrice_14207243044
-2026-06-28 16:01:58.324 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::getDate(): java/time/LocalDate
-2026-06-28 16:01:58.324 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::getDate(): java/time/LocalDate
+2026-08-11 02:33:40.441 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setPrice_14207243044
+2026-08-11 02:33:40.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::getDate(): java/time/LocalDate
+2026-08-11 02:33:40.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::getDate(): java/time/LocalDate
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -596,9 +596,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 16:01:58.360 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getDate_2290406025
-2026-06-28 16:01:58.361 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::setDate(java/time/LocalDate): void
-2026-06-28 16:01:58.361 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::setDate(java/time/LocalDate): void
+2026-08-11 02:33:40.478 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getDate_2290406025
+2026-08-11 02:33:40.479 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::setDate(java/time/LocalDate): void
+2026-08-11 02:33:40.479 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::setDate(java/time/LocalDate): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -608,9 +608,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:01:58.422 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setDate_14955773766
-2026-06-28 16:01:58.423 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::getName(): java/lang/String
-2026-06-28 16:01:58.423 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::getName(): java/lang/String
+2026-08-11 02:33:40.526 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setDate_14955773766
+2026-08-11 02:33:40.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::getName(): java/lang/String
+2026-08-11 02:33:40.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::getName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -620,9 +620,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 16:01:58.459 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getName_20905993247
-2026-06-28 16:01:58.460 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::setName(java/lang/String): void
-2026-06-28 16:01:58.460 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::setName(java/lang/String): void
+2026-08-11 02:33:40.563 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getName_20905993247
+2026-08-11 02:33:40.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method pl/bykowski/invoicespringmvcexample/Invoice::setName(java/lang/String): void
+2026-08-11 02:33:40.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - pl/bykowski/invoicespringmvcexample/Invoice::setName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -632,33 +632,33 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:01:58.494 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setName_3707227568
-2026-06-28 16:01:58.535 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_init_15042974369
-2026-06-28 16:01:58.577 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getId_52291075310
-2026-06-28 16:01:58.617 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setId_95295251111
-2026-06-28 16:01:58.656 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getPrice_65315615612
-2026-06-28 16:01:58.712 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setPrice_142072430413
-2026-06-28 16:01:58.760 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getDate_22904060214
-2026-06-28 16:01:58.793 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setDate_149557737615
-2026-06-28 16:01:58.826 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getName_209059932416
-2026-06-28 16:01:58.858 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setName_37072275617
-2026-06-28 16:01:58.859 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::<init>(): void: null
-2026-06-28 16:01:58.859 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::getId(): java/lang/Long: null
-2026-06-28 16:01:58.859 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::setId(java/lang/Long): void: null
-2026-06-28 16:01:58.859 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::getPrice(): java/math/BigDecimal: null
-2026-06-28 16:01:58.859 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::setPrice(java/math/BigDecimal): void: null
-2026-06-28 16:01:58.859 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::getDate(): java/time/LocalDate: null
-2026-06-28 16:01:58.859 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::setDate(java/time/LocalDate): void: null
-2026-06-28 16:01:58.860 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::getName(): java/lang/String: null
-2026-06-28 16:01:58.860 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::setName(java/lang/String): void: null
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::<init>(): void processing is finished normally
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::getId(): java/lang/Long processing is finished normally
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::setId(java/lang/Long): void processing is finished normally
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::getPrice(): java/math/BigDecimal processing is finished normally
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::setPrice(java/math/BigDecimal): void processing is finished normally
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::getDate(): java/time/LocalDate processing is finished normally
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::setDate(java/time/LocalDate): void processing is finished normally
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::getName(): java/lang/String processing is finished normally
-2026-06-28 16:01:58.860 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::setName(java/lang/String): void processing is finished normally
-2026-06-28 16:01:58.861 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 16:01:58.861 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 02:33:40.598 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setName_3707227568
+2026-08-11 02:33:40.634 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_init_15042974369
+2026-08-11 02:33:40.677 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getId_52291075310
+2026-08-11 02:33:40.721 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setId_95295251111
+2026-08-11 02:33:40.765 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getPrice_65315615612
+2026-08-11 02:33:40.826 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setPrice_142072430413
+2026-08-11 02:33:40.875 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getDate_22904060214
+2026-08-11 02:33:40.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setDate_149557737615
+2026-08-11 02:33:40.940 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_getName_209059932416
+2026-08-11 02:33:40.973 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test pl.bykowski.invoicespringmvcexample.Invoice_setName_37072275617
+2026-08-11 02:33:40.973 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::<init>(): void: null
+2026-08-11 02:33:40.973 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::getId(): java/lang/Long: null
+2026-08-11 02:33:40.973 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::setId(java/lang/Long): void: null
+2026-08-11 02:33:40.974 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::getPrice(): java/math/BigDecimal: null
+2026-08-11 02:33:40.974 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::setPrice(java/math/BigDecimal): void: null
+2026-08-11 02:33:40.974 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::getDate(): java/time/LocalDate: null
+2026-08-11 02:33:40.974 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::setDate(java/time/LocalDate): void: null
+2026-08-11 02:33:40.974 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::getName(): java/lang/String: null
+2026-08-11 02:33:40.974 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method pl/bykowski/invoicespringmvcexample/Invoice::setName(java/lang/String): void: null
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::<init>(): void processing is finished normally
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::getId(): java/lang/Long processing is finished normally
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::setId(java/lang/Long): void processing is finished normally
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::getPrice(): java/math/BigDecimal processing is finished normally
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::setPrice(java/math/BigDecimal): void processing is finished normally
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::getDate(): java/time/LocalDate processing is finished normally
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::setDate(java/time/LocalDate): void processing is finished normally
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::getName(): java/lang/String processing is finished normally
+2026-08-11 02:33:40.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method pl/bykowski/invoicespringmvcexample/Invoice::setName(java/lang/String): void processing is finished normally
+2026-08-11 02:33:40.975 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 02:33:40.975 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

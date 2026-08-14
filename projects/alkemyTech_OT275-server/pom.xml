@@ -17,7 +17,7 @@
         <groupId>org.springframework.boot</groupId>
         <version>2.7.0</version>
       </plugin>
-      <!-- <plugin>
+      <plugin>
         <artifactId>git-build-hook-maven-plugin</artifactId>
         <configuration>
           <installHooks>
@@ -33,7 +33,7 @@
         </executions>
         <groupId>com.rudikershaw.gitbuildhook</groupId>
         <version>3.0.0</version>
-      </plugin> -->
+      </plugin>
       <plugin>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <configuration>

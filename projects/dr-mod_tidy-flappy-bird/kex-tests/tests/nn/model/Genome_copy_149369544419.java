@@ -82,7 +82,7 @@ public class Genome_copy_149369544419 {
         setField(term9219, term9219.getClass(), "nodeInnovator", term9244);
         setIntField(term9246, term9246.getClass(), "counter", 100);
         setField(term9219, term9219.getClass(), "connectionInnovator", term9246);
-        setLongField(term9249, term9249.getClass(), "value", 31057382799601L);
+        setLongField(term9249, term9249.getClass(), "value", 107975643022769L);
         setField(term9248, term9248.getClass(), "seed", term9249);
         setDoubleField(term9248, term9248.getClass(), "nextNextGaussian", 0.49591925980210916);
         setBooleanField(term9248, term9248.getClass(), "haveNextNextGaussian", false);

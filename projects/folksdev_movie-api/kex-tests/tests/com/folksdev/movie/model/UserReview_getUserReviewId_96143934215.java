@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class UserReview_getUserReviewId_96143934215 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term27897;
+     Object term27896;
 
     public UserReview_getUserReviewId_96143934215() {
     }
@@ -31,11 +31,11 @@ public class UserReview_getUserReviewId_96143934215 {
 
     @Before
     public void setup() throws Throwable {
-        term27897 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
-        setField(term27897, term27897.getClass(), "userReviewId", null);
-        setField(term27897, term27897.getClass(), "user", null);
-        setField(term27897, term27897.getClass(), "review", null);
-        setField(term27897, term27897.getClass(), "date", null);
+        term27896 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        setField(term27896, term27896.getClass(), "userReviewId", null);
+        setField(term27896, term27896.getClass(), "user", null);
+        setField(term27896, term27896.getClass(), "review", null);
+        setField(term27896, term27896.getClass(), "date", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class UserReview_getUserReviewId_96143934215 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.UserReview");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getUserReviewId", argTypes, term27897, args);
+        callMethod(klass, "getUserReviewId", argTypes, term27896, args);
     }
 
 };

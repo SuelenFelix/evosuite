@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_makeConnectionWeightMutation_87560117226 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10317;
+     Object term10314;
 
     public Genome_makeConnectionWeightMutation_87560117226() {
     }
@@ -31,12 +31,12 @@ public class Genome_makeConnectionWeightMutation_87560117226 {
 
     @Before
     public void setup() throws Throwable {
-        term10317 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10317, term10317.getClass(), "nodes", null);
-        setField(term10317, term10317.getClass(), "connections", null);
-        setField(term10317, term10317.getClass(), "nodeInnovator", null);
-        setField(term10317, term10317.getClass(), "connectionInnovator", null);
-        setField(term10317, term10317.getClass(), "random", null);
+        term10314 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10314, term10314.getClass(), "nodes", null);
+        setField(term10314, term10314.getClass(), "connections", null);
+        setField(term10314, term10314.getClass(), "nodeInnovator", null);
+        setField(term10314, term10314.getClass(), "connectionInnovator", null);
+        setField(term10314, term10314.getClass(), "random", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Genome_makeConnectionWeightMutation_87560117226 {
         Class<?> klass = Class.forName("nn.model.Genome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "makeConnectionWeightMutation", argTypes, term10317, args);
+        callMethod(klass, "makeConnectionWeightMutation", argTypes, term10314, args);
     }
 
 };

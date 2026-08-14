@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class ProjectHandler_renewCount_2958693378 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term8073;
+     Object term8069;
 
     public ProjectHandler_renewCount_2958693378() {
     }
@@ -32,7 +32,7 @@ public class ProjectHandler_renewCount_2958693378 {
 
     @Before
     public void setup() throws Throwable {
-        term8073 = new Integer(-2027534003);
+        term8069 = new Integer(-2027534003);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class ProjectHandler_renewCount_2958693378 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term8073;
+        args[0] = term8069;
         callMethod(klass, "renewCount", argTypes, null, args);
     }
 

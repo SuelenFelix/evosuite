@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class MeetingVO_getSignTime_100331459942 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term13059;
+     Object term53428;
 
     public MeetingVO_getSignTime_100331459942() {
     }
@@ -31,21 +31,21 @@ public class MeetingVO_getSignTime_100331459942 {
 
     @Before
     public void setup() throws Throwable {
-        term13059 = newInstance(Class.forName("com.org.model.vo.MeetingVO"));
-        setField(term13059, term13059.getClass(), "id", null);
-        setField(term13059, term13059.getClass(), "name", null);
-        setField(term13059, term13059.getClass(), "host", null);
-        setField(term13059, term13059.getClass(), "roomName", null);
-        setField(term13059, term13059.getClass(), "online", null);
-        setField(term13059, term13059.getClass(), "createTime", null);
-        setField(term13059, term13059.getClass(), "link", null);
-        setField(term13059, term13059.getClass(), "meetingTime", null);
-        setField(term13059, term13059.getClass(), "signTime", null);
-        setField(term13059, term13059.getClass(), "introduce", null);
-        setField(term13059, term13059.getClass(), "state", null);
-        setField(term13059, term13059.getClass(), "updateTime", null);
-        setField(term13059, term13059.getClass(), "userNumber", null);
-        setField(term13059, term13059.getClass(), "signNumber", null);
+        term53428 = newInstance(Class.forName("com.org.model.vo.MeetingVO"));
+        setField(term53428, term53428.getClass(), "id", null);
+        setField(term53428, term53428.getClass(), "name", null);
+        setField(term53428, term53428.getClass(), "host", null);
+        setField(term53428, term53428.getClass(), "roomName", null);
+        setField(term53428, term53428.getClass(), "online", null);
+        setField(term53428, term53428.getClass(), "createTime", null);
+        setField(term53428, term53428.getClass(), "link", null);
+        setField(term53428, term53428.getClass(), "meetingTime", null);
+        setField(term53428, term53428.getClass(), "signTime", null);
+        setField(term53428, term53428.getClass(), "introduce", null);
+        setField(term53428, term53428.getClass(), "state", null);
+        setField(term53428, term53428.getClass(), "updateTime", null);
+        setField(term53428, term53428.getClass(), "userNumber", null);
+        setField(term53428, term53428.getClass(), "signNumber", null);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class MeetingVO_getSignTime_100331459942 {
         Class<?> klass = Class.forName("com.org.model.vo.MeetingVO");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getSignTime", argTypes, term13059, args);
+        callMethod(klass, "getSignTime", argTypes, term53428, args);
     }
 
 };

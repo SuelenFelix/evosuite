@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeScheduler_scheduledDateEarlierThan_12718462065 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term14385;
+     Object term14570;
 
     public FreezeScheduler_scheduledDateEarlierThan_12718462065() {
     }
@@ -31,10 +31,10 @@ public class FreezeScheduler_scheduledDateEarlierThan_12718462065 {
 
     @Before
     public void setup() throws Throwable {
-        term14385 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term14385, term14385.getClass(), "year", 2010);
-        setShortField(term14385, term14385.getClass(), "month", (short) 5);
-        setShortField(term14385, term14385.getClass(), "day", (short) 2);
+        term14570 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term14570, term14570.getClass(), "year", 2010);
+        setShortField(term14570, term14570.getClass(), "month", (short) 5);
+        setShortField(term14570, term14570.getClass(), "day", (short) 2);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class FreezeScheduler_scheduledDateEarlierThan_12718462065 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.time.LocalDate");
         Object[] args = new Object[1];
-        args[0] = term14385;
+        args[0] = term14570;
         callMethod(klass, "scheduledDateEarlierThan", argTypes, null, args);
     }
 

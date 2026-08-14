@@ -23,7 +23,7 @@ import java.lang.Object;
 
 public class TrackUnitService_getTrackUnitsInfo_212112078617 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3385;
+     Object term3361;
 
     public TrackUnitService_getTrackUnitsInfo_212112078617() {
     }
@@ -34,16 +34,16 @@ public class TrackUnitService_getTrackUnitsInfo_212112078617 {
 
     @Before
     public void setup() throws Throwable {
-        Long term3388 = new Long(6967924379644551255L);
-        Long term3391 = new Long(-2813493605142626659L);
-        Long term3394 = new Long(-8885298608300233488L);
-        Long term3397 = new Long(-4325723315152823407L);
-        term3385 = new LinkedList();
-        ((LinkedList) term3385).add(term3388);
-        ((LinkedList) term3385).add(term3391);
-        ((LinkedList) term3385).add(term3394);
-        ((LinkedList) term3385).add(term3397);
-        ((LinkedList) term3385).add((Object)null);
+        Long term3364 = new Long(6967924379644551255L);
+        Long term3367 = new Long(-2813493605142626659L);
+        Long term3370 = new Long(-8885298608300233488L);
+        Long term3373 = new Long(-4325723315152823407L);
+        term3361 = new LinkedList();
+        ((LinkedList) term3361).add(term3364);
+        ((LinkedList) term3361).add(term3367);
+        ((LinkedList) term3361).add(term3370);
+        ((LinkedList) term3361).add(term3373);
+        ((LinkedList) term3361).add((Object)null);
     }
 
     @Test
@@ -52,7 +52,7 @@ public class TrackUnitService_getTrackUnitsInfo_212112078617 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.util.List");
         Object[] args = new Object[1];
-        args[0] = term3385;
+        args[0] = term3361;
         callMethod(klass, "getTrackUnitsInfo", argTypes, null, args);
     }
 

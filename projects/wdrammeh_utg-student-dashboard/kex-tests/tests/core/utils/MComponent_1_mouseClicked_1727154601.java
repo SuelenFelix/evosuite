@@ -246,7 +246,7 @@ public class MComponent_1_mouseClicked_1727154601 {
         setField(term10463, term10463.getClass(), "keySet", null);
         setField(term10463, term10463.getClass(), "values", null);
         setField(term10452, term10452.getClass(), "moduleToReader", term10463);
-        setLongField(term10468, term10468.getClass(), "timestamp", 164472118L);
+        setLongField(term10468, term10468.getClass(), "timestamp", 52755572L);
         setField(term10468, term10468.getClass(), "referent", null);
         setField(term10468, term10468.getClass(), "queue", null);
         setField(term10468, term10468.getClass(), "next", null);

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class EventHandler_newIncoming_120128817713 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term25354;
+     Object term25342;
 
     public EventHandler_newIncoming_120128817713() {
     }
@@ -31,7 +31,7 @@ public class EventHandler_newIncoming_120128817713 {
 
     @Before
     public void setup() throws Throwable {
-        term25354 = newInstance(Class.forName("core.task.handler.EventHandler"));
+        term25342 = newInstance(Class.forName("core.task.handler.EventHandler"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class EventHandler_newIncoming_120128817713 {
         argTypes[0] = Class.forName("core.task.self.EventSelf");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "newIncoming", argTypes, term25354, args);
+        callMethod(klass, "newIncoming", argTypes, term25342, args);
     }
 
 };

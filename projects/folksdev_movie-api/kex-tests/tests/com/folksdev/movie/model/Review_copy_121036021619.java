@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Review_copy_121036021619 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term29602;
+     Object term29601;
 
     public Review_copy_121036021619() {
     }
@@ -31,10 +31,10 @@ public class Review_copy_121036021619 {
 
     @Before
     public void setup() throws Throwable {
-        term29602 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
-        setField(term29602, term29602.getClass(), "id", null);
-        setField(term29602, term29602.getClass(), "review", null);
-        setField(term29602, term29602.getClass(), "userReviews", null);
+        term29601 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
+        setField(term29601, term29601.getClass(), "id", null);
+        setField(term29601, term29601.getClass(), "review", null);
+        setField(term29601, term29601.getClass(), "userReviews", null);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class Review_copy_121036021619 {
         args[0] = null;
         args[1] = null;
         args[2] = null;
-        callMethod(klass, "copy", argTypes, term29602, args);
+        callMethod(klass, "copy", argTypes, term29601, args);
     }
 
 };

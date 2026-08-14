@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AssignmentHandler_receiveFromSerials_168655218523 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34188;
+     Object term34172;
 
     public AssignmentHandler_receiveFromSerials_168655218523() {
     }
@@ -31,7 +31,7 @@ public class AssignmentHandler_receiveFromSerials_168655218523 {
 
     @Before
     public void setup() throws Throwable {
-        term34188 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
+        term34172 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class AssignmentHandler_receiveFromSerials_168655218523 {
         argTypes[0] = Class.forName("core.task.self.AssignmentSelf");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "receiveFromSerials", argTypes, term34188, args);
+        callMethod(klass, "receiveFromSerials", argTypes, term34172, args);
     }
 
 };

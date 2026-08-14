@@ -1,16 +1,16 @@
-2026-06-29 00:54:52.049 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/aws-samples_amazon-appflow-custom-jdbc-connector/target/classes
-2026-06-29 00:54:52.138 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 00:54:52.208 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 00:54:53.026 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 00:54:53.530 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package org/custom/connector/jdbc/validation/*
-2026-06-29 00:54:53.532 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 00:54:53.572 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/aws-samples_amazon-appflow-custom-jdbc-connector/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 00:54:53.604 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/aws-samples_amazon-appflow-custom-jdbc-connector/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33079 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/aws-samples_amazon-appflow-custom-jdbc-connector/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 00:54:53.619 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 00:56:33.658 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void
-2026-06-29 00:56:33.658 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void
+2026-08-11 22:29:58.816 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_amazon-appflow-custom-jdbc-connector/target/classes
+2026-08-11 22:29:58.910 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 22:29:58.977 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 22:29:59.956 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 22:30:00.443 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package org/custom/connector/jdbc/validation/*
+2026-08-11 22:30:00.444 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 22:30:00.463 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_amazon-appflow-custom-jdbc-connector/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 22:30:00.493 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_amazon-appflow-custom-jdbc-connector/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 37361 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_amazon-appflow-custom-jdbc-connector/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 22:30:00.505 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 22:31:40.543 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void
+2026-08-11 22:31:40.543 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,7 +20,7 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 00:56:33.663 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.548 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -56,7 +56,7 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connec
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 00:56:33.663 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.548 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -92,9 +92,9 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connec
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 00:56:33.663 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void: null
-2026-06-29 00:56:33.663 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateRetrieveDataRequest(com/amazonaws/appflow/custom/connector/model/retreive/RetrieveDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
-2026-06-29 00:56:33.664 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateRetrieveDataRequest(com/amazonaws/appflow/custom/connector/model/retreive/RetrieveDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
+2026-08-11 22:31:40.548 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void: null
+2026-08-11 22:31:40.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateRetrieveDataRequest(com/amazonaws/appflow/custom/connector/model/retreive/RetrieveDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
+2026-08-11 22:31:40.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateRetrieveDataRequest(com/amazonaws/appflow/custom/connector/model/retreive/RetrieveDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -148,7 +148,7 @@ Caused by: java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connec
 	%retval1 = phi {%if.else0 -> null; %bb6 -> %20}
 	%retval.casted1 = (com/amazonaws/appflow/custom/connector/model/ErrorDetails) %retval1
 	return %retval.casted1
-2026-06-29 00:56:33.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.549 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.retreive.RetrieveDataRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -175,7 +175,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.r
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.550 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.retreive.RetrieveDataRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -202,9 +202,9 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.r
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateRetrieveDataRequest(com/amazonaws/appflow/custom/connector/model/retreive/RetrieveDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails: null
-2026-06-29 00:56:33.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateWriteDataRequest(com/amazonaws/appflow/custom/connector/model/write/WriteDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
-2026-06-29 00:56:33.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateWriteDataRequest(com/amazonaws/appflow/custom/connector/model/write/WriteDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
+2026-08-11 22:31:40.550 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateRetrieveDataRequest(com/amazonaws/appflow/custom/connector/model/retreive/RetrieveDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails: null
+2026-08-11 22:31:40.550 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateWriteDataRequest(com/amazonaws/appflow/custom/connector/model/write/WriteDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
+2026-08-11 22:31:40.550 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateWriteDataRequest(com/amazonaws/appflow/custom/connector/model/write/WriteDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -263,7 +263,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.r
 	%retval1 = phi {%if.else0 -> null; %bb7 -> %23}
 	%retval.casted1 = (com/amazonaws/appflow/custom/connector/model/ErrorDetails) %retval1
 	return %retval.casted1
-2026-06-29 00:56:33.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.550 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.write.WriteDataRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -290,7 +290,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.w
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.551 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.write.WriteDataRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -317,9 +317,9 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.w
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateWriteDataRequest(com/amazonaws/appflow/custom/connector/model/write/WriteDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails: null
-2026-06-29 00:56:33.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateQueryDataRequest(com/amazonaws/appflow/custom/connector/model/query/QueryDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
-2026-06-29 00:56:33.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateQueryDataRequest(com/amazonaws/appflow/custom/connector/model/query/QueryDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
+2026-08-11 22:31:40.551 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateWriteDataRequest(com/amazonaws/appflow/custom/connector/model/write/WriteDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails: null
+2026-08-11 22:31:40.551 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateQueryDataRequest(com/amazonaws/appflow/custom/connector/model/query/QueryDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
+2026-08-11 22:31:40.551 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateQueryDataRequest(com/amazonaws/appflow/custom/connector/model/query/QueryDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -373,7 +373,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.w
 	%retval1 = phi {%if.else0 -> null; %bb6 -> %20}
 	%retval.casted1 = (com/amazonaws/appflow/custom/connector/model/ErrorDetails) %retval1
 	return %retval.casted1
-2026-06-29 00:56:33.666 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.551 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.query.QueryDataRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -400,7 +400,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.q
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.666 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.query.QueryDataRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -427,9 +427,9 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.q
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.666 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateQueryDataRequest(com/amazonaws/appflow/custom/connector/model/query/QueryDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails: null
-2026-06-29 00:56:33.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateConnectorContext(com/amazonaws/appflow/custom/connector/model/ConnectorContext): java/util/List
-2026-06-29 00:56:33.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateConnectorContext(com/amazonaws/appflow/custom/connector/model/ConnectorContext): java/util/List
+2026-08-11 22:31:40.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateQueryDataRequest(com/amazonaws/appflow/custom/connector/model/query/QueryDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails: null
+2026-08-11 22:31:40.552 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateConnectorContext(com/amazonaws/appflow/custom/connector/model/ConnectorContext): java/util/List
+2026-08-11 22:31:40.552 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateConnectorContext(com/amazonaws/appflow/custom/connector/model/ConnectorContext): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -448,7 +448,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.q
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 00:56:33.666 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.ConnectorContext
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -475,7 +475,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.C
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.667 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.ConnectorContext
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -502,9 +502,9 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.C
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.667 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateConnectorContext(com/amazonaws/appflow/custom/connector/model/ConnectorContext): java/util/List: null
-2026-06-29 00:56:33.667 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateCredentialsInput(com/amazonaws/appflow/custom/connector/model/credentials/Credentials): java/util/List
-2026-06-29 00:56:33.667 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateCredentialsInput(com/amazonaws/appflow/custom/connector/model/credentials/Credentials): java/util/List
+2026-08-11 22:31:40.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateConnectorContext(com/amazonaws/appflow/custom/connector/model/ConnectorContext): java/util/List: null
+2026-08-11 22:31:40.553 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateCredentialsInput(com/amazonaws/appflow/custom/connector/model/credentials/Credentials): java/util/List
+2026-08-11 22:31:40.553 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/custom/connector/jdbc/validation/JDBCRequestValidator::validateCredentialsInput(com/amazonaws/appflow/custom/connector/model/credentials/Credentials): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -534,7 +534,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.C
 
 %if.then0: 	//predecessors %bb2, %bb3
 	return %10
-2026-06-29 00:56:33.667 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.553 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.credentials.Credentials
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -561,7 +561,7 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.c
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.668 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 22:31:40.553 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.credentials.Credentials
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -588,12 +588,12 @@ java.lang.ClassNotFoundException: com.amazonaws.appflow.custom.connector.model.c
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 00:56:33.668 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateCredentialsInput(com/amazonaws/appflow/custom/connector/model/credentials/Credentials): java/util/List: null
-2026-06-29 00:56:33.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void processing is finished normally
-2026-06-29 00:56:33.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateRetrieveDataRequest(com/amazonaws/appflow/custom/connector/model/retreive/RetrieveDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails processing is finished normally
-2026-06-29 00:56:33.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateWriteDataRequest(com/amazonaws/appflow/custom/connector/model/write/WriteDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails processing is finished normally
-2026-06-29 00:56:33.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateQueryDataRequest(com/amazonaws/appflow/custom/connector/model/query/QueryDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails processing is finished normally
-2026-06-29 00:56:33.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateConnectorContext(com/amazonaws/appflow/custom/connector/model/ConnectorContext): java/util/List processing is finished normally
-2026-06-29 00:56:33.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateCredentialsInput(com/amazonaws/appflow/custom/connector/model/credentials/Credentials): java/util/List processing is finished normally
-2026-06-29 00:56:33.669 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 00:56:33.669 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 22:31:40.553 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateCredentialsInput(com/amazonaws/appflow/custom/connector/model/credentials/Credentials): java/util/List: null
+2026-08-11 22:31:40.554 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::<init>(): void processing is finished normally
+2026-08-11 22:31:40.554 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateRetrieveDataRequest(com/amazonaws/appflow/custom/connector/model/retreive/RetrieveDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails processing is finished normally
+2026-08-11 22:31:40.554 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateWriteDataRequest(com/amazonaws/appflow/custom/connector/model/write/WriteDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails processing is finished normally
+2026-08-11 22:31:40.554 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateQueryDataRequest(com/amazonaws/appflow/custom/connector/model/query/QueryDataRequest): com/amazonaws/appflow/custom/connector/model/ErrorDetails processing is finished normally
+2026-08-11 22:31:40.554 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateConnectorContext(com/amazonaws/appflow/custom/connector/model/ConnectorContext): java/util/List processing is finished normally
+2026-08-11 22:31:40.554 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/custom/connector/jdbc/validation/JDBCRequestValidator::validateCredentialsInput(com/amazonaws/appflow/custom/connector/model/credentials/Credentials): java/util/List processing is finished normally
+2026-08-11 22:31:40.555 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 22:31:40.555 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

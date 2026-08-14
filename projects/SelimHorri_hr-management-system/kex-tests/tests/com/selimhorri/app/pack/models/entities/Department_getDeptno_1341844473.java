@@ -40,8 +40,8 @@ public class Department_getDeptno_1341844473 {
     public void setup() throws Throwable {
         Integer term5110 = new Integer(213831054);
         HashMap term5137 = new HashMap();
-        Set<Object> term5173 =  ((Map) term5137).keySet();
-        HashSet term5136 = new HashSet((Collection<? extends Object>) term5173);
+        Set<Object> term5175 =  ((Map) term5137).keySet();
+        HashSet term5136 = new HashSet((Collection<? extends Object>) term5175);
         term5109 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
         setField(term5109, term5109.getClass(), "deptno", term5110);
         setField(term5109, term5109.getClass(), "dname", "ZKVeStsSNT");

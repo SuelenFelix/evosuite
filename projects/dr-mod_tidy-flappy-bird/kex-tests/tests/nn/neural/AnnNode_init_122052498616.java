@@ -22,8 +22,8 @@ import java.lang.Double;
 
 public class AnnNode_init_122052498616 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term3128;
      Object term3130;
-     Object term3132;
 
     public AnnNode_init_122052498616() {
     }
@@ -34,8 +34,8 @@ public class AnnNode_init_122052498616 {
 
     @Before
     public void setup() throws Throwable {
-        term3130 = new Integer(0);
-        term3132 = new Double(0.0);
+        term3128 = new Integer(0);
+        term3130 = new Double(0.0);
     }
 
     @Test
@@ -47,8 +47,8 @@ public class AnnNode_init_122052498616 {
         argTypes[2] = double.class;
         Object[] args = new Object[3];
         args[0] = null;
-        args[1] = term3130;
-        args[2] = term3132;
+        args[1] = term3128;
+        args[2] = term3130;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class RepeatToken_getValue_104312506710 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term7637;
+     Object term17777;
 
     public RepeatToken_getValue_104312506710() {
     }
@@ -31,9 +31,9 @@ public class RepeatToken_getValue_104312506710 {
 
     @Before
     public void setup() throws Throwable {
-        term7637 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken"));
-        setField(term7637, term7637.getClass(), "type", null);
-        setField(term7637, term7637.getClass(), "value", null);
+        term17777 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken"));
+        setField(term17777, term17777.getClass(), "type", null);
+        setField(term17777, term17777.getClass(), "value", null);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class RepeatToken_getValue_104312506710 {
         Class<?> klass = Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getValue", argTypes, term7637, args);
+        callMethod(klass, "getValue", argTypes, term17777, args);
     }
 
 };

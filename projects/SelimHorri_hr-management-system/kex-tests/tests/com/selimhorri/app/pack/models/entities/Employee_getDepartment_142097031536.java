@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Employee_getDepartment_142097031536 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10514;
+     Object term10521;
 
     public Employee_getDepartment_142097031536() {
     }
@@ -31,16 +31,16 @@ public class Employee_getDepartment_142097031536 {
 
     @Before
     public void setup() throws Throwable {
-        term10514 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
-        setField(term10514, term10514.getClass(), "empno", null);
-        setField(term10514, term10514.getClass(), "ename", null);
-        setField(term10514, term10514.getClass(), "job", null);
-        setField(term10514, term10514.getClass(), "mgr", null);
-        setField(term10514, term10514.getClass(), "hireDate", null);
-        setField(term10514, term10514.getClass(), "sal", null);
-        setField(term10514, term10514.getClass(), "comm", null);
-        setField(term10514, term10514.getClass(), "department", null);
-        setField(term10514, term10514.getClass(), "userCredential", null);
+        term10521 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
+        setField(term10521, term10521.getClass(), "empno", null);
+        setField(term10521, term10521.getClass(), "ename", null);
+        setField(term10521, term10521.getClass(), "job", null);
+        setField(term10521, term10521.getClass(), "mgr", null);
+        setField(term10521, term10521.getClass(), "hireDate", null);
+        setField(term10521, term10521.getClass(), "sal", null);
+        setField(term10521, term10521.getClass(), "comm", null);
+        setField(term10521, term10521.getClass(), "department", null);
+        setField(term10521, term10521.getClass(), "userCredential", null);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class Employee_getDepartment_142097031536 {
         Class<?> klass = Class.forName("com.selimhorri.app.pack.models.entities.Employee");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getDepartment", argTypes, term10514, args);
+        callMethod(klass, "getDepartment", argTypes, term10521, args);
     }
 
 };

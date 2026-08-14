@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class AnnType_init_2201578725 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1039;
+     Object term1037;
 
     public AnnType_init_2201578725() {
     }
@@ -32,7 +32,7 @@ public class AnnType_init_2201578725 {
 
     @Before
     public void setup() throws Throwable {
-        term1039 = new Integer(0);
+        term1037 = new Integer(0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class AnnType_init_2201578725 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term1039;
+        args[1] = term1037;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

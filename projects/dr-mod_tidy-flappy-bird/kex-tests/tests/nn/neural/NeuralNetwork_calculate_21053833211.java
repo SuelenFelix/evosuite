@@ -27,7 +27,7 @@ import java.util.HashSet;
 public class NeuralNetwork_calculate_21053833211 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
      Object term699;
-     Object term743;
+     Object term741;
 
     public NeuralNetwork_calculate_21053833211() {
     }
@@ -39,27 +39,27 @@ public class NeuralNetwork_calculate_21053833211 {
     @Before
     public void setup() throws Throwable {
         HashMap term701 = new HashMap();
-        Set<Object> term752 =  ((Map) term701).keySet();
-        HashSet term700 = new HashSet((Collection<? extends Object>) term752);
-        HashMap term716 = new HashMap();
-        Set<Object> term753 =  ((Map) term716).keySet();
-        HashSet term715 = new HashSet((Collection<? extends Object>) term753);
-        HashMap term729 = new HashMap();
-        Set<Object> term754 =  ((Map) term729).keySet();
-        HashSet term728 = new HashSet((Collection<? extends Object>) term754);
+        Set<Object> term750 =  ((Map) term701).keySet();
+        HashSet term700 = new HashSet((Collection<? extends Object>) term750);
+        HashMap term714 = new HashMap();
+        Set<Object> term751 =  ((Map) term714).keySet();
+        HashSet term713 = new HashSet((Collection<? extends Object>) term751);
+        HashMap term727 = new HashMap();
+        Set<Object> term752 =  ((Map) term727).keySet();
+        HashSet term726 = new HashSet((Collection<? extends Object>) term752);
         term699 = newInstance(Class.forName("nn.neural.NeuralNetwork"));
         setField(term699, term699.getClass(), "inputNodes", term700);
-        setField(term699, term699.getClass(), "outputNodes", term715);
-        setField(term699, term699.getClass(), "hiddenNodes", term728);
-        term743 = (double[]) newDoubleArray(8);
-        setDoubleElement(term743, 0, 0.3587267442738795);
-        setDoubleElement(term743, 1, 0.07802449704920456);
-        setDoubleElement(term743, 2, 0.5279279537140873);
-        setDoubleElement(term743, 3, 0.3202192021706908);
-        setDoubleElement(term743, 4, 0.22651340641904605);
-        setDoubleElement(term743, 5, 0.8878841294187743);
-        setDoubleElement(term743, 6, 0.6588948704887806);
-        setDoubleElement(term743, 7, 0.6397214730945112);
+        setField(term699, term699.getClass(), "outputNodes", term713);
+        setField(term699, term699.getClass(), "hiddenNodes", term726);
+        term741 = (double[]) newDoubleArray(8);
+        setDoubleElement(term741, 0, 0.3587267442738795);
+        setDoubleElement(term741, 1, 0.07802449704920456);
+        setDoubleElement(term741, 2, 0.5279279537140873);
+        setDoubleElement(term741, 3, 0.3202192021706908);
+        setDoubleElement(term741, 4, 0.22651340641904605);
+        setDoubleElement(term741, 5, 0.8878841294187743);
+        setDoubleElement(term741, 6, 0.6588948704887806);
+        setDoubleElement(term741, 7, 0.6397214730945112);
     }
 
     @Test
@@ -68,7 +68,7 @@ public class NeuralNetwork_calculate_21053833211 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Array.newInstance(double.class, 0).getClass();
         Object[] args = new Object[1];
-        args[0] = term743;
+        args[0] = term741;
         callMethod(klass, "calculate", argTypes, term699, args);
     }
 

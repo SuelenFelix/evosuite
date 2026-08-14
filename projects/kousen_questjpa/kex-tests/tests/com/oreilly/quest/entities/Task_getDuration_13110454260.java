@@ -61,12 +61,12 @@ public class Task_getDuration_13110454260 {
         setField(term5335, term5335.getClass(), "name", "HqBOwkVqjD");
         setIntField(term5335, term5335.getClass(), "priority", 3);
         setIntField(term5351, term5351.getClass(), "year", 2026);
-        setShortField(term5351, term5351.getClass(), "month", (short) 6);
-        setShortField(term5351, term5351.getClass(), "day", (short) 29);
+        setShortField(term5351, term5351.getClass(), "month", (short) 8);
+        setShortField(term5351, term5351.getClass(), "day", (short) 12);
         setField(term5335, term5335.getClass(), "startDate", term5351);
         setIntField(term5355, term5355.getClass(), "year", 2026);
-        setShortField(term5355, term5355.getClass(), "month", (short) 6);
-        setShortField(term5355, term5355.getClass(), "day", (short) 29);
+        setShortField(term5355, term5355.getClass(), "month", (short) 8);
+        setShortField(term5355, term5355.getClass(), "day", (short) 12);
         setField(term5335, term5335.getClass(), "endDate", term5355);
         setBooleanField(term5335, term5335.getClass(), "completed", false);
         setField(term5360, term5360.getClass(), "id", term5361);

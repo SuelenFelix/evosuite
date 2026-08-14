@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class AssignmentHandler_renewCount_12155045721 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34184;
-     Object term34185;
+     Object term34168;
+     Object term34169;
 
     public AssignmentHandler_renewCount_12155045721() {
     }
@@ -33,8 +33,8 @@ public class AssignmentHandler_renewCount_12155045721 {
 
     @Before
     public void setup() throws Throwable {
-        term34184 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
-        term34185 = new Integer(0);
+        term34168 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
+        term34169 = new Integer(0);
     }
 
     @Test
@@ -43,8 +43,8 @@ public class AssignmentHandler_renewCount_12155045721 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term34185;
-        callMethod(klass, "renewCount", argTypes, term34184, args);
+        args[0] = term34169;
+        callMethod(klass, "renewCount", argTypes, term34168, args);
     }
 
 };

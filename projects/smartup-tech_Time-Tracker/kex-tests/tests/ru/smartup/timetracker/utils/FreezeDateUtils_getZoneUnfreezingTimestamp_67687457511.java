@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeDateUtils_getZoneUnfreezingTimestamp_67687457511 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3541;
+     Object term3945;
 
     public FreezeDateUtils_getZoneUnfreezingTimestamp_67687457511() {
     }
@@ -31,8 +31,8 @@ public class FreezeDateUtils_getZoneUnfreezingTimestamp_67687457511 {
 
     @Before
     public void setup() throws Throwable {
-        term3541 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
-        setField(term3541, term3541.getClass(), "freezeProperties", null);
+        term3945 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
+        setField(term3945, term3945.getClass(), "freezeProperties", null);
     }
 
     @Test
@@ -40,7 +40,7 @@ public class FreezeDateUtils_getZoneUnfreezingTimestamp_67687457511 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getZoneUnfreezingTimestamp", argTypes, term3541, args);
+        callMethod(klass, "getZoneUnfreezingTimestamp", argTypes, term3945, args);
     }
 
 };

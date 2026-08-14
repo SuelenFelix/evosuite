@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class Node_init_22572848315 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term18777;
+     Object term18793;
 
     public Node_init_22572848315() {
     }
@@ -32,7 +32,7 @@ public class Node_init_22572848315 {
 
     @Before
     public void setup() throws Throwable {
-        term18777 = new Integer(0);
+        term18793 = new Integer(0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class Node_init_22572848315 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term18777;
+        args[1] = term18793;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

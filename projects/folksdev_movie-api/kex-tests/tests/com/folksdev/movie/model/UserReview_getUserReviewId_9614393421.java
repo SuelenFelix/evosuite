@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class UserReview_getUserReviewId_9614393421 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term25772;
+     Object term25771;
 
     public UserReview_getUserReviewId_9614393421() {
     }
@@ -33,43 +33,43 @@ public class UserReview_getUserReviewId_9614393421 {
 
     @Before
     public void setup() throws Throwable {
-        Object term25825 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
-        setField(term25825, term25825.getClass(), "userReviewId", null);
-        setField(term25825, term25825.getClass(), "user", null);
-        setField(term25825, term25825.getClass(), "review", null);
-        setField(term25825, term25825.getClass(), "date", null);
-        ArrayList term25823 = new ArrayList();
-        ((ArrayList) term25823).add(term25825);
-        ArrayList term25853 = new ArrayList();
-        ((ArrayList) term25853).add(term25825);
-        term25772 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
-        Object term25773 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
-        Object term25798 = newInstance(Class.forName("com.folksdev.movie.model.User"));
-        Object term25828 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
-        Object term25857 = newInstance(Class.forName("java.time.LocalDateTime"));
-        Object term25858 = newInstance(Class.forName("java.time.LocalDate"));
-        Object term25862 = newInstance(Class.forName("java.time.LocalTime"));
-        setField(term25773, term25773.getClass(), "userId", "jAxYagPvcV");
-        setField(term25773, term25773.getClass(), "reviewId", "ZXLgGUqgyW");
-        setField(term25772, term25772.getClass(), "userReviewId", term25773);
-        setField(term25798, term25798.getClass(), "id", "PdeSzTcBgY");
-        setField(term25798, term25798.getClass(), "name", "PmSvMYNoIS");
-        setField(term25798, term25798.getClass(), "userReviews", term25823);
-        setField(term25772, term25772.getClass(), "user", term25798);
-        setField(term25828, term25828.getClass(), "id", "iGWkLjLGBY");
-        setField(term25828, term25828.getClass(), "review", "jUkXaNkoAg");
-        setField(term25828, term25828.getClass(), "userReviews", term25853);
-        setField(term25772, term25772.getClass(), "review", term25828);
-        setIntField(term25858, term25858.getClass(), "year", 2027);
-        setShortField(term25858, term25858.getClass(), "month", (short) 2);
-        setShortField(term25858, term25858.getClass(), "day", (short) 19);
-        setField(term25857, term25857.getClass(), "date", term25858);
-        setByteField(term25862, term25862.getClass(), "hour", (byte) 17);
-        setByteField(term25862, term25862.getClass(), "minute", (byte) 37);
-        setByteField(term25862, term25862.getClass(), "second", (byte) 27);
-        setIntField(term25862, term25862.getClass(), "nano", 920380537);
-        setField(term25857, term25857.getClass(), "time", term25862);
-        setField(term25772, term25772.getClass(), "date", term25857);
+        Object term25824 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        setField(term25824, term25824.getClass(), "userReviewId", null);
+        setField(term25824, term25824.getClass(), "user", null);
+        setField(term25824, term25824.getClass(), "review", null);
+        setField(term25824, term25824.getClass(), "date", null);
+        ArrayList term25822 = new ArrayList();
+        ((ArrayList) term25822).add(term25824);
+        ArrayList term25852 = new ArrayList();
+        ((ArrayList) term25852).add(term25824);
+        term25771 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        Object term25772 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        Object term25797 = newInstance(Class.forName("com.folksdev.movie.model.User"));
+        Object term25827 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
+        Object term25856 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term25857 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term25861 = newInstance(Class.forName("java.time.LocalTime"));
+        setField(term25772, term25772.getClass(), "userId", "jAxYagPvcV");
+        setField(term25772, term25772.getClass(), "reviewId", "ZXLgGUqgyW");
+        setField(term25771, term25771.getClass(), "userReviewId", term25772);
+        setField(term25797, term25797.getClass(), "id", "PdeSzTcBgY");
+        setField(term25797, term25797.getClass(), "name", "PmSvMYNoIS");
+        setField(term25797, term25797.getClass(), "userReviews", term25822);
+        setField(term25771, term25771.getClass(), "user", term25797);
+        setField(term25827, term25827.getClass(), "id", "iGWkLjLGBY");
+        setField(term25827, term25827.getClass(), "review", "jUkXaNkoAg");
+        setField(term25827, term25827.getClass(), "userReviews", term25852);
+        setField(term25771, term25771.getClass(), "review", term25827);
+        setIntField(term25857, term25857.getClass(), "year", 2027);
+        setShortField(term25857, term25857.getClass(), "month", (short) 2);
+        setShortField(term25857, term25857.getClass(), "day", (short) 19);
+        setField(term25856, term25856.getClass(), "date", term25857);
+        setByteField(term25861, term25861.getClass(), "hour", (byte) 17);
+        setByteField(term25861, term25861.getClass(), "minute", (byte) 37);
+        setByteField(term25861, term25861.getClass(), "second", (byte) 27);
+        setIntField(term25861, term25861.getClass(), "nano", 920380537);
+        setField(term25856, term25856.getClass(), "time", term25861);
+        setField(term25771, term25771.getClass(), "date", term25856);
     }
 
     @Test
@@ -77,7 +77,7 @@ public class UserReview_getUserReviewId_9614393421 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.UserReview");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getUserReviewId", argTypes, term25772, args);
+        callMethod(klass, "getUserReviewId", argTypes, term25771, args);
     }
 
 };

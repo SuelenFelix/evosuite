@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TodoHandler_receiveFromSerials_18397884121 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term16987;
+     Object term16979;
 
     public TodoHandler_receiveFromSerials_18397884121() {
     }
@@ -31,7 +31,7 @@ public class TodoHandler_receiveFromSerials_18397884121 {
 
     @Before
     public void setup() throws Throwable {
-        term16987 = newInstance(Class.forName("core.task.handler.TodoHandler"));
+        term16979 = newInstance(Class.forName("core.task.handler.TodoHandler"));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TodoHandler_receiveFromSerials_18397884121 {
         argTypes[0] = Class.forName("core.task.self.TodoSelf");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "receiveFromSerials", argTypes, term16987, args);
+        callMethod(klass, "receiveFromSerials", argTypes, term16979, args);
     }
 
 };

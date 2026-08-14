@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TaskActivity_1_show_5428939333 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term92718;
+     Object term92732;
 
     public TaskActivity_1_show_5428939333() {
     }
@@ -31,13 +31,13 @@ public class TaskActivity_1_show_5428939333 {
 
     @Before
     public void setup() throws Throwable {
-        term92718 = newInstance(Class.forName("core.task.TaskActivity$1"));
-        setField(term92718, term92718.getClass(), "val$returnButton", null);
-        setField(term92718, term92718.getClass(), "this$0", null);
-        setField(term92718, term92718.getClass(), "vector", null);
-        setIntField(term92718, term92718.getClass(), "currentCard", 0);
-        setIntField(term92718, term92718.getClass(), "hgap", 0);
-        setIntField(term92718, term92718.getClass(), "vgap", 0);
+        term92732 = newInstance(Class.forName("core.task.TaskActivity$1"));
+        setField(term92732, term92732.getClass(), "val$returnButton", null);
+        setField(term92732, term92732.getClass(), "this$0", null);
+        setField(term92732, term92732.getClass(), "vector", null);
+        setIntField(term92732, term92732.getClass(), "currentCard", 0);
+        setIntField(term92732, term92732.getClass(), "hgap", 0);
+        setIntField(term92732, term92732.getClass(), "vgap", 0);
     }
 
     @Test
@@ -49,7 +49,7 @@ public class TaskActivity_1_show_5428939333 {
         Object[] args = new Object[2];
         args[0] = null;
         args[1] = null;
-        callMethod(klass, "show", argTypes, term92718, args);
+        callMethod(klass, "show", argTypes, term92732, args);
     }
 
 };

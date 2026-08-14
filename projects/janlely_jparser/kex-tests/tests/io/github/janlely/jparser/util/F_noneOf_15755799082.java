@@ -32,7 +32,7 @@ public class F_noneOf_15755799082 {
 
     @Before
     public void setup() throws Throwable {
-        term382 = (Object[]) newArray("java.util.function.Predicate", 1);
+        term382 = (Object[]) newArray("java.util.function.Predicate", 10);
     }
 
     @Test

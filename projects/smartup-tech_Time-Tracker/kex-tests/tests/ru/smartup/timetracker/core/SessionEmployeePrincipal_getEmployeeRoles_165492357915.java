@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_getEmployeeRoles_165492357915 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2627;
+     Object term3001;
 
     public SessionEmployeePrincipal_getEmployeeRoles_165492357915() {
     }
@@ -37,15 +37,15 @@ public class SessionEmployeePrincipal_getEmployeeRoles_165492357915 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term2642 = new HashMap();
-        Set<Object> term2662 =  ((Map) term2642).keySet();
-        HashSet term2641 = new HashSet((Collection<? extends Object>) term2662);
-        HashMap term2647 = new HashMap();
-        term2627 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2627, term2627.getClass(), "id", -244121226);
-        setField(term2627, term2627.getClass(), "email", "HyxfbSQYBe");
-        setField(term2627, term2627.getClass(), "employeeRoles", term2641);
-        setField(term2627, term2627.getClass(), "projectIdsByProjectRoles", term2647);
+        HashMap term3016 = new HashMap();
+        Set<Object> term3036 =  ((Map) term3016).keySet();
+        HashSet term3015 = new HashSet((Collection<? extends Object>) term3036);
+        HashMap term3021 = new HashMap();
+        term3001 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3001, term3001.getClass(), "id", -244121226);
+        setField(term3001, term3001.getClass(), "email", "HyxfbSQYBe");
+        setField(term3001, term3001.getClass(), "employeeRoles", term3015);
+        setField(term3001, term3001.getClass(), "projectIdsByProjectRoles", term3021);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class SessionEmployeePrincipal_getEmployeeRoles_165492357915 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getEmployeeRoles", argTypes, term2627, args);
+        callMethod(klass, "getEmployeeRoles", argTypes, term3001, args);
     }
 
 };

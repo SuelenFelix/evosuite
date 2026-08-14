@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Movie_getId_8309219328 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24607;
+     Object term24606;
 
     public Movie_getId_8309219328() {
     }
@@ -31,17 +31,17 @@ public class Movie_getId_8309219328 {
 
     @Before
     public void setup() throws Throwable {
-        term24607 = newInstance(Class.forName("com.folksdev.movie.model.Movie"));
-        setField(term24607, term24607.getClass(), "id", null);
-        setField(term24607, term24607.getClass(), "title", null);
-        setField(term24607, term24607.getClass(), "description", null);
-        setField(term24607, term24607.getClass(), "imdbUrl", null);
-        setIntField(term24607, term24607.getClass(), "duration", 0);
-        setIntField(term24607, term24607.getClass(), "featuredYear", 0);
-        setField(term24607, term24607.getClass(), "genresTypes", null);
-        setField(term24607, term24607.getClass(), "actors", null);
-        setField(term24607, term24607.getClass(), "director", null);
-        setField(term24607, term24607.getClass(), "publisher", null);
+        term24606 = newInstance(Class.forName("com.folksdev.movie.model.Movie"));
+        setField(term24606, term24606.getClass(), "id", null);
+        setField(term24606, term24606.getClass(), "title", null);
+        setField(term24606, term24606.getClass(), "description", null);
+        setField(term24606, term24606.getClass(), "imdbUrl", null);
+        setIntField(term24606, term24606.getClass(), "duration", 0);
+        setIntField(term24606, term24606.getClass(), "featuredYear", 0);
+        setField(term24606, term24606.getClass(), "genresTypes", null);
+        setField(term24606, term24606.getClass(), "actors", null);
+        setField(term24606, term24606.getClass(), "director", null);
+        setField(term24606, term24606.getClass(), "publisher", null);
     }
 
     @Test
@@ -49,7 +49,7 @@ public class Movie_getId_8309219328 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.Movie");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getId", argTypes, term24607, args);
+        callMethod(klass, "getId", argTypes, term24606, args);
     }
 
 };

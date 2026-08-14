@@ -27,8 +27,8 @@ import java.util.HashSet;
 
 public class GatchaUser_GatchaUserBuilder_authority_7894697262 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1559;
-     Object term1609;
+     Object term1563;
+     Object term1613;
 
     public GatchaUser_GatchaUserBuilder_authority_7894697262() {
     }
@@ -39,29 +39,29 @@ public class GatchaUser_GatchaUserBuilder_authority_7894697262 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term1560 = new Integer(-1656687479);
-        Integer term1563 = new Integer(-249614216);
-        HashMap term1578 = new HashMap();
-        Set<Object> term1647 =  ((Map) term1578).keySet();
-        HashSet term1577 = new HashSet((Collection<? extends Object>) term1647);
-        term1559 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
-        Object term1562 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
-        setField(term1559, term1559.getClass(), "id", term1560);
-        setField(term1562, term1562.getClass(), "id", term1563);
-        setField(term1562, term1562.getClass(), "role", "SqjyKmayBx");
-        setField(term1562, term1562.getClass(), "users", term1577);
-        setField(term1559, term1559.getClass(), "authority", term1562);
-        setField(term1559, term1559.getClass(), "email", "yevIIoVYHq");
-        setField(term1559, term1559.getClass(), "password", "UuYWMTqWTV");
-        setBooleanField(term1559, term1559.getClass(), "enabled", true);
-        Integer term1610 = new Integer(-1467089634);
-        HashMap term1625 = new HashMap();
-        Set<Object> term1678 =  ((Map) term1625).keySet();
-        HashSet term1624 = new HashSet((Collection<? extends Object>) term1678);
-        term1609 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
-        setField(term1609, term1609.getClass(), "id", term1610);
-        setField(term1609, term1609.getClass(), "role", "DSFGlcaXUb");
-        setField(term1609, term1609.getClass(), "users", term1624);
+        Integer term1564 = new Integer(-1656687479);
+        Integer term1567 = new Integer(-249614216);
+        HashMap term1582 = new HashMap();
+        Set<Object> term1651 =  ((Map) term1582).keySet();
+        HashSet term1581 = new HashSet((Collection<? extends Object>) term1651);
+        term1563 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
+        Object term1566 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
+        setField(term1563, term1563.getClass(), "id", term1564);
+        setField(term1566, term1566.getClass(), "id", term1567);
+        setField(term1566, term1566.getClass(), "role", "SqjyKmayBx");
+        setField(term1566, term1566.getClass(), "users", term1581);
+        setField(term1563, term1563.getClass(), "authority", term1566);
+        setField(term1563, term1563.getClass(), "email", "yevIIoVYHq");
+        setField(term1563, term1563.getClass(), "password", "UuYWMTqWTV");
+        setBooleanField(term1563, term1563.getClass(), "enabled", true);
+        Integer term1614 = new Integer(-1467089634);
+        HashMap term1629 = new HashMap();
+        Set<Object> term1682 =  ((Map) term1629).keySet();
+        HashSet term1628 = new HashSet((Collection<? extends Object>) term1682);
+        term1613 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
+        setField(term1613, term1613.getClass(), "id", term1614);
+        setField(term1613, term1613.getClass(), "role", "DSFGlcaXUb");
+        setField(term1613, term1613.getClass(), "users", term1628);
     }
 
     @Test
@@ -70,8 +70,8 @@ public class GatchaUser_GatchaUserBuilder_authority_7894697262 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("codeit.gatcha.domain.user.entity.Authority");
         Object[] args = new Object[1];
-        args[0] = term1609;
-        callMethod(klass, "authority", argTypes, term1559, args);
+        args[0] = term1613;
+        callMethod(klass, "authority", argTypes, term1563, args);
     }
 
 };

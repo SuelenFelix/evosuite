@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class PasswordResetTokenService_createPasswordResetTokenForRecovery_18827504242 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term23317;
+     Object term23457;
 
     public PasswordResetTokenService_createPasswordResetTokenForRecovery_18827504242() {
     }
@@ -32,7 +32,7 @@ public class PasswordResetTokenService_createPasswordResetTokenForRecovery_18827
 
     @Before
     public void setup() throws Throwable {
-        term23317 = new Integer(-1553893255);
+        term23457 = new Integer(-1553893255);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class PasswordResetTokenService_createPasswordResetTokenForRecovery_18827
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term23317;
+        args[0] = term23457;
         callMethod(klass, "createPasswordResetTokenForRecovery", argTypes, null, args);
     }
 

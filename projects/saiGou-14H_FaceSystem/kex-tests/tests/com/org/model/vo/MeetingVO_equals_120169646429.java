@@ -22,8 +22,8 @@ import java.lang.Object;
 
 public class MeetingVO_equals_120169646429 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term12309;
-     Object term12424;
+     Object term52678;
+     Object term52793;
 
     public MeetingVO_equals_120169646429() {
     }
@@ -34,51 +34,51 @@ public class MeetingVO_equals_120169646429 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term12310 = new Integer(-380787857);
-        Integer term12348 = new Integer(319853052);
-        Integer term12408 = new Integer(-1097563716);
-        Integer term12420 = new Integer(1572907769);
-        Integer term12422 = new Integer(1608016787);
-        term12309 = newInstance(Class.forName("com.org.model.vo.MeetingVO"));
-        Object term12350 = newInstance(Class.forName("java.time.LocalDateTime"));
-        Object term12351 = newInstance(Class.forName("java.time.LocalDate"));
-        Object term12355 = newInstance(Class.forName("java.time.LocalTime"));
-        Object term12410 = newInstance(Class.forName("java.time.LocalDateTime"));
-        Object term12411 = newInstance(Class.forName("java.time.LocalDate"));
-        Object term12415 = newInstance(Class.forName("java.time.LocalTime"));
-        setField(term12309, term12309.getClass(), "id", term12310);
-        setField(term12309, term12309.getClass(), "name", "luSCmxphxi");
-        setField(term12309, term12309.getClass(), "host", "OGEDwuJhjV");
-        setField(term12309, term12309.getClass(), "roomName", "vepOtOxlWM");
-        setField(term12309, term12309.getClass(), "online", term12348);
-        setIntField(term12351, term12351.getClass(), "year", 2018);
-        setShortField(term12351, term12351.getClass(), "month", (short) 11);
-        setShortField(term12351, term12351.getClass(), "day", (short) 9);
-        setField(term12350, term12350.getClass(), "date", term12351);
-        setByteField(term12355, term12355.getClass(), "hour", (byte) 6);
-        setByteField(term12355, term12355.getClass(), "minute", (byte) 8);
-        setByteField(term12355, term12355.getClass(), "second", (byte) 32);
-        setIntField(term12355, term12355.getClass(), "nano", 750733310);
-        setField(term12350, term12350.getClass(), "time", term12355);
-        setField(term12309, term12309.getClass(), "createTime", term12350);
-        setField(term12309, term12309.getClass(), "link", "XZmoxlxcKh");
-        setField(term12309, term12309.getClass(), "meetingTime", "aHNGawFCfD");
-        setField(term12309, term12309.getClass(), "signTime", "cHjhnXKTVF");
-        setField(term12309, term12309.getClass(), "introduce", "NVsXpTZPoM");
-        setField(term12309, term12309.getClass(), "state", term12408);
-        setIntField(term12411, term12411.getClass(), "year", 2010);
-        setShortField(term12411, term12411.getClass(), "month", (short) 2);
-        setShortField(term12411, term12411.getClass(), "day", (short) 24);
-        setField(term12410, term12410.getClass(), "date", term12411);
-        setByteField(term12415, term12415.getClass(), "hour", (byte) 17);
-        setByteField(term12415, term12415.getClass(), "minute", (byte) 58);
-        setByteField(term12415, term12415.getClass(), "second", (byte) 56);
-        setIntField(term12415, term12415.getClass(), "nano", 291725532);
-        setField(term12410, term12410.getClass(), "time", term12415);
-        setField(term12309, term12309.getClass(), "updateTime", term12410);
-        setField(term12309, term12309.getClass(), "userNumber", term12420);
-        setField(term12309, term12309.getClass(), "signNumber", term12422);
-        term12424 = newInstance(Class.forName("java.lang.Object"));
+        Integer term52679 = new Integer(1800400048);
+        Integer term52717 = new Integer(-1248348901);
+        Integer term52777 = new Integer(-808864128);
+        Integer term52789 = new Integer(-1813216452);
+        Integer term52791 = new Integer(180516410);
+        term52678 = newInstance(Class.forName("com.org.model.vo.MeetingVO"));
+        Object term52719 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term52720 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term52724 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term52779 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term52780 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term52784 = newInstance(Class.forName("java.time.LocalTime"));
+        setField(term52678, term52678.getClass(), "id", term52679);
+        setField(term52678, term52678.getClass(), "name", "zxcdzyDZux");
+        setField(term52678, term52678.getClass(), "host", "aMGJklsoLZ");
+        setField(term52678, term52678.getClass(), "roomName", "MxjPynRJZL");
+        setField(term52678, term52678.getClass(), "online", term52717);
+        setIntField(term52720, term52720.getClass(), "year", 2010);
+        setShortField(term52720, term52720.getClass(), "month", (short) 3);
+        setShortField(term52720, term52720.getClass(), "day", (short) 31);
+        setField(term52719, term52719.getClass(), "date", term52720);
+        setByteField(term52724, term52724.getClass(), "hour", (byte) 13);
+        setByteField(term52724, term52724.getClass(), "minute", (byte) 35);
+        setByteField(term52724, term52724.getClass(), "second", (byte) 45);
+        setIntField(term52724, term52724.getClass(), "nano", 154359665);
+        setField(term52719, term52719.getClass(), "time", term52724);
+        setField(term52678, term52678.getClass(), "createTime", term52719);
+        setField(term52678, term52678.getClass(), "link", "pHRTNuwZAK");
+        setField(term52678, term52678.getClass(), "meetingTime", "dLORHEiWhQ");
+        setField(term52678, term52678.getClass(), "signTime", "beHKTyEsPG");
+        setField(term52678, term52678.getClass(), "introduce", "tFQbHKqwNK");
+        setField(term52678, term52678.getClass(), "state", term52777);
+        setIntField(term52780, term52780.getClass(), "year", 2014);
+        setShortField(term52780, term52780.getClass(), "month", (short) 11);
+        setShortField(term52780, term52780.getClass(), "day", (short) 7);
+        setField(term52779, term52779.getClass(), "date", term52780);
+        setByteField(term52784, term52784.getClass(), "hour", (byte) 8);
+        setByteField(term52784, term52784.getClass(), "minute", (byte) 9);
+        setByteField(term52784, term52784.getClass(), "second", (byte) 37);
+        setIntField(term52784, term52784.getClass(), "nano", 366421600);
+        setField(term52779, term52779.getClass(), "time", term52784);
+        setField(term52678, term52678.getClass(), "updateTime", term52779);
+        setField(term52678, term52678.getClass(), "userNumber", term52789);
+        setField(term52678, term52678.getClass(), "signNumber", term52791);
+        term52793 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -87,8 +87,8 @@ public class MeetingVO_equals_120169646429 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term12424;
-        callMethod(klass, "equals", argTypes, term12309, args);
+        args[0] = term52793;
+        callMethod(klass, "equals", argTypes, term52678, args);
     }
 
 };

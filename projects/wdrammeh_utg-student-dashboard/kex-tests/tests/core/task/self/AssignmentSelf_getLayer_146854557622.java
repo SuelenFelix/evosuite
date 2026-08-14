@@ -353,7 +353,7 @@ public class AssignmentSelf_getLayer_146854557622 {
         setField(term19781, term19781.getClass(), "keySet", null);
         setField(term19781, term19781.getClass(), "values", null);
         setField(term19770, term19770.getClass(), "moduleToReader", term19781);
-        setLongField(term19786, term19786.getClass(), "timestamp", 164123309L);
+        setLongField(term19786, term19786.getClass(), "timestamp", 52402053L);
         setField(term19786, term19786.getClass(), "referent", null);
         setField(term19786, term19786.getClass(), "queue", null);
         setField(term19786, term19786.getClass(), "next", null);
@@ -387,7 +387,7 @@ public class AssignmentSelf_getLayer_146854557622 {
         setField(term19770, term19770.getClass(), "nameAndId", "");
         setField(term19797, term19797.getClass(), "table", null);
         setField(term19797, term19797.getClass(), "nextTable", null);
-        setLongField(term19797, term19797.getClass(), "baseCount", 4188L);
+        setLongField(term19797, term19797.getClass(), "baseCount", 4189L);
         setIntField(term19797, term19797.getClass(), "sizeCtl", 6144);
         setIntField(term19797, term19797.getClass(), "transferIndex", 0);
         setIntField(term19797, term19797.getClass(), "cellsBusy", 0);
@@ -412,9 +412,9 @@ public class AssignmentSelf_getLayer_146854557622 {
         setField(term19802, term19802.getClass(), "values", null);
         setField(term19770, term19770.getClass(), "package2certs", term19802);
         setField(term19807, term19807.getClass(), "elementData", null);
-        setIntField(term19807, term19807.getClass(), "elementCount", 3764);
+        setIntField(term19807, term19807.getClass(), "elementCount", 3765);
         setIntField(term19807, term19807.getClass(), "capacityIncrement", 0);
-        setIntField(term19807, term19807.getClass(), "modCount", 3764);
+        setIntField(term19807, term19807.getClass(), "modCount", 3765);
         setField(term19770, term19770.getClass(), "classes", term19807);
         setField(term19811, term19811.getClass(), "codesource", null);
         setField(term19811, term19811.getClass(), "classloader", term19770);

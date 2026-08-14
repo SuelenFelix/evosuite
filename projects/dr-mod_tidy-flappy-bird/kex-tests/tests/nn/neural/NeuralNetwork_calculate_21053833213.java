@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class NeuralNetwork_calculate_21053833213 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term763;
+     Object term761;
 
     public NeuralNetwork_calculate_21053833213() {
     }
@@ -31,10 +31,10 @@ public class NeuralNetwork_calculate_21053833213 {
 
     @Before
     public void setup() throws Throwable {
-        term763 = newInstance(Class.forName("nn.neural.NeuralNetwork"));
-        setField(term763, term763.getClass(), "inputNodes", null);
-        setField(term763, term763.getClass(), "outputNodes", null);
-        setField(term763, term763.getClass(), "hiddenNodes", null);
+        term761 = newInstance(Class.forName("nn.neural.NeuralNetwork"));
+        setField(term761, term761.getClass(), "inputNodes", null);
+        setField(term761, term761.getClass(), "outputNodes", null);
+        setField(term761, term761.getClass(), "hiddenNodes", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class NeuralNetwork_calculate_21053833213 {
         argTypes[0] = Array.newInstance(double.class, 0).getClass();
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "calculate", argTypes, term763, args);
+        callMethod(klass, "calculate", argTypes, term761, args);
     }
 
 };

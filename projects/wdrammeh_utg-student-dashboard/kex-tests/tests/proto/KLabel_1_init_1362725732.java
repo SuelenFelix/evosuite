@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class KLabel_1_init_1362725732 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term28570;
+     Object term28603;
 
     public KLabel_1_init_1362725732() {
     }
@@ -32,7 +32,7 @@ public class KLabel_1_init_1362725732 {
 
     @Before
     public void setup() throws Throwable {
-        term28570 = new Integer(0);
+        term28603 = new Integer(0);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class KLabel_1_init_1362725732 {
         argTypes[0] = int.class;
         argTypes[1] = Class.forName("java.lang.String");
         Object[] args = new Object[2];
-        args[0] = term28570;
+        args[0] = term28603;
         args[1] = null;
         Object instance = callConstructor(klass, argTypes, args);
     }

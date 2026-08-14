@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AnnNode_getId_97705063819 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term13723;
+     Object term13739;
 
     public AnnNode_getId_97705063819() {
     }
@@ -31,13 +31,13 @@ public class AnnNode_getId_97705063819 {
 
     @Before
     public void setup() throws Throwable {
-        term13723 = newInstance(Class.forName("nn.neural.AnnNode"));
-        setField(term13723, term13723.getClass(), "output", null);
-        setField(term13723, term13723.getClass(), "inputs", null);
-        setField(term13723, term13723.getClass(), "outputs", null);
-        setField(term13723, term13723.getClass(), "type", null);
-        setIntField(term13723, term13723.getClass(), "id", 0);
-        setDoubleField(term13723, term13723.getClass(), "bias", 0.0);
+        term13739 = newInstance(Class.forName("nn.neural.AnnNode"));
+        setField(term13739, term13739.getClass(), "output", null);
+        setField(term13739, term13739.getClass(), "inputs", null);
+        setField(term13739, term13739.getClass(), "outputs", null);
+        setField(term13739, term13739.getClass(), "type", null);
+        setIntField(term13739, term13739.getClass(), "id", 0);
+        setDoubleField(term13739, term13739.getClass(), "bias", 0.0);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class AnnNode_getId_97705063819 {
         Class<?> klass = Class.forName("nn.neural.AnnNode");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getId", argTypes, term13723, args);
+        callMethod(klass, "getId", argTypes, term13739, args);
     }
 
 };

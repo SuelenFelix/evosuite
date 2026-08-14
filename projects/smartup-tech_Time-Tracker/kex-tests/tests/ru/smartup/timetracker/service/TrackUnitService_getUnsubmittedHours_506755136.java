@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class TrackUnitService_getUnsubmittedHours_506755136 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3272;
+     Object term3248;
 
     public TrackUnitService_getUnsubmittedHours_506755136() {
     }
@@ -32,7 +32,7 @@ public class TrackUnitService_getUnsubmittedHours_506755136 {
 
     @Before
     public void setup() throws Throwable {
-        term3272 = new Integer(-159494544);
+        term3248 = new Integer(-159494544);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TrackUnitService_getUnsubmittedHours_506755136 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term3272;
+        args[0] = term3248;
         callMethod(klass, "getUnsubmittedHours", argTypes, null, args);
     }
 

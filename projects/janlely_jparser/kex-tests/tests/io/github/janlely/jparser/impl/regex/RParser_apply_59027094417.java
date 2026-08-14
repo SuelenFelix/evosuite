@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class RParser_apply_59027094417 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term15644;
+     Object term25477;
 
     public RParser_apply_59027094417() {
     }
@@ -31,12 +31,12 @@ public class RParser_apply_59027094417 {
 
     @Before
     public void setup() throws Throwable {
-        term15644 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
-        setField(term15644, term15644.getClass(), "type", null);
-        setIntField(term15644, term15644.getClass(), "quoteId", 0);
-        setIntField(term15644, term15644.getClass(), "groupId", 0);
-        setField(term15644, term15644.getClass(), "parser", null);
-        setField(term15644, term15644.getClass(), "func", null);
+        term25477 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
+        setField(term25477, term25477.getClass(), "type", null);
+        setIntField(term25477, term25477.getClass(), "quoteId", 0);
+        setIntField(term25477, term25477.getClass(), "groupId", 0);
+        setField(term25477, term25477.getClass(), "parser", null);
+        setField(term25477, term25477.getClass(), "func", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class RParser_apply_59027094417 {
         argTypes[0] = Class.forName("java.util.function.Function");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "apply", argTypes, term15644, args);
+        callMethod(klass, "apply", argTypes, term25477, args);
     }
 
 };

@@ -1,16 +1,16 @@
-2026-06-28 13:57:00.382 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/juliengalet_reactor-flow/target/classes
-2026-06-28 13:57:00.547 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:57:00.650 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 13:57:01.892 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 13:57:02.561 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/github/juliengalet/reactorflow/utils/*
-2026-06-28 13:57:02.562 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 13:57:02.586 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/juliengalet_reactor-flow/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:57:02.628 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/juliengalet_reactor-flow/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 43601 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/juliengalet_reactor-flow/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 13:57:02.647 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 13:58:42.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/LoggerUtils::<init>(): void
-2026-06-28 13:58:42.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/LoggerUtils::<init>(): void
+2026-08-10 23:55:57.516 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/juliengalet_reactor-flow/target/classes
+2026-08-10 23:55:57.682 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 23:55:57.747 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-10 23:55:59.108 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-10 23:55:59.764 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/github/juliengalet/reactorflow/utils/*
+2026-08-10 23:55:59.766 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-10 23:55:59.793 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/juliengalet_reactor-flow/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 23:55:59.837 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/juliengalet_reactor-flow/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 34885 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/juliengalet_reactor-flow/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-10 23:55:59.854 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-10 23:57:39.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/LoggerUtils::<init>(): void
+2026-08-10 23:57:39.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/LoggerUtils::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:58:43.144 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.LoggerUtils_init_17634437470
-2026-06-28 13:58:43.149 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/LoggerUtils::colorize(java/lang/String, io/github/juliengalet/reactorflow/utils/ConsoleStyle[]): java/lang/String
-2026-06-28 13:58:43.149 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/LoggerUtils::colorize(java/lang/String, io/github/juliengalet/reactorflow/utils/ConsoleStyle[]): java/lang/String
+2026-08-10 23:57:40.372 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.LoggerUtils_init_17634437470
+2026-08-10 23:57:40.377 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/LoggerUtils::colorize(java/lang/String, io/github/juliengalet/reactorflow/utils/ConsoleStyle[]): java/lang/String
+2026-08-10 23:57:40.377 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/LoggerUtils::colorize(java/lang/String, io/github/juliengalet/reactorflow/utils/ConsoleStyle[]): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -96,15 +96,15 @@
 
 %bb15: 	//predecessors %bb14
 	return %30
-2026-06-28 13:58:43.297 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.LoggerUtils_colorize_8585903051
-2026-06-28 13:58:43.383 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.LoggerUtils_init_17634437472
-2026-06-28 13:58:43.460 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.LoggerUtils_colorize_8585903053
-2026-06-28 13:58:43.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/LoggerUtils::<init>(): void: null
-2026-06-28 13:58:43.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/LoggerUtils::colorize(java/lang/String, io/github/juliengalet/reactorflow/utils/ConsoleStyle[]): java/lang/String: null
-2026-06-28 13:58:43.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/LoggerUtils::<init>(): void processing is finished normally
-2026-06-28 13:58:43.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/LoggerUtils::colorize(java/lang/String, io/github/juliengalet/reactorflow/utils/ConsoleStyle[]): java/lang/String processing is finished normally
-2026-06-28 13:58:43.480 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/ConsoleStyle::values(): io/github/juliengalet/reactorflow/utils/ConsoleStyle[]
-2026-06-28 13:58:43.480 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/ConsoleStyle::values(): io/github/juliengalet/reactorflow/utils/ConsoleStyle[]
+2026-08-10 23:57:40.528 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.LoggerUtils_colorize_8585903051
+2026-08-10 23:57:40.613 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.LoggerUtils_init_17634437472
+2026-08-10 23:57:40.692 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.LoggerUtils_colorize_8585903053
+2026-08-10 23:57:40.693 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/LoggerUtils::<init>(): void: null
+2026-08-10 23:57:40.693 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/LoggerUtils::colorize(java/lang/String, io/github/juliengalet/reactorflow/utils/ConsoleStyle[]): java/lang/String: null
+2026-08-10 23:57:40.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/LoggerUtils::<init>(): void processing is finished normally
+2026-08-10 23:57:40.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/LoggerUtils::colorize(java/lang/String, io/github/juliengalet/reactorflow/utils/ConsoleStyle[]): java/lang/String processing is finished normally
+2026-08-10 23:57:40.709 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/ConsoleStyle::values(): io/github/juliengalet/reactorflow/utils/ConsoleStyle[]
+2026-08-10 23:57:40.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/ConsoleStyle::values(): io/github/juliengalet/reactorflow/utils/ConsoleStyle[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -119,9 +119,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %5
-2026-06-28 13:58:43.552 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_values_1292932810
-2026-06-28 13:58:43.553 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/ConsoleStyle::valueOf(java/lang/String): io/github/juliengalet/reactorflow/utils/ConsoleStyle
-2026-06-28 13:58:43.553 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/ConsoleStyle::valueOf(java/lang/String): io/github/juliengalet/reactorflow/utils/ConsoleStyle
+2026-08-10 23:57:40.785 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_values_1292932810
+2026-08-10 23:57:40.787 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/ConsoleStyle::valueOf(java/lang/String): io/github/juliengalet/reactorflow/utils/ConsoleStyle
+2026-08-10 23:57:40.787 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/ConsoleStyle::valueOf(java/lang/String): io/github/juliengalet/reactorflow/utils/ConsoleStyle
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -135,9 +135,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 13:58:43.622 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_valueOf_6213236841
-2026-06-28 13:58:43.623 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/ConsoleStyle::<init>(java/lang/String, int, java/lang/String): void
-2026-06-28 13:58:43.623 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/ConsoleStyle::<init>(java/lang/String, int, java/lang/String): void
+2026-08-10 23:57:40.849 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_valueOf_6213236841
+2026-08-10 23:57:40.849 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/ConsoleStyle::<init>(java/lang/String, int, java/lang/String): void
+2026-08-10 23:57:40.850 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/ConsoleStyle::<init>(java/lang/String, int, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -151,9 +151,9 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 13:58:43.698 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_init_7360078762
-2026-06-28 13:58:43.699 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/ConsoleStyle::toString(): java/lang/String
-2026-06-28 13:58:43.699 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/ConsoleStyle::toString(): java/lang/String
+2026-08-10 23:57:40.919 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_init_7360078762
+2026-08-10 23:57:40.920 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/juliengalet/reactorflow/utils/ConsoleStyle::toString(): java/lang/String
+2026-08-10 23:57:40.920 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/juliengalet/reactorflow/utils/ConsoleStyle::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -163,18 +163,18 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:58:43.782 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_toString_17200204073
-2026-06-28 13:58:43.835 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_values_1292932814
-2026-06-28 13:58:43.900 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_valueOf_6213236845
-2026-06-28 13:58:43.952 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_init_7360078766
-2026-06-28 13:58:44.003 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_toString_17200204077
-2026-06-28 13:58:44.004 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/ConsoleStyle::values(): io/github/juliengalet/reactorflow/utils/ConsoleStyle[]: null
-2026-06-28 13:58:44.004 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/ConsoleStyle::valueOf(java/lang/String): io/github/juliengalet/reactorflow/utils/ConsoleStyle: null
-2026-06-28 13:58:44.004 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/ConsoleStyle::<init>(java/lang/String, int, java/lang/String): void: null
-2026-06-28 13:58:44.004 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/ConsoleStyle::toString(): java/lang/String: null
-2026-06-28 13:58:44.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/ConsoleStyle::values(): io/github/juliengalet/reactorflow/utils/ConsoleStyle[] processing is finished normally
-2026-06-28 13:58:44.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/ConsoleStyle::valueOf(java/lang/String): io/github/juliengalet/reactorflow/utils/ConsoleStyle processing is finished normally
-2026-06-28 13:58:44.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/ConsoleStyle::<init>(java/lang/String, int, java/lang/String): void processing is finished normally
-2026-06-28 13:58:44.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/ConsoleStyle::toString(): java/lang/String processing is finished normally
-2026-06-28 13:58:44.005 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 13:58:44.005 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-10 23:57:40.992 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_toString_17200204073
+2026-08-10 23:57:41.048 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_values_1292932814
+2026-08-10 23:57:41.108 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_valueOf_6213236845
+2026-08-10 23:57:41.160 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_init_7360078766
+2026-08-10 23:57:41.226 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.juliengalet.reactorflow.utils.ConsoleStyle_toString_17200204077
+2026-08-10 23:57:41.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/ConsoleStyle::values(): io/github/juliengalet/reactorflow/utils/ConsoleStyle[]: null
+2026-08-10 23:57:41.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/ConsoleStyle::valueOf(java/lang/String): io/github/juliengalet/reactorflow/utils/ConsoleStyle: null
+2026-08-10 23:57:41.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/ConsoleStyle::<init>(java/lang/String, int, java/lang/String): void: null
+2026-08-10 23:57:41.227 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/juliengalet/reactorflow/utils/ConsoleStyle::toString(): java/lang/String: null
+2026-08-10 23:57:41.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/ConsoleStyle::values(): io/github/juliengalet/reactorflow/utils/ConsoleStyle[] processing is finished normally
+2026-08-10 23:57:41.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/ConsoleStyle::valueOf(java/lang/String): io/github/juliengalet/reactorflow/utils/ConsoleStyle processing is finished normally
+2026-08-10 23:57:41.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/ConsoleStyle::<init>(java/lang/String, int, java/lang/String): void processing is finished normally
+2026-08-10 23:57:41.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/juliengalet/reactorflow/utils/ConsoleStyle::toString(): java/lang/String processing is finished normally
+2026-08-10 23:57:41.227 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-10 23:57:41.227 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

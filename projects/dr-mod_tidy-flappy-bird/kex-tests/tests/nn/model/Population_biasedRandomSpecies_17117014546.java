@@ -173,7 +173,7 @@ public class Population_biasedRandomSpecies_17117014546 {
         Object term4292 = newInstance(Class.forName("nn.model.NodeInnovator"));
         setField(term4184, term4184.getClass(), "genomes", term4185);
         setField(term4184, term4184.getClass(), "evaluator", null);
-        setLongField(term4260, term4260.getClass(), "value", 70222309955515L);
+        setLongField(term4260, term4260.getClass(), "value", 152878590183815L);
         setField(term4259, term4259.getClass(), "seed", term4260);
         setDoubleField(term4259, term4259.getClass(), "nextNextGaussian", 0.5124845253152773);
         setBooleanField(term4259, term4259.getClass(), "haveNextNextGaussian", true);
@@ -187,7 +187,7 @@ public class Population_biasedRandomSpecies_17117014546 {
         setField(term4271, term4271.getClass(), "nodeInnovator", term4280);
         setIntField(term4282, term4282.getClass(), "counter", 100);
         setField(term4271, term4271.getClass(), "connectionInnovator", term4282);
-        setLongField(term4285, term4285.getClass(), "value", 31215594305538L);
+        setLongField(term4285, term4285.getClass(), "value", 163789181565083L);
         setField(term4284, term4284.getClass(), "seed", term4285);
         setDoubleField(term4284, term4284.getClass(), "nextNextGaussian", 0.12402111287123307);
         setBooleanField(term4284, term4284.getClass(), "haveNextNextGaussian", true);

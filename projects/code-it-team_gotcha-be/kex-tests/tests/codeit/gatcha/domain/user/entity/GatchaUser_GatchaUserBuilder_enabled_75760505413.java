@@ -21,8 +21,8 @@ import java.lang.Boolean;
 
 public class GatchaUser_GatchaUserBuilder_enabled_75760505413 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2138;
-     Object term2140;
+     Object term2142;
+     Object term2144;
 
     public GatchaUser_GatchaUserBuilder_enabled_75760505413() {
     }
@@ -33,13 +33,13 @@ public class GatchaUser_GatchaUserBuilder_enabled_75760505413 {
 
     @Before
     public void setup() throws Throwable {
-        term2138 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
-        setField(term2138, term2138.getClass(), "id", null);
-        setField(term2138, term2138.getClass(), "authority", null);
-        setField(term2138, term2138.getClass(), "email", null);
-        setField(term2138, term2138.getClass(), "password", null);
-        setBooleanField(term2138, term2138.getClass(), "enabled", false);
-        term2140 = new Boolean(false);
+        term2142 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
+        setField(term2142, term2142.getClass(), "id", null);
+        setField(term2142, term2142.getClass(), "authority", null);
+        setField(term2142, term2142.getClass(), "email", null);
+        setField(term2142, term2142.getClass(), "password", null);
+        setBooleanField(term2142, term2142.getClass(), "enabled", false);
+        term2144 = new Boolean(false);
     }
 
     @Test
@@ -48,8 +48,8 @@ public class GatchaUser_GatchaUserBuilder_enabled_75760505413 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = boolean.class;
         Object[] args = new Object[1];
-        args[0] = term2140;
-        callMethod(klass, "enabled", argTypes, term2138, args);
+        args[0] = term2144;
+        callMethod(klass, "enabled", argTypes, term2142, args);
     }
 
 };

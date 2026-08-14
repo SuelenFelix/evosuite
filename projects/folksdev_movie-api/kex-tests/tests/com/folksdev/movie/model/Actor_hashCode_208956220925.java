@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Actor_hashCode_208956220925 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34369;
+     Object term34368;
 
     public Actor_hashCode_208956220925() {
     }
@@ -31,12 +31,12 @@ public class Actor_hashCode_208956220925 {
 
     @Before
     public void setup() throws Throwable {
-        term34369 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        setField(term34369, term34369.getClass(), "id", null);
-        setField(term34369, term34369.getClass(), "name", null);
-        setField(term34369, term34369.getClass(), "dateOfBirth", null);
-        setField(term34369, term34369.getClass(), "gender", null);
-        setField(term34369, term34369.getClass(), "movies", null);
+        term34368 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        setField(term34368, term34368.getClass(), "id", null);
+        setField(term34368, term34368.getClass(), "name", null);
+        setField(term34368, term34368.getClass(), "dateOfBirth", null);
+        setField(term34368, term34368.getClass(), "gender", null);
+        setField(term34368, term34368.getClass(), "movies", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Actor_hashCode_208956220925 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.Actor");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term34369, args);
+        callMethod(klass, "hashCode", argTypes, term34368, args);
     }
 
 };

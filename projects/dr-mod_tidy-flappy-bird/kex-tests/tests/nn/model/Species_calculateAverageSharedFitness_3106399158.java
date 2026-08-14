@@ -72,7 +72,7 @@ public class Species_calculateAverageSharedFitness_3106399158 {
         setField(term5051, term5051.getClass(), "nodeInnovator", term5060);
         setIntField(term5062, term5062.getClass(), "counter", 100);
         setField(term5051, term5051.getClass(), "connectionInnovator", term5062);
-        setLongField(term5065, term5065.getClass(), "value", 73870048104840L);
+        setLongField(term5065, term5065.getClass(), "value", 63853356722911L);
         setField(term5064, term5064.getClass(), "seed", term5065);
         setDoubleField(term5064, term5064.getClass(), "nextNextGaussian", 0.5749950495796489);
         setBooleanField(term5064, term5064.getClass(), "haveNextNextGaussian", true);

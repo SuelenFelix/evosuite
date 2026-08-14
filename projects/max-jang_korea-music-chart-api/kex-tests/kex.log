@@ -1,16 +1,16 @@
-2026-06-29 06:35:06.289 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/max-jang_korea-music-chart-api/target/classes
-2026-06-29 06:35:06.381 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 06:35:06.445 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 06:35:07.402 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 06:35:07.932 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/maxjang/chart/vibe/*
-2026-06-29 06:35:07.933 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 06:35:07.961 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/max-jang_korea-music-chart-api/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 06:35:07.994 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/max-jang_korea-music-chart-api/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33763 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/max-jang_korea-music-chart-api/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 06:35:08.007 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 06:36:48.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::<init>(): void
-2026-06-29 06:36:48.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::<init>(): void
+2026-08-12 09:52:26.089 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/max-jang_korea-music-chart-api/target/classes
+2026-08-12 09:52:26.180 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 09:52:26.243 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 09:52:27.316 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 09:52:27.770 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/maxjang/chart/vibe/*
+2026-08-12 09:52:27.771 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 09:52:27.789 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/max-jang_korea-music-chart-api/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 09:52:27.818 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/max-jang_korea-music-chart-api/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 43717 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/max-jang_korea-music-chart-api/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 09:52:27.830 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 09:54:07.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::<init>(): void
+2026-08-12 09:54:07.878 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 06:36:48.504 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartService_init_16296980550
-2026-06-29 06:36:48.511 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
-2026-06-29 06:36:48.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
+2026-08-12 09:54:08.330 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartService_init_16296980550
+2026-08-12 09:54:08.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
+2026-08-12 09:54:08.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -222,7 +222,7 @@
 
 %if.then2: 	//predecessors %bb4
 	return %101
-2026-06-29 06:36:48.514 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:54:08.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -257,7 +257,7 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:36:48.515 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:54:08.338 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -292,9 +292,9 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:36:48.515 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List: null
-2026-06-29 06:36:48.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String
-2026-06-29 06:36:48.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String
+2026-08-12 09:54:08.338 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List: null
+2026-08-12 09:54:08.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String
+2026-08-12 09:54:08.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -350,7 +350,7 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 %bb.return0: 	//predecessors %if.else0, %bb6, %bb7
 	%retval1 = phi {%if.else0 -> "static,0"; %bb6 -> %21; %bb7 -> %22}
 	return %retval1
-2026-06-29 06:36:48.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:54:08.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -377,7 +377,7 @@ java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 06:36:48.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:54:08.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -404,9 +404,9 @@ java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 06:36:48.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String: null
-2026-06-29 06:36:48.516 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
-2026-06-29 06:36:48.516 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
+2026-08-12 09:54:08.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String: null
+2026-08-12 09:54:08.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
+2026-08-12 09:54:08.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -499,7 +499,7 @@ java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 
 %if.then0: 	//predecessors %bb5
 	return %42
-2026-06-29 06:36:48.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:54:08.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -534,7 +534,7 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:36:48.517 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:54:08.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -569,9 +569,9 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:36:48.517 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List: null
-2026-06-29 06:36:48.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
-2026-06-29 06:36:48.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
+2026-08-12 09:54:08.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List: null
+2026-08-12 09:54:08.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
+2026-08-12 09:54:08.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -664,7 +664,7 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 
 %if.then0: 	//predecessors %bb5
 	return %42
-2026-06-29 06:36:48.518 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:54:08.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -699,7 +699,7 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:36:48.518 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 09:54:08.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -734,16 +734,16 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 06:36:48.518 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List: null
-2026-06-29 06:36:48.624 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartService_init_16296980551
-2026-06-29 06:36:48.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List processing is finished normally
-2026-06-29 06:36:48.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String processing is finished normally
-2026-06-29 06:36:48.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List processing is finished normally
-2026-06-29 06:36:48.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List processing is finished normally
-2026-06-29 06:36:48.626 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::<init>(): void: null
-2026-06-29 06:36:48.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::<init>(): void processing is finished normally
-2026-06-29 06:36:48.629 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void
-2026-06-29 06:36:48.629 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void
+2026-08-12 09:54:08.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List: null
+2026-08-12 09:54:08.441 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartService_init_16296980551
+2026-08-12 09:54:08.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List processing is finished normally
+2026-08-12 09:54:08.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String processing is finished normally
+2026-08-12 09:54:08.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List processing is finished normally
+2026-08-12 09:54:08.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List processing is finished normally
+2026-08-12 09:54:08.442 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::<init>(): void: null
+2026-08-12 09:54:08.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::<init>(): void processing is finished normally
+2026-08-12 09:54:08.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void
+2026-08-12 09:54:08.446 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -757,9 +757,9 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 06:36:48.723 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_init_11718905700
-2026-06-29 06:36:48.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat
-2026-06-29 06:36:48.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat
+2026-08-12 09:54:08.537 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_init_11718905700
+2026-08-12 09:54:08.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat
+2026-08-12 09:54:08.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -778,9 +778,9 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 06:36:48.807 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100_17948355741
-2026-06-29 06:36:48.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat
-2026-06-29 06:36:48.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-08-12 09:54:08.613 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100_17948355741
+2026-08-12 09:54:08.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-08-12 09:54:08.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -799,9 +799,9 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 06:36:48.874 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100ByArtistName_14389298722
-2026-06-29 06:36:48.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat
-2026-06-29 06:36:48.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-08-12 09:54:08.683 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100ByArtistName_14389298722
+2026-08-12 09:54:08.684 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-08-12 09:54:08.684 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -820,9 +820,9 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 06:36:48.939 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getAlbums_6013155713
-2026-06-29 06:36:48.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat
-2026-06-29 06:36:48.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-08-12 09:54:08.742 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getAlbums_6013155713
+2026-08-12 09:54:08.743 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-08-12 09:54:08.743 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -841,21 +841,21 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 06:36:49.001 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getSongs_2944918734
-2026-06-29 06:36:49.056 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_init_11718905705
-2026-06-29 06:36:49.121 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100_17948355746
-2026-06-29 06:36:49.196 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100ByArtistName_14389298727
-2026-06-29 06:36:49.243 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getAlbums_6013155718
-2026-06-29 06:36:49.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getSongs_2944918739
-2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void: null
-2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat: null
-2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
-2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
-2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
-2026-06-29 06:36:49.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void processing is finished normally
-2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat processing is finished normally
-2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
-2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
-2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
-2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 09:54:08.806 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getSongs_2944918734
+2026-08-12 09:54:08.869 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_init_11718905705
+2026-08-12 09:54:08.944 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100_17948355746
+2026-08-12 09:54:08.991 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100ByArtistName_14389298727
+2026-08-12 09:54:09.048 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getAlbums_6013155718
+2026-08-12 09:54:09.094 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getSongs_2944918739
+2026-08-12 09:54:09.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void: null
+2026-08-12 09:54:09.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat: null
+2026-08-12 09:54:09.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
+2026-08-12 09:54:09.095 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
+2026-08-12 09:54:09.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void processing is finished normally
+2026-08-12 09:54:09.096 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
+2026-08-12 09:54:09.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat processing is finished normally
+2026-08-12 09:54:09.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
+2026-08-12 09:54:09.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
+2026-08-12 09:54:09.096 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
+2026-08-12 09:54:09.096 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 09:54:09.096 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

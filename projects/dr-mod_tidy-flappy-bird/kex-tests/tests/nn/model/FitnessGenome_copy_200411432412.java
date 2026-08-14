@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FitnessGenome_copy_200411432412 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term11003;
+     Object term11000;
 
     public FitnessGenome_copy_200411432412() {
     }
@@ -31,9 +31,9 @@ public class FitnessGenome_copy_200411432412 {
 
     @Before
     public void setup() throws Throwable {
-        term11003 = newInstance(Class.forName("nn.model.FitnessGenome"));
-        setField(term11003, term11003.getClass(), "genome", null);
-        setDoubleField(term11003, term11003.getClass(), "fitness", 0.0);
+        term11000 = newInstance(Class.forName("nn.model.FitnessGenome"));
+        setField(term11000, term11000.getClass(), "genome", null);
+        setDoubleField(term11000, term11000.getClass(), "fitness", 0.0);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class FitnessGenome_copy_200411432412 {
         Class<?> klass = Class.forName("nn.model.FitnessGenome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "copy", argTypes, term11003, args);
+        callMethod(klass, "copy", argTypes, term11000, args);
     }
 
 };

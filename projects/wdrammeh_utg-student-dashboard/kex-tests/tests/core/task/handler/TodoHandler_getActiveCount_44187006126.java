@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TodoHandler_getActiveCount_44187006126 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term16992;
+     Object term16984;
 
     public TodoHandler_getActiveCount_44187006126() {
     }
@@ -31,7 +31,7 @@ public class TodoHandler_getActiveCount_44187006126 {
 
     @Before
     public void setup() throws Throwable {
-        term16992 = newInstance(Class.forName("core.task.handler.TodoHandler"));
+        term16984 = newInstance(Class.forName("core.task.handler.TodoHandler"));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class TodoHandler_getActiveCount_44187006126 {
         Class<?> klass = Class.forName("core.task.handler.TodoHandler");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getActiveCount", argTypes, term16992, args);
+        callMethod(klass, "getActiveCount", argTypes, term16984, args);
     }
 
 };

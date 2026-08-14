@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class Department_setDname_19559578336 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5306;
+     Object term5308;
 
     public Department_setDname_19559578336() {
     }
@@ -38,15 +38,15 @@ public class Department_setDname_19559578336 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term5307 = new Integer(-255317272);
-        HashMap term5334 = new HashMap();
-        Set<Object> term5376 =  ((Map) term5334).keySet();
-        HashSet term5333 = new HashSet((Collection<? extends Object>) term5376);
-        term5306 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        setField(term5306, term5306.getClass(), "deptno", term5307);
-        setField(term5306, term5306.getClass(), "dname", "xzGnrvbExX");
-        setField(term5306, term5306.getClass(), "loc", "LFZNDELxUZ");
-        setField(term5306, term5306.getClass(), "employees", term5333);
+        Integer term5309 = new Integer(-255317272);
+        HashMap term5336 = new HashMap();
+        Set<Object> term5378 =  ((Map) term5336).keySet();
+        HashSet term5335 = new HashSet((Collection<? extends Object>) term5378);
+        term5308 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        setField(term5308, term5308.getClass(), "deptno", term5309);
+        setField(term5308, term5308.getClass(), "dname", "xzGnrvbExX");
+        setField(term5308, term5308.getClass(), "loc", "LFZNDELxUZ");
+        setField(term5308, term5308.getClass(), "employees", term5335);
     }
 
     @Test
@@ -56,7 +56,7 @@ public class Department_setDname_19559578336 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = "PsTQDxNIld";
-        callMethod(klass, "setDname", argTypes, term5306, args);
+        callMethod(klass, "setDname", argTypes, term5308, args);
     }
 
 };

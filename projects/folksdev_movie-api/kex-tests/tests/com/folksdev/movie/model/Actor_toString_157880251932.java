@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Actor_toString_157880251932 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34376;
+     Object term34375;
 
     public Actor_toString_157880251932() {
     }
@@ -31,12 +31,12 @@ public class Actor_toString_157880251932 {
 
     @Before
     public void setup() throws Throwable {
-        term34376 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        setField(term34376, term34376.getClass(), "id", null);
-        setField(term34376, term34376.getClass(), "name", null);
-        setField(term34376, term34376.getClass(), "dateOfBirth", null);
-        setField(term34376, term34376.getClass(), "gender", null);
-        setField(term34376, term34376.getClass(), "movies", null);
+        term34375 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        setField(term34375, term34375.getClass(), "id", null);
+        setField(term34375, term34375.getClass(), "name", null);
+        setField(term34375, term34375.getClass(), "dateOfBirth", null);
+        setField(term34375, term34375.getClass(), "gender", null);
+        setField(term34375, term34375.getClass(), "movies", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Actor_toString_157880251932 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.Actor");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term34376, args);
+        callMethod(klass, "toString", argTypes, term34375, args);
     }
 
 };

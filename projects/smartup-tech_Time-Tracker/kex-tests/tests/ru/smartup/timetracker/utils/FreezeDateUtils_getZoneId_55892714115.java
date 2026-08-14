@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeDateUtils_getZoneId_55892714115 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3545;
+     Object term3949;
 
     public FreezeDateUtils_getZoneId_55892714115() {
     }
@@ -31,8 +31,8 @@ public class FreezeDateUtils_getZoneId_55892714115 {
 
     @Before
     public void setup() throws Throwable {
-        term3545 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
-        setField(term3545, term3545.getClass(), "freezeProperties", null);
+        term3949 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
+        setField(term3949, term3949.getClass(), "freezeProperties", null);
     }
 
     @Test
@@ -40,7 +40,7 @@ public class FreezeDateUtils_getZoneId_55892714115 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getZoneId", argTypes, term3545, args);
+        callMethod(klass, "getZoneId", argTypes, term3949, args);
     }
 
 };

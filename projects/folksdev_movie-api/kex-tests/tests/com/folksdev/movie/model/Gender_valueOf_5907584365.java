@@ -33,10 +33,10 @@ public class Gender_valueOf_5907584365 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term24919 = Class.forName((String) "com.folksdev.movie.model.Gender");
-        Field term24918 = ((Class) term24919).getDeclaredField((String) "FEMALE");
-        ((Field) term24918).setAccessible(true);
-        enum98 = ((Field) term24918).get((Object) null);
+        Class<? extends Object> term24918 = Class.forName((String) "com.folksdev.movie.model.Gender");
+        Field term24917 = ((Class) term24918).getDeclaredField((String) "FEMALE");
+        ((Field) term24917).setAccessible(true);
+        enum98 = ((Field) term24917).get((Object) null);
     }
 
     @Test

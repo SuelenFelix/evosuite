@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TodoHandler_deserialize_130412657327 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term16993;
+     Object term16985;
 
     public TodoHandler_deserialize_130412657327() {
     }
@@ -31,7 +31,7 @@ public class TodoHandler_deserialize_130412657327 {
 
     @Before
     public void setup() throws Throwable {
-        term16993 = newInstance(Class.forName("core.task.handler.TodoHandler"));
+        term16985 = newInstance(Class.forName("core.task.handler.TodoHandler"));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class TodoHandler_deserialize_130412657327 {
         Class<?> klass = Class.forName("core.task.handler.TodoHandler");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "deserialize", argTypes, term16993, args);
+        callMethod(klass, "deserialize", argTypes, term16985, args);
     }
 
 };

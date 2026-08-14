@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class CreateTestimonialUseCaseService_create_9344410522 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term142;
+     Object term59399;
 
     public CreateTestimonialUseCaseService_create_9344410522() {
     }
@@ -31,8 +31,8 @@ public class CreateTestimonialUseCaseService_create_9344410522 {
 
     @Before
     public void setup() throws Throwable {
-        term142 = newInstance(Class.forName("com.alkemy.ong.application.service.testimonial.CreateTestimonialUseCaseService"));
-        setField(term142, term142.getClass(), "testimonialRepository", null);
+        term59399 = newInstance(Class.forName("com.alkemy.ong.application.service.testimonial.CreateTestimonialUseCaseService"));
+        setField(term59399, term59399.getClass(), "testimonialRepository", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class CreateTestimonialUseCaseService_create_9344410522 {
         argTypes[0] = Class.forName("com.alkemy.ong.domain.Testimonial");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "create", argTypes, term142, args);
+        callMethod(klass, "create", argTypes, term59399, args);
     }
 
 };

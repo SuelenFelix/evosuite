@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class ScheduleFreezeProperties_init_11150586224 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term249;
-     Object term251;
+     Object term639;
+     Object term641;
 
     public ScheduleFreezeProperties_init_11150586224() {
     }
@@ -33,8 +33,8 @@ public class ScheduleFreezeProperties_init_11150586224 {
 
     @Before
     public void setup() throws Throwable {
-        term249 = new Integer(0);
-        term251 = new Integer(0);
+        term639 = new Integer(0);
+        term641 = new Integer(0);
     }
 
     @Test
@@ -46,8 +46,8 @@ public class ScheduleFreezeProperties_init_11150586224 {
         argTypes[2] = int.class;
         Object[] args = new Object[3];
         args[0] = null;
-        args[1] = term249;
-        args[2] = term251;
+        args[1] = term639;
+        args[2] = term641;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

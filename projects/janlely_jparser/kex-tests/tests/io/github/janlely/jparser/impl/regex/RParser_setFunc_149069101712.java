@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class RParser_setFunc_149069101712 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term14093;
+     Object term23930;
 
     public RParser_setFunc_149069101712() {
     }
@@ -33,16 +33,16 @@ public class RParser_setFunc_149069101712 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term14106 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
-        Field term14105 = ((Class) term14106).getDeclaredField((String) "GROUP");
-        ((Field) term14105).setAccessible(true);
-        Object enum46 = ((Field) term14105).get((Object) null);
-        term14093 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
-        setField(term14093, term14093.getClass(), "type", enum46);
-        setIntField(term14093, term14093.getClass(), "quoteId", 1876565163);
-        setIntField(term14093, term14093.getClass(), "groupId", -817164822);
-        setField(term14093, term14093.getClass(), "parser", null);
-        setField(term14093, term14093.getClass(), "func", null);
+        Class<? extends Object> term23943 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
+        Field term23942 = ((Class) term23943).getDeclaredField((String) "START");
+        ((Field) term23942).setAccessible(true);
+        Object enum66 = ((Field) term23942).get((Object) null);
+        term23930 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
+        setField(term23930, term23930.getClass(), "type", enum66);
+        setIntField(term23930, term23930.getClass(), "quoteId", -1747406163);
+        setIntField(term23930, term23930.getClass(), "groupId", 388157121);
+        setField(term23930, term23930.getClass(), "parser", null);
+        setField(term23930, term23930.getClass(), "func", null);
     }
 
     @Test
@@ -52,7 +52,7 @@ public class RParser_setFunc_149069101712 {
         argTypes[0] = Class.forName("java.util.function.Function");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setFunc", argTypes, term14093, args);
+        callMethod(klass, "setFunc", argTypes, term23930, args);
     }
 
 };

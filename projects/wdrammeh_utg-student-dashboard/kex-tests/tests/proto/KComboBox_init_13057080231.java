@@ -22,8 +22,8 @@ import java.lang.Integer;
 
 public class KComboBox_init_13057080231 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term9870;
-     Object term9881;
+     Object term9879;
+     Object term9882;
 
     public KComboBox_init_13057080231() {
     }
@@ -34,28 +34,12 @@ public class KComboBox_init_13057080231 {
 
     @Before
     public void setup() throws Throwable {
-        term9870 = (Object[]) newArray("java.lang.Object", 10);
-        Object term9871 = newInstance(Class.forName("java.lang.Object"));
-        Object term9872 = newInstance(Class.forName("java.lang.Object"));
-        Object term9873 = newInstance(Class.forName("java.lang.Object"));
-        Object term9874 = newInstance(Class.forName("java.lang.Object"));
-        Object term9875 = newInstance(Class.forName("java.lang.Object"));
-        Object term9876 = newInstance(Class.forName("java.lang.Object"));
-        Object term9877 = newInstance(Class.forName("java.lang.Object"));
-        Object term9878 = newInstance(Class.forName("java.lang.Object"));
-        Object term9879 = newInstance(Class.forName("java.lang.Object"));
+        term9879 = (Object[]) newArray("java.lang.Object", 2);
         Object term9880 = newInstance(Class.forName("java.lang.Object"));
-        setElement(term9870, 0, term9871);
-        setElement(term9870, 1, term9872);
-        setElement(term9870, 2, term9873);
-        setElement(term9870, 3, term9874);
-        setElement(term9870, 4, term9875);
-        setElement(term9870, 5, term9876);
-        setElement(term9870, 6, term9877);
-        setElement(term9870, 7, term9878);
-        setElement(term9870, 8, term9879);
-        setElement(term9870, 9, term9880);
-        term9881 = new Integer(-1048298087);
+        Object term9881 = newInstance(Class.forName("java.lang.Object"));
+        setElement(term9879, 0, term9880);
+        setElement(term9879, 1, term9881);
+        term9882 = new Integer(-1048298087);
     }
 
     @Test
@@ -65,8 +49,8 @@ public class KComboBox_init_13057080231 {
         argTypes[0] = Array.newInstance(Class.forName("java.lang.Object"), 0).getClass();
         argTypes[1] = int.class;
         Object[] args = new Object[2];
-        args[0] = term9870;
-        args[1] = term9881;
+        args[0] = term9879;
+        args[1] = term9882;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

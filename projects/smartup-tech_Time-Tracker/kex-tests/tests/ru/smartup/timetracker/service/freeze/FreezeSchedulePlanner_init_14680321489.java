@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class FreezeSchedulePlanner_init_14680321489 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term6465;
+     Object term6646;
 
     public FreezeSchedulePlanner_init_14680321489() {
     }
@@ -32,57 +32,57 @@ public class FreezeSchedulePlanner_init_14680321489 {
 
     @Before
     public void setup() throws Throwable {
-        term6465 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
-        Object term6466 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
-        Object term6467 = newInstance(Class.forName("java.time.ZoneRegion"));
-        Object term6480 = newInstance(Class.forName("java.time.zone.ZoneRules"));
-        long[] term6481 = (long[]) newLongArray(1);
-        Object[] term6483 = (Object[]) newArray("java.time.ZoneOffset", 2);
-        long[] term6484 = (long[]) newLongArray(9);
-        Object[] term6494 = (Object[]) newArray("java.time.LocalDateTime", 18);
-        Object[] term6495 = (Object[]) newArray("java.time.ZoneOffset", 10);
-        Object[] term6496 = (Object[]) newArray("java.time.zone.ZoneOffsetTransitionRule", 0);
-        Object term6497 = newInstance(Class.forName("java.util.concurrent.ConcurrentHashMap"));
-        Object term6502 = newInstance(Class.forName("java.time.LocalTime"));
-        setField(term6467, term6467.getClass(), "id", "Asia/Tokyo");
-        setLongElement(term6481, 0, -2587712400L);
-        setField(term6480, term6480.getClass(), "standardTransitions", term6481);
-        setField(term6480, term6480.getClass(), "standardOffsets", term6483);
-        setLongElement(term6484, 0, -2587712400L);
-        setLongElement(term6484, 1, -683802000L);
-        setLongElement(term6484, 2, -672310800L);
-        setLongElement(term6484, 3, -654771600L);
-        setLongElement(term6484, 4, -640861200L);
-        setLongElement(term6484, 5, -620298000L);
-        setLongElement(term6484, 6, -609411600L);
-        setLongElement(term6484, 7, -588848400L);
-        setLongElement(term6484, 8, -577962000L);
-        setField(term6480, term6480.getClass(), "savingsInstantTransitions", term6484);
-        setField(term6480, term6480.getClass(), "savingsLocalTransitions", term6494);
-        setField(term6480, term6480.getClass(), "wallOffsets", term6495);
-        setField(term6480, term6480.getClass(), "lastRules", term6496);
-        setField(term6497, term6497.getClass(), "table", null);
-        setField(term6497, term6497.getClass(), "nextTable", null);
-        setLongField(term6497, term6497.getClass(), "baseCount", 0L);
-        setIntField(term6497, term6497.getClass(), "sizeCtl", 0);
-        setIntField(term6497, term6497.getClass(), "transferIndex", 0);
-        setIntField(term6497, term6497.getClass(), "cellsBusy", 0);
-        setField(term6497, term6497.getClass(), "counterCells", null);
-        setField(term6497, term6497.getClass(), "keySet", null);
-        setField(term6497, term6497.getClass(), "values", null);
-        setField(term6497, term6497.getClass(), "entrySet", null);
-        setField(term6497, term6497.getClass(), "keySet", null);
-        setField(term6497, term6497.getClass(), "values", null);
-        setField(term6480, term6480.getClass(), "lastRulesCache", term6497);
-        setField(term6467, term6467.getClass(), "rules", term6480);
-        setField(term6466, term6466.getClass(), "timeZone", term6467);
-        setByteField(term6502, term6502.getClass(), "hour", (byte) 3);
-        setByteField(term6502, term6502.getClass(), "minute", (byte) 14);
-        setByteField(term6502, term6502.getClass(), "second", (byte) 8);
-        setIntField(term6502, term6502.getClass(), "nano", 530944947);
-        setField(term6466, term6466.getClass(), "fixedTimeFreeze", term6502);
-        setIntField(term6466, term6466.getClass(), "dayToUnfreeze", 1460722225);
-        setField(term6465, term6465.getClass(), "freezeProperties", term6466);
+        term6646 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
+        Object term6647 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
+        Object term6648 = newInstance(Class.forName("java.time.ZoneRegion"));
+        Object term6663 = newInstance(Class.forName("java.time.zone.ZoneRules"));
+        long[] term6664 = (long[]) newLongArray(3);
+        Object[] term6668 = (Object[]) newArray("java.time.ZoneOffset", 4);
+        long[] term6669 = (long[]) newLongArray(7);
+        Object[] term6677 = (Object[]) newArray("java.time.LocalDateTime", 14);
+        Object[] term6678 = (Object[]) newArray("java.time.ZoneOffset", 8);
+        Object[] term6679 = (Object[]) newArray("java.time.zone.ZoneOffsetTransitionRule", 0);
+        Object term6680 = newInstance(Class.forName("java.util.concurrent.ConcurrentHashMap"));
+        Object term6685 = newInstance(Class.forName("java.time.LocalTime"));
+        setField(term6648, term6648.getClass(), "id", "Asia/Kolkata");
+        setLongElement(term6664, 0, -3645237208L);
+        setLongElement(term6664, 1, -3155694800L);
+        setLongElement(term6664, 2, -2019705670L);
+        setField(term6663, term6663.getClass(), "standardTransitions", term6664);
+        setField(term6663, term6663.getClass(), "standardOffsets", term6668);
+        setLongElement(term6669, 0, -3645237208L);
+        setLongElement(term6669, 1, -3155694800L);
+        setLongElement(term6669, 2, -2019705670L);
+        setLongElement(term6669, 3, -891581400L);
+        setLongElement(term6669, 4, -872058600L);
+        setLongElement(term6669, 5, -862637400L);
+        setLongElement(term6669, 6, -764145000L);
+        setField(term6663, term6663.getClass(), "savingsInstantTransitions", term6669);
+        setField(term6663, term6663.getClass(), "savingsLocalTransitions", term6677);
+        setField(term6663, term6663.getClass(), "wallOffsets", term6678);
+        setField(term6663, term6663.getClass(), "lastRules", term6679);
+        setField(term6680, term6680.getClass(), "table", null);
+        setField(term6680, term6680.getClass(), "nextTable", null);
+        setLongField(term6680, term6680.getClass(), "baseCount", 0L);
+        setIntField(term6680, term6680.getClass(), "sizeCtl", 0);
+        setIntField(term6680, term6680.getClass(), "transferIndex", 0);
+        setIntField(term6680, term6680.getClass(), "cellsBusy", 0);
+        setField(term6680, term6680.getClass(), "counterCells", null);
+        setField(term6680, term6680.getClass(), "keySet", null);
+        setField(term6680, term6680.getClass(), "values", null);
+        setField(term6680, term6680.getClass(), "entrySet", null);
+        setField(term6680, term6680.getClass(), "keySet", null);
+        setField(term6680, term6680.getClass(), "values", null);
+        setField(term6663, term6663.getClass(), "lastRulesCache", term6680);
+        setField(term6648, term6648.getClass(), "rules", term6663);
+        setField(term6647, term6647.getClass(), "timeZone", term6648);
+        setByteField(term6685, term6685.getClass(), "hour", (byte) 3);
+        setByteField(term6685, term6685.getClass(), "minute", (byte) 14);
+        setByteField(term6685, term6685.getClass(), "second", (byte) 8);
+        setIntField(term6685, term6685.getClass(), "nano", 530944947);
+        setField(term6647, term6647.getClass(), "fixedTimeFreeze", term6685);
+        setIntField(term6647, term6647.getClass(), "dayToUnfreeze", 1460722225);
+        setField(term6646, term6646.getClass(), "freezeProperties", term6647);
     }
 
     @Test
@@ -95,7 +95,7 @@ public class FreezeSchedulePlanner_init_14680321489 {
         argTypes[3] = Class.forName("ru.smartup.timetracker.service.TrackUnitService");
         Object[] args = new Object[4];
         args[0] = null;
-        args[1] = term6465;
+        args[1] = term6646;
         args[2] = null;
         args[3] = null;
         Object instance = callConstructor(klass, argTypes, args);

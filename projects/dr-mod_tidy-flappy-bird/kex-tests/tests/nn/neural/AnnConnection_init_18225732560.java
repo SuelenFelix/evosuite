@@ -21,7 +21,7 @@ import java.lang.Double;
 
 public class AnnConnection_init_18225732560 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3145;
+     Object term3143;
 
     public AnnConnection_init_18225732560() {
     }
@@ -32,7 +32,7 @@ public class AnnConnection_init_18225732560 {
 
     @Before
     public void setup() throws Throwable {
-        term3145 = new Double(0.3483938514131425);
+        term3143 = new Double(0.3483938514131425);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class AnnConnection_init_18225732560 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = double.class;
         Object[] args = new Object[1];
-        args[0] = term3145;
+        args[0] = term3143;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

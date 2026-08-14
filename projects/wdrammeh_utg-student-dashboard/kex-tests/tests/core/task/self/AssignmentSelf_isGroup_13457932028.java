@@ -394,7 +394,7 @@ public class AssignmentSelf_isGroup_13457932028 {
         setField(term6247, term6247.getClass(), "keySet", null);
         setField(term6247, term6247.getClass(), "values", null);
         setField(term6236, term6236.getClass(), "moduleToReader", term6247);
-        setLongField(term6252, term6252.getClass(), "timestamp", 164121481L);
+        setLongField(term6252, term6252.getClass(), "timestamp", 52399524L);
         setField(term6252, term6252.getClass(), "referent", null);
         setField(term6252, term6252.getClass(), "queue", null);
         setField(term6252, term6252.getClass(), "next", null);

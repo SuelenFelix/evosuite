@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class GatchaUser_getId_1968308004 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term173;
+     Object term175;
 
     public GatchaUser_getId_1968308004() {
     }
@@ -38,21 +38,21 @@ public class GatchaUser_getId_1968308004 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term174 = new Integer(-73683645);
-        Integer term177 = new Integer(-226514366);
-        HashMap term192 = new HashMap();
-        Set<Object> term233 =  ((Map) term192).keySet();
-        HashSet term191 = new HashSet((Collection<? extends Object>) term233);
-        term173 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser"));
-        Object term176 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
-        setField(term173, term173.getClass(), "id", term174);
-        setField(term176, term176.getClass(), "id", term177);
-        setField(term176, term176.getClass(), "role", "YRHGsAkhxb");
-        setField(term176, term176.getClass(), "users", term191);
-        setField(term173, term173.getClass(), "authority", term176);
-        setField(term173, term173.getClass(), "email", "HqBOwkVqjD");
-        setField(term173, term173.getClass(), "password", "MAcUBcBckh");
-        setBooleanField(term173, term173.getClass(), "enabled", true);
+        Integer term176 = new Integer(-73683645);
+        Integer term179 = new Integer(-226514366);
+        HashMap term194 = new HashMap();
+        Set<Object> term235 =  ((Map) term194).keySet();
+        HashSet term193 = new HashSet((Collection<? extends Object>) term235);
+        term175 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser"));
+        Object term178 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
+        setField(term175, term175.getClass(), "id", term176);
+        setField(term178, term178.getClass(), "id", term179);
+        setField(term178, term178.getClass(), "role", "YRHGsAkhxb");
+        setField(term178, term178.getClass(), "users", term193);
+        setField(term175, term175.getClass(), "authority", term178);
+        setField(term175, term175.getClass(), "email", "HqBOwkVqjD");
+        setField(term175, term175.getClass(), "password", "MAcUBcBckh");
+        setBooleanField(term175, term175.getClass(), "enabled", true);
     }
 
     @Test
@@ -60,7 +60,7 @@ public class GatchaUser_getId_1968308004 {
         Class<?> klass = Class.forName("codeit.gatcha.domain.user.entity.GatchaUser");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getId", argTypes, term173, args);
+        callMethod(klass, "getId", argTypes, term175, args);
     }
 
 };

@@ -175,7 +175,7 @@ public class NeuralNetwork_init_8076677310 {
         setField(term430, term430.getClass(), "nodeInnovator", term510);
         setIntField(term512, term512.getClass(), "counter", 100);
         setField(term430, term430.getClass(), "connectionInnovator", term512);
-        setLongField(term515, term515.getClass(), "value", 105475470355624L);
+        setLongField(term515, term515.getClass(), "value", 268532915045143L);
         setField(term514, term514.getClass(), "seed", term515);
         setDoubleField(term514, term514.getClass(), "nextNextGaussian", 0.8598297828918529);
         setBooleanField(term514, term514.getClass(), "haveNextNextGaussian", false);

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TrackUnitService_getSubmittedHoursByProjects_54824092510 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3290;
+     Object term3266;
 
     public TrackUnitService_getSubmittedHoursByProjects_54824092510() {
     }
@@ -31,9 +31,9 @@ public class TrackUnitService_getSubmittedHoursByProjects_54824092510 {
 
     @Before
     public void setup() throws Throwable {
-        term3290 = newInstance(Class.forName("java.sql.Date"));
-        setLongField(term3290, term3290.getClass(), "fastTime", 1480438351369L);
-        setField(term3290, term3290.getClass(), "cdate", null);
+        term3266 = newInstance(Class.forName("java.sql.Date"));
+        setLongField(term3266, term3266.getClass(), "fastTime", 1480438351369L);
+        setField(term3266, term3266.getClass(), "cdate", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class TrackUnitService_getSubmittedHoursByProjects_54824092510 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.sql.Date");
         Object[] args = new Object[1];
-        args[0] = term3290;
+        args[0] = term3266;
         callMethod(klass, "getSubmittedHoursByProjects", argTypes, null, args);
     }
 

@@ -396,7 +396,7 @@ public class TodoSelf_getSpecifiedDuration_96552888212 {
         setField(term87451, term87451.getClass(), "keySet", null);
         setField(term87451, term87451.getClass(), "values", null);
         setField(term87440, term87440.getClass(), "moduleToReader", term87451);
-        setLongField(term87456, term87456.getClass(), "timestamp", 164138908L);
+        setLongField(term87456, term87456.getClass(), "timestamp", 52416658L);
         setField(term87456, term87456.getClass(), "referent", null);
         setField(term87456, term87456.getClass(), "queue", null);
         setField(term87456, term87456.getClass(), "next", null);

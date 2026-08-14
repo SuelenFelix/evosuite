@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class RelatedEntitiesFoundException_getEntities_6683480104 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term320687;
+     Object term319934;
 
     public RelatedEntitiesFoundException_getEntities_6683480104() {
     }
@@ -31,15 +31,15 @@ public class RelatedEntitiesFoundException_getEntities_6683480104 {
 
     @Before
     public void setup() throws Throwable {
-        term320687 = newInstance(Class.forName("ru.smartup.timetracker.exception.RelatedEntitiesFoundException"));
-        setField(term320687, term320687.getClass(), "errorCode", null);
-        setField(term320687, term320687.getClass(), "entities", null);
-        setField(term320687, term320687.getClass(), "backtrace", null);
-        setField(term320687, term320687.getClass(), "detailMessage", null);
-        setField(term320687, term320687.getClass(), "cause", null);
-        setField(term320687, term320687.getClass(), "stackTrace", null);
-        setIntField(term320687, term320687.getClass(), "depth", 0);
-        setField(term320687, term320687.getClass(), "suppressedExceptions", null);
+        term319934 = newInstance(Class.forName("ru.smartup.timetracker.exception.RelatedEntitiesFoundException"));
+        setField(term319934, term319934.getClass(), "errorCode", null);
+        setField(term319934, term319934.getClass(), "entities", null);
+        setField(term319934, term319934.getClass(), "backtrace", null);
+        setField(term319934, term319934.getClass(), "detailMessage", null);
+        setField(term319934, term319934.getClass(), "cause", null);
+        setField(term319934, term319934.getClass(), "stackTrace", null);
+        setIntField(term319934, term319934.getClass(), "depth", 0);
+        setField(term319934, term319934.getClass(), "suppressedExceptions", null);
     }
 
     @Test
@@ -47,7 +47,7 @@ public class RelatedEntitiesFoundException_getEntities_6683480104 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.exception.RelatedEntitiesFoundException");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getEntities", argTypes, term320687, args);
+        callMethod(klass, "getEntities", argTypes, term319934, args);
     }
 
 };

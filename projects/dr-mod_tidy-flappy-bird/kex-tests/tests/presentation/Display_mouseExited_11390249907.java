@@ -133,7 +133,7 @@ public class Display_mouseExited_11390249907 {
         setIntField(term1251, term1251.getClass(), "yOpeningEnd", -310648604);
         setIntField(term1251, term1251.getClass(), "width", -648200466);
         setField(term1240, term1240.getClass(), "lastPipe", term1251);
-        setLongField(term1257, term1257.getClass(), "value", 121117003775494L);
+        setLongField(term1257, term1257.getClass(), "value", 217640617811716L);
         setField(term1256, term1256.getClass(), "seed", term1257);
         setDoubleField(term1256, term1256.getClass(), "nextNextGaussian", 0.5279279537140873);
         setBooleanField(term1256, term1256.getClass(), "haveNextNextGaussian", false);

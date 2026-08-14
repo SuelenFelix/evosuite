@@ -122,7 +122,7 @@ public class SettingsActivity_newContactLabel_10150307593 {
         setBooleanField(term3915, term3915.getClass(), "reflectTheme", true);
         setBooleanField(term3915, term3915.getClass(), "isAlignmentXSet", false);
         setFloatField(term3915, term3915.getClass(), "alignmentX", 0.51832694F);
-        setBooleanField(term3915, term3915.getClass(), "isAlignmentYSet", true);
+        setBooleanField(term3915, term3915.getClass(), "isAlignmentYSet", false);
         setFloatField(term3915, term3915.getClass(), "alignmentY", 0.97262454F);
         setField(term3915, term3915.getClass(), "ui", term3921);
         setField(term3922, term3922.getClass(), "listenerList", term3923);
@@ -133,7 +133,7 @@ public class SettingsActivity_newContactLabel_10150307593 {
         setField(term3926, term3926.getClass(), "map", term3927);
         setField(term3926, term3926.getClass(), "source", term3928);
         setField(term3915, term3915.getClass(), "vetoableChangeSupport", term3926);
-        setBooleanField(term3915, term3915.getClass(), "autoscrolls", true);
+        setBooleanField(term3915, term3915.getClass(), "autoscrolls", false);
         setField(term3915, term3915.getClass(), "border", null);
         setIntField(term3915, term3915.getClass(), "flags", 9);
         setField(term3915, term3915.getClass(), "inputVerifier", null);
@@ -330,7 +330,7 @@ public class SettingsActivity_newContactLabel_10150307593 {
         setIntField(term4033, term4033.getClass(), "depth", 24);
         setIntField(term4033, term4033.getClass(), "colormap", 32);
         setField(term4033, term4033.getClass(), "colorModel", null);
-        setLongField(term4033, term4033.getClass(), "aData", 128935589666736L);
+        setLongField(term4033, term4033.getClass(), "aData", 139180093218656L);
         setBooleanField(term4033, term4033.getClass(), "doubleBuffer", true);
         setField(term4033, term4033.getClass(), "disposerReferent", term4043);
         setField(term4033, term4033.getClass(), "bufferCaps", null);

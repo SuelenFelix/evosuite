@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class EscapeToken_valueOf_21138775005 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object enum27;
+     Object enum48;
 
     public EscapeToken_valueOf_21138775005() {
     }
@@ -33,10 +33,10 @@ public class EscapeToken_valueOf_21138775005 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term8423 = Class.forName((String) "io.github.janlely.jparser.impl.regex.EscapeToken");
-        Field term8422 = ((Class) term8423).getDeclaredField((String) "QUESTION_MARK");
-        ((Field) term8422).setAccessible(true);
-        enum27 = ((Field) term8422).get((Object) null);
+        Class<? extends Object> term18558 = Class.forName((String) "io.github.janlely.jparser.impl.regex.EscapeToken");
+        Field term18557 = ((Class) term18558).getDeclaredField((String) "LEFT_BRACKET");
+        ((Field) term18557).setAccessible(true);
+        enum48 = ((Field) term18557).get((Object) null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class EscapeToken_valueOf_21138775005 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "valueOf", argTypes, enum27, args);
+        callMethod(klass, "valueOf", argTypes, enum48, args);
     }
 
 };

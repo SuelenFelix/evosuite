@@ -45,7 +45,7 @@ public class SettingsActivity_1_setText_19668606551 {
         setField(term355, term355.getClass(), "text", "NRdvgJlhkX");
         setField(term355, term355.getClass(), "defaultIcon", null);
         setField(term355, term355.getClass(), "disabledIcon", null);
-        setBooleanField(term355, term355.getClass(), "disabledIconSet", false);
+        setBooleanField(term355, term355.getClass(), "disabledIconSet", true);
         setIntField(term355, term355.getClass(), "verticalAlignment", -1016503459);
         setIntField(term355, term355.getClass(), "horizontalAlignment", -1968847291);
         setIntField(term355, term355.getClass(), "verticalTextPosition", 579005622);
@@ -65,7 +65,7 @@ public class SettingsActivity_1_setText_19668606551 {
         setField(term384, term384.getClass(), "map", term385);
         setField(term384, term384.getClass(), "source", term386);
         setField(term355, term355.getClass(), "vetoableChangeSupport", term384);
-        setBooleanField(term355, term355.getClass(), "autoscrolls", true);
+        setBooleanField(term355, term355.getClass(), "autoscrolls", false);
         setField(term355, term355.getClass(), "border", null);
         setIntField(term355, term355.getClass(), "flags", -1786399638);
         setField(term355, term355.getClass(), "inputVerifier", null);

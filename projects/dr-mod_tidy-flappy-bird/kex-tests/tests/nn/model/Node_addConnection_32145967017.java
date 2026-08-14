@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Node_addConnection_32145967017 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term18783;
+     Object term18799;
 
     public Node_addConnection_32145967017() {
     }
@@ -31,11 +31,11 @@ public class Node_addConnection_32145967017 {
 
     @Before
     public void setup() throws Throwable {
-        term18783 = newInstance(Class.forName("nn.model.Node"));
-        setField(term18783, term18783.getClass(), "type", null);
-        setIntField(term18783, term18783.getClass(), "innovation", 0);
-        setField(term18783, term18783.getClass(), "connections", null);
-        setDoubleField(term18783, term18783.getClass(), "bias", 0.0);
+        term18799 = newInstance(Class.forName("nn.model.Node"));
+        setField(term18799, term18799.getClass(), "type", null);
+        setIntField(term18799, term18799.getClass(), "innovation", 0);
+        setField(term18799, term18799.getClass(), "connections", null);
+        setDoubleField(term18799, term18799.getClass(), "bias", 0.0);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Node_addConnection_32145967017 {
         argTypes[0] = Class.forName("nn.model.Connection");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "addConnection", argTypes, term18783, args);
+        callMethod(klass, "addConnection", argTypes, term18799, args);
     }
 
 };

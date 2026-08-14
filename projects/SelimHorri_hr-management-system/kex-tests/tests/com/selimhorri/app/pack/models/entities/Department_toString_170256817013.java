@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Department_toString_170256817013 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5712;
+     Object term5721;
 
     public Department_toString_170256817013() {
     }
@@ -31,11 +31,11 @@ public class Department_toString_170256817013 {
 
     @Before
     public void setup() throws Throwable {
-        term5712 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        setField(term5712, term5712.getClass(), "deptno", null);
-        setField(term5712, term5712.getClass(), "dname", null);
-        setField(term5712, term5712.getClass(), "loc", null);
-        setField(term5712, term5712.getClass(), "employees", null);
+        term5721 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        setField(term5721, term5721.getClass(), "deptno", null);
+        setField(term5721, term5721.getClass(), "dname", null);
+        setField(term5721, term5721.getClass(), "loc", null);
+        setField(term5721, term5721.getClass(), "employees", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class Department_toString_170256817013 {
         Class<?> klass = Class.forName("com.selimhorri.app.pack.models.entities.Department");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term5712, args);
+        callMethod(klass, "toString", argTypes, term5721, args);
     }
 
 };

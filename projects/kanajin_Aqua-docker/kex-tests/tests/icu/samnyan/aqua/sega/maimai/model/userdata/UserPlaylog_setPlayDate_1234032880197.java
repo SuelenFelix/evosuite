@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class UserPlaylog_setPlayDate_1234032880197 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term176649;
+     Object term4003015;
 
     public UserPlaylog_setPlayDate_1234032880197() {
     }
@@ -31,68 +31,68 @@ public class UserPlaylog_setPlayDate_1234032880197 {
 
     @Before
     public void setup() throws Throwable {
-        term176649 = newInstance(Class.forName("icu.samnyan.aqua.sega.maimai.model.userdata.UserPlaylog"));
-        setLongField(term176649, term176649.getClass(), "id", 0L);
-        setField(term176649, term176649.getClass(), "user", null);
-        setIntField(term176649, term176649.getClass(), "orderId", 0);
-        setLongField(term176649, term176649.getClass(), "sortNumber", 0L);
-        setIntField(term176649, term176649.getClass(), "placeId", 0);
-        setField(term176649, term176649.getClass(), "placeName", null);
-        setField(term176649, term176649.getClass(), "country", null);
-        setIntField(term176649, term176649.getClass(), "regionId", 0);
-        setField(term176649, term176649.getClass(), "playDate", null);
-        setField(term176649, term176649.getClass(), "userPlayDate", null);
-        setIntField(term176649, term176649.getClass(), "musicId", 0);
-        setIntField(term176649, term176649.getClass(), "level", 0);
-        setIntField(term176649, term176649.getClass(), "gameMode", 0);
-        setIntField(term176649, term176649.getClass(), "rivalNum", 0);
-        setIntField(term176649, term176649.getClass(), "track", 0);
-        setIntField(term176649, term176649.getClass(), "eventId", 0);
-        setBooleanField(term176649, term176649.getClass(), "isFreeToPlay", false);
-        setIntField(term176649, term176649.getClass(), "playerRating", 0);
-        setLongField(term176649, term176649.getClass(), "playedUserId1", 0L);
-        setField(term176649, term176649.getClass(), "playedUserName1", null);
-        setIntField(term176649, term176649.getClass(), "playedMusicLevel1", 0);
-        setLongField(term176649, term176649.getClass(), "playedUserId2", 0L);
-        setField(term176649, term176649.getClass(), "playedUserName2", null);
-        setIntField(term176649, term176649.getClass(), "playedMusicLevel2", 0);
-        setLongField(term176649, term176649.getClass(), "playedUserId3", 0L);
-        setField(term176649, term176649.getClass(), "playedUserName3", null);
-        setIntField(term176649, term176649.getClass(), "playedMusicLevel3", 0);
-        setIntField(term176649, term176649.getClass(), "achievement", 0);
-        setIntField(term176649, term176649.getClass(), "score", 0);
-        setIntField(term176649, term176649.getClass(), "tapScore", 0);
-        setIntField(term176649, term176649.getClass(), "holdScore", 0);
-        setIntField(term176649, term176649.getClass(), "slideScore", 0);
-        setIntField(term176649, term176649.getClass(), "breakScore", 0);
-        setIntField(term176649, term176649.getClass(), "syncRate", 0);
-        setIntField(term176649, term176649.getClass(), "vsWin", 0);
-        setBooleanField(term176649, term176649.getClass(), "isAllPerfect", false);
-        setIntField(term176649, term176649.getClass(), "fullCombo", 0);
-        setIntField(term176649, term176649.getClass(), "maxFever", 0);
-        setIntField(term176649, term176649.getClass(), "maxCombo", 0);
-        setIntField(term176649, term176649.getClass(), "tapPerfect", 0);
-        setIntField(term176649, term176649.getClass(), "tapGreat", 0);
-        setIntField(term176649, term176649.getClass(), "tapGood", 0);
-        setIntField(term176649, term176649.getClass(), "tapBad", 0);
-        setIntField(term176649, term176649.getClass(), "holdPerfect", 0);
-        setIntField(term176649, term176649.getClass(), "holdGreat", 0);
-        setIntField(term176649, term176649.getClass(), "holdGood", 0);
-        setIntField(term176649, term176649.getClass(), "holdBad", 0);
-        setIntField(term176649, term176649.getClass(), "slidePerfect", 0);
-        setIntField(term176649, term176649.getClass(), "slideGreat", 0);
-        setIntField(term176649, term176649.getClass(), "slideGood", 0);
-        setIntField(term176649, term176649.getClass(), "slideBad", 0);
-        setIntField(term176649, term176649.getClass(), "breakPerfect", 0);
-        setIntField(term176649, term176649.getClass(), "breakGreat", 0);
-        setIntField(term176649, term176649.getClass(), "breakGood", 0);
-        setIntField(term176649, term176649.getClass(), "breakBad", 0);
-        setBooleanField(term176649, term176649.getClass(), "isTrackSkip", false);
-        setBooleanField(term176649, term176649.getClass(), "isHighScore", false);
-        setBooleanField(term176649, term176649.getClass(), "isChallengeTrack", false);
-        setIntField(term176649, term176649.getClass(), "challengeLife", 0);
-        setIntField(term176649, term176649.getClass(), "challengeRemain", 0);
-        setIntField(term176649, term176649.getClass(), "isAllPerfectPlus", 0);
+        term4003015 = newInstance(Class.forName("icu.samnyan.aqua.sega.maimai.model.userdata.UserPlaylog"));
+        setLongField(term4003015, term4003015.getClass(), "id", 0L);
+        setField(term4003015, term4003015.getClass(), "user", null);
+        setIntField(term4003015, term4003015.getClass(), "orderId", 0);
+        setLongField(term4003015, term4003015.getClass(), "sortNumber", 0L);
+        setIntField(term4003015, term4003015.getClass(), "placeId", 0);
+        setField(term4003015, term4003015.getClass(), "placeName", null);
+        setField(term4003015, term4003015.getClass(), "country", null);
+        setIntField(term4003015, term4003015.getClass(), "regionId", 0);
+        setField(term4003015, term4003015.getClass(), "playDate", null);
+        setField(term4003015, term4003015.getClass(), "userPlayDate", null);
+        setIntField(term4003015, term4003015.getClass(), "musicId", 0);
+        setIntField(term4003015, term4003015.getClass(), "level", 0);
+        setIntField(term4003015, term4003015.getClass(), "gameMode", 0);
+        setIntField(term4003015, term4003015.getClass(), "rivalNum", 0);
+        setIntField(term4003015, term4003015.getClass(), "track", 0);
+        setIntField(term4003015, term4003015.getClass(), "eventId", 0);
+        setBooleanField(term4003015, term4003015.getClass(), "isFreeToPlay", false);
+        setIntField(term4003015, term4003015.getClass(), "playerRating", 0);
+        setLongField(term4003015, term4003015.getClass(), "playedUserId1", 0L);
+        setField(term4003015, term4003015.getClass(), "playedUserName1", null);
+        setIntField(term4003015, term4003015.getClass(), "playedMusicLevel1", 0);
+        setLongField(term4003015, term4003015.getClass(), "playedUserId2", 0L);
+        setField(term4003015, term4003015.getClass(), "playedUserName2", null);
+        setIntField(term4003015, term4003015.getClass(), "playedMusicLevel2", 0);
+        setLongField(term4003015, term4003015.getClass(), "playedUserId3", 0L);
+        setField(term4003015, term4003015.getClass(), "playedUserName3", null);
+        setIntField(term4003015, term4003015.getClass(), "playedMusicLevel3", 0);
+        setIntField(term4003015, term4003015.getClass(), "achievement", 0);
+        setIntField(term4003015, term4003015.getClass(), "score", 0);
+        setIntField(term4003015, term4003015.getClass(), "tapScore", 0);
+        setIntField(term4003015, term4003015.getClass(), "holdScore", 0);
+        setIntField(term4003015, term4003015.getClass(), "slideScore", 0);
+        setIntField(term4003015, term4003015.getClass(), "breakScore", 0);
+        setIntField(term4003015, term4003015.getClass(), "syncRate", 0);
+        setIntField(term4003015, term4003015.getClass(), "vsWin", 0);
+        setBooleanField(term4003015, term4003015.getClass(), "isAllPerfect", false);
+        setIntField(term4003015, term4003015.getClass(), "fullCombo", 0);
+        setIntField(term4003015, term4003015.getClass(), "maxFever", 0);
+        setIntField(term4003015, term4003015.getClass(), "maxCombo", 0);
+        setIntField(term4003015, term4003015.getClass(), "tapPerfect", 0);
+        setIntField(term4003015, term4003015.getClass(), "tapGreat", 0);
+        setIntField(term4003015, term4003015.getClass(), "tapGood", 0);
+        setIntField(term4003015, term4003015.getClass(), "tapBad", 0);
+        setIntField(term4003015, term4003015.getClass(), "holdPerfect", 0);
+        setIntField(term4003015, term4003015.getClass(), "holdGreat", 0);
+        setIntField(term4003015, term4003015.getClass(), "holdGood", 0);
+        setIntField(term4003015, term4003015.getClass(), "holdBad", 0);
+        setIntField(term4003015, term4003015.getClass(), "slidePerfect", 0);
+        setIntField(term4003015, term4003015.getClass(), "slideGreat", 0);
+        setIntField(term4003015, term4003015.getClass(), "slideGood", 0);
+        setIntField(term4003015, term4003015.getClass(), "slideBad", 0);
+        setIntField(term4003015, term4003015.getClass(), "breakPerfect", 0);
+        setIntField(term4003015, term4003015.getClass(), "breakGreat", 0);
+        setIntField(term4003015, term4003015.getClass(), "breakGood", 0);
+        setIntField(term4003015, term4003015.getClass(), "breakBad", 0);
+        setBooleanField(term4003015, term4003015.getClass(), "isTrackSkip", false);
+        setBooleanField(term4003015, term4003015.getClass(), "isHighScore", false);
+        setBooleanField(term4003015, term4003015.getClass(), "isChallengeTrack", false);
+        setIntField(term4003015, term4003015.getClass(), "challengeLife", 0);
+        setIntField(term4003015, term4003015.getClass(), "challengeRemain", 0);
+        setIntField(term4003015, term4003015.getClass(), "isAllPerfectPlus", 0);
     }
 
     @Test
@@ -102,7 +102,7 @@ public class UserPlaylog_setPlayDate_1234032880197 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setPlayDate", argTypes, term176649, args);
+        callMethod(klass, "setPlayDate", argTypes, term4003015, args);
     }
 
 };

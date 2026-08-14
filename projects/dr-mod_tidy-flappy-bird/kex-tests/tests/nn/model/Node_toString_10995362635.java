@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 public class Node_toString_10995362635 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term12120;
+     Object term12117;
 
     public Node_toString_10995362635() {
     }
@@ -34,33 +34,33 @@ public class Node_toString_10995362635 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term12148 = Class.forName((String) "nn.model.Type");
-        Field term12147 = ((Class) term12148).getDeclaredField((String) "SENSOR");
-        ((Field) term12147).setAccessible(true);
-        Object enum79 = ((Field) term12147).get((Object) null);
-        Object term12134 = newInstance(Class.forName("nn.model.Connection"));
+        Class<? extends Object> term12145 = Class.forName((String) "nn.model.Type");
+        Field term12144 = ((Class) term12145).getDeclaredField((String) "SENSOR");
+        ((Field) term12144).setAccessible(true);
+        Object enum79 = ((Field) term12144).get((Object) null);
+        Object term12131 = newInstance(Class.forName("nn.model.Connection"));
+        Object term12132 = newInstance(Class.forName("nn.model.Node"));
         Object term12135 = newInstance(Class.forName("nn.model.Node"));
-        Object term12138 = newInstance(Class.forName("nn.model.Node"));
+        setField(term12132, term12132.getClass(), "type", null);
+        setIntField(term12132, term12132.getClass(), "innovation", 1121247998);
+        setField(term12132, term12132.getClass(), "connections", null);
+        setDoubleField(term12132, term12132.getClass(), "bias", 0.359822327374657);
+        setField(term12131, term12131.getClass(), "in", term12132);
         setField(term12135, term12135.getClass(), "type", null);
-        setIntField(term12135, term12135.getClass(), "innovation", 1121247998);
+        setIntField(term12135, term12135.getClass(), "innovation", 0);
         setField(term12135, term12135.getClass(), "connections", null);
-        setDoubleField(term12135, term12135.getClass(), "bias", 0.359822327374657);
-        setField(term12134, term12134.getClass(), "in", term12135);
-        setField(term12138, term12138.getClass(), "type", null);
-        setIntField(term12138, term12138.getClass(), "innovation", 0);
-        setField(term12138, term12138.getClass(), "connections", null);
-        setDoubleField(term12138, term12138.getClass(), "bias", 0.0);
-        setField(term12134, term12134.getClass(), "out", term12138);
-        setFloatField(term12134, term12134.getClass(), "weight", 0.18361723F);
-        setBooleanField(term12134, term12134.getClass(), "expressed", true);
-        setIntField(term12134, term12134.getClass(), "innovation", -1480903995);
-        ArrayList term12132 = new ArrayList();
-        ((ArrayList) term12132).add(term12134);
-        term12120 = newInstance(Class.forName("nn.model.Node"));
-        setField(term12120, term12120.getClass(), "type", enum79);
-        setIntField(term12120, term12120.getClass(), "innovation", 609697271);
-        setField(term12120, term12120.getClass(), "connections", term12132);
-        setDoubleField(term12120, term12120.getClass(), "bias", 0.6984496238941496);
+        setDoubleField(term12135, term12135.getClass(), "bias", 0.0);
+        setField(term12131, term12131.getClass(), "out", term12135);
+        setFloatField(term12131, term12131.getClass(), "weight", 0.18361723F);
+        setBooleanField(term12131, term12131.getClass(), "expressed", true);
+        setIntField(term12131, term12131.getClass(), "innovation", -1480903995);
+        ArrayList term12129 = new ArrayList();
+        ((ArrayList) term12129).add(term12131);
+        term12117 = newInstance(Class.forName("nn.model.Node"));
+        setField(term12117, term12117.getClass(), "type", enum79);
+        setIntField(term12117, term12117.getClass(), "innovation", 609697271);
+        setField(term12117, term12117.getClass(), "connections", term12129);
+        setDoubleField(term12117, term12117.getClass(), "bias", 0.6984496238941496);
     }
 
     @Test
@@ -68,7 +68,7 @@ public class Node_toString_10995362635 {
         Class<?> klass = Class.forName("nn.model.Node");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term12120, args);
+        callMethod(klass, "toString", argTypes, term12117, args);
     }
 
 };

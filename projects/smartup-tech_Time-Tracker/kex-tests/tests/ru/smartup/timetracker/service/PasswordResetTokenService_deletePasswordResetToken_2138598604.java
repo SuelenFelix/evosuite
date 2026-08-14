@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class PasswordResetTokenService_deletePasswordResetToken_2138598604 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term23323;
+     Object term23463;
 
     public PasswordResetTokenService_deletePasswordResetToken_2138598604() {
     }
@@ -32,14 +32,14 @@ public class PasswordResetTokenService_deletePasswordResetToken_2138598604 {
 
     @Before
     public void setup() throws Throwable {
-        term23323 = newInstance(Class.forName("ru.smartup.timetracker.entity.PasswordResetToken"));
-        Object term23337 = newInstance(Class.forName("java.sql.Timestamp"));
-        setIntField(term23323, term23323.getClass(), "employeeId", 794568325);
-        setField(term23323, term23323.getClass(), "token", "gltJarNuUk");
-        setIntField(term23337, term23337.getClass(), "nanos", 21000000);
-        setLongField(term23337, term23337.getClass(), "fastTime", 1791283637000L);
-        setField(term23337, term23337.getClass(), "cdate", null);
-        setField(term23323, term23323.getClass(), "tokenExpiry", term23337);
+        term23463 = newInstance(Class.forName("ru.smartup.timetracker.entity.PasswordResetToken"));
+        Object term23477 = newInstance(Class.forName("java.sql.Timestamp"));
+        setIntField(term23463, term23463.getClass(), "employeeId", 794568325);
+        setField(term23463, term23463.getClass(), "token", "gltJarNuUk");
+        setIntField(term23477, term23477.getClass(), "nanos", 21000000);
+        setLongField(term23477, term23477.getClass(), "fastTime", 1791283637000L);
+        setField(term23477, term23477.getClass(), "cdate", null);
+        setField(term23463, term23463.getClass(), "tokenExpiry", term23477);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class PasswordResetTokenService_deletePasswordResetToken_2138598604 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("ru.smartup.timetracker.entity.PasswordResetToken");
         Object[] args = new Object[1];
-        args[0] = term23323;
+        args[0] = term23463;
         callMethod(klass, "deletePasswordResetToken", argTypes, null, args);
     }
 

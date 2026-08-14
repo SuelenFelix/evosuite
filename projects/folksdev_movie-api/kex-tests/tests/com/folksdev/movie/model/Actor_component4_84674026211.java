@@ -22,7 +22,7 @@ import java.lang.String;
 
 public class Actor_component4_84674026211 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term32717;
+     Object term32716;
 
     public Actor_component4_84674026211() {
     }
@@ -33,20 +33,20 @@ public class Actor_component4_84674026211 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term32777 = Class.forName((String) "com.folksdev.movie.model.Gender");
-        Field term32776 = ((Class) term32777).getDeclaredField((String) "FEMALE");
-        ((Field) term32776).setAccessible(true);
-        Object enum110 = ((Field) term32776).get((Object) null);
-        term32717 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        Object term32742 = newInstance(Class.forName("java.time.LocalDate"));
-        setField(term32717, term32717.getClass(), "id", "ZPnUGVLyiF");
-        setField(term32717, term32717.getClass(), "name", "iGWKoojIzf");
-        setIntField(term32742, term32742.getClass(), "year", 2021);
-        setShortField(term32742, term32742.getClass(), "month", (short) 9);
-        setShortField(term32742, term32742.getClass(), "day", (short) 22);
-        setField(term32717, term32717.getClass(), "dateOfBirth", term32742);
-        setField(term32717, term32717.getClass(), "gender", enum110);
-        setField(term32717, term32717.getClass(), "movies", null);
+        Class<? extends Object> term32776 = Class.forName((String) "com.folksdev.movie.model.Gender");
+        Field term32775 = ((Class) term32776).getDeclaredField((String) "FEMALE");
+        ((Field) term32775).setAccessible(true);
+        Object enum110 = ((Field) term32775).get((Object) null);
+        term32716 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        Object term32741 = newInstance(Class.forName("java.time.LocalDate"));
+        setField(term32716, term32716.getClass(), "id", "ZPnUGVLyiF");
+        setField(term32716, term32716.getClass(), "name", "iGWKoojIzf");
+        setIntField(term32741, term32741.getClass(), "year", 2021);
+        setShortField(term32741, term32741.getClass(), "month", (short) 9);
+        setShortField(term32741, term32741.getClass(), "day", (short) 22);
+        setField(term32716, term32716.getClass(), "dateOfBirth", term32741);
+        setField(term32716, term32716.getClass(), "gender", enum110);
+        setField(term32716, term32716.getClass(), "movies", null);
     }
 
     @Test
@@ -54,7 +54,7 @@ public class Actor_component4_84674026211 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.Actor");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "component4", argTypes, term32717, args);
+        callMethod(klass, "component4", argTypes, term32716, args);
     }
 
 };

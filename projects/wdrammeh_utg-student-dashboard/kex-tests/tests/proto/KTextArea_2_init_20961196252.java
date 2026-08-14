@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class KTextArea_2_init_20961196252 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term12958;
+     Object term12957;
 
     public KTextArea_2_init_20961196252() {
     }
@@ -32,7 +32,7 @@ public class KTextArea_2_init_20961196252 {
 
     @Before
     public void setup() throws Throwable {
-        term12958 = new Integer(0);
+        term12957 = new Integer(0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KTextArea_2_init_20961196252 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term12958;
+        args[1] = term12957;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class FreezeService_createOrUpdateTask_439296456 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term878;
-     Object term879;
+     Object term1059;
+     Object term1060;
 
     public FreezeService_createOrUpdateTask_439296456() {
     }
@@ -33,13 +33,13 @@ public class FreezeService_createOrUpdateTask_439296456 {
 
     @Before
     public void setup() throws Throwable {
-        term878 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeService"));
-        setField(term878, term878.getClass(), "freezeSchedulePlanner", null);
-        setField(term878, term878.getClass(), "crudFreezeService", null);
-        setField(term878, term878.getClass(), "freezeValidator", null);
-        setField(term878, term878.getClass(), "freezeDateUtils", null);
-        setField(term878, term878.getClass(), "lockManager", null);
-        term879 = new Integer(0);
+        term1059 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeService"));
+        setField(term1059, term1059.getClass(), "freezeSchedulePlanner", null);
+        setField(term1059, term1059.getClass(), "crudFreezeService", null);
+        setField(term1059, term1059.getClass(), "freezeValidator", null);
+        setField(term1059, term1059.getClass(), "freezeDateUtils", null);
+        setField(term1059, term1059.getClass(), "lockManager", null);
+        term1060 = new Integer(0);
     }
 
     @Test
@@ -50,8 +50,8 @@ public class FreezeService_createOrUpdateTask_439296456 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term879;
-        callMethod(klass, "createOrUpdateTask", argTypes, term878, args);
+        args[1] = term1060;
+        callMethod(klass, "createOrUpdateTask", argTypes, term1059, args);
     }
 
 };

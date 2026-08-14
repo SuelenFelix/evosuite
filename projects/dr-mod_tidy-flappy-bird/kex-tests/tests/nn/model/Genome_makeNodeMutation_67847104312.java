@@ -80,7 +80,7 @@ public class Genome_makeNodeMutation_67847104312 {
         setField(term7417, term7417.getClass(), "nodeInnovator", term7446);
         setIntField(term7448, term7448.getClass(), "counter", 100);
         setField(term7417, term7417.getClass(), "connectionInnovator", term7448);
-        setLongField(term7451, term7451.getClass(), "value", 62050634980663L);
+        setLongField(term7451, term7451.getClass(), "value", 233705789046922L);
         setField(term7450, term7450.getClass(), "seed", term7451);
         setDoubleField(term7450, term7450.getClass(), "nextNextGaussian", 0.3422470250555786);
         setBooleanField(term7450, term7450.getClass(), "haveNextNextGaussian", false);

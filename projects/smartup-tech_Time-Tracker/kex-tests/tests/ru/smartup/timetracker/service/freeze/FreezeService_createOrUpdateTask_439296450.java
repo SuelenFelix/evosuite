@@ -44,7 +44,8 @@ public class FreezeService_createOrUpdateTask_439296450 {
         Object term6 = newInstance(Class.forName("java.time.LocalTime"));
         Object term12 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
         Object term13 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
-        Object term14 = newInstance(Class.forName("java.time.ZoneOffset"));
+        Object term14 = newInstance(Class.forName("java.time.ZoneRegion"));
+        Object term16 = newInstance(Class.forName("java.time.zone.ZoneRules"));
         Object term17 = newInstance(Class.forName("java.time.LocalTime"));
         setField(term2, term2.getClass(), "crudFreezeService", null);
         setField(term5, term5.getClass(), "id", null);
@@ -63,8 +64,15 @@ public class FreezeService_createOrUpdateTask_439296450 {
         setField(term1, term1.getClass(), "freezeSchedulePlanner", term2);
         setField(term1, term1.getClass(), "crudFreezeService", null);
         setField(term1, term1.getClass(), "freezeValidator", null);
-        setIntField(term14, term14.getClass(), "totalSeconds", -18000);
         setField(term14, term14.getClass(), "id", "");
+        setField(term16, term16.getClass(), "standardTransitions", null);
+        setField(term16, term16.getClass(), "standardOffsets", null);
+        setField(term16, term16.getClass(), "savingsInstantTransitions", null);
+        setField(term16, term16.getClass(), "savingsLocalTransitions", null);
+        setField(term16, term16.getClass(), "wallOffsets", null);
+        setField(term16, term16.getClass(), "lastRules", null);
+        setField(term16, term16.getClass(), "lastRulesCache", null);
+        setField(term14, term14.getClass(), "rules", term16);
         setField(term13, term13.getClass(), "timeZone", term14);
         setByteField(term17, term17.getClass(), "hour", (byte) 8);
         setByteField(term17, term17.getClass(), "minute", (byte) 15);

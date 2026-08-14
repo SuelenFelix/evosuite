@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Authority_AuthorityBuilder_role_13379888828 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1472;
+     Object term1476;
 
     public Authority_AuthorityBuilder_role_13379888828() {
     }
@@ -31,10 +31,10 @@ public class Authority_AuthorityBuilder_role_13379888828 {
 
     @Before
     public void setup() throws Throwable {
-        term1472 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority$AuthorityBuilder"));
-        setField(term1472, term1472.getClass(), "id", null);
-        setField(term1472, term1472.getClass(), "role", null);
-        setField(term1472, term1472.getClass(), "users", null);
+        term1476 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority$AuthorityBuilder"));
+        setField(term1476, term1476.getClass(), "id", null);
+        setField(term1476, term1476.getClass(), "role", null);
+        setField(term1476, term1476.getClass(), "users", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Authority_AuthorityBuilder_role_13379888828 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "role", argTypes, term1472, args);
+        callMethod(klass, "role", argTypes, term1476, args);
     }
 
 };

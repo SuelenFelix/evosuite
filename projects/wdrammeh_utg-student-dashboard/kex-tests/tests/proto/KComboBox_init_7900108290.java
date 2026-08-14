@@ -21,7 +21,7 @@ import java.lang.Object;
 
 public class KComboBox_init_7900108290 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term9865;
+     Object term9877;
 
     public KComboBox_init_7900108290() {
     }
@@ -32,15 +32,9 @@ public class KComboBox_init_7900108290 {
 
     @Before
     public void setup() throws Throwable {
-        term9865 = (Object[]) newArray("java.lang.Object", 4);
-        Object term9866 = newInstance(Class.forName("java.lang.Object"));
-        Object term9867 = newInstance(Class.forName("java.lang.Object"));
-        Object term9868 = newInstance(Class.forName("java.lang.Object"));
-        Object term9869 = newInstance(Class.forName("java.lang.Object"));
-        setElement(term9865, 0, term9866);
-        setElement(term9865, 1, term9867);
-        setElement(term9865, 2, term9868);
-        setElement(term9865, 3, term9869);
+        term9877 = (Object[]) newArray("java.lang.Object", 1);
+        Object term9878 = newInstance(Class.forName("java.lang.Object"));
+        setElement(term9877, 0, term9878);
     }
 
     @Test
@@ -49,7 +43,7 @@ public class KComboBox_init_7900108290 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Array.newInstance(Class.forName("java.lang.Object"), 0).getClass();
         Object[] args = new Object[1];
-        args[0] = term9865;
+        args[0] = term9877;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

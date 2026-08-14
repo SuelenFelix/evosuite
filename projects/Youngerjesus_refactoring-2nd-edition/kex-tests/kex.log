@@ -1,16 +1,16 @@
-2026-06-29 08:19:09.851 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/Youngerjesus_refactoring-2nd-edition/target/classes
-2026-06-29 08:19:10.012 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 08:19:10.067 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 08:19:10.843 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 08:19:11.354 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/*
-2026-06-29 08:19:11.355 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 08:19:11.367 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/Youngerjesus_refactoring-2nd-edition/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 08:19:11.399 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/Youngerjesus_refactoring-2nd-edition/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 42297 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/Youngerjesus_refactoring-2nd-edition/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 08:19:11.413 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 08:20:51.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType::<init>(): void
-2026-06-29 08:20:51.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType::<init>(): void
+2026-08-12 11:54:43.584 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/Youngerjesus_refactoring-2nd-edition/target/classes
+2026-08-12 11:54:43.748 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 11:54:43.797 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 11:54:44.685 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 11:54:45.237 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/*
+2026-08-12 11:54:45.238 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 11:54:45.249 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/Youngerjesus_refactoring-2nd-edition/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 11:54:45.281 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/Youngerjesus_refactoring-2nd-edition/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 37003 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/Youngerjesus_refactoring-2nd-edition/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 11:54:45.294 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 11:56:25.323 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType::<init>(): void
+2026-08-12 11:56:25.324 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,12 +20,12 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:20:51.922 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.EmployeeType_init_19158791020
-2026-06-29 08:20:52.054 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.EmployeeType_init_19158791021
-2026-06-29 08:20:52.055 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType::<init>(): void: null
-2026-06-29 08:20:52.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType::<init>(): void processing is finished normally
-2026-06-29 08:20:52.057 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Salesperson::<init>(): void
-2026-06-29 08:20:52.057 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Salesperson::<init>(): void
+2026-08-12 11:56:25.791 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.EmployeeType_init_19158791020
+2026-08-12 11:56:25.913 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.EmployeeType_init_19158791021
+2026-08-12 11:56:25.914 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType::<init>(): void: null
+2026-08-12 11:56:25.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType::<init>(): void processing is finished normally
+2026-08-12 11:56:25.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Salesperson::<init>(): void
+2026-08-12 11:56:25.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Salesperson::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -35,12 +35,12 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:20:52.158 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Salesperson_init_9734359350
-2026-06-29 08:20:52.245 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Salesperson_init_9734359351
-2026-06-29 08:20:52.246 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Salesperson::<init>(): void: null
-2026-06-29 08:20:52.246 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Salesperson::<init>(): void processing is finished normally
-2026-06-29 08:20:52.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::<init>(java/lang/String, java/lang/String): void
-2026-06-29 08:20:52.257 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::<init>(java/lang/String, java/lang/String): void
+2026-08-12 11:56:26.016 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Salesperson_init_9734359350
+2026-08-12 11:56:26.102 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Salesperson_init_9734359351
+2026-08-12 11:56:26.103 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Salesperson::<init>(): void: null
+2026-08-12 11:56:26.103 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Salesperson::<init>(): void processing is finished normally
+2026-08-12 11:56:26.113 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::<init>(java/lang/String, java/lang/String): void
+2026-08-12 11:56:26.113 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::<init>(java/lang/String, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -62,9 +62,9 @@
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-29 08:20:52.345 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_init_10668412120
-2026-06-29 08:20:52.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::createEmployeeType(java/lang/String): refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType
-2026-06-29 08:20:52.347 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::createEmployeeType(java/lang/String): refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType
+2026-08-12 11:56:26.198 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_init_10668412120
+2026-08-12 11:56:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::createEmployeeType(java/lang/String): refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType
+2026-08-12 11:56:26.200 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::createEmployeeType(java/lang/String): refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -156,9 +156,9 @@
 	%retval1 = phi {%bb5 -> %29; %bb6 -> %30; %bb7 -> %31}
 	%retval.casted1 = (refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType) %retval1
 	return %retval.casted1
-2026-06-29 08:20:52.429 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_createEmployeeType_15870877501
-2026-06-29 08:20:52.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::toString(): java/lang/String
-2026-06-29 08:20:52.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::toString(): java/lang/String
+2026-08-12 11:56:26.277 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_createEmployeeType_15870877501
+2026-08-12 11:56:26.277 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::toString(): java/lang/String
+2026-08-12 11:56:26.278 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -176,9 +176,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %5
-2026-06-29 08:20:52.530 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_toString_21055375932
-2026-06-29 08:20:52.531 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::getType(): java/lang/String
-2026-06-29 08:20:52.531 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::getType(): java/lang/String
+2026-08-12 11:56:26.363 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_toString_21055375932
+2026-08-12 11:56:26.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::getType(): java/lang/String
+2026-08-12 11:56:26.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::getType(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -192,21 +192,21 @@
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-29 08:20:52.605 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_getType_12517007473
-2026-06-29 08:20:52.678 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_init_10668412124
-2026-06-29 08:20:52.738 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_createEmployeeType_15870877505
-2026-06-29 08:20:52.809 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_toString_21055375936
-2026-06-29 08:20:52.865 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_getType_12517007477
-2026-06-29 08:20:52.866 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::<init>(java/lang/String, java/lang/String): void: null
-2026-06-29 08:20:52.866 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::createEmployeeType(java/lang/String): refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType: null
-2026-06-29 08:20:52.866 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::toString(): java/lang/String: null
-2026-06-29 08:20:52.866 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::getType(): java/lang/String: null
-2026-06-29 08:20:52.866 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::<init>(java/lang/String, java/lang/String): void processing is finished normally
-2026-06-29 08:20:52.866 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::createEmployeeType(java/lang/String): refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType processing is finished normally
-2026-06-29 08:20:52.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::toString(): java/lang/String processing is finished normally
-2026-06-29 08:20:52.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::getType(): java/lang/String processing is finished normally
-2026-06-29 08:20:52.868 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Engineer::<init>(): void
-2026-06-29 08:20:52.868 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Engineer::<init>(): void
+2026-08-12 11:56:26.434 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_getType_12517007473
+2026-08-12 11:56:26.495 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_init_10668412124
+2026-08-12 11:56:26.571 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_createEmployeeType_15870877505
+2026-08-12 11:56:26.629 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_toString_21055375936
+2026-08-12 11:56:26.683 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Employee_getType_12517007477
+2026-08-12 11:56:26.683 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::<init>(java/lang/String, java/lang/String): void: null
+2026-08-12 11:56:26.684 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::createEmployeeType(java/lang/String): refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType: null
+2026-08-12 11:56:26.684 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::toString(): java/lang/String: null
+2026-08-12 11:56:26.684 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::getType(): java/lang/String: null
+2026-08-12 11:56:26.684 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::<init>(java/lang/String, java/lang/String): void processing is finished normally
+2026-08-12 11:56:26.684 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::createEmployeeType(java/lang/String): refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/EmployeeType processing is finished normally
+2026-08-12 11:56:26.684 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::toString(): java/lang/String processing is finished normally
+2026-08-12 11:56:26.684 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Employee::getType(): java/lang/String processing is finished normally
+2026-08-12 11:56:26.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Engineer::<init>(): void
+2026-08-12 11:56:26.686 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Engineer::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -216,12 +216,12 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:20:52.924 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Engineer_init_3931880370
-2026-06-29 08:20:52.978 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Engineer_init_3931880371
-2026-06-29 08:20:52.978 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Engineer::<init>(): void: null
-2026-06-29 08:20:52.979 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Engineer::<init>(): void processing is finished normally
-2026-06-29 08:20:52.980 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Manager::<init>(): void
-2026-06-29 08:20:52.980 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Manager::<init>(): void
+2026-08-12 11:56:26.739 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Engineer_init_3931880370
+2026-08-12 11:56:26.791 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Engineer_init_3931880371
+2026-08-12 11:56:26.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Engineer::<init>(): void: null
+2026-08-12 11:56:26.792 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Engineer::<init>(): void processing is finished normally
+2026-08-12 11:56:26.793 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Manager::<init>(): void
+2026-08-12 11:56:26.793 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Manager::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -231,9 +231,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:20:53.034 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Manager_init_17047268290
-2026-06-29 08:20:53.092 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Manager_init_17047268291
-2026-06-29 08:20:53.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Manager::<init>(): void: null
-2026-06-29 08:20:53.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Manager::<init>(): void processing is finished normally
-2026-06-29 08:20:53.093 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 08:20:53.093 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 11:56:26.847 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Manager_init_17047268290
+2026-08-12 11:56:26.899 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test refactoring.app.chapter12.replaceTypeCodeWithSubclasses.indirect.Manager_init_17047268291
+2026-08-12 11:56:26.900 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Manager::<init>(): void: null
+2026-08-12 11:56:26.900 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method refactoring/app/chapter12/replaceTypeCodeWithSubclasses/indirect/Manager::<init>(): void processing is finished normally
+2026-08-12 11:56:26.900 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 11:56:26.901 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

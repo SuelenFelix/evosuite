@@ -125,7 +125,7 @@ public class Genome_randomWeight_79288123817 {
         setField(term8634, term8634.getClass(), "nodeInnovator", term8685);
         setIntField(term8687, term8687.getClass(), "counter", 100);
         setField(term8634, term8634.getClass(), "connectionInnovator", term8687);
-        setLongField(term8690, term8690.getClass(), "value", 101370236792623L);
+        setLongField(term8690, term8690.getClass(), "value", 91549237377048L);
         setField(term8689, term8689.getClass(), "seed", term8690);
         setDoubleField(term8689, term8689.getClass(), "nextNextGaussian", 0.008961627061484845);
         setBooleanField(term8689, term8689.getClass(), "haveNextNextGaussian", true);

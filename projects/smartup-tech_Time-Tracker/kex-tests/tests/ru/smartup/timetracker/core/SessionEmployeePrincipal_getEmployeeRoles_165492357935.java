@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SessionEmployeePrincipal_getEmployeeRoles_165492357935 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2871;
+     Object term3245;
 
     public SessionEmployeePrincipal_getEmployeeRoles_165492357935() {
     }
@@ -31,11 +31,11 @@ public class SessionEmployeePrincipal_getEmployeeRoles_165492357935 {
 
     @Before
     public void setup() throws Throwable {
-        term2871 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2871, term2871.getClass(), "id", 0);
-        setField(term2871, term2871.getClass(), "email", null);
-        setField(term2871, term2871.getClass(), "employeeRoles", null);
-        setField(term2871, term2871.getClass(), "projectIdsByProjectRoles", null);
+        term3245 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3245, term3245.getClass(), "id", 0);
+        setField(term3245, term3245.getClass(), "email", null);
+        setField(term3245, term3245.getClass(), "employeeRoles", null);
+        setField(term3245, term3245.getClass(), "projectIdsByProjectRoles", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class SessionEmployeePrincipal_getEmployeeRoles_165492357935 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getEmployeeRoles", argTypes, term2871, args);
+        callMethod(klass, "getEmployeeRoles", argTypes, term3245, args);
     }
 
 };

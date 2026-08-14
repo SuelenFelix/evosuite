@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class EscapeToken_getPredicate_8793998443 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object enum25;
+     Object enum46;
 
     public EscapeToken_getPredicate_8793998443() {
     }
@@ -33,10 +33,10 @@ public class EscapeToken_getPredicate_8793998443 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term7874 = Class.forName((String) "io.github.janlely.jparser.impl.regex.EscapeToken");
-        Field term7873 = ((Class) term7874).getDeclaredField((String) "PLUS");
-        ((Field) term7873).setAccessible(true);
-        enum25 = ((Field) term7873).get((Object) null);
+        Class<? extends Object> term18036 = Class.forName((String) "io.github.janlely.jparser.impl.regex.EscapeToken");
+        Field term18035 = ((Class) term18036).getDeclaredField((String) "PLUS");
+        ((Field) term18035).setAccessible(true);
+        enum46 = ((Field) term18035).get((Object) null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class EscapeToken_getPredicate_8793998443 {
         Class<?> klass = Class.forName("io.github.janlely.jparser.impl.regex.EscapeToken");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getPredicate", argTypes, enum25, args);
+        callMethod(klass, "getPredicate", argTypes, enum46, args);
     }
 
 };

@@ -610,7 +610,7 @@ public class ModuleAnalysis_newSingletonLabel_17824369464 {
         setField(term4318, term4318.getClass(), "keySet", null);
         setField(term4318, term4318.getClass(), "values", null);
         setField(term4307, term4307.getClass(), "moduleToReader", term4318);
-        setLongField(term4323, term4323.getClass(), "timestamp", 163383973L);
+        setLongField(term4323, term4323.getClass(), "timestamp", 51655693L);
         setField(term4323, term4323.getClass(), "referent", null);
         setField(term4323, term4323.getClass(), "queue", null);
         setField(term4323, term4323.getClass(), "next", null);

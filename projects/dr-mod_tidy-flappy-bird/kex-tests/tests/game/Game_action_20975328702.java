@@ -212,7 +212,7 @@ public class Game_action_20975328702 {
         setIntField(term630, term630.getClass(), "yOpeningEnd", 0);
         setIntField(term630, term630.getClass(), "width", 0);
         setField(term579, term579.getClass(), "lastPipe", term630);
-        setLongField(term636, term636.getClass(), "value", 214516509734884L);
+        setLongField(term636, term636.getClass(), "value", 116278080469151L);
         setField(term635, term635.getClass(), "seed", term636);
         setDoubleField(term635, term635.getClass(), "nextNextGaussian", 0.0);
         setBooleanField(term635, term635.getClass(), "haveNextNextGaussian", false);
@@ -222,11 +222,11 @@ public class Game_action_20975328702 {
         setIntField(term641, term641.getClass(), "screenBottom", 2058711405);
         setField(term505, term505.getClass(), "collisionDetector", term641);
         setBooleanField(term505, term505.getClass(), "collision", true);
-        setIntField(term647, term647.getClass(), "hash", 910218641);
+        setIntField(term647, term647.getClass(), "hash", 1343849073);
         setField(term647, term647.getClass(), "key", null);
         setField(term647, term647.getClass(), "value", null);
         setField(term647, term647.getClass(), "next", null);
-        setElement(term646, 2, term647);
+        setElement(term646, 6, term647);
         setField(term645, term645.getClass(), "table", term646);
         setIntField(term645, term645.getClass(), "count", 1);
         setIntField(term645, term645.getClass(), "threshold", 8);

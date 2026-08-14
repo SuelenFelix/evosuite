@@ -28,9 +28,9 @@ import java.util.LinkedList;
 
 public class TrackUnitService_submit_153350269823 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3431;
-     Object term3433;
-     Object term3439;
+     Object term3407;
+     Object term3409;
+     Object term3415;
 
     public TrackUnitService_submit_153350269823() {
     }
@@ -41,11 +41,11 @@ public class TrackUnitService_submit_153350269823 {
 
     @Before
     public void setup() throws Throwable {
-        term3431 = new Integer(388157121);
-        HashMap term3434 = new HashMap();
-        Set<Object> term3442 =  ((Map) term3434).keySet();
-        term3433 = new HashSet((Collection<? extends Object>) term3442);
-        term3439 = new LinkedList();
+        term3407 = new Integer(388157121);
+        HashMap term3410 = new HashMap();
+        Set<Object> term3418 =  ((Map) term3410).keySet();
+        term3409 = new HashSet((Collection<? extends Object>) term3418);
+        term3415 = new LinkedList();
     }
 
     @Test
@@ -56,9 +56,9 @@ public class TrackUnitService_submit_153350269823 {
         argTypes[1] = Class.forName("java.util.Set");
         argTypes[2] = Class.forName("java.util.List");
         Object[] args = new Object[3];
-        args[0] = term3431;
-        args[1] = term3433;
-        args[2] = term3439;
+        args[0] = term3407;
+        args[1] = term3409;
+        args[2] = term3415;
         callMethod(klass, "submit", argTypes, null, args);
     }
 

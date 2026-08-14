@@ -1,16 +1,16 @@
-2026-06-29 01:33:18.497 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/mmarcosab_rabbitmq-example/target/classes
-2026-06-29 01:33:18.581 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 01:33:18.658 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 01:33:19.765 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 01:33:20.237 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/example/rabbitmq/app/*
-2026-06-29 01:33:20.238 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 01:33:20.251 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/mmarcosab_rabbitmq-example/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 01:33:20.287 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/mmarcosab_rabbitmq-example/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 37213 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/mmarcosab_rabbitmq-example/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 01:33:20.340 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 01:35:00.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/BusinessException::<init>(java/lang/String): void
-2026-06-29 01:35:00.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/BusinessException::<init>(java/lang/String): void
+2026-08-11 22:58:52.695 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/mmarcosab_rabbitmq-example/target/classes
+2026-08-11 22:58:52.780 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 22:58:52.855 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 22:58:53.876 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 22:58:54.385 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/example/rabbitmq/app/*
+2026-08-11 22:58:54.387 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 22:58:54.397 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/mmarcosab_rabbitmq-example/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 22:58:54.431 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/mmarcosab_rabbitmq-example/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 39561 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/mmarcosab_rabbitmq-example/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 22:58:54.446 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 23:00:34.473 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/BusinessException::<init>(java/lang/String): void
+2026-08-11 23:00:34.474 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/BusinessException::<init>(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,12 +20,12 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:35:00.847 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.BusinessException_init_7722701130
-2026-06-29 01:35:00.984 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.BusinessException_init_7722701131
-2026-06-29 01:35:00.986 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/BusinessException::<init>(java/lang/String): void: null
-2026-06-29 01:35:00.986 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/BusinessException::<init>(java/lang/String): void processing is finished normally
-2026-06-29 01:35:00.991 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/TesteController::<init>(org/springframework/amqp/core/AmqpTemplate): void
-2026-06-29 01:35:00.991 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/TesteController::<init>(org/springframework/amqp/core/AmqpTemplate): void
+2026-08-11 23:00:35.012 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.BusinessException_init_7722701130
+2026-08-11 23:00:35.128 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.BusinessException_init_7722701131
+2026-08-11 23:00:35.129 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/BusinessException::<init>(java/lang/String): void: null
+2026-08-11 23:00:35.130 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/BusinessException::<init>(java/lang/String): void processing is finished normally
+2026-08-11 23:00:35.133 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/TesteController::<init>(org/springframework/amqp/core/AmqpTemplate): void
+2026-08-11 23:00:35.133 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/TesteController::<init>(org/springframework/amqp/core/AmqpTemplate): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -39,7 +39,7 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 01:35:00.993 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.135 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpTemplate
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -66,7 +66,7 @@ java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpTemplate
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:35:00.993 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.135 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpTemplate
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -93,9 +93,9 @@ java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpTemplate
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:35:00.993 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/TesteController::<init>(org/springframework/amqp/core/AmqpTemplate): void: null
-2026-06-29 01:35:00.994 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/TesteController::send(): java/lang/String
-2026-06-29 01:35:00.994 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/TesteController::send(): java/lang/String
+2026-08-11 23:00:35.135 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/TesteController::<init>(org/springframework/amqp/core/AmqpTemplate): void: null
+2026-08-11 23:00:35.135 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/TesteController::send(): java/lang/String
+2026-08-11 23:00:35.136 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/TesteController::send(): java/lang/String
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -127,9 +127,9 @@ java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpTemplate
 
 %bb3: 	//predecessors %bb2
 	return "ok. done"
-2026-06-29 01:35:01.080 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.TesteController_send_17032363430
-2026-06-29 01:35:01.081 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/TesteController::<init>(org/springframework/amqp/core/AmqpTemplate): void processing is finished normally
-2026-06-29 01:35:01.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.224 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.TesteController_send_17032363430
+2026-08-11 23:00:35.224 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/TesteController::<init>(org/springframework/amqp/core/AmqpTemplate): void processing is finished normally
+2026-08-11 23:00:35.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: Lorg/springframework/amqp/core/AmqpTemplate;
 	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
 	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
@@ -162,10 +162,10 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpT
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 01:35:01.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/TesteController::send(): java/lang/String: null
-2026-06-29 01:35:01.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/TesteController::send(): java/lang/String processing is finished normally
-2026-06-29 01:35:01.085 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/AppApplication::<init>(): void
-2026-06-29 01:35:01.085 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/AppApplication::<init>(): void
+2026-08-11 23:00:35.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/TesteController::send(): java/lang/String: null
+2026-08-11 23:00:35.226 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/TesteController::send(): java/lang/String processing is finished normally
+2026-08-11 23:00:35.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/AppApplication::<init>(): void
+2026-08-11 23:00:35.229 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/AppApplication::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -175,9 +175,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpT
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:35:01.189 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.AppApplication_init_10336949860
-2026-06-29 01:35:01.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/AppApplication::main(java/lang/String[]): void
-2026-06-29 01:35:01.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/AppApplication::main(java/lang/String[]): void
+2026-08-11 23:00:35.313 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.AppApplication_init_10336949860
+2026-08-11 23:00:35.314 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/AppApplication::main(java/lang/String[]): void
+2026-08-11 23:00:35.314 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/AppApplication::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -187,15 +187,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpT
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-29 01:35:01.273 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.AppApplication_main_6571319821
-2026-06-29 01:35:01.347 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.AppApplication_init_10336949862
-2026-06-29 01:35:01.417 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.AppApplication_main_6571319823
-2026-06-29 01:35:01.418 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/AppApplication::<init>(): void: null
-2026-06-29 01:35:01.418 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/AppApplication::main(java/lang/String[]): void: null
-2026-06-29 01:35:01.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/AppApplication::<init>(): void processing is finished normally
-2026-06-29 01:35:01.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/AppApplication::main(java/lang/String[]): void processing is finished normally
-2026-06-29 01:35:01.426 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/QueueConsumer::<init>(): void
-2026-06-29 01:35:01.426 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/QueueConsumer::<init>(): void
+2026-08-11 23:00:35.404 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.AppApplication_main_6571319821
+2026-08-11 23:00:35.468 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.AppApplication_init_10336949862
+2026-08-11 23:00:35.534 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.AppApplication_main_6571319823
+2026-08-11 23:00:35.535 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/AppApplication::<init>(): void: null
+2026-08-11 23:00:35.535 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/AppApplication::main(java/lang/String[]): void: null
+2026-08-11 23:00:35.535 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/AppApplication::<init>(): void processing is finished normally
+2026-08-11 23:00:35.535 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/AppApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-11 23:00:35.543 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/QueueConsumer::<init>(): void
+2026-08-11 23:00:35.544 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/QueueConsumer::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -205,9 +205,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpT
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:35:01.499 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueConsumer_init_17338573020
-2026-06-29 01:35:01.500 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/QueueConsumer::receive(org/springframework/messaging/Message): void
-2026-06-29 01:35:01.501 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/QueueConsumer::receive(org/springframework/messaging/Message): void
+2026-08-11 23:00:35.609 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueConsumer_init_17338573020
+2026-08-11 23:00:35.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/QueueConsumer::receive(org/springframework/messaging/Message): void
+2026-08-11 23:00:35.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/QueueConsumer::receive(org/springframework/messaging/Message): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -287,7 +287,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.AmqpT
 
 %if.then1: 	//predecessors %bb11
 	return
-2026-06-29 01:35:01.501 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.610 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.messaging.Message
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -314,7 +314,7 @@ java.lang.ClassNotFoundException: org.springframework.messaging.Message
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:35:01.501 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.611 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.messaging.Message
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -341,13 +341,13 @@ java.lang.ClassNotFoundException: org.springframework.messaging.Message
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:35:01.501 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/QueueConsumer::receive(org/springframework/messaging/Message): void: null
-2026-06-29 01:35:01.564 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueConsumer_init_17338573021
-2026-06-29 01:35:01.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/QueueConsumer::receive(org/springframework/messaging/Message): void processing is finished normally
-2026-06-29 01:35:01.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/QueueConsumer::<init>(): void: null
-2026-06-29 01:35:01.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/QueueConsumer::<init>(): void processing is finished normally
-2026-06-29 01:35:01.567 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/RabbitMQConfig::<init>(): void
-2026-06-29 01:35:01.568 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/RabbitMQConfig::<init>(): void
+2026-08-11 23:00:35.611 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/QueueConsumer::receive(org/springframework/messaging/Message): void: null
+2026-08-11 23:00:35.697 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueConsumer_init_17338573021
+2026-08-11 23:00:35.697 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/QueueConsumer::receive(org/springframework/messaging/Message): void processing is finished normally
+2026-08-11 23:00:35.698 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/QueueConsumer::<init>(): void: null
+2026-08-11 23:00:35.698 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/QueueConsumer::<init>(): void processing is finished normally
+2026-08-11 23:00:35.700 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/RabbitMQConfig::<init>(): void
+2026-08-11 23:00:35.700 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/RabbitMQConfig::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -357,9 +357,9 @@ java.lang.ClassNotFoundException: org.springframework.messaging.Message
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:35:01.629 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.RabbitMQConfig_init_19494209210
-2026-06-29 01:35:01.630 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue
-2026-06-29 01:35:01.630 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue
+2026-08-11 23:00:35.752 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.RabbitMQConfig_init_19494209210
+2026-08-11 23:00:35.753 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue
+2026-08-11 23:00:35.753 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -370,7 +370,7 @@ java.lang.ClassNotFoundException: org.springframework.messaging.Message
 
 %bb1: 	//predecessors %bb0
 	return %2
-2026-06-29 01:35:01.630 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.754 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -405,7 +405,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 01:35:01.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.754 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -440,9 +440,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 01:35:01.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue: null
-2026-06-29 01:35:01.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange
-2026-06-29 01:35:01.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange
+2026-08-11 23:00:35.754 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue: null
+2026-08-11 23:00:35.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange
+2026-08-11 23:00:35.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -453,7 +453,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 
 %bb1: 	//predecessors %bb0
 	return %2
-2026-06-29 01:35:01.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.755 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -488,7 +488,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 01:35:01.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.755 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -523,9 +523,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 01:35:01.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange: null
-2026-06-29 01:35:01.632 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/RabbitMQConfig::testeBinding(org/springframework/amqp/core/Queue, org/springframework/amqp/core/DirectExchange): org/springframework/amqp/core/Binding
-2026-06-29 01:35:01.632 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/RabbitMQConfig::testeBinding(org/springframework/amqp/core/Queue, org/springframework/amqp/core/DirectExchange): org/springframework/amqp/core/Binding
+2026-08-11 23:00:35.755 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange: null
+2026-08-11 23:00:35.755 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/RabbitMQConfig::testeBinding(org/springframework/amqp/core/Queue, org/springframework/amqp/core/DirectExchange): org/springframework/amqp/core/Binding
+2026-08-11 23:00:35.756 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/RabbitMQConfig::testeBinding(org/springframework/amqp/core/Queue, org/springframework/amqp/core/DirectExchange): org/springframework/amqp/core/Binding
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -543,7 +543,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 
 %bb3: 	//predecessors %bb2
 	return %5
-2026-06-29 01:35:01.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.756 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -570,7 +570,7 @@ java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:35:01.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.756 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -597,15 +597,15 @@ java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 01:35:01.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/RabbitMQConfig::testeBinding(org/springframework/amqp/core/Queue, org/springframework/amqp/core/DirectExchange): org/springframework/amqp/core/Binding: null
-2026-06-29 01:35:01.694 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.RabbitMQConfig_init_19494209211
-2026-06-29 01:35:01.694 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue processing is finished normally
-2026-06-29 01:35:01.695 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange processing is finished normally
-2026-06-29 01:35:01.695 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/RabbitMQConfig::testeBinding(org/springframework/amqp/core/Queue, org/springframework/amqp/core/DirectExchange): org/springframework/amqp/core/Binding processing is finished normally
-2026-06-29 01:35:01.695 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/RabbitMQConfig::<init>(): void: null
-2026-06-29 01:35:01.695 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/RabbitMQConfig::<init>(): void processing is finished normally
-2026-06-29 01:35:01.697 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/QueueSender::<init>(): void
-2026-06-29 01:35:01.698 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/QueueSender::<init>(): void
+2026-08-11 23:00:35.756 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/RabbitMQConfig::testeBinding(org/springframework/amqp/core/Queue, org/springframework/amqp/core/DirectExchange): org/springframework/amqp/core/Binding: null
+2026-08-11 23:00:35.805 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.RabbitMQConfig_init_19494209211
+2026-08-11 23:00:35.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/RabbitMQConfig::testeQueue(): org/springframework/amqp/core/Queue processing is finished normally
+2026-08-11 23:00:35.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/RabbitMQConfig::exchange(): org/springframework/amqp/core/DirectExchange processing is finished normally
+2026-08-11 23:00:35.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/RabbitMQConfig::testeBinding(org/springframework/amqp/core/Queue, org/springframework/amqp/core/DirectExchange): org/springframework/amqp/core/Binding processing is finished normally
+2026-08-11 23:00:35.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/RabbitMQConfig::<init>(): void: null
+2026-08-11 23:00:35.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/RabbitMQConfig::<init>(): void processing is finished normally
+2026-08-11 23:00:35.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/QueueSender::<init>(): void
+2026-08-11 23:00:35.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/QueueSender::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -615,9 +615,9 @@ java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:35:01.758 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueSender_init_21322945810
-2026-06-29 01:35:01.759 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/QueueSender::send(java/lang/String): void
-2026-06-29 01:35:01.759 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/QueueSender::send(java/lang/String): void
+2026-08-11 23:00:35.861 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueSender_init_21322945810
+2026-08-11 23:00:35.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/QueueSender::send(java/lang/String): void
+2026-08-11 23:00:35.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/QueueSender::send(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -639,9 +639,9 @@ java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-29 01:35:01.818 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueSender_send_19617180461
-2026-06-29 01:35:01.873 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueSender_init_21322945812
-2026-06-29 01:35:01.874 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:35.903 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueSender_send_19617180461
+2026-08-11 23:00:35.951 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.QueueSender_init_21322945812
+2026-08-11 23:00:35.952 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: Lorg/springframework/amqp/rabbit/core/RabbitTemplate;
 	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
 	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
@@ -674,12 +674,12 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.rabbit.cor
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 01:35:01.874 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/QueueSender::send(java/lang/String): void: null
-2026-06-29 01:35:01.874 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/QueueSender::<init>(): void: null
-2026-06-29 01:35:01.874 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/QueueSender::send(java/lang/String): void processing is finished normally
-2026-06-29 01:35:01.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/QueueSender::<init>(): void processing is finished normally
-2026-06-29 01:35:01.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/SenderConfig::<init>(): void
-2026-06-29 01:35:01.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/SenderConfig::<init>(): void
+2026-08-11 23:00:35.952 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/QueueSender::send(java/lang/String): void: null
+2026-08-11 23:00:35.952 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/QueueSender::<init>(): void: null
+2026-08-11 23:00:35.952 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/QueueSender::send(java/lang/String): void processing is finished normally
+2026-08-11 23:00:35.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/QueueSender::<init>(): void processing is finished normally
+2026-08-11 23:00:35.954 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/SenderConfig::<init>(): void
+2026-08-11 23:00:35.955 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/SenderConfig::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -689,9 +689,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.rabbit.cor
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:35:01.942 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.SenderConfig_init_20212614060
-2026-06-29 01:35:01.942 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue
-2026-06-29 01:35:01.942 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue
+2026-08-11 23:00:36.008 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.SenderConfig_init_20212614060
+2026-08-11 23:00:36.009 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue
+2026-08-11 23:00:36.009 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -706,7 +706,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.rabbit.cor
 
 %bb2: 	//predecessors %bb1
 	return %4
-2026-06-29 01:35:01.943 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:36.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -741,7 +741,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 01:35:01.943 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 23:00:36.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -776,10 +776,10 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.core.Queue
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 01:35:01.943 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue: null
-2026-06-29 01:35:01.989 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.SenderConfig_init_20212614061
-2026-06-29 01:35:01.990 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue processing is finished normally
-2026-06-29 01:35:01.990 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/SenderConfig::<init>(): void: null
-2026-06-29 01:35:01.990 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/SenderConfig::<init>(): void processing is finished normally
-2026-06-29 01:35:01.991 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 01:35:01.991 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 23:00:36.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue: null
+2026-08-11 23:00:36.052 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.rabbitmq.app.SenderConfig_init_20212614061
+2026-08-11 23:00:36.052 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/SenderConfig::queue(): org/springframework/amqp/core/Queue processing is finished normally
+2026-08-11 23:00:36.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/rabbitmq/app/SenderConfig::<init>(): void: null
+2026-08-11 23:00:36.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/rabbitmq/app/SenderConfig::<init>(): void processing is finished normally
+2026-08-11 23:00:36.053 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 23:00:36.053 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

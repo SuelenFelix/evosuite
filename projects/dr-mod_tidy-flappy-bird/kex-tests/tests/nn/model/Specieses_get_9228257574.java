@@ -168,7 +168,7 @@ public class Specieses_get_9228257574 {
         setField(term3002, term3002.getClass(), "nodeInnovator", term3074);
         setIntField(term3076, term3076.getClass(), "counter", 100);
         setField(term3002, term3002.getClass(), "connectionInnovator", term3076);
-        setLongField(term3079, term3079.getClass(), "value", 60581563394116L);
+        setLongField(term3079, term3079.getClass(), "value", 10639459429158L);
         setField(term3078, term3078.getClass(), "seed", term3079);
         setDoubleField(term3078, term3078.getClass(), "nextNextGaussian", 0.24810335047389354);
         setBooleanField(term3078, term3078.getClass(), "haveNextNextGaussian", true);

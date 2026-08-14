@@ -1,16 +1,16 @@
-2026-06-28 13:48:03.070 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/aws-samples_amazon-kinesis-data-analytics-flink-starter-kit/target/classes
-2026-06-28 13:48:03.157 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:48:03.227 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 13:48:04.310 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 13:48:04.730 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/amazonaws/kda/flink/starterkit/*
-2026-06-28 13:48:04.731 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 13:48:04.750 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/aws-samples_amazon-kinesis-data-analytics-flink-starter-kit/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:48:04.780 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/aws-samples_amazon-kinesis-data-analytics-flink-starter-kit/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 46259 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/aws-samples_amazon-kinesis-data-analytics-flink-starter-kit/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 13:48:04.792 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 13:49:44.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::<init>(): void
-2026-06-28 13:49:44.830 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::<init>(): void
+2026-08-10 23:41:42.728 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_amazon-kinesis-data-analytics-flink-starter-kit/target/classes
+2026-08-10 23:41:42.814 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 23:41:42.891 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-10 23:41:43.880 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-10 23:41:44.427 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/amazonaws/kda/flink/starterkit/*
+2026-08-10 23:41:44.428 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-10 23:41:44.450 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_amazon-kinesis-data-analytics-flink-starter-kit/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 23:41:44.483 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_amazon-kinesis-data-analytics-flink-starter-kit/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 43609 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_amazon-kinesis-data-analytics-flink-starter-kit/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-10 23:41:44.495 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-10 23:43:24.530 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::<init>(): void
+2026-08-10 23:43:24.531 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:45.378 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_init_13306596090
-2026-06-28 13:49:45.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_1(): java/lang/String
-2026-06-28 13:49:45.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_1(): java/lang/String
+2026-08-10 23:43:25.113 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_init_13306596090
+2026-08-10 23:43:25.119 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_1(): java/lang/String
+2026-08-10 23:43:25.119 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_1(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -32,9 +32,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:45.541 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr1_15616269591
-2026-06-28 13:49:45.542 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_1(java/lang/String): void
-2026-06-28 13:49:45.542 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_1(java/lang/String): void
+2026-08-10 23:43:25.251 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr1_15616269591
+2026-08-10 23:43:25.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_1(java/lang/String): void
+2026-08-10 23:43:25.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_1(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -44,9 +44,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:45.642 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr1_2842868572
-2026-06-28 13:49:45.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_2(): java/lang/String
-2026-06-28 13:49:45.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_2(): java/lang/String
+2026-08-10 23:43:25.350 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr1_2842868572
+2026-08-10 23:43:25.351 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_2(): java/lang/String
+2026-08-10 23:43:25.351 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_2(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -56,9 +56,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:45.730 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr2_15616259983
-2026-06-28 13:49:45.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_2(java/lang/String): void
-2026-06-28 13:49:45.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_2(java/lang/String): void
+2026-08-10 23:43:25.457 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr2_15616259983
+2026-08-10 23:43:25.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_2(java/lang/String): void
+2026-08-10 23:43:25.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_2(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -68,9 +68,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:45.822 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr2_2842878184
-2026-06-28 13:49:45.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getTimestamp(): long
-2026-06-28 13:49:45.824 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getTimestamp(): long
+2026-08-10 23:43:25.545 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr2_2842878184
+2026-08-10 23:43:25.546 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getTimestamp(): long
+2026-08-10 23:43:25.546 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getTimestamp(): long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -80,9 +80,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:45.892 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getTimestamp_13141759495
-2026-06-28 13:49:45.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setTimestamp(long): void
-2026-06-28 13:49:45.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setTimestamp(long): void
+2026-08-10 23:43:25.624 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getTimestamp_13141759495
+2026-08-10 23:43:25.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setTimestamp(long): void
+2026-08-10 23:43:25.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setTimestamp(long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -92,9 +92,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:45.964 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setTimestamp_12126833576
-2026-06-28 13:49:45.965 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_3(): java/lang/String
-2026-06-28 13:49:45.965 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_3(): java/lang/String
+2026-08-10 23:43:25.693 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setTimestamp_12126833576
+2026-08-10 23:43:25.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_3(): java/lang/String
+2026-08-10 23:43:25.694 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_3(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -104,9 +104,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:46.037 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr3_15616250377
-2026-06-28 13:49:46.038 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_3(java/lang/String): void
-2026-06-28 13:49:46.039 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_3(java/lang/String): void
+2026-08-10 23:43:25.755 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr3_15616250377
+2026-08-10 23:43:25.756 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_3(java/lang/String): void
+2026-08-10 23:43:25.756 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_3(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -116,9 +116,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:46.130 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr3_2842887798
-2026-06-28 13:49:46.131 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_4(): java/lang/String
-2026-06-28 13:49:46.131 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_4(): java/lang/String
+2026-08-10 23:43:25.830 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr3_2842887798
+2026-08-10 23:43:25.831 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_4(): java/lang/String
+2026-08-10 23:43:25.831 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_4(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -128,9 +128,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:46.185 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr4_15616240769
-2026-06-28 13:49:46.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_4(java/lang/String): void
-2026-06-28 13:49:46.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_4(java/lang/String): void
+2026-08-10 23:43:25.879 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr4_15616240769
+2026-08-10 23:43:25.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_4(java/lang/String): void
+2026-08-10 23:43:25.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_4(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -140,9 +140,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:46.251 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr4_28428974010
-2026-06-28 13:49:46.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_5(): java/lang/String
-2026-06-28 13:49:46.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_5(): java/lang/String
+2026-08-10 23:43:25.940 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr4_28428974010
+2026-08-10 23:43:25.941 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_5(): java/lang/String
+2026-08-10 23:43:25.941 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_5(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -152,9 +152,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:46.305 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr5_156162311511
-2026-06-28 13:49:46.306 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_5(java/lang/String): void
-2026-06-28 13:49:46.306 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_5(java/lang/String): void
+2026-08-10 23:43:25.994 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr5_156162311511
+2026-08-10 23:43:25.995 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_5(java/lang/String): void
+2026-08-10 23:43:25.995 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_5(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -164,9 +164,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:46.380 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr5_28429070112
-2026-06-28 13:49:46.381 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getSession_id(): java/lang/String
-2026-06-28 13:49:46.381 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getSession_id(): java/lang/String
+2026-08-10 23:43:26.071 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr5_28429070112
+2026-08-10 23:43:26.072 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getSession_id(): java/lang/String
+2026-08-10 23:43:26.072 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getSession_id(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -176,9 +176,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:46.430 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getSessionid_104110526613
-2026-06-28 13:49:46.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setSession_id(java/lang/String): void
-2026-06-28 13:49:46.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setSession_id(java/lang/String): void
+2026-08-10 23:43:26.121 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getSessionid_104110526613
+2026-08-10 23:43:26.122 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setSession_id(java/lang/String): void
+2026-08-10 23:43:26.122 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setSession_id(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -188,9 +188,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:46.476 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setSessionid_40861586214
-2026-06-28 13:49:46.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_6(): java/lang/String
-2026-06-28 13:49:46.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_6(): java/lang/String
+2026-08-10 23:43:26.165 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setSessionid_40861586214
+2026-08-10 23:43:26.166 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_6(): java/lang/String
+2026-08-10 23:43:26.166 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_6(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -200,9 +200,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:46.525 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr6_156162215415
-2026-06-28 13:49:46.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_6(java/lang/String): void
-2026-06-28 13:49:46.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_6(java/lang/String): void
+2026-08-10 23:43:26.208 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr6_156162215415
+2026-08-10 23:43:26.209 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_6(java/lang/String): void
+2026-08-10 23:43:26.209 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_6(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -212,9 +212,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:46.573 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr6_28429166216
-2026-06-28 13:49:46.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_7(): long
-2026-06-28 13:49:46.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_7(): long
+2026-08-10 23:43:26.253 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr6_28429166216
+2026-08-10 23:43:26.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_7(): long
+2026-08-10 23:43:26.254 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_7(): long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -224,9 +224,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:46.633 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr7_52150027417
-2026-06-28 13:49:46.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_7(long): void
-2026-06-28 13:49:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_7(long): void
+2026-08-10 23:43:26.302 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr7_52150027417
+2026-08-10 23:43:26.303 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_7(long): void
+2026-08-10 23:43:26.303 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_7(long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -236,9 +236,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:46.682 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr7_43654866018
-2026-06-28 13:49:46.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_8(): java/lang/String
-2026-06-28 13:49:46.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_8(): java/lang/String
+2026-08-10 23:43:26.347 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr7_43654866018
+2026-08-10 23:43:26.349 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::getAttr_8(): java/lang/String
+2026-08-10 23:43:26.349 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::getAttr_8(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -248,9 +248,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:46.727 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr8_156162023219
-2026-06-28 13:49:46.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_8(java/lang/String): void
-2026-06-28 13:49:46.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_8(java/lang/String): void
+2026-08-10 23:43:26.391 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr8_156162023219
+2026-08-10 23:43:26.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Event::setAttr_8(java/lang/String): void
+2026-08-10 23:43:26.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Event::setAttr_8(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -260,72 +260,72 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:46.769 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr8_28429358420
-2026-06-28 13:49:46.809 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_init_133065960921
-2026-06-28 13:49:46.852 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr1_156162695922
-2026-06-28 13:49:46.893 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr1_28428685723
-2026-06-28 13:49:46.942 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr2_156162599824
-2026-06-28 13:49:46.991 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr2_28428781825
-2026-06-28 13:49:47.050 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getTimestamp_131417594926
-2026-06-28 13:49:47.107 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setTimestamp_121268335727
-2026-06-28 13:49:47.170 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr3_156162503728
-2026-06-28 13:49:47.240 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr3_28428877929
-2026-06-28 13:49:47.285 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr4_156162407630
-2026-06-28 13:49:47.344 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr4_28428974031
-2026-06-28 13:49:47.386 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr5_156162311532
-2026-06-28 13:49:47.427 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr5_28429070133
-2026-06-28 13:49:47.467 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getSessionid_104110526634
-2026-06-28 13:49:47.508 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setSessionid_40861586235
-2026-06-28 13:49:47.548 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr6_156162215436
-2026-06-28 13:49:47.588 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr6_28429166237
-2026-06-28 13:49:47.628 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr7_52150027438
-2026-06-28 13:49:47.667 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr7_43654866039
-2026-06-28 13:49:47.703 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr8_156162023240
-2026-06-28 13:49:47.744 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr8_28429358441
-2026-06-28 13:49:47.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::<init>(): void: null
-2026-06-28 13:49:47.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_1(): java/lang/String: null
-2026-06-28 13:49:47.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_1(java/lang/String): void: null
-2026-06-28 13:49:47.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_2(): java/lang/String: null
-2026-06-28 13:49:47.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_2(java/lang/String): void: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getTimestamp(): long: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setTimestamp(long): void: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_3(): java/lang/String: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_3(java/lang/String): void: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_4(): java/lang/String: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_4(java/lang/String): void: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_5(): java/lang/String: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_5(java/lang/String): void: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getSession_id(): java/lang/String: null
-2026-06-28 13:49:47.746 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setSession_id(java/lang/String): void: null
-2026-06-28 13:49:47.747 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_6(): java/lang/String: null
-2026-06-28 13:49:47.747 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_6(java/lang/String): void: null
-2026-06-28 13:49:47.747 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_7(): long: null
-2026-06-28 13:49:47.747 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_7(long): void: null
-2026-06-28 13:49:47.747 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_8(): java/lang/String: null
-2026-06-28 13:49:47.747 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_8(java/lang/String): void: null
-2026-06-28 13:49:47.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::<init>(): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_1(): java/lang/String processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_1(java/lang/String): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_2(): java/lang/String processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_2(java/lang/String): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getTimestamp(): long processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setTimestamp(long): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_3(): java/lang/String processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_3(java/lang/String): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_4(): java/lang/String processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_4(java/lang/String): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_5(): java/lang/String processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_5(java/lang/String): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getSession_id(): java/lang/String processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setSession_id(java/lang/String): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_6(): java/lang/String processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_6(java/lang/String): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_7(): long processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_7(long): void processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_8(): java/lang/String processing is finished normally
-2026-06-28 13:49:47.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_8(java/lang/String): void processing is finished normally
-2026-06-28 13:49:47.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/StreamPosition::values(): com/amazonaws/kda/flink/starterkit/StreamPosition[]
-2026-06-28 13:49:47.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/StreamPosition::values(): com/amazonaws/kda/flink/starterkit/StreamPosition[]
+2026-08-10 23:43:26.435 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr8_28429358420
+2026-08-10 23:43:26.477 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_init_133065960921
+2026-08-10 23:43:26.519 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr1_156162695922
+2026-08-10 23:43:26.568 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr1_28428685723
+2026-08-10 23:43:26.620 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr2_156162599824
+2026-08-10 23:43:26.675 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr2_28428781825
+2026-08-10 23:43:26.726 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getTimestamp_131417594926
+2026-08-10 23:43:26.787 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setTimestamp_121268335727
+2026-08-10 23:43:26.849 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr3_156162503728
+2026-08-10 23:43:26.893 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr3_28428877929
+2026-08-10 23:43:26.932 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr4_156162407630
+2026-08-10 23:43:26.976 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr4_28428974031
+2026-08-10 23:43:27.017 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr5_156162311532
+2026-08-10 23:43:27.056 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr5_28429070133
+2026-08-10 23:43:27.090 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getSessionid_104110526634
+2026-08-10 23:43:27.123 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setSessionid_40861586235
+2026-08-10 23:43:27.165 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr6_156162215436
+2026-08-10 23:43:27.198 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr6_28429166237
+2026-08-10 23:43:27.231 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr7_52150027438
+2026-08-10 23:43:27.266 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr7_43654866039
+2026-08-10 23:43:27.303 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_getAttr8_156162023240
+2026-08-10 23:43:27.338 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.Event_setAttr8_28429358441
+2026-08-10 23:43:27.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::<init>(): void: null
+2026-08-10 23:43:27.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_1(): java/lang/String: null
+2026-08-10 23:43:27.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_1(java/lang/String): void: null
+2026-08-10 23:43:27.339 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_2(): java/lang/String: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_2(java/lang/String): void: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getTimestamp(): long: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setTimestamp(long): void: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_3(): java/lang/String: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_3(java/lang/String): void: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_4(): java/lang/String: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_4(java/lang/String): void: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_5(): java/lang/String: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_5(java/lang/String): void: null
+2026-08-10 23:43:27.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getSession_id(): java/lang/String: null
+2026-08-10 23:43:27.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setSession_id(java/lang/String): void: null
+2026-08-10 23:43:27.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_6(): java/lang/String: null
+2026-08-10 23:43:27.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_6(java/lang/String): void: null
+2026-08-10 23:43:27.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_7(): long: null
+2026-08-10 23:43:27.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_7(long): void: null
+2026-08-10 23:43:27.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::getAttr_8(): java/lang/String: null
+2026-08-10 23:43:27.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Event::setAttr_8(java/lang/String): void: null
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::<init>(): void processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_1(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_1(java/lang/String): void processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_2(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_2(java/lang/String): void processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getTimestamp(): long processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setTimestamp(long): void processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_3(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_3(java/lang/String): void processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_4(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_4(java/lang/String): void processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_5(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_5(java/lang/String): void processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getSession_id(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setSession_id(java/lang/String): void processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_6(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_6(java/lang/String): void processing is finished normally
+2026-08-10 23:43:27.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_7(): long processing is finished normally
+2026-08-10 23:43:27.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_7(long): void processing is finished normally
+2026-08-10 23:43:27.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::getAttr_8(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Event::setAttr_8(java/lang/String): void processing is finished normally
+2026-08-10 23:43:27.347 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/StreamPosition::values(): com/amazonaws/kda/flink/starterkit/StreamPosition[]
+2026-08-10 23:43:27.347 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/StreamPosition::values(): com/amazonaws/kda/flink/starterkit/StreamPosition[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -340,9 +340,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %5
-2026-06-28 13:49:47.795 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_values_13203414090
-2026-06-28 13:49:47.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/StreamPosition::valueOf(java/lang/String): com/amazonaws/kda/flink/starterkit/StreamPosition
-2026-06-28 13:49:47.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/StreamPosition::valueOf(java/lang/String): com/amazonaws/kda/flink/starterkit/StreamPosition
+2026-08-10 23:43:27.393 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_values_13203414090
+2026-08-10 23:43:27.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/StreamPosition::valueOf(java/lang/String): com/amazonaws/kda/flink/starterkit/StreamPosition
+2026-08-10 23:43:27.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/StreamPosition::valueOf(java/lang/String): com/amazonaws/kda/flink/starterkit/StreamPosition
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -356,9 +356,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 13:49:47.833 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718121
-2026-06-28 13:49:47.834 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/StreamPosition::<init>(java/lang/String, int): void
-2026-06-28 13:49:47.834 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/StreamPosition::<init>(java/lang/String, int): void
+2026-08-10 23:43:27.446 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718121
+2026-08-10 23:43:27.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/StreamPosition::<init>(java/lang/String, int): void
+2026-08-10 23:43:27.447 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/StreamPosition::<init>(java/lang/String, int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -368,18 +368,18 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:47.873 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852
-2026-06-28 13:49:47.938 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_values_13203414093
-2026-06-28 13:49:47.991 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718124
-2026-06-28 13:49:48.035 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510855
-2026-06-28 13:49:48.035 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/StreamPosition::values(): com/amazonaws/kda/flink/starterkit/StreamPosition[]: null
-2026-06-28 13:49:48.036 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/StreamPosition::valueOf(java/lang/String): com/amazonaws/kda/flink/starterkit/StreamPosition: null
-2026-06-28 13:49:48.036 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/StreamPosition::<init>(java/lang/String, int): void: null
-2026-06-28 13:49:48.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/StreamPosition::values(): com/amazonaws/kda/flink/starterkit/StreamPosition[] processing is finished normally
-2026-06-28 13:49:48.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/StreamPosition::valueOf(java/lang/String): com/amazonaws/kda/flink/starterkit/StreamPosition processing is finished normally
-2026-06-28 13:49:48.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/StreamPosition::<init>(java/lang/String, int): void processing is finished normally
-2026-06-28 13:49:48.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::<init>(): void
-2026-06-28 13:49:48.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::<init>(): void
+2026-08-10 23:43:27.502 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852
+2026-08-10 23:43:27.562 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_values_13203414093
+2026-08-10 23:43:27.618 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718124
+2026-08-10 23:43:27.656 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510855
+2026-08-10 23:43:27.657 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/StreamPosition::values(): com/amazonaws/kda/flink/starterkit/StreamPosition[]: null
+2026-08-10 23:43:27.657 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/StreamPosition::valueOf(java/lang/String): com/amazonaws/kda/flink/starterkit/StreamPosition: null
+2026-08-10 23:43:27.657 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/StreamPosition::<init>(java/lang/String, int): void: null
+2026-08-10 23:43:27.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/StreamPosition::values(): com/amazonaws/kda/flink/starterkit/StreamPosition[] processing is finished normally
+2026-08-10 23:43:27.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/StreamPosition::valueOf(java/lang/String): com/amazonaws/kda/flink/starterkit/StreamPosition processing is finished normally
+2026-08-10 23:43:27.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/StreamPosition::<init>(java/lang/String, int): void processing is finished normally
+2026-08-10 23:43:27.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::<init>(): void
+2026-08-10 23:43:27.667 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -389,7 +389,7 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:48.045 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.668 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -413,7 +413,7 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.046 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.668 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -437,9 +437,9 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.046 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::<init>(): void: null
-2026-06-28 13:49:48.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::createAccumulator(): java/lang/String
-2026-06-28 13:49:48.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::createAccumulator(): java/lang/String
+2026-08-10 23:43:27.669 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::<init>(): void: null
+2026-08-10 23:43:27.669 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::createAccumulator(): java/lang/String
+2026-08-10 23:43:27.669 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::createAccumulator(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -450,7 +450,7 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 
 %bb1: 	//predecessors %bb0
 	return %2
-2026-06-28 13:49:48.046 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.669 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -474,7 +474,7 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.046 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.669 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -498,9 +498,9 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.046 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::createAccumulator(): java/lang/String: null
-2026-06-28 13:49:48.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::add(com/amazonaws/kda/flink/starterkit/Event, java/lang/String): java/lang/String
-2026-06-28 13:49:48.047 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::add(com/amazonaws/kda/flink/starterkit/Event, java/lang/String): java/lang/String
+2026-08-10 23:43:27.669 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::createAccumulator(): java/lang/String: null
+2026-08-10 23:43:27.669 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::add(com/amazonaws/kda/flink/starterkit/Event, java/lang/String): java/lang/String
+2026-08-10 23:43:27.670 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::add(com/amazonaws/kda/flink/starterkit/Event, java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -547,7 +547,7 @@ goto %label2
 %goto0: 	//predecessors %label1, %label2
 	%18 = phi {%label1 -> %15; %label2 -> %16}
 	return %18
-2026-06-28 13:49:48.047 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.670 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -571,7 +571,7 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.048 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.670 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -595,9 +595,9 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.048 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::add(com/amazonaws/kda/flink/starterkit/Event, java/lang/String): java/lang/String: null
-2026-06-28 13:49:48.048 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::getResult(java/lang/String): java/lang/String
-2026-06-28 13:49:48.048 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::getResult(java/lang/String): java/lang/String
+2026-08-10 23:43:27.670 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::add(com/amazonaws/kda/flink/starterkit/Event, java/lang/String): java/lang/String: null
+2026-08-10 23:43:27.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::getResult(java/lang/String): java/lang/String
+2026-08-10 23:43:27.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::getResult(java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -607,7 +607,7 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:49:48.048 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.671 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -631,7 +631,7 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.048 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.671 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -655,9 +655,9 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.048 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::getResult(java/lang/String): java/lang/String: null
-2026-06-28 13:49:48.048 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::merge(java/lang/String, java/lang/String): java/lang/String
-2026-06-28 13:49:48.049 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::merge(java/lang/String, java/lang/String): java/lang/String
+2026-08-10 23:43:27.671 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::getResult(java/lang/String): java/lang/String: null
+2026-08-10 23:43:27.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/Aggregator::merge(java/lang/String, java/lang/String): java/lang/String
+2026-08-10 23:43:27.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/Aggregator::merge(java/lang/String, java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -676,7 +676,7 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-28 13:49:48.049 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.671 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -700,7 +700,7 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.049 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:27.672 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/AggregateFunction
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -724,14 +724,14 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.049 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::merge(java/lang/String, java/lang/String): java/lang/String: null
-2026-06-28 13:49:48.049 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::<init>(): void processing is finished normally
-2026-06-28 13:49:48.049 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::createAccumulator(): java/lang/String processing is finished normally
-2026-06-28 13:49:48.049 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::add(com/amazonaws/kda/flink/starterkit/Event, java/lang/String): java/lang/String processing is finished normally
-2026-06-28 13:49:48.049 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::getResult(java/lang/String): java/lang/String processing is finished normally
-2026-06-28 13:49:48.050 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::merge(java/lang/String, java/lang/String): java/lang/String processing is finished normally
-2026-06-28 13:49:48.063 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::<init>(): void
-2026-06-28 13:49:48.063 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::<init>(): void
+2026-08-10 23:43:27.672 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/Aggregator::merge(java/lang/String, java/lang/String): java/lang/String: null
+2026-08-10 23:43:27.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::<init>(): void processing is finished normally
+2026-08-10 23:43:27.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::createAccumulator(): java/lang/String processing is finished normally
+2026-08-10 23:43:27.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::add(com/amazonaws/kda/flink/starterkit/Event, java/lang/String): java/lang/String processing is finished normally
+2026-08-10 23:43:27.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::getResult(java/lang/String): java/lang/String processing is finished normally
+2026-08-10 23:43:27.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/Aggregator::merge(java/lang/String, java/lang/String): java/lang/String processing is finished normally
+2026-08-10 23:43:27.691 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::<init>(): void
+2026-08-10 23:43:27.691 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -741,9 +741,9 @@ java.lang.ClassNotFoundException: org/apache/flink/api/common/functions/Aggregat
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:48.099 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_init_12551553970
-2026-06-28 13:49:48.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfStreamExist(java/lang/String, java/lang/String): bool
-2026-06-28 13:49:48.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfStreamExist(java/lang/String, java/lang/String): bool
+2026-08-10 23:43:27.751 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_init_12551553970
+2026-08-10 23:43:27.752 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfStreamExist(java/lang/String, java/lang/String): bool
+2026-08-10 23:43:27.752 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfStreamExist(java/lang/String, java/lang/String): bool
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -824,9 +824,9 @@ goto %label5
 
 %bb8: 	//predecessors %goto0
 	return %34
-2026-06-28 13:49:48.132 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582651
-2026-06-28 13:49:48.133 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfBucketExist(java/lang/String, java/lang/String): bool
-2026-06-28 13:49:48.133 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfBucketExist(java/lang/String, java/lang/String): bool
+2026-08-10 23:43:27.787 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582651
+2026-08-10 23:43:27.788 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfBucketExist(java/lang/String, java/lang/String): bool
+2026-08-10 23:43:27.788 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfBucketExist(java/lang/String, java/lang/String): bool
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -922,9 +922,9 @@ goto %label5
 
 %bb11: 	//predecessors %goto0
 	return %41
-2026-06-28 13:49:48.167 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189472
-2026-06-28 13:49:48.168 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfRegionExist(java/lang/String): bool
-2026-06-28 13:49:48.168 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfRegionExist(java/lang/String): bool
+2026-08-10 23:43:27.822 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189472
+2026-08-10 23:43:27.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfRegionExist(java/lang/String): bool
+2026-08-10 23:43:27.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfRegionExist(java/lang/String): bool
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -1013,9 +1013,9 @@ goto %label5
 %goto0: 	//predecessors %bb9, %bb10
 	%41 = phi {%bb9 -> 1; %bb10 -> 0}
 	return %41
-2026-06-28 13:49:48.202 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768483
-2026-06-28 13:49:48.202 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::validateDate(java/lang/String): bool
-2026-06-28 13:49:48.203 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::validateDate(java/lang/String): bool
+2026-08-10 23:43:27.860 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768483
+2026-08-10 23:43:27.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionUtil::validateDate(java/lang/String): bool
+2026-08-10 23:43:27.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionUtil::validateDate(java/lang/String): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1061,24 +1061,24 @@ goto %label1
 %bb.return0: 	//predecessors %label2, %goto0
 	%retval1 = phi {%label2 -> 0; %goto0 -> 1}
 	return %retval1
-2026-06-28 13:49:48.235 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266024
-2026-06-28 13:49:48.270 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_init_12551553975
-2026-06-28 13:49:48.302 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656
-2026-06-28 13:49:48.336 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189477
-2026-06-28 13:49:48.370 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488
-2026-06-28 13:49:48.404 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266029
-2026-06-28 13:49:48.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::<init>(): void: null
-2026-06-28 13:49:48.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfStreamExist(java/lang/String, java/lang/String): bool: null
-2026-06-28 13:49:48.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfBucketExist(java/lang/String, java/lang/String): bool: null
-2026-06-28 13:49:48.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfRegionExist(java/lang/String): bool: null
-2026-06-28 13:49:48.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::validateDate(java/lang/String): bool: null
-2026-06-28 13:49:48.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::<init>(): void processing is finished normally
-2026-06-28 13:49:48.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfStreamExist(java/lang/String, java/lang/String): bool processing is finished normally
-2026-06-28 13:49:48.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfBucketExist(java/lang/String, java/lang/String): bool processing is finished normally
-2026-06-28 13:49:48.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfRegionExist(java/lang/String): bool processing is finished normally
-2026-06-28 13:49:48.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::validateDate(java/lang/String): bool processing is finished normally
-2026-06-28 13:49:48.427 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void
-2026-06-28 13:49:48.428 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void
+2026-08-10 23:43:27.894 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266024
+2026-08-10 23:43:27.928 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_init_12551553975
+2026-08-10 23:43:27.960 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656
+2026-08-10 23:43:27.992 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189477
+2026-08-10 23:43:28.026 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488
+2026-08-10 23:43:28.061 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266029
+2026-08-10 23:43:28.061 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::<init>(): void: null
+2026-08-10 23:43:28.061 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfStreamExist(java/lang/String, java/lang/String): bool: null
+2026-08-10 23:43:28.062 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfBucketExist(java/lang/String, java/lang/String): bool: null
+2026-08-10 23:43:28.062 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfRegionExist(java/lang/String): bool: null
+2026-08-10 23:43:28.062 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionUtil::validateDate(java/lang/String): bool: null
+2026-08-10 23:43:28.062 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::<init>(): void processing is finished normally
+2026-08-10 23:43:28.062 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfStreamExist(java/lang/String, java/lang/String): bool processing is finished normally
+2026-08-10 23:43:28.062 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfBucketExist(java/lang/String, java/lang/String): bool processing is finished normally
+2026-08-10 23:43:28.062 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::checkIfRegionExist(java/lang/String): bool processing is finished normally
+2026-08-10 23:43:28.062 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionUtil::validateDate(java/lang/String): bool processing is finished normally
+2026-08-10 23:43:28.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void
+2026-08-10 23:43:28.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1088,7 +1088,7 @@ goto %label1
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:48.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.089 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -1124,7 +1124,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.flink.streaming.api.wind
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 13:49:48.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -1160,9 +1160,9 @@ Caused by: java.lang.ClassNotFoundException: org.apache.flink.streaming.api.wind
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 13:49:48.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void: null
-2026-06-28 13:49:48.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void
-2026-06-28 13:49:48.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void
+2026-08-10 23:43:28.090 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void: null
+2026-08-10 23:43:28.090 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void
+2026-08-10 23:43:28.090 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1333,7 +1333,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.flink.streaming.api.wind
 
 %label11: 	//predecessors %bb21
 	return
-2026-06-28 13:49:48.430 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1368,7 +1368,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.flink.streaming.api.wind
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 13:49:48.430 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1403,9 +1403,9 @@ Caused by: java.lang.ClassNotFoundException: org.apache.flink.streaming.api.wind
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 13:49:48.430 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void: null
-2026-06-28 13:49:48.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::createKinesisSource(org/apache/flink/streaming/api/environment/StreamExecutionEnvironment, org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/datastream/DataStream
-2026-06-28 13:49:48.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::createKinesisSource(org/apache/flink/streaming/api/environment/StreamExecutionEnvironment, org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/datastream/DataStream
+2026-08-10 23:43:28.091 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void: null
+2026-08-10 23:43:28.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::createKinesisSource(org/apache/flink/streaming/api/environment/StreamExecutionEnvironment, org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/datastream/DataStream
+2026-08-10 23:43:28.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::createKinesisSource(org/apache/flink/streaming/api/environment/StreamExecutionEnvironment, org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/datastream/DataStream
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1486,7 +1486,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.flink.streaming.api.wind
 
 %bb12: 	//predecessors %bb11
 	return %36
-2026-06-28 13:49:48.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1513,7 +1513,7 @@ java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.Str
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1540,9 +1540,9 @@ java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.Str
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::createKinesisSource(org/apache/flink/streaming/api/environment/StreamExecutionEnvironment, org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/datastream/DataStream: null
-2026-06-28 13:49:48.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::createS3Sink(org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink
-2026-06-28 13:49:48.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::createS3Sink(org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink
+2026-08-10 23:43:28.092 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::createKinesisSource(org/apache/flink/streaming/api/environment/StreamExecutionEnvironment, org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/datastream/DataStream: null
+2026-08-10 23:43:28.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::createS3Sink(org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink
+2026-08-10 23:43:28.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::createS3Sink(org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1658,7 +1658,7 @@ java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.Str
 
 %label4: 	//predecessors %bb22
 	return %53
-2026-06-28 13:49:48.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1685,7 +1685,7 @@ java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1712,9 +1712,9 @@ java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::createS3Sink(org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink: null
-2026-06-28 13:49:48.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::validateRuntimeProperties(org/apache/flink/api/java/utils/ParameterTool): bool
-2026-06-28 13:49:48.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::validateRuntimeProperties(org/apache/flink/api/java/utils/ParameterTool): bool
+2026-08-10 23:43:28.093 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::createS3Sink(org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink: null
+2026-08-10 23:43:28.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/SessionProcessor::validateRuntimeProperties(org/apache/flink/api/java/utils/ParameterTool): bool
+2026-08-10 23:43:28.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/SessionProcessor::validateRuntimeProperties(org/apache/flink/api/java/utils/ParameterTool): bool
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -1992,7 +1992,7 @@ goto %label9
 
 %if.then5: 	//predecessors %goto1, %bb32, %bb34
 	return %129
-2026-06-28 13:49:48.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2019,7 +2019,7 @@ java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2046,14 +2046,14 @@ java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:49:48.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::validateRuntimeProperties(org/apache/flink/api/java/utils/ParameterTool): bool: null
-2026-06-28 13:49:48.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void processing is finished normally
-2026-06-28 13:49:48.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void processing is finished normally
-2026-06-28 13:49:48.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::createKinesisSource(org/apache/flink/streaming/api/environment/StreamExecutionEnvironment, org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/datastream/DataStream processing is finished normally
-2026-06-28 13:49:48.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::createS3Sink(org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink processing is finished normally
-2026-06-28 13:49:48.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::validateRuntimeProperties(org/apache/flink/api/java/utils/ParameterTool): bool processing is finished normally
-2026-06-28 13:49:48.435 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::<init>(): void
-2026-06-28 13:49:48.436 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/ParameterToolUtils::<init>(): void
+2026-08-10 23:43:28.094 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/SessionProcessor::validateRuntimeProperties(org/apache/flink/api/java/utils/ParameterTool): bool: null
+2026-08-10 23:43:28.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::<init>(): void processing is finished normally
+2026-08-10 23:43:28.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::main(java/lang/String[]): void processing is finished normally
+2026-08-10 23:43:28.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::createKinesisSource(org/apache/flink/streaming/api/environment/StreamExecutionEnvironment, org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/datastream/DataStream processing is finished normally
+2026-08-10 23:43:28.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::createS3Sink(org/apache/flink/api/java/utils/ParameterTool): org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink processing is finished normally
+2026-08-10 23:43:28.095 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/SessionProcessor::validateRuntimeProperties(org/apache/flink/api/java/utils/ParameterTool): bool processing is finished normally
+2026-08-10 23:43:28.097 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::<init>(): void
+2026-08-10 23:43:28.097 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/ParameterToolUtils::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2063,9 +2063,9 @@ java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:49:48.470 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.ParameterToolUtils_init_21208454970
-2026-06-28 13:49:48.471 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
-2026-06-28 13:49:48.471 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
+2026-08-10 23:43:28.143 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.ParameterToolUtils_init_21208454970
+2026-08-10 23:43:28.143 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
+2026-08-10 23:43:28.144 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2092,7 +2092,7 @@ java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.ParameterTool
 
 %bb4: 	//predecessors %bb3
 	return %9
-2026-06-28 13:49:48.472 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.144 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2127,7 +2127,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.Par
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 13:49:48.472 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:43:28.144 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2162,10 +2162,10 @@ Caused by: java.lang.ClassNotFoundException: org.apache.flink.api.java.utils.Par
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 13:49:48.472 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool: null
-2026-06-28 13:49:48.504 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.ParameterToolUtils_init_21208454971
-2026-06-28 13:49:48.505 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool processing is finished normally
-2026-06-28 13:49:48.506 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::<init>(): void: null
-2026-06-28 13:49:48.506 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::<init>(): void processing is finished normally
-2026-06-28 13:49:48.506 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 13:49:48.507 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-10 23:43:28.144 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool: null
+2026-08-10 23:43:28.177 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.kda.flink.starterkit.ParameterToolUtils_init_21208454971
+2026-08-10 23:43:28.177 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool processing is finished normally
+2026-08-10 23:43:28.178 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::<init>(): void: null
+2026-08-10 23:43:28.178 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/kda/flink/starterkit/ParameterToolUtils::<init>(): void processing is finished normally
+2026-08-10 23:43:28.178 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-10 23:43:28.178 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_getProjectIdsByProjectRoles_181953822816 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2663;
+     Object term3037;
 
     public SessionEmployeePrincipal_getProjectIdsByProjectRoles_181953822816() {
     }
@@ -37,15 +37,15 @@ public class SessionEmployeePrincipal_getProjectIdsByProjectRoles_181953822816 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term2678 = new HashMap();
-        Set<Object> term2703 =  ((Map) term2678).keySet();
-        HashSet term2677 = new HashSet((Collection<? extends Object>) term2703);
-        HashMap term2688 = new HashMap();
-        term2663 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2663, term2663.getClass(), "id", -203030934);
-        setField(term2663, term2663.getClass(), "email", "pCTimMblYc");
-        setField(term2663, term2663.getClass(), "employeeRoles", term2677);
-        setField(term2663, term2663.getClass(), "projectIdsByProjectRoles", term2688);
+        HashMap term3052 = new HashMap();
+        Set<Object> term3077 =  ((Map) term3052).keySet();
+        HashSet term3051 = new HashSet((Collection<? extends Object>) term3077);
+        HashMap term3062 = new HashMap();
+        term3037 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3037, term3037.getClass(), "id", -203030934);
+        setField(term3037, term3037.getClass(), "email", "pCTimMblYc");
+        setField(term3037, term3037.getClass(), "employeeRoles", term3051);
+        setField(term3037, term3037.getClass(), "projectIdsByProjectRoles", term3062);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class SessionEmployeePrincipal_getProjectIdsByProjectRoles_181953822816 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getProjectIdsByProjectRoles", argTypes, term2663, args);
+        callMethod(klass, "getProjectIdsByProjectRoles", argTypes, term3037, args);
     }
 
 };

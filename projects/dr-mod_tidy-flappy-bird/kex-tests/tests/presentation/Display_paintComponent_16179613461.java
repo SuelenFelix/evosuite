@@ -154,7 +154,7 @@ public class Display_paintComponent_16179613461 {
         setIntField(term65, term65.getClass(), "yOpeningEnd", 0);
         setIntField(term65, term65.getClass(), "width", 0);
         setField(term54, term54.getClass(), "lastPipe", term65);
-        setLongField(term71, term71.getClass(), "value", 105301429163308L);
+        setLongField(term71, term71.getClass(), "value", 268358960432134L);
         setField(term70, term70.getClass(), "seed", term71);
         setDoubleField(term70, term70.getClass(), "nextNextGaussian", 0.0);
         setBooleanField(term70, term70.getClass(), "haveNextNextGaussian", false);

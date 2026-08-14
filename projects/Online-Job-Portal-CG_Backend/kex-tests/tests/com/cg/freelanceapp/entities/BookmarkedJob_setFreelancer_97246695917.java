@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class BookmarkedJob_setFreelancer_97246695917 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term13331;
+     Object term16417;
 
     public BookmarkedJob_setFreelancer_97246695917() {
     }
@@ -31,11 +31,11 @@ public class BookmarkedJob_setFreelancer_97246695917 {
 
     @Before
     public void setup() throws Throwable {
-        term13331 = newInstance(Class.forName("com.cg.freelanceapp.entities.BookmarkedJob"));
-        setField(term13331, term13331.getClass(), "id", null);
-        setField(term13331, term13331.getClass(), "skill", null);
-        setField(term13331, term13331.getClass(), "job", null);
-        setField(term13331, term13331.getClass(), "freelancer", null);
+        term16417 = newInstance(Class.forName("com.cg.freelanceapp.entities.BookmarkedJob"));
+        setField(term16417, term16417.getClass(), "id", null);
+        setField(term16417, term16417.getClass(), "skill", null);
+        setField(term16417, term16417.getClass(), "job", null);
+        setField(term16417, term16417.getClass(), "freelancer", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class BookmarkedJob_setFreelancer_97246695917 {
         argTypes[0] = Class.forName("com.cg.freelanceapp.entities.Freelancer");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setFreelancer", argTypes, term13331, args);
+        callMethod(klass, "setFreelancer", argTypes, term16417, args);
     }
 
 };

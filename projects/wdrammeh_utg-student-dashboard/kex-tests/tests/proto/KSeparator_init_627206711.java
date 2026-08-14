@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KSeparator_init_627206711 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term66253;
+     Object term66302;
 
     public KSeparator_init_627206711() {
     }
@@ -31,24 +31,24 @@ public class KSeparator_init_627206711 {
 
     @Before
     public void setup() throws Throwable {
-        term66253 = newInstance(Class.forName("java.awt.Color"));
-        float[] term66255 = (float[]) newFloatArray(7);
-        float[] term66263 = (float[]) newFloatArray(3);
-        setIntField(term66253, term66253.getClass(), "value", 993627098);
-        setFloatElement(term66255, 0, 0.59315026F);
-        setFloatElement(term66255, 1, 0.09037483F);
-        setFloatElement(term66255, 2, 0.39231926F);
-        setFloatElement(term66255, 3, 0.6561919F);
-        setFloatElement(term66255, 4, 0.2958501F);
-        setFloatElement(term66255, 5, 0.73301786F);
-        setFloatElement(term66255, 6, 0.7997349F);
-        setField(term66253, term66253.getClass(), "frgbvalue", term66255);
-        setFloatElement(term66263, 0, 0.76181644F);
-        setFloatElement(term66263, 1, 0.24343538F);
-        setFloatElement(term66263, 2, 0.7385589F);
-        setField(term66253, term66253.getClass(), "fvalue", term66263);
-        setFloatField(term66253, term66253.getClass(), "falpha", 0.8736398F);
-        setField(term66253, term66253.getClass(), "cs", null);
+        term66302 = newInstance(Class.forName("java.awt.Color"));
+        float[] term66304 = (float[]) newFloatArray(7);
+        float[] term66312 = (float[]) newFloatArray(3);
+        setIntField(term66302, term66302.getClass(), "value", 993627098);
+        setFloatElement(term66304, 0, 0.59315026F);
+        setFloatElement(term66304, 1, 0.09037483F);
+        setFloatElement(term66304, 2, 0.39231926F);
+        setFloatElement(term66304, 3, 0.6561919F);
+        setFloatElement(term66304, 4, 0.2958501F);
+        setFloatElement(term66304, 5, 0.73301786F);
+        setFloatElement(term66304, 6, 0.7997349F);
+        setField(term66302, term66302.getClass(), "frgbvalue", term66304);
+        setFloatElement(term66312, 0, 0.76181644F);
+        setFloatElement(term66312, 1, 0.24343538F);
+        setFloatElement(term66312, 2, 0.7385589F);
+        setField(term66302, term66302.getClass(), "fvalue", term66312);
+        setFloatField(term66302, term66302.getClass(), "falpha", 0.8736398F);
+        setField(term66302, term66302.getClass(), "cs", null);
     }
 
     @Test
@@ -57,7 +57,7 @@ public class KSeparator_init_627206711 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.awt.Color");
         Object[] args = new Object[1];
-        args[0] = term66253;
+        args[0] = term66302;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

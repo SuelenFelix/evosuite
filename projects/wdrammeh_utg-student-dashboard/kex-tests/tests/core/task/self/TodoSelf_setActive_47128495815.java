@@ -391,7 +391,7 @@ public class TodoSelf_setActive_47128495815 {
         setField(term89518, term89518.getClass(), "keySet", null);
         setField(term89518, term89518.getClass(), "values", null);
         setField(term89507, term89507.getClass(), "moduleToReader", term89518);
-        setLongField(term89523, term89523.getClass(), "timestamp", 164138908L);
+        setLongField(term89523, term89523.getClass(), "timestamp", 52418865L);
         setField(term89523, term89523.getClass(), "referent", null);
         setField(term89523, term89523.getClass(), "queue", null);
         setField(term89523, term89523.getClass(), "next", null);

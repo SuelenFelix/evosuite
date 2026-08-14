@@ -29,12 +29,12 @@ import java.util.HashSet;
 
 public class Movie_init_12380523426 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term23821;
-     Object term23823;
-     Object term23825;
-     Object term23846;
-     Object term23863;
-     Object term23900;
+     Object term23820;
+     Object term23822;
+     Object term23824;
+     Object term23845;
+     Object term23862;
+     Object term23899;
 
     public Movie_init_12380523426() {
     }
@@ -45,35 +45,35 @@ public class Movie_init_12380523426 {
 
     @Before
     public void setup() throws Throwable {
-        term23821 = new Integer(-1736183862);
-        term23823 = new Integer(897010381);
-        Class<? extends Object> term23956 = Class.forName((String) "com.folksdev.movie.model.GenresType");
-        Field term23955 = ((Class) term23956).getDeclaredField((String) "ACTION");
-        ((Field) term23955).setAccessible(true);
-        Object enum94 =  ((Field) term23955).get((Object) null);
-        Class<? extends Object> term24156 = Class.forName((String) "com.folksdev.movie.model.GenresType");
-        Field term24155 = ((Class) term24156).getDeclaredField((String) "DRAMA");
-        ((Field) term24155).setAccessible(true);
-        Object enum95 =  ((Field) term24155).get((Object) null);
-        Class<? extends Object> term24353 = Class.forName((String) "com.folksdev.movie.model.GenresType");
-        Field term24352 = ((Class) term24353).getDeclaredField((String) "HORROR");
-        ((Field) term24352).setAccessible(true);
-        Object enum96 =  ((Field) term24352).get((Object) null);
-        term23825 = new LinkedList();
-        ((LinkedList) term23825).add(enum94);
-        ((LinkedList) term23825).add(enum95);
-        ((LinkedList) term23825).add(enum96);
-        HashMap term23847 = new HashMap();
-        Set<Object> term24552 =  ((Map) term23847).keySet();
-        term23846 = new HashSet((Collection<? extends Object>) term24552);
-        term23863 = newInstance(Class.forName("com.folksdev.movie.model.Director"));
-        setField(term23863, term23863.getClass(), "id", "oOrXvGaFwa");
-        setField(term23863, term23863.getClass(), "name", "KJSTLGsSvO");
-        setField(term23863, term23863.getClass(), "lastName", "kSkiIpaepq");
-        setField(term23863, term23863.getClass(), "movies", null);
-        term23900 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
-        setField(term23900, term23900.getClass(), "id", "kHtEHBrsFo");
-        setField(term23900, term23900.getClass(), "name", "EmAvkhGlPV");
+        term23820 = new Integer(-1736183862);
+        term23822 = new Integer(897010381);
+        Class<? extends Object> term23955 = Class.forName((String) "com.folksdev.movie.model.GenresType");
+        Field term23954 = ((Class) term23955).getDeclaredField((String) "ACTION");
+        ((Field) term23954).setAccessible(true);
+        Object enum94 =  ((Field) term23954).get((Object) null);
+        Class<? extends Object> term24155 = Class.forName((String) "com.folksdev.movie.model.GenresType");
+        Field term24154 = ((Class) term24155).getDeclaredField((String) "DRAMA");
+        ((Field) term24154).setAccessible(true);
+        Object enum95 =  ((Field) term24154).get((Object) null);
+        Class<? extends Object> term24352 = Class.forName((String) "com.folksdev.movie.model.GenresType");
+        Field term24351 = ((Class) term24352).getDeclaredField((String) "HORROR");
+        ((Field) term24351).setAccessible(true);
+        Object enum96 =  ((Field) term24351).get((Object) null);
+        term23824 = new LinkedList();
+        ((LinkedList) term23824).add(enum94);
+        ((LinkedList) term23824).add(enum95);
+        ((LinkedList) term23824).add(enum96);
+        HashMap term23846 = new HashMap();
+        Set<Object> term24551 =  ((Map) term23846).keySet();
+        term23845 = new HashSet((Collection<? extends Object>) term24551);
+        term23862 = newInstance(Class.forName("com.folksdev.movie.model.Director"));
+        setField(term23862, term23862.getClass(), "id", "oOrXvGaFwa");
+        setField(term23862, term23862.getClass(), "name", "KJSTLGsSvO");
+        setField(term23862, term23862.getClass(), "lastName", "kSkiIpaepq");
+        setField(term23862, term23862.getClass(), "movies", null);
+        term23899 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
+        setField(term23899, term23899.getClass(), "id", "kHtEHBrsFo");
+        setField(term23899, term23899.getClass(), "name", "EmAvkhGlPV");
     }
 
     @Test
@@ -93,12 +93,12 @@ public class Movie_init_12380523426 {
         args[0] = "mKgLwPdYbY";
         args[1] = "zqykonsLIo";
         args[2] = "KoPzTuvIeK";
-        args[3] = term23821;
-        args[4] = term23823;
-        args[5] = term23825;
-        args[6] = term23846;
-        args[7] = term23863;
-        args[8] = term23900;
+        args[3] = term23820;
+        args[4] = term23822;
+        args[5] = term23824;
+        args[6] = term23845;
+        args[7] = term23862;
+        args[8] = term23899;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

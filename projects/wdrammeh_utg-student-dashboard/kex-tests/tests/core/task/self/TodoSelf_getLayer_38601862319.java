@@ -369,7 +369,7 @@ public class TodoSelf_getLayer_38601862319 {
         setField(term92429, term92429.getClass(), "keySet", null);
         setField(term92429, term92429.getClass(), "values", null);
         setField(term92418, term92418.getClass(), "moduleToReader", term92429);
-        setLongField(term92434, term92434.getClass(), "timestamp", 164139854L);
+        setLongField(term92434, term92434.getClass(), "timestamp", 52418865L);
         setField(term92434, term92434.getClass(), "referent", null);
         setField(term92434, term92434.getClass(), "queue", null);
         setField(term92434, term92434.getClass(), "next", null);

@@ -341,7 +341,7 @@ public class ModuleActivity_1_init_4033458370 {
         setField(term65092, term65092.getClass(), "keySet", null);
         setField(term65092, term65092.getClass(), "values", null);
         setField(term65081, term65081.getClass(), "moduleToReader", term65092);
-        setLongField(term65097, term65097.getClass(), "timestamp", 163406065L);
+        setLongField(term65097, term65097.getClass(), "timestamp", 51676969L);
         setField(term65097, term65097.getClass(), "referent", null);
         setField(term65097, term65097.getClass(), "queue", null);
         setField(term65097, term65097.getClass(), "next", null);

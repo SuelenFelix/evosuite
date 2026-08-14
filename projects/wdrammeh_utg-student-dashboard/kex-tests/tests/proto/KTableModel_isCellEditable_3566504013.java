@@ -21,9 +21,9 @@ import java.lang.Integer;
 
 public class KTableModel_isCellEditable_3566504013 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term71441;
-     Object term71442;
-     Object term71444;
+     Object term71490;
+     Object term71491;
+     Object term71493;
 
     public KTableModel_isCellEditable_3566504013() {
     }
@@ -34,13 +34,13 @@ public class KTableModel_isCellEditable_3566504013 {
 
     @Before
     public void setup() throws Throwable {
-        term71441 = newInstance(Class.forName("proto.KTableModel"));
-        setField(term71441, term71441.getClass(), "table", null);
-        setField(term71441, term71441.getClass(), "dataVector", null);
-        setField(term71441, term71441.getClass(), "columnIdentifiers", null);
-        setField(term71441, term71441.getClass(), "listenerList", null);
-        term71442 = new Integer(0);
-        term71444 = new Integer(0);
+        term71490 = newInstance(Class.forName("proto.KTableModel"));
+        setField(term71490, term71490.getClass(), "table", null);
+        setField(term71490, term71490.getClass(), "dataVector", null);
+        setField(term71490, term71490.getClass(), "columnIdentifiers", null);
+        setField(term71490, term71490.getClass(), "listenerList", null);
+        term71491 = new Integer(0);
+        term71493 = new Integer(0);
     }
 
     @Test
@@ -50,9 +50,9 @@ public class KTableModel_isCellEditable_3566504013 {
         argTypes[0] = int.class;
         argTypes[1] = int.class;
         Object[] args = new Object[2];
-        args[0] = term71442;
-        args[1] = term71444;
-        callMethod(klass, "isCellEditable", argTypes, term71441, args);
+        args[0] = term71491;
+        args[1] = term71493;
+        callMethod(klass, "isCellEditable", argTypes, term71490, args);
     }
 
 };

@@ -75,12 +75,12 @@ public class Quest_removeTask_2743846313 {
         setField(term9826, term9826.getClass(), "name", "kGMQdqJYyB");
         setIntField(term9826, term9826.getClass(), "priority", 3);
         setIntField(term9842, term9842.getClass(), "year", 2026);
-        setShortField(term9842, term9842.getClass(), "month", (short) 6);
-        setShortField(term9842, term9842.getClass(), "day", (short) 29);
+        setShortField(term9842, term9842.getClass(), "month", (short) 8);
+        setShortField(term9842, term9842.getClass(), "day", (short) 12);
         setField(term9826, term9826.getClass(), "startDate", term9842);
         setIntField(term9846, term9846.getClass(), "year", 2026);
-        setShortField(term9846, term9846.getClass(), "month", (short) 6);
-        setShortField(term9846, term9846.getClass(), "day", (short) 29);
+        setShortField(term9846, term9846.getClass(), "month", (short) 8);
+        setShortField(term9846, term9846.getClass(), "day", (short) 12);
         setField(term9826, term9826.getClass(), "endDate", term9846);
         setBooleanField(term9826, term9826.getClass(), "completed", true);
         setField(term9851, term9851.getClass(), "id", term9852);

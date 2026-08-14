@@ -40,8 +40,8 @@ public class ProductCategory_getId_10374790581 {
     public void setup() throws Throwable {
         Long term935 = new Long(2442117782898005296L);
         HashMap term950 = new HashMap();
-        Set<Object> term974 =  ((Map) term950).keySet();
-        HashSet term949 = new HashSet((Collection<? extends Object>) term974);
+        Set<Object> term976 =  ((Map) term950).keySet();
+        HashSet term949 = new HashSet((Collection<? extends Object>) term976);
         term934 = newInstance(Class.forName("com.fatihhernn.ecommerce.entities.ProductCategory"));
         setField(term934, term934.getClass(), "id", term935);
         setField(term934, term934.getClass(), "categoryName", "wzsPSPcRdj");

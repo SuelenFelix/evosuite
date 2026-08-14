@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class UserReviewId_component2_50229436714 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term25550;
+     Object term25549;
 
     public UserReviewId_component2_50229436714() {
     }
@@ -31,9 +31,9 @@ public class UserReviewId_component2_50229436714 {
 
     @Before
     public void setup() throws Throwable {
-        term25550 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
-        setField(term25550, term25550.getClass(), "userId", null);
-        setField(term25550, term25550.getClass(), "reviewId", null);
+        term25549 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        setField(term25549, term25549.getClass(), "userId", null);
+        setField(term25549, term25549.getClass(), "reviewId", null);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class UserReviewId_component2_50229436714 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.UserReviewId");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "component2", argTypes, term25550, args);
+        callMethod(klass, "component2", argTypes, term25549, args);
     }
 
 };

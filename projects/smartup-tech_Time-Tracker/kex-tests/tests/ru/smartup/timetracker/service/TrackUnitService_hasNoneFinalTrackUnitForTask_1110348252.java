@@ -21,7 +21,7 @@ import java.lang.Long;
 
 public class TrackUnitService_hasNoneFinalTrackUnitForTask_1110348252 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3231;
+     Object term3207;
 
     public TrackUnitService_hasNoneFinalTrackUnitForTask_1110348252() {
     }
@@ -32,7 +32,7 @@ public class TrackUnitService_hasNoneFinalTrackUnitForTask_1110348252 {
 
     @Before
     public void setup() throws Throwable {
-        term3231 = new Long(-8400487765614892086L);
+        term3207 = new Long(-8400487765614892086L);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TrackUnitService_hasNoneFinalTrackUnitForTask_1110348252 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = long.class;
         Object[] args = new Object[1];
-        args[0] = term3231;
+        args[0] = term3207;
         callMethod(klass, "hasNoneFinalTrackUnitForTask", argTypes, null, args);
     }
 

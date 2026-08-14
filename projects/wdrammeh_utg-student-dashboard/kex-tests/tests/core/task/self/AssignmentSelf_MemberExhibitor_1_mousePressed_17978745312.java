@@ -243,7 +243,7 @@ public class AssignmentSelf_MemberExhibitor_1_mousePressed_17978745312 {
         setIntField(term33708, term33708.getClass(), "depth", 24);
         setIntField(term33708, term33708.getClass(), "colormap", 32);
         setField(term33708, term33708.getClass(), "colorModel", null);
-        setLongField(term33708, term33708.getClass(), "aData", 129248793455408L);
+        setLongField(term33708, term33708.getClass(), "aData", 139320425543328L);
         setBooleanField(term33708, term33708.getClass(), "doubleBuffer", true);
         setField(term33708, term33708.getClass(), "disposerReferent", null);
         setField(term33708, term33708.getClass(), "bufferCaps", null);

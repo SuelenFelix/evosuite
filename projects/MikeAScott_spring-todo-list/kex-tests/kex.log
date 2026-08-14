@@ -1,16 +1,16 @@
-2026-06-28 13:23:10.893 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/MikeAScott_spring-todo-list/target/classes
-2026-06-28 13:23:10.982 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:23:11.055 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 13:23:12.020 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 13:23:12.538 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/nttdata/ta/todo/*
-2026-06-28 13:23:12.540 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 13:23:12.554 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/MikeAScott_spring-todo-list/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 13:23:12.588 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/MikeAScott_spring-todo-list/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 39821 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/MikeAScott_spring-todo-list/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 13:23:12.601 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 13:24:52.636 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController): void
-2026-06-28 13:24:52.637 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController): void
+2026-08-10 22:59:17.300 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/MikeAScott_spring-todo-list/target/classes
+2026-08-10 22:59:17.385 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 22:59:17.457 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-10 22:59:18.480 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-10 22:59:18.974 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/nttdata/ta/todo/*
+2026-08-10 22:59:18.975 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-10 22:59:18.998 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/MikeAScott_spring-todo-list/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 22:59:19.031 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/MikeAScott_spring-todo-list/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 35847 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/MikeAScott_spring-todo-list/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-10 22:59:19.043 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-10 23:00:59.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController): void
+2026-08-10 23:00:59.077 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -32,9 +32,9 @@
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 13:24:53.242 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_init_13937797820
-2026-06-28 13:24:53.248 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController, java/lang/String, com/nttdata/ta/todo/TodoItem): void
-2026-06-28 13:24:53.248 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController, java/lang/String, com/nttdata/ta/todo/TodoItem): void
+2026-08-10 23:00:59.551 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_init_13937797820
+2026-08-10 23:00:59.557 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController, java/lang/String, com/nttdata/ta/todo/TodoItem): void
+2026-08-10 23:00:59.557 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController, java/lang/String, com/nttdata/ta/todo/TodoItem): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -56,9 +56,9 @@
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 13:24:53.386 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_init_13726830341
-2026-06-28 13:24:53.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::getItem(): com/nttdata/ta/todo/TodoItem
-2026-06-28 13:24:53.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::getItem(): com/nttdata/ta/todo/TodoItem
+2026-08-10 23:00:59.679 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_init_13726830341
+2026-08-10 23:00:59.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::getItem(): com/nttdata/ta/todo/TodoItem
+2026-08-10 23:00:59.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::getItem(): com/nttdata/ta/todo/TodoItem
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -68,9 +68,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:24:53.485 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_getItem_15548694582
-2026-06-28 13:24:53.486 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::setItem(com/nttdata/ta/todo/TodoItem): void
-2026-06-28 13:24:53.486 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::setItem(com/nttdata/ta/todo/TodoItem): void
+2026-08-10 23:00:59.769 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_getItem_15548694582
+2026-08-10 23:00:59.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::setItem(com/nttdata/ta/todo/TodoItem): void
+2026-08-10 23:00:59.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::setItem(com/nttdata/ta/todo/TodoItem): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -80,9 +80,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:53.586 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_setItem_9307630143
-2026-06-28 13:24:53.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::getStatus(): java/lang/String
-2026-06-28 13:24:53.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::getStatus(): java/lang/String
+2026-08-10 23:00:59.846 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_setItem_9307630143
+2026-08-10 23:00:59.847 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::getStatus(): java/lang/String
+2026-08-10 23:00:59.847 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::getStatus(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -92,9 +92,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:24:53.678 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_getStatus_17076326914
-2026-06-28 13:24:53.680 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::setStatus(java/lang/String): void
-2026-06-28 13:24:53.680 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::setStatus(java/lang/String): void
+2026-08-10 23:00:59.917 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_getStatus_17076326914
+2026-08-10 23:00:59.918 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController$Result::setStatus(java/lang/String): void
+2026-08-10 23:00:59.918 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController$Result::setStatus(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -104,27 +104,27 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:53.750 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_setStatus_1382811255
-2026-06-28 13:24:53.827 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_init_13937797826
-2026-06-28 13:24:53.902 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_init_13726830347
-2026-06-28 13:24:53.969 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_getItem_15548694588
-2026-06-28 13:24:54.037 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_setItem_9307630149
-2026-06-28 13:24:54.135 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_getStatus_170763269110
-2026-06-28 13:24:54.187 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_setStatus_13828112511
-2026-06-28 13:24:54.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController): void: null
-2026-06-28 13:24:54.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController, java/lang/String, com/nttdata/ta/todo/TodoItem): void: null
-2026-06-28 13:24:54.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::getItem(): com/nttdata/ta/todo/TodoItem: null
-2026-06-28 13:24:54.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::setItem(com/nttdata/ta/todo/TodoItem): void: null
-2026-06-28 13:24:54.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::getStatus(): java/lang/String: null
-2026-06-28 13:24:54.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::setStatus(java/lang/String): void: null
-2026-06-28 13:24:54.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController): void processing is finished normally
-2026-06-28 13:24:54.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController, java/lang/String, com/nttdata/ta/todo/TodoItem): void processing is finished normally
-2026-06-28 13:24:54.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::getItem(): com/nttdata/ta/todo/TodoItem processing is finished normally
-2026-06-28 13:24:54.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::setItem(com/nttdata/ta/todo/TodoItem): void processing is finished normally
-2026-06-28 13:24:54.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::getStatus(): java/lang/String processing is finished normally
-2026-06-28 13:24:54.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::setStatus(java/lang/String): void processing is finished normally
-2026-06-28 13:24:54.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::<init>(): void
-2026-06-28 13:24:54.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::<init>(): void
+2026-08-10 23:00:59.980 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_setStatus_1382811255
+2026-08-10 23:01:00.033 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_init_13937797826
+2026-08-10 23:01:00.094 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_init_13726830347
+2026-08-10 23:01:00.175 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_getItem_15548694588
+2026-08-10 23:01:00.227 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_setItem_9307630149
+2026-08-10 23:01:00.279 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_getStatus_170763269110
+2026-08-10 23:01:00.324 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_Result_setStatus_13828112511
+2026-08-10 23:01:00.325 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController): void: null
+2026-08-10 23:01:00.326 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController, java/lang/String, com/nttdata/ta/todo/TodoItem): void: null
+2026-08-10 23:01:00.326 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::getItem(): com/nttdata/ta/todo/TodoItem: null
+2026-08-10 23:01:00.326 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::setItem(com/nttdata/ta/todo/TodoItem): void: null
+2026-08-10 23:01:00.326 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::getStatus(): java/lang/String: null
+2026-08-10 23:01:00.326 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController$Result::setStatus(java/lang/String): void: null
+2026-08-10 23:01:00.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController): void processing is finished normally
+2026-08-10 23:01:00.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::<init>(com/nttdata/ta/todo/TodoRestController, java/lang/String, com/nttdata/ta/todo/TodoItem): void processing is finished normally
+2026-08-10 23:01:00.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::getItem(): com/nttdata/ta/todo/TodoItem processing is finished normally
+2026-08-10 23:01:00.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::setItem(com/nttdata/ta/todo/TodoItem): void processing is finished normally
+2026-08-10 23:01:00.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::getStatus(): java/lang/String processing is finished normally
+2026-08-10 23:01:00.327 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController$Result::setStatus(java/lang/String): void processing is finished normally
+2026-08-10 23:01:00.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::<init>(): void
+2026-08-10 23:01:00.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -143,9 +143,9 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-28 13:24:54.252 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_6690313430
-2026-06-28 13:24:54.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::<init>(java/lang/Iterable): void
-2026-06-28 13:24:54.253 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::<init>(java/lang/Iterable): void
+2026-08-10 23:01:00.391 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_6690313430
+2026-08-10 23:01:00.392 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::<init>(java/lang/Iterable): void
+2026-08-10 23:01:00.392 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::<init>(java/lang/Iterable): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -180,9 +180,9 @@
 
 %bb7: 	//predecessors %bb6
 	return
-2026-06-28 13:24:54.343 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_15313567491
-2026-06-28 13:24:54.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::<init>(java/util/ArrayList): void
-2026-06-28 13:24:54.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::<init>(java/util/ArrayList): void
+2026-08-10 23:01:00.450 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_15313567491
+2026-08-10 23:01:00.450 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::<init>(java/util/ArrayList): void
+2026-08-10 23:01:00.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::<init>(java/util/ArrayList): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -205,9 +205,9 @@
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 13:24:54.418 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_11411053082
-2026-06-28 13:24:54.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::getTodoList(): java/util/ArrayList
-2026-06-28 13:24:54.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::getTodoList(): java/util/ArrayList
+2026-08-10 23:01:00.508 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_11411053082
+2026-08-10 23:01:00.508 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::getTodoList(): java/util/ArrayList
+2026-08-10 23:01:00.508 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::getTodoList(): java/util/ArrayList
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -217,9 +217,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:24:54.504 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_getTodoList_1914434523
-2026-06-28 13:24:54.504 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::setTodoList(java/util/ArrayList): void
-2026-06-28 13:24:54.505 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::setTodoList(java/util/ArrayList): void
+2026-08-10 23:01:00.550 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_getTodoList_1914434523
+2026-08-10 23:01:00.550 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoListViewModel::setTodoList(java/util/ArrayList): void
+2026-08-10 23:01:00.550 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoListViewModel::setTodoList(java/util/ArrayList): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -229,24 +229,24 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:54.577 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_setTodoList_17125694244
-2026-06-28 13:24:54.623 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_6690313435
-2026-06-28 13:24:54.668 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_15313567496
-2026-06-28 13:24:54.711 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_11411053087
-2026-06-28 13:24:54.756 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_getTodoList_1914434528
-2026-06-28 13:24:54.796 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_setTodoList_17125694249
-2026-06-28 13:24:54.797 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::<init>(): void: null
-2026-06-28 13:24:54.797 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::<init>(java/lang/Iterable): void: null
-2026-06-28 13:24:54.798 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::<init>(java/util/ArrayList): void: null
-2026-06-28 13:24:54.798 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::getTodoList(): java/util/ArrayList: null
-2026-06-28 13:24:54.798 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::setTodoList(java/util/ArrayList): void: null
-2026-06-28 13:24:54.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::<init>(): void processing is finished normally
-2026-06-28 13:24:54.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::<init>(java/lang/Iterable): void processing is finished normally
-2026-06-28 13:24:54.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::<init>(java/util/ArrayList): void processing is finished normally
-2026-06-28 13:24:54.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::getTodoList(): java/util/ArrayList processing is finished normally
-2026-06-28 13:24:54.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::setTodoList(java/util/ArrayList): void processing is finished normally
-2026-06-28 13:24:54.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController::<init>(): void
-2026-06-28 13:24:54.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController::<init>(): void
+2026-08-10 23:01:00.597 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_setTodoList_17125694244
+2026-08-10 23:01:00.633 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_6690313435
+2026-08-10 23:01:00.669 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_15313567496
+2026-08-10 23:01:00.708 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_init_11411053087
+2026-08-10 23:01:00.753 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_getTodoList_1914434528
+2026-08-10 23:01:00.791 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoListViewModel_setTodoList_17125694249
+2026-08-10 23:01:00.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::<init>(): void: null
+2026-08-10 23:01:00.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::<init>(java/lang/Iterable): void: null
+2026-08-10 23:01:00.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::<init>(java/util/ArrayList): void: null
+2026-08-10 23:01:00.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::getTodoList(): java/util/ArrayList: null
+2026-08-10 23:01:00.792 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoListViewModel::setTodoList(java/util/ArrayList): void: null
+2026-08-10 23:01:00.792 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::<init>(): void processing is finished normally
+2026-08-10 23:01:00.792 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::<init>(java/lang/Iterable): void processing is finished normally
+2026-08-10 23:01:00.792 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::<init>(java/util/ArrayList): void processing is finished normally
+2026-08-10 23:01:00.793 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::getTodoList(): java/util/ArrayList processing is finished normally
+2026-08-10 23:01:00.793 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoListViewModel::setTodoList(java/util/ArrayList): void processing is finished normally
+2026-08-10 23:01:00.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController::<init>(): void
+2026-08-10 23:01:00.797 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -256,9 +256,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:54.851 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_init_1199126750
-2026-06-28 13:24:54.851 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController::getAll(): java/lang/Iterable
-2026-06-28 13:24:54.851 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController::getAll(): java/lang/Iterable
+2026-08-10 23:01:00.834 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_init_1199126750
+2026-08-10 23:01:00.835 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController::getAll(): java/lang/Iterable
+2026-08-10 23:01:00.835 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController::getAll(): java/lang/Iterable
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -280,9 +280,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-28 13:24:54.895 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_getAll_18848817741
-2026-06-28 13:24:54.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController::addItem(java/lang/String, java/lang/String): com/nttdata/ta/todo/TodoRestController$Result
-2026-06-28 13:24:54.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController::addItem(java/lang/String, java/lang/String): com/nttdata/ta/todo/TodoRestController$Result
+2026-08-10 23:01:00.875 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_getAll_18848817741
+2026-08-10 23:01:00.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController::addItem(java/lang/String, java/lang/String): com/nttdata/ta/todo/TodoRestController$Result
+2026-08-10 23:01:00.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController::addItem(java/lang/String, java/lang/String): com/nttdata/ta/todo/TodoRestController$Result
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -310,9 +310,9 @@
 
 %bb3: 	//predecessors %label1
 	return %11
-2026-06-28 13:24:54.940 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_addItem_19528026722
-2026-06-28 13:24:54.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController::updateItem(long, java/lang/String, java/lang/String, bool): com/nttdata/ta/todo/TodoRestController$Result
-2026-06-28 13:24:54.941 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController::updateItem(long, java/lang/String, java/lang/String, bool): com/nttdata/ta/todo/TodoRestController$Result
+2026-08-10 23:01:00.917 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_addItem_19528026722
+2026-08-10 23:01:00.918 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoRestController::updateItem(long, java/lang/String, java/lang/String, bool): com/nttdata/ta/todo/TodoRestController$Result
+2026-08-10 23:01:00.918 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoRestController::updateItem(long, java/lang/String, java/lang/String, bool): com/nttdata/ta/todo/TodoRestController$Result
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -352,9 +352,9 @@
 
 %bb6: 	//predecessors %label1
 	return %15
-2026-06-28 13:24:54.984 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_updateItem_9644081523
-2026-06-28 13:24:55.028 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_init_1199126754
-2026-06-28 13:24:55.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:00.964 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_updateItem_9644081523
+2026-08-10 23:01:01.000 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoRestController_init_1199126754
+2026-08-10 23:01:01.002 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -392,8 +392,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 13:24:55.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController::getAll(): java/lang/Iterable: null
-2026-06-28 13:24:55.031 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.002 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController::getAll(): java/lang/Iterable: null
+2026-08-10 23:01:01.003 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -431,8 +431,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 13:24:55.031 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController::addItem(java/lang/String, java/lang/String): com/nttdata/ta/todo/TodoRestController$Result: null
-2026-06-28 13:24:55.032 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.003 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController::addItem(java/lang/String, java/lang/String): com/nttdata/ta/todo/TodoRestController$Result: null
+2026-08-10 23:01:01.004 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NoClassDefFoundError: org/springframework/data/repository/CrudRepository
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
@@ -470,14 +470,14 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 30 common frames omitted
-2026-06-28 13:24:55.032 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController::updateItem(long, java/lang/String, java/lang/String, bool): com/nttdata/ta/todo/TodoRestController$Result: null
-2026-06-28 13:24:55.032 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController::<init>(): void: null
-2026-06-28 13:24:55.032 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController::getAll(): java/lang/Iterable processing is finished normally
-2026-06-28 13:24:55.033 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController::addItem(java/lang/String, java/lang/String): com/nttdata/ta/todo/TodoRestController$Result processing is finished normally
-2026-06-28 13:24:55.033 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController::updateItem(long, java/lang/String, java/lang/String, bool): com/nttdata/ta/todo/TodoRestController$Result processing is finished normally
-2026-06-28 13:24:55.033 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController::<init>(): void processing is finished normally
-2026-06-28 13:24:55.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoApplication::<init>(): void
-2026-06-28 13:24:55.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoApplication::<init>(): void
+2026-08-10 23:01:01.004 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController::updateItem(long, java/lang/String, java/lang/String, bool): com/nttdata/ta/todo/TodoRestController$Result: null
+2026-08-10 23:01:01.004 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoRestController::<init>(): void: null
+2026-08-10 23:01:01.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController::getAll(): java/lang/Iterable processing is finished normally
+2026-08-10 23:01:01.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController::addItem(java/lang/String, java/lang/String): com/nttdata/ta/todo/TodoRestController$Result processing is finished normally
+2026-08-10 23:01:01.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController::updateItem(long, java/lang/String, java/lang/String, bool): com/nttdata/ta/todo/TodoRestController$Result processing is finished normally
+2026-08-10 23:01:01.004 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoRestController::<init>(): void processing is finished normally
+2026-08-10 23:01:01.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoApplication::<init>(): void
+2026-08-10 23:01:01.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoApplication::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -487,9 +487,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:55.078 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoApplication_init_21286509370
-2026-06-28 13:24:55.079 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoApplication::main(java/lang/String[]): void
-2026-06-28 13:24:55.079 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoApplication::main(java/lang/String[]): void
+2026-08-10 23:01:01.058 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoApplication_init_21286509370
+2026-08-10 23:01:01.058 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoApplication::main(java/lang/String[]): void
+2026-08-10 23:01:01.058 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoApplication::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -499,15 +499,15 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-28 13:24:55.131 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoApplication_main_17897533551
-2026-06-28 13:24:55.178 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoApplication_init_21286509372
-2026-06-28 13:24:55.231 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoApplication_main_17897533553
-2026-06-28 13:24:55.232 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoApplication::<init>(): void: null
-2026-06-28 13:24:55.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoApplication::<init>(): void processing is finished normally
-2026-06-28 13:24:55.232 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoApplication::main(java/lang/String[]): void: null
-2026-06-28 13:24:55.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoApplication::main(java/lang/String[]): void processing is finished normally
-2026-06-28 13:24:55.234 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/ServletInitializer::<init>(): void
-2026-06-28 13:24:55.235 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/ServletInitializer::<init>(): void
+2026-08-10 23:01:01.110 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoApplication_main_17897533551
+2026-08-10 23:01:01.147 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoApplication_init_21286509372
+2026-08-10 23:01:01.181 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoApplication_main_17897533553
+2026-08-10 23:01:01.181 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoApplication::<init>(): void: null
+2026-08-10 23:01:01.182 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoApplication::main(java/lang/String[]): void: null
+2026-08-10 23:01:01.182 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoApplication::<init>(): void processing is finished normally
+2026-08-10 23:01:01.182 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-10 23:01:01.184 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/ServletInitializer::<init>(): void
+2026-08-10 23:01:01.184 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/ServletInitializer::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -517,7 +517,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:55.235 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/SpringBootServletInitializer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -541,7 +541,7 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:24:55.235 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/SpringBootServletInitializer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -565,9 +565,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:24:55.235 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/ServletInitializer::<init>(): void: null
-2026-06-28 13:24:55.236 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/ServletInitializer::configure(org/springframework/boot/builder/SpringApplicationBuilder): org/springframework/boot/builder/SpringApplicationBuilder
-2026-06-28 13:24:55.236 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/ServletInitializer::configure(org/springframework/boot/builder/SpringApplicationBuilder): org/springframework/boot/builder/SpringApplicationBuilder
+2026-08-10 23:01:01.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/ServletInitializer::<init>(): void: null
+2026-08-10 23:01:01.185 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/ServletInitializer::configure(org/springframework/boot/builder/SpringApplicationBuilder): org/springframework/boot/builder/SpringApplicationBuilder
+2026-08-10 23:01:01.185 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/ServletInitializer::configure(org/springframework/boot/builder/SpringApplicationBuilder): org/springframework/boot/builder/SpringApplicationBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -585,7 +585,7 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb3: 	//predecessors %bb2
 	return %4
-2026-06-28 13:24:55.236 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/SpringBootServletInitializer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -609,7 +609,7 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:24:55.236 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/SpringBootServletInitializer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -633,11 +633,11 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:24:55.236 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/ServletInitializer::configure(org/springframework/boot/builder/SpringApplicationBuilder): org/springframework/boot/builder/SpringApplicationBuilder: null
-2026-06-28 13:24:55.236 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/ServletInitializer::<init>(): void processing is finished normally
-2026-06-28 13:24:55.236 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/ServletInitializer::configure(org/springframework/boot/builder/SpringApplicationBuilder): org/springframework/boot/builder/SpringApplicationBuilder processing is finished normally
-2026-06-28 13:24:55.241 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::<init>(): void
-2026-06-28 13:24:55.241 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::<init>(): void
+2026-08-10 23:01:01.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/ServletInitializer::configure(org/springframework/boot/builder/SpringApplicationBuilder): org/springframework/boot/builder/SpringApplicationBuilder: null
+2026-08-10 23:01:01.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/ServletInitializer::<init>(): void processing is finished normally
+2026-08-10 23:01:01.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/ServletInitializer::configure(org/springframework/boot/builder/SpringApplicationBuilder): org/springframework/boot/builder/SpringApplicationBuilder processing is finished normally
+2026-08-10 23:01:01.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::<init>(): void
+2026-08-10 23:01:01.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -647,9 +647,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:55.289 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_init_15031024000
-2026-06-28 13:24:55.290 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::<init>(java/lang/String, java/lang/String): void
-2026-06-28 13:24:55.290 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::<init>(java/lang/String, java/lang/String): void
+2026-08-10 23:01:01.228 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_init_15031024000
+2026-08-10 23:01:01.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::<init>(java/lang/String, java/lang/String): void
+2026-08-10 23:01:01.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::<init>(java/lang/String, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -671,9 +671,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 13:24:55.343 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_init_20802350401
-2026-06-28 13:24:55.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::toString(): java/lang/String
-2026-06-28 13:24:55.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::toString(): java/lang/String
+2026-08-10 23:01:01.262 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_init_20802350401
+2026-08-10 23:01:01.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::toString(): java/lang/String
+2026-08-10 23:01:01.263 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -723,9 +723,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb11: 	//predecessors %bb10
 	return %17
-2026-06-28 13:24:55.399 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_toString_9576465492
-2026-06-28 13:24:55.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::getName(): java/lang/String
-2026-06-28 13:24:55.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::getName(): java/lang/String
+2026-08-10 23:01:01.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_toString_9576465492
+2026-08-10 23:01:01.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::getName(): java/lang/String
+2026-08-10 23:01:01.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::getName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -735,9 +735,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:24:55.469 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getName_20894042883
-2026-06-28 13:24:55.469 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::setName(java/lang/String): void
-2026-06-28 13:24:55.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::setName(java/lang/String): void
+2026-08-10 23:01:01.329 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getName_20894042883
+2026-08-10 23:01:01.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::setName(java/lang/String): void
+2026-08-10 23:01:01.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::setName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -747,9 +747,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:55.525 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setName_3695277204
-2026-06-28 13:24:55.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::getCategory(): java/lang/String
-2026-06-28 13:24:55.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::getCategory(): java/lang/String
+2026-08-10 23:01:01.364 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setName_3695277204
+2026-08-10 23:01:01.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::getCategory(): java/lang/String
+2026-08-10 23:01:01.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::getCategory(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -759,9 +759,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:24:55.571 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getCategory_17338042375
-2026-06-28 13:24:55.571 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::setCategory(java/lang/String): void
-2026-06-28 13:24:55.571 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::setCategory(java/lang/String): void
+2026-08-10 23:01:01.397 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getCategory_17338042375
+2026-08-10 23:01:01.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::setCategory(java/lang/String): void
+2026-08-10 23:01:01.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::setCategory(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -771,9 +771,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:55.615 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setCategory_9748206196
-2026-06-28 13:24:55.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::getId(): java/lang/Long
-2026-06-28 13:24:55.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::getId(): java/lang/Long
+2026-08-10 23:01:01.430 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setCategory_9748206196
+2026-08-10 23:01:01.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::getId(): java/lang/Long
+2026-08-10 23:01:01.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::getId(): java/lang/Long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -783,9 +783,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:24:55.657 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getId_5217157177
-2026-06-28 13:24:55.658 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::setId(java/lang/Long): void
-2026-06-28 13:24:55.658 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::setId(java/lang/Long): void
+2026-08-10 23:01:01.465 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getId_5217157177
+2026-08-10 23:01:01.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::setId(java/lang/Long): void
+2026-08-10 23:01:01.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::setId(java/lang/Long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -795,9 +795,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:55.697 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setId_9517574758
-2026-06-28 13:24:55.697 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::isComplete(): bool
-2026-06-28 13:24:55.697 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::isComplete(): bool
+2026-08-10 23:01:01.498 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setId_9517574758
+2026-08-10 23:01:01.499 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::isComplete(): bool
+2026-08-10 23:01:01.499 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::isComplete(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -807,9 +807,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 13:24:55.740 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_isComplete_9805983979
-2026-06-28 13:24:55.741 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::setComplete(bool): void
-2026-06-28 13:24:55.741 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::setComplete(bool): void
+2026-08-10 23:01:01.531 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_isComplete_9805983979
+2026-08-10 23:01:01.532 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoItem::setComplete(bool): void
+2026-08-10 23:01:01.532 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoItem::setComplete(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -819,42 +819,42 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:55.780 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setComplete_71066498110
-2026-06-28 13:24:55.820 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_init_150310240011
-2026-06-28 13:24:55.857 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_init_208023504012
-2026-06-28 13:24:55.898 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_toString_95764654913
-2026-06-28 13:24:55.934 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getName_208940428814
-2026-06-28 13:24:55.971 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setName_36952772015
-2026-06-28 13:24:56.009 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getCategory_173380423716
-2026-06-28 13:24:56.051 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setCategory_97482061917
-2026-06-28 13:24:56.094 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getId_52171571718
-2026-06-28 13:24:56.135 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setId_95175747519
-2026-06-28 13:24:56.178 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_isComplete_98059839720
-2026-06-28 13:24:56.217 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setComplete_71066498121
-2026-06-28 13:24:56.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::<init>(): void: null
-2026-06-28 13:24:56.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::<init>(java/lang/String, java/lang/String): void: null
-2026-06-28 13:24:56.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::toString(): java/lang/String: null
-2026-06-28 13:24:56.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::getName(): java/lang/String: null
-2026-06-28 13:24:56.218 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::setName(java/lang/String): void: null
-2026-06-28 13:24:56.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::getCategory(): java/lang/String: null
-2026-06-28 13:24:56.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::setCategory(java/lang/String): void: null
-2026-06-28 13:24:56.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::getId(): java/lang/Long: null
-2026-06-28 13:24:56.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::setId(java/lang/Long): void: null
-2026-06-28 13:24:56.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::isComplete(): bool: null
-2026-06-28 13:24:56.219 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::setComplete(bool): void: null
-2026-06-28 13:24:56.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::<init>(): void processing is finished normally
-2026-06-28 13:24:56.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::<init>(java/lang/String, java/lang/String): void processing is finished normally
-2026-06-28 13:24:56.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::toString(): java/lang/String processing is finished normally
-2026-06-28 13:24:56.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::getName(): java/lang/String processing is finished normally
-2026-06-28 13:24:56.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::setName(java/lang/String): void processing is finished normally
-2026-06-28 13:24:56.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::getCategory(): java/lang/String processing is finished normally
-2026-06-28 13:24:56.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::setCategory(java/lang/String): void processing is finished normally
-2026-06-28 13:24:56.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::getId(): java/lang/Long processing is finished normally
-2026-06-28 13:24:56.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::setId(java/lang/Long): void processing is finished normally
-2026-06-28 13:24:56.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::isComplete(): bool processing is finished normally
-2026-06-28 13:24:56.220 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::setComplete(bool): void processing is finished normally
-2026-06-28 13:24:56.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoAppController::<init>(): void
-2026-06-28 13:24:56.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoAppController::<init>(): void
+2026-08-10 23:01:01.565 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setComplete_71066498110
+2026-08-10 23:01:01.597 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_init_150310240011
+2026-08-10 23:01:01.632 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_init_208023504012
+2026-08-10 23:01:01.664 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_toString_95764654913
+2026-08-10 23:01:01.701 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getName_208940428814
+2026-08-10 23:01:01.733 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setName_36952772015
+2026-08-10 23:01:01.765 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getCategory_173380423716
+2026-08-10 23:01:01.795 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setCategory_97482061917
+2026-08-10 23:01:01.826 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_getId_52171571718
+2026-08-10 23:01:01.858 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setId_95175747519
+2026-08-10 23:01:01.886 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_isComplete_98059839720
+2026-08-10 23:01:01.917 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoItem_setComplete_71066498121
+2026-08-10 23:01:01.918 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::<init>(): void: null
+2026-08-10 23:01:01.918 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::<init>(java/lang/String, java/lang/String): void: null
+2026-08-10 23:01:01.918 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::toString(): java/lang/String: null
+2026-08-10 23:01:01.918 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::getName(): java/lang/String: null
+2026-08-10 23:01:01.918 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::setName(java/lang/String): void: null
+2026-08-10 23:01:01.918 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::getCategory(): java/lang/String: null
+2026-08-10 23:01:01.919 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::setCategory(java/lang/String): void: null
+2026-08-10 23:01:01.919 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::getId(): java/lang/Long: null
+2026-08-10 23:01:01.919 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::setId(java/lang/Long): void: null
+2026-08-10 23:01:01.919 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::isComplete(): bool: null
+2026-08-10 23:01:01.919 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoItem::setComplete(bool): void: null
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::<init>(): void processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::<init>(java/lang/String, java/lang/String): void processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::toString(): java/lang/String processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::getName(): java/lang/String processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::setName(java/lang/String): void processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::getCategory(): java/lang/String processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::setCategory(java/lang/String): void processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::getId(): java/lang/Long processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::setId(java/lang/Long): void processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::isComplete(): bool processing is finished normally
+2026-08-10 23:01:01.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoItem::setComplete(bool): void processing is finished normally
+2026-08-10 23:01:01.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoAppController::<init>(): void
+2026-08-10 23:01:01.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoAppController::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -864,9 +864,9 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 13:24:56.273 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoAppController_init_4427988740
-2026-06-28 13:24:56.274 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoAppController::index(org/springframework/ui/Model): java/lang/String
-2026-06-28 13:24:56.274 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoAppController::index(org/springframework/ui/Model): java/lang/String
+2026-08-10 23:01:01.960 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoAppController_init_4427988740
+2026-08-10 23:01:01.960 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoAppController::index(org/springframework/ui/Model): java/lang/String
+2026-08-10 23:01:01.960 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoAppController::index(org/springframework/ui/Model): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -898,7 +898,7 @@ java.lang.ClassNotFoundException: org/springframework/boot/web/servlet/support/S
 
 %label2: 	//predecessors %bb3
 	return "index"
-2026-06-28 13:24:56.274 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -925,7 +925,7 @@ java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:24:56.275 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -952,9 +952,9 @@ java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 13:24:56.275 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoAppController::index(org/springframework/ui/Model): java/lang/String: null
-2026-06-28 13:24:56.275 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String
-2026-06-28 13:24:56.275 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String
+2026-08-10 23:01:01.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoAppController::index(org/springframework/ui/Model): java/lang/String: null
+2026-08-10 23:01:01.961 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String
+2026-08-10 23:01:01.961 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -981,7 +981,7 @@ java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %label1: 	//predecessors %bb3
 	return "redirect:/"
-2026-06-28 13:24:56.275 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1016,7 +1016,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 13:24:56.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.962 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1051,9 +1051,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 13:24:56.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String: null
-2026-06-28 13:24:56.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String
-2026-06-28 13:24:56.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String
+2026-08-10 23:01:01.962 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String: null
+2026-08-10 23:01:01.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String
+2026-08-10 23:01:01.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1126,7 +1126,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 
 %if.then0: 	//predecessors %bb3
 	return "redirect:/"
-2026-06-28 13:24:56.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.962 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1161,7 +1161,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 13:24:56.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 23:01:01.963 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1196,12 +1196,12 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.ui.Model
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 13:24:56.276 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String: null
-2026-06-28 13:24:56.320 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoAppController_init_4427988741
-2026-06-28 13:24:56.321 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoAppController::index(org/springframework/ui/Model): java/lang/String processing is finished normally
-2026-06-28 13:24:56.321 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String processing is finished normally
-2026-06-28 13:24:56.321 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String processing is finished normally
-2026-06-28 13:24:56.321 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoAppController::<init>(): void: null
-2026-06-28 13:24:56.321 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoAppController::<init>(): void processing is finished normally
-2026-06-28 13:24:56.322 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 13:24:56.322 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-10 23:01:01.963 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String: null
+2026-08-10 23:01:01.992 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.nttdata.ta.todo.TodoAppController_init_4427988741
+2026-08-10 23:01:01.992 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoAppController::index(org/springframework/ui/Model): java/lang/String processing is finished normally
+2026-08-10 23:01:01.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoAppController::add(com/nttdata/ta/todo/TodoItem): java/lang/String processing is finished normally
+2026-08-10 23:01:01.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoAppController::update(com/nttdata/ta/todo/TodoListViewModel): java/lang/String processing is finished normally
+2026-08-10 23:01:01.993 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/nttdata/ta/todo/TodoAppController::<init>(): void: null
+2026-08-10 23:01:01.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/nttdata/ta/todo/TodoAppController::<init>(): void processing is finished normally
+2026-08-10 23:01:01.994 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-10 23:01:01.994 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

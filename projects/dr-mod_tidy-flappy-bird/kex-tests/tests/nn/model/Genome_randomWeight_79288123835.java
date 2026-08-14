@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_randomWeight_79288123835 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10326;
+     Object term10323;
 
     public Genome_randomWeight_79288123835() {
     }
@@ -31,12 +31,12 @@ public class Genome_randomWeight_79288123835 {
 
     @Before
     public void setup() throws Throwable {
-        term10326 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10326, term10326.getClass(), "nodes", null);
-        setField(term10326, term10326.getClass(), "connections", null);
-        setField(term10326, term10326.getClass(), "nodeInnovator", null);
-        setField(term10326, term10326.getClass(), "connectionInnovator", null);
-        setField(term10326, term10326.getClass(), "random", null);
+        term10323 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10323, term10323.getClass(), "nodes", null);
+        setField(term10323, term10323.getClass(), "connections", null);
+        setField(term10323, term10323.getClass(), "nodeInnovator", null);
+        setField(term10323, term10323.getClass(), "connectionInnovator", null);
+        setField(term10323, term10323.getClass(), "random", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Genome_randomWeight_79288123835 {
         Class<?> klass = Class.forName("nn.model.Genome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "randomWeight", argTypes, term10326, args);
+        callMethod(klass, "randomWeight", argTypes, term10323, args);
     }
 
 };

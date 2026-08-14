@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AssignmentCreator_1_windowClosing_575584762 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term43745;
+     Object term43747;
 
     public AssignmentCreator_1_windowClosing_575584762() {
     }
@@ -31,9 +31,9 @@ public class AssignmentCreator_1_windowClosing_575584762 {
 
     @Before
     public void setup() throws Throwable {
-        term43745 = newInstance(Class.forName("core.task.creator.AssignmentCreator$1"));
-        setField(term43745, term43745.getClass(), "val$cancelButton", null);
-        setField(term43745, term43745.getClass(), "this$0", null);
+        term43747 = newInstance(Class.forName("core.task.creator.AssignmentCreator$1"));
+        setField(term43747, term43747.getClass(), "val$cancelButton", null);
+        setField(term43747, term43747.getClass(), "this$0", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class AssignmentCreator_1_windowClosing_575584762 {
         argTypes[0] = Class.forName("java.awt.event.WindowEvent");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "windowClosing", argTypes, term43745, args);
+        callMethod(klass, "windowClosing", argTypes, term43747, args);
     }
 
 };

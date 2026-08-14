@@ -352,7 +352,7 @@ public class Welcome_2_mouseClicked_12818147982 {
         setField(term13062, term13062.getClass(), "keySet", null);
         setField(term13062, term13062.getClass(), "values", null);
         setField(term13051, term13051.getClass(), "moduleToReader", term13062);
-        setLongField(term13067, term13067.getClass(), "timestamp", 163275137L);
+        setLongField(term13067, term13067.getClass(), "timestamp", 51547229L);
         setField(term13067, term13067.getClass(), "referent", null);
         setField(term13067, term13067.getClass(), "queue", null);
         setField(term13067, term13067.getClass(), "next", null);
@@ -386,7 +386,7 @@ public class Welcome_2_mouseClicked_12818147982 {
         setField(term13051, term13051.getClass(), "nameAndId", "");
         setField(term13078, term13078.getClass(), "table", null);
         setField(term13078, term13078.getClass(), "nextTable", null);
-        setLongField(term13078, term13078.getClass(), "baseCount", 4227L);
+        setLongField(term13078, term13078.getClass(), "baseCount", 1149L);
         setIntField(term13078, term13078.getClass(), "sizeCtl", 6144);
         setIntField(term13078, term13078.getClass(), "transferIndex", 0);
         setIntField(term13078, term13078.getClass(), "cellsBusy", 0);

@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class Authority_AuthorityBuilder_build_11504504994 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1402;
+     Object term1406;
 
     public Authority_AuthorityBuilder_build_11504504994() {
     }
@@ -38,14 +38,14 @@ public class Authority_AuthorityBuilder_build_11504504994 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term1403 = new Integer(1743224434);
-        HashMap term1418 = new HashMap();
-        Set<Object> term1438 =  ((Map) term1418).keySet();
-        HashSet term1417 = new HashSet((Collection<? extends Object>) term1438);
-        term1402 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority$AuthorityBuilder"));
-        setField(term1402, term1402.getClass(), "id", term1403);
-        setField(term1402, term1402.getClass(), "role", "TjWpyghUWN");
-        setField(term1402, term1402.getClass(), "users", term1417);
+        Integer term1407 = new Integer(1743224434);
+        HashMap term1422 = new HashMap();
+        Set<Object> term1442 =  ((Map) term1422).keySet();
+        HashSet term1421 = new HashSet((Collection<? extends Object>) term1442);
+        term1406 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority$AuthorityBuilder"));
+        setField(term1406, term1406.getClass(), "id", term1407);
+        setField(term1406, term1406.getClass(), "role", "TjWpyghUWN");
+        setField(term1406, term1406.getClass(), "users", term1421);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class Authority_AuthorityBuilder_build_11504504994 {
         Class<?> klass = Class.forName("codeit.gatcha.domain.user.entity.Authority$AuthorityBuilder");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "build", argTypes, term1402, args);
+        callMethod(klass, "build", argTypes, term1406, args);
     }
 
 };

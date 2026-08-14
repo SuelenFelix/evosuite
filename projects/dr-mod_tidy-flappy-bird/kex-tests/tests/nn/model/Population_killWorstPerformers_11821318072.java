@@ -244,7 +244,7 @@ public class Population_killWorstPerformers_11821318072 {
         Object term3699 = newInstance(Class.forName("nn.model.NodeInnovator"));
         setField(term3563, term3563.getClass(), "genomes", term3564);
         setField(term3563, term3563.getClass(), "evaluator", null);
-        setLongField(term3667, term3667.getClass(), "value", 268404175196840L);
+        setLongField(term3667, term3667.getClass(), "value", 92005627918377L);
         setField(term3666, term3666.getClass(), "seed", term3667);
         setDoubleField(term3666, term3666.getClass(), "nextNextGaussian", 0.5862272565267508);
         setBooleanField(term3666, term3666.getClass(), "haveNextNextGaussian", false);
@@ -258,7 +258,7 @@ public class Population_killWorstPerformers_11821318072 {
         setField(term3678, term3678.getClass(), "nodeInnovator", term3687);
         setIntField(term3689, term3689.getClass(), "counter", 100);
         setField(term3678, term3678.getClass(), "connectionInnovator", term3689);
-        setLongField(term3692, term3692.getClass(), "value", 244065293108315L);
+        setLongField(term3692, term3692.getClass(), "value", 104693977523339L);
         setField(term3691, term3691.getClass(), "seed", term3692);
         setDoubleField(term3691, term3691.getClass(), "nextNextGaussian", 0.20309716492940588);
         setBooleanField(term3691, term3691.getClass(), "haveNextNextGaussian", false);

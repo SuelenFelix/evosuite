@@ -20,8 +20,8 @@ import static org.junit.Assert.assertTrue;
 
 public class TrackUnitService_getSubmittedHoursForEmployee_43280747313 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3305;
-     Object term3309;
+     Object term3281;
+     Object term3285;
 
     public TrackUnitService_getSubmittedHoursForEmployee_43280747313() {
     }
@@ -32,14 +32,14 @@ public class TrackUnitService_getSubmittedHoursForEmployee_43280747313 {
 
     @Before
     public void setup() throws Throwable {
-        term3305 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term3305, term3305.getClass(), "year", 2028);
-        setShortField(term3305, term3305.getClass(), "month", (short) 9);
-        setShortField(term3305, term3305.getClass(), "day", (short) 30);
-        term3309 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term3309, term3309.getClass(), "year", 2026);
-        setShortField(term3309, term3309.getClass(), "month", (short) 11);
-        setShortField(term3309, term3309.getClass(), "day", (short) 29);
+        term3281 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term3281, term3281.getClass(), "year", 2028);
+        setShortField(term3281, term3281.getClass(), "month", (short) 9);
+        setShortField(term3281, term3281.getClass(), "day", (short) 30);
+        term3285 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term3285, term3285.getClass(), "year", 2026);
+        setShortField(term3285, term3285.getClass(), "month", (short) 11);
+        setShortField(term3285, term3285.getClass(), "day", (short) 29);
     }
 
     @Test
@@ -49,8 +49,8 @@ public class TrackUnitService_getSubmittedHoursForEmployee_43280747313 {
         argTypes[0] = Class.forName("java.time.LocalDate");
         argTypes[1] = Class.forName("java.time.LocalDate");
         Object[] args = new Object[2];
-        args[0] = term3305;
-        args[1] = term3309;
+        args[0] = term3281;
+        args[1] = term3285;
         callMethod(klass, "getSubmittedHoursForEmployee", argTypes, null, args);
     }
 

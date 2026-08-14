@@ -21,10 +21,10 @@ import java.lang.Integer;
 
 public class ReportService_getReportHoursForCurrentEmployee_8832811742 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24312;
-     Object term24313;
-     Object term24315;
-     Object term24317;
+     Object term24452;
+     Object term24453;
+     Object term24455;
+     Object term24457;
 
     public ReportService_getReportHoursForCurrentEmployee_8832811742() {
     }
@@ -35,15 +35,15 @@ public class ReportService_getReportHoursForCurrentEmployee_8832811742 {
 
     @Before
     public void setup() throws Throwable {
-        term24312 = newInstance(Class.forName("ru.smartup.timetracker.service.ReportService"));
-        setField(term24312, term24312.getClass(), "reportRepository", null);
-        term24313 = new Integer(768407648);
-        term24315 = newInstance(Class.forName("java.sql.Date"));
-        setLongField(term24315, term24315.getClass(), "fastTime", 1645834034896L);
-        setField(term24315, term24315.getClass(), "cdate", null);
-        term24317 = newInstance(Class.forName("java.sql.Date"));
-        setLongField(term24317, term24317.getClass(), "fastTime", 1500721068023L);
-        setField(term24317, term24317.getClass(), "cdate", null);
+        term24452 = newInstance(Class.forName("ru.smartup.timetracker.service.ReportService"));
+        setField(term24452, term24452.getClass(), "reportRepository", null);
+        term24453 = new Integer(768407648);
+        term24455 = newInstance(Class.forName("java.sql.Date"));
+        setLongField(term24455, term24455.getClass(), "fastTime", 1645834034896L);
+        setField(term24455, term24455.getClass(), "cdate", null);
+        term24457 = newInstance(Class.forName("java.sql.Date"));
+        setLongField(term24457, term24457.getClass(), "fastTime", 1500721068023L);
+        setField(term24457, term24457.getClass(), "cdate", null);
     }
 
     @Test
@@ -54,10 +54,10 @@ public class ReportService_getReportHoursForCurrentEmployee_8832811742 {
         argTypes[1] = Class.forName("java.sql.Date");
         argTypes[2] = Class.forName("java.sql.Date");
         Object[] args = new Object[3];
-        args[0] = term24313;
-        args[1] = term24315;
-        args[2] = term24317;
-        callMethod(klass, "getReportHoursForCurrentEmployee", argTypes, term24312, args);
+        args[0] = term24453;
+        args[1] = term24455;
+        args[2] = term24457;
+        callMethod(klass, "getReportHoursForCurrentEmployee", argTypes, term24452, args);
     }
 
 };

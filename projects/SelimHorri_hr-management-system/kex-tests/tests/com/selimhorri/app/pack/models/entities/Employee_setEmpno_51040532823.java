@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Employee_setEmpno_51040532823 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10501;
+     Object term10508;
 
     public Employee_setEmpno_51040532823() {
     }
@@ -31,16 +31,16 @@ public class Employee_setEmpno_51040532823 {
 
     @Before
     public void setup() throws Throwable {
-        term10501 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
-        setField(term10501, term10501.getClass(), "empno", null);
-        setField(term10501, term10501.getClass(), "ename", null);
-        setField(term10501, term10501.getClass(), "job", null);
-        setField(term10501, term10501.getClass(), "mgr", null);
-        setField(term10501, term10501.getClass(), "hireDate", null);
-        setField(term10501, term10501.getClass(), "sal", null);
-        setField(term10501, term10501.getClass(), "comm", null);
-        setField(term10501, term10501.getClass(), "department", null);
-        setField(term10501, term10501.getClass(), "userCredential", null);
+        term10508 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
+        setField(term10508, term10508.getClass(), "empno", null);
+        setField(term10508, term10508.getClass(), "ename", null);
+        setField(term10508, term10508.getClass(), "job", null);
+        setField(term10508, term10508.getClass(), "mgr", null);
+        setField(term10508, term10508.getClass(), "hireDate", null);
+        setField(term10508, term10508.getClass(), "sal", null);
+        setField(term10508, term10508.getClass(), "comm", null);
+        setField(term10508, term10508.getClass(), "department", null);
+        setField(term10508, term10508.getClass(), "userCredential", null);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class Employee_setEmpno_51040532823 {
         argTypes[0] = Class.forName("java.lang.Integer");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setEmpno", argTypes, term10501, args);
+        callMethod(klass, "setEmpno", argTypes, term10508, args);
     }
 
 };

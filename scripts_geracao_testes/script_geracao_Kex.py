@@ -7,9 +7,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- CONFIGURAÇÃO ---
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(BASE_PATH)
 
-BASE_DIR = os.path.join(BASE_PATH, "projects")
-KEX_SCRIPT = os.path.join(BASE_PATH, "kex/kex.py")
+BASE_DIR = os.path.join(REPO_ROOT, "projects")
+KEX_SCRIPT = os.path.join(REPO_ROOT, "kex/kex.py")
 JAVA_HOME = "/usr/lib/jvm/java-11-openjdk-amd64"
 
 MAX_WORKERS = 2

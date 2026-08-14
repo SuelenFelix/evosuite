@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class FreezeService_compareFreezeDatesWithActualAndMapByWaitingAndDeleting_5393926857 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term881;
-     Object term882;
+     Object term1062;
+     Object term1063;
 
     public FreezeService_compareFreezeDatesWithActualAndMapByWaitingAndDeleting_5393926857() {
     }
@@ -33,13 +33,13 @@ public class FreezeService_compareFreezeDatesWithActualAndMapByWaitingAndDeletin
 
     @Before
     public void setup() throws Throwable {
-        term881 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeService"));
-        setField(term881, term881.getClass(), "freezeSchedulePlanner", null);
-        setField(term881, term881.getClass(), "crudFreezeService", null);
-        setField(term881, term881.getClass(), "freezeValidator", null);
-        setField(term881, term881.getClass(), "freezeDateUtils", null);
-        setField(term881, term881.getClass(), "lockManager", null);
-        term882 = new Integer(0);
+        term1062 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeService"));
+        setField(term1062, term1062.getClass(), "freezeSchedulePlanner", null);
+        setField(term1062, term1062.getClass(), "crudFreezeService", null);
+        setField(term1062, term1062.getClass(), "freezeValidator", null);
+        setField(term1062, term1062.getClass(), "freezeDateUtils", null);
+        setField(term1062, term1062.getClass(), "lockManager", null);
+        term1063 = new Integer(0);
     }
 
     @Test
@@ -52,8 +52,8 @@ public class FreezeService_compareFreezeDatesWithActualAndMapByWaitingAndDeletin
         Object[] args = new Object[3];
         args[0] = null;
         args[1] = null;
-        args[2] = term882;
-        callMethod(klass, "compareFreezeDatesWithActualAndMapByWaitingAndDeleting", argTypes, term881, args);
+        args[2] = term1063;
+        callMethod(klass, "compareFreezeDatesWithActualAndMapByWaitingAndDeleting", argTypes, term1062, args);
     }
 
 };

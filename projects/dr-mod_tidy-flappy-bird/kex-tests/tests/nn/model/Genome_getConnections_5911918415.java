@@ -148,7 +148,7 @@ public class Genome_getConnections_5911918415 {
         setField(term8144, term8144.getClass(), "nodeInnovator", term8210);
         setIntField(term8212, term8212.getClass(), "counter", 100);
         setField(term8144, term8144.getClass(), "connectionInnovator", term8212);
-        setLongField(term8215, term8215.getClass(), "value", 203323980344871L);
+        setLongField(term8215, term8215.getClass(), "value", 76110752487430L);
         setField(term8214, term8214.getClass(), "seed", term8215);
         setDoubleField(term8214, term8214.getClass(), "nextNextGaussian", 0.34363635678920734);
         setBooleanField(term8214, term8214.getClass(), "haveNextNextGaussian", false);

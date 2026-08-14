@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FreezeSchedulePlanner_scheduleFreeze_83983903111 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term6529;
+     Object term6714;
 
     public FreezeSchedulePlanner_scheduleFreeze_83983903111() {
     }
@@ -31,11 +31,11 @@ public class FreezeSchedulePlanner_scheduleFreeze_83983903111 {
 
     @Before
     public void setup() throws Throwable {
-        term6529 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner"));
-        setField(term6529, term6529.getClass(), "crudFreezeService", null);
-        setField(term6529, term6529.getClass(), "freezeDateUtils", null);
-        setField(term6529, term6529.getClass(), "freezeScheduler", null);
-        setField(term6529, term6529.getClass(), "trackUnitService", null);
+        term6714 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner"));
+        setField(term6714, term6714.getClass(), "crudFreezeService", null);
+        setField(term6714, term6714.getClass(), "freezeDateUtils", null);
+        setField(term6714, term6714.getClass(), "freezeScheduler", null);
+        setField(term6714, term6714.getClass(), "trackUnitService", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class FreezeSchedulePlanner_scheduleFreeze_83983903111 {
         argTypes[0] = Class.forName("ru.smartup.timetracker.entity.FreezeRecord");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "scheduleFreeze", argTypes, term6529, args);
+        callMethod(klass, "scheduleFreeze", argTypes, term6714, args);
     }
 
 };

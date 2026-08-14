@@ -21,8 +21,8 @@ import java.lang.Boolean;
 
 public class TodoHandler_transferTask_18951818393 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term13424;
-     Object term13425;
+     Object term13416;
+     Object term13417;
 
     public TodoHandler_transferTask_18951818393() {
     }
@@ -33,8 +33,8 @@ public class TodoHandler_transferTask_18951818393 {
 
     @Before
     public void setup() throws Throwable {
-        term13424 = newInstance(Class.forName("core.task.handler.TodoHandler"));
-        term13425 = new Boolean(false);
+        term13416 = newInstance(Class.forName("core.task.handler.TodoHandler"));
+        term13417 = new Boolean(false);
     }
 
     @Test
@@ -47,8 +47,8 @@ public class TodoHandler_transferTask_18951818393 {
         Object[] args = new Object[3];
         args[0] = null;
         args[1] = null;
-        args[2] = term13425;
-        callMethod(klass, "transferTask", argTypes, term13424, args);
+        args[2] = term13417;
+        callMethod(klass, "transferTask", argTypes, term13416, args);
     }
 
 };

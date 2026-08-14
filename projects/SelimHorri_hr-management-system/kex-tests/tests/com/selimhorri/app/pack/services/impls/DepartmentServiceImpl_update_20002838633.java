@@ -40,8 +40,8 @@ public class DepartmentServiceImpl_update_20002838633 {
     public void setup() throws Throwable {
         Integer term67 = new Integer(-73683645);
         HashMap term94 = new HashMap();
-        Set<Object> term124 =  ((Map) term94).keySet();
-        HashSet term93 = new HashSet((Collection<? extends Object>) term124);
+        Set<Object> term122 =  ((Map) term94).keySet();
+        HashSet term93 = new HashSet((Collection<? extends Object>) term122);
         term66 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
         setField(term66, term66.getClass(), "deptno", term67);
         setField(term66, term66.getClass(), "dname", "MLqYREekMl");

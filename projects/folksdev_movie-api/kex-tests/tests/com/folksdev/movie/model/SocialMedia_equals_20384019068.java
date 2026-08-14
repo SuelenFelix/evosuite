@@ -20,8 +20,8 @@ import static org.junit.Assert.assertTrue;
 
 public class SocialMedia_equals_20384019068 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34780;
-     Object term34805;
+     Object term34779;
+     Object term34804;
 
     public SocialMedia_equals_20384019068() {
     }
@@ -32,10 +32,10 @@ public class SocialMedia_equals_20384019068 {
 
     @Before
     public void setup() throws Throwable {
-        term34780 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
-        setField(term34780, term34780.getClass(), "id", "lyiWNZdiRp");
-        setField(term34780, term34780.getClass(), "url", "BeeLASibwX");
-        term34805 = newInstance(Class.forName("java.lang.Object"));
+        term34779 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
+        setField(term34779, term34779.getClass(), "id", "lyiWNZdiRp");
+        setField(term34779, term34779.getClass(), "url", "BeeLASibwX");
+        term34804 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -44,8 +44,8 @@ public class SocialMedia_equals_20384019068 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term34805;
-        callMethod(klass, "equals", argTypes, term34780, args);
+        args[0] = term34804;
+        callMethod(klass, "equals", argTypes, term34779, args);
     }
 
 };

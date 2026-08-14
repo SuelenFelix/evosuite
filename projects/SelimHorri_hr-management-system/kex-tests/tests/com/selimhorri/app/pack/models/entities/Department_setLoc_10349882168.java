@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class Department_setLoc_10349882168 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5446;
+     Object term5448;
 
     public Department_setLoc_10349882168() {
     }
@@ -38,15 +38,15 @@ public class Department_setLoc_10349882168 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term5447 = new Integer(1545119095);
-        HashMap term5474 = new HashMap();
-        Set<Object> term5520 =  ((Map) term5474).keySet();
-        HashSet term5473 = new HashSet((Collection<? extends Object>) term5520);
-        term5446 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        setField(term5446, term5446.getClass(), "deptno", term5447);
-        setField(term5446, term5446.getClass(), "dname", "DbZKLwYBgy");
-        setField(term5446, term5446.getClass(), "loc", "LnNRVsjmxw");
-        setField(term5446, term5446.getClass(), "employees", term5473);
+        Integer term5449 = new Integer(1545119095);
+        HashMap term5476 = new HashMap();
+        Set<Object> term5520 =  ((Map) term5476).keySet();
+        HashSet term5475 = new HashSet((Collection<? extends Object>) term5520);
+        term5448 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        setField(term5448, term5448.getClass(), "deptno", term5449);
+        setField(term5448, term5448.getClass(), "dname", "DbZKLwYBgy");
+        setField(term5448, term5448.getClass(), "loc", "LnNRVsjmxw");
+        setField(term5448, term5448.getClass(), "employees", term5475);
     }
 
     @Test
@@ -56,7 +56,7 @@ public class Department_setLoc_10349882168 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = "oOUHomyJff";
-        callMethod(klass, "setLoc", argTypes, term5446, args);
+        callMethod(klass, "setLoc", argTypes, term5448, args);
     }
 
 };

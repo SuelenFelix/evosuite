@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class MessageResponse_setMessage_3633688797 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4089739;
+     Object term401059;
 
     public MessageResponse_setMessage_3633688797() {
     }
@@ -31,8 +31,8 @@ public class MessageResponse_setMessage_3633688797 {
 
     @Before
     public void setup() throws Throwable {
-        term4089739 = newInstance(Class.forName("icu.samnyan.aqua.api.model.MessageResponse"));
-        setField(term4089739, term4089739.getClass(), "message", null);
+        term401059 = newInstance(Class.forName("icu.samnyan.aqua.api.model.MessageResponse"));
+        setField(term401059, term401059.getClass(), "message", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class MessageResponse_setMessage_3633688797 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setMessage", argTypes, term4089739, args);
+        callMethod(klass, "setMessage", argTypes, term401059, args);
     }
 
 };

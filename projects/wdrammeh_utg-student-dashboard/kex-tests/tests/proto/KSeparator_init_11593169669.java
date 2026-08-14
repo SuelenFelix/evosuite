@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class KSeparator_init_11593169669 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term66908;
+     Object term66957;
 
     public KSeparator_init_11593169669() {
     }
@@ -32,7 +32,7 @@ public class KSeparator_init_11593169669 {
 
     @Before
     public void setup() throws Throwable {
-        term66908 = new Integer(0);
+        term66957 = new Integer(0);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class KSeparator_init_11593169669 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = int.class;
         Object[] args = new Object[1];
-        args[0] = term66908;
+        args[0] = term66957;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

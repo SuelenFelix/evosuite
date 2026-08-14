@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_toString_151169264431 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10322;
+     Object term10319;
 
     public Genome_toString_151169264431() {
     }
@@ -31,12 +31,12 @@ public class Genome_toString_151169264431 {
 
     @Before
     public void setup() throws Throwable {
-        term10322 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10322, term10322.getClass(), "nodes", null);
-        setField(term10322, term10322.getClass(), "connections", null);
-        setField(term10322, term10322.getClass(), "nodeInnovator", null);
-        setField(term10322, term10322.getClass(), "connectionInnovator", null);
-        setField(term10322, term10322.getClass(), "random", null);
+        term10319 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10319, term10319.getClass(), "nodes", null);
+        setField(term10319, term10319.getClass(), "connections", null);
+        setField(term10319, term10319.getClass(), "nodeInnovator", null);
+        setField(term10319, term10319.getClass(), "connectionInnovator", null);
+        setField(term10319, term10319.getClass(), "random", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Genome_toString_151169264431 {
         Class<?> klass = Class.forName("nn.model.Genome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term10322, args);
+        callMethod(klass, "toString", argTypes, term10319, args);
     }
 
 };

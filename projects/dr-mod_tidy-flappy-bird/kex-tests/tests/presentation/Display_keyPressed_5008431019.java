@@ -164,7 +164,7 @@ public class Display_keyPressed_5008431019 {
         setIntField(term1645, term1645.getClass(), "yOpeningEnd", 0);
         setIntField(term1645, term1645.getClass(), "width", 0);
         setField(term1634, term1634.getClass(), "lastPipe", term1645);
-        setLongField(term1651, term1651.getClass(), "value", 41090121071733L);
+        setLongField(term1651, term1651.getClass(), "value", 156723117178290L);
         setField(term1650, term1650.getClass(), "seed", term1651);
         setDoubleField(term1650, term1650.getClass(), "nextNextGaussian", 0.0);
         setBooleanField(term1650, term1650.getClass(), "haveNextNextGaussian", false);

@@ -1,16 +1,16 @@
-2026-06-29 07:40:23.066 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/janlely_jparser/target/classes
-2026-06-29 07:40:23.199 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 07:40:23.257 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 07:40:24.105 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 07:40:24.584 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/github/janlely/jparser/util/*
-2026-06-29 07:40:24.585 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 07:40:24.594 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/janlely_jparser/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 07:40:24.629 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/janlely_jparser/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 34201 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/janlely_jparser/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 07:40:24.643 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 07:42:04.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::<init>(int, int, byte[]): void
-2026-06-29 07:42:04.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::<init>(int, int, byte[]): void
+2026-08-12 12:09:32.130 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/janlely_jparser/target/classes
+2026-08-12 12:09:32.266 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 12:09:32.321 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 12:09:33.329 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 12:09:33.746 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/github/janlely/jparser/util/*
+2026-08-12 12:09:33.747 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 12:09:33.768 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/janlely_jparser/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 12:09:33.799 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/janlely_jparser/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 32975 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/janlely_jparser/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 12:09:33.811 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 12:11:13.852 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::<init>(int, int, byte[]): void
+2026-08-12 12:11:13.852 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::<init>(int, int, byte[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -36,9 +36,9 @@
 
 %bb5: 	//predecessors %bb4
 	return
-2026-06-29 07:42:05.164 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_init_5030802710
-2026-06-29 07:42:05.170 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::backward(int): void
-2026-06-29 07:42:05.170 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::backward(int): void
+2026-08-12 12:11:14.335 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_init_5030802710
+2026-08-12 12:11:14.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::backward(int): void
+2026-08-12 12:11:14.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::backward(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -74,9 +74,9 @@
 
 %bb5: 	//predecessors %bb4
 	return
-2026-06-29 07:42:05.296 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_backward_5374794141
-2026-06-29 07:42:05.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::remaining(): int
-2026-06-29 07:42:05.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::remaining(): int
+2026-08-12 12:11:14.463 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_backward_5374794141
+2026-08-12 12:11:14.464 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::remaining(): int
+2026-08-12 12:11:14.464 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::remaining(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -92,9 +92,9 @@
 	%5 = %2 - %3
 	%7 = %5 + 1
 	return %7
-2026-06-29 07:42:05.393 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_remaining_12553401852
-2026-06-29 07:42:05.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::head(): java/util/Optional
-2026-06-29 07:42:05.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::head(): java/util/Optional
+2026-08-12 12:11:14.556 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_remaining_12553401852
+2026-08-12 12:11:14.557 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::head(): java/util/Optional
+2026-08-12 12:11:14.558 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::head(): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -143,9 +143,9 @@
 %bb.return0: 	//predecessors %bb7, %bb8
 	%retval1 = phi {%bb7 -> %16; %bb8 -> %17}
 	return %retval1
-2026-06-29 07:42:05.483 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_head_3476117613
-2026-06-29 07:42:05.484 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::headN(int): byte[]
-2026-06-29 07:42:05.484 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::headN(int): byte[]
+2026-08-12 12:11:14.637 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_head_3476117613
+2026-08-12 12:11:14.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::headN(int): byte[]
+2026-08-12 12:11:14.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::headN(int): byte[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -208,9 +208,9 @@
 %bb.return0: 	//predecessors %bb2, %bb7
 	%retval1 = phi {%bb2 -> %20; %bb7 -> %21}
 	return %retval1
-2026-06-29 07:42:05.562 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_headN_11439353054
-2026-06-29 07:42:05.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::forward(int): void
-2026-06-29 07:42:05.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::forward(int): void
+2026-08-12 12:11:14.714 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_headN_11439353054
+2026-08-12 12:11:14.714 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::forward(int): void
+2026-08-12 12:11:14.715 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::forward(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -225,9 +225,9 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 07:42:05.642 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_forward_18448841165
-2026-06-29 07:42:05.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::getPos(): int
-2026-06-29 07:42:05.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::getPos(): int
+2026-08-12 12:11:14.785 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_forward_18448841165
+2026-08-12 12:11:14.786 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::getPos(): int
+2026-08-12 12:11:14.786 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::getPos(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -237,9 +237,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:05.727 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_getPos_19836388976
-2026-06-29 07:42:05.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::splitAt(int): io/github/janlely/jparser/IBuffer[]
-2026-06-29 07:42:05.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::splitAt(int): io/github/janlely/jparser/IBuffer[]
+2026-08-12 12:11:14.864 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_getPos_19836388976
+2026-08-12 12:11:14.865 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::splitAt(int): io/github/janlely/jparser/IBuffer[]
+2026-08-12 12:11:14.865 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::splitAt(int): io/github/janlely/jparser/IBuffer[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -314,9 +314,9 @@
 
 %bb13: 	//predecessors %bb12
 	return %36
-2026-06-29 07:42:05.810 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_splitAt_7900682387
-2026-06-29 07:42:05.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::remainContent(): byte[]
-2026-06-29 07:42:05.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::remainContent(): byte[]
+2026-08-12 12:11:14.934 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_splitAt_7900682387
+2026-08-12 12:11:14.935 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$SubBuffer::remainContent(): byte[]
+2026-08-12 12:11:14.935 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$SubBuffer::remainContent(): byte[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -371,36 +371,36 @@
 %bb.return0: 	//predecessors %bb2, %bb8
 	%retval1 = phi {%bb2 -> %22; %bb8 -> %23}
 	return %retval1
-2026-06-29 07:42:05.881 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_remainContent_3628933188
-2026-06-29 07:42:05.940 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_init_5030802719
-2026-06-29 07:42:06.014 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_backward_53747941410
-2026-06-29 07:42:06.068 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_remaining_125534018511
-2026-06-29 07:42:06.123 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_head_34761176112
-2026-06-29 07:42:06.178 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_headN_114393530513
-2026-06-29 07:42:06.233 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_forward_184488411614
-2026-06-29 07:42:06.288 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_getPos_198363889715
-2026-06-29 07:42:06.339 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_splitAt_79006823816
-2026-06-29 07:42:06.390 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_remainContent_36289331817
-2026-06-29 07:42:06.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::<init>(int, int, byte[]): void: null
-2026-06-29 07:42:06.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::backward(int): void: null
-2026-06-29 07:42:06.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::remaining(): int: null
-2026-06-29 07:42:06.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::head(): java/util/Optional: null
-2026-06-29 07:42:06.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::headN(int): byte[]: null
-2026-06-29 07:42:06.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::forward(int): void: null
-2026-06-29 07:42:06.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::getPos(): int: null
-2026-06-29 07:42:06.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::splitAt(int): io/github/janlely/jparser/IBuffer[]: null
-2026-06-29 07:42:06.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::remainContent(): byte[]: null
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::<init>(int, int, byte[]): void processing is finished normally
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::backward(int): void processing is finished normally
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::remaining(): int processing is finished normally
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::head(): java/util/Optional processing is finished normally
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::headN(int): byte[] processing is finished normally
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::forward(int): void processing is finished normally
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::getPos(): int processing is finished normally
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::splitAt(int): io/github/janlely/jparser/IBuffer[] processing is finished normally
-2026-06-29 07:42:06.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::remainContent(): byte[] processing is finished normally
-2026-06-29 07:42:06.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/ErrorUtil::<init>(): void
-2026-06-29 07:42:06.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/ErrorUtil::<init>(): void
+2026-08-12 12:11:14.998 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_remainContent_3628933188
+2026-08-12 12:11:15.071 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_init_5030802719
+2026-08-12 12:11:15.127 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_backward_53747941410
+2026-08-12 12:11:15.182 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_remaining_125534018511
+2026-08-12 12:11:15.239 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_head_34761176112
+2026-08-12 12:11:15.292 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_headN_114393530513
+2026-08-12 12:11:15.354 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_forward_184488411614
+2026-08-12 12:11:15.405 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_getPos_198363889715
+2026-08-12 12:11:15.453 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_splitAt_79006823816
+2026-08-12 12:11:15.510 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_SubBuffer_remainContent_36289331817
+2026-08-12 12:11:15.510 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::<init>(int, int, byte[]): void: null
+2026-08-12 12:11:15.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::backward(int): void: null
+2026-08-12 12:11:15.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::remaining(): int: null
+2026-08-12 12:11:15.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::head(): java/util/Optional: null
+2026-08-12 12:11:15.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::headN(int): byte[]: null
+2026-08-12 12:11:15.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::forward(int): void: null
+2026-08-12 12:11:15.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::getPos(): int: null
+2026-08-12 12:11:15.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::splitAt(int): io/github/janlely/jparser/IBuffer[]: null
+2026-08-12 12:11:15.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$SubBuffer::remainContent(): byte[]: null
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::<init>(int, int, byte[]): void processing is finished normally
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::backward(int): void processing is finished normally
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::remaining(): int processing is finished normally
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::head(): java/util/Optional processing is finished normally
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::headN(int): byte[] processing is finished normally
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::forward(int): void processing is finished normally
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::getPos(): int processing is finished normally
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::splitAt(int): io/github/janlely/jparser/IBuffer[] processing is finished normally
+2026-08-12 12:11:15.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$SubBuffer::remainContent(): byte[] processing is finished normally
+2026-08-12 12:11:15.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/ErrorUtil::<init>(): void
+2026-08-12 12:11:15.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/ErrorUtil::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -410,9 +410,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 07:42:06.455 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.ErrorUtil_init_9454407230
-2026-06-29 07:42:06.456 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/ErrorUtil::error(io/github/janlely/jparser/IBuffer): java/lang/String
-2026-06-29 07:42:06.456 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/ErrorUtil::error(io/github/janlely/jparser/IBuffer): java/lang/String
+2026-08-12 12:11:15.577 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.ErrorUtil_init_9454407230
+2026-08-12 12:11:15.578 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/ErrorUtil::error(io/github/janlely/jparser/IBuffer): java/lang/String
+2026-08-12 12:11:15.578 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/ErrorUtil::error(io/github/janlely/jparser/IBuffer): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -454,15 +454,15 @@
 
 %bb7: 	//predecessors %bb6
 	return %15
-2026-06-29 07:42:06.531 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.ErrorUtil_error_18076500561
-2026-06-29 07:42:06.594 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.ErrorUtil_init_9454407232
-2026-06-29 07:42:06.656 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.ErrorUtil_error_18076500563
-2026-06-29 07:42:06.657 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/ErrorUtil::<init>(): void: null
-2026-06-29 07:42:06.657 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/ErrorUtil::error(io/github/janlely/jparser/IBuffer): java/lang/String: null
-2026-06-29 07:42:06.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/ErrorUtil::<init>(): void processing is finished normally
-2026-06-29 07:42:06.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/ErrorUtil::error(io/github/janlely/jparser/IBuffer): java/lang/String processing is finished normally
-2026-06-29 07:42:06.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::<init>(): void
-2026-06-29 07:42:06.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::<init>(): void
+2026-08-12 12:11:15.656 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.ErrorUtil_error_18076500561
+2026-08-12 12:11:15.730 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.ErrorUtil_init_9454407232
+2026-08-12 12:11:15.790 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.ErrorUtil_error_18076500563
+2026-08-12 12:11:15.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/ErrorUtil::<init>(): void: null
+2026-08-12 12:11:15.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/ErrorUtil::error(io/github/janlely/jparser/IBuffer): java/lang/String: null
+2026-08-12 12:11:15.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/ErrorUtil::<init>(): void processing is finished normally
+2026-08-12 12:11:15.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/ErrorUtil::error(io/github/janlely/jparser/IBuffer): java/lang/String processing is finished normally
+2026-08-12 12:11:15.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::<init>(): void
+2026-08-12 12:11:15.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -472,9 +472,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 07:42:06.734 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_init_9506594100
-2026-06-29 07:42:06.734 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::toStr(): java/util/function/Function
-2026-06-29 07:42:06.734 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::toStr(): java/util/function/Function
+2026-08-12 12:11:15.844 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_init_9506594100
+2026-08-12 12:11:15.845 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::toStr(): java/util/function/Function
+2026-08-12 12:11:15.845 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::toStr(): java/util/function/Function
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -484,9 +484,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:06.805 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toStr_7462727851
-2026-06-29 07:42:06.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::toInt(): java/util/function/Function
-2026-06-29 07:42:06.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::toInt(): java/util/function/Function
+2026-08-12 12:11:15.891 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toStr_7462727851
+2026-08-12 12:11:15.892 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::toInt(): java/util/function/Function
+2026-08-12 12:11:15.892 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::toInt(): java/util/function/Function
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -496,9 +496,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:06.853 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toInt_7368607512
-2026-06-29 07:42:06.853 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::toBytes(): java/util/function/Function
-2026-06-29 07:42:06.854 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::toBytes(): java/util/function/Function
+2026-08-12 12:11:15.937 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toInt_7368607512
+2026-08-12 12:11:15.937 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::toBytes(): java/util/function/Function
+2026-08-12 12:11:15.937 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::toBytes(): java/util/function/Function
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -508,9 +508,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:06.900 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toBytes_6041821553
-2026-06-29 07:42:06.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::toChar(java/nio/charset/Charset): java/util/function/Function
-2026-06-29 07:42:06.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::toChar(java/nio/charset/Charset): java/util/function/Function
+2026-08-12 12:11:15.982 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toBytes_6041821553
+2026-08-12 12:11:15.982 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::toChar(java/nio/charset/Charset): java/util/function/Function
+2026-08-12 12:11:15.982 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::toChar(java/nio/charset/Charset): java/util/function/Function
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -520,9 +520,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:06.950 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toChar_19561969154
-2026-06-29 07:42:06.950 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::replace(java/lang/Object): java/util/function/Function
-2026-06-29 07:42:06.951 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::replace(java/lang/Object): java/util/function/Function
+2026-08-12 12:11:16.029 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toChar_19561969154
+2026-08-12 12:11:16.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Mapper::replace(java/lang/Object): java/util/function/Function
+2026-08-12 12:11:16.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Mapper::replace(java/lang/Object): java/util/function/Function
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -532,27 +532,27 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:06.999 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_replace_15264116145
-2026-06-29 07:42:07.049 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_init_9506594106
-2026-06-29 07:42:07.113 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toStr_7462727857
-2026-06-29 07:42:07.160 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toInt_7368607518
-2026-06-29 07:42:07.206 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toBytes_6041821559
-2026-06-29 07:42:07.252 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toChar_195619691510
-2026-06-29 07:42:07.300 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_replace_152641161411
-2026-06-29 07:42:07.301 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::<init>(): void: null
-2026-06-29 07:42:07.301 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::toStr(): java/util/function/Function: null
-2026-06-29 07:42:07.301 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::toInt(): java/util/function/Function: null
-2026-06-29 07:42:07.302 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::toBytes(): java/util/function/Function: null
-2026-06-29 07:42:07.302 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::toChar(java/nio/charset/Charset): java/util/function/Function: null
-2026-06-29 07:42:07.302 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::replace(java/lang/Object): java/util/function/Function: null
-2026-06-29 07:42:07.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::<init>(): void processing is finished normally
-2026-06-29 07:42:07.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::toStr(): java/util/function/Function processing is finished normally
-2026-06-29 07:42:07.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::toInt(): java/util/function/Function processing is finished normally
-2026-06-29 07:42:07.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::toBytes(): java/util/function/Function processing is finished normally
-2026-06-29 07:42:07.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::toChar(java/nio/charset/Charset): java/util/function/Function processing is finished normally
-2026-06-29 07:42:07.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::replace(java/lang/Object): java/util/function/Function processing is finished normally
-2026-06-29 07:42:07.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::backward(int): void
-2026-06-29 07:42:07.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::backward(int): void
+2026-08-12 12:11:16.075 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_replace_15264116145
+2026-08-12 12:11:16.120 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_init_9506594106
+2026-08-12 12:11:16.164 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toStr_7462727857
+2026-08-12 12:11:16.205 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toInt_7368607518
+2026-08-12 12:11:16.248 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toBytes_6041821559
+2026-08-12 12:11:16.294 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_toChar_195619691510
+2026-08-12 12:11:16.336 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Mapper_replace_152641161411
+2026-08-12 12:11:16.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::<init>(): void: null
+2026-08-12 12:11:16.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::toStr(): java/util/function/Function: null
+2026-08-12 12:11:16.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::toInt(): java/util/function/Function: null
+2026-08-12 12:11:16.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::toBytes(): java/util/function/Function: null
+2026-08-12 12:11:16.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::toChar(java/nio/charset/Charset): java/util/function/Function: null
+2026-08-12 12:11:16.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Mapper::replace(java/lang/Object): java/util/function/Function: null
+2026-08-12 12:11:16.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::<init>(): void processing is finished normally
+2026-08-12 12:11:16.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::toStr(): java/util/function/Function processing is finished normally
+2026-08-12 12:11:16.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::toInt(): java/util/function/Function processing is finished normally
+2026-08-12 12:11:16.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::toBytes(): java/util/function/Function processing is finished normally
+2026-08-12 12:11:16.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::toChar(java/nio/charset/Charset): java/util/function/Function processing is finished normally
+2026-08-12 12:11:16.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Mapper::replace(java/lang/Object): java/util/function/Function processing is finished normally
+2026-08-12 12:11:16.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::backward(int): void
+2026-08-12 12:11:16.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::backward(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -583,9 +583,9 @@
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-29 07:42:07.356 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_backward_3086120700
-2026-06-29 07:42:07.356 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::remaining(): int
-2026-06-29 07:42:07.356 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::remaining(): int
+2026-08-12 12:11:16.389 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_backward_3086120700
+2026-08-12 12:11:16.389 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::remaining(): int
+2026-08-12 12:11:16.389 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::remaining(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -604,9 +604,9 @@
 %bb3: 	//predecessors %bb2
 	%7 = %4 - %5
 	return %7
-2026-06-29 07:42:07.412 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_remaining_4092487011
-2026-06-29 07:42:07.413 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::head(): java/util/Optional
-2026-06-29 07:42:07.413 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::head(): java/util/Optional
+2026-08-12 12:11:16.431 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_remaining_4092487011
+2026-08-12 12:11:16.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::head(): java/util/Optional
+2026-08-12 12:11:16.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::head(): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -659,9 +659,9 @@
 %bb.return0: 	//predecessors %bb8, %bb9
 	%retval1 = phi {%bb8 -> %18; %bb9 -> %19}
 	return %retval1
-2026-06-29 07:42:07.470 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_head_11937032452
-2026-06-29 07:42:07.471 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::remainContent(): byte[]
-2026-06-29 07:42:07.471 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::remainContent(): byte[]
+2026-08-12 12:11:16.476 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_head_11937032452
+2026-08-12 12:11:16.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::remainContent(): byte[]
+2026-08-12 12:11:16.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::remainContent(): byte[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -719,9 +719,9 @@
 %bb.return0: 	//predecessors %bb2, %bb9
 	%retval1 = phi {%bb2 -> %22; %bb9 -> %23}
 	return %retval1
-2026-06-29 07:42:07.531 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_remainContent_12089848023
-2026-06-29 07:42:07.531 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::headN(int): byte[]
-2026-06-29 07:42:07.532 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::headN(int): byte[]
+2026-08-12 12:11:16.521 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_remainContent_12089848023
+2026-08-12 12:11:16.521 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::headN(int): byte[]
+2026-08-12 12:11:16.522 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::headN(int): byte[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -765,9 +765,9 @@
 
 %bb5: 	//predecessors %bb4
 	return %15
-2026-06-29 07:42:07.590 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_headN_19900267894
-2026-06-29 07:42:07.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::forward(int): void
-2026-06-29 07:42:07.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::forward(int): void
+2026-08-12 12:11:16.565 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_headN_19900267894
+2026-08-12 12:11:16.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::forward(int): void
+2026-08-12 12:11:16.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::forward(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -782,9 +782,9 @@
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-29 07:42:07.638 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_forward_9987926325
-2026-06-29 07:42:07.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::splitAt(int): io/github/janlely/jparser/IBuffer[]
-2026-06-29 07:42:07.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::splitAt(int): io/github/janlely/jparser/IBuffer[]
+2026-08-12 12:11:16.609 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_forward_9987926325
+2026-08-12 12:11:16.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::splitAt(int): io/github/janlely/jparser/IBuffer[]
+2026-08-12 12:11:16.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::splitAt(int): io/github/janlely/jparser/IBuffer[]
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -864,9 +864,9 @@
 
 %bb14: 	//predecessors %bb13
 	return %40
-2026-06-29 07:42:07.684 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_splitAt_16361597226
-2026-06-29 07:42:07.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::<init>(byte[], int): void
-2026-06-29 07:42:07.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::<init>(byte[], int): void
+2026-08-12 12:11:16.651 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_splitAt_16361597226
+2026-08-12 12:11:16.652 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::<init>(byte[], int): void
+2026-08-12 12:11:16.652 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::<init>(byte[], int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -884,9 +884,9 @@
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 07:42:07.727 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_init_3411418517
-2026-06-29 07:42:07.727 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::builder(): io/github/janlely/jparser/util/Buffer$BufferBuilder
-2026-06-29 07:42:07.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::builder(): io/github/janlely/jparser/util/Buffer$BufferBuilder
+2026-08-12 12:11:16.691 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_init_3411418517
+2026-08-12 12:11:16.692 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::builder(): io/github/janlely/jparser/util/Buffer$BufferBuilder
+2026-08-12 12:11:16.692 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::builder(): io/github/janlely/jparser/util/Buffer$BufferBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -897,9 +897,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %2
-2026-06-29 07:42:07.771 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_builder_17023880178
-2026-06-29 07:42:07.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::getPos(): int
-2026-06-29 07:42:07.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::getPos(): int
+2026-08-12 12:11:16.732 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_builder_17023880178
+2026-08-12 12:11:16.732 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer::getPos(): int
+2026-08-12 12:11:16.732 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer::getPos(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -909,39 +909,39 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:07.816 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_getPos_11375474139
-2026-06-29 07:42:07.861 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_backward_30861207010
-2026-06-29 07:42:07.905 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_remaining_40924870111
-2026-06-29 07:42:07.948 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_head_119370324512
-2026-06-29 07:42:07.990 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_remainContent_120898480213
-2026-06-29 07:42:08.032 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_headN_199002678914
-2026-06-29 07:42:08.072 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_forward_99879263215
-2026-06-29 07:42:08.119 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_splitAt_163615972216
-2026-06-29 07:42:08.162 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_init_34114185117
-2026-06-29 07:42:08.203 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_builder_170238801718
-2026-06-29 07:42:08.241 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_getPos_113754741319
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::backward(int): void: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::remaining(): int: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::head(): java/util/Optional: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::remainContent(): byte[]: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::headN(int): byte[]: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::forward(int): void: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::splitAt(int): io/github/janlely/jparser/IBuffer[]: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::<init>(byte[], int): void: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::builder(): io/github/janlely/jparser/util/Buffer$BufferBuilder: null
-2026-06-29 07:42:08.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::getPos(): int: null
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::backward(int): void processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::remaining(): int processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::head(): java/util/Optional processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::remainContent(): byte[] processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::headN(int): byte[] processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::forward(int): void processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::splitAt(int): io/github/janlely/jparser/IBuffer[] processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::<init>(byte[], int): void processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::builder(): io/github/janlely/jparser/util/Buffer$BufferBuilder processing is finished normally
-2026-06-29 07:42:08.243 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::getPos(): int processing is finished normally
-2026-06-29 07:42:08.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::<init>(): void
-2026-06-29 07:42:08.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::<init>(): void
+2026-08-12 12:11:16.776 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_getPos_11375474139
+2026-08-12 12:11:16.818 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_backward_30861207010
+2026-08-12 12:11:16.857 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_remaining_40924870111
+2026-08-12 12:11:16.898 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_head_119370324512
+2026-08-12 12:11:16.937 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_remainContent_120898480213
+2026-08-12 12:11:16.977 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_headN_199002678914
+2026-08-12 12:11:17.016 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_forward_99879263215
+2026-08-12 12:11:17.056 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_splitAt_163615972216
+2026-08-12 12:11:17.106 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_init_34114185117
+2026-08-12 12:11:17.172 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_builder_170238801718
+2026-08-12 12:11:17.212 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_getPos_113754741319
+2026-08-12 12:11:17.212 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::backward(int): void: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::remaining(): int: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::head(): java/util/Optional: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::remainContent(): byte[]: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::headN(int): byte[]: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::forward(int): void: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::splitAt(int): io/github/janlely/jparser/IBuffer[]: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::<init>(byte[], int): void: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::builder(): io/github/janlely/jparser/util/Buffer$BufferBuilder: null
+2026-08-12 12:11:17.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer::getPos(): int: null
+2026-08-12 12:11:17.213 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::backward(int): void processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::remaining(): int processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::head(): java/util/Optional processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::remainContent(): byte[] processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::headN(int): byte[] processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::forward(int): void processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::splitAt(int): io/github/janlely/jparser/IBuffer[] processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::<init>(byte[], int): void processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::builder(): io/github/janlely/jparser/util/Buffer$BufferBuilder processing is finished normally
+2026-08-12 12:11:17.214 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer::getPos(): int processing is finished normally
+2026-08-12 12:11:17.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::<init>(): void
+2026-08-12 12:11:17.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -951,9 +951,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 07:42:08.284 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_init_18314700520
-2026-06-29 07:42:08.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::data(byte[]): io/github/janlely/jparser/util/Buffer$BufferBuilder
-2026-06-29 07:42:08.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::data(byte[]): io/github/janlely/jparser/util/Buffer$BufferBuilder
+2026-08-12 12:11:17.253 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_init_18314700520
+2026-08-12 12:11:17.254 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::data(byte[]): io/github/janlely/jparser/util/Buffer$BufferBuilder
+2026-08-12 12:11:17.254 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::data(byte[]): io/github/janlely/jparser/util/Buffer$BufferBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -963,9 +963,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 07:42:08.325 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_data_4086315491
-2026-06-29 07:42:08.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::pos(int): io/github/janlely/jparser/util/Buffer$BufferBuilder
-2026-06-29 07:42:08.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::pos(int): io/github/janlely/jparser/util/Buffer$BufferBuilder
+2026-08-12 12:11:17.292 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_data_4086315491
+2026-08-12 12:11:17.292 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::pos(int): io/github/janlely/jparser/util/Buffer$BufferBuilder
+2026-08-12 12:11:17.292 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::pos(int): io/github/janlely/jparser/util/Buffer$BufferBuilder
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -975,9 +975,9 @@
 
 %bb1: 	//predecessors %bb0
 	return this
-2026-06-29 07:42:08.365 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_pos_10371425492
-2026-06-29 07:42:08.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::build(): io/github/janlely/jparser/util/Buffer
-2026-06-29 07:42:08.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::build(): io/github/janlely/jparser/util/Buffer
+2026-08-12 12:11:17.331 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_pos_10371425492
+2026-08-12 12:11:17.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::build(): io/github/janlely/jparser/util/Buffer
+2026-08-12 12:11:17.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::build(): io/github/janlely/jparser/util/Buffer
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -996,9 +996,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %6
-2026-06-29 07:42:08.406 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_build_8468965863
-2026-06-29 07:42:08.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::toString(): java/lang/String
-2026-06-29 07:42:08.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::toString(): java/lang/String
+2026-08-12 12:11:17.369 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_build_8468965863
+2026-08-12 12:11:17.369 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/Buffer$BufferBuilder::toString(): java/lang/String
+2026-08-12 12:11:17.369 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/Buffer$BufferBuilder::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1020,24 +1020,24 @@
 
 %bb4: 	//predecessors %bb3
 	return %7
-2026-06-29 07:42:08.447 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_toString_12860142014
-2026-06-29 07:42:08.486 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_init_18314700525
-2026-06-29 07:42:08.526 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_data_4086315496
-2026-06-29 07:42:08.568 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_pos_10371425497
-2026-06-29 07:42:08.609 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_build_8468965868
-2026-06-29 07:42:08.652 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_toString_12860142019
-2026-06-29 07:42:08.652 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::<init>(): void: null
-2026-06-29 07:42:08.652 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::data(byte[]): io/github/janlely/jparser/util/Buffer$BufferBuilder: null
-2026-06-29 07:42:08.652 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::pos(int): io/github/janlely/jparser/util/Buffer$BufferBuilder: null
-2026-06-29 07:42:08.653 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::build(): io/github/janlely/jparser/util/Buffer: null
-2026-06-29 07:42:08.653 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::toString(): java/lang/String: null
-2026-06-29 07:42:08.653 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::<init>(): void processing is finished normally
-2026-06-29 07:42:08.653 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::data(byte[]): io/github/janlely/jparser/util/Buffer$BufferBuilder processing is finished normally
-2026-06-29 07:42:08.653 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::pos(int): io/github/janlely/jparser/util/Buffer$BufferBuilder processing is finished normally
-2026-06-29 07:42:08.653 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::build(): io/github/janlely/jparser/util/Buffer processing is finished normally
-2026-06-29 07:42:08.653 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::toString(): java/lang/String processing is finished normally
-2026-06-29 07:42:08.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/CharUtil::<init>(): void
-2026-06-29 07:42:08.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/CharUtil::<init>(): void
+2026-08-12 12:11:17.409 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_toString_12860142014
+2026-08-12 12:11:17.447 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_init_18314700525
+2026-08-12 12:11:17.486 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_data_4086315496
+2026-08-12 12:11:17.524 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_pos_10371425497
+2026-08-12 12:11:17.562 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_build_8468965868
+2026-08-12 12:11:17.601 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.Buffer_BufferBuilder_toString_12860142019
+2026-08-12 12:11:17.601 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::<init>(): void: null
+2026-08-12 12:11:17.601 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::data(byte[]): io/github/janlely/jparser/util/Buffer$BufferBuilder: null
+2026-08-12 12:11:17.601 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::pos(int): io/github/janlely/jparser/util/Buffer$BufferBuilder: null
+2026-08-12 12:11:17.601 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::build(): io/github/janlely/jparser/util/Buffer: null
+2026-08-12 12:11:17.602 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/Buffer$BufferBuilder::toString(): java/lang/String: null
+2026-08-12 12:11:17.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::<init>(): void processing is finished normally
+2026-08-12 12:11:17.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::data(byte[]): io/github/janlely/jparser/util/Buffer$BufferBuilder processing is finished normally
+2026-08-12 12:11:17.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::pos(int): io/github/janlely/jparser/util/Buffer$BufferBuilder processing is finished normally
+2026-08-12 12:11:17.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::build(): io/github/janlely/jparser/util/Buffer processing is finished normally
+2026-08-12 12:11:17.602 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/Buffer$BufferBuilder::toString(): java/lang/String processing is finished normally
+2026-08-12 12:11:17.605 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/CharUtil::<init>(): void
+2026-08-12 12:11:17.605 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/CharUtil::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1047,9 +1047,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 07:42:08.695 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.CharUtil_init_20299997390
-2026-06-29 07:42:08.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/CharUtil::read(byte[], java/nio/charset/Charset): java/util/Optional
-2026-06-29 07:42:08.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/CharUtil::read(byte[], java/nio/charset/Charset): java/util/Optional
+2026-08-12 12:11:17.643 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.CharUtil_init_20299997390
+2026-08-12 12:11:17.643 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/CharUtil::read(byte[], java/nio/charset/Charset): java/util/Optional
+2026-08-12 12:11:17.644 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/CharUtil::read(byte[], java/nio/charset/Charset): java/util/Optional
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1102,15 +1102,15 @@ goto %label4
 %bb.return0: 	//predecessors %bb4, %bb5
 	%retval1 = phi {%bb4 -> %17; %bb5 -> %18}
 	return %retval1
-2026-06-29 07:42:08.736 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.CharUtil_read_15473277941
-2026-06-29 07:42:08.775 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.CharUtil_init_20299997392
-2026-06-29 07:42:08.816 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.CharUtil_read_15473277943
-2026-06-29 07:42:08.817 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/CharUtil::<init>(): void: null
-2026-06-29 07:42:08.817 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/CharUtil::read(byte[], java/nio/charset/Charset): java/util/Optional: null
-2026-06-29 07:42:08.817 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/CharUtil::<init>(): void processing is finished normally
-2026-06-29 07:42:08.817 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/CharUtil::read(byte[], java/nio/charset/Charset): java/util/Optional processing is finished normally
-2026-06-29 07:42:08.819 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$1::<init>(java/util/function/Predicate, java/util/function/Predicate): void
-2026-06-29 07:42:08.820 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$1::<init>(java/util/function/Predicate, java/util/function/Predicate): void
+2026-08-12 12:11:17.682 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.CharUtil_read_15473277941
+2026-08-12 12:11:17.722 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.CharUtil_init_20299997392
+2026-08-12 12:11:17.763 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.CharUtil_read_15473277943
+2026-08-12 12:11:17.764 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/CharUtil::<init>(): void: null
+2026-08-12 12:11:17.764 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/CharUtil::read(byte[], java/nio/charset/Charset): java/util/Optional: null
+2026-08-12 12:11:17.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/CharUtil::<init>(): void processing is finished normally
+2026-08-12 12:11:17.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/CharUtil::read(byte[], java/nio/charset/Charset): java/util/Optional processing is finished normally
+2026-08-12 12:11:17.766 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$1::<init>(java/util/function/Predicate, java/util/function/Predicate): void
+2026-08-12 12:11:17.766 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$1::<init>(java/util/function/Predicate, java/util/function/Predicate): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1128,9 +1128,9 @@ goto %label4
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 07:42:08.862 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_1_init_16322094680
-2026-06-29 07:42:08.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$1::test(java/lang/Object): bool
-2026-06-29 07:42:08.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$1::test(java/lang/Object): bool
+2026-08-12 12:11:17.806 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_1_init_16322094680
+2026-08-12 12:11:17.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$1::test(java/lang/Object): bool
+2026-08-12 12:11:17.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$1::test(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1167,7 +1167,7 @@ goto %label4
 %goto0: 	//predecessors %if.else1, %if.then0
 	%13 = phi {%if.else1 -> 1; %if.then0 -> 0}
 	return %13
-2026-06-29 07:42:08.865 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:11:17.809 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NullPointerException: null
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:30)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1190,14 +1190,14 @@ java.lang.NullPointerException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 07:42:08.906 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_1_test_19202278731
-2026-06-29 07:42:08.945 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_1_init_16322094682
-2026-06-29 07:42:08.945 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$1::test(java/lang/Object): bool: null
-2026-06-29 07:42:08.945 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$1::<init>(java/util/function/Predicate, java/util/function/Predicate): void: null
-2026-06-29 07:42:08.945 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$1::test(java/lang/Object): bool processing is finished normally
-2026-06-29 07:42:08.945 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$1::<init>(java/util/function/Predicate, java/util/function/Predicate): void processing is finished normally
-2026-06-29 07:42:08.947 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$2::<init>(java/util/function/Predicate, java/util/function/Predicate): void
-2026-06-29 07:42:08.947 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$2::<init>(java/util/function/Predicate, java/util/function/Predicate): void
+2026-08-12 12:11:17.847 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_1_test_19202278731
+2026-08-12 12:11:17.884 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_1_init_16322094682
+2026-08-12 12:11:17.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$1::test(java/lang/Object): bool: null
+2026-08-12 12:11:17.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$1::<init>(java/util/function/Predicate, java/util/function/Predicate): void: null
+2026-08-12 12:11:17.885 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$1::test(java/lang/Object): bool processing is finished normally
+2026-08-12 12:11:17.885 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$1::<init>(java/util/function/Predicate, java/util/function/Predicate): void processing is finished normally
+2026-08-12 12:11:17.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$2::<init>(java/util/function/Predicate, java/util/function/Predicate): void
+2026-08-12 12:11:17.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$2::<init>(java/util/function/Predicate, java/util/function/Predicate): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1215,9 +1215,9 @@ java.lang.NullPointerException: null
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 07:42:08.985 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_2_init_16322094370
-2026-06-29 07:42:08.985 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$2::test(java/lang/Object): bool
-2026-06-29 07:42:08.985 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$2::test(java/lang/Object): bool
+2026-08-12 12:11:17.932 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_2_init_16322094370
+2026-08-12 12:11:17.933 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$2::test(java/lang/Object): bool
+2026-08-12 12:11:17.933 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$2::test(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1254,7 +1254,7 @@ java.lang.NullPointerException: null
 %goto0: 	//predecessors %if.then0, %if.then1
 	%13 = phi {%if.then0 -> 1; %if.then1 -> 0}
 	return %13
-2026-06-29 07:42:08.986 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:11:17.934 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NullPointerException: null
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:30)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1277,14 +1277,14 @@ java.lang.NullPointerException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 07:42:09.025 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_2_test_19202278421
-2026-06-29 07:42:09.063 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_2_init_16322094372
-2026-06-29 07:42:09.063 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$2::test(java/lang/Object): bool: null
-2026-06-29 07:42:09.063 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$2::<init>(java/util/function/Predicate, java/util/function/Predicate): void: null
-2026-06-29 07:42:09.063 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$2::test(java/lang/Object): bool processing is finished normally
-2026-06-29 07:42:09.063 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$2::<init>(java/util/function/Predicate, java/util/function/Predicate): void processing is finished normally
-2026-06-29 07:42:09.065 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$3::<init>(java/util/function/Predicate, java/util/function/Predicate): void
-2026-06-29 07:42:09.065 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$3::<init>(java/util/function/Predicate, java/util/function/Predicate): void
+2026-08-12 12:11:17.980 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_2_test_19202278421
+2026-08-12 12:11:18.017 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_2_init_16322094372
+2026-08-12 12:11:18.017 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$2::test(java/lang/Object): bool: null
+2026-08-12 12:11:18.017 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$2::<init>(java/util/function/Predicate, java/util/function/Predicate): void: null
+2026-08-12 12:11:18.017 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$2::test(java/lang/Object): bool processing is finished normally
+2026-08-12 12:11:18.017 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$2::<init>(java/util/function/Predicate, java/util/function/Predicate): void processing is finished normally
+2026-08-12 12:11:18.019 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$3::<init>(java/util/function/Predicate, java/util/function/Predicate): void
+2026-08-12 12:11:18.019 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$3::<init>(java/util/function/Predicate, java/util/function/Predicate): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1302,9 +1302,9 @@ java.lang.NullPointerException: null
 
 %bb3: 	//predecessors %bb2
 	return
-2026-06-29 07:42:09.103 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_3_init_16322094060
-2026-06-29 07:42:09.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$3::test(java/lang/Object): bool
-2026-06-29 07:42:09.104 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$3::test(java/lang/Object): bool
+2026-08-12 12:11:18.056 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_3_init_16322094060
+2026-08-12 12:11:18.057 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F$3::test(java/lang/Object): bool
+2026-08-12 12:11:18.057 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F$3::test(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1341,7 +1341,7 @@ java.lang.NullPointerException: null
 %goto0: 	//predecessors %if.else1, %if.then0
 	%13 = phi {%if.else1 -> 1; %if.then0 -> 0}
 	return %13
-2026-06-29 07:42:09.105 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 12:11:18.058 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.NullPointerException: null
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:30)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1364,14 +1364,14 @@ java.lang.NullPointerException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-29 07:42:09.142 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_3_test_19202278111
-2026-06-29 07:42:09.180 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_3_init_16322094062
-2026-06-29 07:42:09.181 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$3::test(java/lang/Object): bool: null
-2026-06-29 07:42:09.181 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$3::<init>(java/util/function/Predicate, java/util/function/Predicate): void: null
-2026-06-29 07:42:09.181 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$3::test(java/lang/Object): bool processing is finished normally
-2026-06-29 07:42:09.181 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$3::<init>(java/util/function/Predicate, java/util/function/Predicate): void processing is finished normally
-2026-06-29 07:42:09.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::<init>(): void
-2026-06-29 07:42:09.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::<init>(): void
+2026-08-12 12:11:18.096 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_3_test_19202278111
+2026-08-12 12:11:18.132 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_3_init_16322094062
+2026-08-12 12:11:18.133 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$3::test(java/lang/Object): bool: null
+2026-08-12 12:11:18.133 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F$3::<init>(java/util/function/Predicate, java/util/function/Predicate): void: null
+2026-08-12 12:11:18.133 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$3::test(java/lang/Object): bool processing is finished normally
+2026-08-12 12:11:18.133 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F$3::<init>(java/util/function/Predicate, java/util/function/Predicate): void processing is finished normally
+2026-08-12 12:11:18.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::<init>(): void
+2026-08-12 12:11:18.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1381,9 +1381,9 @@ java.lang.NullPointerException: null
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 07:42:09.224 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_init_9999491690
-2026-06-29 07:42:09.225 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::not(java/util/function/Predicate): java/util/function/Predicate
-2026-06-29 07:42:09.225 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::not(java/util/function/Predicate): java/util/function/Predicate
+2026-08-12 12:11:18.173 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_init_9999491690
+2026-08-12 12:11:18.173 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::not(java/util/function/Predicate): java/util/function/Predicate
+2026-08-12 12:11:18.173 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::not(java/util/function/Predicate): java/util/function/Predicate
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1393,9 +1393,9 @@ java.lang.NullPointerException: null
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:09.264 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_not_14151899201
-2026-06-29 07:42:09.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::noneOf(java/util/function/Predicate[]): java/util/function/Predicate
-2026-06-29 07:42:09.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::noneOf(java/util/function/Predicate[]): java/util/function/Predicate
+2026-08-12 12:11:18.211 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_not_14151899201
+2026-08-12 12:11:18.211 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::noneOf(java/util/function/Predicate[]): java/util/function/Predicate
+2026-08-12 12:11:18.211 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::noneOf(java/util/function/Predicate[]): java/util/function/Predicate
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1405,9 +1405,9 @@ java.lang.NullPointerException: null
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:09.308 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_noneOf_15755799082
-2026-06-29 07:42:09.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::any(java/util/function/Predicate[]): java/util/function/Predicate
-2026-06-29 07:42:09.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::any(java/util/function/Predicate[]): java/util/function/Predicate
+2026-08-12 12:11:18.250 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_noneOf_15755799082
+2026-08-12 12:11:18.251 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::any(java/util/function/Predicate[]): java/util/function/Predicate
+2026-08-12 12:11:18.251 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::any(java/util/function/Predicate[]): java/util/function/Predicate
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1417,9 +1417,9 @@ java.lang.NullPointerException: null
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:09.345 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_any_14031591613
-2026-06-29 07:42:09.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::all(java/util/function/Predicate[]): java/util/function/Predicate
-2026-06-29 07:42:09.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::all(java/util/function/Predicate[]): java/util/function/Predicate
+2026-08-12 12:11:18.287 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_any_14031591613
+2026-08-12 12:11:18.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/github/janlely/jparser/util/F::all(java/util/function/Predicate[]): java/util/function/Predicate
+2026-08-12 12:11:18.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/github/janlely/jparser/util/F::all(java/util/function/Predicate[]): java/util/function/Predicate
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1429,21 +1429,21 @@ java.lang.NullPointerException: null
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 07:42:09.383 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_all_14030870864
-2026-06-29 07:42:09.420 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_init_9999491695
-2026-06-29 07:42:09.456 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_not_14151899206
-2026-06-29 07:42:09.493 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_noneOf_15755799087
-2026-06-29 07:42:09.541 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_any_14031591618
-2026-06-29 07:42:09.587 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_all_14030870869
-2026-06-29 07:42:09.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::<init>(): void: null
-2026-06-29 07:42:09.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::not(java/util/function/Predicate): java/util/function/Predicate: null
-2026-06-29 07:42:09.587 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::noneOf(java/util/function/Predicate[]): java/util/function/Predicate: null
-2026-06-29 07:42:09.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::any(java/util/function/Predicate[]): java/util/function/Predicate: null
-2026-06-29 07:42:09.588 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::all(java/util/function/Predicate[]): java/util/function/Predicate: null
-2026-06-29 07:42:09.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::<init>(): void processing is finished normally
-2026-06-29 07:42:09.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::not(java/util/function/Predicate): java/util/function/Predicate processing is finished normally
-2026-06-29 07:42:09.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::noneOf(java/util/function/Predicate[]): java/util/function/Predicate processing is finished normally
-2026-06-29 07:42:09.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::any(java/util/function/Predicate[]): java/util/function/Predicate processing is finished normally
-2026-06-29 07:42:09.588 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::all(java/util/function/Predicate[]): java/util/function/Predicate processing is finished normally
-2026-06-29 07:42:09.588 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 07:42:09.588 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 12:11:18.323 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_all_14030870864
+2026-08-12 12:11:18.358 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_init_9999491695
+2026-08-12 12:11:18.393 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_not_14151899206
+2026-08-12 12:11:18.429 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_noneOf_15755799087
+2026-08-12 12:11:18.466 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_any_14031591618
+2026-08-12 12:11:18.502 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.github.janlely.jparser.util.F_all_14030870869
+2026-08-12 12:11:18.503 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::<init>(): void: null
+2026-08-12 12:11:18.503 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::not(java/util/function/Predicate): java/util/function/Predicate: null
+2026-08-12 12:11:18.503 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::noneOf(java/util/function/Predicate[]): java/util/function/Predicate: null
+2026-08-12 12:11:18.503 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::any(java/util/function/Predicate[]): java/util/function/Predicate: null
+2026-08-12 12:11:18.503 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/github/janlely/jparser/util/F::all(java/util/function/Predicate[]): java/util/function/Predicate: null
+2026-08-12 12:11:18.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::<init>(): void processing is finished normally
+2026-08-12 12:11:18.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::not(java/util/function/Predicate): java/util/function/Predicate processing is finished normally
+2026-08-12 12:11:18.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::noneOf(java/util/function/Predicate[]): java/util/function/Predicate processing is finished normally
+2026-08-12 12:11:18.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::any(java/util/function/Predicate[]): java/util/function/Predicate processing is finished normally
+2026-08-12 12:11:18.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/github/janlely/jparser/util/F::all(java/util/function/Predicate[]): java/util/function/Predicate processing is finished normally
+2026-08-12 12:11:18.504 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 12:11:18.504 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

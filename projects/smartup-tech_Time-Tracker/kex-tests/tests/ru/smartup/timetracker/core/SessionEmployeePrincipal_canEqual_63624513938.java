@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SessionEmployeePrincipal_canEqual_63624513938 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2877;
+     Object term3251;
 
     public SessionEmployeePrincipal_canEqual_63624513938() {
     }
@@ -31,11 +31,11 @@ public class SessionEmployeePrincipal_canEqual_63624513938 {
 
     @Before
     public void setup() throws Throwable {
-        term2877 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2877, term2877.getClass(), "id", 0);
-        setField(term2877, term2877.getClass(), "email", null);
-        setField(term2877, term2877.getClass(), "employeeRoles", null);
-        setField(term2877, term2877.getClass(), "projectIdsByProjectRoles", null);
+        term3251 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3251, term3251.getClass(), "id", 0);
+        setField(term3251, term3251.getClass(), "email", null);
+        setField(term3251, term3251.getClass(), "employeeRoles", null);
+        setField(term3251, term3251.getClass(), "projectIdsByProjectRoles", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class SessionEmployeePrincipal_canEqual_63624513938 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "canEqual", argTypes, term2877, args);
+        callMethod(klass, "canEqual", argTypes, term3251, args);
     }
 
 };

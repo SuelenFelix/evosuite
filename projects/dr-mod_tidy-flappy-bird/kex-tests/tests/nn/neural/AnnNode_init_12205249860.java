@@ -25,8 +25,8 @@ import java.lang.Double;
 public class AnnNode_init_12205249860 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
      Object enum7;
+     Object term1049;
      Object term1051;
-     Object term1053;
 
     public AnnNode_init_12205249860() {
     }
@@ -37,12 +37,12 @@ public class AnnNode_init_12205249860 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term1056 = Class.forName((String) "nn.neural.AnnType");
-        Field term1055 = ((Class) term1056).getDeclaredField((String) "OUTPUT");
-        ((Field) term1055).setAccessible(true);
-        enum7 = ((Field) term1055).get((Object) null);
-        term1051 = new Integer(458147407);
-        term1053 = new Double(0.25937345430928016);
+        Class<? extends Object> term1054 = Class.forName((String) "nn.neural.AnnType");
+        Field term1053 = ((Class) term1054).getDeclaredField((String) "OUTPUT");
+        ((Field) term1053).setAccessible(true);
+        enum7 = ((Field) term1053).get((Object) null);
+        term1049 = new Integer(458147407);
+        term1051 = new Double(0.25937345430928016);
     }
 
     @Test
@@ -54,8 +54,8 @@ public class AnnNode_init_12205249860 {
         argTypes[2] = double.class;
         Object[] args = new Object[3];
         args[0] = enum7;
-        args[1] = term1051;
-        args[2] = term1053;
+        args[1] = term1049;
+        args[2] = term1051;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

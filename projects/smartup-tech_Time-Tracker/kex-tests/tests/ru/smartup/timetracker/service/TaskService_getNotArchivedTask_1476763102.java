@@ -21,7 +21,7 @@ import java.lang.Long;
 
 public class TaskService_getNotArchivedTask_1476763102 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term21919;
+     Object term22059;
 
     public TaskService_getNotArchivedTask_1476763102() {
     }
@@ -32,7 +32,7 @@ public class TaskService_getNotArchivedTask_1476763102 {
 
     @Before
     public void setup() throws Throwable {
-        term21919 = new Long(-872011222785455006L);
+        term22059 = new Long(-872011222785455006L);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TaskService_getNotArchivedTask_1476763102 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = long.class;
         Object[] args = new Object[1];
-        args[0] = term21919;
+        args[0] = term22059;
         callMethod(klass, "getNotArchivedTask", argTypes, null, args);
     }
 

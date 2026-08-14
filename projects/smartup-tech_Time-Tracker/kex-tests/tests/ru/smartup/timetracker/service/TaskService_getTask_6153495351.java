@@ -21,7 +21,7 @@ import java.lang.Long;
 
 public class TaskService_getTask_6153495351 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term21917;
+     Object term22057;
 
     public TaskService_getTask_6153495351() {
     }
@@ -32,7 +32,7 @@ public class TaskService_getTask_6153495351 {
 
     @Before
     public void setup() throws Throwable {
-        term21917 = new Long(-5476826692763582090L);
+        term22057 = new Long(-5476826692763582090L);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TaskService_getTask_6153495351 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = long.class;
         Object[] args = new Object[1];
-        args[0] = term21917;
+        args[0] = term22057;
         callMethod(klass, "getTask", argTypes, null, args);
     }
 

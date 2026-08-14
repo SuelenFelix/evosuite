@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TrackUnitService_freezeAllByDate_5897655920 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3413;
+     Object term3389;
 
     public TrackUnitService_freezeAllByDate_5897655920() {
     }
@@ -31,10 +31,10 @@ public class TrackUnitService_freezeAllByDate_5897655920 {
 
     @Before
     public void setup() throws Throwable {
-        term3413 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term3413, term3413.getClass(), "year", 2014);
-        setShortField(term3413, term3413.getClass(), "month", (short) 2);
-        setShortField(term3413, term3413.getClass(), "day", (short) 23);
+        term3389 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term3389, term3389.getClass(), "year", 2014);
+        setShortField(term3389, term3389.getClass(), "month", (short) 2);
+        setShortField(term3389, term3389.getClass(), "day", (short) 23);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class TrackUnitService_freezeAllByDate_5897655920 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.time.LocalDate");
         Object[] args = new Object[1];
-        args[0] = term3413;
+        args[0] = term3389;
         callMethod(klass, "freezeAllByDate", argTypes, null, args);
     }
 

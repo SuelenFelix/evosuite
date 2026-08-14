@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FitnessGenome_compareTo_7266809098 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10993;
+     Object term10990;
 
     public FitnessGenome_compareTo_7266809098() {
     }
@@ -31,9 +31,9 @@ public class FitnessGenome_compareTo_7266809098 {
 
     @Before
     public void setup() throws Throwable {
-        term10993 = newInstance(Class.forName("nn.model.FitnessGenome"));
-        setField(term10993, term10993.getClass(), "genome", null);
-        setDoubleField(term10993, term10993.getClass(), "fitness", 0.0);
+        term10990 = newInstance(Class.forName("nn.model.FitnessGenome"));
+        setField(term10990, term10990.getClass(), "genome", null);
+        setDoubleField(term10990, term10990.getClass(), "fitness", 0.0);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class FitnessGenome_compareTo_7266809098 {
         argTypes[0] = Class.forName("nn.model.FitnessGenome");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "compareTo", argTypes, term10993, args);
+        callMethod(klass, "compareTo", argTypes, term10990, args);
     }
 
 };

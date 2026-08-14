@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ChartIndexInfo_getCategoryEndColumn_13953657498 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term64;
+     Object term75783;
 
     public ChartIndexInfo_getCategoryEndColumn_13953657498() {
     }
@@ -31,15 +31,15 @@ public class ChartIndexInfo_getCategoryEndColumn_13953657498 {
 
     @Before
     public void setup() throws Throwable {
-        term64 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
-        setIntField(term64, term64.getClass(), "dataStartRow", 458147407);
-        setIntField(term64, term64.getClass(), "dataEndRow", -184153539);
-        setIntField(term64, term64.getClass(), "dataStartColumn", 493620644);
-        setIntField(term64, term64.getClass(), "dataEndColumn", 1328271830);
-        setIntField(term64, term64.getClass(), "categoryStartRow", 1596070772);
-        setIntField(term64, term64.getClass(), "categoryEndRow", 97029295);
-        setIntField(term64, term64.getClass(), "categoryStartColumn", -1371869594);
-        setIntField(term64, term64.getClass(), "categoryEndColumn", -2095575670);
+        term75783 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
+        setIntField(term75783, term75783.getClass(), "dataStartRow", 474518942);
+        setIntField(term75783, term75783.getClass(), "dataEndRow", -1656687479);
+        setIntField(term75783, term75783.getClass(), "dataStartColumn", -249614216);
+        setIntField(term75783, term75783.getClass(), "dataEndColumn", 1870727665);
+        setIntField(term75783, term75783.getClass(), "categoryStartRow", -519881101);
+        setIntField(term75783, term75783.getClass(), "categoryEndRow", -680920524);
+        setIntField(term75783, term75783.getClass(), "categoryStartColumn", -916335264);
+        setIntField(term75783, term75783.getClass(), "categoryEndColumn", -919416536);
     }
 
     @Test
@@ -47,7 +47,7 @@ public class ChartIndexInfo_getCategoryEndColumn_13953657498 {
         Class<?> klass = Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getCategoryEndColumn", argTypes, term64, args);
+        callMethod(klass, "getCategoryEndColumn", argTypes, term75783, args);
     }
 
 };

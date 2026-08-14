@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Actor_component3_145232809628 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34372;
+     Object term34371;
 
     public Actor_component3_145232809628() {
     }
@@ -31,12 +31,12 @@ public class Actor_component3_145232809628 {
 
     @Before
     public void setup() throws Throwable {
-        term34372 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        setField(term34372, term34372.getClass(), "id", null);
-        setField(term34372, term34372.getClass(), "name", null);
-        setField(term34372, term34372.getClass(), "dateOfBirth", null);
-        setField(term34372, term34372.getClass(), "gender", null);
-        setField(term34372, term34372.getClass(), "movies", null);
+        term34371 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        setField(term34371, term34371.getClass(), "id", null);
+        setField(term34371, term34371.getClass(), "name", null);
+        setField(term34371, term34371.getClass(), "dateOfBirth", null);
+        setField(term34371, term34371.getClass(), "gender", null);
+        setField(term34371, term34371.getClass(), "movies", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Actor_component3_145232809628 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.Actor");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "component3", argTypes, term34372, args);
+        callMethod(klass, "component3", argTypes, term34371, args);
     }
 
 };

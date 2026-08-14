@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_makeNodeBiasMutation_54310765527 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10318;
+     Object term10315;
 
     public Genome_makeNodeBiasMutation_54310765527() {
     }
@@ -31,12 +31,12 @@ public class Genome_makeNodeBiasMutation_54310765527 {
 
     @Before
     public void setup() throws Throwable {
-        term10318 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10318, term10318.getClass(), "nodes", null);
-        setField(term10318, term10318.getClass(), "connections", null);
-        setField(term10318, term10318.getClass(), "nodeInnovator", null);
-        setField(term10318, term10318.getClass(), "connectionInnovator", null);
-        setField(term10318, term10318.getClass(), "random", null);
+        term10315 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10315, term10315.getClass(), "nodes", null);
+        setField(term10315, term10315.getClass(), "connections", null);
+        setField(term10315, term10315.getClass(), "nodeInnovator", null);
+        setField(term10315, term10315.getClass(), "connectionInnovator", null);
+        setField(term10315, term10315.getClass(), "random", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Genome_makeNodeBiasMutation_54310765527 {
         Class<?> klass = Class.forName("nn.model.Genome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "makeNodeBiasMutation", argTypes, term10318, args);
+        callMethod(klass, "makeNodeBiasMutation", argTypes, term10315, args);
     }
 
 };

@@ -20,8 +20,8 @@ import static org.junit.Assert.assertTrue;
 
 public class Publisher_equals_7423399818 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term30009;
-     Object term30034;
+     Object term30008;
+     Object term30033;
 
     public Publisher_equals_7423399818() {
     }
@@ -32,10 +32,10 @@ public class Publisher_equals_7423399818 {
 
     @Before
     public void setup() throws Throwable {
-        term30009 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
-        setField(term30009, term30009.getClass(), "id", "ozlrFdNXle");
-        setField(term30009, term30009.getClass(), "name", "vjUObaeMjo");
-        term30034 = newInstance(Class.forName("java.lang.Object"));
+        term30008 = newInstance(Class.forName("com.folksdev.movie.model.Publisher"));
+        setField(term30008, term30008.getClass(), "id", "ozlrFdNXle");
+        setField(term30008, term30008.getClass(), "name", "vjUObaeMjo");
+        term30033 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -44,8 +44,8 @@ public class Publisher_equals_7423399818 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term30034;
-        callMethod(klass, "equals", argTypes, term30009, args);
+        args[0] = term30033;
+        callMethod(klass, "equals", argTypes, term30008, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TaskActivity_answerActivity_6101666429 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term111387;
+     Object term111401;
 
     public TaskActivity_answerActivity_6101666429() {
     }
@@ -31,10 +31,10 @@ public class TaskActivity_answerActivity_6101666429 {
 
     @Before
     public void setup() throws Throwable {
-        term111387 = newInstance(Class.forName("core.task.TaskActivity"));
-        setField(term111387, term111387.getClass(), "hintLabel", null);
-        setField(term111387, term111387.getClass(), "inPanel", null);
-        setField(term111387, term111387.getClass(), "cardLayout", null);
+        term111401 = newInstance(Class.forName("core.task.TaskActivity"));
+        setField(term111401, term111401.getClass(), "hintLabel", null);
+        setField(term111401, term111401.getClass(), "inPanel", null);
+        setField(term111401, term111401.getClass(), "cardLayout", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class TaskActivity_answerActivity_6101666429 {
         Class<?> klass = Class.forName("core.task.TaskActivity");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "answerActivity", argTypes, term111387, args);
+        callMethod(klass, "answerActivity", argTypes, term111401, args);
     }
 
 };

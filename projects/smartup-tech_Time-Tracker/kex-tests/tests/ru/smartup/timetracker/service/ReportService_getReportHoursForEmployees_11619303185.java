@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ReportService_getReportHoursForEmployees_11619303185 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24320;
+     Object term24460;
 
     public ReportService_getReportHoursForEmployees_11619303185() {
     }
@@ -31,8 +31,8 @@ public class ReportService_getReportHoursForEmployees_11619303185 {
 
     @Before
     public void setup() throws Throwable {
-        term24320 = newInstance(Class.forName("ru.smartup.timetracker.service.ReportService"));
-        setField(term24320, term24320.getClass(), "reportRepository", null);
+        term24460 = newInstance(Class.forName("ru.smartup.timetracker.service.ReportService"));
+        setField(term24460, term24460.getClass(), "reportRepository", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class ReportService_getReportHoursForEmployees_11619303185 {
         args[0] = null;
         args[1] = null;
         args[2] = null;
-        callMethod(klass, "getReportHoursForEmployees", argTypes, term24320, args);
+        callMethod(klass, "getReportHoursForEmployees", argTypes, term24460, args);
     }
 
 };

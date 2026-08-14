@@ -363,7 +363,7 @@ public class AssignmentSelf_getCourseName_190262176211 {
         setField(term9098, term9098.getClass(), "keySet", null);
         setField(term9098, term9098.getClass(), "values", null);
         setField(term9087, term9087.getClass(), "moduleToReader", term9098);
-        setLongField(term9103, term9103.getClass(), "timestamp", 164121481L);
+        setLongField(term9103, term9103.getClass(), "timestamp", 52399795L);
         setField(term9103, term9103.getClass(), "referent", null);
         setField(term9103, term9103.getClass(), "queue", null);
         setField(term9103, term9103.getClass(), "next", null);

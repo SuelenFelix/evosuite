@@ -384,7 +384,7 @@ public class EventSelf_wakeAlive_97218646314 {
         setField(term78340, term78340.getClass(), "keySet", null);
         setField(term78340, term78340.getClass(), "values", null);
         setField(term78329, term78329.getClass(), "moduleToReader", term78340);
-        setLongField(term78345, term78345.getClass(), "timestamp", 164136130L);
+        setLongField(term78345, term78345.getClass(), "timestamp", 52414345L);
         setField(term78345, term78345.getClass(), "referent", null);
         setField(term78345, term78345.getClass(), "queue", null);
         setField(term78345, term78345.getClass(), "next", null);
@@ -418,7 +418,7 @@ public class EventSelf_wakeAlive_97218646314 {
         setField(term78329, term78329.getClass(), "nameAndId", "");
         setField(term78356, term78356.getClass(), "table", null);
         setField(term78356, term78356.getClass(), "nextTable", null);
-        setLongField(term78356, term78356.getClass(), "baseCount", 4212L);
+        setLongField(term78356, term78356.getClass(), "baseCount", 4214L);
         setIntField(term78356, term78356.getClass(), "sizeCtl", 6144);
         setIntField(term78356, term78356.getClass(), "transferIndex", 0);
         setIntField(term78356, term78356.getClass(), "cellsBusy", 0);
@@ -443,9 +443,9 @@ public class EventSelf_wakeAlive_97218646314 {
         setField(term78361, term78361.getClass(), "values", null);
         setField(term78329, term78329.getClass(), "package2certs", term78361);
         setField(term78366, term78366.getClass(), "elementData", null);
-        setIntField(term78366, term78366.getClass(), "elementCount", 3773);
+        setIntField(term78366, term78366.getClass(), "elementCount", 3775);
         setIntField(term78366, term78366.getClass(), "capacityIncrement", 0);
-        setIntField(term78366, term78366.getClass(), "modCount", 3773);
+        setIntField(term78366, term78366.getClass(), "modCount", 3775);
         setField(term78329, term78329.getClass(), "classes", term78366);
         setField(term78370, term78370.getClass(), "codesource", null);
         setField(term78370, term78370.getClass(), "classloader", term78329);

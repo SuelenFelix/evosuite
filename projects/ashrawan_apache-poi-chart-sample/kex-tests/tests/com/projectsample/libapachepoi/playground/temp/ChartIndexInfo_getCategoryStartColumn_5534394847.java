@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ChartIndexInfo_getCategoryStartColumn_5534394847 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term55;
+     Object term75774;
 
     public ChartIndexInfo_getCategoryStartColumn_5534394847() {
     }
@@ -31,15 +31,15 @@ public class ChartIndexInfo_getCategoryStartColumn_5534394847 {
 
     @Before
     public void setup() throws Throwable {
-        term55 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
-        setIntField(term55, term55.getClass(), "dataStartRow", 579005622);
-        setIntField(term55, term55.getClass(), "dataEndRow", -14890619);
-        setIntField(term55, term55.getClass(), "dataStartColumn", 1632125673);
-        setIntField(term55, term55.getClass(), "dataEndColumn", 454281060);
-        setIntField(term55, term55.getClass(), "categoryStartRow", -1786399638);
-        setIntField(term55, term55.getClass(), "categoryEndRow", 2055867847);
-        setIntField(term55, term55.getClass(), "categoryStartColumn", -1048298087);
-        setIntField(term55, term55.getClass(), "categoryEndColumn", 292681826);
+        term75774 = newInstance(Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo"));
+        setIntField(term75774, term75774.getClass(), "dataStartRow", -1195339592);
+        setIntField(term75774, term75774.getClass(), "dataEndRow", -376422566);
+        setIntField(term75774, term75774.getClass(), "dataStartColumn", 306847454);
+        setIntField(term75774, term75774.getClass(), "dataEndColumn", 1745276158);
+        setIntField(term75774, term75774.getClass(), "categoryStartRow", 2009020256);
+        setIntField(term75774, term75774.getClass(), "categoryEndRow", 2049577015);
+        setIntField(term75774, term75774.getClass(), "categoryStartColumn", 1236004505);
+        setIntField(term75774, term75774.getClass(), "categoryEndColumn", 1050765721);
     }
 
     @Test
@@ -47,7 +47,7 @@ public class ChartIndexInfo_getCategoryStartColumn_5534394847 {
         Class<?> klass = Class.forName("com.projectsample.libapachepoi.playground.temp.ChartIndexInfo");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getCategoryStartColumn", argTypes, term55, args);
+        callMethod(klass, "getCategoryStartColumn", argTypes, term75774, args);
     }
 
 };

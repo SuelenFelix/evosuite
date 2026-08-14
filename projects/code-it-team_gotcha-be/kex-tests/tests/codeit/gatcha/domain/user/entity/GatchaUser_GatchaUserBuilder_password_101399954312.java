@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class GatchaUser_GatchaUserBuilder_password_101399954312 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2136;
+     Object term2140;
 
     public GatchaUser_GatchaUserBuilder_password_101399954312() {
     }
@@ -31,12 +31,12 @@ public class GatchaUser_GatchaUserBuilder_password_101399954312 {
 
     @Before
     public void setup() throws Throwable {
-        term2136 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
-        setField(term2136, term2136.getClass(), "id", null);
-        setField(term2136, term2136.getClass(), "authority", null);
-        setField(term2136, term2136.getClass(), "email", null);
-        setField(term2136, term2136.getClass(), "password", null);
-        setBooleanField(term2136, term2136.getClass(), "enabled", false);
+        term2140 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.GatchaUser$GatchaUserBuilder"));
+        setField(term2140, term2140.getClass(), "id", null);
+        setField(term2140, term2140.getClass(), "authority", null);
+        setField(term2140, term2140.getClass(), "email", null);
+        setField(term2140, term2140.getClass(), "password", null);
+        setBooleanField(term2140, term2140.getClass(), "enabled", false);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class GatchaUser_GatchaUserBuilder_password_101399954312 {
         argTypes[0] = Class.forName("java.lang.String");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "password", argTypes, term2136, args);
+        callMethod(klass, "password", argTypes, term2140, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_newConnection_193562714023 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term11664;
+     Object term11680;
 
     public Genome_newConnection_193562714023() {
     }
@@ -31,12 +31,12 @@ public class Genome_newConnection_193562714023 {
 
     @Before
     public void setup() throws Throwable {
-        term11664 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term11664, term11664.getClass(), "nodes", null);
-        setField(term11664, term11664.getClass(), "connections", null);
-        setField(term11664, term11664.getClass(), "nodeInnovator", null);
-        setField(term11664, term11664.getClass(), "connectionInnovator", null);
-        setField(term11664, term11664.getClass(), "random", null);
+        term11680 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term11680, term11680.getClass(), "nodes", null);
+        setField(term11680, term11680.getClass(), "connections", null);
+        setField(term11680, term11680.getClass(), "nodeInnovator", null);
+        setField(term11680, term11680.getClass(), "connectionInnovator", null);
+        setField(term11680, term11680.getClass(), "random", null);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class Genome_newConnection_193562714023 {
         Object[] args = new Object[2];
         args[0] = null;
         args[1] = null;
-        callMethod(klass, "newConnection", argTypes, term11664, args);
+        callMethod(klass, "newConnection", argTypes, term11680, args);
     }
 
 };

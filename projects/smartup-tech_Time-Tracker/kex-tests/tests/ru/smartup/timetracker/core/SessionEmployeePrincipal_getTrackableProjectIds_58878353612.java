@@ -26,7 +26,7 @@ import java.util.HashSet;
 
 public class SessionEmployeePrincipal_getTrackableProjectIds_58878353612 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2506;
+     Object term2880;
 
     public SessionEmployeePrincipal_getTrackableProjectIds_58878353612() {
     }
@@ -37,15 +37,15 @@ public class SessionEmployeePrincipal_getTrackableProjectIds_58878353612 {
 
     @Before
     public void setup() throws Throwable {
-        HashMap term2521 = new HashMap();
-        Set<Object> term2546 =  ((Map) term2521).keySet();
-        HashSet term2520 = new HashSet((Collection<? extends Object>) term2546);
-        HashMap term2531 = new HashMap();
-        term2506 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2506, term2506.getClass(), "id", 590364439);
-        setField(term2506, term2506.getClass(), "email", "aJlieCFVtF");
-        setField(term2506, term2506.getClass(), "employeeRoles", term2520);
-        setField(term2506, term2506.getClass(), "projectIdsByProjectRoles", term2531);
+        HashMap term2895 = new HashMap();
+        Set<Object> term2920 =  ((Map) term2895).keySet();
+        HashSet term2894 = new HashSet((Collection<? extends Object>) term2920);
+        HashMap term2905 = new HashMap();
+        term2880 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term2880, term2880.getClass(), "id", 590364439);
+        setField(term2880, term2880.getClass(), "email", "aJlieCFVtF");
+        setField(term2880, term2880.getClass(), "employeeRoles", term2894);
+        setField(term2880, term2880.getClass(), "projectIdsByProjectRoles", term2905);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class SessionEmployeePrincipal_getTrackableProjectIds_58878353612 {
         Class<?> klass = Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getTrackableProjectIds", argTypes, term2506, args);
+        callMethod(klass, "getTrackableProjectIds", argTypes, term2880, args);
     }
 
 };

@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class RParser_init_161158628318 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term15647;
-     Object term15649;
+     Object term25480;
+     Object term25482;
 
     public RParser_init_161158628318() {
     }
@@ -33,8 +33,8 @@ public class RParser_init_161158628318 {
 
     @Before
     public void setup() throws Throwable {
-        term15647 = new Integer(0);
-        term15649 = new Integer(0);
+        term25480 = new Integer(0);
+        term25482 = new Integer(0);
     }
 
     @Test
@@ -48,8 +48,8 @@ public class RParser_init_161158628318 {
         argTypes[4] = Class.forName("java.util.function.Function");
         Object[] args = new Object[5];
         args[0] = null;
-        args[1] = term15647;
-        args[2] = term15649;
+        args[1] = term25480;
+        args[2] = term25482;
         args[3] = null;
         args[4] = null;
         Object instance = callConstructor(klass, argTypes, args);

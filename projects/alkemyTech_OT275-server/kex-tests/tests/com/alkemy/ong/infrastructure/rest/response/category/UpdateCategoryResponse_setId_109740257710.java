@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class UpdateCategoryResponse_setId_109740257710 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1591;
+     Object term48890;
 
     public UpdateCategoryResponse_setId_109740257710() {
     }
@@ -31,11 +31,11 @@ public class UpdateCategoryResponse_setId_109740257710 {
 
     @Before
     public void setup() throws Throwable {
-        term1591 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse"));
-        setField(term1591, term1591.getClass(), "id", null);
-        setField(term1591, term1591.getClass(), "name", null);
-        setField(term1591, term1591.getClass(), "description", null);
-        setField(term1591, term1591.getClass(), "imageUrl", null);
+        term48890 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse"));
+        setField(term48890, term48890.getClass(), "id", null);
+        setField(term48890, term48890.getClass(), "name", null);
+        setField(term48890, term48890.getClass(), "description", null);
+        setField(term48890, term48890.getClass(), "imageUrl", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class UpdateCategoryResponse_setId_109740257710 {
         argTypes[0] = Class.forName("java.lang.Long");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setId", argTypes, term1591, args);
+        callMethod(klass, "setId", argTypes, term48890, args);
     }
 
 };

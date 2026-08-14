@@ -21,7 +21,7 @@ import java.util.LinkedList;
 
 public class TrackUnitService_approve_165901109524 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3443;
+     Object term3419;
 
     public TrackUnitService_approve_165901109524() {
     }
@@ -32,7 +32,7 @@ public class TrackUnitService_approve_165901109524 {
 
     @Before
     public void setup() throws Throwable {
-        term3443 = new LinkedList();
+        term3419 = new LinkedList();
     }
 
     @Test
@@ -41,7 +41,7 @@ public class TrackUnitService_approve_165901109524 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.util.List");
         Object[] args = new Object[1];
-        args[0] = term3443;
+        args[0] = term3419;
         callMethod(klass, "approve", argTypes, null, args);
     }
 

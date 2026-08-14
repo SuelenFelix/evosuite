@@ -21,7 +21,7 @@ import java.lang.Long;
 
 public class Admin_getLastName_5862016066 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term19564;
+     Object term31688;
 
     public Admin_getLastName_5862016066() {
     }
@@ -32,13 +32,13 @@ public class Admin_getLastName_5862016066 {
 
     @Before
     public void setup() throws Throwable {
-        Long term19565 = new Long(-2050848614286348518L);
-        term19564 = newInstance(Class.forName("com.cg.freelanceapp.entities.Admin"));
-        setField(term19564, term19564.getClass(), "id", term19565);
-        setField(term19564, term19564.getClass(), "userName", "YRvjJByBZa");
-        setField(term19564, term19564.getClass(), "firstName", "yWPHiAqZcQ");
-        setField(term19564, term19564.getClass(), "lastName", "IppcpUlrjC");
-        setField(term19564, term19564.getClass(), "password", "hxSnnaHCFY");
+        Long term31689 = new Long(-755873014166134886L);
+        term31688 = newInstance(Class.forName("com.cg.freelanceapp.entities.Admin"));
+        setField(term31688, term31688.getClass(), "id", term31689);
+        setField(term31688, term31688.getClass(), "userName", "tXtEQPpSEE");
+        setField(term31688, term31688.getClass(), "firstName", "DzwVEhJZMS");
+        setField(term31688, term31688.getClass(), "lastName", "VGkwPggfzZ");
+        setField(term31688, term31688.getClass(), "password", "PFgASmmelX");
     }
 
     @Test
@@ -46,7 +46,7 @@ public class Admin_getLastName_5862016066 {
         Class<?> klass = Class.forName("com.cg.freelanceapp.entities.Admin");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getLastName", argTypes, term19564, args);
+        callMethod(klass, "getLastName", argTypes, term31688, args);
     }
 
 };

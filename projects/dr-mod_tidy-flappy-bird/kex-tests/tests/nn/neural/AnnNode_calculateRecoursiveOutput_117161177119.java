@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class AnnNode_calculateRecoursiveOutput_117161177119 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3140;
-     Object term3143;
+     Object term3138;
+     Object term3141;
 
     public AnnNode_calculateRecoursiveOutput_117161177119() {
     }
@@ -33,14 +33,14 @@ public class AnnNode_calculateRecoursiveOutput_117161177119 {
 
     @Before
     public void setup() throws Throwable {
-        term3140 = newInstance(Class.forName("nn.neural.AnnNode"));
-        setField(term3140, term3140.getClass(), "output", null);
-        setField(term3140, term3140.getClass(), "inputs", null);
-        setField(term3140, term3140.getClass(), "outputs", null);
-        setField(term3140, term3140.getClass(), "type", null);
-        setIntField(term3140, term3140.getClass(), "id", 0);
-        setDoubleField(term3140, term3140.getClass(), "bias", 0.0);
-        term3143 = new Integer(0);
+        term3138 = newInstance(Class.forName("nn.neural.AnnNode"));
+        setField(term3138, term3138.getClass(), "output", null);
+        setField(term3138, term3138.getClass(), "inputs", null);
+        setField(term3138, term3138.getClass(), "outputs", null);
+        setField(term3138, term3138.getClass(), "type", null);
+        setIntField(term3138, term3138.getClass(), "id", 0);
+        setDoubleField(term3138, term3138.getClass(), "bias", 0.0);
+        term3141 = new Integer(0);
     }
 
     @Test
@@ -51,8 +51,8 @@ public class AnnNode_calculateRecoursiveOutput_117161177119 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term3143;
-        callMethod(klass, "calculateRecoursiveOutput", argTypes, term3140, args);
+        args[1] = term3141;
+        callMethod(klass, "calculateRecoursiveOutput", argTypes, term3138, args);
     }
 
 };

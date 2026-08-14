@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Board_11_mouseClicked_3469234573 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term226251;
+     Object term226257;
 
     public Board_11_mouseClicked_3469234573() {
     }
@@ -31,8 +31,8 @@ public class Board_11_mouseClicked_3469234573 {
 
     @Before
     public void setup() throws Throwable {
-        term226251 = newInstance(Class.forName("core.Board$11"));
-        setField(term226251, term226251.getClass(), "this$0", null);
+        term226257 = newInstance(Class.forName("core.Board$11"));
+        setField(term226257, term226257.getClass(), "this$0", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class Board_11_mouseClicked_3469234573 {
         argTypes[0] = Class.forName("java.awt.event.MouseEvent");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "mouseClicked", argTypes, term226251, args);
+        callMethod(klass, "mouseClicked", argTypes, term226257, args);
     }
 
 };

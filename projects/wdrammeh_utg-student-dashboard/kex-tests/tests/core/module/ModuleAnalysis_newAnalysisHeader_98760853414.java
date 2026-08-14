@@ -612,7 +612,7 @@ public class ModuleAnalysis_newAnalysisHeader_98760853414 {
         setField(term17180, term17180.getClass(), "keySet", null);
         setField(term17180, term17180.getClass(), "values", null);
         setField(term17169, term17169.getClass(), "moduleToReader", term17180);
-        setLongField(term17185, term17185.getClass(), "timestamp", 163388062L);
+        setLongField(term17185, term17185.getClass(), "timestamp", 51658972L);
         setField(term17185, term17185.getClass(), "referent", null);
         setField(term17185, term17185.getClass(), "queue", null);
         setField(term17185, term17185.getClass(), "next", null);
@@ -646,7 +646,7 @@ public class ModuleAnalysis_newAnalysisHeader_98760853414 {
         setField(term17169, term17169.getClass(), "nameAndId", "");
         setField(term17196, term17196.getClass(), "table", null);
         setField(term17196, term17196.getClass(), "nextTable", null);
-        setLongField(term17196, term17196.getClass(), "baseCount", 4205L);
+        setLongField(term17196, term17196.getClass(), "baseCount", 4204L);
         setIntField(term17196, term17196.getClass(), "sizeCtl", 6144);
         setIntField(term17196, term17196.getClass(), "transferIndex", 0);
         setIntField(term17196, term17196.getClass(), "cellsBusy", 0);
@@ -671,9 +671,9 @@ public class ModuleAnalysis_newAnalysisHeader_98760853414 {
         setField(term17201, term17201.getClass(), "values", null);
         setField(term17169, term17169.getClass(), "package2certs", term17201);
         setField(term17206, term17206.getClass(), "elementData", null);
-        setIntField(term17206, term17206.getClass(), "elementCount", 3769);
+        setIntField(term17206, term17206.getClass(), "elementCount", 3768);
         setIntField(term17206, term17206.getClass(), "capacityIncrement", 0);
-        setIntField(term17206, term17206.getClass(), "modCount", 3769);
+        setIntField(term17206, term17206.getClass(), "modCount", 3768);
         setField(term17169, term17169.getClass(), "classes", term17206);
         setField(term17210, term17210.getClass(), "codesource", null);
         setField(term17210, term17210.getClass(), "classloader", term17169);

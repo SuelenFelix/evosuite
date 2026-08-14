@@ -21,7 +21,7 @@ import java.lang.Integer;
 
 public class SessionEmployeePrincipal_init_18250132470 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term876;
+     Object term1250;
 
     public SessionEmployeePrincipal_init_18250132470() {
     }
@@ -32,7 +32,7 @@ public class SessionEmployeePrincipal_init_18250132470 {
 
     @Before
     public void setup() throws Throwable {
-        term876 = new Integer(-1955890973);
+        term1250 = new Integer(-1955890973);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class SessionEmployeePrincipal_init_18250132470 {
         argTypes[0] = int.class;
         argTypes[1] = Class.forName("java.lang.String");
         Object[] args = new Object[2];
-        args[0] = term876;
+        args[0] = term1250;
         args[1] = "xxtlPwDYFs";
         Object instance = callConstructor(klass, argTypes, args);
     }

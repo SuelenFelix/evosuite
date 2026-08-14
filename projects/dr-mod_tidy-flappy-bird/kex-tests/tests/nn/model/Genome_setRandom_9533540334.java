@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Genome_setRandom_9533540334 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10325;
+     Object term10322;
 
     public Genome_setRandom_9533540334() {
     }
@@ -31,12 +31,12 @@ public class Genome_setRandom_9533540334 {
 
     @Before
     public void setup() throws Throwable {
-        term10325 = newInstance(Class.forName("nn.model.Genome"));
-        setField(term10325, term10325.getClass(), "nodes", null);
-        setField(term10325, term10325.getClass(), "connections", null);
-        setField(term10325, term10325.getClass(), "nodeInnovator", null);
-        setField(term10325, term10325.getClass(), "connectionInnovator", null);
-        setField(term10325, term10325.getClass(), "random", null);
+        term10322 = newInstance(Class.forName("nn.model.Genome"));
+        setField(term10322, term10322.getClass(), "nodes", null);
+        setField(term10322, term10322.getClass(), "connections", null);
+        setField(term10322, term10322.getClass(), "nodeInnovator", null);
+        setField(term10322, term10322.getClass(), "connectionInnovator", null);
+        setField(term10322, term10322.getClass(), "random", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class Genome_setRandom_9533540334 {
         argTypes[0] = Class.forName("java.util.Random");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setRandom", argTypes, term10325, args);
+        callMethod(klass, "setRandom", argTypes, term10322, args);
     }
 
 };

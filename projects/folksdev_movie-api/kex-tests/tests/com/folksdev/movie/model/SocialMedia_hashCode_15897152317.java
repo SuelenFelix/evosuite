@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SocialMedia_hashCode_15897152317 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34735;
+     Object term34734;
 
     public SocialMedia_hashCode_15897152317() {
     }
@@ -31,9 +31,9 @@ public class SocialMedia_hashCode_15897152317 {
 
     @Before
     public void setup() throws Throwable {
-        term34735 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
-        setField(term34735, term34735.getClass(), "id", "ADqXMyhBwX");
-        setField(term34735, term34735.getClass(), "url", "bxkUNyUzCb");
+        term34734 = newInstance(Class.forName("com.folksdev.movie.model.SocialMedia"));
+        setField(term34734, term34734.getClass(), "id", "ADqXMyhBwX");
+        setField(term34734, term34734.getClass(), "url", "bxkUNyUzCb");
     }
 
     @Test
@@ -41,7 +41,7 @@ public class SocialMedia_hashCode_15897152317 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.SocialMedia");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "hashCode", argTypes, term34735, args);
+        callMethod(klass, "hashCode", argTypes, term34734, args);
     }
 
 };

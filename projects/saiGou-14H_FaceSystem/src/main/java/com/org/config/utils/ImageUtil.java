@@ -1,6 +1,6 @@
 package com.org.config.utils;
 
-import java.util.Base64;
+import Decoder.BASE64Encoder;
 import com.org.model.User;
 import com.org.service.IUserService;
 import lombok.SneakyThrows;
@@ -284,9 +284,9 @@ public class ImageUtil {
         in.read(data);
         in.close();                 //关闭流
         // 对字节数组Base64编码
-        Base64.Encoder encoder = Base64.getEncoder();
+        BASE64Encoder encoder = new BASE64Encoder();
         // 返回Base64编码过的字节数组字符串
-        String base64str = Base64.getEncoder().encodeToString(Objects.requireNonNull(data));
+        String base64str = encoder.encode(Objects.requireNonNull(data));
 
         return base64str;
     }

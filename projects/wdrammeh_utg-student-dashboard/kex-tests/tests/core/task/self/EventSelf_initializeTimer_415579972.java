@@ -404,7 +404,7 @@ public class EventSelf_initializeTimer_415579972 {
         setField(term67001, term67001.getClass(), "keySet", null);
         setField(term67001, term67001.getClass(), "values", null);
         setField(term66990, term66990.getClass(), "moduleToReader", term67001);
-        setLongField(term67006, term67006.getClass(), "timestamp", 164135164L);
+        setLongField(term67006, term67006.getClass(), "timestamp", 52414345L);
         setField(term67006, term67006.getClass(), "referent", null);
         setField(term67006, term67006.getClass(), "queue", null);
         setField(term67006, term67006.getClass(), "next", null);
@@ -438,7 +438,7 @@ public class EventSelf_initializeTimer_415579972 {
         setField(term66990, term66990.getClass(), "nameAndId", "");
         setField(term67017, term67017.getClass(), "table", null);
         setField(term67017, term67017.getClass(), "nextTable", null);
-        setLongField(term67017, term67017.getClass(), "baseCount", 4212L);
+        setLongField(term67017, term67017.getClass(), "baseCount", 4214L);
         setIntField(term67017, term67017.getClass(), "sizeCtl", 6144);
         setIntField(term67017, term67017.getClass(), "transferIndex", 0);
         setIntField(term67017, term67017.getClass(), "cellsBusy", 0);
@@ -463,9 +463,9 @@ public class EventSelf_initializeTimer_415579972 {
         setField(term67022, term67022.getClass(), "values", null);
         setField(term66990, term66990.getClass(), "package2certs", term67022);
         setField(term67027, term67027.getClass(), "elementData", null);
-        setIntField(term67027, term67027.getClass(), "elementCount", 3773);
+        setIntField(term67027, term67027.getClass(), "elementCount", 3775);
         setIntField(term67027, term67027.getClass(), "capacityIncrement", 0);
-        setIntField(term67027, term67027.getClass(), "modCount", 3773);
+        setIntField(term67027, term67027.getClass(), "modCount", 3775);
         setField(term66990, term66990.getClass(), "classes", term67027);
         setField(term67031, term67031.getClass(), "codesource", null);
         setField(term67031, term67031.getClass(), "classloader", term66990);

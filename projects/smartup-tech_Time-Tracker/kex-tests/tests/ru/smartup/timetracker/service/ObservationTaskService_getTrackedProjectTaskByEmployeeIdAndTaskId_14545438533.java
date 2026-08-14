@@ -22,8 +22,8 @@ import java.lang.Long;
 
 public class ObservationTaskService_getTrackedProjectTaskByEmployeeIdAndTaskId_14545438533 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term23889;
-     Object term23891;
+     Object term24029;
+     Object term24031;
 
     public ObservationTaskService_getTrackedProjectTaskByEmployeeIdAndTaskId_14545438533() {
     }
@@ -34,8 +34,8 @@ public class ObservationTaskService_getTrackedProjectTaskByEmployeeIdAndTaskId_1
 
     @Before
     public void setup() throws Throwable {
-        term23889 = new Integer(-1629418973);
-        term23891 = new Long(-4502405999831680926L);
+        term24029 = new Integer(-1629418973);
+        term24031 = new Long(-4502405999831680926L);
     }
 
     @Test
@@ -45,8 +45,8 @@ public class ObservationTaskService_getTrackedProjectTaskByEmployeeIdAndTaskId_1
         argTypes[0] = int.class;
         argTypes[1] = long.class;
         Object[] args = new Object[2];
-        args[0] = term23889;
-        args[1] = term23891;
+        args[0] = term24029;
+        args[1] = term24031;
         callMethod(klass, "getTrackedProjectTaskByEmployeeIdAndTaskId", argTypes, null, args);
     }
 

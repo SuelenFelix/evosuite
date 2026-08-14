@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SessionEmployeePrincipal_equals_16791749037 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2875;
+     Object term3249;
 
     public SessionEmployeePrincipal_equals_16791749037() {
     }
@@ -31,11 +31,11 @@ public class SessionEmployeePrincipal_equals_16791749037 {
 
     @Before
     public void setup() throws Throwable {
-        term2875 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
-        setIntField(term2875, term2875.getClass(), "id", 0);
-        setField(term2875, term2875.getClass(), "email", null);
-        setField(term2875, term2875.getClass(), "employeeRoles", null);
-        setField(term2875, term2875.getClass(), "projectIdsByProjectRoles", null);
+        term3249 = newInstance(Class.forName("ru.smartup.timetracker.core.SessionEmployeePrincipal"));
+        setIntField(term3249, term3249.getClass(), "id", 0);
+        setField(term3249, term3249.getClass(), "email", null);
+        setField(term3249, term3249.getClass(), "employeeRoles", null);
+        setField(term3249, term3249.getClass(), "projectIdsByProjectRoles", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class SessionEmployeePrincipal_equals_16791749037 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "equals", argTypes, term2875, args);
+        callMethod(klass, "equals", argTypes, term3249, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Actor_equals_175671841224 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34368;
+     Object term34367;
 
     public Actor_equals_175671841224() {
     }
@@ -31,12 +31,12 @@ public class Actor_equals_175671841224 {
 
     @Before
     public void setup() throws Throwable {
-        term34368 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        setField(term34368, term34368.getClass(), "id", null);
-        setField(term34368, term34368.getClass(), "name", null);
-        setField(term34368, term34368.getClass(), "dateOfBirth", null);
-        setField(term34368, term34368.getClass(), "gender", null);
-        setField(term34368, term34368.getClass(), "movies", null);
+        term34367 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        setField(term34367, term34367.getClass(), "id", null);
+        setField(term34367, term34367.getClass(), "name", null);
+        setField(term34367, term34367.getClass(), "dateOfBirth", null);
+        setField(term34367, term34367.getClass(), "gender", null);
+        setField(term34367, term34367.getClass(), "movies", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class Actor_equals_175671841224 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "equals", argTypes, term34368, args);
+        callMethod(klass, "equals", argTypes, term34367, args);
     }
 
 };

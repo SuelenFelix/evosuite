@@ -22,8 +22,8 @@ import java.lang.Object;
 
 public class RepeatToken_setValue_9729494875 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term6274;
-     Object term6286;
+     Object term16414;
+     Object term16426;
 
     public RepeatToken_setValue_9729494875() {
     }
@@ -34,15 +34,15 @@ public class RepeatToken_setValue_9729494875 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term6288 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RepeatType");
-        Field term6287 = ((Class) term6288).getDeclaredField((String) "REPEAT");
-        ((Field) term6287).setAccessible(true);
-        Object enum20 = ((Field) term6287).get((Object) null);
-        term6274 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken"));
-        Object term6285 = newInstance(Class.forName("java.lang.Object"));
-        setField(term6274, term6274.getClass(), "type", enum20);
-        setField(term6274, term6274.getClass(), "value", term6285);
-        term6286 = newInstance(Class.forName("java.lang.Object"));
+        Class<? extends Object> term16428 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RepeatType");
+        Field term16427 = ((Class) term16428).getDeclaredField((String) "REPEAT");
+        ((Field) term16427).setAccessible(true);
+        Object enum41 = ((Field) term16427).get((Object) null);
+        term16414 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken"));
+        Object term16425 = newInstance(Class.forName("java.lang.Object"));
+        setField(term16414, term16414.getClass(), "type", enum41);
+        setField(term16414, term16414.getClass(), "value", term16425);
+        term16426 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -51,8 +51,8 @@ public class RepeatToken_setValue_9729494875 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term6286;
-        callMethod(klass, "setValue", argTypes, term6274, args);
+        args[0] = term16426;
+        callMethod(klass, "setValue", argTypes, term16414, args);
     }
 
 };

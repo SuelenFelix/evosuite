@@ -1,16 +1,16 @@
-2026-06-29 08:12:03.387 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/liuhongdi_ratelimiter/target/classes
-2026-06-29 08:12:03.481 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 08:12:03.551 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 08:12:04.607 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 08:12:05.096 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/ratelimiter/demo/util/*
-2026-06-29 08:12:05.097 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 08:12:05.120 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/liuhongdi_ratelimiter/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 08:12:05.154 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/liuhongdi_ratelimiter/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 44177 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/liuhongdi_ratelimiter/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 08:12:05.167 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 08:13:45.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/TimeUtil::<init>(): void
-2026-06-29 08:13:45.200 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/TimeUtil::<init>(): void
+2026-08-12 13:03:15.747 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/liuhongdi_ratelimiter/target/classes
+2026-08-12 13:03:15.836 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 13:03:15.903 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 13:03:16.712 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 13:03:17.177 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/ratelimiter/demo/util/*
+2026-08-12 13:03:17.178 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 13:03:17.200 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/liuhongdi_ratelimiter/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 13:03:17.229 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/liuhongdi_ratelimiter/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 45247 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/liuhongdi_ratelimiter/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 13:03:17.241 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 13:04:57.272 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/TimeUtil::<init>(): void
+2026-08-12 13:04:57.272 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/TimeUtil::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:13:45.662 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_init_21240349440
-2026-06-29 08:13:45.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/TimeUtil::getTimeNow(): java/lang/String
-2026-06-29 08:13:45.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/TimeUtil::getTimeNow(): java/lang/String
+2026-08-12 13:04:57.737 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_init_21240349440
+2026-08-12 13:04:57.742 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/TimeUtil::getTimeNow(): java/lang/String
+2026-08-12 13:04:57.742 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/TimeUtil::getTimeNow(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -40,9 +40,9 @@
 
 %label2: 	//predecessors %label1
 	return %5
-2026-06-29 08:13:45.770 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getTimeNow_9526701621
-2026-06-29 08:13:45.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/TimeUtil::getTimeNowStr(): java/lang/String
-2026-06-29 08:13:45.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/TimeUtil::getTimeNowStr(): java/lang/String
+2026-08-12 13:04:57.842 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getTimeNow_9526701621
+2026-08-12 13:04:57.842 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/TimeUtil::getTimeNowStr(): java/lang/String
+2026-08-12 13:04:57.843 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/TimeUtil::getTimeNowStr(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -60,9 +60,9 @@
 
 %label2: 	//predecessors %label1
 	return %5
-2026-06-29 08:13:45.858 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getTimeNowStr_2669447972
-2026-06-29 08:13:45.859 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/TimeUtil::getMicroTimeNow(): java/lang/String
-2026-06-29 08:13:45.859 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/TimeUtil::getMicroTimeNow(): java/lang/String
+2026-08-12 13:04:57.925 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getTimeNowStr_2669447972
+2026-08-12 13:04:57.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/TimeUtil::getMicroTimeNow(): java/lang/String
+2026-08-12 13:04:57.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/TimeUtil::getMicroTimeNow(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -80,21 +80,21 @@
 
 %label2: 	//predecessors %label1
 	return %5
-2026-06-29 08:13:45.933 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getMicroTimeNow_7725257983
-2026-06-29 08:13:46.001 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_init_21240349444
-2026-06-29 08:13:46.068 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getTimeNow_9526701625
-2026-06-29 08:13:46.127 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getTimeNowStr_2669447976
-2026-06-29 08:13:46.185 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getMicroTimeNow_7725257987
-2026-06-29 08:13:46.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/TimeUtil::<init>(): void: null
-2026-06-29 08:13:46.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/TimeUtil::getTimeNow(): java/lang/String: null
-2026-06-29 08:13:46.187 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/TimeUtil::getTimeNowStr(): java/lang/String: null
-2026-06-29 08:13:46.187 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/TimeUtil::getMicroTimeNow(): java/lang/String: null
-2026-06-29 08:13:46.187 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/TimeUtil::<init>(): void processing is finished normally
-2026-06-29 08:13:46.187 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/TimeUtil::getTimeNow(): java/lang/String processing is finished normally
-2026-06-29 08:13:46.187 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/TimeUtil::getTimeNowStr(): java/lang/String processing is finished normally
-2026-06-29 08:13:46.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/TimeUtil::getMicroTimeNow(): java/lang/String processing is finished normally
-2026-06-29 08:13:46.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::<init>(): void
-2026-06-29 08:13:46.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::<init>(): void
+2026-08-12 13:04:58.002 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getMicroTimeNow_7725257983
+2026-08-12 13:04:58.070 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_init_21240349444
+2026-08-12 13:04:58.145 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getTimeNow_9526701625
+2026-08-12 13:04:58.200 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getTimeNowStr_2669447976
+2026-08-12 13:04:58.253 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.TimeUtil_getMicroTimeNow_7725257987
+2026-08-12 13:04:58.254 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/TimeUtil::<init>(): void: null
+2026-08-12 13:04:58.254 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/TimeUtil::getTimeNow(): java/lang/String: null
+2026-08-12 13:04:58.255 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/TimeUtil::getTimeNowStr(): java/lang/String: null
+2026-08-12 13:04:58.255 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/TimeUtil::getMicroTimeNow(): java/lang/String: null
+2026-08-12 13:04:58.255 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/TimeUtil::<init>(): void processing is finished normally
+2026-08-12 13:04:58.255 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/TimeUtil::getTimeNow(): java/lang/String processing is finished normally
+2026-08-12 13:04:58.255 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/TimeUtil::getTimeNowStr(): java/lang/String processing is finished normally
+2026-08-12 13:04:58.255 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/TimeUtil::getMicroTimeNow(): java/lang/String processing is finished normally
+2026-08-12 13:04:58.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::<init>(): void
+2026-08-12 13:04:58.264 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -104,9 +104,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:13:46.260 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_init_16395951450
-2026-06-29 08:13:46.261 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::<init>(java/lang/Integer, java/lang/String, java/lang/Object): void
-2026-06-29 08:13:46.262 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::<init>(java/lang/Integer, java/lang/String, java/lang/Object): void
+2026-08-12 13:04:58.331 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_init_16395951450
+2026-08-12 13:04:58.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::<init>(java/lang/Integer, java/lang/String, java/lang/Object): void
+2026-08-12 13:04:58.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::<init>(java/lang/Integer, java/lang/String, java/lang/Object): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -128,9 +128,9 @@
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-29 08:13:46.334 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_init_6321492031
-2026-06-29 08:13:46.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::isSuccess(): bool
-2026-06-29 08:13:46.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::isSuccess(): bool
+2026-08-12 13:04:58.401 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_init_6321492031
+2026-08-12 13:04:58.402 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::isSuccess(): bool
+2026-08-12 13:04:58.402 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::isSuccess(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -156,9 +156,9 @@
 %goto0: 	//predecessors %if.else0, %if.then0
 	%9 = phi {%if.else0 -> 1; %if.then0 -> 0}
 	return %9
-2026-06-29 08:13:46.389 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_isSuccess_3228493402
-2026-06-29 08:13:46.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::success(): com/ratelimiter/demo/util/ServerResponseUtil
-2026-06-29 08:13:46.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::success(): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.464 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_isSuccess_3228493402
+2026-08-12 13:04:58.464 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::success(): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.464 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::success(): com/ratelimiter/demo/util/ServerResponseUtil
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -179,9 +179,9 @@
 
 %bb3: 	//predecessors %bb2
 	return %10
-2026-06-29 08:13:46.444 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_10522381103
-2026-06-29 08:13:46.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil
-2026-06-29 08:13:46.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.515 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_10522381103
+2026-08-12 13:04:58.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -197,9 +197,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %6
-2026-06-29 08:13:46.490 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_12044912334
-2026-06-29 08:13:46.491 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
-2026-06-29 08:13:46.491 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.566 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_12044912334
+2026-08-12 13:04:58.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -215,9 +215,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %6
-2026-06-29 08:13:46.555 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_9823808795
-2026-06-29 08:13:46.556 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
-2026-06-29 08:13:46.556 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.610 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_9823808795
+2026-08-12 13:04:58.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -233,9 +233,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %6
-2026-06-29 08:13:46.599 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_14072603966
-2026-06-29 08:13:46.599 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil
-2026-06-29 08:13:46.599 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.654 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_14072603966
+2026-08-12 13:04:58.655 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.655 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -251,9 +251,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %6
-2026-06-29 08:13:46.645 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_6653257967
-2026-06-29 08:13:46.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
-2026-06-29 08:13:46.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.715 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_6653257967
+2026-08-12 13:04:58.716 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.716 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -269,9 +269,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %6
-2026-06-29 08:13:46.687 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_8874361508
-2026-06-29 08:13:46.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
-2026-06-29 08:13:46.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.755 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_8874361508
+2026-08-12 13:04:58.756 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
+2026-08-12 13:04:58.756 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -287,9 +287,9 @@
 
 %bb2: 	//predecessors %bb1
 	return %6
-2026-06-29 08:13:46.728 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_4625566339
-2026-06-29 08:13:46.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::getStatus(): java/lang/Integer
-2026-06-29 08:13:46.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::getStatus(): java/lang/Integer
+2026-08-12 13:04:58.795 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_4625566339
+2026-08-12 13:04:58.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::getStatus(): java/lang/Integer
+2026-08-12 13:04:58.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::getStatus(): java/lang/Integer
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -299,9 +299,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 08:13:46.772 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getStatus_98744696510
-2026-06-29 08:13:46.773 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::setStatus(java/lang/Integer): void
-2026-06-29 08:13:46.773 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::setStatus(java/lang/Integer): void
+2026-08-12 13:04:58.835 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getStatus_98744696510
+2026-08-12 13:04:58.836 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::setStatus(java/lang/Integer): void
+2026-08-12 13:04:58.836 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::setStatus(java/lang/Integer): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -311,9 +311,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:13:46.814 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setStatus_13993660511
-2026-06-29 08:13:46.815 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::getMsg(): java/lang/String
-2026-06-29 08:13:46.815 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::getMsg(): java/lang/String
+2026-08-12 13:04:58.876 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setStatus_13993660511
+2026-08-12 13:04:58.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::getMsg(): java/lang/String
+2026-08-12 13:04:58.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::getMsg(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -323,9 +323,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 08:13:46.883 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getMsg_192484004512
-2026-06-29 08:13:46.884 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::setMsg(java/lang/String): void
-2026-06-29 08:13:46.884 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::setMsg(java/lang/String): void
+2026-08-12 13:04:58.915 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getMsg_192484004512
+2026-08-12 13:04:58.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::setMsg(java/lang/String): void
+2026-08-12 13:04:58.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::setMsg(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -335,9 +335,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:13:46.926 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setMsg_55145886113
-2026-06-29 08:13:46.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::getData(): java/lang/Object
-2026-06-29 08:13:46.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::getData(): java/lang/Object
+2026-08-12 13:04:58.953 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setMsg_55145886113
+2026-08-12 13:04:58.954 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::getData(): java/lang/Object
+2026-08-12 13:04:58.954 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::getData(): java/lang/Object
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -347,9 +347,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 08:13:46.967 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getData_63582395814
-2026-06-29 08:13:46.967 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::setData(java/lang/Object): void
-2026-06-29 08:13:46.967 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::setData(java/lang/Object): void
+2026-08-12 13:04:59.005 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getData_63582395814
+2026-08-12 13:04:59.005 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/ServerResponseUtil::setData(java/lang/Object): void
+2026-08-12 13:04:59.005 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/ServerResponseUtil::setData(java/lang/Object): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -359,57 +359,57 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:13:47.009 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setData_158577393415
-2026-06-29 08:13:47.055 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_init_163959514516
-2026-06-29 08:13:47.103 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_init_63214920317
-2026-06-29 08:13:47.150 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_isSuccess_32284934018
-2026-06-29 08:13:47.197 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_105223811019
-2026-06-29 08:13:47.258 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_120449123320
-2026-06-29 08:13:47.316 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_98238087921
-2026-06-29 08:13:47.352 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_140726039622
-2026-06-29 08:13:47.388 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_66532579623
-2026-06-29 08:13:47.423 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_88743615024
-2026-06-29 08:13:47.459 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_46255663325
-2026-06-29 08:13:47.494 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getStatus_98744696526
-2026-06-29 08:13:47.529 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setStatus_13993660527
-2026-06-29 08:13:47.564 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getMsg_192484004528
-2026-06-29 08:13:47.598 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setMsg_55145886129
-2026-06-29 08:13:47.631 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getData_63582395830
-2026-06-29 08:13:47.676 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setData_158577393431
-2026-06-29 08:13:47.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::<init>(): void: null
-2026-06-29 08:13:47.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::<init>(java/lang/Integer, java/lang/String, java/lang/Object): void: null
-2026-06-29 08:13:47.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::isSuccess(): bool: null
-2026-06-29 08:13:47.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::success(): com/ratelimiter/demo/util/ServerResponseUtil: null
-2026-06-29 08:13:47.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil: null
-2026-06-29 08:13:47.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil: null
-2026-06-29 08:13:47.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil: null
-2026-06-29 08:13:47.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil: null
-2026-06-29 08:13:47.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil: null
-2026-06-29 08:13:47.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil: null
-2026-06-29 08:13:47.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::getStatus(): java/lang/Integer: null
-2026-06-29 08:13:47.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::setStatus(java/lang/Integer): void: null
-2026-06-29 08:13:47.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::getMsg(): java/lang/String: null
-2026-06-29 08:13:47.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::setMsg(java/lang/String): void: null
-2026-06-29 08:13:47.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::getData(): java/lang/Object: null
-2026-06-29 08:13:47.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::setData(java/lang/Object): void: null
-2026-06-29 08:13:47.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::<init>(): void processing is finished normally
-2026-06-29 08:13:47.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::<init>(java/lang/Integer, java/lang/String, java/lang/Object): void processing is finished normally
-2026-06-29 08:13:47.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::isSuccess(): bool processing is finished normally
-2026-06-29 08:13:47.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::success(): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
-2026-06-29 08:13:47.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::getStatus(): java/lang/Integer processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::setStatus(java/lang/Integer): void processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::getMsg(): java/lang/String processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::setMsg(java/lang/String): void processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::getData(): java/lang/Object processing is finished normally
-2026-06-29 08:13:47.679 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::setData(java/lang/Object): void processing is finished normally
-2026-06-29 08:13:47.687 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void
-2026-06-29 08:13:47.687 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void
+2026-08-12 13:04:59.043 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setData_158577393415
+2026-08-12 13:04:59.078 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_init_163959514516
+2026-08-12 13:04:59.114 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_init_63214920317
+2026-08-12 13:04:59.150 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_isSuccess_32284934018
+2026-08-12 13:04:59.195 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_105223811019
+2026-08-12 13:04:59.239 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_120449123320
+2026-08-12 13:04:59.283 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_98238087921
+2026-08-12 13:04:59.327 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_success_140726039622
+2026-08-12 13:04:59.368 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_66532579623
+2026-08-12 13:04:59.429 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_88743615024
+2026-08-12 13:04:59.469 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_error_46255663325
+2026-08-12 13:04:59.501 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getStatus_98744696526
+2026-08-12 13:04:59.535 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setStatus_13993660527
+2026-08-12 13:04:59.566 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getMsg_192484004528
+2026-08-12 13:04:59.599 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setMsg_55145886129
+2026-08-12 13:04:59.630 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_getData_63582395830
+2026-08-12 13:04:59.663 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ratelimiter.demo.util.ServerResponseUtil_setData_158577393431
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::<init>(): void: null
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::<init>(java/lang/Integer, java/lang/String, java/lang/Object): void: null
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::isSuccess(): bool: null
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::success(): com/ratelimiter/demo/util/ServerResponseUtil: null
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil: null
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil: null
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil: null
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil: null
+2026-08-12 13:04:59.664 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil: null
+2026-08-12 13:04:59.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil: null
+2026-08-12 13:04:59.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::getStatus(): java/lang/Integer: null
+2026-08-12 13:04:59.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::setStatus(java/lang/Integer): void: null
+2026-08-12 13:04:59.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::getMsg(): java/lang/String: null
+2026-08-12 13:04:59.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::setMsg(java/lang/String): void: null
+2026-08-12 13:04:59.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::getData(): java/lang/Object: null
+2026-08-12 13:04:59.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/ServerResponseUtil::setData(java/lang/Object): void: null
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::<init>(): void processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::<init>(java/lang/Integer, java/lang/String, java/lang/Object): void processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::isSuccess(): bool processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::success(): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::success(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
+2026-08-12 13:04:59.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::error(java/lang/String, java/lang/Object): com/ratelimiter/demo/util/ServerResponseUtil processing is finished normally
+2026-08-12 13:04:59.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::getStatus(): java/lang/Integer processing is finished normally
+2026-08-12 13:04:59.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::setStatus(java/lang/Integer): void processing is finished normally
+2026-08-12 13:04:59.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::getMsg(): java/lang/String processing is finished normally
+2026-08-12 13:04:59.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::setMsg(java/lang/String): void processing is finished normally
+2026-08-12 13:04:59.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::getData(): java/lang/Object processing is finished normally
+2026-08-12 13:04:59.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/ServerResponseUtil::setData(java/lang/Object): void processing is finished normally
+2026-08-12 13:04:59.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void
+2026-08-12 13:04:59.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -419,7 +419,7 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 08:13:47.690 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 13:04:59.673 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -455,7 +455,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resourc
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 08:13:47.690 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 13:04:59.674 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -491,9 +491,9 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resourc
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-29 08:13:47.690 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void: null
-2026-06-29 08:13:47.690 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String
-2026-06-29 08:13:47.692 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String
+2026-08-12 13:04:59.674 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void: null
+2026-08-12 13:04:59.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String
+2026-08-12 13:04:59.675 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -566,7 +566,7 @@ goto %label4
 %goto0: 	//predecessors %label3, %label4
 	%30 = phi {%label3 -> %27; %label4 -> %28}
 	return %30
-2026-06-29 08:13:47.692 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 13:04:59.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -601,7 +601,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resourc
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 08:13:47.693 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-12 13:04:59.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -636,8 +636,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resourc
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-29 08:13:47.693 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String: null
-2026-06-29 08:13:47.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void processing is finished normally
-2026-06-29 08:13:47.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String processing is finished normally
-2026-06-29 08:13:47.693 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 08:13:47.693 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-12 13:04:59.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String: null
+2026-08-12 13:04:59.676 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/RedisLuaUtil::<init>(): void processing is finished normally
+2026-08-12 13:04:59.676 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ratelimiter/demo/util/RedisLuaUtil::runLuaScript(java/lang/String, java/util/List): java/lang/String processing is finished normally
+2026-08-12 13:04:59.677 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 13:04:59.677 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

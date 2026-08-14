@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Movie_getFeaturedYear_57659368433 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term24622;
+     Object term24621;
 
     public Movie_getFeaturedYear_57659368433() {
     }
@@ -31,17 +31,17 @@ public class Movie_getFeaturedYear_57659368433 {
 
     @Before
     public void setup() throws Throwable {
-        term24622 = newInstance(Class.forName("com.folksdev.movie.model.Movie"));
-        setField(term24622, term24622.getClass(), "id", null);
-        setField(term24622, term24622.getClass(), "title", null);
-        setField(term24622, term24622.getClass(), "description", null);
-        setField(term24622, term24622.getClass(), "imdbUrl", null);
-        setIntField(term24622, term24622.getClass(), "duration", 0);
-        setIntField(term24622, term24622.getClass(), "featuredYear", 0);
-        setField(term24622, term24622.getClass(), "genresTypes", null);
-        setField(term24622, term24622.getClass(), "actors", null);
-        setField(term24622, term24622.getClass(), "director", null);
-        setField(term24622, term24622.getClass(), "publisher", null);
+        term24621 = newInstance(Class.forName("com.folksdev.movie.model.Movie"));
+        setField(term24621, term24621.getClass(), "id", null);
+        setField(term24621, term24621.getClass(), "title", null);
+        setField(term24621, term24621.getClass(), "description", null);
+        setField(term24621, term24621.getClass(), "imdbUrl", null);
+        setIntField(term24621, term24621.getClass(), "duration", 0);
+        setIntField(term24621, term24621.getClass(), "featuredYear", 0);
+        setField(term24621, term24621.getClass(), "genresTypes", null);
+        setField(term24621, term24621.getClass(), "actors", null);
+        setField(term24621, term24621.getClass(), "director", null);
+        setField(term24621, term24621.getClass(), "publisher", null);
     }
 
     @Test
@@ -49,7 +49,7 @@ public class Movie_getFeaturedYear_57659368433 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.Movie");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getFeaturedYear", argTypes, term24622, args);
+        callMethod(klass, "getFeaturedYear", argTypes, term24621, args);
     }
 
 };

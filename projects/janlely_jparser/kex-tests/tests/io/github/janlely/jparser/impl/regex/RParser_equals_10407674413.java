@@ -22,8 +22,8 @@ import java.lang.Object;
 
 public class RParser_equals_10407674413 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term14402;
-     Object term14414;
+     Object term24239;
+     Object term24251;
 
     public RParser_equals_10407674413() {
     }
@@ -34,17 +34,17 @@ public class RParser_equals_10407674413 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term14416 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
-        Field term14415 = ((Class) term14416).getDeclaredField((String) "START");
-        ((Field) term14415).setAccessible(true);
-        Object enum47 = ((Field) term14415).get((Object) null);
-        term14402 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
-        setField(term14402, term14402.getClass(), "type", enum47);
-        setIntField(term14402, term14402.getClass(), "quoteId", -1016503459);
-        setIntField(term14402, term14402.getClass(), "groupId", -1968847291);
-        setField(term14402, term14402.getClass(), "parser", null);
-        setField(term14402, term14402.getClass(), "func", null);
-        term14414 = newInstance(Class.forName("java.lang.Object"));
+        Class<? extends Object> term24253 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RParser$ParserType");
+        Field term24252 = ((Class) term24253).getDeclaredField((String) "GROUP");
+        ((Field) term24252).setAccessible(true);
+        Object enum67 = ((Field) term24252).get((Object) null);
+        term24239 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RParser"));
+        setField(term24239, term24239.getClass(), "type", enum67);
+        setIntField(term24239, term24239.getClass(), "quoteId", 1684998508);
+        setIntField(term24239, term24239.getClass(), "groupId", -1476644457);
+        setField(term24239, term24239.getClass(), "parser", null);
+        setField(term24239, term24239.getClass(), "func", null);
+        term24251 = newInstance(Class.forName("java.lang.Object"));
     }
 
     @Test
@@ -53,8 +53,8 @@ public class RParser_equals_10407674413 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
-        args[0] = term14414;
-        callMethod(klass, "equals", argTypes, term14402, args);
+        args[0] = term24251;
+        callMethod(klass, "equals", argTypes, term24239, args);
     }
 
 };

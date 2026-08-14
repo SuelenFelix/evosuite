@@ -298,7 +298,7 @@ public class News_packNews_5301400563 {
         setIntField(term174101, term174101.getClass(), "depth", 24);
         setIntField(term174101, term174101.getClass(), "colormap", 32);
         setField(term174101, term174101.getClass(), "colorModel", null);
-        setLongField(term174101, term174101.getClass(), "aData", 132177286166672L);
+        setLongField(term174101, term174101.getClass(), "aData", 127144459565888L);
         setBooleanField(term174101, term174101.getClass(), "doubleBuffer", true);
         setField(term174101, term174101.getClass(), "disposerReferent", null);
         setField(term174101, term174101.getClass(), "bufferCaps", null);

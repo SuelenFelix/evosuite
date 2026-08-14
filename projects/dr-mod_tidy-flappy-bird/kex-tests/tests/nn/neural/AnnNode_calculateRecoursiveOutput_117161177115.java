@@ -25,8 +25,8 @@ import java.lang.Integer;
 
 public class AnnNode_calculateRecoursiveOutput_117161177115 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term2989;
-     Object term3021;
+     Object term2987;
+     Object term3019;
 
     public AnnNode_calculateRecoursiveOutput_117161177115() {
     }
@@ -37,41 +37,41 @@ public class AnnNode_calculateRecoursiveOutput_117161177115 {
 
     @Before
     public void setup() throws Throwable {
-        Double term2990 = new Double(0.6355029654528058);
-        Double term2997 = new Double(0.0022646783892913414);
-        Object term2994 = newInstance(Class.forName("nn.neural.AnnConnection"));
-        Object term2996 = newInstance(Class.forName("nn.neural.AnnNode"));
-        Object term3001 = newInstance(Class.forName("nn.neural.AnnNode"));
-        setDoubleField(term2994, term2994.getClass(), "weight", 0.6037093070161561);
-        setField(term2996, term2996.getClass(), "output", term2997);
-        setField(term2996, term2996.getClass(), "inputs", null);
-        setField(term2996, term2996.getClass(), "outputs", null);
-        setField(term2996, term2996.getClass(), "type", null);
-        setIntField(term2996, term2996.getClass(), "id", 1386130016);
-        setDoubleField(term2996, term2996.getClass(), "bias", 0.17829386444171214);
-        setField(term2994, term2994.getClass(), "in", term2996);
-        setField(term3001, term3001.getClass(), "output", null);
-        setField(term3001, term3001.getClass(), "inputs", null);
-        setField(term3001, term3001.getClass(), "outputs", null);
-        setField(term3001, term3001.getClass(), "type", null);
-        setIntField(term3001, term3001.getClass(), "id", 0);
-        setDoubleField(term3001, term3001.getClass(), "bias", 0.0);
-        setField(term2994, term2994.getClass(), "out", term3001);
-        ArrayList term2992 = new ArrayList();
-        ((ArrayList) term2992).add(term2994);
-        ArrayList term3006 = new ArrayList();
-        Class<? extends Object> term3024 = Class.forName((String) "nn.neural.AnnType");
-        Field term3023 = ((Class) term3024).getDeclaredField((String) "INPUT");
-        ((Field) term3023).setAccessible(true);
-        Object enum19 = ((Field) term3023).get((Object) null);
-        term2989 = newInstance(Class.forName("nn.neural.AnnNode"));
-        setField(term2989, term2989.getClass(), "output", term2990);
-        setField(term2989, term2989.getClass(), "inputs", term2992);
-        setField(term2989, term2989.getClass(), "outputs", term3006);
-        setField(term2989, term2989.getClass(), "type", enum19);
-        setIntField(term2989, term2989.getClass(), "id", 1072005683);
-        setDoubleField(term2989, term2989.getClass(), "bias", 0.547995853732519);
-        term3021 = new Integer(1861318859);
+        Double term2988 = new Double(0.6355029654528058);
+        Double term2995 = new Double(0.0022646783892913414);
+        Object term2992 = newInstance(Class.forName("nn.neural.AnnConnection"));
+        Object term2994 = newInstance(Class.forName("nn.neural.AnnNode"));
+        Object term2999 = newInstance(Class.forName("nn.neural.AnnNode"));
+        setDoubleField(term2992, term2992.getClass(), "weight", 0.6037093070161561);
+        setField(term2994, term2994.getClass(), "output", term2995);
+        setField(term2994, term2994.getClass(), "inputs", null);
+        setField(term2994, term2994.getClass(), "outputs", null);
+        setField(term2994, term2994.getClass(), "type", null);
+        setIntField(term2994, term2994.getClass(), "id", 1386130016);
+        setDoubleField(term2994, term2994.getClass(), "bias", 0.17829386444171214);
+        setField(term2992, term2992.getClass(), "in", term2994);
+        setField(term2999, term2999.getClass(), "output", null);
+        setField(term2999, term2999.getClass(), "inputs", null);
+        setField(term2999, term2999.getClass(), "outputs", null);
+        setField(term2999, term2999.getClass(), "type", null);
+        setIntField(term2999, term2999.getClass(), "id", 0);
+        setDoubleField(term2999, term2999.getClass(), "bias", 0.0);
+        setField(term2992, term2992.getClass(), "out", term2999);
+        ArrayList term2990 = new ArrayList();
+        ((ArrayList) term2990).add(term2992);
+        ArrayList term3004 = new ArrayList();
+        Class<? extends Object> term3022 = Class.forName((String) "nn.neural.AnnType");
+        Field term3021 = ((Class) term3022).getDeclaredField((String) "INPUT");
+        ((Field) term3021).setAccessible(true);
+        Object enum19 = ((Field) term3021).get((Object) null);
+        term2987 = newInstance(Class.forName("nn.neural.AnnNode"));
+        setField(term2987, term2987.getClass(), "output", term2988);
+        setField(term2987, term2987.getClass(), "inputs", term2990);
+        setField(term2987, term2987.getClass(), "outputs", term3004);
+        setField(term2987, term2987.getClass(), "type", enum19);
+        setIntField(term2987, term2987.getClass(), "id", 1072005683);
+        setDoubleField(term2987, term2987.getClass(), "bias", 0.547995853732519);
+        term3019 = new Integer(1861318859);
     }
 
     @Test
@@ -82,8 +82,8 @@ public class AnnNode_calculateRecoursiveOutput_117161177115 {
         argTypes[1] = int.class;
         Object[] args = new Object[2];
         args[0] = null;
-        args[1] = term3021;
-        callMethod(klass, "calculateRecoursiveOutput", argTypes, term2989, args);
+        args[1] = term3019;
+        callMethod(klass, "calculateRecoursiveOutput", argTypes, term2987, args);
     }
 
 };

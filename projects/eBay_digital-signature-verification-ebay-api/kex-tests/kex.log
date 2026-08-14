@@ -1,16 +1,16 @@
-2026-06-28 22:14:52.707 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/eBay_digital-signature-verification-ebay-api/target/classes
-2026-06-28 22:14:52.801 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 22:14:52.873 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 22:14:53.979 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 22:14:54.490 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/ebay/signaturevalidation/*
-2026-06-28 22:14:54.491 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 22:14:54.505 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/eBay_digital-signature-verification-ebay-api/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 22:14:54.566 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/eBay_digital-signature-verification-ebay-api/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 38201 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/eBay_digital-signature-verification-ebay-api/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 22:14:54.580 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 22:16:34.615 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/Tools::getURI(javax/servlet/http/HttpServletRequest): java/net/URI
-2026-06-28 22:16:34.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/Tools::getURI(javax/servlet/http/HttpServletRequest): java/net/URI
+2026-08-11 13:26:55.019 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/eBay_digital-signature-verification-ebay-api/target/classes
+2026-08-11 13:26:55.116 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 13:26:55.185 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 13:26:56.291 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 13:26:56.777 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/ebay/signaturevalidation/*
+2026-08-11 13:26:56.778 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 13:26:56.799 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/eBay_digital-signature-verification-ebay-api/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 13:26:56.830 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/eBay_digital-signature-verification-ebay-api/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 44511 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/eBay_digital-signature-verification-ebay-api/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 13:26:56.843 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 13:28:36.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/Tools::getURI(javax/servlet/http/HttpServletRequest): java/net/URI
+2026-08-11 13:28:36.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/Tools::getURI(javax/servlet/http/HttpServletRequest): java/net/URI
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -122,7 +122,7 @@
 
 %bb10: 	//predecessors %bb9
 	return %52
-2026-06-28 22:16:34.620 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:36.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -149,7 +149,7 @@ java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:34.620 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:36.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -176,10 +176,10 @@ java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:34.620 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/Tools::getURI(javax/servlet/http/HttpServletRequest): java/net/URI: null
-2026-06-28 22:16:34.621 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/Tools::getURI(javax/servlet/http/HttpServletRequest): java/net/URI processing is finished normally
-2026-06-28 22:16:34.623 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/Application::<init>(): void
-2026-06-28 22:16:34.623 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/Application::<init>(): void
+2026-08-11 13:28:36.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/Tools::getURI(javax/servlet/http/HttpServletRequest): java/net/URI: null
+2026-08-11 13:28:36.885 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/Tools::getURI(javax/servlet/http/HttpServletRequest): java/net/URI processing is finished normally
+2026-08-11 13:28:36.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/Application::<init>(): void
+2026-08-11 13:28:36.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/Application::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -189,9 +189,9 @@ java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 22:16:35.086 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.Application_init_8445475190
-2026-06-28 22:16:35.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/Application::main(java/lang/String[]): void
-2026-06-28 22:16:35.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/Application::main(java/lang/String[]): void
+2026-08-11 13:28:37.388 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.Application_init_8445475190
+2026-08-11 13:28:37.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/Application::main(java/lang/String[]): void
+2026-08-11 13:28:37.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/Application::main(java/lang/String[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -201,15 +201,15 @@ java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
 
 %label0: 	//predecessors %bb0
 	return
-2026-06-28 22:16:35.208 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.Application_main_4679845151
-2026-06-28 22:16:35.291 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.Application_init_8445475192
-2026-06-28 22:16:35.365 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.Application_main_4679845153
-2026-06-28 22:16:35.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/Application::<init>(): void: null
-2026-06-28 22:16:35.367 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/Application::main(java/lang/String[]): void: null
-2026-06-28 22:16:35.367 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/Application::<init>(): void processing is finished normally
-2026-06-28 22:16:35.367 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/Application::main(java/lang/String[]): void processing is finished normally
-2026-06-28 22:16:35.371 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/RestTemplateConfig::<init>(com/ebay/signaturevalidation/SignatureInterceptor): void
-2026-06-28 22:16:35.371 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/RestTemplateConfig::<init>(com/ebay/signaturevalidation/SignatureInterceptor): void
+2026-08-11 13:28:37.519 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.Application_main_4679845151
+2026-08-11 13:28:37.605 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.Application_init_8445475192
+2026-08-11 13:28:37.679 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.Application_main_4679845153
+2026-08-11 13:28:37.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/Application::<init>(): void: null
+2026-08-11 13:28:37.680 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/Application::<init>(): void processing is finished normally
+2026-08-11 13:28:37.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/Application::main(java/lang/String[]): void: null
+2026-08-11 13:28:37.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/Application::main(java/lang/String[]): void processing is finished normally
+2026-08-11 13:28:37.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/RestTemplateConfig::<init>(com/ebay/signaturevalidation/SignatureInterceptor): void
+2026-08-11 13:28:37.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/RestTemplateConfig::<init>(com/ebay/signaturevalidation/SignatureInterceptor): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -223,7 +223,7 @@ java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 22:16:35.372 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.686 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequestInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -247,7 +247,7 @@ java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.373 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.686 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequestInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
@@ -271,9 +271,9 @@ java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.373 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/RestTemplateConfig::<init>(com/ebay/signaturevalidation/SignatureInterceptor): void: null
-2026-06-28 22:16:35.373 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate
-2026-06-28 22:16:35.373 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate
+2026-08-11 13:28:37.686 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/RestTemplateConfig::<init>(com/ebay/signaturevalidation/SignatureInterceptor): void: null
+2026-08-11 13:28:37.686 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate
+2026-08-11 13:28:37.687 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -317,7 +317,7 @@ java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequ
 
 %bb4: 	//predecessors %label2
 	return %20
-2026-06-28 22:16:35.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.687 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -352,7 +352,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.web.client.Rest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.688 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -387,11 +387,11 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.web.client.Rest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate: null
-2026-06-28 22:16:35.374 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/RestTemplateConfig::<init>(com/ebay/signaturevalidation/SignatureInterceptor): void processing is finished normally
-2026-06-28 22:16:35.374 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate processing is finished normally
-2026-06-28 22:16:35.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::<init>(): void
-2026-06-28 22:16:35.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::<init>(): void
+2026-08-11 13:28:37.688 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate: null
+2026-08-11 13:28:37.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/RestTemplateConfig::<init>(com/ebay/signaturevalidation/SignatureInterceptor): void processing is finished normally
+2026-08-11 13:28:37.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/RestTemplateConfig::restTemplateWithSignature(): org/springframework/web/client/RestTemplate processing is finished normally
+2026-08-11 13:28:37.703 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::<init>(): void
+2026-08-11 13:28:37.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -471,7 +471,7 @@ goto %label3
 
 %goto0: 	//predecessors %bb9
 	return
-2026-06-28 22:16:35.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.705 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/ebay/signaturevalidation/KeypairService::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -507,7 +507,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 22:16:35.393 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.706 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/ebay/signaturevalidation/KeypairService::<init>(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -543,9 +543,9 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 22:16:35.393 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::<init>(): void: null
-2026-06-28 22:16:35.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT
-2026-06-28 22:16:35.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT
+2026-08-11 13:28:37.706 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::<init>(): void: null
+2026-08-11 13:28:37.706 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT
+2026-08-11 13:28:37.706 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -578,7 +578,7 @@ goto %label2
 
 %bb3: 	//predecessors %label2
 	throw %9
-2026-06-28 22:16:35.393 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.706 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -613,7 +613,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.394 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.707 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -648,9 +648,9 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.394 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT: null
-2026-06-28 22:16:35.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair
-2026-06-28 22:16:35.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair
+2026-08-11 13:28:37.707 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT: null
+2026-08-11 13:28:37.707 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair
+2026-08-11 13:28:37.707 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -681,7 +681,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 
 %bb3: 	//predecessors %label2
 	return %13
-2026-06-28 22:16:35.394 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.707 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -716,7 +716,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.395 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.707 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -751,9 +751,9 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.395 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair: null
-2026-06-28 22:16:35.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String
-2026-06-28 22:16:35.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String
+2026-08-11 13:28:37.708 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair: null
+2026-08-11 13:28:37.708 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String
+2026-08-11 13:28:37.708 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -897,7 +897,7 @@ goto %label13
 
 %bb18: 	//predecessors %bb17
 	throw %72
-2026-06-28 22:16:35.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.708 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -932,7 +932,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.709 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -967,9 +967,9 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String: null
-2026-06-28 22:16:35.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey
-2026-06-28 22:16:35.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey
+2026-08-11 13:28:37.709 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String: null
+2026-08-11 13:28:37.709 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey
+2026-08-11 13:28:37.709 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1051,7 +1051,7 @@ goto %label6
 
 %bb8: 	//predecessors %bb7
 	throw %31
-2026-06-28 22:16:35.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.709 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1086,7 +1086,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.710 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1121,9 +1121,9 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.397 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey: null
-2026-06-28 22:16:35.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey
-2026-06-28 22:16:35.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey
+2026-08-11 13:28:37.710 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey: null
+2026-08-11 13:28:37.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey
+2026-08-11 13:28:37.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1205,7 +1205,7 @@ goto %label6
 
 %bb8: 	//predecessors %bb7
 	throw %31
-2026-06-28 22:16:35.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.710 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1240,7 +1240,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1275,15 +1275,15 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey: null
-2026-06-28 22:16:35.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String
-2026-06-28 22:16:35.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String
+2026-08-11 13:28:37.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey: null
+2026-08-11 13:28:37.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String
+2026-08-11 13:28:37.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return "Ed25519"
-2026-06-28 22:16:35.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1318,7 +1318,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1353,9 +1353,9 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.398 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String: null
-2026-06-28 22:16:35.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::postConstruct(): void
-2026-06-28 22:16:35.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::postConstruct(): void
+2026-08-11 13:28:37.711 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String: null
+2026-08-11 13:28:37.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/KeypairService::postConstruct(): void
+2026-08-11 13:28:37.711 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/KeypairService::postConstruct(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1370,7 +1370,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 
 %label0: 	//predecessors %bb1
 	return
-2026-06-28 22:16:35.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.712 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::postConstruct(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1405,7 +1405,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.712 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/KeypairService::postConstruct(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1440,17 +1440,17 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.399 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::postConstruct(): void: null
-2026-06-28 22:16:35.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::<init>(): void processing is finished normally
-2026-06-28 22:16:35.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT processing is finished normally
-2026-06-28 22:16:35.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair processing is finished normally
-2026-06-28 22:16:35.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String processing is finished normally
-2026-06-28 22:16:35.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey processing is finished normally
-2026-06-28 22:16:35.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey processing is finished normally
-2026-06-28 22:16:35.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String processing is finished normally
-2026-06-28 22:16:35.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::postConstruct(): void processing is finished normally
-2026-06-28 22:16:35.425 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void
-2026-06-28 22:16:35.426 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void
+2026-08-11 13:28:37.712 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/KeypairService::postConstruct(): void: null
+2026-08-11 13:28:37.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::<init>(): void processing is finished normally
+2026-08-11 13:28:37.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::decryptJWE(java/lang/String): com/nimbusds/jwt/EncryptedJWT processing is finished normally
+2026-08-11 13:28:37.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::loadExistingKeyPair(): java/security/KeyPair processing is finished normally
+2026-08-11 13:28:37.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::getJWE(java/security/PublicKey): java/lang/String processing is finished normally
+2026-08-11 13:28:37.712 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::readPublicKey(java/lang/String): java/security/PublicKey processing is finished normally
+2026-08-11 13:28:37.713 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::readPrivateKey(java/lang/String): java/security/PrivateKey processing is finished normally
+2026-08-11 13:28:37.713 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::getAlgorithm(): java/lang/String processing is finished normally
+2026-08-11 13:28:37.713 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/KeypairService::postConstruct(): void processing is finished normally
+2026-08-11 13:28:37.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void
+2026-08-11 13:28:37.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1484,7 +1484,7 @@ Caused by: java.lang.ClassNotFoundException: com.nimbusds.jose.KeyLengthExceptio
 
 %bb7: 	//predecessors %bb6
 	return
-2026-06-28 22:16:35.427 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.741 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -1520,7 +1520,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 22:16:35.427 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.741 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -1556,9 +1556,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 22:16:35.427 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void: null
-2026-06-28 22:16:35.427 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::signMessage(org/springframework/http/HttpRequest, byte[]): void
-2026-06-28 22:16:35.427 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::signMessage(org/springframework/http/HttpRequest, byte[]): void
+2026-08-11 13:28:37.741 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void: null
+2026-08-11 13:28:37.741 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::signMessage(org/springframework/http/HttpRequest, byte[]): void
+2026-08-11 13:28:37.741 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::signMessage(org/springframework/http/HttpRequest, byte[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1611,7 +1611,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 
 %bb8: 	//predecessors %bb7
 	return
-2026-06-28 22:16:35.427 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.742 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1638,7 +1638,7 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.742 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1665,9 +1665,9 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::signMessage(org/springframework/http/HttpRequest, byte[]): void: null
-2026-06-28 22:16:35.428 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::addSignatureHeaders(org/springframework/http/HttpRequest): void
-2026-06-28 22:16:35.428 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::addSignatureHeaders(org/springframework/http/HttpRequest): void
+2026-08-11 13:28:37.742 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::signMessage(org/springframework/http/HttpRequest, byte[]): void: null
+2026-08-11 13:28:37.742 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::addSignatureHeaders(org/springframework/http/HttpRequest): void
+2026-08-11 13:28:37.742 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::addSignatureHeaders(org/springframework/http/HttpRequest): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1724,7 +1724,7 @@ goto %label2
 
 %goto0: 	//predecessors %bb5
 	return
-2026-06-28 22:16:35.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.742 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1751,7 +1751,7 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.742 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1778,9 +1778,9 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::addSignatureHeaders(org/springframework/http/HttpRequest): void: null
-2026-06-28 22:16:35.428 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::addDigestHeader(org/springframework/http/HttpRequest, byte[]): void
-2026-06-28 22:16:35.428 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::addDigestHeader(org/springframework/http/HttpRequest, byte[]): void
+2026-08-11 13:28:37.742 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::addSignatureHeaders(org/springframework/http/HttpRequest): void: null
+2026-08-11 13:28:37.742 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::addDigestHeader(org/springframework/http/HttpRequest, byte[]): void
+2026-08-11 13:28:37.742 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::addDigestHeader(org/springframework/http/HttpRequest, byte[]): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1842,7 +1842,7 @@ goto %label3
 
 %goto0: 	//predecessors %bb5
 	return
-2026-06-28 22:16:35.428 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.743 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1869,7 +1869,7 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.743 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1896,9 +1896,9 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::addDigestHeader(org/springframework/http/HttpRequest, byte[]): void: null
-2026-06-28 22:16:35.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::addSignatureKeyHeader(org/springframework/http/HttpRequest, java/lang/String): void
-2026-06-28 22:16:35.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::addSignatureKeyHeader(org/springframework/http/HttpRequest, java/lang/String): void
+2026-08-11 13:28:37.743 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::addDigestHeader(org/springframework/http/HttpRequest, byte[]): void: null
+2026-08-11 13:28:37.743 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::addSignatureKeyHeader(org/springframework/http/HttpRequest, java/lang/String): void
+2026-08-11 13:28:37.743 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::addSignatureKeyHeader(org/springframework/http/HttpRequest, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1939,7 +1939,7 @@ goto %label1
 
 %goto0: 	//predecessors %bb2
 	return
-2026-06-28 22:16:35.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.743 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1966,7 +1966,7 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.743 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -1993,9 +1993,9 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::addSignatureKeyHeader(org/springframework/http/HttpRequest, java/lang/String): void: null
-2026-06-28 22:16:35.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::getSignatureValue(org/springframework/http/HttpRequest): java/lang/String
-2026-06-28 22:16:35.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::getSignatureValue(org/springframework/http/HttpRequest): java/lang/String
+2026-08-11 13:28:37.743 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::addSignatureKeyHeader(org/springframework/http/HttpRequest, java/lang/String): void: null
+2026-08-11 13:28:37.743 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::getSignatureValue(org/springframework/http/HttpRequest): java/lang/String
+2026-08-11 13:28:37.743 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::getSignatureValue(org/springframework/http/HttpRequest): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2105,7 +2105,7 @@ goto %label5
 
 %bb15: 	//predecessors %bb14
 	throw %52
-2026-06-28 22:16:35.429 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.743 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2132,7 +2132,7 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.430 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.744 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2159,9 +2159,9 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.430 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::getSignatureValue(org/springframework/http/HttpRequest): java/lang/String: null
-2026-06-28 22:16:35.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::calculateBase(org/springframework/http/HttpRequest): java/lang/String
-2026-06-28 22:16:35.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::calculateBase(org/springframework/http/HttpRequest): java/lang/String
+2026-08-11 13:28:37.744 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::getSignatureValue(org/springframework/http/HttpRequest): java/lang/String: null
+2026-08-11 13:28:37.744 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::calculateBase(org/springframework/http/HttpRequest): java/lang/String
+2026-08-11 13:28:37.744 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::calculateBase(org/springframework/http/HttpRequest): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2581,7 +2581,7 @@ goto %label25
 
 %bb48: 	//predecessors %bb47
 	throw %192
-2026-06-28 22:16:35.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.744 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2608,7 +2608,7 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2635,9 +2635,9 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:35.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::calculateBase(org/springframework/http/HttpRequest): java/lang/String: null
-2026-06-28 22:16:35.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::postConstruct(): void
-2026-06-28 22:16:35.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::postConstruct(): void
+2026-08-11 13:28:37.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::calculateBase(org/springframework/http/HttpRequest): java/lang/String: null
+2026-08-11 13:28:37.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureService::postConstruct(): void
+2026-08-11 13:28:37.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureService::postConstruct(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2683,7 +2683,7 @@ java.lang.ClassNotFoundException: org.springframework.http.HttpRequest
 
 %bb9: 	//predecessors %bb8
 	return
-2026-06-28 22:16:35.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/SignatureService::postConstruct(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2718,7 +2718,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:37.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/SignatureService::postConstruct(): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2753,17 +2753,17 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:35.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::postConstruct(): void: null
-2026-06-28 22:16:35.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void processing is finished normally
-2026-06-28 22:16:35.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::signMessage(org/springframework/http/HttpRequest, byte[]): void processing is finished normally
-2026-06-28 22:16:35.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::addSignatureHeaders(org/springframework/http/HttpRequest): void processing is finished normally
-2026-06-28 22:16:35.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::addDigestHeader(org/springframework/http/HttpRequest, byte[]): void processing is finished normally
-2026-06-28 22:16:35.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::addSignatureKeyHeader(org/springframework/http/HttpRequest, java/lang/String): void processing is finished normally
-2026-06-28 22:16:35.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::getSignatureValue(org/springframework/http/HttpRequest): java/lang/String processing is finished normally
-2026-06-28 22:16:35.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::calculateBase(org/springframework/http/HttpRequest): java/lang/String processing is finished normally
-2026-06-28 22:16:35.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::postConstruct(): void processing is finished normally
-2026-06-28 22:16:35.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureController::<init>(): void
-2026-06-28 22:16:35.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureController::<init>(): void
+2026-08-11 13:28:37.745 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureService::postConstruct(): void: null
+2026-08-11 13:28:37.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::<init>(com/ebay/signaturevalidation/KeypairService): void processing is finished normally
+2026-08-11 13:28:37.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::signMessage(org/springframework/http/HttpRequest, byte[]): void processing is finished normally
+2026-08-11 13:28:37.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::addSignatureHeaders(org/springframework/http/HttpRequest): void processing is finished normally
+2026-08-11 13:28:37.745 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::addDigestHeader(org/springframework/http/HttpRequest, byte[]): void processing is finished normally
+2026-08-11 13:28:37.746 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::addSignatureKeyHeader(org/springframework/http/HttpRequest, java/lang/String): void processing is finished normally
+2026-08-11 13:28:37.746 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::getSignatureValue(org/springframework/http/HttpRequest): java/lang/String processing is finished normally
+2026-08-11 13:28:37.746 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::calculateBase(org/springframework/http/HttpRequest): java/lang/String processing is finished normally
+2026-08-11 13:28:37.746 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureService::postConstruct(): void processing is finished normally
+2026-08-11 13:28:37.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureController::<init>(): void
+2026-08-11 13:28:37.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureController::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2785,34 +2785,34 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 
 %bb4: 	//predecessors %bb3
 	return
-2026-06-28 22:16:35.496 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_init_13992542450
-2026-06-28 22:16:35.497 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureController::verifySignaturePOST(): java/lang/String
-2026-06-28 22:16:35.497 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureController::verifySignaturePOST(): java/lang/String
+2026-08-11 13:28:37.828 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_init_13992542450
+2026-08-11 13:28:37.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureController::verifySignaturePOST(): java/lang/String
+2026-08-11 13:28:37.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureController::verifySignaturePOST(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return "OK"
-2026-06-28 22:16:35.568 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_verifySignaturePOST_6122250811
-2026-06-28 22:16:35.568 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureController::verifySignatureGET(): java/lang/String
-2026-06-28 22:16:35.569 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureController::verifySignatureGET(): java/lang/String
+2026-08-11 13:28:37.906 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_verifySignaturePOST_6122250811
+2026-08-11 13:28:37.906 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureController::verifySignatureGET(): java/lang/String
+2026-08-11 13:28:37.906 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureController::verifySignatureGET(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	return "OK"
-2026-06-28 22:16:35.638 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_verifySignatureGET_5931378072
-2026-06-28 22:16:35.699 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_init_13992542453
-2026-06-28 22:16:35.775 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_verifySignaturePOST_6122250814
-2026-06-28 22:16:35.823 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_verifySignatureGET_5931378075
-2026-06-28 22:16:35.824 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureController::<init>(): void: null
-2026-06-28 22:16:35.824 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureController::verifySignaturePOST(): java/lang/String: null
-2026-06-28 22:16:35.825 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureController::verifySignatureGET(): java/lang/String: null
-2026-06-28 22:16:35.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureController::<init>(): void processing is finished normally
-2026-06-28 22:16:35.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureController::verifySignaturePOST(): java/lang/String processing is finished normally
-2026-06-28 22:16:35.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureController::verifySignatureGET(): java/lang/String processing is finished normally
-2026-06-28 22:16:35.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(): void
-2026-06-28 22:16:35.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(): void
+2026-08-11 13:28:38.001 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_verifySignatureGET_5931378072
+2026-08-11 13:28:38.089 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_init_13992542453
+2026-08-11 13:28:38.138 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_verifySignaturePOST_6122250814
+2026-08-11 13:28:38.187 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureController_verifySignatureGET_5931378075
+2026-08-11 13:28:38.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureController::<init>(): void: null
+2026-08-11 13:28:38.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureController::verifySignaturePOST(): java/lang/String: null
+2026-08-11 13:28:38.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureController::<init>(): void processing is finished normally
+2026-08-11 13:28:38.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureController::verifySignatureGET(): java/lang/String: null
+2026-08-11 13:28:38.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureController::verifySignaturePOST(): java/lang/String processing is finished normally
+2026-08-11 13:28:38.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureController::verifySignatureGET(): java/lang/String processing is finished normally
+2026-08-11 13:28:38.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(): void
+2026-08-11 13:28:38.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2822,9 +2822,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 22:16:35.883 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_12988919320
-2026-06-28 22:16:35.884 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String): void
-2026-06-28 22:16:35.884 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String): void
+2026-08-11 13:28:38.265 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_12988919320
+2026-08-11 13:28:38.265 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String): void
+2026-08-11 13:28:38.265 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2834,9 +2834,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 22:16:35.929 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_14511450551
-2026-06-28 22:16:35.930 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable): void
-2026-06-28 22:16:35.930 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable): void
+2026-08-11 13:28:38.325 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_14511450551
+2026-08-11 13:28:38.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable): void
+2026-08-11 13:28:38.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2846,9 +2846,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 22:16:36.030 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_7354928352
-2026-06-28 22:16:36.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/Throwable): void
-2026-06-28 22:16:36.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(java/lang/Throwable): void
+2026-08-11 13:28:38.431 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_7354928352
+2026-08-11 13:28:38.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/Throwable): void
+2026-08-11 13:28:38.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(java/lang/Throwable): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2858,9 +2858,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 22:16:36.099 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_3106133183
-2026-06-28 22:16:36.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable, bool, bool): void
-2026-06-28 22:16:36.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable, bool, bool): void
+2026-08-11 13:28:38.498 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_3106133183
+2026-08-11 13:28:38.499 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable, bool, bool): void
+2026-08-11 13:28:38.499 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable, bool, bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2870,24 +2870,24 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 22:16:36.167 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_10382092514
-2026-06-28 22:16:36.209 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_12988919325
-2026-06-28 22:16:36.249 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_14511450556
-2026-06-28 22:16:36.287 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_7354928357
-2026-06-28 22:16:36.341 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_3106133188
-2026-06-28 22:16:36.378 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_10382092519
-2026-06-28 22:16:36.379 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(): void: null
-2026-06-28 22:16:36.379 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String): void: null
-2026-06-28 22:16:36.380 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable): void: null
-2026-06-28 22:16:36.380 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/Throwable): void: null
-2026-06-28 22:16:36.380 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable, bool, bool): void: null
-2026-06-28 22:16:36.380 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(): void processing is finished normally
-2026-06-28 22:16:36.380 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String): void processing is finished normally
-2026-06-28 22:16:36.380 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable): void processing is finished normally
-2026-06-28 22:16:36.380 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/Throwable): void processing is finished normally
-2026-06-28 22:16:36.380 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable, bool, bool): void processing is finished normally
-2026-06-28 22:16:36.384 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationInterceptor::<init>(com/ebay/signaturevalidation/VerificationService): void
-2026-06-28 22:16:36.384 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationInterceptor::<init>(com/ebay/signaturevalidation/VerificationService): void
+2026-08-11 13:28:38.562 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_10382092514
+2026-08-11 13:28:38.600 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_12988919325
+2026-08-11 13:28:38.649 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_14511450556
+2026-08-11 13:28:38.691 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_7354928357
+2026-08-11 13:28:38.729 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_3106133188
+2026-08-11 13:28:38.768 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.ebay.signaturevalidation.SignatureException_init_10382092519
+2026-08-11 13:28:38.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(): void: null
+2026-08-11 13:28:38.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String): void: null
+2026-08-11 13:28:38.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable): void: null
+2026-08-11 13:28:38.770 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/Throwable): void: null
+2026-08-11 13:28:38.770 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable, bool, bool): void: null
+2026-08-11 13:28:38.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(): void processing is finished normally
+2026-08-11 13:28:38.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String): void processing is finished normally
+2026-08-11 13:28:38.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable): void processing is finished normally
+2026-08-11 13:28:38.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/Throwable): void processing is finished normally
+2026-08-11 13:28:38.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureException::<init>(java/lang/String, java/lang/Throwable, bool, bool): void processing is finished normally
+2026-08-11 13:28:38.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationInterceptor::<init>(com/ebay/signaturevalidation/VerificationService): void
+2026-08-11 13:28:38.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationInterceptor::<init>(com/ebay/signaturevalidation/VerificationService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2901,7 +2901,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.CryptoExcep
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 22:16:36.385 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.777 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2925,7 +2925,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterce
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.385 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.777 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -2949,9 +2949,9 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterce
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.385 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationInterceptor::<init>(com/ebay/signaturevalidation/VerificationService): void: null
-2026-06-28 22:16:36.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationInterceptor::preHandle(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, java/lang/Object): bool
-2026-06-28 22:16:36.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationInterceptor::preHandle(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, java/lang/Object): bool
+2026-08-11 13:28:38.777 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationInterceptor::<init>(com/ebay/signaturevalidation/VerificationService): void: null
+2026-08-11 13:28:38.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationInterceptor::preHandle(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, java/lang/Object): bool
+2026-08-11 13:28:38.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationInterceptor::preHandle(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3051,7 +3051,7 @@ goto %label5
 %bb.return0: 	//predecessors %label4, %bb16
 	%retval1 = phi {%label4 -> 1; %bb16 -> 0}
 	return %retval1
-2026-06-28 22:16:36.386 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.778 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3075,7 +3075,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterce
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.386 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.778 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -3099,11 +3099,11 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterce
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.386 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationInterceptor::preHandle(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, java/lang/Object): bool: null
-2026-06-28 22:16:36.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationInterceptor::<init>(com/ebay/signaturevalidation/VerificationService): void processing is finished normally
-2026-06-28 22:16:36.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationInterceptor::preHandle(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, java/lang/Object): bool processing is finished normally
-2026-06-28 22:16:36.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void
-2026-06-28 22:16:36.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void
+2026-08-11 13:28:38.778 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationInterceptor::preHandle(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, java/lang/Object): bool: null
+2026-08-11 13:28:38.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationInterceptor::<init>(com/ebay/signaturevalidation/VerificationService): void processing is finished normally
+2026-08-11 13:28:38.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationInterceptor::preHandle(javax/servlet/http/HttpServletRequest, javax/servlet/http/HttpServletResponse, java/lang/Object): bool processing is finished normally
+2026-08-11 13:28:38.801 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void
+2026-08-11 13:28:38.801 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3153,7 +3153,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/HandlerInterce
 
 %bb11: 	//predecessors %bb10
 	return
-2026-06-28 22:16:36.402 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.803 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
@@ -3189,7 +3189,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 22:16:36.402 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.803 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load constructor com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void
 	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
@@ -3225,9 +3225,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 25 common frames omitted
-2026-06-28 22:16:36.402 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void: null
-2026-06-28 22:16:36.402 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void
-2026-06-28 22:16:36.402 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void
+2026-08-11 13:28:38.803 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void: null
+2026-08-11 13:28:38.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void
+2026-08-11 13:28:38.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3274,7 +3274,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 
 %bb6: 	//predecessors %bb5
 	return
-2026-06-28 22:16:36.403 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.804 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3309,7 +3309,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.403 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.804 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3344,9 +3344,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.403 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void: null
-2026-06-28 22:16:36.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey
-2026-06-28 22:16:36.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey
+2026-08-11 13:28:38.804 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void: null
+2026-08-11 13:28:38.804 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey
+2026-08-11 13:28:38.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3464,7 +3464,7 @@ goto %label8
 
 %bb15: 	//predecessors %bb14
 	throw %54
-2026-06-28 22:16:36.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.805 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3499,7 +3499,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.805 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3534,9 +3534,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey: null
-2026-06-28 22:16:36.404 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void
-2026-06-28 22:16:36.404 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void
+2026-08-11 13:28:38.805 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey: null
+2026-08-11 13:28:38.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void
+2026-08-11 13:28:38.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3695,7 +3695,7 @@ goto %label6
 
 %goto0: 	//predecessors %if.then3
 	return
-2026-06-28 22:16:36.404 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3730,7 +3730,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3765,9 +3765,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void: null
-2026-06-28 22:16:36.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void
-2026-06-28 22:16:36.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void
+2026-08-11 13:28:38.806 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void: null
+2026-08-11 13:28:38.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void
+2026-08-11 13:28:38.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3953,7 +3953,7 @@ goto %label9
 
 %goto2: 	//predecessors %if.then3
 	return
-2026-06-28 22:16:36.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.807 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3988,7 +3988,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.807 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4023,9 +4023,9 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.405 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void: null
-2026-06-28 22:16:36.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String
-2026-06-28 22:16:36.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String
+2026-08-11 13:28:38.807 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void: null
+2026-08-11 13:28:38.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String
+2026-08-11 13:28:38.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4384,7 +4384,7 @@ goto %label19
 
 %bb39: 	//predecessors %bb38
 	throw %161
-2026-06-28 22:16:36.406 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.808 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4419,7 +4419,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.407 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.808 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4454,15 +4454,15 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 22:16:36.407 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String: null
-2026-06-28 22:16:36.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void processing is finished normally
-2026-06-28 22:16:36.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void processing is finished normally
-2026-06-28 22:16:36.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey processing is finished normally
-2026-06-28 22:16:36.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void processing is finished normally
-2026-06-28 22:16:36.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void processing is finished normally
-2026-06-28 22:16:36.407 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String processing is finished normally
-2026-06-28 22:16:36.408 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/InterceptorConfiguration::<init>(com/ebay/signaturevalidation/VerificationInterceptor): void
-2026-06-28 22:16:36.409 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/InterceptorConfiguration::<init>(com/ebay/signaturevalidation/VerificationInterceptor): void
+2026-08-11 13:28:38.808 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String: null
+2026-08-11 13:28:38.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::<init>(com/ebay/signaturevalidation/KeypairService): void processing is finished normally
+2026-08-11 13:28:38.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::verifyMessage(java/lang/String, java/util/Map, java/net/URI, java/lang/String): void processing is finished normally
+2026-08-11 13:28:38.809 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::verifyJWT(java/util/Map): java/security/PublicKey processing is finished normally
+2026-08-11 13:28:38.809 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::verifyDigestHeader(java/lang/String, java/util/Map): void processing is finished normally
+2026-08-11 13:28:38.809 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::verifySignature(java/security/PublicKey, java/lang/String, java/util/Map): void processing is finished normally
+2026-08-11 13:28:38.809 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/VerificationService::calculateBase(java/util/Map, java/net/URI, java/lang/String): java/lang/String processing is finished normally
+2026-08-11 13:28:38.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/InterceptorConfiguration::<init>(com/ebay/signaturevalidation/VerificationInterceptor): void
+2026-08-11 13:28:38.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/InterceptorConfiguration::<init>(com/ebay/signaturevalidation/VerificationInterceptor): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4476,7 +4476,7 @@ Caused by: java.lang.ClassNotFoundException: org.bouncycastle.crypto.Digest
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 22:16:36.409 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.811 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotation/WebMvcConfigurer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4500,7 +4500,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.409 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.811 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotation/WebMvcConfigurer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4524,9 +4524,9 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.409 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/InterceptorConfiguration::<init>(com/ebay/signaturevalidation/VerificationInterceptor): void: null
-2026-06-28 22:16:36.410 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/InterceptorConfiguration::addInterceptors(org/springframework/web/servlet/config/annotation/InterceptorRegistry): void
-2026-06-28 22:16:36.410 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/InterceptorConfiguration::addInterceptors(org/springframework/web/servlet/config/annotation/InterceptorRegistry): void
+2026-08-11 13:28:38.811 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/InterceptorConfiguration::<init>(com/ebay/signaturevalidation/VerificationInterceptor): void: null
+2026-08-11 13:28:38.812 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/InterceptorConfiguration::addInterceptors(org/springframework/web/servlet/config/annotation/InterceptorRegistry): void
+2026-08-11 13:28:38.812 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/InterceptorConfiguration::addInterceptors(org/springframework/web/servlet/config/annotation/InterceptorRegistry): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4540,7 +4540,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 
 %label0: 	//predecessors %bb1
 	return
-2026-06-28 22:16:36.410 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotation/WebMvcConfigurer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4564,7 +4564,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.410 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotation/WebMvcConfigurer
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4588,11 +4588,11 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.410 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/InterceptorConfiguration::addInterceptors(org/springframework/web/servlet/config/annotation/InterceptorRegistry): void: null
-2026-06-28 22:16:36.410 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/InterceptorConfiguration::<init>(com/ebay/signaturevalidation/VerificationInterceptor): void processing is finished normally
-2026-06-28 22:16:36.410 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/InterceptorConfiguration::addInterceptors(org/springframework/web/servlet/config/annotation/InterceptorRegistry): void processing is finished normally
-2026-06-28 22:16:36.412 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureInterceptor::<init>(com/ebay/signaturevalidation/SignatureService): void
-2026-06-28 22:16:36.412 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureInterceptor::<init>(com/ebay/signaturevalidation/SignatureService): void
+2026-08-11 13:28:38.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/InterceptorConfiguration::addInterceptors(org/springframework/web/servlet/config/annotation/InterceptorRegistry): void: null
+2026-08-11 13:28:38.812 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/InterceptorConfiguration::<init>(com/ebay/signaturevalidation/VerificationInterceptor): void processing is finished normally
+2026-08-11 13:28:38.812 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/InterceptorConfiguration::addInterceptors(org/springframework/web/servlet/config/annotation/InterceptorRegistry): void processing is finished normally
+2026-08-11 13:28:38.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureInterceptor::<init>(com/ebay/signaturevalidation/SignatureService): void
+2026-08-11 13:28:38.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureInterceptor::<init>(com/ebay/signaturevalidation/SignatureService): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4606,7 +4606,7 @@ java.lang.ClassNotFoundException: org/springframework/web/servlet/config/annotat
 
 %bb2: 	//predecessors %bb1
 	return
-2026-06-28 22:16:36.413 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.815 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequestInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4630,7 +4630,7 @@ java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.413 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.815 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequestInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4654,9 +4654,9 @@ java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.413 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureInterceptor::<init>(com/ebay/signaturevalidation/SignatureService): void: null
-2026-06-28 22:16:36.414 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureInterceptor::intercept(org/springframework/http/HttpRequest, byte[], org/springframework/http/client/ClientHttpRequestExecution): org/springframework/http/client/ClientHttpResponse
-2026-06-28 22:16:36.414 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureInterceptor::intercept(org/springframework/http/HttpRequest, byte[], org/springframework/http/client/ClientHttpRequestExecution): org/springframework/http/client/ClientHttpResponse
+2026-08-11 13:28:38.815 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureInterceptor::<init>(com/ebay/signaturevalidation/SignatureService): void: null
+2026-08-11 13:28:38.815 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/ebay/signaturevalidation/SignatureInterceptor::intercept(org/springframework/http/HttpRequest, byte[], org/springframework/http/client/ClientHttpRequestExecution): org/springframework/http/client/ClientHttpResponse
+2026-08-11 13:28:38.815 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/ebay/signaturevalidation/SignatureInterceptor::intercept(org/springframework/http/HttpRequest, byte[], org/springframework/http/client/ClientHttpRequestExecution): org/springframework/http/client/ClientHttpResponse
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4686,7 +4686,7 @@ goto %label0
 
 %bb3: 	//predecessors %goto0
 	return %8
-2026-06-28 22:16:36.414 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.815 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequestInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4710,7 +4710,7 @@ java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.414 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-11 13:28:38.816 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequestInterceptor
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
 	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
@@ -4734,8 +4734,8 @@ java.lang.ClassNotFoundException: org/springframework/http/client/ClientHttpRequ
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-2026-06-28 22:16:36.414 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureInterceptor::intercept(org/springframework/http/HttpRequest, byte[], org/springframework/http/client/ClientHttpRequestExecution): org/springframework/http/client/ClientHttpResponse: null
-2026-06-28 22:16:36.414 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureInterceptor::<init>(com/ebay/signaturevalidation/SignatureService): void processing is finished normally
-2026-06-28 22:16:36.414 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureInterceptor::intercept(org/springframework/http/HttpRequest, byte[], org/springframework/http/client/ClientHttpRequestExecution): org/springframework/http/client/ClientHttpResponse processing is finished normally
-2026-06-28 22:16:36.415 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 22:16:36.415 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 13:28:38.816 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/ebay/signaturevalidation/SignatureInterceptor::intercept(org/springframework/http/HttpRequest, byte[], org/springframework/http/client/ClientHttpRequestExecution): org/springframework/http/client/ClientHttpResponse: null
+2026-08-11 13:28:38.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureInterceptor::<init>(com/ebay/signaturevalidation/SignatureService): void processing is finished normally
+2026-08-11 13:28:38.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/ebay/signaturevalidation/SignatureInterceptor::intercept(org/springframework/http/HttpRequest, byte[], org/springframework/http/client/ClientHttpRequestExecution): org/springframework/http/client/ClientHttpResponse processing is finished normally
+2026-08-11 13:28:38.816 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 13:28:38.816 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

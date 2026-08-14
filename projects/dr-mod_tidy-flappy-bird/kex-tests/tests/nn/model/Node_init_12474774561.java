@@ -25,8 +25,8 @@ import java.lang.Double;
 public class Node_init_12474774561 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
      Object enum73;
-     Object term11331;
-     Object term11333;
+     Object term11328;
+     Object term11330;
 
     public Node_init_12474774561() {
     }
@@ -37,12 +37,12 @@ public class Node_init_12474774561 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term11336 = Class.forName((String) "nn.model.Type");
-        Field term11335 = ((Class) term11336).getDeclaredField((String) "SENSOR");
-        ((Field) term11335).setAccessible(true);
-        enum73 = ((Field) term11335).get((Object) null);
-        term11331 = new Integer(-1457812682);
-        term11333 = new Double(0.8391459612166138);
+        Class<? extends Object> term11333 = Class.forName((String) "nn.model.Type");
+        Field term11332 = ((Class) term11333).getDeclaredField((String) "SENSOR");
+        ((Field) term11332).setAccessible(true);
+        enum73 = ((Field) term11332).get((Object) null);
+        term11328 = new Integer(-1457812682);
+        term11330 = new Double(0.8391459612166138);
     }
 
     @Test
@@ -54,8 +54,8 @@ public class Node_init_12474774561 {
         argTypes[2] = double.class;
         Object[] args = new Object[3];
         args[0] = enum73;
-        args[1] = term11331;
-        args[2] = term11333;
+        args[1] = term11328;
+        args[2] = term11330;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

@@ -27,7 +27,7 @@ import java.util.HashSet;
 
 public class Authority_getRole_11195232222 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1132;
+     Object term1134;
 
     public Authority_getRole_11195232222() {
     }
@@ -38,14 +38,14 @@ public class Authority_getRole_11195232222 {
 
     @Before
     public void setup() throws Throwable {
-        Integer term1133 = new Integer(663292551);
-        HashMap term1148 = new HashMap();
-        Set<Object> term1174 =  ((Map) term1148).keySet();
-        HashSet term1147 = new HashSet((Collection<? extends Object>) term1174);
-        term1132 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
-        setField(term1132, term1132.getClass(), "id", term1133);
-        setField(term1132, term1132.getClass(), "role", "SPtPatHeOm");
-        setField(term1132, term1132.getClass(), "users", term1147);
+        Integer term1135 = new Integer(663292551);
+        HashMap term1150 = new HashMap();
+        Set<Object> term1178 =  ((Map) term1150).keySet();
+        HashSet term1149 = new HashSet((Collection<? extends Object>) term1178);
+        term1134 = newInstance(Class.forName("codeit.gatcha.domain.user.entity.Authority"));
+        setField(term1134, term1134.getClass(), "id", term1135);
+        setField(term1134, term1134.getClass(), "role", "SPtPatHeOm");
+        setField(term1134, term1134.getClass(), "users", term1149);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class Authority_getRole_11195232222 {
         Class<?> klass = Class.forName("codeit.gatcha.domain.user.entity.Authority");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getRole", argTypes, term1132, args);
+        callMethod(klass, "getRole", argTypes, term1134, args);
     }
 
 };

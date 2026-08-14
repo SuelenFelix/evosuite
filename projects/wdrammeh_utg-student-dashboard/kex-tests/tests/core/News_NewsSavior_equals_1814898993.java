@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class News_NewsSavior_equals_1814898993 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term123664;
+     Object term123662;
 
     public News_NewsSavior_equals_1814898993() {
     }
@@ -31,11 +31,11 @@ public class News_NewsSavior_equals_1814898993 {
 
     @Before
     public void setup() throws Throwable {
-        term123664 = newInstance(Class.forName("core.News$NewsSavior"));
-        setField(term123664, term123664.getClass(), "heading", null);
-        setField(term123664, term123664.getClass(), "body", null);
-        setField(term123664, term123664.getClass(), "link", null);
-        setField(term123664, term123664.getClass(), "content", null);
+        term123662 = newInstance(Class.forName("core.News$NewsSavior"));
+        setField(term123662, term123662.getClass(), "heading", null);
+        setField(term123662, term123662.getClass(), "body", null);
+        setField(term123662, term123662.getClass(), "link", null);
+        setField(term123662, term123662.getClass(), "content", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class News_NewsSavior_equals_1814898993 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "equals", argTypes, term123664, args);
+        callMethod(klass, "equals", argTypes, term123662, args);
     }
 
 };

@@ -21,8 +21,8 @@ import java.lang.Boolean;
 
 public class AssignmentHandler_transferAssignment_8302073453 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term29598;
-     Object term29599;
+     Object term29582;
+     Object term29583;
 
     public AssignmentHandler_transferAssignment_8302073453() {
     }
@@ -33,8 +33,8 @@ public class AssignmentHandler_transferAssignment_8302073453 {
 
     @Before
     public void setup() throws Throwable {
-        term29598 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
-        term29599 = new Boolean(false);
+        term29582 = newInstance(Class.forName("core.task.handler.AssignmentHandler"));
+        term29583 = new Boolean(false);
     }
 
     @Test
@@ -47,8 +47,8 @@ public class AssignmentHandler_transferAssignment_8302073453 {
         Object[] args = new Object[3];
         args[0] = null;
         args[1] = null;
-        args[2] = term29599;
-        callMethod(klass, "transferAssignment", argTypes, term29598, args);
+        args[2] = term29583;
+        callMethod(klass, "transferAssignment", argTypes, term29582, args);
     }
 
 };

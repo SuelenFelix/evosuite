@@ -266,7 +266,7 @@ public class Notification_Exhibitor_init_20984409090 {
         setIntField(term1499, term1499.getClass(), "depth", 24);
         setIntField(term1499, term1499.getClass(), "colormap", 32);
         setField(term1499, term1499.getClass(), "colorModel", null);
-        setLongField(term1499, term1499.getClass(), "aData", 128688100652368L);
+        setLongField(term1499, term1499.getClass(), "aData", 138849725255120L);
         setBooleanField(term1499, term1499.getClass(), "doubleBuffer", true);
         setField(term1499, term1499.getClass(), "disposerReferent", null);
         setField(term1499, term1499.getClass(), "bufferCaps", null);

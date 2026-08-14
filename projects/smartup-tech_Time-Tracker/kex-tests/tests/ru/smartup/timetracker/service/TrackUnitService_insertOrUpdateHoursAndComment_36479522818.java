@@ -21,8 +21,8 @@ import java.util.LinkedList;
 
 public class TrackUnitService_insertOrUpdateHoursAndComment_36479522818 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3403;
-     Object term3406;
+     Object term3379;
+     Object term3382;
 
     public TrackUnitService_insertOrUpdateHoursAndComment_36479522818() {
     }
@@ -33,11 +33,11 @@ public class TrackUnitService_insertOrUpdateHoursAndComment_36479522818 {
 
     @Before
     public void setup() throws Throwable {
-        term3403 = new LinkedList();
-        term3406 = newInstance(Class.forName("java.time.LocalDate"));
-        setIntField(term3406, term3406.getClass(), "year", 2021);
-        setShortField(term3406, term3406.getClass(), "month", (short) 8);
-        setShortField(term3406, term3406.getClass(), "day", (short) 11);
+        term3379 = new LinkedList();
+        term3382 = newInstance(Class.forName("java.time.LocalDate"));
+        setIntField(term3382, term3382.getClass(), "year", 2021);
+        setShortField(term3382, term3382.getClass(), "month", (short) 8);
+        setShortField(term3382, term3382.getClass(), "day", (short) 11);
     }
 
     @Test
@@ -47,8 +47,8 @@ public class TrackUnitService_insertOrUpdateHoursAndComment_36479522818 {
         argTypes[0] = Class.forName("java.util.List");
         argTypes[1] = Class.forName("java.time.LocalDate");
         Object[] args = new Object[2];
-        args[0] = term3403;
-        args[1] = term3406;
+        args[0] = term3379;
+        args[1] = term3382;
         callMethod(klass, "insertOrUpdateHoursAndComment", argTypes, null, args);
     }
 

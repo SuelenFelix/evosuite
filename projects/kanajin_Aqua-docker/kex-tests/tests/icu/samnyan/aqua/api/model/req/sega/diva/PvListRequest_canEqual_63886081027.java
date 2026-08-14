@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class PvListRequest_canEqual_63886081027 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4091519;
+     Object term402264;
 
     public PvListRequest_canEqual_63886081027() {
     }
@@ -31,12 +31,12 @@ public class PvListRequest_canEqual_63886081027 {
 
     @Before
     public void setup() throws Throwable {
-        term4091519 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
-        setField(term4091519, term4091519.getClass(), "CreationDate", null);
-        setField(term4091519, term4091519.getClass(), "Easy", null);
-        setField(term4091519, term4091519.getClass(), "Normal", null);
-        setField(term4091519, term4091519.getClass(), "Hard", null);
-        setField(term4091519, term4091519.getClass(), "Extreme", null);
+        term402264 = newInstance(Class.forName("icu.samnyan.aqua.api.model.req.sega.diva.PvListRequest"));
+        setField(term402264, term402264.getClass(), "CreationDate", null);
+        setField(term402264, term402264.getClass(), "Easy", null);
+        setField(term402264, term402264.getClass(), "Normal", null);
+        setField(term402264, term402264.getClass(), "Hard", null);
+        setField(term402264, term402264.getClass(), "Extreme", null);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class PvListRequest_canEqual_63886081027 {
         argTypes[0] = Class.forName("java.lang.Object");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "canEqual", argTypes, term4091519, args);
+        callMethod(klass, "canEqual", argTypes, term402264, args);
     }
 
 };

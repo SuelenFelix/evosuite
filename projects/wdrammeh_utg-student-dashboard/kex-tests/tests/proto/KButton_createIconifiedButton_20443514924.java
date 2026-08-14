@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class KButton_createIconifiedButton_20443514924 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term14984;
-     Object term14986;
+     Object term14981;
+     Object term14983;
 
     public KButton_createIconifiedButton_20443514924() {
     }
@@ -33,8 +33,8 @@ public class KButton_createIconifiedButton_20443514924 {
 
     @Before
     public void setup() throws Throwable {
-        term14984 = new Integer(-430151637);
-        term14986 = new Integer(-1697741339);
+        term14981 = new Integer(-430151637);
+        term14983 = new Integer(-1697741339);
     }
 
     @Test
@@ -46,8 +46,8 @@ public class KButton_createIconifiedButton_20443514924 {
         argTypes[2] = int.class;
         Object[] args = new Object[3];
         args[0] = "UlajhuVLaP";
-        args[1] = term14984;
-        args[2] = term14986;
+        args[1] = term14981;
+        args[2] = term14983;
         callMethod(klass, "createIconifiedButton", argTypes, null, args);
     }
 

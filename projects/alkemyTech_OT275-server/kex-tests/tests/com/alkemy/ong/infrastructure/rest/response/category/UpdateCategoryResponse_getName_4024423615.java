@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class UpdateCategoryResponse_getName_4024423615 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1596;
+     Object term48895;
 
     public UpdateCategoryResponse_getName_4024423615() {
     }
@@ -31,11 +31,11 @@ public class UpdateCategoryResponse_getName_4024423615 {
 
     @Before
     public void setup() throws Throwable {
-        term1596 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse"));
-        setField(term1596, term1596.getClass(), "id", null);
-        setField(term1596, term1596.getClass(), "name", null);
-        setField(term1596, term1596.getClass(), "description", null);
-        setField(term1596, term1596.getClass(), "imageUrl", null);
+        term48895 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse"));
+        setField(term48895, term48895.getClass(), "id", null);
+        setField(term48895, term48895.getClass(), "name", null);
+        setField(term48895, term48895.getClass(), "description", null);
+        setField(term48895, term48895.getClass(), "imageUrl", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class UpdateCategoryResponse_getName_4024423615 {
         Class<?> klass = Class.forName("com.alkemy.ong.infrastructure.rest.response.category.UpdateCategoryResponse");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getName", argTypes, term1596, args);
+        callMethod(klass, "getName", argTypes, term48895, args);
     }
 
 };

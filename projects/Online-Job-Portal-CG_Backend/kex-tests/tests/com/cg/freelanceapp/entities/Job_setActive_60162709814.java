@@ -360,8 +360,8 @@ public class Job_setActive_60162709814 {
         setField(term6502, term6502.getClass(), "freelancers", term6577);
         setField(term6448, term6448.getClass(), "postedBy", term6502);
         setIntField(term6586, term6586.getClass(), "year", 2026);
-        setShortField(term6586, term6586.getClass(), "month", (short) 6);
-        setShortField(term6586, term6586.getClass(), "day", (short) 29);
+        setShortField(term6586, term6586.getClass(), "month", (short) 8);
+        setShortField(term6586, term6586.getClass(), "day", (short) 11);
         setField(term6448, term6448.getClass(), "postedDate", term6586);
         setField(term6590, term6590.getClass(), "id", term6591);
         setField(term6590, term6590.getClass(), "userName", "GWoZyTTlNx");

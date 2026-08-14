@@ -27,8 +27,8 @@ import java.util.HashSet;
 
 public class Authority_init_18675037825 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1218;
-     Object term1232;
+     Object term1220;
+     Object term1234;
 
     public Authority_init_18675037825() {
     }
@@ -39,10 +39,10 @@ public class Authority_init_18675037825 {
 
     @Before
     public void setup() throws Throwable {
-        term1218 = new Integer(-1310015129);
-        HashMap term1233 = new HashMap();
-        Set<Object> term1256 =  ((Map) term1233).keySet();
-        term1232 = new HashSet((Collection<? extends Object>) term1256);
+        term1220 = new Integer(-1310015129);
+        HashMap term1235 = new HashMap();
+        Set<Object> term1258 =  ((Map) term1235).keySet();
+        term1234 = new HashSet((Collection<? extends Object>) term1258);
     }
 
     @Test
@@ -53,9 +53,9 @@ public class Authority_init_18675037825 {
         argTypes[1] = Class.forName("java.lang.String");
         argTypes[2] = Class.forName("java.util.Set");
         Object[] args = new Object[3];
-        args[0] = term1218;
+        args[0] = term1220;
         args[1] = "BbNeQJpYPr";
-        args[2] = term1232;
+        args[2] = term1234;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

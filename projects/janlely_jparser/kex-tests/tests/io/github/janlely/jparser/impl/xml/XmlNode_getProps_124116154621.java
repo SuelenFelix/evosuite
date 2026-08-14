@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class XmlNode_getProps_124116154621 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term1829;
+     Object term6694;
 
     public XmlNode_getProps_124116154621() {
     }
@@ -31,11 +31,11 @@ public class XmlNode_getProps_124116154621 {
 
     @Before
     public void setup() throws Throwable {
-        term1829 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
-        setField(term1829, term1829.getClass(), "name", null);
-        setField(term1829, term1829.getClass(), "props", null);
-        setField(term1829, term1829.getClass(), "children", null);
-        setField(term1829, term1829.getClass(), "content", null);
+        term6694 = newInstance(Class.forName("io.github.janlely.jparser.impl.xml.XmlNode"));
+        setField(term6694, term6694.getClass(), "name", null);
+        setField(term6694, term6694.getClass(), "props", null);
+        setField(term6694, term6694.getClass(), "children", null);
+        setField(term6694, term6694.getClass(), "content", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class XmlNode_getProps_124116154621 {
         Class<?> klass = Class.forName("io.github.janlely.jparser.impl.xml.XmlNode");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getProps", argTypes, term1829, args);
+        callMethod(klass, "getProps", argTypes, term6694, args);
     }
 
 };

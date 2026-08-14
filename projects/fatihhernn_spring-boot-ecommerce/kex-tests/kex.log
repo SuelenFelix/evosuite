@@ -1,16 +1,16 @@
-2026-06-29 01:40:18.534 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/fatihhernn_spring-boot-ecommerce/target/classes
-2026-06-29 01:40:18.624 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 01:40:18.699 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-29 01:40:19.771 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-29 01:40:20.338 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/fatihhernn/ecommerce/entities/*
-2026-06-29 01:40:20.339 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-29 01:40:20.358 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/fatihhernn_spring-boot-ecommerce/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-29 01:40:20.388 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/fatihhernn_spring-boot-ecommerce/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 40395 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/fatihhernn_spring-boot-ecommerce/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-29 01:40:20.402 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-29 01:42:00.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::<init>(): void
-2026-06-29 01:42:00.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::<init>(): void
+2026-08-11 23:20:02.081 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/fatihhernn_spring-boot-ecommerce/target/classes
+2026-08-11 23:20:02.196 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 23:20:02.301 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 23:20:03.228 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 23:20:03.767 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/fatihhernn/ecommerce/entities/*
+2026-08-11 23:20:03.769 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 23:20:03.797 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/fatihhernn_spring-boot-ecommerce/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 23:20:03.848 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/fatihhernn_spring-boot-ecommerce/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 34325 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/fatihhernn_spring-boot-ecommerce/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 23:20:03.866 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 23:21:43.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::<init>(): void
+2026-08-11 23:21:43.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:00.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_init_12355444650
-2026-06-29 01:42:00.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::getId(): int
-2026-06-29 01:42:00.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::getId(): int
+2026-08-11 23:21:44.394 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_init_12355444650
+2026-08-11 23:21:44.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::getId(): int
+2026-08-11 23:21:44.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::getId(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -32,9 +32,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:01.051 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getId_4573629821
-2026-06-29 01:42:01.052 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::getName(): java/lang/String
-2026-06-29 01:42:01.052 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::getName(): java/lang/String
+2026-08-11 23:21:44.540 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getId_4573629821
+2026-08-11 23:21:44.541 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::getName(): java/lang/String
+2026-08-11 23:21:44.541 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::getName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -44,9 +44,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:01.147 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getName_18218463532
-2026-06-29 01:42:01.148 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::getCountry(): com/fatihhernn/ecommerce/entities/Country
-2026-06-29 01:42:01.148 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::getCountry(): com/fatihhernn/ecommerce/entities/Country
+2026-08-11 23:21:44.638 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getName_18218463532
+2026-08-11 23:21:44.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::getCountry(): com/fatihhernn/ecommerce/entities/Country
+2026-08-11 23:21:44.639 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::getCountry(): com/fatihhernn/ecommerce/entities/Country
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -56,9 +56,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:01.238 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getCountry_5669867563
-2026-06-29 01:42:01.239 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::setId(int): void
-2026-06-29 01:42:01.239 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::setId(int): void
+2026-08-11 23:21:44.730 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getCountry_5669867563
+2026-08-11 23:21:44.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::setId(int): void
+2026-08-11 23:21:44.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::setId(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -68,9 +68,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:01.319 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setId_16063738524
-2026-06-29 01:42:01.319 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::setName(java/lang/String): void
-2026-06-29 01:42:01.319 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::setName(java/lang/String): void
+2026-08-11 23:21:44.828 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setId_16063738524
+2026-08-11 23:21:44.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::setName(java/lang/String): void
+2026-08-11 23:21:44.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::setName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -80,9 +80,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:01.384 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setName_1019697855
-2026-06-29 01:42:01.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::setCountry(com/fatihhernn/ecommerce/entities/Country): void
-2026-06-29 01:42:01.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::setCountry(com/fatihhernn/ecommerce/entities/Country): void
+2026-08-11 23:21:44.902 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setName_1019697855
+2026-08-11 23:21:44.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::setCountry(com/fatihhernn/ecommerce/entities/Country): void
+2026-08-11 23:21:44.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::setCountry(com/fatihhernn/ecommerce/entities/Country): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -92,9 +92,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:01.465 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setCountry_11150352406
-2026-06-29 01:42:01.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::equals(java/lang/Object): bool
-2026-06-29 01:42:01.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::equals(java/lang/Object): bool
+2026-08-11 23:21:44.985 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setCountry_11150352406
+2026-08-11 23:21:44.986 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::equals(java/lang/Object): bool
+2026-08-11 23:21:44.986 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::equals(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -209,18 +209,18 @@
 %bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %if.else3, %goto0, %goto1, %if.then7
 	%retval1 = phi {%if.else0 -> 1; %if.else1 -> 0; %if.else2 -> 0; %if.else3 -> 0; %goto0 -> 0; %goto1 -> 0; %if.then7 -> 1}
 	return %retval1
-2026-06-29 01:42:01.541 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_equals_2693577517
-2026-06-29 01:42:01.542 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::canEqual(java/lang/Object): bool
-2026-06-29 01:42:01.542 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::canEqual(java/lang/Object): bool
+2026-08-11 23:21:45.076 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_equals_2693577517
+2026-08-11 23:21:45.077 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::canEqual(java/lang/Object): bool
+2026-08-11 23:21:45.077 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::canEqual(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	%1 = arg$0 instanceOf com/fatihhernn/ecommerce/entities/State
 	return %1
-2026-06-29 01:42:01.623 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_canEqual_10735203808
-2026-06-29 01:42:01.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::hashCode(): int
-2026-06-29 01:42:01.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::hashCode(): int
+2026-08-11 23:21:45.141 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_canEqual_10735203808
+2026-08-11 23:21:45.141 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::hashCode(): int
+2026-08-11 23:21:45.142 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::hashCode(): int
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -268,9 +268,9 @@
 	%29 = phi {%if.else1 -> 43; %if.then1 -> %26}
 	%31 = %28 + %29
 	return %31
-2026-06-29 01:42:01.677 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_hashCode_1793289249
-2026-06-29 01:42:01.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::toString(): java/lang/String
-2026-06-29 01:42:01.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::toString(): java/lang/String
+2026-08-11 23:21:45.209 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_hashCode_1793289249
+2026-08-11 23:21:45.210 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/State::toString(): java/lang/String
+2026-08-11 23:21:45.210 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/State::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -296,42 +296,42 @@
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-29 01:42:01.738 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_toString_69008861410
-2026-06-29 01:42:01.782 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_init_123554446511
-2026-06-29 01:42:01.826 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getId_45736298212
-2026-06-29 01:42:01.887 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getName_182184635313
-2026-06-29 01:42:01.929 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getCountry_56698675614
-2026-06-29 01:42:01.973 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setId_160637385215
-2026-06-29 01:42:02.014 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setName_10196978516
-2026-06-29 01:42:02.053 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setCountry_111503524017
-2026-06-29 01:42:02.095 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_equals_26935775118
-2026-06-29 01:42:02.136 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_canEqual_107352038019
-2026-06-29 01:42:02.185 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_hashCode_17932892420
-2026-06-29 01:42:02.225 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_toString_69008861421
-2026-06-29 01:42:02.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::<init>(): void: null
-2026-06-29 01:42:02.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::getId(): int: null
-2026-06-29 01:42:02.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::getName(): java/lang/String: null
-2026-06-29 01:42:02.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::getCountry(): com/fatihhernn/ecommerce/entities/Country: null
-2026-06-29 01:42:02.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::setId(int): void: null
-2026-06-29 01:42:02.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::setName(java/lang/String): void: null
-2026-06-29 01:42:02.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::setCountry(com/fatihhernn/ecommerce/entities/Country): void: null
-2026-06-29 01:42:02.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::equals(java/lang/Object): bool: null
-2026-06-29 01:42:02.227 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::canEqual(java/lang/Object): bool: null
-2026-06-29 01:42:02.227 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::hashCode(): int: null
-2026-06-29 01:42:02.227 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::toString(): java/lang/String: null
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::<init>(): void processing is finished normally
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::getId(): int processing is finished normally
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::getName(): java/lang/String processing is finished normally
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::getCountry(): com/fatihhernn/ecommerce/entities/Country processing is finished normally
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::setId(int): void processing is finished normally
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::setName(java/lang/String): void processing is finished normally
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::setCountry(com/fatihhernn/ecommerce/entities/Country): void processing is finished normally
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::equals(java/lang/Object): bool processing is finished normally
-2026-06-29 01:42:02.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::canEqual(java/lang/Object): bool processing is finished normally
-2026-06-29 01:42:02.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::hashCode(): int processing is finished normally
-2026-06-29 01:42:02.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::toString(): java/lang/String processing is finished normally
-2026-06-29 01:42:02.231 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::<init>(): void
-2026-06-29 01:42:02.231 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::<init>(): void
+2026-08-11 23:21:45.266 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_toString_69008861410
+2026-08-11 23:21:45.333 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_init_123554446511
+2026-08-11 23:21:45.379 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getId_45736298212
+2026-08-11 23:21:45.423 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getName_182184635313
+2026-08-11 23:21:45.464 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_getCountry_56698675614
+2026-08-11 23:21:45.507 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setId_160637385215
+2026-08-11 23:21:45.549 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setName_10196978516
+2026-08-11 23:21:45.595 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_setCountry_111503524017
+2026-08-11 23:21:45.639 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_equals_26935775118
+2026-08-11 23:21:45.683 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_canEqual_107352038019
+2026-08-11 23:21:45.725 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_hashCode_17932892420
+2026-08-11 23:21:45.771 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.State_toString_69008861421
+2026-08-11 23:21:45.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::<init>(): void: null
+2026-08-11 23:21:45.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::getId(): int: null
+2026-08-11 23:21:45.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::getName(): java/lang/String: null
+2026-08-11 23:21:45.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::getCountry(): com/fatihhernn/ecommerce/entities/Country: null
+2026-08-11 23:21:45.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::setId(int): void: null
+2026-08-11 23:21:45.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::setName(java/lang/String): void: null
+2026-08-11 23:21:45.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::setCountry(com/fatihhernn/ecommerce/entities/Country): void: null
+2026-08-11 23:21:45.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::equals(java/lang/Object): bool: null
+2026-08-11 23:21:45.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::canEqual(java/lang/Object): bool: null
+2026-08-11 23:21:45.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::hashCode(): int: null
+2026-08-11 23:21:45.773 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/State::toString(): java/lang/String: null
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::<init>(): void processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::getId(): int processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::getName(): java/lang/String processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::getCountry(): com/fatihhernn/ecommerce/entities/Country processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::setId(int): void processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::setName(java/lang/String): void processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::setCountry(com/fatihhernn/ecommerce/entities/Country): void processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::canEqual(java/lang/Object): bool processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::hashCode(): int processing is finished normally
+2026-08-11 23:21:45.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/State::toString(): java/lang/String processing is finished normally
+2026-08-11 23:21:45.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::<init>(): void
+2026-08-11 23:21:45.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -341,9 +341,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:02.269 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_init_20188657410
-2026-06-29 01:42:02.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::getId(): java/lang/Long
-2026-06-29 01:42:02.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::getId(): java/lang/Long
+2026-08-11 23:21:45.829 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_init_20188657410
+2026-08-11 23:21:45.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::getId(): java/lang/Long
+2026-08-11 23:21:45.830 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::getId(): java/lang/Long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -353,9 +353,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:02.317 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getId_10374790581
-2026-06-29 01:42:02.318 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::getCategoryName(): java/lang/String
-2026-06-29 01:42:02.318 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::getCategoryName(): java/lang/String
+2026-08-11 23:21:45.893 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getId_10374790581
+2026-08-11 23:21:45.894 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::getCategoryName(): java/lang/String
+2026-08-11 23:21:45.894 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::getCategoryName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -365,9 +365,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:02.368 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getCategoryName_21295000152
-2026-06-29 01:42:02.369 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::getProducts(): java/util/Set
-2026-06-29 01:42:02.369 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::getProducts(): java/util/Set
+2026-08-11 23:21:45.952 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getCategoryName_21295000152
+2026-08-11 23:21:45.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::getProducts(): java/util/Set
+2026-08-11 23:21:45.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::getProducts(): java/util/Set
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -377,9 +377,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:02.418 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getProducts_13942488413
-2026-06-29 01:42:02.419 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::setId(java/lang/Long): void
-2026-06-29 01:42:02.419 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::setId(java/lang/Long): void
+2026-08-11 23:21:46.009 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getProducts_13942488413
+2026-08-11 23:21:46.009 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::setId(java/lang/Long): void
+2026-08-11 23:21:46.009 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::setId(java/lang/Long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -389,9 +389,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:02.484 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setId_14675208164
-2026-06-29 01:42:02.485 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::setCategoryName(java/lang/String): void
-2026-06-29 01:42:02.485 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::setCategoryName(java/lang/String): void
+2026-08-11 23:21:46.066 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setId_14675208164
+2026-08-11 23:21:46.066 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::setCategoryName(java/lang/String): void
+2026-08-11 23:21:46.066 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::setCategoryName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -401,9 +401,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:02.537 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setCategoryName_11351591915
-2026-06-29 01:42:02.537 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::setProducts(java/util/Set): void
-2026-06-29 01:42:02.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::setProducts(java/util/Set): void
+2026-08-11 23:21:46.121 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setCategoryName_11351591915
+2026-08-11 23:21:46.122 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/ProductCategory::setProducts(java/util/Set): void
+2026-08-11 23:21:46.122 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/ProductCategory::setProducts(java/util/Set): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -413,30 +413,30 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:02.607 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setProducts_9382430796
-2026-06-29 01:42:02.664 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_init_20188657417
-2026-06-29 01:42:02.703 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getId_10374790588
-2026-06-29 01:42:02.742 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getCategoryName_21295000159
-2026-06-29 01:42:02.778 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getProducts_139424884110
-2026-06-29 01:42:02.812 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setId_146752081611
-2026-06-29 01:42:02.845 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setCategoryName_113515919112
-2026-06-29 01:42:02.879 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setProducts_93824307913
-2026-06-29 01:42:02.879 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::<init>(): void: null
-2026-06-29 01:42:02.879 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::getId(): java/lang/Long: null
-2026-06-29 01:42:02.880 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::getCategoryName(): java/lang/String: null
-2026-06-29 01:42:02.880 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::getProducts(): java/util/Set: null
-2026-06-29 01:42:02.880 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::setId(java/lang/Long): void: null
-2026-06-29 01:42:02.880 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::setCategoryName(java/lang/String): void: null
-2026-06-29 01:42:02.880 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::setProducts(java/util/Set): void: null
-2026-06-29 01:42:02.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::<init>(): void processing is finished normally
-2026-06-29 01:42:02.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::getId(): java/lang/Long processing is finished normally
-2026-06-29 01:42:02.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::getCategoryName(): java/lang/String processing is finished normally
-2026-06-29 01:42:02.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::getProducts(): java/util/Set processing is finished normally
-2026-06-29 01:42:02.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::setId(java/lang/Long): void processing is finished normally
-2026-06-29 01:42:02.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::setCategoryName(java/lang/String): void processing is finished normally
-2026-06-29 01:42:02.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::setProducts(java/util/Set): void processing is finished normally
-2026-06-29 01:42:02.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::<init>(): void
-2026-06-29 01:42:02.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::<init>(): void
+2026-08-11 23:21:46.200 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setProducts_9382430796
+2026-08-11 23:21:46.250 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_init_20188657417
+2026-08-11 23:21:46.288 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getId_10374790588
+2026-08-11 23:21:46.325 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getCategoryName_21295000159
+2026-08-11 23:21:46.364 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_getProducts_139424884110
+2026-08-11 23:21:46.401 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setId_146752081611
+2026-08-11 23:21:46.439 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setCategoryName_113515919112
+2026-08-11 23:21:46.491 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.ProductCategory_setProducts_93824307913
+2026-08-11 23:21:46.491 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::<init>(): void: null
+2026-08-11 23:21:46.491 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::getId(): java/lang/Long: null
+2026-08-11 23:21:46.492 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::getCategoryName(): java/lang/String: null
+2026-08-11 23:21:46.492 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::getProducts(): java/util/Set: null
+2026-08-11 23:21:46.492 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::setId(java/lang/Long): void: null
+2026-08-11 23:21:46.492 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::setCategoryName(java/lang/String): void: null
+2026-08-11 23:21:46.492 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/ProductCategory::setProducts(java/util/Set): void: null
+2026-08-11 23:21:46.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::<init>(): void processing is finished normally
+2026-08-11 23:21:46.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::getId(): java/lang/Long processing is finished normally
+2026-08-11 23:21:46.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::getCategoryName(): java/lang/String processing is finished normally
+2026-08-11 23:21:46.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::getProducts(): java/util/Set processing is finished normally
+2026-08-11 23:21:46.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::setId(java/lang/Long): void processing is finished normally
+2026-08-11 23:21:46.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::setCategoryName(java/lang/String): void processing is finished normally
+2026-08-11 23:21:46.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/ProductCategory::setProducts(java/util/Set): void processing is finished normally
+2026-08-11 23:21:46.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::<init>(): void
+2026-08-11 23:21:46.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -446,9 +446,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:02.936 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_init_8192186710
-2026-06-29 01:42:02.936 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getId(): java/lang/Long
-2026-06-29 01:42:02.936 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getId(): java/lang/Long
+2026-08-11 23:21:46.563 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_init_8192186710
+2026-08-11 23:21:46.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getId(): java/lang/Long
+2026-08-11 23:21:46.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getId(): java/lang/Long
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -458,9 +458,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:02.977 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getId_1621680121
-2026-06-29 01:42:02.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getCategory(): com/fatihhernn/ecommerce/entities/ProductCategory
-2026-06-29 01:42:02.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getCategory(): com/fatihhernn/ecommerce/entities/ProductCategory
+2026-08-11 23:21:46.606 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getId_1621680121
+2026-08-11 23:21:46.606 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getCategory(): com/fatihhernn/ecommerce/entities/ProductCategory
+2026-08-11 23:21:46.606 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getCategory(): com/fatihhernn/ecommerce/entities/ProductCategory
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -470,9 +470,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.017 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getCategory_21039916012
-2026-06-29 01:42:03.018 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getSku(): java/lang/String
-2026-06-29 01:42:03.018 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getSku(): java/lang/String
+2026-08-11 23:21:46.649 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getCategory_21039916012
+2026-08-11 23:21:46.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getSku(): java/lang/String
+2026-08-11 23:21:46.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getSku(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -482,9 +482,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.059 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getSku_833703133
-2026-06-29 01:42:03.060 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getName(): java/lang/String
-2026-06-29 01:42:03.060 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getName(): java/lang/String
+2026-08-11 23:21:46.690 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getSku_833703133
+2026-08-11 23:21:46.691 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getName(): java/lang/String
+2026-08-11 23:21:46.691 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -494,9 +494,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.100 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getName_14055205594
-2026-06-29 01:42:03.101 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getDescription(): java/lang/String
-2026-06-29 01:42:03.101 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getDescription(): java/lang/String
+2026-08-11 23:21:46.734 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getName_14055205594
+2026-08-11 23:21:46.735 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getDescription(): java/lang/String
+2026-08-11 23:21:46.735 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getDescription(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -506,9 +506,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.142 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getDescription_16970874465
-2026-06-29 01:42:03.143 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getUnitPrice(): java/math/BigDecimal
-2026-06-29 01:42:03.143 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getUnitPrice(): java/math/BigDecimal
+2026-08-11 23:21:46.777 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getDescription_16970874465
+2026-08-11 23:21:46.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getUnitPrice(): java/math/BigDecimal
+2026-08-11 23:21:46.777 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getUnitPrice(): java/math/BigDecimal
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -518,9 +518,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.186 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getUnitPrice_8925770296
-2026-06-29 01:42:03.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getImageUrl(): java/lang/String
-2026-06-29 01:42:03.187 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getImageUrl(): java/lang/String
+2026-08-11 23:21:46.818 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getUnitPrice_8925770296
+2026-08-11 23:21:46.819 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getImageUrl(): java/lang/String
+2026-08-11 23:21:46.819 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getImageUrl(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -530,9 +530,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.227 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getImageUrl_4964484107
-2026-06-29 01:42:03.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::isActive(): bool
-2026-06-29 01:42:03.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::isActive(): bool
+2026-08-11 23:21:46.860 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getImageUrl_4964484107
+2026-08-11 23:21:46.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::isActive(): bool
+2026-08-11 23:21:46.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::isActive(): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -542,9 +542,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.275 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_isActive_18801429398
-2026-06-29 01:42:03.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getUnitsInStock(): int
-2026-06-29 01:42:03.276 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getUnitsInStock(): int
+2026-08-11 23:21:46.907 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_isActive_18801429398
+2026-08-11 23:21:46.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getUnitsInStock(): int
+2026-08-11 23:21:46.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getUnitsInStock(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -554,9 +554,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.325 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getUnitsInStock_5210330539
-2026-06-29 01:42:03.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getDateCreated(): java/util/Date
-2026-06-29 01:42:03.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getDateCreated(): java/util/Date
+2026-08-11 23:21:46.961 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getUnitsInStock_5210330539
+2026-08-11 23:21:46.961 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getDateCreated(): java/util/Date
+2026-08-11 23:21:46.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getDateCreated(): java/util/Date
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -566,9 +566,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.366 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getDateCreated_108858130910
-2026-06-29 01:42:03.367 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getLastUpdated(): java/util/Date
-2026-06-29 01:42:03.367 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getLastUpdated(): java/util/Date
+2026-08-11 23:21:47.009 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getDateCreated_108858130910
+2026-08-11 23:21:47.010 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::getLastUpdated(): java/util/Date
+2026-08-11 23:21:47.010 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::getLastUpdated(): java/util/Date
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -578,9 +578,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:03.407 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getLastUpdated_66199298411
-2026-06-29 01:42:03.408 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setId(java/lang/Long): void
-2026-06-29 01:42:03.408 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setId(java/lang/Long): void
+2026-08-11 23:21:47.057 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getLastUpdated_66199298411
+2026-08-11 23:21:47.058 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setId(java/lang/Long): void
+2026-08-11 23:21:47.058 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setId(java/lang/Long): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -590,9 +590,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.447 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setId_26787374612
-2026-06-29 01:42:03.448 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setCategory(com/fatihhernn/ecommerce/entities/ProductCategory): void
-2026-06-29 01:42:03.448 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setCategory(com/fatihhernn/ecommerce/entities/ProductCategory): void
+2026-08-11 23:21:47.113 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setId_26787374612
+2026-08-11 23:21:47.114 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setCategory(com/fatihhernn/ecommerce/entities/ProductCategory): void
+2026-08-11 23:21:47.114 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setCategory(com/fatihhernn/ecommerce/entities/ProductCategory): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -602,9 +602,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.492 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setCategory_64573191913
-2026-06-29 01:42:03.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setSku(java/lang/String): void
-2026-06-29 01:42:03.492 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setSku(java/lang/String): void
+2026-08-11 23:21:47.160 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setCategory_64573191913
+2026-08-11 23:21:47.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setSku(java/lang/String): void
+2026-08-11 23:21:47.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setSku(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -614,9 +614,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.535 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setSku_129001087114
-2026-06-29 01:42:03.535 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setName(java/lang/String): void
-2026-06-29 01:42:03.535 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setName(java/lang/String): void
+2026-08-11 23:21:47.197 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setSku_129001087114
+2026-08-11 23:21:47.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setName(java/lang/String): void
+2026-08-11 23:21:47.198 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -626,9 +626,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.572 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setName_31435600915
-2026-06-29 01:42:03.573 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setDescription(java/lang/String): void
-2026-06-29 01:42:03.573 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setDescription(java/lang/String): void
+2026-08-11 23:21:47.248 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setName_31435600915
+2026-08-11 23:21:47.249 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setDescription(java/lang/String): void
+2026-08-11 23:21:47.249 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setDescription(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -638,9 +638,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.612 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setDescription_180013826216
-2026-06-29 01:42:03.612 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setUnitPrice(java/math/BigDecimal): void
-2026-06-29 01:42:03.612 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setUnitPrice(java/math/BigDecimal): void
+2026-08-11 23:21:47.286 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setDescription_180013826216
+2026-08-11 23:21:47.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setUnitPrice(java/math/BigDecimal): void
+2026-08-11 23:21:47.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setUnitPrice(java/math/BigDecimal): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -650,9 +650,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.648 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setUnitPrice_59487757517
-2026-06-29 01:42:03.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setImageUrl(java/lang/String): void
-2026-06-29 01:42:03.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setImageUrl(java/lang/String): void
+2026-08-11 23:21:47.329 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setUnitPrice_59487757517
+2026-08-11 23:21:47.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setImageUrl(java/lang/String): void
+2026-08-11 23:21:47.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setImageUrl(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -662,9 +662,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.682 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setImageUrl_108989403018
-2026-06-29 01:42:03.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setActive(bool): void
-2026-06-29 01:42:03.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setActive(bool): void
+2026-08-11 23:21:47.365 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setImageUrl_108989403018
+2026-08-11 23:21:47.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setActive(bool): void
+2026-08-11 23:21:47.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setActive(bool): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -674,9 +674,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.718 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setActive_37139271319
-2026-06-29 01:42:03.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setUnitsInStock(int): void
-2026-06-29 01:42:03.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setUnitsInStock(int): void
+2026-08-11 23:21:47.400 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setActive_37139271319
+2026-08-11 23:21:47.400 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setUnitsInStock(int): void
+2026-08-11 23:21:47.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setUnitsInStock(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -686,9 +686,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.755 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setUnitsInStock_145755861920
-2026-06-29 01:42:03.756 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setDateCreated(java/util/Date): void
-2026-06-29 01:42:03.756 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setDateCreated(java/util/Date): void
+2026-08-11 23:21:47.435 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setUnitsInStock_145755861920
+2026-08-11 23:21:47.436 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setDateCreated(java/util/Date): void
+2026-08-11 23:21:47.436 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setDateCreated(java/util/Date): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -698,9 +698,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.791 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setDateCreated_34470910921
-2026-06-29 01:42:03.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setLastUpdated(java/util/Date): void
-2026-06-29 01:42:03.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setLastUpdated(java/util/Date): void
+2026-08-11 23:21:47.471 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setDateCreated_34470910921
+2026-08-11 23:21:47.471 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::setLastUpdated(java/util/Date): void
+2026-08-11 23:21:47.471 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::setLastUpdated(java/util/Date): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -710,9 +710,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:03.826 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setLastUpdated_209528340222
-2026-06-29 01:42:03.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::equals(java/lang/Object): bool
-2026-06-29 01:42:03.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::equals(java/lang/Object): bool
+2026-08-11 23:21:47.509 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setLastUpdated_209528340222
+2026-08-11 23:21:47.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::equals(java/lang/Object): bool
+2026-08-11 23:21:47.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::equals(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1052,18 +1052,18 @@
 %bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %if.else3, %if.else4, %goto0, %goto1, %goto2, %goto3, %goto4, %goto5, %goto6, %goto7, %goto8, %if.then22
 	%retval1 = phi {%if.else0 -> 1; %if.else1 -> 0; %if.else2 -> 0; %if.else3 -> 0; %if.else4 -> 0; %goto0 -> 0; %goto1 -> 0; %goto2 -> 0; %goto3 -> 0; %goto4 -> 0; %goto5 -> 0; %goto6 -> 0; %goto7 -> 0; %goto8 -> 0; %if.then22 -> 1}
 	return %retval1
-2026-06-29 01:42:03.863 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_equals_68568354523
-2026-06-29 01:42:03.863 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::canEqual(java/lang/Object): bool
-2026-06-29 01:42:03.863 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::canEqual(java/lang/Object): bool
+2026-08-11 23:21:47.546 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_equals_68568354523
+2026-08-11 23:21:47.547 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::canEqual(java/lang/Object): bool
+2026-08-11 23:21:47.547 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::canEqual(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	%1 = arg$0 instanceOf com/fatihhernn/ecommerce/entities/Product
 	return %1
-2026-06-29 01:42:03.898 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_canEqual_148984617424
-2026-06-29 01:42:03.898 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::hashCode(): int
-2026-06-29 01:42:03.899 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::hashCode(): int
+2026-08-11 23:21:47.581 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_canEqual_148984617424
+2026-08-11 23:21:47.582 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::hashCode(): int
+2026-08-11 23:21:47.582 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::hashCode(): int
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -1254,9 +1254,9 @@
 	%130 = phi {%if.else9 -> 43; %if.then9 -> %127}
 	%132 = %129 + %130
 	return %132
-2026-06-29 01:42:03.934 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_hashCode_23699687025
-2026-06-29 01:42:03.935 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::toString(): java/lang/String
-2026-06-29 01:42:03.935 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::toString(): java/lang/String
+2026-08-11 23:21:47.621 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_hashCode_23699687025
+2026-08-11 23:21:47.622 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Product::toString(): java/lang/String
+2026-08-11 23:21:47.622 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Product::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1326,90 +1326,90 @@
 
 %bb16: 	//predecessors %bb15
 	return %31
-2026-06-29 01:42:03.970 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_toString_27376282026
-2026-06-29 01:42:03.999 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_init_81921867127
-2026-06-29 01:42:04.030 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getId_16216801228
-2026-06-29 01:42:04.060 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getCategory_210399160129
-2026-06-29 01:42:04.090 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getSku_8337031330
-2026-06-29 01:42:04.119 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getName_140552055931
-2026-06-29 01:42:04.148 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getDescription_169708744632
-2026-06-29 01:42:04.176 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getUnitPrice_89257702933
-2026-06-29 01:42:04.205 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getImageUrl_49644841034
-2026-06-29 01:42:04.253 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_isActive_188014293935
-2026-06-29 01:42:04.281 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getUnitsInStock_52103305336
-2026-06-29 01:42:04.308 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getDateCreated_108858130937
-2026-06-29 01:42:04.336 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getLastUpdated_66199298438
-2026-06-29 01:42:04.366 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setId_26787374639
-2026-06-29 01:42:04.395 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setCategory_64573191940
-2026-06-29 01:42:04.432 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setSku_129001087141
-2026-06-29 01:42:04.473 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setName_31435600942
-2026-06-29 01:42:04.502 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setDescription_180013826243
-2026-06-29 01:42:04.531 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setUnitPrice_59487757544
-2026-06-29 01:42:04.559 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setImageUrl_108989403045
-2026-06-29 01:42:04.588 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setActive_37139271346
-2026-06-29 01:42:04.617 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setUnitsInStock_145755861947
-2026-06-29 01:42:04.646 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setDateCreated_34470910948
-2026-06-29 01:42:04.675 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setLastUpdated_209528340249
-2026-06-29 01:42:04.703 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_equals_68568354550
-2026-06-29 01:42:04.731 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_canEqual_148984617451
-2026-06-29 01:42:04.758 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_hashCode_23699687052
-2026-06-29 01:42:04.786 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_toString_27376282053
-2026-06-29 01:42:04.787 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::<init>(): void: null
-2026-06-29 01:42:04.787 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getId(): java/lang/Long: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getCategory(): com/fatihhernn/ecommerce/entities/ProductCategory: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getSku(): java/lang/String: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getName(): java/lang/String: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getDescription(): java/lang/String: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getUnitPrice(): java/math/BigDecimal: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getImageUrl(): java/lang/String: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::isActive(): bool: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getUnitsInStock(): int: null
-2026-06-29 01:42:04.788 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getDateCreated(): java/util/Date: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getLastUpdated(): java/util/Date: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setId(java/lang/Long): void: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setCategory(com/fatihhernn/ecommerce/entities/ProductCategory): void: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setSku(java/lang/String): void: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setName(java/lang/String): void: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setDescription(java/lang/String): void: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setUnitPrice(java/math/BigDecimal): void: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setImageUrl(java/lang/String): void: null
-2026-06-29 01:42:04.789 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setActive(bool): void: null
-2026-06-29 01:42:04.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setUnitsInStock(int): void: null
-2026-06-29 01:42:04.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setDateCreated(java/util/Date): void: null
-2026-06-29 01:42:04.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setLastUpdated(java/util/Date): void: null
-2026-06-29 01:42:04.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::equals(java/lang/Object): bool: null
-2026-06-29 01:42:04.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::canEqual(java/lang/Object): bool: null
-2026-06-29 01:42:04.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::hashCode(): int: null
-2026-06-29 01:42:04.790 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::toString(): java/lang/String: null
-2026-06-29 01:42:04.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::<init>(): void processing is finished normally
-2026-06-29 01:42:04.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getId(): java/lang/Long processing is finished normally
-2026-06-29 01:42:04.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getCategory(): com/fatihhernn/ecommerce/entities/ProductCategory processing is finished normally
-2026-06-29 01:42:04.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getSku(): java/lang/String processing is finished normally
-2026-06-29 01:42:04.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getName(): java/lang/String processing is finished normally
-2026-06-29 01:42:04.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getDescription(): java/lang/String processing is finished normally
-2026-06-29 01:42:04.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getUnitPrice(): java/math/BigDecimal processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getImageUrl(): java/lang/String processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::isActive(): bool processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getUnitsInStock(): int processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getDateCreated(): java/util/Date processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getLastUpdated(): java/util/Date processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setId(java/lang/Long): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setCategory(com/fatihhernn/ecommerce/entities/ProductCategory): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setSku(java/lang/String): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setName(java/lang/String): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setDescription(java/lang/String): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setUnitPrice(java/math/BigDecimal): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setImageUrl(java/lang/String): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setActive(bool): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setUnitsInStock(int): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setDateCreated(java/util/Date): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setLastUpdated(java/util/Date): void processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::equals(java/lang/Object): bool processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::canEqual(java/lang/Object): bool processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::hashCode(): int processing is finished normally
-2026-06-29 01:42:04.791 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::toString(): java/lang/String processing is finished normally
-2026-06-29 01:42:04.794 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::<init>(): void
-2026-06-29 01:42:04.794 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::<init>(): void
+2026-08-11 23:21:47.655 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_toString_27376282026
+2026-08-11 23:21:47.685 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_init_81921867127
+2026-08-11 23:21:47.716 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getId_16216801228
+2026-08-11 23:21:47.742 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getCategory_210399160129
+2026-08-11 23:21:47.772 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getSku_8337031330
+2026-08-11 23:21:47.801 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getName_140552055931
+2026-08-11 23:21:47.833 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getDescription_169708744632
+2026-08-11 23:21:47.862 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getUnitPrice_89257702933
+2026-08-11 23:21:47.893 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getImageUrl_49644841034
+2026-08-11 23:21:47.926 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_isActive_188014293935
+2026-08-11 23:21:47.956 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getUnitsInStock_52103305336
+2026-08-11 23:21:47.984 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getDateCreated_108858130937
+2026-08-11 23:21:48.010 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_getLastUpdated_66199298438
+2026-08-11 23:21:48.038 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setId_26787374639
+2026-08-11 23:21:48.064 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setCategory_64573191940
+2026-08-11 23:21:48.091 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setSku_129001087141
+2026-08-11 23:21:48.121 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setName_31435600942
+2026-08-11 23:21:48.150 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setDescription_180013826243
+2026-08-11 23:21:48.183 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setUnitPrice_59487757544
+2026-08-11 23:21:48.217 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setImageUrl_108989403045
+2026-08-11 23:21:48.254 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setActive_37139271346
+2026-08-11 23:21:48.279 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setUnitsInStock_145755861947
+2026-08-11 23:21:48.307 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setDateCreated_34470910948
+2026-08-11 23:21:48.340 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_setLastUpdated_209528340249
+2026-08-11 23:21:48.373 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_equals_68568354550
+2026-08-11 23:21:48.401 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_canEqual_148984617451
+2026-08-11 23:21:48.426 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_hashCode_23699687052
+2026-08-11 23:21:48.451 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Product_toString_27376282053
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::<init>(): void: null
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getId(): java/lang/Long: null
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getCategory(): com/fatihhernn/ecommerce/entities/ProductCategory: null
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getSku(): java/lang/String: null
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getName(): java/lang/String: null
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getDescription(): java/lang/String: null
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getUnitPrice(): java/math/BigDecimal: null
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getImageUrl(): java/lang/String: null
+2026-08-11 23:21:48.452 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::isActive(): bool: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getUnitsInStock(): int: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getDateCreated(): java/util/Date: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::getLastUpdated(): java/util/Date: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setId(java/lang/Long): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setCategory(com/fatihhernn/ecommerce/entities/ProductCategory): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setSku(java/lang/String): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setName(java/lang/String): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setDescription(java/lang/String): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setUnitPrice(java/math/BigDecimal): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setImageUrl(java/lang/String): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setActive(bool): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setUnitsInStock(int): void: null
+2026-08-11 23:21:48.453 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setDateCreated(java/util/Date): void: null
+2026-08-11 23:21:48.454 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::setLastUpdated(java/util/Date): void: null
+2026-08-11 23:21:48.454 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::equals(java/lang/Object): bool: null
+2026-08-11 23:21:48.454 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::canEqual(java/lang/Object): bool: null
+2026-08-11 23:21:48.454 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::hashCode(): int: null
+2026-08-11 23:21:48.454 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Product::toString(): java/lang/String: null
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::<init>(): void processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getId(): java/lang/Long processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getCategory(): com/fatihhernn/ecommerce/entities/ProductCategory processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getSku(): java/lang/String processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getName(): java/lang/String processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getDescription(): java/lang/String processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getUnitPrice(): java/math/BigDecimal processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getImageUrl(): java/lang/String processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::isActive(): bool processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getUnitsInStock(): int processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getDateCreated(): java/util/Date processing is finished normally
+2026-08-11 23:21:48.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::getLastUpdated(): java/util/Date processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setId(java/lang/Long): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setCategory(com/fatihhernn/ecommerce/entities/ProductCategory): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setSku(java/lang/String): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setName(java/lang/String): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setDescription(java/lang/String): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setUnitPrice(java/math/BigDecimal): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setImageUrl(java/lang/String): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setActive(bool): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setUnitsInStock(int): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setDateCreated(java/util/Date): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::setLastUpdated(java/util/Date): void processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::canEqual(java/lang/Object): bool processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::hashCode(): int processing is finished normally
+2026-08-11 23:21:48.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Product::toString(): java/lang/String processing is finished normally
+2026-08-11 23:21:48.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::<init>(): void
+2026-08-11 23:21:48.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1419,9 +1419,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:04.823 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_init_1874653980
-2026-06-29 01:42:04.824 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::getId(): int
-2026-06-29 01:42:04.824 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::getId(): int
+2026-08-11 23:21:48.486 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_init_1874653980
+2026-08-11 23:21:48.486 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::getId(): int
+2026-08-11 23:21:48.486 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::getId(): int
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1431,9 +1431,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:04.857 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getId_5907160851
-2026-06-29 01:42:04.858 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::getCode(): java/lang/String
-2026-06-29 01:42:04.858 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::getCode(): java/lang/String
+2026-08-11 23:21:48.521 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getId_5907160851
+2026-08-11 23:21:48.521 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::getCode(): java/lang/String
+2026-08-11 23:21:48.521 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::getCode(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1443,9 +1443,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:04.892 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getCode_10760267722
-2026-06-29 01:42:04.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::getName(): java/lang/String
-2026-06-29 01:42:04.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::getName(): java/lang/String
+2026-08-11 23:21:48.555 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getCode_10760267722
+2026-08-11 23:21:48.555 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::getName(): java/lang/String
+2026-08-11 23:21:48.555 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::getName(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1455,9 +1455,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:04.926 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getName_7737672863
-2026-06-29 01:42:04.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::getStates(): java/util/List
-2026-06-29 01:42:04.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::getStates(): java/util/List
+2026-08-11 23:21:48.587 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getName_7737672863
+2026-08-11 23:21:48.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::getStates(): java/util/List
+2026-08-11 23:21:48.587 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::getStates(): java/util/List
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1467,9 +1467,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-29 01:42:04.957 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getStates_3624489664
-2026-06-29 01:42:04.958 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::setId(int): void
-2026-06-29 01:42:04.958 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::setId(int): void
+2026-08-11 23:21:48.617 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getStates_3624489664
+2026-08-11 23:21:48.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::setId(int): void
+2026-08-11 23:21:48.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::setId(int): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1479,9 +1479,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:04.989 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setId_16405143775
-2026-06-29 01:42:04.989 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::setCode(java/lang/String): void
-2026-06-29 01:42:04.989 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::setCode(java/lang/String): void
+2026-08-11 23:21:48.647 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setId_16405143775
+2026-08-11 23:21:48.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::setCode(java/lang/String): void
+2026-08-11 23:21:48.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::setCode(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1491,9 +1491,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:05.033 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setCode_6438497966
-2026-06-29 01:42:05.034 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::setName(java/lang/String): void
-2026-06-29 01:42:05.034 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::setName(java/lang/String): void
+2026-08-11 23:21:48.680 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setCode_6438497966
+2026-08-11 23:21:48.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::setName(java/lang/String): void
+2026-08-11 23:21:48.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::setName(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1503,9 +1503,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:05.067 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setName_9461092827
-2026-06-29 01:42:05.067 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::setStates(java/util/List): void
-2026-06-29 01:42:05.067 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::setStates(java/util/List): void
+2026-08-11 23:21:48.712 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setName_9461092827
+2026-08-11 23:21:48.713 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/fatihhernn/ecommerce/entities/Country::setStates(java/util/List): void
+2026-08-11 23:21:48.713 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/fatihhernn/ecommerce/entities/Country::setStates(java/util/List): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1515,33 +1515,33 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-29 01:42:05.099 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setStates_454963848
-2026-06-29 01:42:05.127 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_init_1874653989
-2026-06-29 01:42:05.153 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getId_59071608510
-2026-06-29 01:42:05.180 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getCode_107602677211
-2026-06-29 01:42:05.206 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getName_77376728612
-2026-06-29 01:42:05.233 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getStates_36244896613
-2026-06-29 01:42:05.261 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setId_164051437714
-2026-06-29 01:42:05.288 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setCode_64384979615
-2026-06-29 01:42:05.325 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setName_94610928216
-2026-06-29 01:42:05.363 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setStates_4549638417
-2026-06-29 01:42:05.363 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::<init>(): void: null
-2026-06-29 01:42:05.363 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::getId(): int: null
-2026-06-29 01:42:05.364 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::getCode(): java/lang/String: null
-2026-06-29 01:42:05.364 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::getName(): java/lang/String: null
-2026-06-29 01:42:05.364 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::getStates(): java/util/List: null
-2026-06-29 01:42:05.364 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::setId(int): void: null
-2026-06-29 01:42:05.364 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::setCode(java/lang/String): void: null
-2026-06-29 01:42:05.364 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::setName(java/lang/String): void: null
-2026-06-29 01:42:05.364 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::setStates(java/util/List): void: null
-2026-06-29 01:42:05.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::<init>(): void processing is finished normally
-2026-06-29 01:42:05.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::getId(): int processing is finished normally
-2026-06-29 01:42:05.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::getCode(): java/lang/String processing is finished normally
-2026-06-29 01:42:05.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::getName(): java/lang/String processing is finished normally
-2026-06-29 01:42:05.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::getStates(): java/util/List processing is finished normally
-2026-06-29 01:42:05.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::setId(int): void processing is finished normally
-2026-06-29 01:42:05.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::setCode(java/lang/String): void processing is finished normally
-2026-06-29 01:42:05.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::setName(java/lang/String): void processing is finished normally
-2026-06-29 01:42:05.365 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::setStates(java/util/List): void processing is finished normally
-2026-06-29 01:42:05.365 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-29 01:42:05.365 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 23:21:48.742 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setStates_454963848
+2026-08-11 23:21:48.768 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_init_1874653989
+2026-08-11 23:21:48.803 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getId_59071608510
+2026-08-11 23:21:48.841 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getCode_107602677211
+2026-08-11 23:21:48.873 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getName_77376728612
+2026-08-11 23:21:48.904 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_getStates_36244896613
+2026-08-11 23:21:48.930 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setId_164051437714
+2026-08-11 23:21:48.956 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setCode_64384979615
+2026-08-11 23:21:48.984 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setName_94610928216
+2026-08-11 23:21:49.009 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.fatihhernn.ecommerce.entities.Country_setStates_4549638417
+2026-08-11 23:21:49.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::<init>(): void: null
+2026-08-11 23:21:49.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::getId(): int: null
+2026-08-11 23:21:49.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::getCode(): java/lang/String: null
+2026-08-11 23:21:49.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::getName(): java/lang/String: null
+2026-08-11 23:21:49.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::getStates(): java/util/List: null
+2026-08-11 23:21:49.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::setId(int): void: null
+2026-08-11 23:21:49.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::setCode(java/lang/String): void: null
+2026-08-11 23:21:49.010 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::setName(java/lang/String): void: null
+2026-08-11 23:21:49.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/fatihhernn/ecommerce/entities/Country::setStates(java/util/List): void: null
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::<init>(): void processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::getId(): int processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::getCode(): java/lang/String processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::getName(): java/lang/String processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::getStates(): java/util/List processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::setId(int): void processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::setCode(java/lang/String): void processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::setName(java/lang/String): void processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/fatihhernn/ecommerce/entities/Country::setStates(java/util/List): void processing is finished normally
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 23:21:49.011 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -21,8 +21,8 @@ import java.lang.Integer;
 
 public class TrackUnitService_getSubmittedHoursByWeekAndProjectId_157715409612 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term3301;
-     Object term3303;
+     Object term3277;
+     Object term3279;
 
     public TrackUnitService_getSubmittedHoursByWeekAndProjectId_157715409612() {
     }
@@ -33,10 +33,10 @@ public class TrackUnitService_getSubmittedHoursByWeekAndProjectId_157715409612 {
 
     @Before
     public void setup() throws Throwable {
-        term3301 = newInstance(Class.forName("java.sql.Date"));
-        setLongField(term3301, term3301.getClass(), "fastTime", 1606045635837L);
-        setField(term3301, term3301.getClass(), "cdate", null);
-        term3303 = new Integer(-1618206977);
+        term3277 = newInstance(Class.forName("java.sql.Date"));
+        setLongField(term3277, term3277.getClass(), "fastTime", 1606045635837L);
+        setField(term3277, term3277.getClass(), "cdate", null);
+        term3279 = new Integer(-1618206977);
     }
 
     @Test
@@ -46,8 +46,8 @@ public class TrackUnitService_getSubmittedHoursByWeekAndProjectId_157715409612 {
         argTypes[0] = Class.forName("java.sql.Date");
         argTypes[1] = int.class;
         Object[] args = new Object[2];
-        args[0] = term3301;
-        args[1] = term3303;
+        args[0] = term3277;
+        args[1] = term3279;
         callMethod(klass, "getSubmittedHoursByWeekAndProjectId", argTypes, null, args);
     }
 

@@ -32,7 +32,7 @@ public class Parser_chains_91285076835 {
 
     @Before
     public void setup() throws Throwable {
-        term766 = (Object[]) newArray("java.util.function.Supplier", 10);
+        term766 = (Object[]) newArray("java.util.function.Supplier", 2);
     }
 
     @Test

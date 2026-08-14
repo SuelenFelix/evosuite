@@ -1,16 +1,16 @@
-2026-06-28 16:15:52.446 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/yoandypv_todo-api/target/classes
-2026-06-28 16:15:52.536 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 16:15:52.605 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 16:15:53.630 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 16:15:54.120 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/sacavix/todoapp/service/dto/*
-2026-06-28 16:15:54.121 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 16:15:54.138 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/yoandypv_todo-api/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 16:15:54.171 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/yoandypv_todo-api/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 43199 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/yoandypv_todo-api/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 16:15:54.185 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 16:17:34.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::<init>(): void
-2026-06-28 16:17:34.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::<init>(): void
+2026-08-11 02:47:33.967 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/yoandypv_todo-api/target/classes
+2026-08-11 02:47:34.056 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 02:47:34.124 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 02:47:34.972 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 02:47:35.590 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/sacavix/todoapp/service/dto/*
+2026-08-11 02:47:35.591 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 02:47:35.602 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/yoandypv_todo-api/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 02:47:35.634 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/yoandypv_todo-api/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 36675 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/yoandypv_todo-api/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 02:47:35.648 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 02:49:15.689 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::<init>(): void
+2026-08-11 02:49:15.690 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:17:34.683 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_init_352022220
-2026-06-28 16:17:34.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::getTitle(): java/lang/String
-2026-06-28 16:17:34.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::getTitle(): java/lang/String
+2026-08-11 02:49:16.163 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_init_352022220
+2026-08-11 02:49:16.169 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::getTitle(): java/lang/String
+2026-08-11 02:49:16.169 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::getTitle(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -32,9 +32,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 16:17:34.810 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getTitle_15350755971
-2026-06-28 16:17:34.810 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::getDescription(): java/lang/String
-2026-06-28 16:17:34.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::getDescription(): java/lang/String
+2026-08-11 02:49:16.290 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getTitle_15350755971
+2026-08-11 02:49:16.291 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::getDescription(): java/lang/String
+2026-08-11 02:49:16.291 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::getDescription(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -44,9 +44,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 16:17:34.903 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getDescription_18138634012
-2026-06-28 16:17:34.904 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::getEta(): java/time/LocalDateTime
-2026-06-28 16:17:34.904 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::getEta(): java/time/LocalDateTime
+2026-08-11 02:49:16.385 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getDescription_18138634012
+2026-08-11 02:49:16.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::getEta(): java/time/LocalDateTime
+2026-08-11 02:49:16.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::getEta(): java/time/LocalDateTime
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -56,9 +56,9 @@
 
 %bb1: 	//predecessors %bb0
 	return %1
-2026-06-28 16:17:34.977 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getEta_2420174013
-2026-06-28 16:17:34.978 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::setTitle(java/lang/String): void
-2026-06-28 16:17:34.978 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::setTitle(java/lang/String): void
+2026-08-11 02:49:16.462 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getEta_2420174013
+2026-08-11 02:49:16.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::setTitle(java/lang/String): void
+2026-08-11 02:49:16.463 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::setTitle(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -68,9 +68,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:17:35.044 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setTitle_19587440134
-2026-06-28 16:17:35.045 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::setDescription(java/lang/String): void
-2026-06-28 16:17:35.045 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::setDescription(java/lang/String): void
+2026-08-11 02:49:16.527 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setTitle_19587440134
+2026-08-11 02:49:16.528 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::setDescription(java/lang/String): void
+2026-08-11 02:49:16.528 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::setDescription(java/lang/String): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -80,9 +80,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:17:35.107 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setDescription_17108125855
-2026-06-28 16:17:35.108 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::setEta(java/time/LocalDateTime): void
-2026-06-28 16:17:35.108 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::setEta(java/time/LocalDateTime): void
+2026-08-11 02:49:16.589 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setDescription_17108125855
+2026-08-11 02:49:16.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::setEta(java/time/LocalDateTime): void
+2026-08-11 02:49:16.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::setEta(java/time/LocalDateTime): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -92,9 +92,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 16:17:35.169 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setEta_11218502736
-2026-06-28 16:17:35.169 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::equals(java/lang/Object): bool
-2026-06-28 16:17:35.170 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::equals(java/lang/Object): bool
+2026-08-11 02:49:16.661 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setEta_11218502736
+2026-08-11 02:49:16.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::equals(java/lang/Object): bool
+2026-08-11 02:49:16.662 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::equals(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -224,18 +224,18 @@
 %bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %goto0, %goto1, %goto2, %if.then8
 	%retval1 = phi {%if.else0 -> 1; %if.else1 -> 0; %if.else2 -> 0; %goto0 -> 0; %goto1 -> 0; %goto2 -> 0; %if.then8 -> 1}
 	return %retval1
-2026-06-28 16:17:35.225 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_equals_14696999947
-2026-06-28 16:17:35.226 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::canEqual(java/lang/Object): bool
-2026-06-28 16:17:35.226 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::canEqual(java/lang/Object): bool
+2026-08-11 02:49:16.729 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_equals_14696999947
+2026-08-11 02:49:16.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::canEqual(java/lang/Object): bool
+2026-08-11 02:49:16.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::canEqual(java/lang/Object): bool
 %entry0: 	//predecessors 
 	goto %bb0
 
 %bb0: 	//predecessors %entry0
 	%1 = arg$0 instanceOf com/sacavix/todoapp/service/dto/TaskInDTO
 	return %1
-2026-06-28 16:17:35.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_canEqual_20211046738
-2026-06-28 16:17:35.295 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::hashCode(): int
-2026-06-28 16:17:35.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::hashCode(): int
+2026-08-11 02:49:16.801 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_canEqual_20211046738
+2026-08-11 02:49:16.802 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::hashCode(): int
+2026-08-11 02:49:16.802 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::hashCode(): int
 %entry0: 	//predecessors 
 	goto %label0
 
@@ -295,9 +295,9 @@
 	%36 = phi {%if.else2 -> 43; %if.then2 -> %33}
 	%38 = %35 + %36
 	return %38
-2026-06-28 16:17:35.344 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_hashCode_10210133199
-2026-06-28 16:17:35.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::toString(): java/lang/String
-2026-06-28 16:17:35.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::toString(): java/lang/String
+2026-08-11 02:49:16.850 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_hashCode_10210133199
+2026-08-11 02:49:16.851 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/sacavix/todoapp/service/dto/TaskInDTO::toString(): java/lang/String
+2026-08-11 02:49:16.851 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/sacavix/todoapp/service/dto/TaskInDTO::toString(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -323,39 +323,39 @@
 
 %bb5: 	//predecessors %bb4
 	return %9
-2026-06-28 16:17:35.400 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_toString_51025362910
-2026-06-28 16:17:35.445 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_init_3520222211
-2026-06-28 16:17:35.511 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getTitle_153507559712
-2026-06-28 16:17:35.554 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getDescription_181386340113
-2026-06-28 16:17:35.598 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getEta_24201740114
-2026-06-28 16:17:35.641 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setTitle_195874401315
-2026-06-28 16:17:35.681 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setDescription_171081258516
-2026-06-28 16:17:35.720 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setEta_112185027317
-2026-06-28 16:17:35.758 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_equals_146969999418
-2026-06-28 16:17:35.808 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_canEqual_202110467319
-2026-06-28 16:17:35.847 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_hashCode_102101331920
-2026-06-28 16:17:35.887 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_toString_51025362921
-2026-06-28 16:17:35.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::<init>(): void: null
-2026-06-28 16:17:35.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::getTitle(): java/lang/String: null
-2026-06-28 16:17:35.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::getDescription(): java/lang/String: null
-2026-06-28 16:17:35.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::getEta(): java/time/LocalDateTime: null
-2026-06-28 16:17:35.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::setTitle(java/lang/String): void: null
-2026-06-28 16:17:35.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::setDescription(java/lang/String): void: null
-2026-06-28 16:17:35.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::setEta(java/time/LocalDateTime): void: null
-2026-06-28 16:17:35.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::equals(java/lang/Object): bool: null
-2026-06-28 16:17:35.889 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::canEqual(java/lang/Object): bool: null
-2026-06-28 16:17:35.889 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::hashCode(): int: null
-2026-06-28 16:17:35.889 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::toString(): java/lang/String: null
-2026-06-28 16:17:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::<init>(): void processing is finished normally
-2026-06-28 16:17:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::getTitle(): java/lang/String processing is finished normally
-2026-06-28 16:17:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::getDescription(): java/lang/String processing is finished normally
-2026-06-28 16:17:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::getEta(): java/time/LocalDateTime processing is finished normally
-2026-06-28 16:17:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::setTitle(java/lang/String): void processing is finished normally
-2026-06-28 16:17:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::setDescription(java/lang/String): void processing is finished normally
-2026-06-28 16:17:35.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::setEta(java/time/LocalDateTime): void processing is finished normally
-2026-06-28 16:17:35.890 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::equals(java/lang/Object): bool processing is finished normally
-2026-06-28 16:17:35.890 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::canEqual(java/lang/Object): bool processing is finished normally
-2026-06-28 16:17:35.890 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::hashCode(): int processing is finished normally
-2026-06-28 16:17:35.890 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::toString(): java/lang/String processing is finished normally
-2026-06-28 16:17:35.890 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 16:17:35.890 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-11 02:49:16.902 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_toString_51025362910
+2026-08-11 02:49:16.948 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_init_3520222211
+2026-08-11 02:49:16.995 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getTitle_153507559712
+2026-08-11 02:49:17.052 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getDescription_181386340113
+2026-08-11 02:49:17.095 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_getEta_24201740114
+2026-08-11 02:49:17.138 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setTitle_195874401315
+2026-08-11 02:49:17.179 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setDescription_171081258516
+2026-08-11 02:49:17.217 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_setEta_112185027317
+2026-08-11 02:49:17.255 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_equals_146969999418
+2026-08-11 02:49:17.292 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_canEqual_202110467319
+2026-08-11 02:49:17.336 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_hashCode_102101331920
+2026-08-11 02:49:17.373 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.sacavix.todoapp.service.dto.TaskInDTO_toString_51025362921
+2026-08-11 02:49:17.373 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::<init>(): void: null
+2026-08-11 02:49:17.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::getTitle(): java/lang/String: null
+2026-08-11 02:49:17.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::getDescription(): java/lang/String: null
+2026-08-11 02:49:17.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::getEta(): java/time/LocalDateTime: null
+2026-08-11 02:49:17.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::setTitle(java/lang/String): void: null
+2026-08-11 02:49:17.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::setDescription(java/lang/String): void: null
+2026-08-11 02:49:17.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::setEta(java/time/LocalDateTime): void: null
+2026-08-11 02:49:17.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::equals(java/lang/Object): bool: null
+2026-08-11 02:49:17.374 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::canEqual(java/lang/Object): bool: null
+2026-08-11 02:49:17.375 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::hashCode(): int: null
+2026-08-11 02:49:17.375 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/sacavix/todoapp/service/dto/TaskInDTO::toString(): java/lang/String: null
+2026-08-11 02:49:17.375 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::<init>(): void processing is finished normally
+2026-08-11 02:49:17.375 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::getTitle(): java/lang/String processing is finished normally
+2026-08-11 02:49:17.375 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::getDescription(): java/lang/String processing is finished normally
+2026-08-11 02:49:17.375 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::getEta(): java/time/LocalDateTime processing is finished normally
+2026-08-11 02:49:17.375 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::setTitle(java/lang/String): void processing is finished normally
+2026-08-11 02:49:17.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::setDescription(java/lang/String): void processing is finished normally
+2026-08-11 02:49:17.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::setEta(java/time/LocalDateTime): void processing is finished normally
+2026-08-11 02:49:17.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 02:49:17.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::canEqual(java/lang/Object): bool processing is finished normally
+2026-08-11 02:49:17.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::hashCode(): int processing is finished normally
+2026-08-11 02:49:17.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/sacavix/todoapp/service/dto/TaskInDTO::toString(): java/lang/String processing is finished normally
+2026-08-11 02:49:17.376 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 02:49:17.376 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

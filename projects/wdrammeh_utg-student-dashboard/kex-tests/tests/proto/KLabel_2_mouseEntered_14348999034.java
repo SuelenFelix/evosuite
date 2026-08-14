@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class KLabel_2_mouseEntered_14348999034 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term30190;
+     Object term30223;
 
     public KLabel_2_mouseEntered_14348999034() {
     }
@@ -31,9 +31,9 @@ public class KLabel_2_mouseEntered_14348999034 {
 
     @Before
     public void setup() throws Throwable {
-        term30190 = newInstance(Class.forName("proto.KLabel$2"));
-        setField(term30190, term30190.getClass(), "val$separator", null);
-        setField(term30190, term30190.getClass(), "this$0", null);
+        term30223 = newInstance(Class.forName("proto.KLabel$2"));
+        setField(term30223, term30223.getClass(), "val$separator", null);
+        setField(term30223, term30223.getClass(), "this$0", null);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class KLabel_2_mouseEntered_14348999034 {
         argTypes[0] = Class.forName("java.awt.event.MouseEvent");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "mouseEntered", argTypes, term30190, args);
+        callMethod(klass, "mouseEntered", argTypes, term30223, args);
     }
 
 };

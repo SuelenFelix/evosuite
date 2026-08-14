@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Department_setDeptno_99319912315 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term5714;
+     Object term5723;
 
     public Department_setDeptno_99319912315() {
     }
@@ -31,11 +31,11 @@ public class Department_setDeptno_99319912315 {
 
     @Before
     public void setup() throws Throwable {
-        term5714 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
-        setField(term5714, term5714.getClass(), "deptno", null);
-        setField(term5714, term5714.getClass(), "dname", null);
-        setField(term5714, term5714.getClass(), "loc", null);
-        setField(term5714, term5714.getClass(), "employees", null);
+        term5723 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Department"));
+        setField(term5723, term5723.getClass(), "deptno", null);
+        setField(term5723, term5723.getClass(), "dname", null);
+        setField(term5723, term5723.getClass(), "loc", null);
+        setField(term5723, term5723.getClass(), "employees", null);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Department_setDeptno_99319912315 {
         argTypes[0] = Class.forName("java.lang.Integer");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setDeptno", argTypes, term5714, args);
+        callMethod(klass, "setDeptno", argTypes, term5723, args);
     }
 
 };

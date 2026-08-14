@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class NumberParsers_1_parse_7034763481 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term13;
+     Object term3094;
 
     public NumberParsers_1_parse_7034763481() {
     }
@@ -31,8 +31,8 @@ public class NumberParsers_1_parse_7034763481 {
 
     @Before
     public void setup() throws Throwable {
-        term13 = newInstance(Class.forName("io.github.janlely.jparser.parsers.NumberParsers$1"));
-        setBooleanField(term13, term13.getClass(), "ignore", false);
+        term3094 = newInstance(Class.forName("io.github.janlely.jparser.parsers.NumberParsers$1"));
+        setBooleanField(term3094, term3094.getClass(), "ignore", true);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class NumberParsers_1_parse_7034763481 {
         argTypes[0] = Class.forName("io.github.janlely.jparser.IBuffer");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "parse", argTypes, term13, args);
+        callMethod(klass, "parse", argTypes, term3094, args);
     }
 
 };

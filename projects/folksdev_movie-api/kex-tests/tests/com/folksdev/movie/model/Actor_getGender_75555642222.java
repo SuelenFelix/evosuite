@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Actor_getGender_75555642222 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34366;
+     Object term34365;
 
     public Actor_getGender_75555642222() {
     }
@@ -31,12 +31,12 @@ public class Actor_getGender_75555642222 {
 
     @Before
     public void setup() throws Throwable {
-        term34366 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        setField(term34366, term34366.getClass(), "id", null);
-        setField(term34366, term34366.getClass(), "name", null);
-        setField(term34366, term34366.getClass(), "dateOfBirth", null);
-        setField(term34366, term34366.getClass(), "gender", null);
-        setField(term34366, term34366.getClass(), "movies", null);
+        term34365 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        setField(term34365, term34365.getClass(), "id", null);
+        setField(term34365, term34365.getClass(), "name", null);
+        setField(term34365, term34365.getClass(), "dateOfBirth", null);
+        setField(term34365, term34365.getClass(), "gender", null);
+        setField(term34365, term34365.getClass(), "movies", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Actor_getGender_75555642222 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.Actor");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getGender", argTypes, term34366, args);
+        callMethod(klass, "getGender", argTypes, term34365, args);
     }
 
 };

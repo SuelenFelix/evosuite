@@ -1,16 +1,16 @@
-2026-06-28 12:18:32.471 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/FENGYU-008_ERP/target/classes
-2026-06-28 12:18:32.577 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 12:18:32.644 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
-2026-06-28 12:18:33.606 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
-2026-06-28 12:18:34.076 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/shark/erp/service/*
-2026-06-28 12:18:34.077 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
-2026-06-28 12:18:34.100 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
-/home/suelenfelix/TCC/teste/evosuite/projects/FENGYU-008_ERP/target/classes
-/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
-2026-06-28 12:18:34.132 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/FENGYU-008_ERP/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 42107 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/FENGYU-008_ERP/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
-2026-06-28 12:18:34.145 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
-2026-06-28 12:20:14.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::<init>(): void
-2026-06-28 12:20:14.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::<init>(): void
+2026-08-10 21:14:38.196 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/FENGYU-008_ERP/target/classes
+2026-08-10 21:14:38.302 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 21:14:38.371 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-10 21:14:39.423 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-10 21:14:39.879 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/shark/erp/service/*
+2026-08-10 21:14:39.880 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-10 21:14:39.903 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/FENGYU-008_ERP/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 21:14:39.933 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/FENGYU-008_ERP/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 32865 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/FENGYU-008_ERP/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-10 21:14:39.946 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-10 21:16:19.992 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::<init>(): void
+2026-08-10 21:16:19.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -20,9 +20,9 @@
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 12:20:14.656 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.GoodsService_init_2961886320
-2026-06-28 12:20:14.662 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.663 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.449 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.GoodsService_init_2961886320
+2026-08-10 21:16:20.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.456 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -97,7 +97,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:14.665 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.457 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -132,7 +132,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.666 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.458 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -167,9 +167,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.666 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.666 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.458 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -244,7 +244,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:14.667 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.459 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -279,7 +279,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.667 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.459 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -314,9 +314,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.667 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.667 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.459 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.459 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.459 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -375,7 +375,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:14.668 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.460 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -410,7 +410,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.669 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.460 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -445,9 +445,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.669 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.669 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.669 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.460 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.461 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.461 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -506,7 +506,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:14.670 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.461 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -541,7 +541,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.670 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.462 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -576,9 +576,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.670 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.670 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.670 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.462 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -641,7 +641,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb8
 	return %18
-2026-06-28 12:20:14.670 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.463 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -676,7 +676,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.671 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.463 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -711,9 +711,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.671 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.463 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.463 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.464 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -761,7 +761,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %if.then0: 	//predecessors %bb2
 	return %26
-2026-06-28 12:20:14.672 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -796,7 +796,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.672 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -831,9 +831,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.672 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.464 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.464 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -908,7 +908,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:14.673 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -943,7 +943,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.673 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -978,9 +978,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.673 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.673 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer
-2026-06-28 12:20:14.673 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer
+2026-08-10 21:16:20.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer
+2026-08-10 21:16:20.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -994,7 +994,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 12:20:14.673 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1029,7 +1029,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.674 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1064,20 +1064,20 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.674 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer: null
-2026-06-28 12:20:14.782 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.GoodsService_init_2961886321
-2026-06-28 12:20:14.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.783 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.784 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.784 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer processing is finished normally
-2026-06-28 12:20:14.784 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::<init>(): void: null
-2026-06-28 12:20:14.784 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::<init>(): void processing is finished normally
-2026-06-28 12:20:14.792 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::<init>(): void
-2026-06-28 12:20:14.793 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::<init>(): void
+2026-08-10 21:16:20.466 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer: null
+2026-08-10 21:16:20.573 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.GoodsService_init_2961886321
+2026-08-10 21:16:20.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectAllGoods(): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectGoodsByName(java/lang/String): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::insertGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::deleteGoods(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::updateGoods(com/shark/erp/entity/Goods): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectDistinctCategory(): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectGoodsByNameAndCategory(java/lang/String, java/lang/String): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::selectGoodsCounts(): java/lang/Integer processing is finished normally
+2026-08-10 21:16:20.575 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsService::<init>(): void: null
+2026-08-10 21:16:20.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsService::<init>(): void processing is finished normally
+2026-08-10 21:16:20.584 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::<init>(): void
+2026-08-10 21:16:20.584 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1087,9 +1087,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 12:20:14.882 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.OrderService_init_19413721920
-2026-06-28 12:20:14.883 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.884 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.673 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.OrderService_init_19413721920
+2026-08-10 21:16:20.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1164,7 +1164,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:14.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.674 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1199,7 +1199,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.675 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1234,9 +1234,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.884 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.885 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.675 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.675 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.675 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1315,7 +1315,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb9
 	return %29
-2026-06-28 12:20:14.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.675 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1350,7 +1350,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.675 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1385,9 +1385,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.675 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.676 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.676 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1446,7 +1446,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:14.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1481,7 +1481,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1516,9 +1516,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1577,7 +1577,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:14.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1612,7 +1612,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1647,9 +1647,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:14.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1708,7 +1708,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:14.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1743,7 +1743,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1778,9 +1778,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.888 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:14.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String
-2026-06-28 12:20:14.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String
+2026-08-10 21:16:20.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String
+2026-08-10 21:16:20.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1794,7 +1794,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb2: 	//predecessors %bb1
 	return %3
-2026-06-28 12:20:14.889 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1829,7 +1829,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.889 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -1864,18 +1864,18 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:14.889 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String: null
-2026-06-28 12:20:14.969 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.OrderService_init_19413721921
-2026-06-28 12:20:14.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:14.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String processing is finished normally
-2026-06-28 12:20:14.971 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::<init>(): void: null
-2026-06-28 12:20:14.971 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::<init>(): void processing is finished normally
-2026-06-28 12:20:14.973 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsMonitorService::<init>(): void
-2026-06-28 12:20:14.973 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsMonitorService::<init>(): void
+2026-08-10 21:16:20.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String: null
+2026-08-10 21:16:20.753 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.OrderService_init_19413721921
+2026-08-10 21:16:20.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::selectAllOrder(): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::selectOrderByCustomerId(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::insertOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::deleteOrder(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::updateOrder(com/shark/erp/entity/Order): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::selectSalesAmount(): java/lang/String processing is finished normally
+2026-08-10 21:16:20.754 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/OrderService::<init>(): void: null
+2026-08-10 21:16:20.754 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/OrderService::<init>(): void processing is finished normally
+2026-08-10 21:16:20.756 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsMonitorService::<init>(): void
+2026-08-10 21:16:20.757 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsMonitorService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1885,9 +1885,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 12:20:15.041 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.GoodsMonitorService_init_17951113100
-2026-06-28 12:20:15.041 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.041 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.828 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.GoodsMonitorService_init_17951113100
+2026-08-10 21:16:20.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -1934,7 +1934,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %label5: 	//predecessors %label4
 	return %21
-2026-06-28 12:20:15.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.830 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -1969,7 +1969,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.830 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2004,13 +2004,13 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.107 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.GoodsMonitorService_init_17951113101
-2026-06-28 12:20:15.108 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.108 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsMonitorService::<init>(): void: null
-2026-06-28 12:20:15.108 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsMonitorService::<init>(): void processing is finished normally
-2026-06-28 12:20:15.117 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::<init>(): void
-2026-06-28 12:20:15.117 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::<init>(): void
+2026-08-10 21:16:20.830 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.889 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.GoodsMonitorService_init_17951113101
+2026-08-10 21:16:20.890 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsMonitorService::selectAllGoodsMonitor(): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:20.890 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/GoodsMonitorService::<init>(): void: null
+2026-08-10 21:16:20.890 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/GoodsMonitorService::<init>(): void processing is finished normally
+2026-08-10 21:16:20.898 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::<init>(): void
+2026-08-10 21:16:20.898 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2020,9 +2020,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 12:20:15.187 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.ReturnGoodsService_init_3917917040
-2026-06-28 12:20:15.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.956 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.ReturnGoodsService_init_3917917040
+2026-08-10 21:16:20.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2097,7 +2097,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:15.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.957 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2132,7 +2132,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.958 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2167,9 +2167,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.189 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.189 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.958 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.958 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.958 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2248,7 +2248,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb9
 	return %29
-2026-06-28 12:20:15.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.958 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2283,7 +2283,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.958 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2318,9 +2318,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.189 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.189 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.958 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.958 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.959 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2379,7 +2379,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.959 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2414,7 +2414,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.959 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2449,9 +2449,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.959 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.959 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.959 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2510,7 +2510,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.960 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2545,7 +2545,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.191 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.960 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2580,9 +2580,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.191 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.960 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.960 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.960 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2641,7 +2641,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.191 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.960 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2676,7 +2676,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.191 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2711,9 +2711,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.191 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.192 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:20.961 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:20.961 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2776,7 +2776,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb8
 	return %18
-2026-06-28 12:20:15.192 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2811,7 +2811,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.192 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:20.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -2846,18 +2846,18 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.192 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.255 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.ReturnGoodsService_init_3917917041
-2026-06-28 12:20:15.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.256 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::<init>(): void: null
-2026-06-28 12:20:15.256 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::<init>(): void processing is finished normally
-2026-06-28 12:20:15.265 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::<init>(): void
-2026-06-28 12:20:15.265 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::<init>(): void
+2026-08-10 21:16:20.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.020 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.ReturnGoodsService_init_3917917041
+2026-08-10 21:16:21.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::selectAllReturnGoods(): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::selectReturnGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::insertReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::deleteReturnGoods(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::updateReturnGoods(com/shark/erp/entity/ReturnGoods): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::passReturnGoodsById(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.021 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ReturnGoodsService::<init>(): void: null
+2026-08-10 21:16:21.021 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ReturnGoodsService::<init>(): void processing is finished normally
+2026-08-10 21:16:21.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::<init>(): void
+2026-08-10 21:16:21.027 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2867,9 +2867,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 12:20:15.339 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.CustomerService_init_20726757960
-2026-06-28 12:20:15.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.099 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.CustomerService_init_20726757960
+2026-08-10 21:16:21.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -2944,7 +2944,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:15.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.100 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -2979,7 +2979,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.100 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3014,9 +3014,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.340 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.100 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3091,7 +3091,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:15.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.100 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3126,7 +3126,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.101 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3161,9 +3161,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.341 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.101 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.101 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.101 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3222,7 +3222,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.342 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.101 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3257,7 +3257,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.342 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.101 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3292,9 +3292,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.342 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.101 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.101 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.102 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3353,7 +3353,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3388,7 +3388,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3423,9 +3423,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.102 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.102 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3484,7 +3484,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3519,7 +3519,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.344 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3554,17 +3554,17 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.344 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.395 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.CustomerService_init_20726757961
-2026-06-28 12:20:15.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.396 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::<init>(): void: null
-2026-06-28 12:20:15.397 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::<init>(): void processing is finished normally
-2026-06-28 12:20:15.405 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/AdminService::<init>(): void
-2026-06-28 12:20:15.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/AdminService::<init>(): void
+2026-08-10 21:16:21.102 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.153 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.CustomerService_init_20726757961
+2026-08-10 21:16:21.154 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::selectAllCustomer(): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.154 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::selectCustomerByName(java/lang/String): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.154 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::insertCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.154 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::deleteCustomer(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.154 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::updateCustomer(com/shark/erp/entity/Customer): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.154 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/CustomerService::<init>(): void: null
+2026-08-10 21:16:21.154 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/CustomerService::<init>(): void processing is finished normally
+2026-08-10 21:16:21.158 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/AdminService::<init>(): void
+2026-08-10 21:16:21.158 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/AdminService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3574,9 +3574,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 12:20:15.454 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.AdminService_init_11919748790
-2026-06-28 12:20:15.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.212 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.AdminService_init_11919748790
+2026-08-10 21:16:21.212 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.212 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3658,7 +3658,7 @@ goto %label4
 
 %goto1: 	//predecessors %goto0, %bb9
 	return %28
-2026-06-28 12:20:15.455 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3693,7 +3693,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.455 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3728,13 +3728,13 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.455 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.499 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.AdminService_init_11919748791
-2026-06-28 12:20:15.500 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.500 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/AdminService::<init>(): void: null
-2026-06-28 12:20:15.500 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/AdminService::<init>(): void processing is finished normally
-2026-06-28 12:20:15.505 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::<init>(): void
-2026-06-28 12:20:15.505 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::<init>(): void
+2026-08-10 21:16:21.213 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.259 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.AdminService_init_11919748791
+2026-08-10 21:16:21.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/AdminService::getByUsernameAndPassword(com/shark/erp/entity/Admin): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.260 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/AdminService::<init>(): void: null
+2026-08-10 21:16:21.261 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/AdminService::<init>(): void processing is finished normally
+2026-08-10 21:16:21.266 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::<init>(): void
+2026-08-10 21:16:21.266 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3744,9 +3744,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 12:20:15.567 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.PurchaseService_init_4653597930
-2026-06-28 12:20:15.568 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.568 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.328 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.PurchaseService_init_4653597930
+2026-08-10 21:16:21.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.329 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3821,7 +3821,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:15.568 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.329 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -3856,7 +3856,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.568 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.330 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -3891,9 +3891,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.568 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.568 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.569 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.330 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -3968,7 +3968,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:15.569 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.330 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4003,7 +4003,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.569 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.330 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4038,9 +4038,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.569 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.569 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.569 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.330 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.330 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4103,7 +4103,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb8
 	return %18
-2026-06-28 12:20:15.570 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.331 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4138,7 +4138,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.570 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.331 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4173,9 +4173,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.570 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.570 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.570 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.331 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4234,7 +4234,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.570 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.331 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4269,7 +4269,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.570 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4304,9 +4304,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.570 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.570 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.570 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4365,7 +4365,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.571 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4400,7 +4400,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.571 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4435,17 +4435,17 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.571 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.617 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.PurchaseService_init_4653597931
-2026-06-28 12:20:15.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.618 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::<init>(): void: null
-2026-06-28 12:20:15.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::<init>(): void processing is finished normally
-2026-06-28 12:20:15.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::<init>(): void
-2026-06-28 12:20:15.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::<init>(): void
+2026-08-10 21:16:21.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.378 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.PurchaseService_init_4653597931
+2026-08-10 21:16:21.379 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::selectAllPurchase(): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.379 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::selectPurchaseBySupplier(java/lang/String): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.379 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::insertPurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.379 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::deletePurchase(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.379 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::updatePurchase(com/shark/erp/entity/Purchase): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.379 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/PurchaseService::<init>(): void: null
+2026-08-10 21:16:21.379 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/PurchaseService::<init>(): void processing is finished normally
+2026-08-10 21:16:21.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::<init>(): void
+2026-08-10 21:16:21.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::<init>(): void
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4455,9 +4455,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 
 %bb1: 	//predecessors %bb0
 	return
-2026-06-28 12:20:15.674 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.ExchangeGoodsService_init_20225857970
-2026-06-28 12:20:15.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.675 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.431 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.ExchangeGoodsService_init_20225857970
+2026-08-10 21:16:21.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4532,7 +4532,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb8
 	return %28
-2026-06-28 12:20:15.675 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4567,7 +4567,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.675 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4602,9 +4602,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.675 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.675 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.675 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4683,7 +4683,7 @@ goto %label6
 
 %goto0: 	//predecessors %label5, %bb9
 	return %29
-2026-06-28 12:20:15.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4718,7 +4718,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4753,9 +4753,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.676 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.676 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.432 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4814,7 +4814,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4849,7 +4849,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -4884,9 +4884,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.676 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -4945,7 +4945,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -4980,7 +4980,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -5015,9 +5015,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.677 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.433 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5076,7 +5076,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb7
 	return %17
-2026-06-28 12:20:15.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.433 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -5111,7 +5111,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -5146,9 +5146,9 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.677 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject
-2026-06-28 12:20:15.678 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject
+2026-08-10 21:16:21.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject
 %entry0: 	//predecessors 
 	goto %bb0
 
@@ -5211,7 +5211,7 @@ goto %label3
 
 %goto0: 	//predecessors %label2, %bb8
 	return %18
-2026-06-28 12:20:15.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
@@ -5246,7 +5246,7 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+2026-08-10 21:16:21.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
 java.lang.ClassNotFoundException: Could not load method com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject
 	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
 	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
@@ -5281,15 +5281,15 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.JSONObject
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
 	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
 	... 24 common frames omitted
-2026-06-28 12:20:15.678 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject: null
-2026-06-28 12:20:15.725 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.ExchangeGoodsService_init_20225857971
-2026-06-28 12:20:15.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject processing is finished normally
-2026-06-28 12:20:15.726 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::<init>(): void: null
-2026-06-28 12:20:15.726 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::<init>(): void processing is finished normally
-2026-06-28 12:20:15.726 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
-2026-06-28 12:20:15.726 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false
+2026-08-10 21:16:21.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject: null
+2026-08-10 21:16:21.476 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.shark.erp.service.ExchangeGoodsService_init_20225857971
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::selectAllExchangeGoods(): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::selectExchangeGoodsByCustomerId(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::insertExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::deleteExchangeGoods(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::updateExchangeGoods(com/shark/erp/entity/ExchangeGoods): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::passExchangeGoodsById(int): com/alibaba/fastjson/JSONObject processing is finished normally
+2026-08-10 21:16:21.477 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/shark/erp/service/ExchangeGoodsService::<init>(): void: null
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/shark/erp/service/ExchangeGoodsService::<init>(): void processing is finished normally
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-10 21:16:21.477 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

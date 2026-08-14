@@ -643,7 +643,7 @@ public class ModuleAnalysis_8_init_18909463870 {
         setField(term71671, term71671.getClass(), "keySet", null);
         setField(term71671, term71671.getClass(), "values", null);
         setField(term71660, term71660.getClass(), "moduleToReader", term71671);
-        setLongField(term71676, term71676.getClass(), "timestamp", 163407394L);
+        setLongField(term71676, term71676.getClass(), "timestamp", 51678833L);
         setField(term71676, term71676.getClass(), "referent", null);
         setField(term71676, term71676.getClass(), "queue", null);
         setField(term71676, term71676.getClass(), "next", null);

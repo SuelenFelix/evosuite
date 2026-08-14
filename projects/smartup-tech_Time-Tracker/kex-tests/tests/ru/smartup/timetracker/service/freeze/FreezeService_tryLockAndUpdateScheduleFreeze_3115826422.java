@@ -23,7 +23,7 @@ import java.util.LinkedHashMap;
 public class FreezeService_tryLockAndUpdateScheduleFreeze_3115826422 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
      Object term620;
-     Object term642;
+     Object term643;
 
     public FreezeService_tryLockAndUpdateScheduleFreeze_3115826422() {
     }
@@ -38,22 +38,22 @@ public class FreezeService_tryLockAndUpdateScheduleFreeze_3115826422 {
         Object term621 = newInstance(Class.forName("ru.smartup.timetracker.service.freeze.FreezeSchedulePlanner"));
         Object term622 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
         Object term623 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
-        Object term624 = newInstance(Class.forName("java.time.ZoneRegion"));
-        Object term625 = newInstance(Class.forName("java.time.LocalTime"));
-        Object term631 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
-        Object term632 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
-        Object term633 = newInstance(Class.forName("java.time.ZoneRegion"));
-        Object term635 = newInstance(Class.forName("java.time.zone.ZoneRules"));
-        Object term636 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term624 = newInstance(Class.forName("java.time.ZoneOffset"));
+        Object term626 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term632 = newInstance(Class.forName("ru.smartup.timetracker.utils.FreezeDateUtils"));
+        Object term633 = newInstance(Class.forName("ru.smartup.timetracker.core.freeze.ScheduleFreezeProperties"));
+        Object term634 = newInstance(Class.forName("java.time.ZoneRegion"));
+        Object term636 = newInstance(Class.forName("java.time.zone.ZoneRules"));
+        Object term637 = newInstance(Class.forName("java.time.LocalTime"));
         setField(term621, term621.getClass(), "crudFreezeService", null);
+        setIntField(term624, term624.getClass(), "totalSeconds", -25200);
         setField(term624, term624.getClass(), "id", null);
-        setField(term624, term624.getClass(), "rules", null);
         setField(term623, term623.getClass(), "timeZone", term624);
-        setByteField(term625, term625.getClass(), "hour", (byte) 16);
-        setByteField(term625, term625.getClass(), "minute", (byte) 37);
-        setByteField(term625, term625.getClass(), "second", (byte) 16);
-        setIntField(term625, term625.getClass(), "nano", 982844201);
-        setField(term623, term623.getClass(), "fixedTimeFreeze", term625);
+        setByteField(term626, term626.getClass(), "hour", (byte) 16);
+        setByteField(term626, term626.getClass(), "minute", (byte) 37);
+        setByteField(term626, term626.getClass(), "second", (byte) 16);
+        setIntField(term626, term626.getClass(), "nano", 982844201);
+        setField(term623, term623.getClass(), "fixedTimeFreeze", term626);
         setIntField(term623, term623.getClass(), "dayToUnfreeze", -522618178);
         setField(term622, term622.getClass(), "freezeProperties", term623);
         setField(term621, term621.getClass(), "freezeDateUtils", term622);
@@ -62,26 +62,26 @@ public class FreezeService_tryLockAndUpdateScheduleFreeze_3115826422 {
         setField(term620, term620.getClass(), "freezeSchedulePlanner", term621);
         setField(term620, term620.getClass(), "crudFreezeService", null);
         setField(term620, term620.getClass(), "freezeValidator", null);
-        setField(term633, term633.getClass(), "id", "");
-        setField(term635, term635.getClass(), "standardTransitions", null);
-        setField(term635, term635.getClass(), "standardOffsets", null);
-        setField(term635, term635.getClass(), "savingsInstantTransitions", null);
-        setField(term635, term635.getClass(), "savingsLocalTransitions", null);
-        setField(term635, term635.getClass(), "wallOffsets", null);
-        setField(term635, term635.getClass(), "lastRules", null);
-        setField(term635, term635.getClass(), "lastRulesCache", null);
-        setField(term633, term633.getClass(), "rules", term635);
-        setField(term632, term632.getClass(), "timeZone", term633);
-        setByteField(term636, term636.getClass(), "hour", (byte) 17);
-        setByteField(term636, term636.getClass(), "minute", (byte) 25);
-        setByteField(term636, term636.getClass(), "second", (byte) 50);
-        setIntField(term636, term636.getClass(), "nano", 456917183);
-        setField(term632, term632.getClass(), "fixedTimeFreeze", term636);
-        setIntField(term632, term632.getClass(), "dayToUnfreeze", 1134449235);
-        setField(term631, term631.getClass(), "freezeProperties", term632);
-        setField(term620, term620.getClass(), "freezeDateUtils", term631);
+        setField(term634, term634.getClass(), "id", "");
+        setField(term636, term636.getClass(), "standardTransitions", null);
+        setField(term636, term636.getClass(), "standardOffsets", null);
+        setField(term636, term636.getClass(), "savingsInstantTransitions", null);
+        setField(term636, term636.getClass(), "savingsLocalTransitions", null);
+        setField(term636, term636.getClass(), "wallOffsets", null);
+        setField(term636, term636.getClass(), "lastRules", null);
+        setField(term636, term636.getClass(), "lastRulesCache", null);
+        setField(term634, term634.getClass(), "rules", term636);
+        setField(term633, term633.getClass(), "timeZone", term634);
+        setByteField(term637, term637.getClass(), "hour", (byte) 17);
+        setByteField(term637, term637.getClass(), "minute", (byte) 25);
+        setByteField(term637, term637.getClass(), "second", (byte) 50);
+        setIntField(term637, term637.getClass(), "nano", 456917183);
+        setField(term633, term633.getClass(), "fixedTimeFreeze", term637);
+        setIntField(term633, term633.getClass(), "dayToUnfreeze", 1134449235);
+        setField(term632, term632.getClass(), "freezeProperties", term633);
+        setField(term620, term620.getClass(), "freezeDateUtils", term632);
         setField(term620, term620.getClass(), "lockManager", null);
-        term642 = new LinkedHashMap();
+        term643 = new LinkedHashMap();
     }
 
     @Test
@@ -90,7 +90,7 @@ public class FreezeService_tryLockAndUpdateScheduleFreeze_3115826422 {
         Class<?>[] argTypes = new Class<?>[1];
         argTypes[0] = Class.forName("java.util.Map");
         Object[] args = new Object[1];
-        args[0] = term642;
+        args[0] = term643;
         callMethod(klass, "tryLockAndUpdateScheduleFreeze", argTypes, term620, args);
     }
 

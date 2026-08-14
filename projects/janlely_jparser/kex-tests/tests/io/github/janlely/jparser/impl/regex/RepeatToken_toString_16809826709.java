@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class RepeatToken_toString_16809826709 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term7357;
+     Object term17497;
 
     public RepeatToken_toString_16809826709() {
     }
@@ -33,14 +33,14 @@ public class RepeatToken_toString_16809826709 {
 
     @Before
     public void setup() throws Throwable {
-        Class<? extends Object> term7372 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RepeatType");
-        Field term7371 = ((Class) term7372).getDeclaredField((String) "OPTIONAL");
-        ((Field) term7371).setAccessible(true);
-        Object enum24 = ((Field) term7371).get((Object) null);
-        term7357 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken"));
-        Object term7370 = newInstance(Class.forName("java.lang.Object"));
-        setField(term7357, term7357.getClass(), "type", enum24);
-        setField(term7357, term7357.getClass(), "value", term7370);
+        Class<? extends Object> term17512 = Class.forName((String) "io.github.janlely.jparser.impl.regex.RepeatType");
+        Field term17511 = ((Class) term17512).getDeclaredField((String) "OPTIONAL");
+        ((Field) term17511).setAccessible(true);
+        Object enum45 = ((Field) term17511).get((Object) null);
+        term17497 = newInstance(Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken"));
+        Object term17510 = newInstance(Class.forName("java.lang.Object"));
+        setField(term17497, term17497.getClass(), "type", enum45);
+        setField(term17497, term17497.getClass(), "value", term17510);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class RepeatToken_toString_16809826709 {
         Class<?> klass = Class.forName("io.github.janlely.jparser.impl.regex.RepeatToken");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "toString", argTypes, term7357, args);
+        callMethod(klass, "toString", argTypes, term17497, args);
     }
 
 };

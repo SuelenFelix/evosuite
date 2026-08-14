@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class Genome_enableConnectionMutation_5715843678 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term9205;
+     Object term9207;
 
     public Genome_enableConnectionMutation_5715843678() {
     }
@@ -33,24 +33,24 @@ public class Genome_enableConnectionMutation_5715843678 {
 
     @Before
     public void setup() throws Throwable {
-        ArrayList term9206 = new ArrayList();
-        ArrayList term9210 = new ArrayList();
-        term9205 = newInstance(Class.forName("nn.model.Genome"));
-        Object term9214 = newInstance(Class.forName("nn.model.NodeInnovator"));
-        Object term9216 = newInstance(Class.forName("nn.model.ConnectionInnovator"));
-        Object term9218 = newInstance(Class.forName("java.util.Random"));
-        Object term9219 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
-        setField(term9205, term9205.getClass(), "nodes", term9206);
-        setField(term9205, term9205.getClass(), "connections", term9210);
-        setIntField(term9214, term9214.getClass(), "counter", 100);
-        setField(term9205, term9205.getClass(), "nodeInnovator", term9214);
+        ArrayList term9208 = new ArrayList();
+        ArrayList term9212 = new ArrayList();
+        term9207 = newInstance(Class.forName("nn.model.Genome"));
+        Object term9216 = newInstance(Class.forName("nn.model.NodeInnovator"));
+        Object term9218 = newInstance(Class.forName("nn.model.ConnectionInnovator"));
+        Object term9220 = newInstance(Class.forName("java.util.Random"));
+        Object term9221 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
+        setField(term9207, term9207.getClass(), "nodes", term9208);
+        setField(term9207, term9207.getClass(), "connections", term9212);
         setIntField(term9216, term9216.getClass(), "counter", 100);
-        setField(term9205, term9205.getClass(), "connectionInnovator", term9216);
-        setLongField(term9219, term9219.getClass(), "value", 264675712553478L);
-        setField(term9218, term9218.getClass(), "seed", term9219);
-        setDoubleField(term9218, term9218.getClass(), "nextNextGaussian", 0.2849157687292415);
-        setBooleanField(term9218, term9218.getClass(), "haveNextNextGaussian", true);
-        setField(term9205, term9205.getClass(), "random", term9218);
+        setField(term9207, term9207.getClass(), "nodeInnovator", term9216);
+        setIntField(term9218, term9218.getClass(), "counter", 100);
+        setField(term9207, term9207.getClass(), "connectionInnovator", term9218);
+        setLongField(term9221, term9221.getClass(), "value", 100707301902421L);
+        setField(term9220, term9220.getClass(), "seed", term9221);
+        setDoubleField(term9220, term9220.getClass(), "nextNextGaussian", 0.2849157687292415);
+        setBooleanField(term9220, term9220.getClass(), "haveNextNextGaussian", true);
+        setField(term9207, term9207.getClass(), "random", term9220);
     }
 
     @Test
@@ -58,7 +58,7 @@ public class Genome_enableConnectionMutation_5715843678 {
         Class<?> klass = Class.forName("nn.model.Genome");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "enableConnectionMutation", argTypes, term9205, args);
+        callMethod(klass, "enableConnectionMutation", argTypes, term9207, args);
     }
 
 };

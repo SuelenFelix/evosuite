@@ -21,8 +21,8 @@ import java.lang.Object;
 
 public class KPanel_init_6953389237 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term36965;
-     Object term36968;
+     Object term36998;
+     Object term37001;
 
     public KPanel_init_6953389237() {
     }
@@ -33,10 +33,10 @@ public class KPanel_init_6953389237 {
 
     @Before
     public void setup() throws Throwable {
-        term36965 = newInstance(Class.forName("java.awt.Dimension"));
-        setIntField(term36965, term36965.getClass(), "width", -1813280137);
-        setIntField(term36965, term36965.getClass(), "height", 719656595);
-        term36968 = (Object[]) newArray("java.awt.Component", 8);
+        term36998 = newInstance(Class.forName("java.awt.Dimension"));
+        setIntField(term36998, term36998.getClass(), "width", -1813280137);
+        setIntField(term36998, term36998.getClass(), "height", 719656595);
+        term37001 = (Object[]) newArray("java.awt.Component", 8);
     }
 
     @Test
@@ -48,8 +48,8 @@ public class KPanel_init_6953389237 {
         argTypes[2] = Array.newInstance(Class.forName("java.awt.Component"), 0).getClass();
         Object[] args = new Object[3];
         args[0] = null;
-        args[1] = term36965;
-        args[2] = term36968;
+        args[1] = term36998;
+        args[2] = term37001;
         Object instance = callConstructor(klass, argTypes, args);
     }
 

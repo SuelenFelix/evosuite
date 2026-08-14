@@ -377,7 +377,7 @@ public class AssignmentSelf_MemberExhibitor_init_5616919630 {
         setField(term25041, term25041.getClass(), "keySet", null);
         setField(term25041, term25041.getClass(), "values", null);
         setField(term25030, term25030.getClass(), "moduleToReader", term25041);
-        setLongField(term25046, term25046.getClass(), "timestamp", 164126398L);
+        setLongField(term25046, term25046.getClass(), "timestamp", 52404688L);
         setField(term25046, term25046.getClass(), "referent", null);
         setField(term25046, term25046.getClass(), "queue", null);
         setField(term25046, term25046.getClass(), "next", null);

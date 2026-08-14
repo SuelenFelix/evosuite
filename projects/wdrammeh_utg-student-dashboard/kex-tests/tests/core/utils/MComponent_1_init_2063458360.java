@@ -313,7 +313,7 @@ public class MComponent_1_init_2063458360 {
         setField(term9866, term9866.getClass(), "keySet", null);
         setField(term9866, term9866.getClass(), "values", null);
         setField(term9855, term9855.getClass(), "moduleToReader", term9866);
-        setLongField(term9871, term9871.getClass(), "timestamp", 164472118L);
+        setLongField(term9871, term9871.getClass(), "timestamp", 52753697L);
         setField(term9871, term9871.getClass(), "referent", null);
         setField(term9871, term9871.getClass(), "queue", null);
         setField(term9871, term9871.getClass(), "next", null);

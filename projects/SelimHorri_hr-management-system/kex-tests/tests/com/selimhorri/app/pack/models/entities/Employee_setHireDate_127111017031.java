@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Employee_setHireDate_127111017031 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term10509;
+     Object term10516;
 
     public Employee_setHireDate_127111017031() {
     }
@@ -31,16 +31,16 @@ public class Employee_setHireDate_127111017031 {
 
     @Before
     public void setup() throws Throwable {
-        term10509 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
-        setField(term10509, term10509.getClass(), "empno", null);
-        setField(term10509, term10509.getClass(), "ename", null);
-        setField(term10509, term10509.getClass(), "job", null);
-        setField(term10509, term10509.getClass(), "mgr", null);
-        setField(term10509, term10509.getClass(), "hireDate", null);
-        setField(term10509, term10509.getClass(), "sal", null);
-        setField(term10509, term10509.getClass(), "comm", null);
-        setField(term10509, term10509.getClass(), "department", null);
-        setField(term10509, term10509.getClass(), "userCredential", null);
+        term10516 = newInstance(Class.forName("com.selimhorri.app.pack.models.entities.Employee"));
+        setField(term10516, term10516.getClass(), "empno", null);
+        setField(term10516, term10516.getClass(), "ename", null);
+        setField(term10516, term10516.getClass(), "job", null);
+        setField(term10516, term10516.getClass(), "mgr", null);
+        setField(term10516, term10516.getClass(), "hireDate", null);
+        setField(term10516, term10516.getClass(), "sal", null);
+        setField(term10516, term10516.getClass(), "comm", null);
+        setField(term10516, term10516.getClass(), "department", null);
+        setField(term10516, term10516.getClass(), "userCredential", null);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class Employee_setHireDate_127111017031 {
         argTypes[0] = Class.forName("java.time.LocalDateTime");
         Object[] args = new Object[1];
         args[0] = null;
-        callMethod(klass, "setHireDate", argTypes, term10509, args);
+        callMethod(klass, "setHireDate", argTypes, term10516, args);
     }
 
 };

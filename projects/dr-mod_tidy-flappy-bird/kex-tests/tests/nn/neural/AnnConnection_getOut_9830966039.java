@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AnnConnection_getOut_9830966039 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term4683;
+     Object term4681;
 
     public AnnConnection_getOut_9830966039() {
     }
@@ -31,10 +31,10 @@ public class AnnConnection_getOut_9830966039 {
 
     @Before
     public void setup() throws Throwable {
-        term4683 = newInstance(Class.forName("nn.neural.AnnConnection"));
-        setDoubleField(term4683, term4683.getClass(), "weight", 0.0);
-        setField(term4683, term4683.getClass(), "in", null);
-        setField(term4683, term4683.getClass(), "out", null);
+        term4681 = newInstance(Class.forName("nn.neural.AnnConnection"));
+        setDoubleField(term4681, term4681.getClass(), "weight", 0.0);
+        setField(term4681, term4681.getClass(), "in", null);
+        setField(term4681, term4681.getClass(), "out", null);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class AnnConnection_getOut_9830966039 {
         Class<?> klass = Class.forName("nn.neural.AnnConnection");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getOut", argTypes, term4683, args);
+        callMethod(klass, "getOut", argTypes, term4681, args);
     }
 
 };

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Actor_getId_27159328419 {
     @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
-     Object term34363;
+     Object term34362;
 
     public Actor_getId_27159328419() {
     }
@@ -31,12 +31,12 @@ public class Actor_getId_27159328419 {
 
     @Before
     public void setup() throws Throwable {
-        term34363 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
-        setField(term34363, term34363.getClass(), "id", null);
-        setField(term34363, term34363.getClass(), "name", null);
-        setField(term34363, term34363.getClass(), "dateOfBirth", null);
-        setField(term34363, term34363.getClass(), "gender", null);
-        setField(term34363, term34363.getClass(), "movies", null);
+        term34362 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        setField(term34362, term34362.getClass(), "id", null);
+        setField(term34362, term34362.getClass(), "name", null);
+        setField(term34362, term34362.getClass(), "dateOfBirth", null);
+        setField(term34362, term34362.getClass(), "gender", null);
+        setField(term34362, term34362.getClass(), "movies", null);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class Actor_getId_27159328419 {
         Class<?> klass = Class.forName("com.folksdev.movie.model.Actor");
         Class<?>[] argTypes = new Class<?>[0];
         Object[] args = new Object[0];
-        callMethod(klass, "getId", argTypes, term34363, args);
+        callMethod(klass, "getId", argTypes, term34362, args);
     }
 
 };

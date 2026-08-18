@@ -1,1 +1,0 @@
-ALTER TABLE tag add slug VARCHAR(200);

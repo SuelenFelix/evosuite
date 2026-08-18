@@ -1,2 +1,0 @@
-ALTER TABLE cover
-DROP COLUMN IF EXISTS book;

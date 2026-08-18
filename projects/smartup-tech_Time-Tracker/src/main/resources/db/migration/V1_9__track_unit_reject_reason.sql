@@ -1,1 +1,0 @@
-ALTER TABLE track_unit ADD COLUMN reject_reason TEXT;

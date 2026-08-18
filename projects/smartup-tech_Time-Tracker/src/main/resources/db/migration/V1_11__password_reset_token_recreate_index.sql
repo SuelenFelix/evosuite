@@ -1,2 +1,0 @@
-ALTER TABLE password_reset_token DROP CONSTRAINT password_reset_token_token_key;
-CREATE UNIQUE INDEX password_reset_token_token_idx ON password_reset_token (token);
